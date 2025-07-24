@@ -6,12 +6,22 @@
       <titleStmt>
         <title type="main">SIRIPO</title>
         <title type="sub">TRAGEDIA EN VERSO</title>
-        <author cert="high"><persName><forename>Manuel José</forename><surname>de Lavardén</surname></persName>
+        <author cert="high"><persName>
+          <forename>Manuel José</forename>
+          <nameLink>de</nameLink>
+          <surname>Lavardén</surname>
+        </persName>
         <idno type="wikidata">Q19417874</idno></author>
-        <editor xml:id="rdl"><forename>Romina</forename> <surname>De León</surname></editor>
+        <editor xml:id="rdl">
+          <forename>Romina</forename>
+          <nameLink>De</nameLink>
+          <surname>León</surname>
+        </editor>
         <editor xml:id="gdr">
-        <forename>Gimena</forename> 
-        <surname>del Rio Riande</surname></editor>
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio</surname>
+        </editor>
         </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
@@ -32,8 +42,8 @@
             <p>In the public domain.</p>
           </availability>
         </bibl>
-        <bibl type="origianlSource"><title>Antología de poetas argentinos</title><biblScope unit="tomo">II - La Revolución</biblScope>
-        <author><forename>Juan</forename> <surname>de la C. Puig</surname></author>
+        <bibl type="originalSource"><title>Antología de poetas argentinos</title><biblScope unit="tomo">II - La Revolución</biblScope>
+        <author><forename>Juan</forename><surname>de la C. Puig</surname></author>
         <editor>Martín Biedma e hijo</editor><pubPlace>Buenos Aires</pubPlace><date>1910</date></bibl>
       </sourceDesc>
     </fileDesc>
@@ -78,10 +88,10 @@
   </teiHeader>
   <standOff>
     <listEvent>
-      <event type=rint" when="1904">
+      <event type="print" when="1904">
         <desc/>
       </event>
-      <event type=remiere" when="1789">
+      <event type="premiere" when="1789">
         <desc/>
       </event>
     </listEvent>
@@ -106,7 +116,7 @@
       <roleDesc>Capitán español, marido de Miranda.</roleDesc>
       <role>SALVAJES ARMADOS</role>
       <role>LARA</role>
-      <roleDesc>India favorita de Siripo</roleDesc>
+      <roleDesc>India favorita de Siripo.</roleDesc>
       </castItem>
       </castList>
     </front>
