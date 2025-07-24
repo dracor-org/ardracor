@@ -90,7 +90,7 @@
       <listChange>
         <change when="2025-05-15">(gdr) change initial encoding</change>
         <change when="2025-05-19">(rdl) correction errors ezdrama</change>
-        <change when="2025-05-20">(gdr)revision</change>
+        <change when="2025-05-20">(gdr) revision</change>
         <change when="2025-05-26">(rdl) correction sourcedesc, text errors, add pb</change>
         <change when="2025-06-02">(gdr) change header</change>
         <change when="2025-06-29">(gdr) change xml declaration</change>
