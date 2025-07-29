@@ -1,0 +1,3415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000005" xml:lang="spa">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Argia</title>
+        <title type="sub">Tragedia en cinco actos</title>
+        <author>
+          <persName>
+            <forename>Juan</forename>
+            <forename>Cruz</forename>
+            <surname>Varela</surname>
+          </persName>
+          <idno type="wikidata">Q1710435</idno>
+        </author>
+        <editor xml:id="rdl">
+          <forename>Romina</forename>
+          <nameLink>De</nameLink>
+          <surname>León</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Poesias de Juan Cruz Varela y las tragedias Dido y Argia</name>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmck0708</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Poesias de Juan Cruz Varela y las tragedias Dido y Argia</title>
+            <pubPlace>Buenos Aires</pubPlace>: <editor>Imprenta de la tribuna</editor>,
+              <date>1879</date>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="creon" gender="MALE" ana="http://www.wikidata.org/entity/Q732066">
+            <persName>Creón</persName>
+          </person>
+          <person xml:id="argia" gender="FEMALE" ana="http://www.wikidata.org/entity/Q644385">
+            <persName>Argia</persName>
+          </person>
+          <person xml:id="eurimedon" gender="MALE">
+            <persName>Eurimedón</persName>
+          </person>
+          <person xml:id="adrasto" gender="MALE" ana="http://www.wikidata.org/entity/Q223152">
+            <persName>Adrasto</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Tragedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-05-28">Romina codificación y corrección de errores ezdrama</change>
+        <change when="2025-05-31">Gimena revisión</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1904">
+        <desc/>
+      </event>
+      <event type="premiere" when="1824">
+        <desc/>
+      </event>
+      <event type="written" when="1824">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <pb n="410"/>
+      <castList>
+        <head>PERSONAJES</head>
+        <castItem><role>CREÓN</role>
+          <roleDesc>rey de Tebas</roleDesc></castItem>
+        <castItem><role>ADRASTO</role>
+          <roleDesc>rey de Argos</roleDesc></castItem>
+        <castItem><role>ARGIA</role>
+          <roleDesc>hija de Adrasto, viuda de Polinicio</roleDesc></castItem>
+        <castItem><role>EURIMEDÓN</role>
+          <roleDesc>favorito de Creón y general de sus fuerzas</roleDesc></castItem>
+        <castItem><role>Guardias de Creón</role></castItem>
+        <castItem><role>Soldados de Adrasto</role></castItem>
+      </castList>
+      <set>
+        <p>LA ESCENA ES EN TEBAS, EN EL PALACIO DE CREÓN.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="411"/>
+      <div type="act">
+        <head>ACTO PRIMERO</head>
+        <div type="scene">
+          <head>ESCENA I</head>
+          <stage>CREÓN, ARGIA, y al fin de la escena guardias</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No con tanta imprudencia abráis el pecho</l>
+            <l>a una esperanza vana. El resultado</l>
+            <l>puede seros, señora, más terrible</l>
+            <l>de lo que habéis creído; y vuestro engaño</l>
+            <l>quizá me compadece. Con el sitio</l>
+            <l>que ha puesto a Tebas vuestro padre Adrasto,</l>
+            <l>¿su venganza y la de Argia se consuman,</l>
+            <l>y el trono de Creón se ha derrocado?</l>
+            <l>Os engañáis, señora; el pueblo todo,</l>
+            <l>si no me ama, me teme, y mis soldados</l>
+            <l>no se dejan vencer por los que el lujo</l>
+            <l>y la molicie de Argos enervaron.</l>
+            <l>Si estáis en Tebas por el gusto vuestro,</l>
+            <l>¿qué quiere Adrasto aquí?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Podreís dudarlo?</l>
+            <l>¡En Tebas yo gustosa! El hijo mío,</l>
+            <l>en una oscura cárcel encerrado,</l>
+            <l>¿su balbuciente labio no despliega,</l>
+            <l>llamando al cielo y a su madre en vano?</l>
+            <l>A eso viene mi padre; a libertarme</l>
+            <l>del furor de los monstruos.</l>
+            <pb n="412"/>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Libertaros!</l>
+            <l>¡Insensata!</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Creón! El cetro en Tebas</l>
+            <l>es puñal de sus reyes; alcanzarlo,</l>
+            <l>pretenderlo no más, es prepararse</l>
+            <l>el fin de Polinicio y de su hermano.</l>
+            <l>Vos empuñáis tal cetro; y las deidades</l>
+            <l>se cansan de los crímenes al cabo.</l>
+            <l>Eteocles y mi esposo, fratricidas,</l>
+            <l>en sangre uno del otro se bañaron;</l>
+            <l>por ceder el primero a la violencia,</l>
+            <l>de un odio injusto y de ambición de mando,</l>
+            <l>y Polinicio por derecho a un trono</l>
+            <l>que le usurpaba su perjuro hermano.</l>
+            <l>¡Ay! Jocasta, Creón, era su madre;</l>
+            <l>vuestros sobrinos eran; y acallando</l>
+            <l>los gritos de la sangre en vuestro pecho,</l>
+            <l>aquellos tres cadáveres formaron</l>
+            <l>la escala ignominiosa, que hasta el solio</l>
+            <l>os pudo conducir. ¿Tanto atentado</l>
+            <l>dejará impune por ventura el cielo?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Polinicio y Eteocles terminaron</l>
+            <l>una vida de horrores; ni sus nombres</l>
+            <l>me debéis repetir. En este estado</l>
+            <l>hablad de vos, de vuestra propia suerte,</l>
+            <l>de la del hijo que llamáis amado.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>La suerte de los dos menos ingrata</l>
+            <l>desde ayer me parece. Los soldados</l>
+            <l>que condujo mi padre, y amenazan</l>
+            <l>esta erguida ciudad desde su campo,</l>
+            <l>son la esperanza de Argia.</l>
+            <pb n="413"/>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Qué esperanza?</l>
+            <l>¿De qué, de qué viene a vengarse Adrasto?</l>
+            <l>¿Para qué consintió que allá en su reino</l>
+            <l>a Polinicio dierais esa mano,</l>
+            <l>que no podía contener el golpe</l>
+            <l>que ya le preparaba el cielo airado?</l>
+            <l>Todo esto es consecuencia de aquel yerro;</l>
+            <l>yo no lo sé enmendar: de mi contrario</l>
+            <l>sabré triunfar, o perecer; pero antes</l>
+            <l>muchos perecerán</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Mi padre acaso</l>
+            <l>no hubiera vuelto en armas contra Tebas,</l>
+            <l>a no verse de nuevo provocado</l>
+            <l>por vuestra extraña atrocidad. Reciente</l>
+            <l>de los hijos de Edipo el fin infausto</l>
+            <l>y aún humeando la sangre de Jocasta,</l>
+            <l>ocupasteis el trono. Sepultado</l>
+            <l>el cadáver de Eteocles fue con pompa</l>
+            <l>en magnífica tumba, y aplacaron</l>
+            <l>sus manes execrables los aromas</l>
+            <l>que sobre su sepulcro se quemaron.</l>
+            <l>A Polinicio en tanto una orden vuestra</l>
+            <l>le negó estos honores, y en el campo</l>
+            <l>arrojado insepulto su cadáver,</l>
+            <l>de las bestias feroces fuera pasto,</l>
+            <l>si de Antígona la piedad no hubiese</l>
+            <l>vuestra inaudita ley atropellado.</l>
+            <l>Ella erigió la pira, y con mi hijo</l>
+            <l>vine yo disfrazada desde Argos,</l>
+            <l>a buscar de mi esposo las cenizas,</l>
+            <l>que su hermano guardaba. Llego y hallo</l>
+            <l>que también Antígona con la muerte</l>
+            <l>su oficiosa piedad había pagado.</l>
+            <l>¡Bárbaro! ¿Era delito haber rendido</l>
+            <l>honores funerales a un hermano</l>
+            <l>tan digno de su amor? ¿Era delito</l>
+            <l>no haber nacido como vos, malvado?</l>
+            <pb n="414"/>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Desprecio esos insultos y el motivo</l>
+            <l>de la esperanza vuestra. Mas ¿acaso</l>
+            <l>la muerte de Antígona es la que viene</l>
+            <l>vuestro padre a vengar? En mis estados</l>
+            <l>mi voluntad es ley, y a nadie debo</l>
+            <l>de nada responder. En vuestras manos</l>
+            <l>puse yo mismo los helados restos</l>
+            <l>de Polinicio, para vos tan caros,</l>
+            <l>y os ordené volver a vuestra patria</l>
+            <l>con los despojos del que amasteis tanto.</l>
+            <l>¿Por qué no habéis partido?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Y yo podría</l>
+            <l>llevar sus restos fríos, y dejando</l>
+            <l>aquí la imagen viva de mi esposo,</l>
+            <l>ir sin el fruto de mi amor infausto?</l>
+            <l>Me hubieseis vuelto mi hijo, y al instante</l>
+            <l>me hubiera yo de Tebas ausentado.</l>
+            <l>¿Quién puede aquí vivir? ¿No ha sido siempre</l>
+            <l>la mansión del delito este palacio?</l>
+            <l>¡Hijo de mi dolor! Tú solo, solo</l>
+            <l>me aprisionas aquí. ¡Creón! ¡Ah! ¡Cuánto</l>
+            <l>ansío por verlo ya! ¿Por qué motivo</l>
+            <l>lo niegan desde ayer a mis abrazos?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Acabad de una vez de conocerme,</l>
+            <l>que todo el corazón voy a mostraros;</l>
+            <l>y ved si temo a vos ni a vuestro padre,</l>
+            <l>cuando así a mi enemiga me declaro.</l>
+            <l>Al interés de mi ambición, señora,</l>
+            <l>Todo se subordina. Los hermanos</l>
+            <l>habían muerto ya; Jocasta quiso</l>
+            <l>seguirlos a la tumba; y no quedando</l>
+            <l>de esa horrible familia entre los vivos</l>
+            <l>más que Antígona ya, fue necesario</l>
+            <l>sacrificarla a mi quietud, pues siendo</l>
+            <pb n="415"/>
+            <l>Hermana de los dos, pudiera al cabo</l>
+            <l>juzgarse con derecho a la corona,</l>
+            <l>fingir un tiempo, y cuando yo, confiado,</l>
+            <l>libre ya de enemigos me creyese,</l>
+            <l>arrebatarme el cetro de las manos.</l>
+            <l>Ella debió morir; para los reyes</l>
+            <l>la sospecha que cause algún vasallo</l>
+            <l>es sobrado delito: mas su muerte,</l>
+            <l>sin visos de justicia, a mi reinado</l>
+            <l>pudiera ser perjudicial. Por eso</l>
+            <l>dicté la ley que os enfurece tanto</l>
+            <l>y el cuerpo exangüe del esposo vuestro</l>
+            <l>de honores funerales fue privado.</l>
+            <l>Yo bien sabía que Antígona sola</l>
+            <l>osaría oponerse a mi mandato,</l>
+            <l>y que la pena impuesta al que rindiera</l>
+            <l>los últimos honores a su hermano,</l>
+            <l>no podría arredrarla; porque siempre</l>
+            <l>su amor a Polinicio fue extremado.</l>
+            <l>Cayó en las redes que tendió mi astucia,</l>
+            <l>y todos mis designios se lograron.</l>
+            <l>Por lo demás, a mí ¿qué me importaba</l>
+            <l>dar o no sepultura…</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Oh, Dios! ¿Y tantos</l>
+            <l>respetos se atropellan? ¿Tanto puede</l>
+            <l>la ambición de mandar en un tirano?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Argia, voy a concluir. Por mis afanes</l>
+            <l>acabó esa familia, que ha llenado</l>
+            <l>de escándalos la Grecia, y que yo ansiaba</l>
+            <l>por ver exterminada, y dar un paso</l>
+            <l>desde vasallo a rey. Entre mis triunfos</l>
+            <l>solamente me daba sobresaltos</l>
+            <l>ese hijo vuestro, que, en edad tan tierna,</l>
+            <l>sólo a odiar a Creón está enseñado.</l>
+            <l>Crecer en él miraba un enemigo,</l>
+            <pb n="416"/>
+            <l>A quien un día el interés del mando,</l>
+            <l>que lo creería suyo, y el deseo</l>
+            <l>de vengar a su padre infortunado,</l>
+            <l>le harían mendigar por todo Grecia</l>
+            <l>el favor de mil reyes en mi daño;</l>
+            <l>porque el de Adrasto es poco. Mi fortuna</l>
+            <l>me puso en fin al niño entre las manos</l>
+            <l>cuando, oculta con él, aquí llegasteis.</l>
+            <l>Y ya ¿qué debo hacer? ¿Habré de darlo</l>
+            <l>de nuevo a vuestro padre, y no teniendo</l>
+            <l>ya nada que temer, un gran contrario</l>
+            <l>me formaré yo mismo? No, señora.</l>
+            <l>Hasta aquí su cariño os ha obligado</l>
+            <l>a quedaros en Tebas: desde ahora</l>
+            <l>quedáis por orden mía: este palacio</l>
+            <l>será vuestra prisión, mientras decida</l>
+            <l>de la madre y el hijo el mismo Adrasto.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Está, Señor, ya decidido: al punto</l>
+            <l>mandadnos a los dos hasta su campo,</l>
+            <l>y ciertamente ordenará mi padre</l>
+            <l>el sitio levantar.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Proyecto vano!</l>
+            <l>De mi poder vuestro hijo nunca sale;</l>
+            <l>y… señora… temblad. O vuelve a Argos</l>
+            <l>vuestro irritado padre, o mi venganza</l>
+            <l>será digna del nombre de atentado.</l>
+            <l>No hay medio; o muero, o mando: mas mi muerte,</l>
+            <l>si es preciso que llegue. No es del caso</l>
+            <l>deciros más: a Eurimedón espero:</l>
+            <l>debéis, hasta que os llame, retiraros.</l>
+            <l>¡Soldados!</l>
+            <stage>Dirá esta expresión acercándose al bastidor, y llamando a los guardias, que se
+              presentarán al momento en la escena). </stage>
+            <l>Conducid hasta su estancia,</l>
+            <l>y custodiad a esa mujer.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Malvado!</l>
+            <l>¿Será que todavía horrores nuevos</l>
+            <l>meditaréis furioso? ¡Hijo adorado!</l>
+            <l>¡Haced, señor, siquiera que lo vea!</l>
+            <l>¿A dónde, sin mi beso y mis abrazos,</l>
+            <l>gemirá desde ayer? ¡oh, Dios!</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Vinieron</l>
+            <l>desde ayer vuestras tropas a sitiarnos.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Pero un niño, Creón, que apenas sabe</l>
+            <l>a quién debe la vida, ni…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Entretanto</l>
+            <l>justo es que la altivez y la soberbia</l>
+            <l>se vayan a rogar acostumbrando.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Bárbaro! ¡Yo rogarte! Argia te insulta;</l>
+            <l>quien ruega es una madre: pero ¡cuándo</l>
+            <l>un corazón feroz ha distinguido…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <stage>A los soldados</stage>
+            <l>Llevadla; y que ninguno en mi palacio</l>
+            <l>se atreva a hablarla sin una orden mía.</l>
+            <stage>Las guardias conducen a Argia, que hará algunos esfuerzos por permanecer. En los
+              momentos en que Argia desocupa la escena, se presenta en ella Eurimedón.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA II</head>
+          <stage>CREÓN, EURIMEDÓN</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Eurimedón, ha tiempo que te aguardo.</l>
+          </sp>
+          <pb n="417"/>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Vuestro servicio e interés me tienen</l>
+            <l>lejos de vos, señor, tiempo más largo</l>
+            <l>del que quisiera yo. ¿Argia irá presa?</l>
+          </sp>
+          <stage>Hará esta pregunta como quien habla consigo mismo; pero de modo que lo escuche
+            Creón.</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Lo sabrás. Dime ahora: ¿has observado,</l>
+            <l>desde que yo me retiré del muro,</l>
+            <l>y la noche llegó, si los argianos</l>
+            <l>han movido su campo?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Ya habéis visto</l>
+            <l>que de los puestos que hoy han ocupado</l>
+            <l>no pueden ofendernos, ni es posible</l>
+            <l>que alcancen nuestras flechas a dañarlos.</l>
+            <l>Señor, el enemigo no parece</l>
+            <l>que en combatir se empeña: los soldados,</l>
+            <l>enclavando sus lanzas en la tierra,</l>
+            <l>descansaban inmóviles. Periandro,</l>
+            <l>a favor de las sombras de la noche,</l>
+            <l>ha salido del muro con sus bravos,</l>
+            <l>y al enemigo, hasta que vuelva el día,</l>
+            <l>celoso observará.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Tal vez tratados</l>
+            <l>me querrán proponer. Yo nada temo,</l>
+            <l>Eurimedón, de los soldados de Argos:</l>
+            <l>los míos son bastantes y atrevidos:</l>
+            <l>pero el pueblo de Tebas, ya cansado</l>
+            <l>de horrores y de sangre, en esta guerra</l>
+            <l>puede al fin rebelarse contra su amo,</l>
+            <l>y, sacudiendo sedicioso el yugo,</l>
+            <l>a los proyectos cooperar de Adrasto.</l>
+            <pb n="419"/>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Señor, al pueblo se intimida: es hecho</l>
+            <l>para temblar y obedecer callando.</l>
+            <l>Semejante a las fieras, sus furores</l>
+            <l>contra el que domó nunca estallaron.</l>
+            <l>Siempre enemigo fue de quien le teme,</l>
+            <l>de quien sabe oprimirlo siempre esclavo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Eurimedón, tú solo en toda Tebas</l>
+            <l>eres el hombre a quien mi amigo llamo,</l>
+            <l>y a quien lo creo tal. No me alucino:</l>
+            <l>el pueblo me aborrece; y si dejamos</l>
+            <l>que, en el trastorno que la guerra causa,</l>
+            <l>encuentre la ocasión de demostrarlo,</l>
+            <l>puede perderse todo. Él obedece,</l>
+            <l>pero murmura en el silencio. ¡Cuánto</l>
+            <l>me costó contenerlo, cuando puse</l>
+            <l>la red en que cayeron los hermanos</l>
+            <l>Polinicio y Eteocles! El primero</l>
+            <l>era el amor del pueblo, que en mil bandos</l>
+            <l>se armaba ya por él, a no haber sido</l>
+            <l>que supe con mi astucia sujetarlo,</l>
+            <l>y alucinar a todos, encubriendo</l>
+            <l>los planes que a ti solo se confiaron.</l>
+            <l>Ellos murieron; y al subir al trono</l>
+            <l>fue necesario y justo nuevos lazos</l>
+            <l>a Antígona tender, y el pueblo todo</l>
+            <l>se anegó por su muerte en nuevo llanto.</l>
+            <l>Yo sé exponerme, pero no sin causa;</l>
+            <l>y la que contra Tebas trae Adrasto</l>
+            <l>es la de Polinicio. Ya he resuelto</l>
+            <l>más bien que combatir, que los tratados</l>
+            <l>nos vuelvan a la paz; como no exijan</l>
+            <l>que entreguen al hijo de Argia. En este caso</l>
+            <l>moriré, morirás, morirán ellos,</l>
+            <l>todos perecerán: pero del mando</l>
+            <l>descenderé a morir como he vivido.</l>
+            <l>Vengativo, implacable y arrastrando</l>
+            <pb n="420"/>
+            <l>Todos mis enemigos a mi tumba,</l>
+            <l>contento entonces al sepulcro bajo.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Nada debéis temer.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Yo nada temo.</l>
+            <l>Quien hizo por el trono, hasta ocuparlo,</l>
+            <l>lo que ha hecho Creón, por conservarse</l>
+            <l>todo atropellará si es necesario.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Obedeceros es mi sola gloria.</l>
+            <l>Me llamáis vuestro amigo, y soy soldado.</l>
+            <l>Os lo digo, señor, porque es preciso</l>
+            <l>combatir y vencer. Bien sé que Adrasto,</l>
+            <l>si Argia y su hijo se le entregan, luego</l>
+            <l>pondrá fin a la guerra que ha empezado:</l>
+            <l>pero ni vos podréis volverle el nieto,</l>
+            <l>ni Adrasto pasará por un tratado</l>
+            <l>que no tenga por base aquesta entrega.</l>
+            <l>Lo repito; lidiemos y venzamos.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Si no hay más medio, correrá la sangre:</l>
+            <l>pero yo, Eurimedón, he imaginado</l>
+            <l>una astucia que puede conducirnos</l>
+            <l>a la paz y reposo, conservando</l>
+            <l>ese niño que causa mis alarmas,</l>
+            <l>y a Adrasto al mismo tiempo alucinando.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Siendo así, practicad el pensamiento.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Sí: porque, aunque quisiera, guerreando,</l>
+            <l>vengarme de ese rey, con todo, debo</l>
+            <l>no exponerme al furor de mis vasallos.</l>
+            <pb n="421"/>
+            <l>¡Ay, amigo! No siempre son los reyes</l>
+            <l>lo que quisieran ser.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Pero entretanto</l>
+            <l>¿os puedo yo servir en el proyecto</l>
+            <l>que meditáis? ¿Cuál es?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Bastante extraño.</l>
+            <l>¿Creerías que, en mi edad y en mi carácter,</l>
+            <l>de un himeneo en el estrecho lazo</l>
+            <l>pienso hallar mi salud, y hacer que sea</l>
+            <l>mi aliado el sitiador?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>¡Cómo! Explicaos.</l>
+            <l>¿De quién queréis ser el esposo?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>De Argia.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>No os entiendo, señor.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Escucha. Adrasto</l>
+            <l>no tiene tanta fuerza, que confíe</l>
+            <l>en ella sola para el resultado</l>
+            <l>feliz de su campaña; y, si ha venido,</l>
+            <l>es, menos por confianza en sus soldados,</l>
+            <l>que por causar la sedición en Tebas.</l>
+            <l>Por otra parte, yo sé bien que basto</l>
+            <l>con mi tropa a destruirlo; mas mi tropa,</l>
+            <l>empleada en contener al populacho,</l>
+            <l>no debe distraerse, y exponerme,</l>
+            <l>al menos a morir sin ser vengado.</l>
+            <l>En la pasada guerra la fortuna</l>
+            <l>me arrebató mis hijos; pero al cabo</l>
+            <pb n="422"/>
+            <l>Me senté sobre el trono, y mi grandeza</l>
+            <l>no me dejó lugar para mi llanto.</l>
+            <l>Casándome con Argia hago heredero</l>
+            <l>a su hijo de este trono; y si a ocuparlo</l>
+            <l>llega cuando yo muera, es porque quise,</l>
+            <l>pero no porque nadie me ha forzado.</l>
+            <l>A bien que, muerto yo, muere conmigo</l>
+            <l>esta frenética ambición de mando.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>¿Y Argia, señor, consentirá? ¿La altiva</l>
+            <l>viuda de Polinicio, que vengado</l>
+            <l>nunca creerá bastante el menosprecio</l>
+            <l>que hicisteis del cadáver de su amado,</l>
+            <l>ni las astucias vuestras, que lo hicieron</l>
+            <l>descender a la tumba con su hermano?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Argia consentirá. La alternativa</l>
+            <l>será la muerte, o aceptar mi mano.</l>
+            <l>Además, ella sabe que su padre</l>
+            <l>no está muy abundante de soldados,</l>
+            <l>y educar para rey un hijo suyo</l>
+            <l>es sobrada venganza de su agravio.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Y en el caso que Argia (porque es joven)</l>
+            <l>os llegue a dar un hijo, ¿vos acaso</l>
+            <l>consentiréis que reine el de otro padre,</l>
+            <l>y de un padre, señor, que odiasteis tanto?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Ah! No, amigo: eso no. Si tal sucede,</l>
+            <l>un veneno, un puñal bien disfrazado,</l>
+            <l>una red que se tienda, el tiempo mismo</l>
+            <l>nos dará la ocasión de libertarnos</l>
+            <l>de quien ya entonces heredar no debe.</l>
+            <l>El peligro es de hoy; y si el tratado</l>
+            <l>cimenta la amistad y la confianza</l>
+            <pb n="423"/>
+            <l>Entre ambos reyes, el de Tebas y Argos,</l>
+            <l>mañana seré fuerte; el pueblo mismo,</l>
+            <l>de quien recelo ahora, alucinado,</l>
+            <l>justo me llamará; y humilde y ciego,</l>
+            <l>de quien yo nombre rey será el esclavo.</l>
+            <l>Este es mi plan, Eurimedón. ¿Qué dices?</l>
+            <l>Tan sólo a consultarlo te he llamado.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Es muy digno de un rey: y sobre todo</l>
+            <l>¿qué se pierde, señor, con intentarlo?</l>
+            <l>Si no surte el efecto…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Entonces Argia</l>
+            <l>y su hijo morirán; y contra Adrasto,</l>
+            <l>y contra el pueblo pelearemos todos,</l>
+            <l>y, si yo muero, moriré vengado,</l>
+            <l>viéndolos perecer, aunque perezca.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Ya os he dicho, señor, que soy soldado,</l>
+            <l>que os amo, y que…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Lo sé. Argia está presa,</l>
+            <l>porque no convenía en mi palacio</l>
+            <l>dejarla libre, desde que han venido</l>
+            <l>de su padre las tropas a sitiarnos:</l>
+            <l>pero libre estará, si entra en los planes</l>
+            <l>que con mis intereses he acordado.</l>
+            <l>Vuela a su estancia, empieza a prepararla,</l>
+            <l>dile que mis enojos han cambiado,</l>
+            <l>que he pensado en su suerte y en la mía,</l>
+            <l>permítele de su hijo los abrazos,</l>
+            <l>dile que amo la paz, mas mis recelos</l>
+            <l>ten cuidado a su vista de ocultarlos;</l>
+            <l>y que luego me espere en este sitio.</l>
+            <l>No le descubras todo el plan.</l>
+            <pb n="424"/>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Ya parto.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>CREÓN (solo)</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>O consiente la altiva en este enlace,</l>
+            <l>o el venidero sol alumbra estragos</l>
+            <l>que jamás alumbró. Bajar del solio</l>
+            <l>es peor que morir. Voy entretanto</l>
+            <l>a recorrer los muros. Madre e hijo</l>
+            <l>en mi poder están: puedo acabarlos</l>
+            <l>en un instante, y el tomar a Tebas</l>
+            <l>no es obra de otro instante. ¡Argia! ¡Lisandro!</l>
+            <l>Muy pronto se decide vuestra suerte;</l>
+            <l>y viviréis o moriréis entrambos,</l>
+            <l>según lo dicte el interés del trono,</l>
+            <l>según yo quiera desplegar mi labio.</l>
+          </sp>
+          <trailer>Fin del Acto Primero</trailer>
+        </div>
+      </div>
+      <pb n="425"/>
+      <div type="act">
+        <head>ACTO SEGUNDO</head>
+        <div type="scene">
+          <head>ESCENA I</head>
+          <stage>ARGIA (sola)</stage>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Qué extraña novedad! ¡Apenas puedo</l>
+            <l>volver de mi sorpresa! ¡Mitigada</l>
+            <l>la furia de Creón! ¿Será posible?</l>
+            <l>A nombre suyo Eurimedón me hablaba</l>
+            <l>de paz y de amistad; y el hijo mío…</l>
+            <l>¡Lisandro de mi amor! ¡Ah! ¡Cómo el alma</l>
+            <l>se ha gozado en tus besos! y tu rostro</l>
+            <l>¡cómo mi llanto maternal bañaba!</l>
+            <l>¿Qué benéfica mano de repente</l>
+            <l>me ha dado este consuelo en mi desgracia?</l>
+            <l>Pero… ¿podré dudarlo? A los temores</l>
+            <l>de Creón es debida esta mudanza.</l>
+            <l>Las armas de mi padre habrán logrado</l>
+            <l>sobre las suyas la primera ventaja;</l>
+            <l>se acercará el peligro, y ¿qué tirano</l>
+            <l>a vista del peligro no desmaya?</l>
+            <l>El temor en Creón hace las veces</l>
+            <l>de justicia y piedad. Ya que no bastan</l>
+            <l>su poder y su astucia a los designios</l>
+            <l>de su loca ambición y su venganza,</l>
+            <l>quiere que le agradezcan por favores</l>
+            <l>lo que es necesidad; pero se engaña;</l>
+            <l>que él mismo me ha enseñado a que conozca</l>
+            <l>todas sus artes, y el doblez de su alma.</l>
+            <l>Pero yo me arrebato. No me trajo</l>
+            <l>a la execranda Tebas la esperanza</l>
+            <l>de alzar al hijo mío sobre un trono</l>
+            <l>de que el cielo jamás el rayo aparta.</l>
+            <l>De Antígona al llamado vine oculta,</l>
+            <pb n="426"/>
+            <l>para llevarme las cenizas caras</l>
+            <l>de su hermano y mi esposo, y conocerla,</l>
+            <l>porque supo querer a quien yo amaba.</l>
+            <l>¡Ay! ¡Que no la abracé!, ¡ni pude en mi hijo</l>
+            <l>la imagen de su hermano presentarla!</l>
+            <l>Creón me descubrió: déjeme ahora</l>
+            <l>salir de Tebas, y partir cargada</l>
+            <l>del peso suave de la helada urna</l>
+            <l>que los despojos de mi amado guarda:</l>
+            <l>déjeme conducir el tierno fruto</l>
+            <l>de mi infeliz amor, y nunca Argia</l>
+            <l>le llamará tirano, nunca Adrasto</l>
+            <l>ya contra Tebas volverá sus armas.</l>
+            <l>Sí, Creón, vive y reina, y mi Lisandro</l>
+            <l>sólo me ayude en mi tranquila patria</l>
+            <l>a llorar a su padre. Si los cielos</l>
+            <l>lo hicieron para rey, Argos lo aguarda</l>
+            <l>con un trono de paz, después que aprenda</l>
+            <l>de Adrasto las virtudes del que manda.</l>
+            <l>¡En qué ansiedad estoy! Nadie parece.</l>
+            <stage>Mirando afuera como atemorizada</stage>
+            <l>No veo en todas partes más que guardias.</l>
+            <l>Creón me hace esperarlo en este sitio;</l>
+            <l>pero ya que no viene, y a mi la estancia</l>
+            <l>puedo volver de mi hijo… ¡Qué silencio!</l>
+            <l>El palacio esta noche la morada</l>
+            <l>parece de los muertos. De repente</l>
+            <l>yo no sé qué temor mi pecho asalta;</l>
+            <l>y el corazón… ¡Oh, Dios!... Alguno viene.</l>
+            <stage>Se retirará sobresaltada al fondo del teatro.</stage>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA II</head>
+          <stage>CREÓN, ARGIA</stage>
+          <stage>Creón dirá los cinco primeros versos de esta escena sin ver a Argia; hasta que
+            reparando en ella, le dirige la palabra.</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Cual si hubiera guerra, todo calla.</l>
+            <l>No parece esta noche precursora</l>
+            <l>de los sucesos que la luz aguardan.</l>
+            <pb n="427"/>
+            <l>Siempre entre las tinieblas espantosas</l>
+            <l>las catástrofes grandes se preparan.</l>
+            <l>Demasiado tal vez en este sitio</l>
+            <l>os hice, Argia, esperar; pero la causa</l>
+            <l>os es tan conocida como justa,</l>
+            <l>y no lo extrañaréis.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Vuestra tardanza</l>
+            <l>no es lo que extraño ciertamente; veo</l>
+            <l>los motivos que sobran a excusarla.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Si ellos no fueran tantos y tan fuertes,</l>
+            <l>tiempo ha que a vuestro lado me encontrara,</l>
+            <l>porque nunca he deseado como ahora,</l>
+            <l>por su propio interés, hablar con Argia.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Argia no tiene otro interés que su hijo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Pero en las circunstancias en que se halla,</l>
+            <l>ese interés alguna cosa tiene</l>
+            <l>de común con Creón.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Es arrogancia,</l>
+            <l>o desprecio por mí lo que os induce</l>
+            <l>a recordar, Creón, la inicua causa</l>
+            <l>que produjo el efecto de que tenga</l>
+            <l>algo común con vos el hijo de Argia?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No es arrogancia ni desprecio. Acaso</l>
+            <l>pensasteis que esta noche se os pasara</l>
+            <l>sin gozar las caricias de Lisandro;</l>
+            <l>y Eurimedón, por mi orden, a gozarlas,</l>
+            <pb n="428"/>
+            <l>Sin que vos lo esperarais, os condujo.</l>
+            <l>¿Nada os dice, señora, esta mudanza?</l>
+            <l>Que el efecto produzca tan siquiera</l>
+            <l>de que escuchéis ahora mis palabras</l>
+            <l>con menos prevención: que un breve rato,</l>
+            <l>de los resentimientos olvidada,</l>
+            <l>conozcáis que la cólera no siempre</l>
+            <l>mis otros sentimientos avasalla;</l>
+            <l>que también la razón mis pasos guía,</l>
+            <l>y la justicia en mis acciones manda.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Difícil es, Creón; pero tal triunfo</l>
+            <l>¿quién podrá celebrarlo más que Argia?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No lo extrañéis, señora. Un rey, que mira</l>
+            <l>que otro rey una guerra le declara</l>
+            <l>con precipitación, y que sus tropas,</l>
+            <l>invadiendo de pronto sus comarcas,</l>
+            <l>asedian su ciudad, cede por fuerza</l>
+            <l>al impulso primero de su saña.</l>
+            <l>Mi conducta con vos ha sido efecto</l>
+            <l>de una causa tan grave.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Aun se ignoraban</l>
+            <l>en Tebas los proyectos de mi padre,</l>
+            <l>ni teníais temor de que sus armas</l>
+            <l>a amenazar viniesen vuestros muros,</l>
+            <l>de repente inundando las campañas,</l>
+            <l>cuando vuestro rencor, no satisfecho</l>
+            <l>con ejercer su bárbara venganza</l>
+            <l>hasta en las sombras que a la Estigia fueron,</l>
+            <l>en un infante tierno se cebaba.</l>
+            <l>No es un sitio de ayer, no es esta guerra</l>
+            <l>lo que hace en vuestro pecho hervir la rabia;</l>
+            <l>al contrario; esa rabia envejecida</l>
+            <l>es de tan justa guerra infame causa.</l>
+            <pb n="429"/>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Y por qué me insultáis? ¿Será, señora,</l>
+            <l>que nunca deis oído a mis palabras,</l>
+            <l>y prefiráis el insultarme siempre</l>
+            <l>Al placer de que acaben las desgracias</l>
+            <l>que pesan sobre vos y vuestro hijo?</l>
+            <l>¿Creón es inmutable? ¿Y sus entrañas</l>
+            <l>ya no podrán a la piedad abrirse?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Vuestra alma está al delito acostumbrada,</l>
+            <l>y la senda del crimen arraigado</l>
+            <l>no se abandona en un instante.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Basta:</l>
+            <l>si es que no puedo, según vos, mudarme,</l>
+            <l>seré lo que hasta aquí, seréis mi esclava,</l>
+            <l>vuestro hijo gemirá más que ha gemido,</l>
+            <l>ni lo veréis ya más.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>No me acobardan</l>
+            <l>unos furores que, en el caso vuestro,</l>
+            <l>la desesperación tal vez arranca,</l>
+            <l>y ya tocan su fin.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Es excesiva,</l>
+            <l>pero es bastante vana la confianza</l>
+            <l>que tenéis en Adrasto y en sus tropas.</l>
+            <l>Ya poco tiempo para el día falta,</l>
+            <l>y no vendrá otra noche sin que muera</l>
+            <l>para siempre jamás esa esperanza.</l>
+            <l>Yo quería evitar a mis vasallos</l>
+            <l>el prodigar su sangre, a vuestra patria</l>
+            <l>funerales sin fin, al hijo vuestro</l>
+            <l>la esclavitud en que al presente se halla,</l>
+            <l>Y, sobre todo, hacer que a vuestro lado</l>
+            <pb n="430"/>
+            <l>Siempre fuera feliz. ¿No quiere Argia</l>
+            <l>más que horrores y muertes? ¡Bien! Que sea:</l>
+            <l>pero no me atribuya sus desgracias.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Ociosas todavía en esta guerra,</l>
+            <l>no se han desenvainado las espadas?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No se han desenvainado; pero pronto</l>
+            <l>se ha de ver en qué sangre están bañadas;</l>
+            <l>y, derrotado Adrasto, tiemblen todos</l>
+            <l>los que de Adrasto en mi palacio se hallan.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Y proponéis la paz?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No la propongo:</l>
+            <l>la recibo, la doy, cual más os plazca;</l>
+            <l>porque tan sólo en vuestra mano dejo</l>
+            <l>el que haya medio o no de celebrarla.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Si me volvéis mi hijo…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Más os vuelvo,</l>
+            <l>pues con un padre os lo presento.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Ay, Argia!</l>
+            <l>¡Con un padre! ¡Callad! ¡Oh, Polinicio!</l>
+            <l>¡Temprana sombra! ¿Dónde estás? La cara</l>
+            <l>prenda de nuestro amor infortunado,</l>
+            <l>¿qué otro padre que tú…? ¡Creón!... ya basta:</l>
+            <l>despedazad mi corazón y nunca</l>
+            <l>hablando de Lisandro, la palabra</l>
+            <l>de padre pronunciéis.</l>
+            <pb n="431"/>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Con un amigo</l>
+            <l>os lo vuelvo a lo menos, que lo haga</l>
+            <l>saber amarme, y aun reinar un día.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Amaros! ¡A Creón! ¡El hijo de Argia!</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Si no me llega a amar, sabrá siquiera</l>
+            <l>que, pudiendo haber hecho su desgracia</l>
+            <l>larga como mi vida, generoso,</l>
+            <l>aun hice más de lo que se deseaba:</l>
+            <l>que su fortuna preferí y la vuestra</l>
+            <l>a la gloria tan fácil como vana</l>
+            <l>de vencer a quien vino a libertaros,</l>
+            <l>y que lo hice feliz, cuando…</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Se engañan</l>
+            <l>mis oídos, Creón? ¿Qué Dios ha sido</l>
+            <l>capaz de obrar en vos tanta mudanza?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Os pido, Argia, hasta os ruego, que tranquila</l>
+            <l>me escuchéis un momento. Las alianzas</l>
+            <l>que forma el himeneo entre los reyes,</l>
+            <l>son efecto común de lo que llaman</l>
+            <l>razón de estado, o interés del trono;</l>
+            <l>pero se forman, y una vez formadas,</l>
+            <l>se cimienta la paz, y los esposos,</l>
+            <l>conociéndose bien, al cabo se aman.</l>
+            <l>Lisandro en Tebas será rey un día.</l>
+            <l>Creón lo jura por su vida, si Argia</l>
+            <l>el lazo forma con que al juramento</l>
+            <l>mi voluntad por siempre quede atada.</l>
+            <l>Himeneo y la paz bajen a Tebas.</l>
+            <l>Señora… ésta es mi mano… o aceptadla,</l>
+            <l>o no me atribuyáis…</l>
+            <pb n="432"/>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Recién conozco,</l>
+            <l>sí, conozco recién que en algo iguala</l>
+            <l>al bárbaro Creón esta infelice.</l>
+            <l>¿A qué es posible comparar la rabia</l>
+            <l>que tu insultante audacia me ha causado,</l>
+            <l>sino a la que emponzoña tus entrañas?</l>
+            <l>¡Hombre de fierro! ¿Quién te ha sugerido</l>
+            <l>ese género nuevo de venganza?</l>
+            <l>Nunca me vi mas humillada… nunca</l>
+            <l>más insano furor… Dame esa espada,</l>
+            <l>verás cómo tu sangre de veneno</l>
+            <l>por una mano débil se derrama.</l>
+            <l>Yo moriré después; porque la afrenta</l>
+            <l>de haber sido el objeto en que fijaras</l>
+            <l>tu pensamiento infame… ¡Oh, Dios! ¿Cuál furia,</l>
+            <l>de los hondos infiernos alanzada,</l>
+            <l>la crueldad inaudita te ha inspirado</l>
+            <l>de hablar así conmigo? ¿Con que Argia</l>
+            <l>no te era conocida?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Pues por eso</l>
+            <l>os quiero hacer mi esposa. No me engaña</l>
+            <l>una altivez que no tenéis. Conozco</l>
+            <l>que a no ser por las vanas esperanzas</l>
+            <l>que fundáis en Adrasto, de mi lecho</l>
+            <l>el honor…</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>No prosigas: y si tu alma</l>
+            <l>en humillarme, bárbaro, se goza,</l>
+            <l>no lograrás tal triunfo.</l>
+          </sp>
+          <stage>Argia quiere partir con precipitación; Creón la detiene, y la fuerza a
+            permanecer.</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Esa arrogancia</l>
+            <l>merecía humillarse ciertamente:</l>
+            <l>pero Creón os honra, cuando baja</l>
+            <l>su pensamiento a vos.</l>
+            <pb n="433"/>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿A quién podría</l>
+            <l>honrar jamás Creón sino a quien mata?</l>
+            <l>Aquel que no sufráis sobre la tierra,</l>
+            <l>¿qué prueba de virtud dará más clara?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Sabéis que la venganza está en mi mano,</l>
+            <l>pero que contra vos no quiero usarla;</l>
+            <l>por eso me insultáis: sois la primera</l>
+            <l>que impunemente a quien habláis agravia.</l>
+            <l>¿A qué nombrar la muerte? Yo, señora,</l>
+            <l>hacer de Argos y Tebas esperaba</l>
+            <l>la mansión de la paz y de la vida.</l>
+            <l>En vuestra mano está, no hagáis que parta</l>
+            <l>la primera flecha; volará, y tras ella</l>
+            <l>mil muertes volarán, y vuestra patria</l>
+            <l>será una inmensa tumba, a la memoria</l>
+            <l>de los héroes de Argos levantada.</l>
+            <l>Pensadlo bien, señora: el himeneo</l>
+            <l>trae la oliva en su mano.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Las entrañas</l>
+            <l>de la tierra se abren y el infierno</l>
+            <l>es quien sus Furias implacables manda</l>
+            <l>a presidir de Tebas los destinos.</l>
+            <l>Esa lengua, Creón, ¿cómo profana</l>
+            <l>El nombre de himeneo, que algún día</l>
+            <l>de Polinicio el alma con mi alma</l>
+            <l>unió enlazada tan estrecha y fuerte,</l>
+            <l>que ni tus iras a romperla bastan?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Polinicio en las sombras de la muerte</l>
+            <l>está tranquilo, ni se cura de Argia.</l>
+            <pb n="434"/>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>No manches su memoria con nombrar.</l>
+            <l>¡Ah! ¿No tembláis, Creón? En esta sala</l>
+            <l>se consumó el horrendo fratricidio,</l>
+            <l>preparado por vos: en esta sala</l>
+            <l>me parece que miro de repente</l>
+            <l>que el frígido esqueleto se levanta,</l>
+            <l>y con ira que sólo entre las sombras</l>
+            <l>puede engendrarse tal, grita, te llama,</l>
+            <l>y te pide razón de tus furores,</l>
+            <l>de su olvidada tumba, su hijo, y Argia.</l>
+            <l>¿No lo miráis, Creón? Vuestra perfidia,</l>
+            <l>y no el valor de Eteocles la morada</l>
+            <l>de la muerte le abrió.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Siempre la muerte</l>
+            <l>en vuestro labio está. No quiero darla.</l>
+            <l>Y parecéis desear que yo consienta</l>
+            <l>en los campos de Adrasto en derramarla.</l>
+            <l>Un esposo lloráis; se acerca el día;</l>
+            <l>y, si no consentís en nuestra alianza,</l>
+            <l>un padre lloraréis, porque ¿qué espera</l>
+            <l>sino la muerte en desigual batalla?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Quién! ¡Mi padre la muerte! ¡Dios! No escuches</l>
+            <l>el voto de un malvado. Desolada</l>
+            <l>estoy bastante ya.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Pues al momento,</l>
+            <l>Señora, consentid, y tal alianza</l>
+            <l>vuestro padre autorice. Algunas horas,</l>
+            <l>con Lisandro en delicias anegada,</l>
+            <l>habéis pasado en esta noche: muchas</l>
+            <l>y nunca interrumpidas, os aguardan,</l>
+            <pb n="435"/>
+            <l>Si el furor deponéis, que igual al mío</l>
+            <l>vos misma habéis llamado. Yo, sin causa</l>
+            <l>tan justa como vos, olvido todo.</l>
+            <l>¿Será que nunca os olvidéis de nada?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Y vos, qué merecéis? ¡Traidor! ¡Impío!</l>
+            <l>Mientras a mi Lisandro acariciaba,</l>
+            <l>tal vez sentí por vos menos desprecio:</l>
+            <l>llenaba toda la existencia de Argia</l>
+            <l>el amor maternal, y aquel momento</l>
+            <l>hasta odiar a Creón se me olvidaba.</l>
+            <l>¡Ay, hijo! ¿Quién creyera que el malvado</l>
+            <l>hacer de tus caricias intentara,</l>
+            <l>por un refinamiento de perfidia,</l>
+            <l>el inaudito precio de mi infamia?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Basta de insultos, Argia, me degrado</l>
+            <l>en toleraros más: mi lengua calla</l>
+            <l>lo que os hará temblar quizá bien presto:</l>
+            <l>mas mi furor es tal, que quiere pausas</l>
+            <l>para cobrar más fuerza, y prontamente</l>
+            <l>con encono mayor volver al alma.</l>
+            <l>¡Agenor! Tus soldados.</l>
+          </sp>
+          <stage>Dirá esto acercándose al bastidor, y llamando al oficial y guardias, que se
+            presentarán inmediatamente en la escena. El teatro se empezará a iluminar como si rayara
+            el día, y progresivamente se aumentará la luz, hasta que al fin del acto quede del todo
+            claro.</stage>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Argia empieza</l>
+            <l>recién a aborreceros.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <stage>Al oficial</stage>
+            <l>En su estancia</l>
+            <l>con el mayor rigor que quede presa;</l>
+            <l>quítale el hijo, y cuida con tu guardia,</l>
+            <l>de que jamás lo escuche ni lo vea.</l>
+            <l>Aprende a conocerme, temeraria,</l>
+            <l>y tiembla por tu hijo y por…</l>
+          </sp>
+          <pb n="436"/>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Mi hijo</l>
+            <l>en mi prisión, Creón…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <stage>A los soldados</stage>
+            <l>Arrebatadla.</l>
+          </sp>
+          <stage>Las guardias arrebatan a Argia.</stage>
+        </div>
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>CREÓN (solo)</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>La aurora ya se muestra en el oriente.</l>
+            <l>¡Oh tú, día de horror que te levantas!</l>
+            <l>¿A quién serás funesto? Mas ¡qué digo!</l>
+            <l>A mí solo, jamás. Si los monarcas,</l>
+            <l>como se dicen dueños de sus pueblos,</l>
+            <l>lo fuesen en verdad, no hubiera de Argia</l>
+            <l>sufrido tanto insulto, ni humillado</l>
+            <l>se viera mi furor. ¡Oh! ¡Si mi espada</l>
+            <l>de cuantos sediciosos hay en Tebas</l>
+            <l>pudiera el pecho atravesar! Sus tramas</l>
+            <l>encubren los traidores: si me fuera</l>
+            <l>posible en un momento destrozarlas,</l>
+            <l>¿qué sería de Adrasto? ¿Qué sería</l>
+            <l>de esa mujer altiva y su esperanza?</l>
+            <l>¡Esperanza! ¿Cuál es? A mi palacio</l>
+            <l>¿qué pueblo puede entrar a libertarla,</l>
+            <l>qué ejército que venga desde Argos,</l>
+            <l>sin dejar un momento a mi venganza?</l>
+            <l>¡Y no reinaré más! ¡Oh! Sí. ¡Quién sabe</l>
+            <l>si son acaso mis sospechas vanas!</l>
+          </sp>
+          <pb n="437"/>
+        </div>
+        <div type="scene">
+          <head>ESCENA IV</head>
+          <stage>CREÓN, EURIMEDÓN</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Eurimedón ¿qué dices?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>En el cielo</l>
+            <l>el resplandor del sol recién rayaba,</l>
+            <l>cuando del campo regresó Periandro.</l>
+            <l>El ejército de Argos no se avanza</l>
+            <l>a los muros aún: nuestras legiones</l>
+            <l>los cubren y defienden, preparadas</l>
+            <l>a que ningún argiano las insulte,</l>
+            <l>y ardiendo ya en la sed de la matanza.</l>
+            <l>Pero sabréis bien pronto si a esta guerra</l>
+            <l>ponen fin los tratados o las armas.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Por qué? ¿Qué ha sucedido?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>El mismo Adrasto</l>
+            <l>sin broquel, sin espada, sin sus guardias,</l>
+            <l>y la oliva en la diestra levantando,</l>
+            <l>hasta el pie se acercó de las murallas.</l>
+            <l>Desde allí pudo hablarme: en sus acciones,</l>
+            <l>en su rostro, y en todas sus palabras</l>
+            <l>el deseo de paz no más se muestra.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Entonces está débil. Nuestras armas</l>
+            <l>¿no pudieran batirlo en el momento,</l>
+            <l>y enseñarle a su costa a respetarlas?</l>
+            <pb n="438"/>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Fácil fuera tal vez: pero… es preciso</l>
+            <l>que os lo diga, señor. La desconfianza</l>
+            <l>que en el pueblo tenéis, quizá es más justa</l>
+            <l>de lo que habéis creído.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡El pueblo! Acaba.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Al rumor prontamente divulgado</l>
+            <l>de que el rey enemigo se acercaba</l>
+            <l>con señales de paz, en nuestras calles,</l>
+            <l>en nuestros templos y en las anchas plazas</l>
+            <l>el pueblo se reunía, y muchas voces</l>
+            <l>de paz, de libertad se levantaban.</l>
+            <l>Ismenio con su gente los tumultos</l>
+            <l>logró al fin disipar, y hacer que…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Basta.</l>
+            <l>¡Y qué! ¿Ese pueblo infame no ha sufrido</l>
+            <l>los crímenes de todos sus monarcas?</l>
+            <l>¿Por qué condena mi justicia ahora?</l>
+            <l>¿O está sujeto al pueblo quien lo manda?</l>
+            <l>Habla. ¿Qué quiere Adrasto?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Para él solo</l>
+            <l>de Tebas pide que las puertas se abran,</l>
+            <l>que anhela por hablaros; y ha jurado</l>
+            <l>por la vida de Argia, que sus armas,</l>
+            <l>si se quiere escuchar a la justicia,</l>
+            <l>no habrán de derramar sangre tebana.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Por la vida de Argia? Poco hace</l>
+            <l>que, como nunca, conmovió mi rabia.</l>
+            <pb n="439"/>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>¡Qué! ¿Prefiere la muerte a vuestra mano,</l>
+            <l>esa mujer frenética, insensata?</l>
+            <l>Bien lo temía yo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No me dio tiempo</l>
+            <l>mi furor con la muerte amenazarla.</l>
+            <l>¡Oh, pueblo! ¡pueblo vil! ¿Conque tú solo,</l>
+            <l>a mi pesar, refrenas mis venganzas?</l>
+            <l>¿Conque yo, que ni al cielo temería</l>
+            <l>si no fuera por ti, hasta la infamia,</l>
+            <l>hasta la astucia baja he de humillarme,</l>
+            <l>por evitar la guerra, de hacer que Argia</l>
+            <l>me oiga ofrecer mi mano, y la desprecie?</l>
+            <l>¡Oh, pueblo! ¡A lo que fuerzas a un monarca!</l>
+            <l>¡Oh ambición de mandar! ¡A lo que obligas</l>
+            <l>a quien no quiere vida, si no manda!</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Nada debéis temer: vuestros soldados…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Antes que muera yo, matarán a Argia.</l>
+            <l>Por la puerta Emoloides que entre Adrasto;</l>
+            <l>y que Periandro, con la fuerza armada</l>
+            <l>que le obedece, sobre el pueblo vele.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA V</head>
+          <stage>CREÓN (solo)</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Voy a ver entretanto si descansa</l>
+            <l>mi espíritu un momento; mas mis iras</l>
+            <l>¡oh, Furias infernales! aumentadlas.</l>
+          </sp>
+          <trailer>Fin del Acto Segundo</trailer>
+        </div>
+      </div>
+      <pb n="440"/>
+      <div type="act">
+        <head>ACTO TERCERO</head>
+        <div type="scene">
+          <head>ESCENA I</head>
+          <stage>CREÓN (solo)</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>El valor de Periandro es conocido,</l>
+            <l>y su lealtad también: no temo al pueblo,</l>
+            <l>mientras que su legión incontrastable</l>
+            <l>se ocupe solamente en contenerlo.</l>
+            <l>Mas, si en el caso de un combate, al muro</l>
+            <l>no va toda mi fuerza… ¡Oh, duda! ¡Oh, cielo!</l>
+            <l>Si hicisteis a Creón tan ambicioso,</l>
+            <l>¿por qué no permitís que sus deseos</l>
+            <l>se cumplan sin obstáculo? A oponerse</l>
+            <l>si llega el universo a mis proyectos,</l>
+            <l>¿por qué no tiene para mi venganza</l>
+            <l>una sola cabeza el universo?</l>
+            <l>¡Yo habré de recibir en mi palacio</l>
+            <l>a quien me insulta! ¡Oh, furia!</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA II</head>
+          <stage>CREÓN, EURIMEDÓN</stage>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>A Adrasto dejo</l>
+            <l>en el salón de los embajadores;</l>
+            <l>allí os espera, y a anunciarlo vengo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Solo ha venido?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Solo.</l>
+            <pb n="441"/>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Nuevo insulto!</l>
+            <l>¿Creón ya no es temible? ¿O habrá un medio</l>
+            <l>que un rey estime vil, como lo vengue,</l>
+            <l>y a quien quiera perder pueda perderlo?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>¡Señor! Me atrevería a aconsejaros</l>
+            <l>que lo escuchéis tranquilo. Siempre hay tiempo</l>
+            <l>para ejercer venganzas que son justas.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Bien. Ven con él aquí.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Ya os obedezco.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>CREÓN (solo)</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Siempre hay tiempo: es verdad. Más que a mi furia</l>
+            <l>cederé a mi interés este momento.</l>
+            <l>A Adrasto escucharé; pero si Adrasto</l>
+            <l>librar piensa ese niño, que aborrezco,</l>
+            <l>de mi poder, no hay paz; y si los dioses</l>
+            <l>me desamparan, llamaré al infierno.<note
+                ana="Flectere si nequeo superos, Acheronta movébo.-Virgilio."
+              >(1)</note><!-- acá no es necesario añadir la etiqueta foreign, no?--></l>
+            <l>Creo nadar en sangre en mi palacio:</l>
+            <l>mas la mía… ¡Qué rabia! ¡Oh, pueblo! ¡Oh, pueblo!</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA IV</head>
+          <stage>CREÓN, ADRASTO, EURIMEDÓN</stage>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Os presento, señor, al rey de Argos.</l>
+            <pb n="442"/>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+
+            <stage>A Eurimedón</stage>
+            <l>Retírate a los muros. El ejército</l>
+            <l>es sobrado a cubrirlos: una parte</l>
+            <l>que descanse, y la otra observe de ellos</l>
+            <l>el enemigo campo; y si sucede</l>
+            <l>haber un movimiento, vuelve luego.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA V</head>
+          <stage>CREÓN, ADRASTO</stage>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Nada sucederá; no jura en vano</l>
+            <l>el rey de Argos jamás. Ese guerrero</l>
+            <l>que acaba de partir en este instante,</l>
+            <l>sabe ya cuáles son mis sentimientos:</l>
+            <l>y que, entre el aparato de las armas,</l>
+            <l>el deseo de paz reina en mi pecho.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡El deseo de paz! ¿Con fuerza armada</l>
+            <l>se solicitan paces?</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>El acero</l>
+            <l>que empuñan mis soldados, no se tiñe</l>
+            <l>sino en sangre de injustos. El derecho</l>
+            <l>de la justicia y la razón se atienda,</l>
+            <l>y no creáis que la sangre inunde el suelo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Y es injusto Creón? ¿Es necesario,</l>
+            <l>para que reconozca esos derechos,</l>
+            <l>con la espada en la mano reclamarlos?</l>
+            <l>¿O venís a insultarme, aquí en el centro</l>
+            <l>de mi poder? ¿En medio de mis guardias?</l>
+            <l>¿En un palacio de que yo soy dueño,</l>
+            <l>y en el que nadie, sin que tiemble, pisa?</l>
+            <pb n="443"/>
+            <l>que su perjuro hermano le usurpaba.</l>
+            <l>Y del que era más digno que el protervo.</l>
+            <l>Yo vine a sostener de Polinicio</l>
+            <l>los derechos hollados: quiso el cielo</l>
+            <l>que él y Eteocles murieran; y mi patria</l>
+            <l>me miró regresar de asombro lleno,</l>
+            <l>pues Tebas en vergüenza de la Grecia,</l>
+            <l>fue escándalo de todo el universo.</l>
+            <l>Desde entonces reináis.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Esa palabra,</l>
+            <l>esa última palabra, que, queriendo</l>
+            <l>acaso contenerla, os ha arrancado</l>
+            <l>la imperiosa vehemencia del deseo,</l>
+            <l>justifican bastante la conducta</l>
+            <l>que ha observado Creón con vuestro nieto.</l>
+            <l>Sí; desde entonces reino; ni es Adrasto</l>
+            <l>Quien debe preguntar con qué derecho.</l>
+            <l>Si es que lo tuve o no cuando mi mano</l>
+            <l>Con sobrada justicia empuñó el cetro.</l>
+            <l>Ahora, que me siento sobre el trono,</l>
+            <l>¿quién podrá disputármelo? Por eso</l>
+            <l>a Lisandro detuve, cuando vino</l>
+            <l>Argia con él aquí. Si era heredero</l>
+            <l>del trono que yo ocupo, los delitos</l>
+            <l>de su padre infeliz, que en él cayeron,</l>
+            <l>de todos sus derechos lo privaron.</l>
+            <l>Tebas detesta al hijo de un perverso,</l>
+            <l>que trajo alguna vez contra su patria</l>
+            <l>las armas de los reyes extranjeros.</l>
+            <l>Yo, por bien del Estado, no he querido</l>
+            <l>libertar a Lisandro; mas, supuesto</l>
+            <l>que amáis la paz y vuestras intenciones</l>
+            <l>se conforman en esto a mis deseos,</l>
+            <l>entrad por un tratado que yo mismo</l>
+            <l>os iba a proponer: este secreto</l>
+            <l>ya es conocido de Argia, y de otro modo</l>
+            <l>no será rey Lisandro en ningún tiempo.</l>
+            <pb n="444"/>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¿Qué secreto? ¿Qué rey? Creón bien sabe</l>
+            <l>que del trono que ocupa el heredero</l>
+            <l>es Lisandro, y no más; y yo le juro</l>
+            <l>que si en Tebas con crímenes tan feos</l>
+            <l>no se manchase el solio, mis soldados</l>
+            <l>harían devolvérselo a su dueño.</l>
+            <l>Pero no es esto lo que Adrasto quiere;</l>
+            <l>porque ama mucho a su inocente nieto,</l>
+            <l>para sentarlo nunca bajo el filo</l>
+            <l>de un cuchillo invisible y justiciero.</l>
+            <l>En Argos reinará, y…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>En vano Adrasto,</l>
+            <l>por librarlo de mí, finge pretextos.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Si como tiene fuerza, no tuviera,</l>
+            <l>no se humillara Adrasto al fingimiento.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>El camino de Tebas por dos veces</l>
+            <l>han conocido ya vuestros guerreros;</l>
+            <l>y Creón es prudente.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Pero nunca</l>
+            <l>sabrá que yo he faltado a un juramento.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Los reyes juran hoy, pero mañana…</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¡Los reyes! No, Creón. ¿Con más respeto</l>
+            <l>no os tratáis a vos mismo?</l>
+            <pb n="445"/>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Nunca puede</l>
+            <l>responder un monarca de sucesos</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>No digo de Creón, del Universo</l>
+            <l>un monarca legítimo no tiembla.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Qué me queréis decir? Pero… al momento</l>
+            <l>explicaos. ¿Qué buscáis?</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Bien conocidas</l>
+            <l>os son mis pretensiones hace tiempo.</l>
+            <l>Tres veces desde Argos han venido</l>
+            <l>mis enviados a Tebas: si con ellos</l>
+            <l>me hubieseis vuelto a mi hija y a Lisandro,</l>
+            <l>sin llenarlos de insultos y desprecios,</l>
+            <l>no me hubierais forzado a que sitiasen</l>
+            <l>la mal segura Tebas mis guerreros.</l>
+            <l>Yo siempre amé la paz: quizá he sufrido</l>
+            <l>más de lo que debí; pero yo aprecio</l>
+            <l>la vida de los hombres sobre el vano</l>
+            <l>orgullo que se adquiere con el cetro;</l>
+            <l>y aunque siempre están pronto mis vasallos</l>
+            <l>a ofrecerme su sangre, la respeto.</l>
+            <l>Pero Creón, soy padre y soy monarca:</l>
+            <l>de títulos tan grandes, el primero</l>
+            <l>es para mí muy santo, y reputado</l>
+            <l>como el mayor favor que debo al cielo.</l>
+            <l>Mi dignidad de rey habéis hollado</l>
+            <l>en mis embajadores; y sintiendo</l>
+            <l>que ya no hay otro medio que la fuerza</l>
+            <l>para hacer respetar tantos derechos,</l>
+            <l>me valí de la fuerza. Argia y Lisandro</l>
+            <l>salgan de su penoso cautiverio;</l>
+            <pb n="446"/>
+            <l>vuelvan a mi poder, y mis legiones</l>
+            <l>el regresar en paz hasta mi reino</l>
+            <l>preferirán a la ominosa gloria</l>
+            <l>de marchar vencedoras sobre muertos.</l>
+            <l>Esta es mi pretensión. Argia y su hijo</l>
+            <l>que sean de la paz el digno precio.</l>
+            <l>A bien, Creón, que nada solicito</l>
+            <l>que no me lo debáis; y olvido excesos</l>
+            <l>de que acaso pudiera, y aun debiera,</l>
+            <l>tomar justa venganza, y no me vengo.</l>
+            <l>Ya sabéis todo: o elegid las paces,</l>
+            <l>que, a fuer de soberano, aquí os ofrezco,</l>
+            <l>o temed altamente los enojos</l>
+            <l>de un ofendido padre, a quien el cielo</l>
+            <l>protege en su justicia, y cuyas iras</l>
+            <l>sabrán medirse por su amor paterno.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Esas iras, Adrasto, ni son justas,</l>
+            <l>ni alarman a Creón. Ha mucho tiempo</l>
+            <l>que Argia estuviera en Argos, si ella misma</l>
+            <l>no prefiriese Tebas a ese reino.</l>
+            <l>El objeto que trajo su venida</l>
+            <l>fue el de llevar los despreciables restos</l>
+            <l>de su bárbaro esposo, que la espada</l>
+            <l>se atrevió a hundir en el fraterno pecho.</l>
+            <l>Yo se los entregué…</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>No de ese modo</l>
+            <l>debéis hablar conmigo. Bien sabemos</l>
+            <l>la causa de ese doble fratricidio,</l>
+            <l>y quién lo preparó, con cuál objeto.</l>
+            <l>¡Creón! Bastante os digo. Esas cenizas,</l>
+            <l>que llamáis despreciables, hasta el cielo</l>
+            <l>piden venganza aún; y acaso, acaso</l>
+            <l>hay en la tierra quien escuche el eco.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Seréis vos ciertamente!</l>
+            <pb n="447"/>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Tal vez sea;</l>
+            <l>pero, Creón, en este instante hablemos</l>
+            <l>como de rey a rey; como lo exigen</l>
+            <l>la paz, mi dignidad, mi honor, y… el vuestro.</l>
+            <l>Usad de este lenguaje; que sin duda</l>
+            <l>no seréis vos quien perderéis en ello.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Fundáis tanta arrogancia en que no es ésta</l>
+            <l>la primer vez que Tebas un asedio</l>
+            <l>ha sufrido por vos? ¡Bastante caro</l>
+            <l>le costó ese socorro a vuestro yerno!</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>A todos les costó; que el justo a veces</l>
+            <l>en la ruina se envuelve del perverso.</l>
+            <l>No era hecho Polinicio para el crimen,</l>
+            <l>ni fue crimen en él pedir un cetro</l>
+            <l>que el tiempo y la política conducen;</l>
+            <l>ni basta el juramento a detenerlos.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>El tiempo y la política son nada</l>
+            <l>para un hombre de fe, para un rey menos.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Pero vos habéis dicho que a mi trono</l>
+            <l>nadie con más razón tiene derecho</l>
+            <l>que Lisandro.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Y lo digo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Y eso basta</l>
+            <l>para que nunca salga de mi reino.</l>
+            <pb n="448"/>
+            <l>Sobre todo, el tratado que propongo</l>
+            <l>disipa desconfianzas, y el cimiento</l>
+            <l>Hechará de una paz firme y estable.</l>
+            <l>En vuestra mano está.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Si no envilezco</l>
+            <l>mi gloria; y de Argia y de Lisandro rompo</l>
+            <l>la pesada cadena, proponedlo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No os envilecerá: veréis al cabo</l>
+            <l>que, en el poder y rango que poseo,</l>
+            <l>conozco que la paz es sobre todo.</l>
+            <l>¡Así llegaseis vos a conocerlo!</l>
+            <l>¡Agenor!</l>
+            <stage>Se acercará al bastidor a llamar a Agenor, y este oficial se presentará en el
+              momento en la escena).</stage>
+            <l>Que venga Argia. No le digas</l>
+            <l>que está su padre aquí; que su contento</l>
+            <l>quiero aumentar con la sorpresa.</l>
+            <stage>Se va Agenor.</stage>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¿A mi hija</l>
+            <l>me permitís que vea? Lo agradezco.</l>
+            <l>No lo solicité, por no exponerme</l>
+            <l>a vuestra desconfianza o a un desprecio:</l>
+            <l>pero el proyecto…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>De su labio mismo</l>
+            <l>lo podéis escuchar en el momento.</l>
+            <l>Su inexperiencia, y su dolor acaso,</l>
+            <l>se lo hacen reprobar; pero, más cuerdo,</l>
+            <l>pensad, Adrasto, que, sin él, no hay Argia</l>
+            <l>ni paces para vos; que mis guerreros</l>
+            <l>ya impacientes están, porque no buscan</l>
+            <l>los vuestros en el muro su escarmiento;</l>
+            <pb n="449"/>
+            <l>Y que Creón será más formidable</l>
+            <l>si se une a su ambición un menosprecio.</l>
+            <l>Ahí la tenéis.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VI</head>
+          <stage>CREÓN, ADRASTO, ARGIA</stage>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Tal vez para humillarme</l>
+            <l>de nuevo me llamáis?... ¡Oh, Dios! ¡Qué veo!</l>
+            <l>¡Vos en Tebas, mi padre!</l>
+          </sp>
+          <stage>Argia corre a abrazarse con su padre, y permanecen abrazados mientras Creón dice
+            los primeros versos que siguen.</stage>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Sí, hija mía.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <stage>Aparte</stage>
+            <l>Si esta ocasión tan favorable pierdo,</l>
+            <l>¿cuál otra espera mi venganza? Adrasto,</l>
+            <l>quedaos con ella; volveré bien presto.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VII</head>
+          <stage>ADRASTO, ARGIA</stage>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Dónde os halláis? No sé si me abandone</l>
+            <l>al temor o al placer. ¿Cómo os encuentro</l>
+            <l>en la mansión del dolo y la venganza?</l>
+            <l>¿Sois víctima también? Hablad. ¿Qué es esto?</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Vuelve a mis brazos, Argia. ¡Hija querida!</l>
+            <l>Descarga tus temores en mi pecho.</l>
+            <l>Tranquilízate.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Yo tranquilizarme,</l>
+            <l>cuando aquí os miro solo e indefenso!</l>
+            <pb n="450"/>
+            <l>La perfidia y Creón reinan en Tebas;</l>
+            <l>¿no lo sabéis, señor?</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Por eso vengo</l>
+            <l>a libertar a mi hija y a Lisandro</l>
+            <l>de la perfidia y de Creón: al menos</l>
+            <l>el malvado esta vez no es un tirano</l>
+            <l>pues me deja abrazarte.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Y qué! ¿No debo</l>
+            <l>esperar más abrazos de mi padre</l>
+            <l>que los que me permita ese perverso?</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Sí; en Argos los tendrás. Ahora es fuerza</l>
+            <l>emplear de otra manera estos momentos,</l>
+            <l>y a tu quietud sacrificar las ansias</l>
+            <l>de estrecharte mil veces en mi seno.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡A mi quietud! ¡Ah! Sí. Con vuestra vista</l>
+            <l>puedo al fin mi furor lanzar del pecho.</l>
+            <l>Y en el vuestro, señor, ¿no han rebosado</l>
+            <l>la indignación, las iras, y el deseo</l>
+            <l>de una venganza grande? ¿Habéis podido</l>
+            <l>la última infamia tolerar sereno?</l>
+            <l>Una madre, que tiembla por su hijo,</l>
+            <l>está expuesta al indigno atrevimiento</l>
+            <l>del inicuo que, a fuerza de atentados,</l>
+            <l>ahogó en su corazón los sentimientos:</l>
+            <l>pero un padre, un monarca, un hombre ¿escucha</l>
+            <l>tantos insultos sin vengarse luego?</l>
+            <l>Creón pensó que mi virtud, mi gloria,</l>
+            <l>y mi amor maternal tuvieran precio,</l>
+            <l>y los quiso comprar: ¿pero a vos mismo</l>
+            <l>se ha atrevido, señor, a proponerlo?</l>
+            <l>¿Sois rey, y lo sufrís? ¿Soy vuestra hija,</l>
+            <pb n="451"/>
+            <l>y así me cubre un vil de vilipendio?</l>
+            <l>¡La paz! ¿Y qué es la paz, siendo comprada</l>
+            <l>con mi vergüenza y el oprobio vuestro?</l>
+            <l>¡Yo, esposa de Creón! ¡Ah! No es posible</l>
+            <l>que mi padre consienta…</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>No comprendo,</l>
+            <l>Argia, lo que me dices.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Qué! ¿El malvado</l>
+            <l>os ha ocultado el criminal proyecto</l>
+            <l>que se ha atrevido anoche a revelarme?</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Animado mi pecho del deseo</l>
+            <l>de ahorrar la sangre y evitar desgracias,</l>
+            <l>dejé mi campo; y solo, sin mi acero,</l>
+            <l>y sin otra defensa que la oliva,</l>
+            <l>me he presentado en Tebas, prometiendo</l>
+            <l>a su bárbaro rey olvido y paces,</l>
+            <l>como quiera entregarme en el momento</l>
+            <l>a Lisandro y a ti: mas mi designio</l>
+            <l>se frustra ciertamente. Me convenzo</l>
+            <l>de que no hay con tiranos más tratado</l>
+            <l>que humillarse a su yugo como siervos,</l>
+            <l>o exterminarlos sin piedad. Tu padre</l>
+            <l>va a libertar de un monstruo al universo;</l>
+            <l>él mismo es quien me obliga: no consiente</l>
+            <l>en que salgáis de Tebas, ni yo puedo</l>
+            <l>consentir en la paz de libertaros.</l>
+            <l>¿Qué tratado propone? Su secreto</l>
+            <l>dice que tú lo sabes, y has venido</l>
+            <l>a confiarme sus planes.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>El perverso</l>
+            <l>temió arrostrar vuestro furor, y quiere</l>
+            <pb n="452"/>
+            <l>Que mi labio repita lo que el miedo</l>
+            <l>en los suyos heló. Para insultaros</l>
+            <l>le faltó el inaudito atrevimiento</l>
+            <l>que ha tenido conmigo, al proponerme</l>
+            <l>mi vergüenza y mi afrenta.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¿Por qué medios</l>
+            <l>piensa lograr la paz? Habla.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Ya he dicho</l>
+            <l>cuanto puedo deciros. ¡Ah! ¡En mi lecho</l>
+            <l>el que causó la muerte de mi esposo!</l>
+            <l>¡El que hace padecer a mi hijo tierno!</l>
+            <l>¡El bárbaro Creón!</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¡Argia!</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Lisandro!</l>
+            <l>¿Te arrancan de mis brazos porque tengo</l>
+            <l>una virtud común? ¿Es heroísmo</l>
+            <l>el mirar con horror este himeneo?</l>
+            <l>Al grande criminal, grandes virtudes</l>
+            <l>lo deben irritar; mas mi desprecio</l>
+            <l>es un deber muy fácil de cumplirse,</l>
+            <l>ni debe enfurecer hasta el extremo</l>
+            <l>de mi hijo infeliz… ¡Oh, padre mío!</l>
+            <l>Viuda de Polinicio ¿creéis que puedo</l>
+            <l>ser esposa jamás…</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¡Hija! ¿Qué dices?</l>
+            <l>¿Qué ha intentado Creón? Yo me avergüenzo.</l>
+            <l>¡Esposa tú! ¿De quién?</l>
+            <pb n="453"/>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>No quiere paces</l>
+            <l>el tirano de Tebas a otro precio.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¿Y tú pudiste oírlo? ¿Y tu venganza?</l>
+            <l>Pero ¿qué me detiene, que no vuelvo</l>
+            <l>a encontrar a ese monstruo abominable,</l>
+            <l>y en su sangre lavar mi vituperio?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Deteneos, señor: solo y sin armas,</l>
+            <l>de la crueldad y la perfidia en medio,</l>
+            <l>¿qué pretendéis hacer? Volved al campo.</l>
+            <l>Huid de mis abrazos un momento</l>
+            <l>por vuestro mismo honor, y con la espada</l>
+            <l>entrad de nuevo a Tebas, conduciendo</l>
+            <l>inevitable muerte en los malvados,</l>
+            <l>y libertad para Argia y vuestro nieto.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¿Y dónde está Lisandro?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>De mis brazos</l>
+            <l>lo han arrancado porque no consiento</l>
+            <l>en este enlace infame. ¡Ah! Libertadnos;</l>
+            <l>libertad a Lisandro cuando menos.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Sí: lo juro por ti: jamás Adrasto</l>
+            <l>ha faltado a tan grato juramento:</l>
+            <l>será completa la venganza mía;</l>
+            <l>y, porque sea tal, un breve tiempo</l>
+            <l>sofocaré en mi pecho los enojos.</l>
+            <pb n="454"/>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Pero no os expongáis: de los guerreros</l>
+            <l>dirigid el furor en la batalla,</l>
+            <l>mas no los precedáis. ¡Oh, Dios! Si pierdo…</l>
+            <l>¡Ah! ¡quién os diera ahora los soldados</l>
+            <l>que en ese mismo campo perecieron,</l>
+            <l>sosteniendo la causa de mi esposo</l>
+            <l>y vengarlo en su muerte no pudieron!</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Pocos me restan, pero son valientes;</l>
+            <l>y yo soy padre de Argia.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Y habéis vuelto</l>
+            <l>sobre la grande Tebas sin la fuerza</l>
+            <l>necesaria a domarla? Señor, tiemblo</l>
+            <l>por vuestra suerte y la de mi hijo. ¿Acaso</l>
+            <l>ha decretado en su furor el cielo</l>
+            <l>que mi esposo, y mi padre, y mi Lisandro</l>
+            <l>de una misma venganza en corto tiempo</l>
+            <l>víctimas han de ser? ¿Y yo infelice</l>
+            <l>lo habré de ver, sin perecer primero?</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>No temas, hija mía, no hay tirano</l>
+            <l>que no se labre él mismo su escarmiento,</l>
+            <l>y Creón ya ha llenado la medida</l>
+            <l>que tiene la paciencia de los pueblos.</l>
+            <l>Los feroces ministros de sus crímenes</l>
+            <l>no bastan en el trono a sostenerlo;</l>
+            <l>y…</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Qué esperáis? En los primeros pasos</l>
+            <l>está de su reinado, y todos ellos</l>
+            <l>Creón con el terror y con la sangre</l>
+            <l>ha sabido marcar. Quizá en el pueblo</l>
+            <l>ninguno lo ama, pero todos tiemblan.</l>
+            <pb n="455"/>
+            <l>Sus tropas han llegado hasta el extremo</l>
+            <l>de la licencia ya; y él les permite,</l>
+            <l>como sean feroces, cuanto exceso</l>
+            <l>la rabia militar cometer puede</l>
+            <l>contra los ciudadanos indefensos.</l>
+            <l>El soldado de Tebas es un tigre</l>
+            <l>que no se harta de sangre.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Muchos de ellos</l>
+            <l>detestan a Creón. De Periandro</l>
+            <l>con la legión irresistible cuento;</l>
+            <l>y con él combinados de antemano</l>
+            <l>están todos mis planes. En mi reino</l>
+            <l>sus cartas recibí por mis enviados;</l>
+            <l>y anoche mismo, que cubrió los puestos</l>
+            <l>avanzados del muro, fue a mi campo,</l>
+            <l>y convino conmigo en cuáles medios</l>
+            <l>se debían emplear, si no pasaba</l>
+            <l>Creón por mis propuestas. Los proyectos</l>
+            <l>de Periandro se ignoran por los viles;</l>
+            <l>y, como su valor es manifiesto,</l>
+            <l>allí lo ocupan donde el riesgo es grande.</l>
+            <l>Su legión le obedece con respeto,</l>
+            <l>tiene muchos parciales decididos,</l>
+            <l>y es justamente amado por el pueblo.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Tenéis, señor, confianza?</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¿Has olvidado</l>
+            <l>cuánto amó a Polinicio ese guerrero,</l>
+            <l>y el tiempo que ha que cauteloso piensa</l>
+            <l>en librar a su patria de un perverso?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Bien lo recuerdo. Pero yo he temido</l>
+            <l>que, viciado también con el ejemplo</l>
+            <l>del cruel Eurimedón, y…</l>
+            <pb n="456"/>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Alguno viene,</l>
+            <l>¡Hija mía, firmeza! Este secreto</l>
+            <l>ya sabes lo que vale. Mis fatigas</l>
+            <l>al lado tuyo olvidaré bien presto.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VIII</head>
+          <stage>CREÓN, ADRASTO, ARGIA, EURIMEDÓN</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Sí las olvidaréis. La paz, Adrasto,</l>
+            <l>cuando la consolida el himeneo…</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Si por mostrar confianza a quien debiera</l>
+            <l>no mostrar más que odios y recelos</l>
+            <l>no hubiera entrado desarmado en Tebas,</l>
+            <l>ya hubiese contestado con mi acero.</l>
+            <l>Mas vuestro triunfo es corto; preparaos</l>
+            <l>que otro sol ya no alumbra tanto exceso.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Padre mío! ¿Qué hacéis?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+
+            <stage>A Adrasto</stage>
+            <l>En este instante</l>
+            <l>pudiera daros muerte, mas la dejo</l>
+            <l>para cuando me sea más gloriosa.</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Creón no tiene gloria: sólo el miedo</l>
+            <l>es capaz de impedirle los delitos.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Eurimedón, conduce en el momento</l>
+            <l>a ese insultante rey fuera del muro,</l>
+            <l>y vuelva su hija a su penoso encierro:</l>
+            <l>entrégala a Agenor.</l>
+            <pb n="457"/>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>Ella y el mundo</l>
+            <l>se librarán de vos: yo lo prometo.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA IX</head>
+          <stage>CREÓN (solo)</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Y soy Creón, y sufro? ¿O es destino</l>
+            <l>que, cuando en igual sed estoy ardiendo</l>
+            <l>de venganza y de mando, nunca, nunca</l>
+            <l>pueda llegar a verme satisfecho?</l>
+            <l>La suerte me presenta en mi palacio</l>
+            <l>a mi enemigo, solo e indefenso;</l>
+            <l>me insulta, me desprecia; y con su hija</l>
+            <l>lo entretiene mi astucia, mientras vuelo</l>
+            <l>a mandarle una muerte inevitable,</l>
+            <l>¿y destrozados mis designios veo?</l>
+            <l>Mi ambición pone freno a mi venganza.</l>
+            <l>Eurimedón, Periandro, el fuerte Ismenio,</l>
+            <l>mis mejores amigos, han salvado</l>
+            <l>a Adrasto de la muerte, y sus consejos</l>
+            <l>mi implacable furor han retenido.</l>
+            <l>¿Con que es preciso ya? ¿Debo vencerlo,</l>
+            <l>si lo quiero perder, sin yo perderme?</l>
+            <l>Pero ¿por qué vencer? Menos expuesto</l>
+            <l>era inmolarlo aquí: para un contrario</l>
+            <l>son el valor o el dolo iguales medios. <note
+                ana="Dolus an virtu; quis in hoste requirat?-Virgilio">(1)</note></l>
+            <l>¿Y quién me ha detenido? Los temores</l>
+            <l>de irritar más y más a todo el pueblo,</l>
+            <l>y llenar mi venganza sin que el trono</l>
+            <l>se pudiese afianzar al mismo tiempo.</l>
+            <l>Sí, Creón, ya la guerra es necesaria;</l>
+            <l>y después de triunfar, ¡oh! ¡cuál me vengo</l>
+            <l>del pueblo, de Argia, de su padre, y su hijo!</l>
+            <l>¡Correr más ríos de la sangre veo</l>
+            <l>debida a mi venganza, que de toda</l>
+            <l>cuanta derramarán tantos guerreros!</l>
+          </sp>
+          <trailer>Fin del Acto Tercero</trailer>
+        </div>
+      </div>
+      <pb n="458"/>
+      <div type="act">
+        <head>ACTO CUARTO</head>
+        <div type="scene">
+          <head>ESCENA I</head>
+          <stage>CREÓN, EURIMEDÓN</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Ha llegado a su campo?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Hasta muy cerca</l>
+            <l>le acompañé yo mismo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Y qué te ha dicho?</l>
+            <l>¿Se prepara muy pronto a acometernos?</l>
+            <l>¿Sus soldados serán tan atrevidos,</l>
+            <l>que vengan a estrellarse contra el muro,</l>
+            <l>a hallar inevitable su exterminio?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Nada me ha hablado Adrasto: en su semblante</l>
+            <l>se pintaba el furor: a recibirlo</l>
+            <l>corto espacio sus jefes se avanzaron,</l>
+            <l>y desde allí me despidió.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Destino</l>
+            <l>has dado ya a mi tropa?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>En las murallas,</l>
+            <l>en orden de defensa divididos,</l>
+            <pb n="459"/>
+            <l>quedan los cuerpos todos, y Periandro</l>
+            <l>por las calles y plazas repartidos,</l>
+            <l>tiene ya diestramente los soldados</l>
+            <l>que sobre el pueblo velan.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Ay, amigo!</l>
+            <l>¡Ojalá que Creón no se arrepienta</l>
+            <l>de haber una sola vez consentido</l>
+            <l>en no derramar sangre, y de las manos</l>
+            <l>permitir escaparse a un enemigo!</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Si Eurimedón en vos sólo mirara</l>
+            <l>al monarca de Tebas, a los filos</l>
+            <l>de mi espada cayeran sin examen</l>
+            <l>las cabezas de todos los proscriptos</l>
+            <l>que señalaseis vos; mas mi respeto</l>
+            <l>es igual por mi rey a mi cariño.</l>
+            <l>Si amáis o aborrecéis, amo, aborrezco,</l>
+            <l>vuestros impulsos, como propios, sigo,</l>
+            <l>y con que vos queráis que corra sangre,</l>
+            <l>el hacerla correr es deber mío:</l>
+            <l>pero también lo es correspondernos</l>
+            <l>tantos favores de que usáis conmigo.</l>
+            <l>Y pagar la amistad con que me honro,</l>
+            <l>y de que habéis querido hallarme digno.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>El que me favorezca mis venganzas</l>
+            <l>no me sabe querer.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Y el advertido</l>
+            <l>que, por favorecerlas, las dilata,</l>
+            <l>conciliando, señor, a un tiempo mismo</l>
+            <l>vuestros justos furores, y el deseo</l>
+            <l>más justo, de afianzar vuestro dominio,</l>
+            <l>¿ese no sabe amaros?</l>
+          </sp>
+          <pb n="460"/>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Me avergüenzo</l>
+            <l>de que otro sea quien me indique arbitrios</l>
+            <l>de conciliar mis intereses todos.</l>
+            <l>¿O crees tú que Creón aún no ha aprendido</l>
+            <l>el arte de reinar y de vengarse?</l>
+            <l>Para subir al trono me ha valido</l>
+            <l>de todas sus lecciones, ¿y olvidarlas</l>
+            <l>pudiera, cuando más las necesito?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Permitidme que os diga que los puestos</l>
+            <l>de vasallo y de rey son muy distintos.</l>
+            <l>El que obedece y a mandar aspira,</l>
+            <l>su interés, sus recursos, sus peligros</l>
+            <l>ve con sus propios ojos; y detiene</l>
+            <l>o apresura sus pasos a su arbitrio,</l>
+            <l>según las circunstancias que le cercan,</l>
+            <l>y pesa y examina por sí mismo.</l>
+            <l>Pero, llegando al trono, ya no puede</l>
+            <l>ni ver, ni oír, ni dar a sus designios</l>
+            <l>un impulso feliz, sino por medio</l>
+            <l>de los leales que tenga a su servicio.</l>
+            <l>Al resplandor de la diadema brilla</l>
+            <l>la majestad no más; y desde el sitio</l>
+            <l>elevado del solio, las miradas</l>
+            <l>de los reyes no bajan al abismo</l>
+            <l>de humillación y quejas, en que yace</l>
+            <l>el pueblo infame justamente hundido,</l>
+            <l>y del que lucha por salir.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Y el pueblo</l>
+            <l>es algo ante su rey? ¿O su destino</l>
+            <l>ya no es callar y obedecer?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Del trono</l>
+            <l>siempre fueron los pueblos enemigos</l>
+            <l>Su gloria es humillar a los monarcas.</l>
+          </sp>
+          <pb n="461"/>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Y su padre cuál es?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>El que ha tenido</l>
+            <l>en todo tiempo el débil contra el fuerte;</l>
+            <l>el dolo, la traición, el artificio.</l>
+            <l>Con tal que tienda a destrozar el cetro,</l>
+            <l>a todo se da el nombre de heroísmo.</l>
+            <l>Estas armas, señor, no son temibles</l>
+            <l>para el que sabe prevenir sus tiros;</l>
+            <l>pero es preciso prevenirlos. Llega</l>
+            <l>de repente entre riesgos y conflictos</l>
+            <l>a vacilar el trono; ¿y sus columnas</l>
+            <l>no serán del monarca los amigos?</l>
+            <l>¿No amarán a su rey los que se atrevan</l>
+            <l>a mostrarle veraces el camino</l>
+            <l>que es preciso seguir, y que no puede</l>
+            <l>por sí solo, aunque quiera, descubrirlo?</l>
+            <l>Os lo digo, señor, no porque intente</l>
+            <l>ni pueda contrariar vuestros designios,</l>
+            <l>ni porque me colméis de más favores</l>
+            <l>que los que mi esperanza han excedido:</l>
+            <l>pero os quiero hacer ver en mis consejos</l>
+            <l>vuestro bien sólo, y nada más he visto,</l>
+            <l>y que, si a darlos me atreví, os dignasteis</l>
+            <l>vos mismo a vuestro súbdito pedirlos.</l>
+            <l>Adrasto, Argia, Lisandro y una parte</l>
+            <l>de ese pueblo insolente y atrevido</l>
+            <l>perecer deben, si los planes vuestros</l>
+            <l>ciegos no abrazan; pero ya es preciso,</l>
+            <l>si el primero resiste, en un combate</l>
+            <l>vencerlo, y, en el acto de vencido,</l>
+            <l>sacrificarlo a una venganza justa;</l>
+            <l>que todo es excusable o permitido,</l>
+            <l>y el furor de la guerra todo cubre.</l>
+            <l>Y, pereciendo Adrasto, Argia, su hijo,</l>
+            <l>¿dónde van a encontrar libertadores?</l>
+            <pb n="462"/>
+            <l>¿Dónde un apoyo el pueblo? ¿Sus gemidos</l>
+            <l>habrá quien escuche? Los clamores</l>
+            <l>que se puedan alzar, serán seguidos</l>
+            <l>del seguro exterminio de rebeldes;</l>
+            <l>y una sola sospecha, un leve indicio,</l>
+            <l>que siempre para un rey debe ser crimen,</l>
+            <l>se borrará con sangre. Os lo repito;</l>
+            <l>no tendréis más que hablar, y en el momento</l>
+            <l>mi sola espada os ahorrará suplicios.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Te escuché, Eurimedón. Un rey a veces</l>
+            <l>nada es menos que rey: su poderío</l>
+            <l>es un nombre y no más, porque no alcanza</l>
+            <l>a do van sus deseos. Mas ¡qué digo!</l>
+            <l>si todo me abandona, yo me basto</l>
+            <l>mientras hierva en furor el pecho mío.</l>
+            <l>¡Amigo! sí; tú lo eres. ¿Me respondes</l>
+            <l>que triunfarás de Adrasto? ¿Serás digno</l>
+            <l>de ser vasallo de Creón un día?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Desde el tiempo de Eteocle y Polinicio</l>
+            <l>Adrasto me conoce, y bien le consta</l>
+            <l>cuanto hice yo por vos. Por él vencido,</l>
+            <l>mi cierto galardón será la muerte.</l>
+            <l>Triunfaré o moriré.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Triunfar, amigo,</l>
+            <l>triunfar, y nada más: ese es el medio</l>
+            <l>de mandar y vengarme; tú lo has dicho;</l>
+            <l>y Creón sin venganza no es monarca,</l>
+            <l>y sin el cetro no es Creón.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Yo mismo</l>
+            <l>debí haber muerto a Adrasto en esta sala,</l>
+            <pb n="463"/>
+            <l>Cuando a insultaros indefenso vino,</l>
+            <l>y dobló sus insultos, desechando</l>
+            <l>tratados con que honrarlo habéis querido:</l>
+            <l>pero, ya lo sabéis, su muerte entonces,</l>
+            <l>si servía al furor, a un precipicio</l>
+            <l>el trono despeñaba. El pueblo a oleadas</l>
+            <l>se agolpó a este palacio, y a impedirlo,</l>
+            <l>no bastaron las fuerzas de Periandro;</l>
+            <l>bien que de la violencia usar no quiso;</l>
+            <l>porque en la muchedumbre aún no se oían</l>
+            <l>de sedición los clamorosos gritos.</l>
+            <l>Mas no se disipó tanto tumulto</l>
+            <l>hasta el instante en que salió conmigo</l>
+            <l>Adrasto de este sitio, llamó entonces</l>
+            <l>Periandro de su tropa los caudillos,</l>
+            <l>y logró con astucia y con prudencia</l>
+            <l>disolver las reuniones. Este indicio,</l>
+            <l>y otros que ha dado el insolente pueblo,</l>
+            <l>os deben persuadir que no hay partido</l>
+            <l>que se pueda tomar para acallarlo,</l>
+            <l>fuera del de vencer al enemigo;</l>
+            <l>y aun éste debe emplearse cuando falten</l>
+            <l>al rey de Tebas los demás arbitrios.</l>
+            <l>El tiempo urge, señor; Adrasto puede,</l>
+            <l>antes que el sol se ponga, combatirnos,</l>
+            <l>y excitar los furores populares,</l>
+            <l>que, mientras no hay alarma, están dormidos,</l>
+            <l>y tal vez hay peligro en despertarlos.</l>
+            <l>Hay quien muera por vos, siendo preciso;</l>
+            <l>mas, si podemos evitar el choque,</l>
+            <l>lo debemos hacer; y yo imagino</l>
+            <l>que sólo Argia a su padre quitar puede</l>
+            <l>las armas de la mano; que a su hijo</l>
+            <l>mejor querrá mirar a vuestro lado</l>
+            <l>que no envuelto en su sangre; y que el rey mismo,</l>
+            <l>si sabe que los cuellos amenaza</l>
+            <l>de Lisandro y de Argia un solo filo,</l>
+            <l>para el que un solo instante es suficiente,</l>
+            <l>frenará sus furores vengativos.</l>
+            <pb n="464"/>
+            <l>Ofreced nuevamente vuestra mano</l>
+            <l>a esa flaca mujer, que ha resistido</l>
+            <l>sólo porque confía: amenazadla,</l>
+            <l>quitadla la esperanza, y…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+
+            <stage>Como dudando</stage>
+            <l>Argia… su hijo…</l>
+            <l>Ya sé lo que he de hacer. Por precaverme</l>
+            <l>y en un último lance que el destino</l>
+            <l>no me quite siquiera mi venganza,</l>
+            <l>haz que sea Lisandro conducido</l>
+            <l>a la mazmorra oculta, donde han muerto</l>
+            <l>mis anteriores víctimas. ¡Sigilo,</l>
+            <l>y guardias escogidas! Que si llega</l>
+            <l>el trance necesario, un asesino</l>
+            <l>de él me responderá, sin que siquiera</l>
+            <l>pueda escucharse su infantil gemido.</l>
+            <l>Después vuela a los muros: yo con Argia</l>
+            <l>estaré prontamente.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Y yo a serviros</l>
+            <l>me preparo de modo, que este día</l>
+            <l>conozcáis lo que os amo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Parte, amigo.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA II</head>
+          <stage>CREÓN (solo)</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Triste fatalidad! ¡Dioses supremos!</l>
+            <l>¿Qué corazón es éste que ha cabido</l>
+            <l>a Creón por desgracia? O sois injustos,</l>
+            <l>o debéis proteger unos designios</l>
+            <l>que son necesidad de mi existencia.</l>
+            <l>¿Por qué he nacido así? ¿Por qué respiro</l>
+            <l>ambición y venganza, y nada sacia</l>
+            <pb n="465"/>
+            <l>mi abrasadora sed? ¿Por qué no abrigo</l>
+            <l>un corazón más vil cuanto más tierno?</l>
+            <l>Viviera humilde, más quizá tranquilo.</l>
+            <l>¡Y qué es esto! ¡Qué digo! ¿Tal deseo</l>
+            <l>concebir un instante habré podido,</l>
+            <l>sin que su sola idea me confunda,</l>
+            <l>y sin avergonzarme de mí mismo?</l>
+            <l>¿Soy hecho yo para vivir humilde?</l>
+            <l>¿Soy hecho para amar? ¡Oh! su destino</l>
+            <l>ningún mortal violenta: giman todos,</l>
+            <l>y yo perezca, pero siga el mío.</l>
+            <l>Mas ¿por qué perecer, si aún es posible</l>
+            <l>triunfar sin exponerme? Mis oídos</l>
+            <l>no escucharán de Argia más desprecios,</l>
+            <l>porque tengo en mis manos el arbitrio</l>
+            <l>de reducirla al punto a ser mi esposa.</l>
+            <l>¿Y el pueblo? ¿Adrasto? ¡Qué! ¿Por qué vacilo</l>
+            <l>entre el temor y la esperanza? Al cabo</l>
+            <l>en este horrible día he conocido</l>
+            <l>que también tiembla un rey; pero ya es tarde</l>
+            <l>para retrogradar en el camino</l>
+            <l>que un genio de furor me ha señalado.</l>
+            <l>Un muro han levantado mis delitos</l>
+            <l>que queda tras de mí; que se interpone</l>
+            <l>entre Creón y la virtud. ¡Delitos!</l>
+            <l>¡Virtudes! ¡Oh! ¿Qué son? Vanas fantasmas</l>
+            <l>que a su arbitrio inventaron los caprichos</l>
+            <l>de los que no han podido hacerse grandes</l>
+            <l>y arrastran viles un vivir mezquino.</l>
+            <l>Yo de otra esfera soy, y mis virtudes</l>
+            <l>son las de todo rey, cuando ha aprendido</l>
+            <l>el arte indispensable al que se sienta</l>
+            <l>en el lugar que yo. Mas ¿qué delirios</l>
+            <l>ofuscan mi razón? Siento, y extraño</l>
+            <l>sentir estos temores repentinos.</l>
+            <l>¡Qué! ¿Ya no soy Creón? Argia, sí, Argia</l>
+            <l>lo dijo anoche en este mismo sitio;</l>
+            <l>ella lo dijo ¡oh , Dios! y allí la sombra,</l>
+            <l>allí la sombra está de Polinicio,</l>
+            <pb n="466"/>
+            <l>y brota negra sangre la honda llaga</l>
+            <l>que le abrió de su hermano el cruel cuchillo.</l>
+            <l>¡Espectro rencoroso! No me culpes</l>
+            <l>porque yo preparé tal fratricidio…</l>
+            <l>El trono… tú moriste por el trono;</l>
+            <l>¿y es culpa hacer morir por conseguirlo?</l>
+            <l>¡Oh! no me muestres los deshechos miembros</l>
+            <l>de un cadáver horrible y corrompido</l>
+            <l>en medio de los campos sin sepulcro.</l>
+            <l>¿La venganza contigo a los abismos</l>
+            <l>de la tumba ha bajado? ¿Qué me quieres?</l>
+            <l>¿Qué al silencio eternal baje contigo?</l>
+            <l>Mas, Creón, ¿dónde estás? ¿y por qué tiemblas?</l>
+            <l>¿Tendrá en ti la ilusión el poderío</l>
+            <l>que tiene sobre el débil? No. En tu acuerdo</l>
+            <l>vuelve, Creón, y caiga en el olvido</l>
+            <l>tu temor pasajero. ¿Y estoy solo?</l>
+            <l>Sí, solo estoy. Al fin nadie me ha visto</l>
+            <l>temblar. Cuál fuera la venganza mía</l>
+            <l>si hubiera aquí de mi terror testigos.</l>
+            <l>Voy a buscar a Argia, y ensañado</l>
+            <l>cual nunca llevo el pecho.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <stage>Adentro</stage>
+            <l>No, asesinos</l>
+            <l>no podréis detenerme.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Argia es? ¿Qué es esto?</l>
+            <l>Dejadla entrar, soldados.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>CREÓN, ARGIA</stage>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <stage>Sale y se arroja precipitadamente a los pies de Creón.</stage>
+            <l>Los oidos</l>
+            <l>Abrid, señor, al cabo a la plegaria</l>
+            <l>de una mísera madre: mis suspiros,</l>
+            <pb n="467"/>
+            <l>mis lágrimas amargas, vuestro pecho</l>
+            <l>por un instante tomarán benigno.</l>
+            <l>Yo lo espero, Creón. A vuestras plantas</l>
+            <l>a Argia no miréis, mirad os pido</l>
+            <l>la desolada madre de Lisandro.</l>
+            <l>¿Qué habéis hecho, señor? ¿Dónde está mi hijo?</l>
+            <l>Respondedme. ¿Calláis? ¡Oh, Dios! Yo misma</l>
+            <l>arrebatar lo vi por los impíos,</l>
+            <l>pasarlo por delante de mi estancia,</l>
+            <l>al cielo alzar sus ayes doloridos,</l>
+            <l>tender a mí las inocentes palmas,</l>
+            <l>y ni valerlo ni valerme. Un niño</l>
+            <l>¿dónde por los soldados más feroces</l>
+            <l>entre horrenda algazara es conducido?</l>
+            <l>¿Vos lo habéis ordenado? No es posible.</l>
+            <l>¿Qué habéis hecho, señor? ¿Dónde está mi hijo?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Lo que no he ordenado es que atrevida</l>
+            <l>vinierais hasta aquí sin mi permiso.</l>
+            <l>Habéis violado la prisión. ¿Qué guardia</l>
+            <l>ha sido la capaz de consentirlo?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <stage>Levantándose del suelo.</stage>
+            <l>Ninguna. Mis dolores, mis transportes,</l>
+            <l>mi desesperación y mi cariño</l>
+            <l>en medio de las guardias me lanzaron,</l>
+            <l>cuando vi que Lisandro… ¿Y es delito</l>
+            <l>haberlas en su furia atropellado,</l>
+            <l>y volar desolada hasta este sitio?</l>
+            <l>Sin darme pronta y dolorosa muerte,</l>
+            <l>¿qué soldados bastaran a impedirlo?</l>
+            <l>Una madre…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Una madre tanto exceso</l>
+            <l>no cometiera impune: mas la he visto</l>
+            <l>arrojarse a mis pies, llorar, rogarme,</l>
+            <l>y esta disculpa solamente admito.</l>
+          </sp>
+          <pb n="468"/>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Esta es la primera vez que mis rodillas</l>
+            <l>ante el poder se doblan. Sin mi hijo,</l>
+            <l>¿quién lo viera jamás? Pero ¿a qué parte,</l>
+            <l>señor, lo arrebataron? ¿Está vivo?</l>
+            <l>¿Hará falta también al poder vuestro</l>
+            <l>escuchar de una madre los gemidos?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+
+            <stage>Con cierto aire de ironía feroz.</stage>
+            <l>¿Y Adrasto? ¿Y el ejército que viene</l>
+            <l>a librar a Lisandro, ya han pedido</l>
+            <l>el poder de atajar el llanto vuestro?</l>
+            <l>No llorabais anoche. El enemigo,</l>
+            <l>señora, es poderoso; y ya mi trono</l>
+            <l>bambolea en el borde de un abismo.</l>
+            <l>¿No lo habéis dicho vos? ¿Vuestra esperanza</l>
+            <l>y vuestro orgullo quedan desmentidos</l>
+            <l>en un solo momento? No. ¿Sois Argia,</l>
+            <l>y podéis humillaros? ¿O habéis visto</l>
+            <l>que, a pesar de Argos, y a pesar del mundo,</l>
+            <l>os puedo hacer temblar? ¿Habéis sentido</l>
+            <l>que, si al primer ensayo de mi fueria,</l>
+            <l>os hago estremecer por vuestro hijo,</l>
+            <l>puedo en lo que me resta de este día</l>
+            <l>a tal punto llevar vuestro suplicio,</l>
+            <l>que ni llorar podáis?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Oh! Sí: gozaos</l>
+            <l>al ver mi confusión. Ya he conocido</l>
+            <l>lo que podéis y lo que puede Adrasto;</l>
+            <l>ya no soy más que madre, y mi destino</l>
+            <l>es llorar como tal. Un solo instante</l>
+            <l>basta para llenar vuestros designios,</l>
+            <l>si son designios de venganza y muerte;</l>
+            <l>y, aun cuando triunfe, no podrá impedirlo</l>
+            <l>el que no sabe el tiempo que le baste</l>
+            <pb n="469"/>
+            <l>para pelear, vencer, y redimirnos.</l>
+            <l>Sí, Creón; lo confieso: de vos sólo</l>
+            <l>espera su salud el hijo mío:</l>
+            <l>de vos sólo…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>El momento que se pierda</l>
+            <l>para vos, nada más, será perdido.</l>
+            <l>Aprovechad el tiempo; poco os falta;</l>
+            <l>en Lisandro pensad, y decidíos.</l>
+            <l>Antes que ataque Adrasto nuestros muros,</l>
+            <l>hasta el pie del altar venid conmigo;</l>
+            <l>y aparentando que cedéis gustosa,</l>
+            <l>y no como quien marcha a un sacrificio,</l>
+            <l>entrad al templo, y aceptad mi mano.</l>
+            <l>Después al pueblo vuestro labio mismo</l>
+            <l>dirá que vuestro hijo es heredero</l>
+            <l>del trono de Creón; que habéis querido</l>
+            <l>de grado ser mi esposa; y que los Dioses</l>
+            <l>bendicen esta unión, y dan propicios</l>
+            <l>la paz a Tebas. Al instante a Adrasto</l>
+            <l>escribiréis también lo que yo mismo</l>
+            <l>sabré dictar, y Eurimedón que parta</l>
+            <l>a llevar al rey de Argos vuestro aviso.</l>
+            <l>Esto es todo, señora; no hay más tiempo</l>
+            <l>que el que se vuela ya. Vuestros suspiros,</l>
+            <l>vuestro llanto y dolor no son del caso.</l>
+            <l>El momento en que avance el enemigo,</l>
+            <l>es el momento en que este suelo tiña</l>
+            <l>la sangre de Lisandro: prevenidlo:</l>
+            <l>sólo de vos depende: no hay más medio:</l>
+            <l>o salvad o perded a vuestro hijo.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Oh, Dios! ¡Creón! ¡Oh, Dios! Tomad mi sangre:</l>
+            <l>saciaos, señor, con ella: agradecido</l>
+            <l>mi pecho quedará.</l>
+          </sp>
+          <pb n="470"/>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No. Vuestra sangre</l>
+            <l>ha de correr también; pero es preciso</l>
+            <l>que ella sea la última, y que llene</l>
+            <l>de mi venganza hasta el menor vacío.</l>
+            <l>Después que, a vuestra vista, entre mil ansias,</l>
+            <l>y entre el horror de bárbaros suplicios,</l>
+            <l>Lisandro exhale el postrimer aliento;</l>
+            <l>después que de su madre los oídos</l>
+            <l>sus moribundos ayes despedacen,</l>
+            <l>y hagan que larga muerte en mil martirios</l>
+            <l>a pausas baje a las entrañas vuestras,</l>
+            <l>entonces moriréis.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <stage>Dirá la expresión <emph rend="italic">¡hijo!</emph> con el grito penetrante del
+              dolor, y diciendo yo expiro, caerá desmayada sobre un sofá.</stage>
+            <l>¡Hijo! Yo expiro.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+
+            <stage>Creón dirá lo que sigue contemplando a Argia, tocándola, y expresando los
+              sentimientos que indican los versos, hasta que viendo que Eurimedón entra a la escena,
+              le dirige la palabra.</stage>
+            <l>¡Cuán vehemente en su pecho es el impulso</l>
+            <l>del amor maternal! Este deliquio</l>
+            <l>la vino a sorprender sin decidirse.</l>
+            <l>Él será pasajero. De su hijo</l>
+            <l>preferirá la vida, y a mis planes</l>
+            <l>servirá en adelante. ¡Qué suplicio</l>
+            <l>es esta indecisión en que he quedado!</l>
+            <l>A nada me resuelvo. Mis designios</l>
+            <l>se frustrarán sin duda, si es que puede</l>
+            <l>sólo el dolor matarla. Pero vivo</l>
+            <l>siento latir su pecho, y aún respira.</l>
+            <l>Volviendo del letargo el triunfo es mío.</l>
+            <l>Mírala, Eurimedón.</l>
+          </sp>
+        </div>
+        <pb n="471"/>
+        <div type="scene">
+          <head>ESCENA IV</head>
+          <stage>CREÓN, ARGIA, EURIMEDÓN</stage>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>¡Qué! ¿Está ya muerta?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No; pero apenas supo que los filos</l>
+            <l>de una espada, ya pronta a dar el golpe,</l>
+            <l>amagan a Lisandro, si conmigo</l>
+            <l>no la liga himeneo, anonadada</l>
+            <l>al peso del dolor no ha resistido,</l>
+            <l>y está sin sentimiento. ¿No la miras?</l>
+            <l>¿Qué te dice su rostro?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Si ha podido</l>
+            <l>el solo amago tanto, no es posible</l>
+            <l>que resista la prueba: preveníos</l>
+            <l>a ser esposo de Argia.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Y aún es tiempo?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Recién mueve su campo el enemigo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Pues que muera Lisandro, y a la madre</l>
+            <l>el corazón traspásale ahora mismo.</l>
+            <l>Hunde mil veces mi puñal. ¿Qué tardas?</l>
+            <l>No: espera a que ella vuelva, y muera el hijo:</l>
+            <l>parte a sacrificarlo; y, cuando tornes,</l>
+            <l>que ya no es madre le diré yo mismo.</l>
+            <l>Mas no: trae a Lisandro: aquí perezca;</l>
+            <l>llegó la hora de sangre; corre, amigo;</l>
+            <l>y cuando venga Adrasto por su hija,</l>
+            <l>respóndele que su hija ya ha vivido.</l>
+          </sp>
+          <pb n="472"/>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <stage>Mientras dice Creón los dos o tres últimos versos anteriores, Argia irá volviendo
+              pausadamente de su letargo; y hablará, después de haberse acercado a los otros
+              actores.</stage>
+            <l>¿Adrasto?... ¿Mi hijo?... ¿Qué decís? ¿Aún vive?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Argia, silencio y preparaos.</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Vencidos</l>
+            <l>aún no estamos, señor; venid al muro:</l>
+            <l>recién está el combate prevenido:</l>
+            <l>si Argia lo impide, vivirá dichosa:</l>
+            <l>si de Adrasto triunfamos, él, cautivo</l>
+            <l>con la hija suya, doblarán el triunfo;</l>
+            <l>y si la suerte inclina sus caprichos</l>
+            <l>a favor de ese rey, Argia y Lisandro</l>
+            <l>mueren en un momento.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <stage>A Argia</stage>
+            <l>¿Habéis oído?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Entre el palacio, ¿quién podrá librarlos?</l>
+            <l>Yo ya lo prometí, sabré cumplirlo.</l>
+            <l>Derramemos la sangre, pero en tiempo.</l>
+            <l>La sangre es un caudal que, si es preciso</l>
+            <l>al interés, se economiza; y luego</l>
+            <l>llega la hora, y se derrama a ríos.</l>
+            <l>No disimuléis más: sepa la altiva</l>
+            <l>que himeneo o la muerte es el destino</l>
+            <l>a que está reservada: ¡y cuáles muertes!</l>
+            <l>El trono así lo exige.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <stage>A Argia</stage>
+            <l>Hasta este sitio</l>
+            <l>pronto viene Agenor a vuestro encierro</l>
+            <l>retornaréis con él.</l>
+          </sp>
+          <pb n="473"/>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Y el hijo mío?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Consentid, o muy pronto no sois madre:</l>
+            <l>esta es la última vez que lo repito.</l>
+            <l>Vamos al muro.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA V</head>
+          <stage>ARGIA (sola)</stage>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Soberanos Dioses!</l>
+            <l>¡Qué poco poderoso es el auxilio</l>
+            <l>que dais a la inocencia! ¡Cómo triunfan</l>
+            <l>con vuestra tolerancia los delitos!</l>
+            <l>¿Para quién, Dioses, reserváis el rayo?</l>
+            <l>¡Para quién! Para mí, para mi hijo.</l>
+            <l>¡Qué! su vida o su muerte está en mi mano,</l>
+            <l>y siendo yo su madre, ¿habré podido</l>
+            <l>vacilar un momento? Vuelve, monstruo,</l>
+            <l>vuelve, Creón, y admite el sacrificio</l>
+            <l>que hago ya a tu ambición y tus furores:</l>
+            <l>seré tu esposa… ¡Dios! ¡Manes queridos</l>
+            <l>de Polinicio! ¿Me escucháis? No: nunca</l>
+            <l>la que supo adorarte cuando vivo,</l>
+            <l>y la que, aun muerto, tu memoria adora,</l>
+            <l>jamás, jamás tu Argia, esposo mío,</l>
+            <l>de tal infamia cubrirá tu llama,</l>
+            <l>ni en negros humos ahogará su brillo.</l>
+            <l>¡Yo esposa de Creón! Perdona, amado,</l>
+            <l>perdóname otra vez: mas tu querido,</l>
+            <l>tu adorado Lisandro… ¿No te acuerdas,</l>
+            <l>cuando de Argos partiste, al despedirnos,</l>
+            <l>cuánto me hablaste de él? ¡Cielo! ¿Y ahora</l>
+            <l>soy yo que lo abandono a su suplicio?</l>
+            <l>¿Así aguardo el tesoro que confiaste</l>
+            <l>en tu postrer abrazo a mi cariño?</l>
+            <pb n="474"/>
+            <l>¡Deidades del Olimpo, o del Averno!</l>
+            <l>¿Cuáles me protegéis? ¿por qué camino</l>
+            <l>de mi dolor salir? Argia ¿no escuchas</l>
+            <l>los moribundos ayes de tu hijo?</l>
+            <l>¡Madre! sí: ¡Madre! en su agonía grita,</l>
+            <l>y ya no hay madre para él.</l>
+            <stage>Se recostará a un bastidor abatidísima y como insensible. Mientras dura la larga
+              pausa que debe hacer, se presenta en la escena Agenor, se acerca a Argia, y ésta,
+              cuando lo siente, vuelve en sí, le dirige los dos primeros versos que siguen, y al fin
+              del acto parte con él.</stage>
+            <l>¡Qué miro!</l>
+            <l>Ya voy, ministro de furor y muerte.</l>
+            <l>¿A arrebatarme vienes? Ya te sigo,</l>
+            <l>vuela a mi estancia, y con la helada urna,</l>
+            <l>do los restos están de Polinicio,</l>
+            <l>me abrazaré llorando. ¡Pueda en ella</l>
+            <l>de mi antigua esperanza hallar vestigios!</l>
+            <l>Y al consultar, esposo, tus cenizas,</l>
+            <l>dile a tu Argia lo que hará por tu hijo.</l>
+          </sp>
+          <trailer>Fin del Acto Cuarto</trailer>
+        </div>
+      </div>
+      <div type="act">
+        <head>ACTO QUINTO</head>
+        <div type="scene">
+          <head>ESCENA I</head>
+          <stage>CREÓN (Agenor con sus guardias</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No sé qué aterrador presentimiento</l>
+            <l>mi incontrastable corazón agita,</l>
+            <l>desde que vi que Adrasto a las murallas,</l>
+            <l>presidiendo su tropa, se aproxima.</l>
+            <l>El cielo está pesando mi destino,</l>
+            <pb n="475"/>
+            <l>y en muy pocos momentos ya se inclina</l>
+            <l>el inmutable fiel de la balanza</l>
+            <l>al lado de mi gloria o de mi ruina.</l>
+            <l>Aun no empieza el combate. ¡Oh! ¡si evitarlo</l>
+            <l>pudiera yo! ¡Agenor! Haz que te siga</l>
+            <l>Argia hasta este lugar: parte, no tardes;</l>
+            <l>nunca han valido más que en este día</l>
+            <l>los menores instantes.</l>
+            <stage>Se va Agenor. Las guardias quedan en la escena.</stage>
+            <l>O Argia impide</l>
+            <l>este combate horrible, o de mis iras…</l>
+            <l>¡Cielo! ¡Yo despreciado! ¡Yo vencido!</l>
+            <l>¡Qué ansiedad! ¡Ah, Creón! ¿Por qué a tu vista</l>
+            <l>de la honda eternidad se abre la puerta,</l>
+            <l>y esta idea espantosa te horroriza?</l>
+            <l>¿Númenes implacables? ¿Cuál castigo…?</l>
+            <l>Pero no: yo no cedo. Que decida</l>
+            <l>de la guerra a su arbitrio la fortuna,</l>
+            <l>pero nada trastorna el alma mía.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA II</head>
+          <stage>CREÓN, ARGIA, Agenor y las guardias</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Argia, ¿habéis elegido?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Sí.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Mi mano?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Mi muerte.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Moriréis. Mas precedida</l>
+            <l>vuestra muerte será de la del hijo</l>
+            <l>que no queréis salvar. No fuera digna</l>
+            <pb n="476"/>
+            <l>de Creón su venganza, y se perdiera,</l>
+            <l>no muriendo Lisandro a vuestra vista,</l>
+            <l>y no apurando vos hasta las heces</l>
+            <l>el cáliz de su bárbara agonía.</l>
+            <l>Ya os lo he dicho otra vez.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Pero mi sangre</l>
+            <l>no es bastante, Creón? ¿Y qué diría</l>
+            <l>de un rey el universo, si supiera</l>
+            <l>que un niño tierno conmovió sus iras,</l>
+            <l>hasta el extremo de empapar las manos</l>
+            <l>en su sangre inculpada?</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No se cuida</l>
+            <l>Creón de lo que diga el universo:</l>
+            <l>todo su mundo es él. ¿Argia imagina</l>
+            <l>evadirse del golpe que la espera,</l>
+            <l>o que mi alma, al ver lágrimas, vacila?</l>
+            <l>Perdéis llanto y palabras: una sola</l>
+            <l>proferid, y con ella muerte o vida.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Sí, muerte para mí. ¡Creón! No es furia</l>
+            <l>la que hay en vuestro pecho: es la justicia</l>
+            <l>quien lo hace inexorable: mas yo sola</l>
+            <l>al género de muerte más impía</l>
+            <l>debo ser destinada. Yo he venido</l>
+            <l>a Tebas a buscar unas cenizas</l>
+            <l>que insepultas mandasteis que quedaran.</l>
+            <l>Yo, yo soy solamente quien motiva</l>
+            <l>los furores de Adrasto: en esta guerra</l>
+            <l>se ha empeñado no más que por su hija.</l>
+            <l>Yo, yo la viuda soy de Polinicio,</l>
+            <l>y por él os desprecio: y este día</l>
+            <l>de sangre y mortandad, ¿quién lo ha traído?</l>
+            <l>¿Quién es la que se niega a verse unida</l>
+            <l>Al rey de Tebas con estrecho lazo?</l>
+            <pb n="477"/>
+            <l>¿Quién es la que se niega y desestima?</l>
+            <l>Yo sola soy, Creón. ¡Ah! ¡cuántas causas</l>
+            <l>para que justamente a vuestras iras</l>
+            <l>caiga la sola madre! Pero mi hijo,</l>
+            <l>que ni ama ni aborrece todavía,</l>
+            <l>que llora en su desgracia y no la siente,</l>
+            <l>que no sabe si hay tronos: ni otras dichas</l>
+            <l>es capaz de gozar que de su madre</l>
+            <l>los besos, los abrazos, las caricias,</l>
+            <l>¿ese niño inocente es bien que muera?</l>
+            <l>Si me dejáis vivir, aprendería</l>
+            <l>entonces de su madre a aborreceros:</l>
+            <l>matadme y estorbadlo.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>En este día</l>
+            <l>pereceréis los dos, y es corto el tiempo</l>
+            <l>de enseñar y aprender. ¡Qué! ¿Decidida</l>
+            <l>no creéis que está su suerte? Yo conozco</l>
+            <l>que despreciáis la muerte, y atrevida</l>
+            <l>la insultaréis sin duda; y es por eso</l>
+            <l>que debéis lentamente recibirla</l>
+            <l>de Lisandro en persona. Vuestra sangre</l>
+            <l>me vengará de Adrasto, cual me vengo</l>
+            <l>en Lisandro de vos. Si vuestra ruina</l>
+            <l>no me fuera por esto necesaria,</l>
+            <l>os dejara vivir; porque la vida,</l>
+            <l>sin gozar de vuestro hijo, más tormentos</l>
+            <l>os acusaría que la muerte misma.</l>
+            <l>No salvéis a ese niño. ¿Qué le importa</l>
+            <l>la ternura de madre a una heroína</l>
+            <l>que prefiere morir a dar su mano?</l>
+            <l>¡Oh! tanta gloria de una madre es digna.</l>
+            <l>Ciertamente mi mano os envilece.</l>
+            <l>Bien veis que os hago honor.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¿Más abatida</l>
+            <l>más humillada, bárbaro, me quieres?</l>
+            <pb n="478"/>
+            <l>Vuela, vuela, malvado, y asesina</l>
+            <l>con tu execrada mano al niño tierno,</l>
+            <l>que yo amo más porque tu rabia excita:</l>
+            <l>bebe su sangre: arráncale del pecho</l>
+            <l>el débil corazón: mientras palpita</l>
+            <l>gózate con mirarlo: en mil pedazos</l>
+            <l>destrózalo. ¡Ay! ¡Qué más! ¡Cruel! ¡Perdida</l>
+            <l>está ya mi razón! ¡Señor!</l>
+            <stage>Se arroja a los pies de Creón.</stage>
+            <l>La muerte...</l>
+            <l>¡Ah! ¡por piedad, la muerte! Aquí rendida</l>
+            <l>a vuestros pies la pido.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Sed mi esposa,</l>
+            <l>el himeneo la batalla impida,</l>
+            <l>regresen los argianos a su patria,</l>
+            <l>y viviréis los dos.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <stage>Levantándose del suelo.</stage>
+            <l>¡Ah! Las cenizas</l>
+            <l>de Polinicio, que bañó mi llanto,</l>
+            <l>¿por qué no respondieron? ¡Sombra amiga!</l>
+            <l>Sal de los hondos seros de la muerte;</l>
+            <l>llega, y en Tebas a tu esposa mira.</l>
+            <l>Dime ¿por qué te amé? ¿Por qué me hiciste</l>
+            <l>la madre de Lisandro? ¡Arrepentida</l>
+            <l>Argia estará de serlo! No, mi esposo.</l>
+            <l>Mas ¿no escuchas la voz de tu querida?</l>
+            <l>¿No vuelas, Polinicio, a mi socorro?</l>
+            <l>Un bárbaro asesino solicita,</l>
+            <l>por interés de su ambición sin freno,</l>
+            <l>lo que mi amor te dio. Lisandro expira</l>
+            <l>si no se alza tu brazo descarnado,</l>
+            <l>si el dolor de quien vive no da vida</l>
+            <l>a los que, sombras, en la Estigia vagan;</l>
+            <l>si no vienes, en fin. ¡Creón! ¿Soy hija</l>
+            <l>de Adrasto todavía? ¿Vive? ¿Acaso</l>
+            <l>la suerte de un combate?... ¿Qué agonías!</l>
+            <l>Hija y madre a la vez…</l>
+          </sp>
+          <pb n="479"/>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Ya no hay más tiempo.</l>
+            <l>¿Consentís?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Ah! Matadme.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Conducidla</l>
+            <l>soldados, a la lóbrega mazmorra;</l>
+            <l>suplan las teas a la luz del día,</l>
+            <l>que en aquella prisión jamás penetra;</l>
+            <l>alumbrad mi venganza; que a su vista</l>
+            <l>muera cruelmente el hijo; y a este sitio,</l>
+            <l>salpicada de sangre tan querida,</l>
+            <l>arrastradla otra vez.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Creón! Dejadme</l>
+            <l>que consulte de nuevo las cenizas</l>
+            <l>de mi perdido esposo. Permitidme</l>
+            <l>que un momento no más…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <stage>A los soldados</stage>
+            <l>Esas reliquias</l>
+            <l>de la urna sacad en que reposan,</l>
+            <l>y en el suelo furiosos esparcidlas,</l>
+            <l>a los pies del verdugo que a Lisandro</l>
+            <l>debe arrancar la abominable vida.</l>
+            <l>Este es un sacrificio anticipado</l>
+            <l>a los manes de Argia. Si mis iras</l>
+            <l>no toleran igual entre los vivos,</l>
+            <l>¿valdrán más que Creón estas cenizas?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Pero ni yo ni vos amar podemos</l>
+            <l>este enlace sacrílego: si unida</l>
+            <l>estuve a Polionicio…</l>
+          </sp>
+          <pb n="480"/>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Quién se acerca?</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Deidades! Protegedme en este día.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Qué es esto, Eurimedón?</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>CREÓN, ARGIA, EURIMEDÓN, Agenor y sus guardias</stage>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <stage>Saldrá precipitado, furioso, y con la espada desnuda.</stage>
+            <l>¡Señor! Salvaos.</l>
+            <l>Tan solamente pudo la perfidia</l>
+            <l>lo que el valor de Adrasto no pudiera.</l>
+            <l>Periandro… ¡Ah! De Periandro la inaudita</l>
+            <l>traición es sin ejemplo. Se ha vendido,</l>
+            <l>y nos vendió. Las huestes enemigas</l>
+            <l>a la puerta Emoloides amagaban,</l>
+            <l>y, viendo nuestra tropa prevenida</l>
+            <l>rehusaban acercarse. De repente</l>
+            <l>la legión de Periandro se aproxima</l>
+            <l>al muro que cubríamos; el pueblo</l>
+            <l>con ímpetu furioso lo seguía,</l>
+            <l>y, armado ya por él desde antemano,</l>
+            <l>a un combate interior se precipita</l>
+            <l>con los soldados nuestros. Entretanto</l>
+            <l>la legión del traidor carga, desquicia</l>
+            <l>las principales puertas, y los muros</l>
+            <l>a los argianos en su seno abrigan.</l>
+            <l>Todo ha sido un momento. Adrasto, el pueblo,</l>
+            <l>el pérfido Periandro todavía</l>
+            <l>Vertiendo están la sangre de los fieles</l>
+            <l>Que al honor de su rey se sacrifican.</l>
+            <l>Pero el número vence. Ismenio apenas</l>
+            <l>será posible que las avenidas</l>
+            <pb n="481"/>
+            <l>Del palacio defienda un breve rato;</l>
+            <l>en este empeño queda: decidida</l>
+            <l>vuestra guardia a morir, se ha preparado</l>
+            <l>a que la entrada…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Basta. ¿Y esa vida</l>
+            <l>por qué no se ha perdido? ¿Así se guarda</l>
+            <l>una fe tantas veces prometida?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Yo he volado hasta vos con este aviso…</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Bien. El pueblo… Periandro…</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Al fin tranquila</l>
+            <l>puede Argia respirar.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+
+            <stage>A Eurimedón</stage>
+            <l>¡Amigo! El mando</l>
+            <l>expiró ya, pero comienza mi ira.</l>
+            <l>Ahora mismo arrebátala: haz que me mire</l>
+            <l>que a pesar de su triunfo, el hijo expira;</l>
+            <l>y tráela aquí de nuevo. Ella no debe</l>
+            <l>morir por otra mano que la mía.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>No, Creón.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Parte al punto: sacia tu alma</l>
+            <l>con el placer de ver cómo palpita</l>
+            <l>roto su corazón.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>No. Vuestra esposa</l>
+            <l>seré más bien.</l>
+          </sp>
+          <pb n="482"/>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>No es tiempo ya. Daos prisa</l>
+            <l>a arrastrarla de aquí.</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <stage>A los soldados</stage>
+            <l>¡Oh, Dios! Dejadme.</l>
+            <l>Lisandro ¡Ah, mi Lisandro! ¡Horrible día!</l>
+          </sp>
+          <stage>Una parte de las guardias arrebatan violentamente a Argia y parten con Eurimedón.
+            El resto de ellas queda con Agenor en la escena.</stage>
+        </div>
+        <div type="scene">
+          <head>ESCENA IV</head>
+          <stage>CREÓN, ARGENOR, guardias</stage>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <stage>Creón prorrumpirá después de una pausa regular, en la que manifestará el furor y
+              la desesperación. Las pequeñas líneas que parten los versos, indican las
+              circunstancias en que este actor debe variar sus posiciones y su tono, hacer sus
+              pausas, mostrar la impetuosa contrariedad de efectos en que debe batallar.</stage>
+            <l>Y Creón ya no es rey. El trono mío</l>
+            <l>caer de otra manera no podía.-</l>
+            <l>¡Traidores! ¡Oh! ¡Qué furia! -¡Cuánta sangre!</l>
+            <l>Un momento no más: y ya la mía</l>
+            <l>ha de correr también. -Decid.</l>
+            <stage>Hará estas preguntas a los mismos soldados de su guardia, como si no los
+              conociera.</stage>
+            <l>¿Vosotros</l>
+            <l>sois soldados de Adrasto? ¡Qué! ¿Ya pisa</l>
+            <l>mi palacio ese rey? -¡Qué rey! No sabe</l>
+            <l>triunfar, si no triunfando la perfidia.-</l>
+            <l>Y yo ¿cómo triunfé? -¿Remordimientos?-</l>
+            <l>¡Oh! no: jamás, Creón no lo admitas.-</l>
+            <l>Ya ha saltado la sangre de Lisandro.</l>
+            <l>Argia la ha visto ya, y Argia no expira</l>
+            <l>porque el genio que manda en mis venganzas</l>
+            <l>dilata por mi bien sus agonías.-</l>
+            <l>Yo moriré después, sin que ella sepa</l>
+            <l>cuál es mi suerte, y esta idea misma</l>
+            <l>doblará sus tormentos cuando muera.</l>
+            <stage>Se oirá un ruido como de armas y voces a lo lejos. Este, en intervalos más o
+              menos cortos, se irá sintiendo más cerca, hasta el principio de la escena
+              sexta.</stage>
+            <pb n="483"/>
+            <l>¡Qué rumor, Agenor! -Parte. ¿La grita</l>
+            <l>y el tumulto no escuchas? Parte y dime</l>
+            <l>si ya Adrasto a este sitio se encamina.-</l>
+            <stage>Se va solo Agenor, y no vuelve más a la escena.</stage>
+            <l>¡Oh! ¡Qué fuera de mí si mi venganza</l>
+            <l>me quitara también, como me quita</l>
+            <l>el poder de vengarme en adelante!</l>
+            <l>¡Oh! ¡Qué fuera de mí, si salva a su hija,</l>
+            <l>y si Lisandro salva! -El ruido crece.-</l>
+            <l>¡Qué momentos, Creón! ¡Cómo te agitan!</l>
+            <l>¡Cielos! ¿Quién entra aquí?</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA V</head>
+          <stage>CREÓN, ARGIA, EURIMEDÓN, las guardias de la escena anterior</stage>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>Quien de tu rabia</l>
+            <l>ha triunfado, Creón; quien todavía</l>
+            <l>es madre y lo será.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¿Qué es lo que dices?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>La legión de Periandro, a mi salida</l>
+            <l>ya entraba en el palacio; y los soldados</l>
+            <l>que a Lisandro guardaban, o caían</l>
+            <l>a los golpes traidores, o vencidos,</l>
+            <l>el peso de las armas deponían.</l>
+            <l>Al subterráneo penetró Periandro</l>
+            <l>con planta vencedora y atrevida,</l>
+            <l>y, al llegar a la torre, descubrimos</l>
+            <l>que en sus brazos al niño conducía</l>
+            <l>lejos de su prisión, y que volaba</l>
+            <l>al encuentro de Adrasto.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Todavía</l>
+            <l>¡Oh, furias infernales! si hay furores,</l>
+            <l>traedlos a mi pecho.</l>
+            <pb n="484"/>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>La osadía</l>
+            <l>de Ismenio y Agenor y algunos bravos</l>
+            <l>es lo solo que resta; pero expiran</l>
+            <l>sin poder valer. ¡Señor! salvaos;</l>
+            <l>ya se acercan: mirad por vuestra vida:</l>
+            <l>si es posible, salvaos.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Eh! ¿Qué dices?</l>
+            <l>¿Qué sirve ya el vivir? -¡Ah! ¿Mi desdicha</l>
+            <l>sabes cuál es, cobarde? -Es que tu mano</l>
+            <l>no supo responderme de una vida,</l>
+            <l>y ha dejado incompleta mi venganza.</l>
+            <l>¿De una vida? ¡Qué digo! Si respira</l>
+            <l>Adrasto, a ti lo debe. ¿No te acuerdas?</l>
+            <l>¡Conque traidores todos! Pero su hija…</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡La hija de Adrasto! Mi Lisandro vive;</l>
+            <l>no temo a nadie ya.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>¡Altiva! ¿Miras</l>
+            <l>el triunfo de tu padre? ¿Ves mi tropa</l>
+            <l>que, a fuerza de perfidia, está vencida?</l>
+            <l>Velo, pero no esperes. ¿Por qué piensas</l>
+            <l>que estos breves momentos aún respiras?</l>
+            <l>Es porque veas y que te atormentes</l>
+            <l>con la idea feroz de que mi ruina</l>
+            <l>y el triunfo de los tuyos no te salvan,</l>
+            <l>velos antes de morir: vive afligida</l>
+            <l>este instante final… -¡Eh! ¡Quién!... -¿Qué ruido?</l>
+            <stage>Es el tropel de los actores de la escena siguiente. Creón, al sentirlo, agarrará
+              a Argia con una mano, y con la otra desenvainará un puñal.</stage>
+            <l>¿Qué es eso, Eurimedón?</l>
+          </sp>
+          <sp who="#eurimedon">
+            <speaker>EURIMEDÓN</speaker>
+            <l>Ya se aproximan,</l>
+            <l>señor, los vencedores a este sitio.</l>
+            <pb n="485"/>
+          </sp>
+          <stage>ESCENA VI</stage>
+          <stage>CREÓN, ADRASTO, ARGIA, EURIMEDÓN, guardias de Creón, soldados de Adrasto</stage>
+          <stage>Al presentarse los soldados argianos en la escena, los de Creón y Eurimedón harán
+            con las armas un movimiento ligero, como de querer defenderse; pero a otro movimiento
+            igual de los soldados de Adrasto, se contendrán al instante.</stage>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¡Monstruo! Entrégame a Argia.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>Recibidla.</l>
+          </sp>
+          <stage>Hiere mortalmente a Argia.</stage>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Bárbaro!</l>
+          </sp>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <stage>Correrá a abrazar a Argia, exclamando dolorosamente.</stage>
+            <l>¡Hija!</l>
+          </sp>
+          <sp who="#argia">
+            <speaker>ARGIA</speaker>
+            <l>¡Padre!...- En vuestros brazos…-</l>
+            <l>Pues vive mi hijo… -Moriré tranquila.</l>
+          </sp>
+          <stage>Muere en brazos de su padre.</stage>
+          <sp who="#adrasto">
+            <speaker>ADRASTO</speaker>
+            <l>¡Soldados! A pedazos las entrañas</l>
+            <l>de esa fiera arrancad.</l>
+          </sp>
+          <sp who="#creon">
+            <speaker>CREÓN</speaker>
+            <l>La mano mía</l>
+            <l>es quien sola penetra en mis entrañas.-</l>
+            <stage>Se hiere con el mismo puñal con que hirió a Argia.</stage>
+            <l>Adrasto… -muero yo… -pero mis iras</l>
+            <l>hasta el infierno bajarán conmigo…-</l>
+            <l>Y en el infierno triunfarán de tu hija.</l>
+          </sp>
+          <stage>Cae sin que nadie lo sostenga, y expira abandonado.</stage>
+          <trailer>FIN</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

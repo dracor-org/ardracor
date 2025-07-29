@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000003" xml:lang="spa">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">A río revuelto ganancia de pescadores</title>
+        <title type="sub">Sainete en un acto</title>
+        <author>
+          <persName>
+            <forename>Juan</forename>
+            <forename>Cruz</forename>
+            <surname>Varela</surname>
+          </persName>
+          <idno type="wikidata">Q1710435</idno>
+        </author>
+        <editor xml:id="rdl">
+          <forename>Romina</forename>
+          <nameLink>De</nameLink>
+          <surname>León</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: sainetes
+            urbanos y gauchescos, 1800–1814</name>
+          <idno type="URL"
+            >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf#page=83</idno>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+          <bibl type="originalSource">
+            <title>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad:
+              sainetes urbanos y gauchescos, 1800–1814 / Cristóbal De Aguilar... [et al.].</title>
+            <author><forename>Beatriz</forename>
+              <surname>Seibel</surname></author> 1ª ed. – Buenos Aires<pubPlace/>: <editor>Instituto
+              Nacional del Teatro</editor>, <date>2006</date>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="rosa" gender="FEMALE">
+            <persName>Rosa</persName>
+          </person>
+          <person xml:id="javier" gender="MALE">
+            <persName>Javier</persName>
+          </person>
+          <person xml:id="benito" gender="MALE">
+            <persName>Benito</persName>
+          </person>
+          <person xml:id="arganto" gender="MALE">
+            <persName>Arganto</persName>
+          </person>
+          <person xml:id="sacristan" gender="MALE">
+            <persName>Sacristán</persName>
+          </person>
+          <person xml:id="silvestre" gender="MALE">
+            <persName>Silvestre</persName>
+          </person>
+          <person xml:id="abogado" gender="MALE">
+            <persName>Abogado</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Sainete</term>
+          <term source="#seibel">Sainete urbano</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q835067</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-05-15">(gdr) change initial encoding</change>
+        <change when="2025-05-19">(rdl) correction errors ezdrama</change>
+        <change when="2025-05-20">(gdr) revision</change>
+        <change when="2025-05-26">(rdl) correction sourcedesc, text errors, add pb</change>
+        <change when="2025-06-02">(gdr) change header</change>
+        <change when="2025-06-29">(gdr) change xml declaration</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1959">
+        <desc/>
+      </event>
+      <event type="premiere" when="1805">
+        <desc/>
+      </event>
+      <event type="written" notBefore="1810" notAfter="1816">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <pb n="165"/>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">A río revuelto ganancia de pescadores</titlePart>
+          <titlePart type="sub">Sainete en un acto</titlePart>
+        </docTitle>
+        <docAuthor>Juan Cruz Varela</docAuthor>
+      </titlePage>
+      <pb n="166"/>
+      <pb n="167"/>
+      <castList>
+        <head>Personajes</head>
+        <castItem><role>ROSA</role></castItem>
+        <castItem><role>JAVIER,</role>
+          <roleDesc>padre de Rosa</roleDesc></castItem>
+        <castItem><role>BENITO,</role>
+          <roleDesc>confidente de Rosa</roleDesc></castItem>
+        <castItem><role>ARGANTO,</role>
+          <roleDesc>poeta pretendiente</roleDesc></castItem>
+        <castItem><role>DON SILVESTRE,</role>
+          <roleDesc>pretendiente</roleDesc></castItem>
+        <castItem><role>UN SACRISTÁN</role></castItem>
+        <castItem><role>UN ABOGADO</role></castItem>
+      </castList>
+      <set>
+        <p><emph>LA ESCENA SERÁ EL CUARTO DE ROSA,CON TRES O CUATRO SILLAS Y UNA MESA. APARECE ROSA
+            SENTADA, OLIENDO UNAS FLORES, Y UN POCO DESPUÉS SALE JAVIER CON BASTÓN.</emph></p>
+      </set>
+    </front>
+    <body>
+      <div type="act">
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¡Oh, qué olor tan refulgente</l>
+          <l>se esparce por esta sala,</l>
+          <l>de este ramillo de flores</l>
+          <l>que me mandó esta mañana,</l>
+          <l>en símbolo de su fe,</l>
+          <l>Arganto, prenda de mi alma!</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Dime, Rosa de los diablos,</l>
+          <l>¿eres demonio o muchacha?</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Padre mío, no hay motivo</l>
+          <l>para esa pregunta airada.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Párate, que soy tu padre,</l>
+          <l>y no has de estar tú sentada</l>
+          <pb n="168"/>
+          <l>hablándote yo; metida</l>
+          <l>en camisa de once varas,</l>
+          <l>echando mil terminazos</l>
+          <l>que no se entiende lo que hablas,</l>
+          <l>y sin saber, gran zoquete,</l>
+          <l>principios de buena crianza.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Si no la sé, es porque usted</l>
+          <l>nunca ha procurado darla.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>No me faltes el respeto;</l>
+          <l>pues de la primera guantada,</l>
+          <l>te haré, diablo, que no seas</l>
+          <l>otra vez desvergonzada.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Muchas gracias, padre mío,</l>
+          <l>eso de usted esperaba.</l>
+          <stage>(Aparte)</stage>
+          <l>Me moriré de aflicción</l>
+          <l>si no salgo de esta casa.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Cállate, y di qué resuelves;</l>
+          <l>con don Silvestre casada</l>
+          <l>te he de ver aquí a dos días;</l>
+          <l>él en extremo te ama.</l>
+          <l>¿Tú le correspondes?</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Padre mío, fuera ingrata,</l>
+          <l>y al mismo tiempo traidora,</l>
+          <l>si mi mano tan deseada</l>
+          <l>le diera a ese don Silvestre;</l>
+          <l>a ese importuno canalla,</l>
+          <l>en fin, a ese mal nacido</l>
+          <l>vejestorio que me mata.</l>
+          <l>Yo, señor, a quien estimo</l>
+          <pb n="169"/>
+          <l>y lo quiero sobre mi alma,</l>
+          <l>es a Arganto, a ese poeta,</l>
+          <l>cuya altisonante fama</l>
+          <l>ha encendido en mis médulas,</l>
+          <l>ha puesto en mi vena cava</l>
+          <l>y ha infundido en mis arterias</l>
+          <l>tan dulce amorosa llama;</l>
+          <l>que si llego a ser su esposa,</l>
+          <l>seré la más feliz dama,</l>
+          <l>que llena de vanidad</l>
+          <l>se sentará en su ventana</l>
+          <l>diciendo a las envidiosas</l>
+          <l>que por esa calle pasan:</l>
+          <l>“Aprended a ser felices,</l>
+          <l>vedme a mí, que estoy casada</l>
+          <l>con el poeta mejor</l>
+          <l>que habita en el orbe”.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Calla, jamás consentiré yo,</l>
+          <l>calavera lo que tratas:</l>
+          <l>ese Arganto es un pedante,</l>
+          <l>es un trompeta, un matraca,</l>
+          <l>que porque ha sido estudiante,</l>
+          <l>y sabe dar dos patadas,</l>
+          <l>hablar cuatro latinorios,</l>
+          <l>y gritar “ergo” en las aulas,</l>
+          <l>ha creído merecer</l>
+          <l>tu mano.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¡Jesús, qué rabia!,</l>
+          <l>¡querer disminuir el mérito</l>
+          <l>que a mi Argantito acompaña!</l>
+          <pb n="170"/>
+          <l>¿No repara usted, señor,</l>
+          <l>cuando ese poeta habla,</l>
+          <l>los términos de cultura</l>
+          <l>que profiere en abundancia?</l>
+          <l>¿A más de esto no es buen mozo?</l>
+          <l>¿no tiene preciosa cara?;</l>
+          <l>¡qué importa que las orejas</l>
+          <l>las tenga un poquito largas,</l>
+          <l>si su nariz es bonita</l>
+          <l>del largor de media cuarta!</l>
+          <l>¡Y su boca!...</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Calla, tonta;</l>
+          <l>carguen con mi cuerpo y alma,</l>
+          <l>con mis sentidos y potencias,</l>
+          <l>con mis brazos y mis patas,</l>
+          <l>con mi barriga y espalda,</l>
+          <l>con mis cuadriles y lomos,</l>
+          <l>con mi cogote y garganta,</l>
+          <l>con mi riñón y costillas,</l>
+          <l>con mi cabeza y mi panza dos legiones de demonios,</l>
+          <l>o tres, si les da la gana,</l>
+          <l>o cuatro, si ellos quisieren,</l>
+          <l>o cinco, si hicieren falta,</l>
+          <l>como mis ojos te vean</l>
+          <l>con ese Arganto casada.</l>
+          <l>Don Silvestre es un buen hombre,</l>
+          <l>que aunque no habla palotadas,</l>
+          <l>es honrado, y a más de esto,</l>
+          <l>hija mía, te idolatra.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Yo le aborrezco cruelmente.</l>
+        </sp>
+        <pb n="171"/>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Pronto lo querrás, muchacha.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Jamás podré ni mirarlo.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>A que te doy de patadas.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>No será la primera vez.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Ni la última, malvada.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>En fin, no me he de casar.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Pues, Rosa, teme mi rabia.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Las personas que son libres,</l>
+          <l>y con más razón las damas,</l>
+          <l>deben casarse tan sólo con el joven a quien aman.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Y las hijas que a sus padres</l>
+          <l>ninguna obediencia guardan,</l>
+          <l>a palos y garrotazos</l>
+          <l>se les enseña a guardarla.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Entra).</stage>
+          <l>Señor, el viejo que enamorado</l>
+          <l>de mi señorita anda…</l>
+          <l>¡voto a Judas, que no sé</l>
+          <l>su nombre!: ¿cómo se llama?</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Di lo que quiere, que el nombre</l>
+          <l>a ti no te importa nada.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Sí me importa.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>No te importa.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Pues ya no he de hablar palabra,</l>
+          <l>ni he de decir el recado</l>
+          <l>con que el vejete me manda.</l>
+        </sp>
+        <pb n="172"/>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Vamos, no porfíes más,</l>
+          <l>que don Silvestre se llama.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>¡Ah! Pues ese don Silvestre</l>
+          <l>dice que permiso aguarda</l>
+          <l>para venirle a besar</l>
+          <l>a mi señora las plantas.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Dile que vaya a besar…</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>No me hables nada, muchacha.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Pero, vamos, ¿qué le digo?</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Dile que espere y no entre,</l>
+          <l>que yo le diré la causa.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Yéndose)</stage>
+          <l>No hay otra causa, sino</l>
+          <l>que no quiere la muchacha.</l>
+          <stage>(Se va).</stage>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Voy a ver a don Silvestre,</l>
+          <l>y llevármelo a su casa,</l>
+          <l>con él volveré, a fin de que una visita te haga:</l>
+          <l>ámalo, hija mía, mira</l>
+          <l>que es hombre de prendas altas,</l>
+          <l>y serás siempre feliz</l>
+          <l>si con él te ves casada.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Vuelve a entrar).</stage>
+          <l>Señor: el vejete enamorado</l>
+          <l>está en la puerta de guardia,</l>
+          <l>con su sombrero y capote,</l>
+          <l>esperando a que usted salga.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Ya voy; tú tendrás cuidado</l>
+          <pb n="173"/>
+          <l>de que nadie entre a mi casa:</l>
+          <l>ni Arganto, ni San Arganto, ni el Rey, ni el Cura, ni el Papa,</l>
+          <l>ni todo aquello que huela</l>
+          <l>a cosa de hombre.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Bien; vaya</l>
+          <l>usted a su diligencia,</l>
+          <l>que quedará la muchacha</l>
+          <l>muy segura con Benito;</l>
+          <l>y si alguno viene a casa</l>
+          <l>no falta una buena piedra</l>
+          <l>con que darle por la cara.</l>
+          <stage>(Aparte)</stage>
+          <l>Engañando al viejo así</l>
+          <l>me va muy bien con mi ama.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Está bien, Benito; adiós.</l>
+          <stage>(Se va).</stage>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¡Ojalá en treinta semanas</l>
+          <l>no volviera este vejete</l>
+          <l>a martirizarme el alma!</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>No se aflija, señorita,</l>
+          <l>que ya vendrá a toda pata,</l>
+          <l>llevándose por delante</l>
+          <l>las puertas y las ventanas,</l>
+          <l>el poeta don Arganto,</l>
+          <l>a quien usted tanto ama.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Dices bien; solo con eso</l>
+          <l>se consolarán mis ansias; pero, cuidado, no seas</l>
+          <l>tú tan tosco en tus palabras;</l>
+          <pb n="174"/>
+          <l>habla con mayor cultura,</l>
+          <l>y si Arganto viene a casa,</l>
+          <l>veme a avisar, que yo voy</l>
+          <l>a escobillarme la manta.</l>
+          <stage>(Se va).</stage>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Solo).</stage>
+          <l>Bien está: como una breva</l>
+          <l>de blanda está la muchacha;</l>
+          <l>el demonio del poeta</l>
+          <l>le ha caído mucho en gracia,</l>
+          <l>y yo lo estimo también,</l>
+          <l>porque es mozo y tiene plata.</l>
+          <stage>Entra Arganto saltando y haciendo mil cortesías; saluda de este modo a
+            Benito.</stage>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Buenas auroras, Benito;</l>
+          <l>te beso lo que es besable,</l>
+          <l>te quiero lo que es querible,</l>
+          <l>te amo lo que es amable,</l>
+          <l>y entiendo lo inteligible:</l>
+          <l>¿Qué tal mi salutación?</l>
+          <l>sin que la escriba en papel</l>
+          <l>es mejor que aquella otra</l>
+          <l>del arcángel San Gabriel.</l>
+          <l>¿No es verdad?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Muy señor mío</l>
+          <l>como usted me habla en francés,</l>
+          <l>yo no le entiendo palabra.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿Qué francés, ni qué campanas,</l>
+          <l>altisonantes, batientes,</l>
+          <l>revellines y murallas?</l>
+        </sp>
+        <pb n="175"/>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Señor: hable usted la lengua</l>
+          <l>que me enseñó mi madrastra,</l>
+          <l>si no me quedo en ayunas</l>
+          <l>sin entenderle palabra,</l>
+          <l>y ayunan a un mismo tiempo</l>
+          <l>mis orejas y mi panza.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Cállate; que los balazos,</l>
+          <l>la munición y metralla</l>
+          <l>que ha disparado el cañón</l>
+          <l>del amor contra mi calva,</l>
+          <l>me tienen en situación</l>
+          <l>de casarme con la amada</l>
+          <l>prenda de mi corazón;</l>
+          <l>que aunque es malo que lo diga,</l>
+          <l>es parte de mi barriga,</l>
+          <l>y de mi cuerpo un riñón,</l>
+          <l>de mi pecho es un rincón,</l>
+          <l>es letra de mi papel,</l>
+          <l>es blanco de mi clavel,</l>
+          <l>ojos de mi voluntad,</l>
+          <l>de mi frente la mitad,</l>
+          <l>mi tambor y cascabel.</l>
+          <l>¿Has sabido, Benitito,</l>
+          <l>si soy de Rosa amadito?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Por hablar con esos términos</l>
+          <l>de cultura, que usted gasta,</l>
+          <l>le digo a usted, mi señor,</l>
+          <l>en tres o cuatro palabras,</l>
+          <l>que mi señora lo quiere,</l>
+          <l>más que el ratón a la rata,</l>
+          <pb n="176"/>
+          <l>más que el gallo a la gallina,</l>
+          <l>más que el chivato a la cabra,</l>
+          <l>más que la lechuga al nabo,</l>
+          <l>y más que el fuego a las aguas.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Al cabo has de ir aprendiendo</l>
+          <l>a usar tropos y metáforas;</l>
+          <l>pero dime ¿es similvero</l>
+          <l>que me dilige tu ama?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Similveros ni diliges,</l>
+          <l>señor, no entiendo palabra;</l>
+          <l>le suplico que no me hable</l>
+          <l>otra vez en lengua extraña;</l>
+          <l>deje usted ese saber</l>
+          <l>para cuando hable con mi ama.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Para mayor claridad,</l>
+          <l>lo que te digo, Benito,</l>
+          <l>es, ¿si estás enteradito</l>
+          <l>que me tiene voluntad</l>
+          <l>tu amita Rosa?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Es verdad.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿Quién te lo ha dicho?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Ella misma.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿En realidad de verdad?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>En verdad de realidad.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿Sin faltar y sin mentir?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Sin mentir y sin faltar.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿Con constancia y con terneza?</l>
+        </sp>
+        <pb n="177"/>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Con terneza y con constancia.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿Sin mudanza o mutación?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Sin mutación ni mudanza.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Pues voy a darte un recado,</l>
+          <l>para que esta misma hora</l>
+          <l>lo digas a tu señora</l>
+          <l>conforme yo te lo he dado.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Así me gusta que usted</l>
+          <l>hable en la lengua española;</l>
+          <l>¿qué recado le he de dar?</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Óyeme, y calla la boca.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Oiga usted, señor amado;</l>
+          <l>el recado es excusado,</l>
+          <l>pues mi amita me ha mandado…</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¡Hombre! Ya tú eres poeta.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Señor, con esta receta…</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Mas, ¿qué ha dicho tu amita?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Que si usted venía a casa</l>
+          <l>le avisase prontamente,</l>
+          <l>que vendría sin tardanza</l>
+          <l>a recibir a su amado</l>
+          <l>con brazos, ojos y patas.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>No obstante, yo quiero irme,</l>
+          <l>poco después volveré,</l>
+          <l>el recado dejaré</l>
+          <l>y tú procura servirme.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Con cuatro libras,de gusto</l>
+          <l>desde hoy te serviré.</l>
+        </sp>
+        <pb n="178"/>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Pues dile a tu señorita</l>
+          <l>que me quiera muy discreta,</l>
+          <l>pues a más de ser poeta</l>
+          <l>nada me falta,nadita;</l>
+          <l>tengo una bolsa llenita</l>
+          <l>de hormillas y de botones,</l>
+          <l>tengo este par de calzones,</l>
+          <l>medio pliego de papel,</l>
+          <l>un cuchillo, un cascabel,</l>
+          <l>un plato y dos calderones;</l>
+          <l>tengo a más de esto una silla,</l>
+          <l>que aunque no tiene espaldar,</l>
+          <l>si se quiere recostar</l>
+          <l>le buscaré una almohadilla;</l>
+          <l>media onza de arenilla</l>
+          <l>también tengo bien guardada:</l>
+          <l>en fin, no me falta nada</l>
+          <l>fuera de ropa y dinero</l>
+          <l>y eso porque yo no quiero</l>
+          <l>robar; pero si mi amada</l>
+          <l>Rosa se casa conmigo…</l>
+          <l>Pero,¿dónde vas, Benito?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Voy a traer un papelito</l>
+          <l>para apuntar al momento,</l>
+          <l>esa riqueza que usted</l>
+          <l>tiene en su casa, pues veo</l>
+          <l>que si yo no las apunto</l>
+          <l>se me olvidarán, y luego,</l>
+          <l>no sabrá mi amita Rosa</l>
+          <l>lo rico que es su mozuelo.</l>
+          <pb n="179"/>
+          <stage>(Aparte)</stage>
+          <l>Un pobretón de demonio</l>
+          <l>había sido este pergenio.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>No es preciso: solamente</l>
+          <l>que digas a tu ama quiero,</l>
+          <l>que excepto solo el dinero,</l>
+          <l>y cama y ropa corriente,</l>
+          <l>tengo todo lo demás</l>
+          <l>en mi casa. Adiós,</l>
+          <l>verás cómo prontamente vuelvo.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>¿Y dónde va usted,señor?</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Voy a ver si me regalan</l>
+          <l><foreign xml:lang="la">palillos fuego-vomentes</foreign>.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Yo no conozco esas gentes.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿No sabes tú lo que son <foreign xml:lang="la">palillos fuego-vomentes</foreign>?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Ni por la imaginación</l>
+          <l>se me han pasado esos entes.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Son los cigarros,que así,</l>
+          <l>los cultos los llaman hoy,</l>
+          <l>pues cuando pitando estoy</l>
+          <l>vomito fuego; ve aquí</l>
+          <l>por qué se llaman así.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Bien está. Venga usted pronto.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <stage>(Yéndose)</stage>
+          <l>Volveré sin dilación;</l>
+          <l>¡oh, cuánto, cuán mucho siento</l>
+          <l>el no haber podido usar</l>
+          <pb n="180"/>
+          <l>con aqueste muchachuelo</l>
+          <l>mis términos de cultura,</l>
+          <l>y mi lenguaje moderno!;</l>
+          <l>pero yo los usaré,</l>
+          <l>en volviendo, sin remedio.</l>
+          <stage>(Se va).</stage>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Solo, gritando)</stage>
+          <l>Amita Rosa; ama Rosa,</l>
+          <l>venga usted, mi mariposa,</l>
+          <l>no se muestre perezosa,</l>
+          <l>acérquese presurosa,</l>
+          <l>que ha venido don…¡por vida,</l>
+          <l>que no encuentro consonante!</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <stage>(Sale).</stage>
+          <l>¿Qué es esto Benito mío?</l>
+          <l>¿Pero que ya eres poeta?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Don Arganto me enseñó.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¿Y qué estuvo aquí mi perla?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Sí señora, pronto vuelve,</l>
+          <l>y dice que usted lo quiera,</l>
+          <l>que es muy rico: tiene hormillas,</l>
+          <l>un cuchillo y una mesa,</l>
+          <l>medio pliego de papel,</l>
+          <l>una silla patituerta,</l>
+          <l>media onza de arenilla,</l>
+          <l>un plato con dos calderas; en fin, tan sólo dinero</l>
+          <l>y ropa no sé que tenga.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Eso no importa, pues yo</l>
+          <l>nunca soy interesada;</l>
+          <l>aunque no tenga dinero</l>
+          <pb n="181"/>
+          <l>lo quiero más que a mi alma.</l>
+          <stage>Sale el Sacristán con sombrero,sotana y bastón; y sin hablar ni ver a nadie
+            –paseándose– dice:</stage>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>A la una al <foreign xml:lang="grc">Kyrie eleison,</foreign></l>
+          <l>a las dos al campanario,</l>
+          <l>a las tres al incensario,</l>
+          <l>a las cuatro a procesión,</l>
+          <l>a las cinco a extremaunción,</l>
+          <l>a las seis a ayudar Misa,</l>
+          <l>a las siete, la camisa</l>
+          <l>me puse, la sobrepelliz,</l>
+          <l>a las ocho, a un infeliz</l>
+          <l>que le estaba dando risa,</l>
+          <l>fui a ayudar a bien morir;</l>
+          <l>a las nueve, a repetir</l>
+          <l>la novena del Rosario;</l>
+          <l>a las diez, un relicario</l>
+          <l>fui a llevar a componer</l>
+          <l>a las once, fui a traer</l>
+          <l>la sotana de mi cura;</l>
+          <l>y a las doce a mi hermosura</l>
+          <l>la vengo a abrazar y ver.</l>
+          <stage>Al decir los dos últimos versos, ve a Rosa y la va a abrazar, y a lo que ve a
+            Arganto, que va entrando a la sazón, corre en puntas de pie y, callado, le empieza a dar
+            trompadas; a este mismo tiempo, Benito se tira al suelo riéndose, y el
+            Sacristán,corriendo, dice lo que sigue:</stage>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l><foreign xml:lang="grc">Kyrie eleison, eleison</foreign>,</l>
+          <l>que me rompan la cabeza;</l>
+          <l>
+            <foreign xml:lang="la">Domine ad ajuvandum</foreign></l>
+          <l><foreign xml:lang="la">me festina</foreign>,</l>
+          <l>con presteza.</l>
+        </sp>
+        <pb n="182"/>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Demonio de sacristán,</l>
+          <l>¿qué bruja, di, tan traviesa</l>
+          <l>te ha metido en la cabeza</l>
+          <l>que enamores tú también?</l>
+          <l>¿No sabes que solo a quien</l>
+          <l>es poeta, como yo,</l>
+          <l>la gracia se concedió</l>
+          <l>de enamorar esta Rosa?</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Usted enamore en verso,</l>
+          <l>yo la enamoraré en prosa.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Pero si ella no te quiere.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Desde el suelo)</stage>
+          <l>Sabe Dios si le querrá.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Adivinaste: la niña</l>
+          <l>con más razón amará</l>
+          <l>no a un poeta como tú,</l>
+          <l>sino a un triste sacristán.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Señores, por Dios, les pido…</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Desde el suelo)</stage>
+          <l>Déjelos: veamos las fiestas de</l>
+          <l>qué modo acabarán;</l>
+          <l>¡ojalá le rompan el alma</l>
+          <l>al diablo del sacristán!</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Tal vez que la muchachuela</l>
+          <l>se esté muriendo por mí.</l>
+          <l>¿No es así, niña?</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¿Por ti?</l>
+          <l>¿Qué más, infame, quisieras?</l>
+        </sp>
+        <pb n="183"/>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Querida <foreign xml:lang="la">Domina mea</foreign>,</l>
+          <l>ego siendo sacristán,</l>
+          <l><foreign xml:lang="la">dabo tibi</foreign>,</l>
+          <l>si tú quieres,</l>
+          <l><foreign xml:lang="la">rentas meas</foreign> que me dan.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Desde el suelo)</stage>
+          <l>El poeta habla en francés,</l>
+          <l>y este sacristán en griego.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Ven, monigote,te ruego</l>
+          <l>y preguntemos cuál es</l>
+          <l>al que quiere la morena.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Esto sigue, es cosa buena,</l>
+          <l>aquí le levante yo.</l>
+          <stage>(Se levanta).</stage>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Vete, Benito, a la puerta,</l>
+          <l>y ve si vienen los viejos,</l>
+          <l>que no quiero que me encuentren</l>
+          <l>con estos mozos.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>No quiero.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Vete, Benito, no hagas</l>
+          <l>que me impaciente.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>No quiero.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Ya ves, Benitito mío,</l>
+          <l>que si mi padre…</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Más alto)</stage>
+          <l>No quiero.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Vete, que yo te daré</l>
+          <l>un verso para cantar.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Veré que dentro de poco</l>
+          <l>haré que seas sacristán.</l>
+        </sp>
+        <pb n="184"/>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Voyme por obedecer</l>
+          <l>a aquel que me ha hecho poeta,</l>
+          <l>y me ha dado una receta</l>
+          <l>para que no hable mi jeta</l>
+          <l>sino en verso; voyme ya.</l>
+          <stage>(Se va corriendo).</stage>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <stage>(A Rosa)</stage>
+          <l>Vamos, sombra del Oriente,</l>
+          <l>vamos, reina de las flores,</l>
+          <l>albañal de resplandores,</l>
+          <l>y antorcha del Occidente;</l>
+          <l>hable tu labio trompeta,</l>
+          <l>del sacristán o el poeta,</l>
+          <l>¿a quién quieres más querida?</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>A ti, antorcha de mi vida.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>¡Oh, <foreign xml:lang="la">pulcra Domina mea</foreign>!,</l>
+          <l>¿por qué contra esta librea</l>
+          <l>de sotana y de manteo</l>
+          <l>tan irritada te ves?</l>
+          <l>Si tú <foreign xml:lang="la">diligis</foreign> a mí,</l>
+          <l>ego <foreign xml:lang="la">deligebo</foreign> a ti,</l>
+          <l>y con esta <foreign xml:lang="la">dileccione</foreign></l>
+          <l><foreign xml:lang="la">in utroque corazone</foreign>...</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Cállese usted, Sacristán,</l>
+          <l>no puede usted concebir</l>
+          <l>el fastidio que dan</l>
+          <l>los monigotes a mí.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿Y los rimbombos poetas</l>
+          <l>te placen, paloma mía?</l>
+        </sp>
+        <pb n="185"/>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¡Jesús, alhajita mía!,</l>
+          <l>ya sabes que soy discreta.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Vamos, señor Sacristán,</l>
+          <l>migre usted luego de aquí,</l>
+          <l>que tan sólo me ama a mí</l>
+          <l>esta muchacha: larán.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Si me quiere robaré</l>
+          <l>incienso en la Catedral</l>
+          <l>para que pueda su casa</l>
+          <l>y sus polleras sahumar.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>No, Rosita, que yo a ti</l>
+          <l>te enseñaré a bien parlar;</l>
+          <l>términos campanilludos,</l>
+          <l>solamente hemos de usar.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Ya sabes, Arganto mío,</l>
+          <l>que soy firme para ti,</l>
+          <l>y mi amor dista del suyo</l>
+          <l>como el cenit del nadir.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¡Oh, qué culta estás, mi vida!,</l>
+          <l>¡que rimbombombante estoy!</l>
+        </sp>
+        <stage>Entra Benito corriendo, y gritando dice:</stage>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Oigan, oigan con los diablos,</l>
+          <l>que ya vienen los dos viejos,</l>
+          <l>cada cual con su bastón y caminando ligero.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>¿Sí? Pues bajo de esta mesa</l>
+          <l>guardo muy bien mi pellejo.</l>
+          <stage>(Se esconde debajo de la mesa).</stage>
+        </sp>
+        <pb n="186"/>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <stage>(A Rosa)</stage>
+          <l>Pues yo, luciente farol</l>
+          <l>de mi vida balbuciente,</l>
+          <l>me voy: porque es evidente</l>
+          <l>que mis pulcros consonantes</l>
+          <l>no me podrán libertar</l>
+          <l>de los palos que los viejos</l>
+          <l>irritados me han de dar.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¡Cuánto lo siento, mi Adonis!</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Los viejos se acercan ya.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <stage>(Asustado)</stage>
+          <l>Y la puerta, ¿dónde está?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Riéndose)</stage>
+          <l>Desde que se hizo la casa</l>
+          <l>está en el mismo lugar.</l>
+          <stage>Arganto va a salir,a tiempo que por la misma puerta entran don Javier y don
+            Silvestre,los que se encuentran con Arganto. Javier levanta el palo para pegarle;
+            Arganto retrocede asustado; Rosa se asusta; Benito,riéndose,se tira al suelo; don
+            Silvestre,con señales de amor,se acerca a Rosa.Don Javier,corriendo a Arganto,dice los
+            dos primeros versos que siguen,concluidos los cuales se para.</stage>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Poetilla del demonio,</l>
+          <l>indecente malandrín.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>No me trate usted así,</l>
+          <l>insolente vejestorio,</l>
+          <l>porque con un latinorio,</l>
+          <l>y un término altisonante…</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>¡Qué altisonante ni diablos!</l>
+          <stage>(Le pega).</stage>
+        </sp>
+        <pb n="187"/>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Desde el suelo)</stage>
+          <l>¡Ay,</l>
+          <l>Jesús!,</l>
+          <l>¡ay!,</l>
+          <l>¡ay!,</l>
+          <l>¡ay!,</l>
+          <l>¡ay!</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <stage>(Llorando)</stage>
+          <l>Yo me muero de dolor</l>
+          <l>al ver a mi poetita.</l>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>No, mi querida Rosita,</l>
+          <l>centro de todo mi amor;</l>
+          <l>soy viejo, pero conservo</l>
+          <l>para ti todo mi corazón.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Quítese, usted don Silvestre,</l>
+          <l>porque no le puedo ver.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¿Todavía no has de entender,</l>
+          <l>vejete, que no te quiere?</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <stage>(Le pega).</stage>
+          <l>Calla la boca, trompeta.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Desde el suelo)</stage>
+          <l>Si le pegan más se muere.</l>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>¿Y por qué la señorita</l>
+          <l>no me ha de querer a mí,</l>
+          <l>sabiendo que soy honrado,</l>
+          <l>y que puedo subsistir,</l>
+          <l>sin andar importunando,</l>
+          <l>por aquí ni por allí,</l>
+          <l>para que me den un pan,</l>
+          <l>como usted, so malandrín?</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Pero usted no sabe hablar</l>
+          <l>en el estilo francés.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Cállate, diablo. ¡Rosita,</l>
+          <l>al señor has de querer!</l>
+        </sp>
+        <pb n="188"/>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>¿No me ama usted, señorita?</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <stage>(Contando con los dedos)</stage>
+          <l>Una, dos, tres, cuatro, cinco,</l>
+          <l>y seis veces digo a usted,</l>
+          <l>que sólo de mi Argantito</l>
+          <l>he sido, soy y seré.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Pues su esposa no serás.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Pues me voy al abogado,</l>
+          <l>para que al momento venga,</l>
+          <l>y un punto no se detenga,</l>
+          <l>y mis derechos sostenga,</l>
+          <l>y con justicia mantenga</l>
+          <l>lo que a mí más me convenga.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Qué diablo de tenga y venga</l>
+          <l>salvajón de los demonios.</l>
+          <stage>(Le pega).</stage>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Ahora veréis, vejestorios,</l>
+          <l>lo que ha de costar la fiesta.</l>
+          <stage>(Se va).</stage>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Desde el suelo, gritando)</stage>
+          <l>Tan,tan tan, Sacristán.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Calla, Benito.</l>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>Señora,</l>
+          <l>en todo el mundo no habrá</l>
+          <l>quien te quiera más que yo,</l>
+          <l>ni marido has de encontrar</l>
+          <l>que más valga.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(Gritando)</stage>
+          <l>¡Sacristán!</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <stage>(Aparte a Benito)</stage>
+          <l>Benito, mira que importa</l>
+          <l>el secreto. ¿Callarás?</l>
+        </sp>
+        <pb n="189"/>
+        <sp who="#benito">
+          <speaker>Benito</speaker>
+          <l>Salga, que no lo han de ver.</l>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>Calla, muchacho, que quiero</l>
+          <l>mi casamiento ajustar.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Pero, señor, si yo quiero</l>
+          <l>que se asome el Sacristán.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>No se canse, don Silvestre,</l>
+          <l>su esposa nunca seré,</l>
+          <l>porque ya el centro encontré</l>
+          <l>en el que descansa Rosa,</l>
+          <l>y así, sólo seré esposa</l>
+          <l>de Arganto, mi dueño amado.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Este muchacho malvado</l>
+          <l>tiene la culpa de todo,</l>
+          <l>pues dejó entrar en mi casa</l>
+          <l>a este poeta o demonio;</l>
+          <l>voy a darle una paliza</l>
+          <l>a este muchacho tan torpe.</l>
+        </sp>
+        <stage>Levanta don Javier el palo para darle a Benito,pero a lo que este le habla,se
+          suspende. Benito se levanta del suelo.</stage>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>No me pegue usted, señor,</l>
+          <l>y le diré con verdad,</l>
+          <l>que bajo de aquella mesa</l>
+          <l>está oculto un sacristán.</l>
+          <stage>Al decir esto, sale el Sacristán apresurado de debajo de la mesa y, asustado,
+            dice:</stage>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l><foreign xml:lang="grc">Kyrie eleison, eleison</foreign>,</l>
+          <l>voyme ya, no me hagan nada,</l>
+          <l>a oír la misa cantada,</l>
+          <pb n="190"/>
+          <l>y a tocar a prebendados,</l>
+          <l>pues no quiero en este mundo</l>
+          <l>más circunloquio primero,</l>
+          <l>ni circunloquio segundo.</l>
+          <stage>Va don Javier corriendo al Sacristán para pegarle, y al salir este huyendo, entran
+            por la misma puerta Arganto y el Abogado; al verlos el Sacristán, se vuelve diciendo los
+            primeros versos que siguen:</stage>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l><foreign xml:lang="la">Miserere mei</foreign> pronto,</l>
+          <l>señor <foreign xml:lang="la">Domine</foreign> abogado,</l>
+          <l>porque aqueste don Javier</l>
+          <l>quiere <foreign xml:lang="la">mihi</foreign>dare palos.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Sí, señor, apropincuemos</l>
+          <l>y ajustemos al momento</l>
+          <l>mi deseado casamiento.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Vamos, eñor don Javier,</l>
+          <l>
+            <foreign xml:lang="la">justicia est certum derechum de dare quod suyo es</foreign>,</l>
+          <l>y no dar lo que es <foreign xml:lang="la">agenun</foreign>.</l>
+          <l>¿Entiende usted?</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Sí, señor.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Y después de saber eso,</l>
+          <l>¿cómo ha pretendido usted,</l>
+          <l>del modo más indiscreto,</l>
+          <l>casar esta pobre moza</l>
+          <l>contra su gusto y su genio?</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Sí, señor; líbreme usted</l>
+          <l>de ese viejo majadero.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <stage>(En voz alta)</stage>
+          <pb n="191"/>
+          <l>En la gaceta ha venido</l>
+          <l>la derrota de un ejército.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <stage>(Se sienta).</stage>
+          <l>Oigamos a las dos partes</l>
+          <l>para juzgar con acierto.</l>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>Yo, señor, soy un pobre hombre,</l>
+          <l>que no tengo que alegar,</l>
+          <l>sino que mi don Javier</l>
+          <l>me ha prometido casar</l>
+          <l>con su hija; yo la idolatro,</l>
+          <l>y ella no me puede hablar.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>¿Y la otra parte, qué dice?</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>¿Quién, yo?</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>No, animal.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Señor dueño de lo justo,</l>
+          <l>yo tengo mucha razón,</l>
+          <l>pues me dio su corazón</l>
+          <l>la niña,y yo de ella gusto;</l>
+          <l>que el viejo o el Sacristán…</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>¿Y cuándo yo digo nada?</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Comen de mi propio pan,</l>
+          <l>y me usurpan el derecho</l>
+          <l>que las leyes, dicho y hecho,</l>
+          <l>me conceden y me dan.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Dice usted mucha verdad.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Soy poeta sobre todo.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Que se pruebe de algún modo.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Proponga usted el asunto</l>
+          <pb n="192"/>
+          <l>en que he de poetizar.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>La historia ha de ser el punto</l>
+          <l>sobre que se ha de tratar.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>César, Pompeyo, Sansón,</l>
+          <l>Cartesio, Ulises, Menandro,</l>
+          <l>Holofernes, Alejandro,</l>
+          <l>Aníbal, Numa, Escipión,</l>
+          <l>Jerjes, Darío, Gedeón,</l>
+          <l>Menelao, Jonatás,</l>
+          <l>Séneca, Herodes, Anás,</l>
+          <l>Aquiles, Nemrod, Samuel,</l>
+          <l>Epaminondas, Abel,</l>
+          <l>Mecencio, Eneas, Caifás,</l>
+          <l>Quinto Curcio, Faraón,</l>
+          <l>Leonidas, Mintas, Virgilio,</l>
+          <l>Aristóteles, Ovidio,</l>
+          <l>Diógenes, Turno, Solón,</l>
+          <l>Filipo, Marcial, Platón,</l>
+          <l>con Tito, y con Vespaciano,</l>
+          <l>asolaron el Romano</l>
+          <l>Imperio. ¡Que barbarismo!</l>
+          <l>y lo dejaron lo mismo</l>
+          <l>que la palma de la mano.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¡Jesús, qué sabiduría!</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>¡Cáscaras con el salvaje!</l>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>¡Qué bestia lo pariría!</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Amigo, muy bien lo hace.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Geógrafo también soy.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>La prueba esperando estoy.</l>
+        </sp>
+        <pb n="193"/>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>En la línea equinoccial,</l>
+          <l>al lado del polo antártico,</l>
+          <l>a los dos grados del ártico</l>
+          <l>entre la zona glacial,</l>
+          <l>donde el hemisferio austral</l>
+          <l>divide nuestro horizonte,</l>
+          <l>a cuatro millas de un monte</l>
+          <l>inaccesible y fragoso,</l>
+          <l>es la patria del famoso</l>
+          <l>gran poeta Anacreonte.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>¡Raro ingenio!</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>¡Raro bárbaro!</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¡Qué talento tan agudo!</l>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>Como punta de colchón.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Pues, señor don Javier mío,</l>
+          <l>la recta justicia ordena,</l>
+          <l>según dice Justiniano,</l>
+          <l>Gómez, Vinio y Avicena,</l>
+          <l>el Conde de la Cañada,</l>
+          <l>los Digestos y Porsena,</l>
+          <l>San Ambrosio y Tertuliano,</l>
+          <l>con Santo Tomás, etcétera,</l>
+          <l>que no se puede a la niña</l>
+          <l>de ningún modo o manera</l>
+          <l>casarla contra su gusto</l>
+          <l>con un hombre que no quiera.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Buenas bestias son usted,</l>
+          <l>la muchacha y el poeta.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Calle usted, porque si no</l>
+          <l>yo le ajustaré la cuenta.</l>
+          <stage>(Se para).</stage>
+        </sp>
+        <pb n="194"/>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>Vaya usted enhoramala,</l>
+          <l>y nunca a mi casa vuelva.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>¿Cómo es eso de <foreign xml:lang="la">noramala</foreign>?</l>
+          <l>¡por vida de mis guedejas!</l>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>Pues si usted ni es abogado</l>
+          <l>ni ha visto el Cristo siquiera.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Que más se quisiera usted;</l>
+          <l>yo a los dos meses no más</l>
+          <l>de haber entrado en la escuela</l>
+          <l>supe la primera hoja de mi cartilla, entera;</l>
+          <l>y de la escuela salí</l>
+          <l>escribiendo de cuarenta.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Señor Juez, ¿qué hacemos pues?</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Echar a estos insolentes.</l>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Corriente, amigo, corriente.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Por activa y por pasiva,</l>
+          <l>por gerundio y subjuntivo,</l>
+          <l>por el modo indicativo,</l>
+          <l>por el verbo <foreign xml:lang="la">sum</foreign>, es, fui,</l>
+          <l>por participio y trebejos</l>
+          <l>aporreemos a estos viejos,</l>
+          <l>y que se vayan de aquí.</l>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <l>¿A quién aporrear? ¿A mí?</l>
+        </sp>
+        <sp who="#abogado #sacristan #arganto #benito">
+          <speaker>ABOGADO, SACRISTÁN, ARGANTO, BENITO:</speaker>
+          <l>Sí, señor, y prontamente.</l>
+          <stage>Los cuatro empiezan a aporrear a los dos viejos.</stage>
+        </sp>
+        <sp who="#javier">
+          <speaker>JAVIER</speaker>
+          <stage>(Huyendo)</stage>
+          <pb n="195"/>
+          <l>Desde este punto, hija mía,</l>
+          <l>te niego mi bendición.</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>Bravas penas paso yo.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTÁN</speaker>
+          <l>Para eso tiene la mía.</l>
+          <stage>(Le echa la bendición).</stage>
+        </sp>
+        <sp who="#silvestre">
+          <speaker>SILVESTRE</speaker>
+          <l>Rosa, ya no te habré de querer.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Para eso te quiero yo.</l>
+          <stage>Se van los dos viejos.</stage>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <stage>(Al Abogado)</stage>
+          <l>Señor, gracias impotentes</l>
+          <l>os tributa mi albedrío,</l>
+          <l>porque habéis al gusto mío</l>
+          <l>cooperado diligente.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>Dé usted la mano de esposa</l>
+          <l>a don Arganto y que él,</l>
+          <l>en señal de ser su esposo,</l>
+          <l>se la estreche a usted también.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Rebosando en mil delicias</l>
+          <l>se la estrecho muy gustoso;</l>
+          <l>ven acá, fermosa mía,</l>
+          <l>ya se acabó tu disgusto,</l>
+          <l>ya serás feliz ahora</l>
+          <l>casada con tu Argantuco.</l>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <l>La paga de mi trabajo</l>
+          <l>es tan solo lo que espero.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Mi Sacristán, mi Benito,</l>
+          <l>amigos los tres a un tiempo,</l>
+          <l>démosle al abogadillo</l>
+          <l>palos, en vez de dinero.</l>
+          <pb n="196"/>
+          <stage>Los tres van a porrazos sobre el Abogado.</stage>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <stage>(Corriendo)</stage>
+          <l>Pícaros, después que yo</l>
+          <l>los dejo tan bien casados.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Démosle hasta que se vaya.</l>
+          <stage>Le dan.</stage>
+        </sp>
+        <sp who="#abogado">
+          <speaker>ABOGADO</speaker>
+          <stage>(Se va huyendo)</stage>
+          <l>¡Vayan ustedes al diablo!</l>
+        </sp>
+        <sp who="#rosa">
+          <speaker>ROSA</speaker>
+          <l>¡Jesús, cuánto me divierten</l>
+          <l>estos apacibles ratos!</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Querida mía, el poeta</l>
+          <l>no puede tener contrarios,</l>
+          <l>porque a todos vence</l>
+          <l>o a palos o a terminazos.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Ahora falta solamente</l>
+          <l>que yo le haga mis cariños</l>
+          <l>a mi novia refulgente,</l>
+          <l>por participio de presente,</l>
+          <l>y al son del <foreign xml:lang="grc">Kyrie eleison</foreign>.</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>¡Cariños a mi mujer!</l>
+          <l>¡Un demonio para ti!</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>¿Y la una mitad no es tuya</l>
+          <l>y la otra para mí?</l>
+        </sp>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>No me hables otra palabra</l>
+          <l>sobre ese particular.</l>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>No hay remedio, mis obsequios</l>
+          <l>un momento ha de aguantar.</l>
+        </sp>
+        <pb n="197"/>
+        <sp who="#arganto">
+          <speaker>ARGANTO</speaker>
+          <l>Toma obsequios.</l>
+          <stage>(Le pega)</stage>
+        </sp>
+        <sp who="#sacristan">
+          <speaker>SACRISTAN</speaker>
+          <l>Toma tu también.</l>
+          <stage>(Le pega).</stage>
+          <stage>Se agarran a pelear, y lo que los ve Benito, carga con la muchacha y se la lleva,
+            diciendo:</stage>
+        </sp>
+        <sp who="#benito">
+          <speaker>BENITO</speaker>
+          <l>Ahora me la llevo al cura,</l>
+          <l>y me caso sin temores;</l>
+          <l>porque a que me dé el sí</l>
+          <l>la obligaré a pescozones:</l>
+          <l>Señores, a río revuelto ganancia de pescadores.</l>
+        </sp>
+        <trailer>FIN</trailer>
+      </div>
+    </body>
+  </text>
+</TEI>
