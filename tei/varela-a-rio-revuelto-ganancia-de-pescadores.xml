@@ -22,7 +22,7 @@
         <editor xml:id="gdr">
           <forename>Gimena</forename>
           <nameLink>del</nameLink>
-          <surname>Rio</surname>
+          <surname>Rio Riande</surname>
         </editor>
       </titleStmt>
       <publicationStmt>
@@ -737,7 +737,7 @@
         </sp>
         <sp who="#arganto">
           <speaker>ARGANTO</speaker>
-          <l>¿No sabes tú lo que son <foreign xml:lang="la">palillos fuego-vomentes</foreign>?</l>
+          <l>¿No sabes tú lo que son <foreign xml:lang="lat">palillos fuego-vomentes</foreign>?</l>
         </sp>
         <sp who="#benito">
           <speaker>BENITO</speaker>
@@ -847,8 +847,8 @@
           <l><foreign xml:lang="grc">Kyrie eleison, eleison</foreign>,</l>
           <l>que me rompan la cabeza;</l>
           <l>
-            <foreign xml:lang="la">Domine ad ajuvandum</foreign></l>
-          <l><foreign xml:lang="la">me festina</foreign>,</l>
+            <foreign xml:lang="lat">Domine ad ajuvandum</foreign></l>
+          <l><foreign xml:lang="lat">me festina</foreign>,</l>
           <l>con presteza.</l>
         </sp>
         <pb n="182"/>
@@ -1001,14 +1001,14 @@
         </sp>
         <sp who="#sacristan">
           <speaker>SACRISTAN</speaker>
-          <l>¡Oh, <foreign xml:lang="la">pulcra Domina mea</foreign>!,</l>
+          <l>¡Oh, <foreign xml:lang="lat">pulcra Domina mea</foreign>!,</l>
           <l>¿por qué contra esta librea</l>
           <l>de sotana y de manteo</l>
           <l>tan irritada te ves?</l>
-          <l>Si tú <foreign xml:lang="la">diligis</foreign> a mí,</l>
-          <l>ego <foreign xml:lang="la">deligebo</foreign> a ti,</l>
-          <l>y con esta <foreign xml:lang="la">dileccione</foreign></l>
-          <l><foreign xml:lang="la">in utroque corazone</foreign>...</l>
+          <l>Si tú <foreign xml:lang="lat">diligis</foreign> a mí,</l>
+          <l>ego <foreign xml:lang="lat">deligebo</foreign> a ti,</l>
+          <l>y con esta <foreign xml:lang="lat">dileccione</foreign></l>
+          <l><foreign xml:lang="lat">in utroque corazone</foreign>...</l>
         </sp>
         <sp who="#rosa">
           <speaker>ROSA</speaker>
@@ -1318,10 +1318,10 @@
         </sp>
         <sp who="#sacristan">
           <speaker>SACRISTAN</speaker>
-          <l><foreign xml:lang="la">Miserere mei</foreign> pronto,</l>
-          <l>señor <foreign xml:lang="la">Domine</foreign> abogado,</l>
+          <l><foreign xml:lang="lat">Miserere mei</foreign> pronto,</l>
+          <l>señor <foreign xml:lang="lat">Domine</foreign> abogado,</l>
           <l>porque aqueste don Javier</l>
-          <l>quiere <foreign xml:lang="la">mihi</foreign>dare palos.</l>
+          <l>quiere <foreign xml:lang="lat">mihi</foreign>dare palos.</l>
         </sp>
         <sp who="#arganto">
           <speaker>ARGANTO</speaker>
@@ -1334,7 +1334,7 @@
           <l>Vamos, eñor don Javier,</l>
           <l>
             <foreign xml:lang="la">justicia est certum derechum de dare quod suyo es</foreign>,</l>
-          <l>y no dar lo que es <foreign xml:lang="la">agenun</foreign>.</l>
+          <l>y no dar lo que es <foreign xml:lang="lat">agenun</foreign>.</l>
           <l>¿Entiende usted?</l>
         </sp>
         <sp who="#javier">
@@ -1541,7 +1541,7 @@
         </sp>
         <sp who="#abogado">
           <speaker>ABOGADO</speaker>
-          <l>¿Cómo es eso de <foreign xml:lang="la">noramala</foreign>?</l>
+          <l>¿Cómo es eso de <foreign xml:lang="lat">noramala</foreign>?</l>
           <l>¡por vida de mis guedejas!</l>
         </sp>
         <sp who="#silvestre">
@@ -1575,7 +1575,7 @@
           <l>Por activa y por pasiva,</l>
           <l>por gerundio y subjuntivo,</l>
           <l>por el modo indicativo,</l>
-          <l>por el verbo <foreign xml:lang="la">sum</foreign>, es, fui,</l>
+          <l>por el verbo <foreign xml:lang="lat">sum</foreign>, es, fui,</l>
           <l>por participio y trebejos</l>
           <l>aporreemos a estos viejos,</l>
           <l>y que se vayan de aquí.</l>
