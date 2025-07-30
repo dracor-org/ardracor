@@ -44,7 +44,7 @@
         </bibl>
         <bibl type="originalSource"><title>Antología de poetas argentinos</title><biblScope unit="tomo">II - La Revolución</biblScope>
         <author><forename>Juan</forename><surname>de la C. Puig</surname></author>
-        <editor>Martín Biedma e hijo</editor><pubPlace>Buenos Aires</pubPlace><date>1910</date></bibl>
+        <editor>Martín Biedma e hijo</editor><pubPlace>Buenos Aires</pubPlace>, pp.<biblScope unit="page" from="70" to="112">70/112</biblScope><date>1910</date></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
