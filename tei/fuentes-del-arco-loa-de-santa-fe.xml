@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000008" xml:lang="spa">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Comedia representada en las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad Felipe Quinto en acción de gracias por haberlo descargado del tributo de la sisa que contribuía en la yerba del Paraguay</title>
+        <title type="other">Loa de Santa Fe en honor a Felipe V (1717)</title>
+         <author>
+            <persName>
+              <forename>Antonio</forename>
+              <surname>Fuentes del Arco y Godoy</surname>
+        </persName>
+            <idno type="wikidata">Q134966270</idno>
+        </author>
+        <editor xml:id="lv">
+        <forename>Laura</forename>
+        <surname>Volkind</surname></editor>
+        <editor xml:id="gdr">
+        <forename>Gimena</forename> 
+        <nameLink>del</nameLink>
+        <surname>Rio Riande</surname></editor>
+    </titleStmt>
+      <publicationStmt>
+      <publisher xml:id="dracor">DraCor</publisher>
+      <idno type="URL">https://dracor.org/</idno>
+      <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+      <idno type="URL">https://hdlab.space/</idno>
+      <availability>
+        <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"> CC0</licence>
+      </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Calvo, Luis María (2022). La Loa de Santa Fe en honor a Felipe V (1717). Revista América, 31, pp. 224-253.</name>
+          <idno type="URL">http://www.cehsf.ceride.gov.ar/america_31.pdf</idno>
+          <availability status="free">
+            <p>Online. No Creative Commons licenses.</p>
+          </availability>
+          </bibl>
+           <bibl type="originalSource">
+            <author>
+              <forename>Luis María</forename> 
+              <surname>Calvo</surname>
+            </author>
+            <date when="2022">2022</date>
+            <title>La Loa de Santa Fe en honor a Felipe V (1717)</title>
+            <title level="j">Revista América</title>
+            <biblScope unit="issue">31</biblScope>
+            <biblScope unit="page" from="224" to="253">224–253</biblScope>
+          </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+           <person xml:id="musica" sex="FEMALE" >
+            <persName>MÚSICA</persName>
+          </person>
+           <person xml:id="caballeroPrimero" sex="MALE">
+            <persName>CABALLERO PRIMERO</persName>
+          </person>
+          <person xml:id="caballeroSegundo" sex="MALE">
+            <persName>CABALLERO SEGUNDO</persName>
+          </person>
+          <person xml:id="caballeroTercero" sex="MALE">
+            <persName>CABALLERO TERCERO</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+      <keywords>
+            <term source="wikidata" type="genreTitle">Loa</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q11689371</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-06-10">(lv) cambia codificacion inicial y adapta a Dracor</change>
+         <change when="2025-07-01">(gdr) corrección de la ficha</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1946">
+        <desc/>
+      </event>
+      <event type="premiere" when="1717">
+        <desc/>
+      </event>
+      <event type="written" when="1717">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+   <front>
+    <pb n="234"/>
+    <castList>
+        <castItem>
+        <role>Música</role>
+        <role>Caballero Primero</role>
+        <role>Caballero Segundo</role>
+        <role>Caballero Tercero</role>
+        </castItem>
+      </castList> 
+      <set>
+        <head type="main">Comedia representada en las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad Felipe Quinto en acción de gracias por haberlo descargado del tributo de la sisa que contribuía en la yerba del Paraguay. Antonio Fuentes del Arco, Santa Fe, 1717.</head>
+        <head type="subtitle">Obra de D. Antonio Fuentes del Arco hijo de la ciudad de Santa Fe</head>
+        <p>Loa. En las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad el Rey Don Philipo Quinto en acción de gracias por haberla descargado del tributo de la sisa que contribuía en la yerba del Paraguay, precedió a la comedia de no puede ser que se hizo en celebridad de su patrón el doctor de la iglesia San Gerónimo.</p>
+        <note source="originalSource">La Loa, escrita en verso, cuenta con la intervención de tres “Caballeros” y un cuarto personaje que simboliza la Música. Los santafesinos son descriptos como fieles súbditos que acatan la voluntad real aunque el impuesto la sisa les empobrece y, para dar solución a sus penurias, acuden a la intercesión de su santo patrono. Las súplicas son escuchadas por San Jerónimo quien golpea su “pecho embravecido” produciendo un sonido que es escuchado por el Rey. En consecuencia Felipe V se muestra clemente y manda suspender la contribución del tributo.</note>
+    </set>
+</front> 
+<body>
+    <l>Personas que hablan en ella: tres caballeros y música</l>
+      <sp who="#musica">
+        <speaker>MUSICA</speaker>
+        <l>Desde su solio eminente</l>
+        <l>Mercedes. Philipo brota</l>
+        <l>Y Gerónimo halla en ella</l>
+        <l>Para su pueblo mejoras.</l>
+      </sp>
+    <stage>Sale el primer caballero por la puerta.</stage>
+      <stage>De en medio del paño y acabada la música dice:</stage>
+
+      <sp who="#caballeroPrimero"> 
+       <speaker>CABALLERO PRIMERO</speaker> 
+       <l>Del mal que ocupa entre ambos horizontes</l>
+       <l>Por crespas greñas de encumbrados montes</l>
+       <l>Sacaba febo sus cabellos rojos</l>
+       <l>Y con dorados ojos</l>     
+
+<pb n="236"/>
+       <l>Al orbe está mirando</l>
+       <l>Las oscuras tinieblas desterrando,</l>
+       <l>Que es monarca fogoso</l>
+       <l>Que destierra tinieblas luminoso</l>
+       <l>Y cuando más se encumbra,</l>
+       <l>Al pobre, al chico, y al más grande alumbra</l>
+       <l>Si en su cenit ardiente</l>
+       <l>Ilustrado de rayos, coronó su frente</l>
+       <l>Monarca poderoso,</l>
+       <l>A todo su hemisferio hace dichoso,</l>
+       <l>Y en círculo rotundo</l>
+       <l>Muchas vueltas va dando a todo el mundo</l>
+       <l>Así nuestro Philipo (Dios le guarde)</l>
+       <l>Hoy de sus luces sale a hacer alarde,</l>
+       <l>Cual otro sol hermoso,</l>
+       <l>Mirando a nuestra esfera más piadoso,</l>
+       <l>Su mano poderosa</l>
+       <l>A esta ilustre ciudad hace dichosa</l>
+       <l>Suene pues la armonía que respira</l>
+       <l>En gloria suya la templada lira,</l>
+       <l>Y el eco de su aliento</l>
+       <l>Pueble sonoro la región del viento</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Todos repitan alegres</l>
+        <l>Dentrambos sus altas glorias</l>
+        <l>Y con voces nunca oídas</l>
+        <l>Hagan debidas lisonjas</l>
+      </sp>
+
+<pb n="238"/>
+     <stage>Sale el segundo caballero por la puerta del lado izquierdo</stage>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker> 
+        <l>Yace en eso otra falda</l>
+        <l>Castillo de esmeralda</l>
+        <l>Opuesto a los asaltos de un gran río</l>
+        <l>Que cercándole está con cristal frío;</l>
+        <l>Siendo al batirlos con violencia suma</l>
+        <l>Balas sus perlas, pólvora su espuma</l>
+        <l>Una cueva apacible</l>
+        <l>Ni lóbrega, ni horrible;</l>
+        <l>No es cueva, boca sí de ese desierto</l>
+        <l>Que para bostezar el monte ha abierto</l>
+        <l>Entra por ella un arroyuelo helado</l>
+        <l>Y vuelve a despedirle atropellado</l>
+        <l>Confirmando que es boca; pues su nieve</l>
+        <l>Aquí tal vez la escupe allí la bebe</l>
+        <l>En esta cueva, en esta boca hermosa,</l>
+        <l>Sobre alfombra que dio, carmín y rosa,</l>
+        <l>De Morfeo rendido</l>
+        <l>Cansado me quedé como dormido,</l>
+        <l>Apenas pues el sueño</l>
+        <l>De mis sentidos se hizo dulce dueño,</l>
+        <l>Cuando dueño no fue, por que un ruido</l>
+        <l>De dulce esclavitud, libró el sentido</l>
+        <l>Una voz cuyos ecos</l>
+        <l>Resonaban del bosque robles huecos</l>
+        <l>Y atendiendo mi oído</l>
+        <l>Despierta, dice, entre sonoros ruidos</l>
+        <l>Y así vengo a buscar</l>
+
+<pb n="240"/>
+        <l>Quién del sueño me pudo despertar:</l>
+        <l>Más allí un hombre veo</l>
+        <l>Si es del gozo ilusión o del deseo?</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>Todo es llegar a tiempo caballero</l>
+        <l>Joven gallardo, de la gala esmero</l>
+        <l>Porque ya con canora melodía,</l>
+        <l>Se repiten los ecos la alegría</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>De regocijos alegres</l>
+        <l>Hoy la dicha se corona</l>
+        <l>Y al aplauso que dedica</l>
+        <l>Festivo el amor convoca</l>
+      </sp>
+      <stage>Sale el caballero 3° por la puerta de mano derecha</stage>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Aquí donde las aves</l>
+        <l>Rabeles son de pluma que suaves</l>
+        <l>En sonoroso acento</l>
+        <l>Pueblan con melodía el blando viento</l>
+        <l>Donde poma de olores</l>
+        <l>Con el flato suave de las flores</l>
+        <l>Tremola, halaga, y mueve</l>
+        <l>El aura grata con impulso leve</l>
+        <l>Donde la rosa encinta de escarlata</l>
+        <l>Anudando el carmín, le ciñe y ata</l>
+        <l>Aquí donde aliviada ya la fuente</l>
+        <l>Cítara es de cristal, por su corriente</l>
+        <l>Que en la yerba y en los juncos tropezando</l>
+        <l>Con acentos de espuma está corriendo</l>
+        
+<pb n="242"/>
+        <l>Aquí quedo ya dudoso</l>
+        <l>De tan crecido gozo</l>
+        <l>Me condujo el saber</l>
+        <l>Porque tan grande gozo podía ser</l>
+        <l>Allí dos caballeros</l>
+        <l>Que sin duda son fuertes arqueros</l>
+        <l>Miro, y admiro en ellos</l>
+        <l>Que son de esta ciudad sus rayos bellos</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>Ilustre caballero generoso</l>
+        <l>Sin duda más que Adonis, más hermoso</l>
+        <l>Ya con vuestra llegada</l>
+        <l>Más lucida será nuestra jornada;</l>
+        <l>Ambos a dos dudosos</l>
+        <l>Parece que venís en estos gozos</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>A saber vengo</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Cual es el motivo</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>Cual es el incentivo</l>
+        <l>Que a tan extraño regocijo mueve</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker> 
+        <l>Atendedme señores, seré breve</l>
+        <l>En las riberas de ese claro espejo</l>
+        <l>Que dilata espacioso con despejo</l>
+        <l>El cristal que ha robado</l>
+        <l>De todos los arroyos que ha encontrado,</l>
+        <l>Y haciéndose señor más imperioso</l>
+        <l>Se encuentra con el mar más generoso</l>
+        <l>Que es dividido en trozos</l>
+        <l>Formando laberintos enredosos</l>
+        <l>Ya altivo se despeña</l>
+
+<pb n="244"/>
+        <l>Ya lame inculta peña</l>
+        <l>Ya encrespado, al correr se ensoberbece,</l>
+        <l>Ya humilde baja, y ya soberbio crece,</l>
+        <l>Hasta que todas sus corrientes ata</l>
+        <l>Con el nombre del Río de la Plata</l>
+        <l>En sus orillas pues está situado</l>
+        <l>Un castillo muy fuerte y bien armado</l>
+        <l>Donde cual primaveras</l>
+        <l>Se tremolan vistosas las banderas</l>
+        <l>De nuestro Gran Monarca, a quien sujetas</l>
+        <l>Sólo por su defensa están inquietas</l>
+        <l>Ésta que es fortaleza,</l>
+        <l>(que es la llave de toda su grandeza)</l>
+        <l>O por deteriorada</l>
+        <l>Porque en su principio mal fundada</l>
+        <l>Estuvo; a su mejora competente</l>
+        <l>Pedía aquel alivio conveniente;</l>
+        <l>Y como no se hallasen</l>
+        <l>Aquellas providencias que bastasen</l>
+        <l>Para su compostura, en su real arca</l>
+        <l>Precisado se dio nuestro Monarca</l>
+        <l>A imponer un tributo en el comercio</l>
+        <l>Haciendo se pagase en cada tercio</l>
+        <l>De yerba, peso y medio,</l>
+        <l>Y que también pagase sin remedio</l>
+        <l>Doblada cantidad el que quisiera</l>
+        <l>Sacarla o consumirla por afuera</l>
+        <l>Quedó esto así mandado,</l>
+        <l>Si bien que fue por tiempo limitado</l>
+
+<pb n="246"/>
+        <l>La imposición que tuvo el instituto</l>
+        <l>Abrazó la ciudad este tributo</l>
+        <l>Y aunque vido su peso,</l>
+        <l>No resistió por eso,</l>
+        <l>Que de sus hijos aún las vidas dieran</l>
+        <l>Siempre que de su Rey empeño fuera,</l>
+        <l>Pasóse el asignado tiempo injusto</l>
+        <l>Y siendo en sus vecinos poco gusto,</l>
+        <l>Y que el placer decrece</l>
+        <l>comodidad desaparece</l>
+        <l>Cual gozo se confina,</l>
+        <l>Que la pena camina,</l>
+        <l>Que el pesar se detiene</l>
+        <l>Y que el mal con muy largos pasos viene,</l>
+        <l>Se acoge al patrocinio soberano</l>
+        <l>De su patrón, queriendo por su mano</l>
+        <l>Conseguir el alivio deseado,</l>
+        <l>Hállale retirado</l>
+        <l>Metido en un desierto</l>
+        <l>Más que dicha! Que apenas descubierto</l>
+        <l>Fue de la devoción que le buscaba</l>
+        <l>Rompiendo la espesura que atajaba</l>
+        <l>A humana huella la dichosa entrada</l>
+        <l>Cuando entre la arboleda enmarañada</l>
+        <l>De (...) sale el pensamiento</l>
+        <l>Pues queda desgarrado el mismo viento,</l>
+        <l>Paso en fin impelido del deseo</l>
+        <l>Y en el candor jadeo</l>
+        <l>De Gerónimo el magno, halló el alivio</l>
+
+<pb n="248"/>
+        <l>Pues su espíritu ardiente y nunca tibio</l>
+        <l>Daba golpes al pecho embravecido</l>
+        <l>Escuchó nuestro Rey aquel sonido;</l>
+        <l>Y siendo su clemencia por aquel pecho</l>
+        <l>Que impuso a esta ciudad es quien ha hecho,</l>
+        <l>Que el pecho de Gerónimo en raudales,</l>
+        <l>Suelte copiosas sartas de corales</l>
+        <l>pues la sangre que allí ve que derrama,</l>
+        <l>Con claros ecos, clama,</l>
+        <l>Diciendo con voz muda,</l>
+        <l>Que es la que por el pecho el pueblo suda</l>
+        <l>Manda hoy se suspenda lo gravoso</l>
+        <l>del tributo, y así alegre, gozoso,</l>
+        <l>Pues ya la relación habéis oído</l>
+        <l>A todos os convido</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>Yo me ofrezco a serviros de luego</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Yo señor no me niego:</l>
+        <l>Más a quien se atribuye aquella hazaña</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>A la luciente púrpura de España</l>
+        <l>Y por el mismo modo aquí también</l>
+        <l>A la púrpura docta de Belén,</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>Pero como el obsequio se ha de hacer</l>
+        <l>Si no tenemos nada que ofrecer?</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Pues qué hemos de decir,</l>
+        <l>O cómo les habemos de aplaudir?</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker> 
+        <l>Los ecos que da el viento</l>
+        <l>Dirigirán las voces al intento</l>
+        <l>Y advierto que este día</l>
+        <l>A Don Andrés Martínez de Murguía</l>
+        <l>También se ha de elogiar</l>
+      </sp>
+
+<pb n="250"/>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker> 
+        <l>El motivo no puedo yo alcanzar</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker> 
+        <l>Fue el arcabuz de las negociaciones</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Muy justas son con él las atenciones</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>Pues tú le alaba, y tú a Philipo Quinto</l>
+        <l>Que yo lo haré por modo no distinto</l>
+        <l>Al excelso doctor nuestro patrón</l>
+        <l>A quien me tira grato la afición</l>
+        <l>Postrados se le rindan a millones</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Corazones</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>Humildes se le postren con respetos</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Afectos</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>Y gozosos, se pidan en albricias</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Caricias</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>Corran por todo el mundo las noticias</l>
+        <l>De los favores que al patrón debemos</l>
+        <l>Y todos uniformes le entreguemos</l>
+      </sp>
+      <sp who="#musica #caballeroPrimero">
+        <speaker>MÚSICA Y EL CABALLERO</speaker>
+        <l>Corazones, afectos y caricias</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+          <l>Rinda el orbe a las altas majestades</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Lealtades</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>Y fervorosos todos sin tibiezas</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Finezas</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>Y los que ocupan puestos y ejercicios</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Servicios</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>Porque son tales hoy los beneficios</l>
+        <l>Que de su larga mano se reciben,</l>
+        <l>Que no le pagaran aunque le obliguen</l>
+      </sp>
+      <sp who="#música #caballeroSegundo">
+        <speaker>MÚSICA Y EL CABALLERO</speaker>
+        <l>Con lealtades, finezas y servicios</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Ofrézcale el anciano, el grande, el niño</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Cariño</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>En pago de su amor y su amistad</l>
+      </sp>
+
+<pb n="252"/>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Voluntad</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Agradeciéndole la diligencia</l>
+      </sp>
+      <sp who="#musica">
+        <speaker>MÚSICA</speaker>
+        <l>Correspondencia</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Pues medianera fue su inteligencia</l>
+        <l>Débasele también en la alegría</l>
+        <l>A don Andrés Martínez de Murguía</l>
+      </sp>
+      <sp who="#musica #caballeroTercero">
+        <speaker>MÚSICA y CABALLERO</speaker>
+        <l>Cariño, voluntad, correspondencia</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>Y pues ya en voces y ecos habéis dado</l>
+        <l>A entender que ya estoy tan obligado</l>
+        <l>Que festejo será el que prebendemos</l>
+        <l>En que a todos gozosos los dejemos</l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>Que sea una comedia</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Y ha de ser <title type="work">“Que No Puede Guardarse Una Mujer”</title><note type="explanation">Se trata de una obra de Moreto, muy popular en el siglo XVIII.</note></l>
+      </sp>
+      <sp who="#caballeroSegundo">
+        <speaker>CABALLERO SEGUNDO</speaker>
+        <l>Dices bien pues en ella los galanes</l>
+        <l>Que son ya de las damas piedra imanes</l>
+        <l>Hallarán fácil modo de alcanzarlas</l>
+      </sp>
+      <sp who="#caballeroTercero">
+        <speaker>CABALLERO TERCERO</speaker>
+        <l>Y no querrán sus dueños ya guardarlas</l>
+        <l>Pues el ejemplo tienen evidente</l>
+      </sp>
+      <sp who="#caballeroPrimero">
+        <speaker>CABALLERO PRIMERO</speaker>
+        <l>Escuche que es atento todo oyente</l>
+        <l>El ignorante, el sabio y el discreto</l>
+        <l>Que es el autor Don Agustín Moreto</l>
+      </sp>
+    </body>
+  </text>
+</TEI>
