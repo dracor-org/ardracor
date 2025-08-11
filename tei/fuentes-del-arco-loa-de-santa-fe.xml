@@ -110,11 +110,11 @@
         <head type="main">Comedia representada en las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad Felipe Quinto en acción de gracias por haberlo descargado del tributo de la sisa que contribuía en la yerba del Paraguay. Antonio Fuentes del Arco, Santa Fe, 1717.</head>
         <head type="subtitle">Obra de D. Antonio Fuentes del Arco hijo de la ciudad de Santa Fe</head>
         <p>Loa. En las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad el Rey Don Philipo Quinto en acción de gracias por haberla descargado del tributo de la sisa que contribuía en la yerba del Paraguay, precedió a la comedia de no puede ser que se hizo en celebridad de su patrón el doctor de la iglesia San Gerónimo.</p>
-        <note source="originalSource">La Loa, escrita en verso, cuenta con la intervención de tres “Caballeros” y un cuarto personaje que simboliza la Música. Los santafesinos son descriptos como fieles súbditos que acatan la voluntad real aunque el impuesto la sisa les empobrece y, para dar solución a sus penurias, acuden a la intercesión de su santo patrono. Las súplicas son escuchadas por San Jerónimo quien golpea su “pecho embravecido” produciendo un sonido que es escuchado por el Rey. En consecuencia Felipe V se muestra clemente y manda suspender la contribución del tributo.</note>
+        <note type="editor">La Loa, escrita en verso, cuenta con la intervención de tres “Caballeros” y un cuarto personaje que simboliza la Música. Los santafesinos son descriptos como fieles súbditos que acatan la voluntad real aunque el impuesto la sisa les empobrece y, para dar solución a sus penurias, acuden a la intercesión de su santo patrono. Las súplicas son escuchadas por San Jerónimo quien golpea su “pecho embravecido” produciendo un sonido que es escuchado por el Rey. En consecuencia Felipe V se muestra clemente y manda suspender la contribución del tributo.</note>
     </set>
 </front> 
 <body>
-    <l>Personas que hablan en ella: tres caballeros y música</l>
+  <stage>Personas que hablan en ella: tres caballeros y música</stage>
       <sp who="#musica">
         <speaker>MUSICA</speaker>
         <l>Desde su solio eminente</l>
@@ -122,8 +122,7 @@
         <l>Y Gerónimo halla en ella</l>
         <l>Para su pueblo mejoras.</l>
       </sp>
-    <stage>Sale el primer caballero por la puerta.</stage>
-      <stage>De en medio del paño y acabada la música dice:</stage>
+    <stage>Sale el primer caballero por la puerta. De en medio del paño y acabada la música dice:</stage>
 
       <sp who="#caballeroPrimero"> 
        <speaker>CABALLERO PRIMERO</speaker> 
