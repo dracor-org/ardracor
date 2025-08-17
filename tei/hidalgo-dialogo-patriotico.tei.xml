@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="ar000010" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Diálogo patriótico interesante</title>
+        <title type="sub">Entre Jacinto Chano, capataz de una estancia en las islas del Tordillo, y el gaucho de la Guardia del Monte</title>
+        <author>
+          <persName>
+            <forename>Bartolomé</forename>
+            <surname>Hidalgo</surname>
+              </persName>
+          <idno type="wikidata">Q809535</idno>
+        </author>
+      <editor xml:id="tr">
+          <forename>Teresa</forename>
+          <surname>Ravelo</surname>
+        </editor>
+        <editor xml:id="rdl">
+          <forename>Romina</forename>
+          <nameLink>De</nameLink>
+          <surname>León</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio Riande</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: obras de la Independencia: 1818-1824</name>
+          <idno type="URL">https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT2.pdf#page=37</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+        <title>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: obras de 
+        la Independencia: 1818-1824</title>
+       <author><forename>Beatriz</forename> <surname>Seibel</surname></author>
+       <pubPlace>Buenos Aires</pubPlace>
+       <publisher>Instituto Nacional del Teatro</publisher><date>2007</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="MALE" xml:id="contreras">
+            <persName>CONTRERAS</persName>
+          </person>
+          <person sex="MALE" xml:id="chano">
+            <persName>CHANO</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-05-30">(tr) initial encoding</change>
+        <change when="2025-07-30">(rdl) revision</change> 
+        <change when="2025-08-17">(gdr) revision</change> 
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1821">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+<text>
+<front>
+  <pb n="73"/>
+      <titlePage>
+            <docTitle>
+              <titlePart type="main">Diálogo patriótico interesante</titlePart>
+            </docTitle>
+            <docAuthor>Bartolomé Hidalgo</docAuthor>
+          </titlePage>
+      <castList>
+        <head>PERSONAJES</head>
+        <castItem>
+           <role>CONTRERAS</role>
+           <roleDesc>CAPATAZ DE UNA ESTANCIA EN LAS ISLAS DEL TORDILLO</roleDesc>
+        </castItem>
+        <castItem>             
+           <role>CHANO</role>
+           <roleDesc>GAUCHO DE LA GUARDIA DEL MONTE</roleDesc>
+        </castItem>
+      </castList>
+ </front>
+<body>
+    <pb n="75"/>    
+    <note type="author">
+      <p><emph>Se supone recién llegado a la Guardia del Monte el capataz Chano y el diálogo en casa del paisano Ramón Contreras (que es el gaucho de la Guardia).</emph></p>
+    </note>
+         <sp who="#contreras">
+        <speaker>CONTRERAS</speaker>
+        <l>Con que, amigo, ¿diáonde diablos</l>
+        <l>sale? Meta el <term>redomón <note type="editor">caballo de amansamiento</note></term>,</l>
+        <l>desensille, votoalante…</l>
+        <l>¡Ah pingo que da calor!</l>
+      </sp>
+      <sp who="#chano">
+        <speaker>CHANO</speaker>
+        <l>De las islas del Tordillo</l>
+        <l>salí en este <term>mancarrón<note type="editor">caballo viejo</note></term>:</l>
+        <l>¡pero si es trabuco, Cristo!</l>
+        <l>¿Cómo está señó Ramón?</l>
+      </sp>
+      <sp who="#contreras">
+        <speaker>CONTRERAS</speaker>
+        <l>Lindamente a su servicio…</l>
+        <l>¿Y se vino del tirón?</l>
+      </sp>
+      <sp who="#chano">
+        <speaker>CHANO</speaker>
+        <l>Sí, amigo, estaba de balde,</l>
+        <l>y le dije a Salvador:</l>
+        <l>andá traeme el azulejo,</l>
+        <l>apretamelé el cinchón</l>
+        <l>porque voy a platicar</l>
+        <l>con el paisano Ramón,</l>
+    <pb n="76"/>
+        <l>y ya también salí al tranco,</l>
+        <l>y cuando se puso el sol</l>
+        <l>caí al camino y me vine;</l>
+        <l>cuando en esto se asustó</l>
+        <l>el animal, porque el poncho</l>
+        <l>las <term>verijas <note type="editor">órganos genitales</note></term> le tocó…</l>
+        <l>¡Qué sosegarse este diablo!</l>
+        <l>A bellaquiar se agachó</l>
+        <l>y conmigo a unos zanjones</l>
+        <l>caliente se enderezó.</l>
+        <l>Viéndome medio atrasao</l>
+        <l>puse el corazón en Dios</l>
+        <l>y en la viuda, y me tendí;</l>
+        <l>y tan lindo atropelló</l>
+        <l>este bruto, que las zanjas</l>
+        <l>como quiera las salvó.</l>
+        <l>¡Eh p… el pingo ligero!</l>
+        <l>¡Bien haiga quien lo parió!</l>
+        <l>Por fin, después de este lance</l>
+        <l>del todo sosegó,</l>
+        <l>y hoy lo <term>sobé <note type="editor">agotar con marcha fatigosa</note></term> de mañana</l>
+        <l>antes de salir el sol,</l>
+        <l>de suerte que está el caballo</l>
+        <l>parejo que da temor.</l>
+      </sp>
+      <sp who="#contreras">
+        <speaker>CONTRERAS</speaker>
+        <l>¡Ah, Chano!... ¡Pero si es <term>liendre <note type="editor">astuto</note></term></l>
+        <l>en cualquiera <term>bagualón <note type="editor">caballo sin domar</note></term>...!</l>
+        <l>Mientras se calienta el agua</l>
+        <l>y echamos un cimarrón</l>
+     <pb n="77"/>
+        <l>¿qué novedades se corren?</l>
+      </sp>
+      <sp who="#chano">
+        <speaker>CHANO</speaker>
+        <l>Novedades… qué se yo;</l>
+        <l>hay tantas que uno no acierta</l>
+        <l>a qué lao caerá el <term>dos <note type="editor">carta de triunfo en el monte</note></term>,</l>
+        <l>aunque le esté viendo el lomo.</l>
+        <l>Todo el Pago es sabedor</l>
+        <l>que yo siempre por la causa</l>
+        <l>anduve al frío y calor.</l>
+        <l>Cuando la primera <term>Patria <note type="editor">años 1811/1814</note></term>,</l>
+        <l>al grito se presentó</l>
+        <l>Chano con todos sus hijos.</l>
+        <l>¡Ah tiempo aquel, ya pasó!</l>
+        <l>Si jue en la <term>Patria del medio <note type="editor">años 1811/1814</note></term></l>
+        <l>lo mesmo me sucedió,</l>
+        <l>pero, amigo, en esta Patria…</l>
+        <l>Alcancemé un cimarrón.</l>
+      </sp>
+      <sp who="#contreras">
+        <speaker>CONTRERAS</speaker>
+        <l>No se corte, dele <term>guasca <note type="editor">lonja de cuero</note></term>,</l>
+        <l>siga la conversación,</l>
+        <l>velay mate: todos saben</l>
+        <l>que Chano, el viejo cantor,</l>
+        <l>aonde quiera que vaya</l>
+        <l>es un hombre de razón,</l>
+        <l>y que una sentencia suya</l>
+        <l>es como de Salomón.</l>
+      </sp>
+      <sp who="#chano">
+        <speaker>CHANO</speaker>
+        <l>Pues bajo de ese entender</l>
+        <l>empriestemé su atención,</l>
+        <l>y le diré cuanto siente</l>
+      <pb n="78"/>
+        <l>este pobre corazón,</l>
+        <l>que como tórtola amante</l>
+        <l>que a su consorte perdió,</l>
+        <l>y que anda de rama en rama</l>
+        <l>publicando su dolor;</l>
+        <l>ansí yo de rancho en rancho</l>
+        <l>y de <term>tapera <note type="editor">rancho abandonado</note></term> en galpón</l>
+        <l>ando triste y sin reposo,</l>
+        <l>cantando con ronca voz</l>
+        <l>de mi Patria los trabajos,</l>
+        <l>de mi destino el rigor…</l>
+        <l>En diez años que llevamos</l>
+        <l>de nuestra revolución,</l>
+        <l>por sacudir las cadenas</l>
+        <l>de Fernando el <term>baladrón <note type="editor">rancho abandonado</note></term>:</l>
+        <l>¿qué ventaja hemos sacado?</l>
+        <l>Las diré con su perdón.</l>
+        <l>Robarnos unos a otros,</l>
+        <l>aumentar la desunión, q</l>
+        <l>uerer todos gobernar,</l>
+        <l>y de faición en faición</l>
+        <l>andar sin saber que andamos:</l>
+        <l>resultando en conclusión</l>
+        <l>que hasta el nombre de paisano</l>
+        <l>parece de mal sabor,</l>
+        <l>y en su lugar yo no veo</l>
+        <l>sino un eterno rencor</l>
+        <l>y una tropilla de pobres,</l>
+        <l>que metida en un rincón</l>
+        <l>canta al son de su miseria:</l>
+        <l>¡no es la miseria mal son!</l>
+      </sp>
+     <pb n="79"/>
+      <sp who="#contreras">
+        <speaker>CONTRERAS</speaker>
+        <l>¿Y no se sabe en qué <term>diasques <note type="editor">disques, intrigas</note></term></l>
+        <l>este enriedo consistió?</l>
+        <l>¡La pujanza en los paisanos</l>
+        <l>que son de mala intención!</l>
+        <l>Usté que es hombre escrebido</l>
+        <l>por su madre digaló,</l>
+        <l>que aunque yo compongo Cielos</l>
+        <l>y soy medio payador,</l>
+        <l>a usté le rindo las armas</l>
+        <l>porque sabe más que yo.</l>
+      </sp>
+      <sp who="#chano">
+        <speaker>CHANO</speaker>
+        <l>Desde el principio, Contreras,</l>
+        <l>esto ya se equivocó;</l>
+        <l>de todas nuestras Provincias</l>
+        <l>se empezó a hacer distinción.</l>
+        <l>Como si todas no juesen</l>
+        <l>alumbradas por un sol;</l>
+        <l>entraron a desconfiar</l>
+        <l>unas de otras con tesón,</l>
+        <l>y al instante la discordia</l>
+        <l>el palenque nos ganó.</l>
+        <l>Y cuando nos discuidamos</l>
+        <l>al grito nos revolcó.</l>
+        <l>¿Por qué naides sobre naides</l>
+        <l>ha de ser más superior?</l>
+        <l>El mérito es quien decide,</l>
+        <l>oiga una comparaición:</l>
+        <l>quiere hacer una <term>voltiada <note type="editor">voltear las vacas para marcarlas</note></term></l>
+        <l>en la estancia del Rincón</l>
+    <pb n="80"/>
+        <l>el amigo Sayavedra:</l>
+        <l>pronto se corre la voz</l>
+        <l>del Pago entre la gauchada,</l>
+        <l>ensillan el mancarrón</l>
+        <l>más razonable que tienen,</l>
+        <l>y afilando el <term>alfajor <note type="editor">facón</note></term></l>
+        <l>se vinieron a la oreja</l>
+        <l>cantando versos de amor;</l>
+        <l>llegan, voltean, trabajan,</l>
+        <l>pero amigo, del montón</l>
+        <l>reventó el lazo un novillo</l>
+        <l>y solito se cortó,</l>
+        <l>y atrás de él como langosta</l>
+        <l>el gauchaje se largó…</l>
+        <l>¡Qué recostarlo, ni en chanza!</l>
+        <l>Cuando en esto lo atajó</l>
+        <l>un muchacho forastero,</l>
+        <l>y a la estancia lo arrimó.</l>
+        <l>Lo llama el dueño de casa,</l>
+        <l>mira su disposición</l>
+        <l>y al instante lo conchaba.</l>
+        <l>Ahura pues, pregunto yo:</l>
+        <l>¿el no ser de la cuadrilla</l>
+        <l>hubiera sido razón</l>
+        <l>para no premiar al mozo?</l>
+        <l>Pues oiga la aplicación,</l>
+        <l>la lay es una no más,</l>
+        <l>y ella da su proteición</l>
+        <l>a todo el que la respeta.</l>
+        <l>El que la lay agravió</l>
+       <pb n="81"/>  
+        <l>que la desagravie al punto:</l>
+        <l>esto es lo que manda Dios,</l>
+        <l>lo que pide la justicia</l>
+        <l>y que clama la razón;</l>
+        <l>sin preguntar si es porteño</l>
+        <l>el que la ley ofendió,</l>
+        <l>ni si es salteño o puntano,</l>
+        <l>ni si tiene mal color;</l>
+        <l>ella es igual contra el crimen</l>
+        <l>y nunca hace distinción</l>
+        <l>de arroyos ni de lagunas,</l>
+        <l>de rico ni pobretón:</l>
+        <l>para ella es lo mesmo el poncho</l>
+        <l>que casaca y pantalón;</l>
+        <l>pero es platicar de balde,</l>
+        <l>y mientras no vea yo</l>
+        <l>que se castiga el delito</l>
+        <l>sin mirar la condición:</l>
+        <l>digo, que hemos de ser libres</l>
+        <l>cuando hable mi mancarrón.</l>
+      </sp>
+      <sp who="#contreras">
+        <speaker>CONTRERAS</speaker>
+        <l>Es cierto cuanto me ha dicho,</l>
+        <l>y mire que es un dolor</l>
+        <l>ver estas rivalidades,</l>
+        <l>perdiendo el tiempo mejor</l>
+        <l>solo en disputar derechos</l>
+        <l>hasta que ¡no quiera Dios!</l>
+        <l>se aproveche algún cualquiera de</l>
+        <l>todo nuestro sudor.</l>
+      </sp>
+      <sp who="#chano">
+        <speaker>CHANO</speaker>
+        <l>Todos disputan derechos,</l>
+        <l>pero, amigo, sabe Dios</l>
+      <pb n="82"/>  
+        <l>si conocen sus deberes:</l>
+        <l>de aquí nace nuestro error,</l>
+        <l>nuestras desgracias y penas:</l>
+        <l>yo lo digo, sí señor,</l>
+        <l>¡qué derechos ni qué diablos!</l>
+        <l>Primero es la obligación,</l>
+        <l>cada uno cumpla la suya,</l>
+        <l>y después será razón</l>
+        <l>que reclame sus derechos:</l>
+        <l>ansí en la revulución</l>
+        <l>hemos ido reculando,</l>
+        <l>disputando con tesón</l>
+        <l>el empleo y la vedera,</l>
+        <l>el rango y la adulación,</l>
+        <l>y en cuanto a los ocho pesos…</l>
+        <l>¡El diablo es este Ramón!</l>
+      </sp>
+      <sp who="#contreras">
+        <speaker>CONTRERAS</speaker>
+        <l>Lo que a mí me causa espanto</l>
+        <l>es ver que ya se acabó</l>
+        <l>tanto dinero, por Cristo;</l>
+        <l>¡mire que daba temor</l>
+        <l>tantísima pesería!</l>
+        <l>¡Yo no sé en qué se gastó!</l>
+        <l>Cuando el general Belgrano</l>
+        <l>(que esté gozando de Dios)</l>
+        <l>entró en Tucumán, mi hermano</l>
+        <l>por fortuna lo topó,</l>
+        <l>y <term>hasta entregar el rosquete <note>morir</note></term></l>
+        <l>ya no lo desamparó.</l>
+        <l>Pero, ¡ah contar de miserias!,</l>
+        <l>de la mesma formación</l>
+      <pb n="83"/>  
+        <l>sacaban la soldadesca</l>
+        <l>delgada que era un dolor,</l>
+        <l>con la ropa hecha miñangos</l>
+        <l>y el que comía mejor</l>
+        <l>era algún trigo cocido</l>
+        <l>que por fortuna encontró.</l>
+        <l>Los otros, cuál más cuál menos,</l>
+        <l>sufren el mesmo rigor.</l>
+        <l>Si es algún güen oficial</l>
+        <l>que al fin se inutilizó,</l>
+        <l>da cuatrocientos mil pasos</l>
+        <l>pidiendo por concluisión</l>
+        <l>un socorro: no hay dinero,</l>
+        <l>vuelva… todavía no…</l>
+        <l>Hasta que sus camaradas</l>
+        <l>(que están también de mi flor)</l>
+        <l>le largan una camisa,</l>
+        <l>unos cigarros y adiós.</l>
+        <l>Si es la pobre y triste viuda</l>
+        <l>que a su marido perdió,</l>
+        <l>y que anda en las diligencias d</l>
+        <l>e remediar su aflición,</l>
+        <l>lamenta su suerte ingrata</l>
+        <l>en un mísero rincón.</l>
+        <l>De composturas no hablemos:</l>
+        <l>vea lo que me pasó</l>
+        <l>al entrar a la ciudad;</l>
+        <l>estaba el pingo flacón</l>
+        <l>y en el pantano primero</l>
+        <l>lueguito ya se enterró,</l>
+        <l>seguí adelante, ¡ah barriales!</l>
+      <pb n="84"/>  
+        <l>Si daba miedo, señor.</l>
+        <l>anduve por todas partes</l>
+        <l>vi un grande caserón</l>
+        <l>que llaman de las comedias,</l>
+        <l>que hace que se principió</l>
+        <l>muchos años, y no pasa</l>
+        <l>de un abierto corralón,</l>
+        <l>y dicen los hombres viejos</l>
+        <l>que allí un caudal se gastó,</l>
+        <l>tal vez al hacer las cuentas</l>
+        <l>alguno se equivocó</l>
+        <l>y por decir cien mil pesos…</l>
+        <l>Velay otro cimarrón.</l>
+        <l>Si es en el Paso del Ciego</l>
+        <l>allí Tacuara perdió</l>
+        <l>la carrera el otro día;</l>
+        <l>y él por el Paso cortó</l>
+        <l>porque le habían informao</l>
+        <l>que en su gran composición</l>
+        <l>se había gastao un caudal.</l>
+        <l>Conque, amigo, no sé yo</l>
+        <l>por más que estoy cavilando</l>
+        <l>aonde está el borbollón.</l>
+      </sp>
+      <sp who="#chano">
+        <speaker>CHANO</speaker>
+        <l>Eso es querer saber mucho.</l>
+        <l>Si se hiciera una razón</l>
+        <l>de toda la plata y oro</l>
+        <l>que en Buenos Aires entró</l>
+        <l>desde el día memorable</l>
+        <l>de nuestra revulución,</l>
+        <l>y después de güena fe</l>
+        <l>se hiciera una relación</l>
+      <pb n="85"/>  
+        <l>de los gastos que han habío,</l>
+        <l>el pescuezo apuesto yo</l>
+        <l>a que sobraba dinero</l>
+        <l>para formar un cordón</l>
+        <l>dende aquí a <term>Guasupicúa <note>lugar ficticio y lejano</note></term>,</l>
+        <l>pero en tanto que al rigor</l>
+        <l>del hambre perece el pobre,</l>
+        <l>el soldado de valor,</l>
+        <l>el oficial de servicios,</l>
+        <l>y que la prostitución</l>
+        <l>se acerca a la infeliz viuda</l>
+        <l>que mira con cruel dolor</l>
+        <l>padecer a sus hijuelos;</l>
+        <l>entre tanto, el adulón,</l>
+        <l>el que de nada nos sirve</l>
+        <l>y vive en toda faición,</l>
+        <l>disfruta gran abundancia;</l>
+        <l>y como no le costó</l>
+        <l>nada el andar remediao</l>
+        <l>gasta más pesos que arroz.</l>
+        <l>Y, amigo, de esta manera,</l>
+        <l>en medio del pericón</l>
+        <l>el que tiene es don Julano,</l>
+        <l>y el que perdió se <term>amoló <note>embromó</note></term>:</l>
+        <l>sin que todos los servicios</l>
+        <l>que a la Patria le emprestó,</l>
+        <l>lo libren de una roncada</l>
+        <l>que le largue algún <term>pintor <note></note>por jactancioso</term>.</l>
+      </sp>
+     <pb n="86"/>  
+      <sp who="#contreras">
+        <speaker>CONTRERAS</speaker>
+        <l>Pues yo siempre oí decir</l>
+        <l>que ante la lay era yo</l>
+        <l>igual a todos los hombres.</l>
+      </sp>
+      <sp who="#chano">
+        <speaker>CHANO</speaker>
+        <l>Mesmamente, así pasó,</l>
+        <l>y en papeletas de molde</l>
+        <l>por todo se publicó;</l>
+        <l>pero hay sus dificultades</l>
+        <l>en cuanto a la ejecución.</l>
+        <l>Roba un gaucho unas espuelas,</l>
+        <l>o quitó algún mancarrón,</l>
+        <l>o del peso de unos medios</l>
+        <l>a algún paisano alivió;</l>
+        <l>lo prienden, me lo <term>enchalecan <note>poner un cuero fresco que oprime los brazos y lo inmoviliza</note></term>,</l>
+        <l>y en cuanto se descuidó</l>
+        <l>le limpiaron la <term>caracha <note>sarna</note></term>;</l>
+        <l>y de malo y saltiador</l>
+        <l>me lo tratan, y a un presidio</l>
+        <l>lo mandan con calzador;</l>
+        <l>aquí la lay cumplió, es cierto,</l>
+        <l>y de esto me alegro yo;</l>
+        <l>quien tal hizo que tal pague.</l>
+        <l>Vamos pues a un Señorón;</l>
+        <l>tiene una casualidá...</l>
+        <l>ya se ve... se remedió...</l>
+        <l>Un descuido que a un cualquiera</l>
+        <l>le sucede, sí señor,</l>
+        <l>al principio mucha bulla,</l>
+        <l>embargo, causa, prisión,</l>
+        <l>van y vienen, van y vienen,</l>
+      <pb n="87"/>    
+        <l>secretos, almiración,</l>
+        <l>¿qué declara? que es mentira,</l>
+        <l>que él es un hombre de honor.</l>
+        <l>¿Y la mosca? No se sabe,</l>
+        <l>el Estao la perdió,</l>
+        <l>el preso sale a la calle</l>
+        <l>y se acaba la junción.</l>
+        <l>¿Y esto se llama igualdá?</l>
+        <l>¡La perra que me parió!…</l>
+        <l>En fin, dejemos, amigo,</l>
+        <l>tan triste conversación,</l>
+        <l>pues no pierdo la esperanza</l>
+        <l>de ver la reformación.</l>
+        <l>Paisanos de todas las layas,</l>
+        <l>perdonad mi relación:</l>
+        <l>ella es hija de un deseo</l>
+        <l>puro y de güena intención.</l>
+        <l>Valerosos generales</l>
+        <l>de nuestra revolución,</l>
+        <l>gobierno a quien le tributo</l>
+        <l>toda mi veneración;</l>
+        <l>que en todas vuestras aiciones</l>
+        <l>s dé su gracia el Señor,</l>
+        <l>para que enmendéis la plana</l>
+        <l>que tantos años erró;</l>
+        <l>que brille en güestros decretos</l>
+        <l>la justicia y la razón,</l>
+        <l>que el que la hizo la pague,</l>
+        <l>premio al que lo mereció,</l>
+        <l>guerra eterna a la discordia,</l>
+        <l>y entonces sí creo yo</l>
+      <pb n="88"/>    
+        <l>que seremos hombres libres</l>
+        <l>y gozaremos el don</l>
+        <l>más precioso de la tierra:</l>
+        <l>Americanos, unión,</l>
+        <l>os lo pide humildemente</l>
+        <l>un gaucho con ronca voz</l>
+        <l>que no espera de la Patria</l>
+        <l>ni premio ni galardón,</l>
+        <l>pues desprecia las riquezas</l>
+        <l>porque no tiene ambición.</l>
+        <l>Y con esto hasta otro día,</l>
+        <l>mande usté, amigo Ramón,</l>
+        <l>a quien desea servirle</l>
+        <l>con la vida y corazón.</l>
+        <l>Esto dijo el viejo Chano</l>
+        <l>y a su Pago se marchó,</l>
+        <l>Ramón se largó al rodeo</l>
+        <l>y el diálogo se acabó.</l>
+      </sp>
+      <stage>FIN</stage>
+    </body>
+  </text>
+</TEI>
