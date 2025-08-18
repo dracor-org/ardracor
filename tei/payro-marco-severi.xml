@@ -1,0 +1,4027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000006" xml:lang="spa">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">MARCO SEVERI</title>
+        <title type="sub">DRAMA EN TRES ACTOS</title>
+        <author>
+        <persName>
+        <forename>Roberto Jorge</forename>
+        <surname>Payró</surname>
+        </persName>
+            <idno type="wikidata">Q438924</idno>
+          </author>
+        <editor xml:id="nh">
+          <forename>Nidia</forename>
+          <surname>Hernández</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink> 
+          <surname>Rio Riande</surname>
+        </editor>
+        <editor xml:id="rdl">
+          <forename>Romina</forename>
+          <nameLink>De</nameLink>
+          <surname>León</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+       <idno type="URL">https://hdlab.space/</idno>
+        <availability>
+ <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">
+            CC0
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>MARCO SEVERI</name>
+          <idno type="URL">https://libsysdigi.library.illinois.edu/oca/Books2008-12/3326499/3326499.pdf</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author>Roberto Payró</author><title level="a">Marco Severi</title>. In: <title level="s">Drama en tres actos</title> (Estrenado en el teatro Rivadavia el 18 de julio de 1905). <pubPlace>Buenos Aires</pubPlace>: <publisher>Casa editora é impresora de M. Rodríguez Giles</publisher><date>1907</date>.
+          <note type ="editor">The original source contains typographical errors and older spelling conventions, which have been retained in this edition.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person gender="MALE" xml:id="cajista">
+            <persName>CAJISTA</persName>
+          </person>
+          <person gender="MALE" xml:id="benito">
+            <persName>BENITO</persName>
+          </person>
+          <person gender="MALE" xml:id="juan">
+            <persName>JUAN</persName>
+          </person>
+          <person gender="MALE" xml:id="escribiente">
+            <persName>ESCRIBIENTE</persName>
+          </person>
+          <person gender="FEMALE" xml:id="teresa">
+            <persName>TERESA</persName>
+          </person>
+          <person gender="MALE" xml:id="antonio">
+            <persName>ANTONIO</persName>
+          </person>
+          <person gender="MALE" xml:id="cajistas">
+            <persName>CAJISTAS</persName>
+          </person>
+          <person gender="MALE" xml:id="gaspar">
+            <persName>GASPAR</persName>
+          </person>
+          <person gender="FEMALE" xml:id="maria">
+            <persName>MARIA</persName>
+          </person>
+          <person gender="MALE" xml:id="juez">
+            <persName>JUEZ</persName>
+          </person>
+          <person gender="MALE" xml:id="caj2">
+            <persName>CAJISTA 2.°</persName>
+          </person>
+          <person gender="MALE" xml:id="agente">
+            <persName>AGENTE</persName>
+          </person>
+          <person gender="FEMALE" xml:id="oficial">
+            <persName>OFICIAL DE POLICIA</persName>
+          </person>
+          <person gender="MALE" xml:id="caj1">
+            <persName>CAJISTA 1.°</persName>
+          </person>
+          <person gender="MALE" xml:id="carabinero">
+            <persName>CARABINERO</persName>
+          </person>
+          <person gender="MALE" xml:id="luis">
+            <persName>LUIS</persName>
+          </person>
+          <person gender="MALE" xml:id="jerman">
+            <persName>JERMAN</persName>
+          </person>
+          <person gender="MALE" xml:id="suárez">
+            <persName>SUÁREZ</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25379</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-05-13">(nh) Codificación inicial</change>
+        <change when="2025-05-20">(nh) Correcciones</change>
+        <change when="2025-05-31">(gdr) Revisión 1</change>
+        <change when="2025-06-09"> (gdr) Revisión 2</change>
+        <change when="2025-08-11"> (rdl) Correción/revisión</change>
+        <change when="2025-08-12"> (nh) Agrego textClass</change>
+         <change when="2025-08-17"> (gdr) Cambio esquema y definición wikidata, atributo sin tilde</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1907">
+        <desc/>
+      </event>
+      <event type="premiere" when="1905">
+        <desc/>
+      </event>
+      <event type="written" notAfter="1905">
+        <desc/>
+      </event>
+    </listEvent>
+  </standOff>
+  <text>
+    <front>
+      <pb n="05"/>
+      <div type="dedication">
+        <p>A la querida memoria de José Maria Drago</p>
+      </div>
+      <pb n="06"/>
+      <castList>
+        <head>PERSONAJES</head>
+        <castItem>
+          <role>Teresa</role> <actor>Sta. BLANCA PODESTA</actor>
+        </castItem>
+        <castItem>
+          <role>María</role> <actor>Sta. ANGELA TESADA</actor>
+        </castItem>
+        <castItem>
+          <role>Luis Vernengo</role> <actor>Sr. ARTURO PODESTÁ</actor>
+        </castItem>
+        <castItem>
+          <role>Dr. Suarez</role> <actor>Sr. JULIO ESCARCELA</actor>
+        </castItem>
+        <castItem>
+          <role>Don Jermán</role> <actor>Sr. JERÓNIMO PODESTÁ</actor>
+        </castItem>
+        <castItem>
+          <role>Juez de Instrucción</role> <actor>Sr. ENRIQUE ARELLANO</actor>
+        </castItem>
+        <castItem>
+          <role>Gaspar Nuñez</role> <actor>Sr. ENRIQUE MUIÑO</actor>
+        </castItem>
+        <castItem>
+          <role>Benito</role> <actor>Sr. ELIAS ALIPPI</actor>
+        </castItem>
+        <castItem>
+          <role>Juan</role> <actor>Sr. ALBERTO BALLERINI</actor>
+        </castItem>
+        <castItem>
+          <role>Carabinero</role> <actor>Sr. ARTURO MARIO</actor>
+        </castItem>
+        <castItem>
+          <role>Antonio</role> <actor>Sr. FRANCISCO ARANAZ</actor>
+        </castItem>
+        <castItem>
+          <role>Escribiente</role> <actor>Sr. LUIS GRUNALDI</actor>
+        </castItem>
+        <castItem>
+          <role>Tipógrafos</role>
+        </castItem>
+        <castItem>
+          <role>Un Oficial</role>
+        </castItem>
+        <castItem>
+          <role>Agentes de Policía</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+    <pb n="07"/>
+      <div type="act" n="1">
+        <head>ACTO PRIMERO</head>
+        <stage>La escena representa un vasto y antiguo almacén, dividido en dos por un par de arcos anchos y bajos de estilo colonial, que corren de uno á otro costado. La parte del fondo es un taller tipográfico, con ventana y puerta que dan á la calle en el foro. Se ven en ella máquinas, burros, mesas de componer y demás útiles de imprenta. La parte de primer término sirve de sala y comedor á la familia de Vernengo y de taller de dibujo á éste. Tiene dos puertas: la de la derecha del actor da á un patio, la de la izquierda á las habitaciones interiores. Mesas, sillas, una cuna, etc. etc. Mesa de dibujante litográfico para Vernengo.-Al levantarse el telón entran de la calle Juan y Antonio.</stage>
+        <div type="scene">
+          <head>ESCENA I</head>
+          <stage>JUAN, ANTONIO</stage>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Suárez va á venir temprano á buscar pruebas de su tésis.— <stage>(Poniéndose las blusas de trabajo).</stage></p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Si querés, las sacamos ya.</p>
+          </sp>
+            <pb n="08"/>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Bueno. ¿Habrá salido Don Luis tan temprano?</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>No te acordás que tenía que llevar un presupuesto?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Es cierto. Traé el papel, el cilindro y el cepillo.</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Voy... <stage>(hacen lo que marca el diálogo).</stage></p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(leyendo en el plomo)</stage>
+            <p>“La extradición”... ¡Larga la tésis del mozo! Lo menos va á dar veinte galeras, sin contar los títulos, y las dedicatorias, y las listas de los maestros y de los padrinos...</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Y siempre son puras pavadas!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(sacando pruebas)</stage>
+            <p>Parece que ésta nó.</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Pero tan larga!... No sé cómo se la fía Don Luís.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Es que si nó no podría presentarla. El infeliz apenas si gana para comer.</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Y don Luís es tan bueno!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Más bueno que el pan! Ese sí que no se vuelve pura boca como otros patrones, que pasan por liberales y después ... ni fósforos! Ojalá que todos los que vienen de Europa fuesen como él!</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¿Y qué dice el nuevo <sic>dotor</sic> en esa punta de galeras? ¿De qué trata?</p>
+          </sp>
+          <pb n="09"/>          
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(con importancia)</stage>
+            <p>¿No vés? De la ex-tra-dición!</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Sí, sí; pero eso, ¿qué es?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Que... Que... Que... cuando un hombre que está aquí, ¿sabés? ha hecho una cosa mala en su tierra... un robo, un asesinato, ¿sabés?... la policía de aqui lo agarra y ¡zás! me lo fleta en un vapor para que allá en su pais, ¿sabés?... me lo metan en la cárcel ó me lo fusilen, según el caso, ¿sabés?.</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Ah!... una especie de <sic>láy</sic> de residencia!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Por áhi, por áhi!</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Y ahora que digo ley de residencia, ¿sabés una cosa?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¿Qué?</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Que nos andan sospechando de anarquistas.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡No digás!</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Sí. Seguro que es porque con Gaspar y Giaccomo fuimos por curiosidad á una reunión. ¿Te acordás de la última, hace cosa de dos meses?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>No.</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Sí, hombre, ¡te tenés que acordar! Por más señas, que á los dos ó tres días entró un tipógrafo nuevo que había estado en la reunión.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Ah, si! Benito... ¡No digás!</p>
+          </sp>
+          <pb n="10"/>          
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Yo ya andaba maliciando. Gaspar también. Siempre me decía: “Se me hace que ese Benito no es cosa buenal!”, “Siempre anda donde hay barullo sin que nunca lo metan preso.”</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Y Gaspar, lo que es meterse en bochinches...</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Claro! A veces se me ocurre que Benito anduviera espiando á Don Luis.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Pero Don Luís no se mete en nada.</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>En cambio hace. ¿No nos va á interesar á todos en la imprenta para hacerla una especie de cooperativa?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Hum! ¡La cooperativa!.... Pero, ¿por qué crées eso de Benito?</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¿No has visto el averiguadero que tiene? Ayer mismo me estuvo preguntando una punta de cosas: que si era cierto que no hacía más que cuatro años que había venido de Italia; que si era cierto que se casó, hace año y medio, cuando Don Jermán le fió la imprenta; que si tenía muchos amigos italianos y quiénes eran..</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¿No te digo? Desde ahora lo pongo en cuarentena á ese Benito.</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Ya va á ser la hora. Los muchachos no han de tardar.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>No, no. Ahí entra uno.</p>
+          </sp>
+          <pb n="11"/>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡Es el tal Be-ni-to!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA II</head>
+          <stage>Dichos y BENITO, luego MARIA</stage>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Muy buenos días.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(dándole unos papeles)</stage>
+            <p>¡Hola! Aquí tiene original; cuerpo seis. ...</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¿Cuerpo seis? La caja está medio vacía y me voy á pelar los dedos.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Eh! hay que componerlo.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Voy á sacar la blusa. <stage>(Entra puerta derecha para salir en seguida).</stage></p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Lo voy á enloquecer de trabajo. Vamos á componer. Y vos, á la máquina; hoy tenés diez mil tiros lo menos. <stage>(pasan al fondo).</stage></p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>¡No me hacen ni esto!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <stage>(aparece de blusa, contando las cuartillas. Aparte:)</stage>
+            <p>¡Lo menos una galera de cuerpo seis y con las cajas peladas! Pobres manos! ¡En fin! van siendo las últimas! Ya llegó el hombre de Italia... ¡Ah!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <stage>(entrando con un ramo de flores que arregla)</stage>
+            <p>Benito ¿por qué no viniste anoche?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¡Con flores tan temprano! ¡Qué coqueta!</p>
+          </sp>
+          <pb n="12"/>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>No, si no son mías... Teresa me pidió que le hiciera un ramo bonito... como hoy es el cumpleaños de Luis...</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¿El cumpleaños de Don Luis? Y cuántos le caen?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Veintiocho.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Conque cumple el 25 de Abril?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Pues.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <stage>(ap.)</stage>
+            <p>A ver un almanaque... <stage type="inline">(se acerca á la mesa y hojea un libro).</stage> "Febrero... Marzo... Abril 25... San Herminio, San Marcos evangelista”... Claro! Marcos!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¿Qué buscás en el almanaque?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Yo?... nada... una ocurrencia... una curiosidad.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(del fondo)</stage>
+            <p>Benito! ¿Cuándo se empieza?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Voy en seguida.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(acercándose)</stage>
+            <p>Es que eso es de apuro.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Ya sé. En seguidita. <stage type="inline">(á María).</stage> Decime qué me querés!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Te van á oir!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>No; con el ruido de la máquina no se oye. Decime.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Estáte quieto! Decime vos antes por qué no viniste anoche á la reja como siempre. ¡Estuve más de dos horas esperando!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <stage>(burlón)</stage>
+            <p>Pobrecita!</p>
+          </sp>
+          <pb n="13"/>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡No me tengás lástima; no necesito! Por qué no viniste?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>No pude venir y de veras que lo senti! . ..</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Bueno, bueno! Andá al taller que estamos haciendo un papelón con esos demonios. Pero no vayas á faltar esta noche y á tenerme de plantón, porque yo no aguanto bromas.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Si; hasta luego sin falta. <stage type="inline">(Se vá y vuelve)</stage> ¡Ah! oí una cosa... Ya que hoy es el santo de Don Luis, yo tambien quiero hacerle un regalo... ¿No tenés un buen retrato del gringo?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¿Para qué lo querés?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Tengo un amigo fotógrafo que sabe hacer unas copias grandes, magnificas... ampliaciones, les dice... Si me dás uno, por chiquito que sea, te traigo otro de este tamaño.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Qué bueno! Y podrá hacerlo para hoy mismo?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>En un santiamén. Salgo, voy á verlo,- vive muy cerca, - y vuelvo en seguidita. ¡A la tarde tenemos el cuadro con marco y todo! Les diré <stage type="inline">(por los tipógrafos)</stage> que me has hecho un encargo de apuro.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(enfadado)</stage>
+            <p>¡A ver, pues, Benito!</p>
+          </sp>
+          <pb n="14"/>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¡Oh espere un poco, qué fregar! Todavia no es la hora. Los otros no han venido siquiera.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Pero nosotros estamos trabajando!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Y á mi que se me dá? <stage type="inline">(cambiando tono)</stage> Bueno, ya voy.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Aquí tenés uno en el album.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¡Uff! aqui esta muy mal... Parece un chico. No tenés otro?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Un chico?... sí, es cierto, tiene la cara de un jovencito...</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Tan afeitado...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Como siembre está así...</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Nó. Ahora está más formal, y si se dejara la barba...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¿La barba?... ¡Ahora que decís!.. Adentro, en el armario, le he visto uno con la barba...</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¿Si? ¿Por qué no me dás ese?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>La verdad que á mí también me gustaría; pero... como Luis no está, no me animo</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>A sacarlo? ¡Mejor, sonsa! Asi no sabe nada y las cosas se hacen como pensábamos... Se le da una verdadera sorpresa!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Voy á buscarlo</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Que no te vea Teresa.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Perdé cuidado <stage>(Vase izquierda).</stage></p>
+          </sp>
+        </div>
+        <pb n="15"/>        
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>Dichos, CAJISTAS 1.° y 2.°, luego MARIA</stage>
+          <sp who="#cajistas">
+            <speaker>CAJISTAS</speaker>
+            <p>Buenos días.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>A ver si se apuran, compañeros, que ya van á ser las nueve y hoy hay que darle firme.</p>
+          </sp>
+          <sp who="#caj1">
+            <speaker>CAJISTA 1.°</speaker>
+            <p>Vamos, corriendo. <stage>(por la puerta derecha).</stage></p>
+          </sp>
+          <sp who="#caj2">
+            <speaker>CAJISTA 2.°</speaker>
+            <p>¡Oh! ¿Y este cajón de papel toda vía está aqui?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¿Ese que trajeron equivocado? Es cierto..</p>
+          </sp>
+          <sp who="#caj2">
+            <speaker>CAJISTA 2.°</speaker>
+            <p>Habrá que mandarlo para que traigan el otro.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¡Claro, pues! Me dijeron que iban á mandar el carro para de aquí un rato.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Hoy tampoco ha venido Gaspar?</p>
+          </sp>
+          <sp who="#caj1">
+            <speaker>CAJISTA 1.°</speaker>
+            <p>Qué ha de venir! ¡Si anoche también anduvo de farra!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Ese Gaspar! ¡Ese Gaspar! Ya hace tres días que falta; y todo por andar haciendo el papel del pavo, <stage>(sale Maria).</stage></p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Pst! Benito!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Pero Benito! ¡Otro que tal baila! Y esa composición?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>No puedo; la señorita María tiene que mandarme..</p>
+          </sp>
+          <pb n="16"/>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Lo que Vd. tiene que hacer es componer! ¡Para eso está!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Encontraste?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Si; aquí lo tengo.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>A ver? <stage>(le toma un retrato que trae en la mano).</stage></p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Pero este hombre no tiene vergüenza!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>No le he dicho que tengo que salir?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Si sale, será para no volver!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¿Para no volver? Eso será lo que tase un sastre! Me voy de blusa por eso mismo; ¿no vé?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Eh, vaya al diablo! Haga lo que se le dé la gana; pero Don Luís lo tiene que saber.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¡Y que lo sepa!</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Dejálo, Juan. .. <stage type="inline">(ap. á Juan).</stage> Acordate de lo que te dije.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Por Dios, Benito! Deje eso para luego. No quiero que por mí vaya á haber un disgusto.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>No, si no ha de pasar nada. Son sonceras de ese que se las echa de regente... Voy así nomás á la fotografia y vuelvo al momento... Está á un paso.....</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Bueno. Si á la vuelta traés el retrato, este mismo, digo, ponelo en el álbum.
+          <pb n="17"/>Yo lo sacaré después para guardarlo en el armario.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Perdé cuidado. <stage>(Vase por el foro, como estó).</stage></p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Y se va nomás! Habráse visto! Hay algunos tipos sin vergüenza!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA IV</head>
+          <stage>Dichos y TERESA</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(con un niño en brazos)</stage>
+            <p>Qué le pasa, Don Juan?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Nada, nada, hermanita....</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Pués no es nada, señora! Es que el pillo del Benito ese se acaba de mandar mudar, dejando el trabajo sin empezarlo siquiera, cuando yo le mandé que no se moviese!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Pero, por qué?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Dice que la señorita María le ha mandado no sé qué cosa, y que tenía que hacerlo. ... <stage>(vuelve al fondo. Todos los tipógrafos trabajan, Antonio, en la máquina, tambien).</stage></p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Qué es, María?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Nada. ... una pavada. ... después lo sabrás. ... Dame el nene.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Ah, María!... Eso es lo único que me pone triste cuando todo anda tan bien en esta casa.</p>
+          </sp>
+          <pb n="18"/>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¿Qué?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Ver que ese mozo anda siempre atrás de tí y que tú le haces caso.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Hijita! como yo no pienso meterme de monja!..</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Ni yo quiero que lo hagas. ... pero me da pena ver que lo atiendes. Ese hombre me da miedo....</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Miedo, ¿por qué?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡No sé, de veras; pero me da miedo! ¡De repente mira de un modo!...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Agüerías! Mira como todos los demás... ¡Y tiene unos ojos!. ..</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Ojos de hipócrita.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡No digas eso; no es cierto!.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Y ademas; esos amores, en la misma casa, á todas horas, de la mañana á la noche...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Oh, no tengas esa clase de miedos! Yo no soy una criatura; y lo que es Benito no se atreve ni á intentar propasarse conmigo, ¿sabés? No es como <emph>tu Don Jerman...</emph> <stage>(con retintin).</stage></p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p><emph>¡Mi Don Jerman!</emph> ¿Por que me dices semejante cosa?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Como te persigue á sol y á sombra. Y desde que le vendió á Luís la imprenta á plazos, se supone que lo has de escuchar...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡María! He dado lugar para que 
+              <pb n="19"/>me digas eso? ¿Puedo evitar, acaso, que ese viejo me haga víctima de sus galanterías?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <stage>(cambiando de tono, como arrepentida)</stage>
+            <p>¡Eso es la pura verdad! No; te lo decía de rabia. Ya sabés el génio que tengo. ... No te enojés.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No me enojo, nó. Por una tontería no he de enojarme en un día de fiesta como hoy; pero escúchame y no te fíes demasiado.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡No, no hay cuidado! Lo quiero á Benito y me casaré contentísima con él...pero...¡no hay cuidado, te digo!... <stage type="inline">(tomando el niño en brazos).</stage> ! Queridito! ... ¡ricura! ... ¡monono! ... ¡qué coloradito está hoy! Te voy á comer á besos!...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Traélo, traélo; no lo estrujes!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Yo soy la madrina; tengo derecho! ...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>De estrujarlo?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Nó! De comérmelo á besos, si me dá la gana. ¡A ver! ¡Ríase con madrinita ó lo pongo en el rincón!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Eres una loca! <stage type="inline">(pasa Don Jerman por la calle, y se ve su silueta por la ventana).</stage></p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Pataplúm! Se ahogó la fiesta!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Qué dices?</p>
+          </sp>
+          <pb n="20"/>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Que ahí viene Don Jerman. ¡Yo me escapo!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡No, no te vayas, no me dejes! Quedate á atenderlo.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p><stage>¡Cualquier dia! (vase por la izquierda).</stage></p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Pero muchacha! <stage>(acercándose tras ella á la puerta).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA V</head>
+          <stage>Obreros en el fondo. TERESA. JERMAN, que entra por la puerta del foro.</stage>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Buenos días, hijita, ¡je, je!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Buenos días.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Está Luis?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Ha salido...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Tan temprano?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>A una diligencia.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Y tardará mucho, je, je?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Lo pregunta por si puede esperarlo? Si, ha de tardar.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Pues me alegro de que no esté.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No comprendo por qué, si quiere verlo, se alegra de no encontrarlo.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Es que quisiera decirle algo que á Vd. le interesa y que él no tiene para qué saber...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Mi marido debe saber todo lo que sepa yo.</p>
+          </sp>
+          <pb n="21"/>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Es que hay algunas cosas ... <stage type="inline">(Teresa hace ademán de retirarse).</stage> ¡Espérese un poquito! no se me vaya! ¿O es que me tiene miedo?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Miedo... á Vd?... <stage type="inline">(volviendo)</stage> ¡Qué gracioso Don Jerman!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Bueno, así me gusta, je je! Yo soy un hombre de buen genio y siempre alegre ¡qué caray! Me pirro por las bromas y los chistes!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Eso nomás tenía que decirme?</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Nó; espere. Hoy vence el cuarto de los ocho pagarés de la imprenta, firmados á mi favor por su marido...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Esos son asuntos de Luís; yo no entiendo... Si quiere esperarlo... Yo voy... <stage>(trata de marcharse)</stage></p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Escuche; escúcheme un momento, je, je!... Quería decirle que, es una suposición, que si Luís no está en condiciones...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Le he oído que tiene el dinero pronto. Yo.... <stage>(id).</stage></p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Pero, qué mujer ésta! ¡Lo mismito que cuando soltera! - Oigame una palabrita, je, je! No me la voy á comer, qué caray!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Vamos! diga de una vez lo que quiere, por los clavos del Señor.</p>
+          </sp>
+          <pb n="22"/>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Bueno! Si luego, ó mañana á las dos de la tarde, ó en cualquier otro de los vencimientos, por que faltan cinco contando con éste, je, je! Luís ¡qué caray! llegará á no tener la platita, ¿me has entendido?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No quiero que me tutée ¿sabe?</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Oh! Y no te tuteaba cuando eras criatura, je, je? ¡qué caray!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Pero ahora es distinto y no quiero. ¿me ha entendido Vd. también?...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Bueno, será como Vd. quiera, je! je!... Pués, como le iba diciendo: si llega ese caso; todo puede suceder, ¡qué caray! no se me asuste, porque todo se arreglará perfectamente sin dolores de cabeza. Le daré plazos, esperaré, hasta le perdonaré la deuda, si Vd. quiere, ¡qué caray! Yo no soy un desalmado ni un usurero... En fin, que no hay que apurarse! Cuando le vendí á plazos y con todas las facilidades imaginables esta imprenta... ¿Qué? No me atiende?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(pensativa y colérica al propio tiempo)</stage>
+            <p>¡Al contrario!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Pues cuando le vendí esta imprenta á tu marido, no fué por él, sino por vos, hijita; y hasta se la hubiera regalado, si... <stage type="inline">(Teresa vase violentamente).</stage> ¡Oh! ¿Y qué le ha dado ahora? ¡Je, je! Está 
+            <pb n="23"/>visto que mientras son felices son ariscas... Pero ya vendrá el mal tiempo, y entonces... ¡qué caray!...</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VI</head>
+          <stage>Dichos y LUIS, menos TERESA</stage>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Buen dia, Don Jerman,... ¿Tan temprano por el pagarecito?</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>A avisarle nomás, á avisarle por si se había olvidado...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Esas cosas no pueden olvidarse, Don Jerman.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Sí, ya sé que Vd. es buen pagador, je, jel-Volveré más tarde ó mañana; hay tiempo hasta mañana á las dos, hora del protesto, si hay lugar, je, je.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Y por qué no ahora? Precisamente, tengo el dinero en el bolsillo...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>No, ahora no. Voy á ir á misa, y si en la iglesia hubiese mucha gente, ¡qué caray! vaya el diablo que me lo robaran.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Eh! para mí es lo mismo!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>No; no; volveré luego <stage type="inline">(ap.)</stage> Es mejor!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Como guste.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Si, sí. ¡Je, je! Hasta más tarde. <stage>(vase por el foro).</stage></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Hasta luego, Don Jerman.</p>
+          </sp>
+        </div>
+        <pb n="24"/>
+        <div type="scene">
+          <head>ESCENA VII</head>
+          <stage>Dichos menos Don JERMAN</stage>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Don Luis!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Qué hay, Juan?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Aqui <stage type="inline">(por la mesa de Luis)</stage> dejé las pruebas de la tésis del Doctor Suarez.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Sí; enseguida vendrá á corregirlas.. <stage>(poniéndose una blusa de trabajo).</stage></p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Gaspar no ha venido hoy tampoco.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Ah, mala cabeza! ¡Qué lástima de muchacho! Ya hace tres dias que no viene, y todo por correr la carabana.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¡Eh! habrá que despedirlo. Con esas faltas, el trabajo cae sobre los demás y eso no es justo.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No es justo, no. Pero no hay que irse al otro lado sin más ni más. Gaspar tiene mala cabeza, pero buen corazón, y es una criatura... A su edad hay que disculparlo... Además Vds., los hijos del país, tienen la sangre caliente y eso... eso es un buen defecto! Yo le hablaré, le aconsejaré, y estoy seguro de que se compondrá. <foreign xml:lang="ita">Póvero ragazzo!</foreign></p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Bueno; de Gaspar no digo nada; yo también lo quiero y me hace gracia á pesar de sus agachadas... pero hay otro ¡el tal Benito!</p>
+          </sp>
+          <pb n="25"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿No ha venido tampoco?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Sí, pero nos desorganiza el taller... Vino y al ratito se mandó mudar, sin haber empezado á componer siquiera.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Y por qué se fué?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Porque me salió con el parte de que... de que tenía que hacer...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No es posible tener hombres así en nuestra sociedad!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>¿En nuestra sociedad? ... Quiere decir...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Que hoy en fiesta, Juan, y que vamos á celebrarla fundando por fin la cooperativa! Esta misma tarde quedará pagada la mitad de la imprenta. Aqui tengo pronto el dinero. En este país bendito en que he de vivir toda mi vida, donde están mis afectos, he tenido la suerte de que el trabajo me resultara generosamente fecundo. Tiene que serlo tambien para todos los que me rodean y me ayudan. Y ésta misma tarde, en una <foreign>bichieratta</foreign>, echaremos las bases de la sociedad, que se legalizarán ante escribano en cuanto sea posible...</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Muchachos! Muchachos!</p>
+          </sp>
+          <sp who="#cajistas">
+            <speaker>CAJISTAS</speaker>
+            <stage>(acudiendo poco á poco)</stage>
+            <p>¿Qué hay? ¿Qué quería? ¿Qué pasa? Nos llamaba?</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Que hoy se funda la cooperativa!</p>
+          </sp>
+          <sp who="#cajistas">
+            <speaker>CAJISTAS</speaker>
+            <stage>(con entusiasmo)</stage>
+            <p>¿De veras? Caramba,
+              <pb n="26"/>que bueno!- ¡Un viva á Don Luís! Viva Don Luís Vernengo!-¡Viva!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VIII</head>
+          <stage>(Obreros, LUIS y TERESA; luego SUÁREZ y MARIA.)</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Ah! Vds. también sabian que hoy era su santo?-Que los cumplas muy felices, Luis. Esto te trae tu nene. <stage>(Por las flores)</stage></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Abrazándola)</stage>
+            <p>Pues tomo todas las flores juntas.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(Que se ha acercado sin ser visto, por detrás de los cajistas)</stage>
+            <p>Un apretón de manos, Don Luis!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Ahora tengo que dejar el ramo más lindo. Un apretón de manos, mi querido Doctor!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Doctor! Todavía nó!... Cuando esté la tésis.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Hoy mismo entonces...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Faltará la borla... Cuestión de días... Gracias á Vd.!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <stage>(entrando)</stage>
+            <p>No hay nada para mí, Luis?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Un abrazo, aunque á ti te tocaría obsequiarme...</p>
+          </sp>
+          <pb n="27"/>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+              <p>¡Ah, es cierto! Pero te preparo una sorpresa... ya verás.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Bueno, compañeros! Ya me han festejado bastante, y como no quiero darme el corte de parecer mejor de lo que soy, les diré, respecto de la cooperativa, que la mitad ya pagada de la imprenta, seguirá perteneciéndome. La otra mitad es la que les dejo á Vds...</p>
+          </sp>
+          <sp who="#cajista">
+            <speaker>CAJISTA</speaker>
+            <p>Y entonces, qué gracia tiene?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No tiene gracia, porque no hago sacrificio ninguno, y eso es precisamente lo que quería explicarles: La mitad que les dejo podrá ir pagándose del cincuenta por ciento de las ganancias, sin que se toquen para nada los salarios.</p>
+          </sp>
+          <sp who="#cajista">
+            <speaker>CAJISTA</speaker>
+            <p>Ah, ¡eso es otra cosa! Así, sí.</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Y si falta?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Lo que falte, lo pondré yo de mi parte en las ganancias, y Vds. después me irán reembolsando á medida que les sea posible... Yo seguiré trabajando á la par de Vds. y en cuanto podamos compraremos una máquina litográfica que nos ayudará muchísimo, y pondremos un tallercito de grabados.</p>
+          </sp>
+          <sp who="#cajistas">
+            <speaker>CAJISTAS</speaker>
+            <p>Bravo! ¡muy bien! ¡Viva! ¡Hurra!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No hagan barullo, por favor, que nos aturden. Van á hacer llorar al nene y la cosa no es para tanto.</p>
+          </sp>
+          <pb n="28"/>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Estoy orgullosa de tí, Luís!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Y con cuanta razón, señora!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Lo que sí, quería decirles es, que si la imprenta sigue así, pronto necesitaremos más socios, el doble, el triple... ¡qué sé yo!- Y los recibiremos con los brazos abiertos, para formar una gran familia de hermanos felices, de hombres sanos y risueños, con el pan de cada día bien seguro, y la vejéz al abrigo de la miseria.!... Bueno! Ahora á trabajar! luego brindaremos por la cooperativa, y la bautizaremos con una buena copa de vino... <stage type="inline">(alegremente).</stage> Y no griten, por Dios! que el nene se ha dormido con el discurso...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Señor Vernengo! ¡Es Vd. un hombre!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Esa máquina, Antonio! La vas á hacer volar en pedazos, y entonces adios cooperativa!</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Es que ella también está contenta.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Bueno, más despacio que no es automóvil... Tomá el niño, Teresa.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(insistiendo)</stage>
+            <p>No, si no se me ha de escapar sin que le diga lo que pienso!
+              <pb n="29"/>Vd. es el hombre mejor que conozco!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Eso es verdad!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Tan cierto!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Dichosa la hora en que llegó á mi tierra para darnos este ejemplo! Yo si puedo algún día, lo seguiré... ¡Ojalá pudiéramos dar todos á este pais, nuestro contigente de ideas y corazón! Pero, ¿no es un sueño generoso lo que Vd. emprende?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Oh! Doctor! No hay cosa más factible ni más sencilla! Yo no subvierto nada; en lugar de suprimir los patrones, hago patrones á cuantos puedo. La imprenta gana para mí. ¿Por qué no ha de seguir ganando para mí y para ellos?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Pero Vd. se desprende de lo que pudiera ser suyo, de lo que ya lo es virtualmente...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(sentándose á su mesa y poniéndose á dibujar una piedra litográfica)</stage>
+            <p>Bah! No hagamos teoría, que así se embarran las cosas. El hecho es que yo seguiré ganando lo mismo que hasta ahora, y un poco más, con la enorme ventaja de no tener que amortizar el capital.—De modo que les duplico las fuerzas, me las duplico también, nadie pierde nada y todos salimos beneficiados. Y aunque no fuera tanto, ¿crée Vd. que este país <pb n="30"/>me ha dado tan poco que no me obligue á devolverle algo siquiera? ¡Este país, la tierra de mi nene, mi única patria!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Es Vd. un socialista de lo que no hay.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No me ponga etiquetas que esto suele echarlo todo á perder. Diga que soy un hombre honrado y equitativo, y ¡quizá diga demasiado! Lo más razonable sería decir que soy un hombre feliz que quiere -ver caras alegres á su alrededor.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Yo sé lo que diré... pero no es el momento... ¿Tiene mis pruebas?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Aquí están.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Le debo...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(interrumpiéndolo)</stage>
+            <p>El resto estará más tarde...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Ja, ja! (Le ha dado por no dejar me hablar)</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Tome, tome las pruebas.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Hermoso dibujo!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Es una litografía que me ha encargado un gran establecimiento... Irá con su marca de fábríca. Ya vé que cuando tengamos la maquinita se podrá hacer mucho. ¡Ah! he grabado cosas mejores todavía..</p>
+          </sp>
+          <pb n="31"/>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Aquí? <stage type="inline">(Se sienta y comienza a corregir las pruebas que ya no deja hasta que se indique).</stage></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No; en España, donde estuve mucho tiempo... y en Italia también.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA IX</head>
+          <stage>Dichos, GASPAR</stage>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah Gaspar; Gaspar por fin se le vé la cara!...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Estos dias no pude venir...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Estaba enfermo?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¿Yo? ¿á que mentír? no pude nomás.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero, amigo, debe poder, me parece! No es por el gusto de sermonearlo; pero no está bien que en la imprenta Vd. sea el único que no trabaja, aunque cobre como los demás... Va mal, mi amigo, muy mal.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Pues... si no le gusta!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah, muchacho, muchacho! Oigame, pórtese de otro modo, venga, trabaje, hágase hombre, sufra un poquito lo mismo que todos... No quiero decirle que no se divierta; ¡para eso es joven! Pero después de sus ocho horas, no le queda tiempo para hacer lo que se le ocurra?</p>
+          </sp>
+          <pb n="32"/>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Lo estoy mirando y mirando Don Luis...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Por que?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Por ver en qué somos parecidos.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Y eso?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Como se las está echando de padre mio, y yo no sospechaba!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero, ¿que quiere decirme con eso?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Que ahora mismito me voy, nada más.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Creo que no es para tanto. Vd. se enoja cuando el enojado deberia ser yo.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Y enójese nomás! Para salir después echándoselas de socialista!... Mirenlo!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Echármelas de socialista, yo? ¿Cuándo ha visto semejante cosa?... Vd. si que es un socialista extraordinario, que quiere tomar su parte de ganancia, sin haber hecho su parte de trabajo... ¡Já, já! Vamos, vaya á las cajas, déjese de tonterias y trabaje con fé que no le irá mal. Hoy fundamos la cooperativa...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¿La coope...? ¡á mi maní!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Como?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Que esas cosas se dicen y no se hacen.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Vd. ha bebido, Gaspar.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¿Quién? ¿yo?... ni una copita... desde esta madrugada cuando me acosté <stage type="inline">(ap.)</stage>
+              <pb n="33"/> Será el colazo de anoche.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Bueno, vaya á hacer lo que pueda.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>No, si ahora mismo toco la polka del espiante. <stage type="inline">(ap)</stage> Puede ser que todavia alcance á los muchachos.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Piénselo bien, Gaspar; ya no puedo rogarle más.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Pero, mi amigo!...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <stage>(con insolencia)</stage>
+            <p>¿Y á Vd. quién le da vela, vamos á ver?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Bueno, si no quiere... Teresa! Pagale los días á Gaspar.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>No, si yo no he trabajado.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Ya sabe que no acostumbro á descontar las faltas.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Ni yo á cobrar lo que no me deben. Adios.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Gaspar! ¡Gaspar! ¡Gaspar! vd. es un buen muchacho. Piénselo despacio y si se convence de que tengo razón, venga nomás, que aquí encontrará trabajo y buenos amigos...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <stage>(medio arrepentido)</stage>
+            <p>Yo, Don Luis...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(presentandole el dinero)</stage>
+            <p>Tome, Gaspar. Vea si está bien...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Por Dios, señora, que si no fuera... <stage type="inline">(Vacila, mira la cuna, toma por fin el dinero.)</stage> ¡Bueno... ¡Adiosito! <stage>(Vase corriendo por el foro.)</stage></p>
+          </sp>
+          <pb n="34"/>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Vd. es demasiado bueno.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Todo el mundo lo es conmigo, y además el pobre Gaspar es un excelente cajista y un muchacho de corazón... ¡El ardor de la sangre, el ansia de vivir ligero!...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <stage>(Vuelve apresuradamente)</stage>
+            <p>Disculpe, Don Luis...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah, volvemos por fin!...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>No, señor; es que con el disgusto me había olvidado de decirle una cosa...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Qué?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Venga, óigame aquí. Disculpe, señor. <stage>(con sorna á Suarez. Los dos forman grupo aparte.)</stage></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Que queria decirme?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Que ese tipógrafo nuevo, Benito, ¿sabe?-es un pesquisa.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Ya lo sospechaba.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Como que es de día!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Y bien?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Siempre espia para investigaciones y ahora para un juez de instrucción.—En todos los mitins anda tratando de hacer barullo, mandado, para que así los disuelvan.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Bah! como aquí no hay anarquistas, ya se irá... ó lo haremos ir!...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Es que no debe ser eso, sino otra
+              <pb n="35"/>cosa más seria... Ahora, cuando yo venia para aqui, ¿qué le cuento? me lo vi entrar en cabeza y de blusa, como luz, en el Departamento de Policia. Bueno... Vds. averiguarán de qué se trata... Yo ya cumplí; está avisado. Conque adiosito! <stage type="inline">(Vase como antes)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA X</head>
+          <stage>Dichos, menos GASPAR</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Que tienes, Luis? ¡Estás demudado!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(trémulo)</stage>
+            <p>Yo?... Nada... La conversación con Gaspar... un bahido...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Se te pasa?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Si, si; ya pasó. <stage type="inline">(Hace un esfuerzo, se acerca á la mesa, se sienta y comienza á dibujar. Luego, ya mas tranquilo en apariencia, dice:)</stage> —Señor Suárez!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿Don Luis?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Está muy apurado?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No; tengo tiempo de sobra.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Quisiera—mire qué curiosidad—que me explicara algo de su tèsis, ya que todavía no he podido leerla.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>La extradicción?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Tratando de parecer indiferente y dibujar, pero dejando ver su intensa emoción)</stage>
+            <p>Eso es... En cuatro palabras...</p>
+          </sp>
+          <pb n="36"/>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Pues, la extradición es un convenío entre dos ó más naciones, por el cual el delincuente que se refugie en una de ellas, es devuelto para que lo juzguen y castiguen, á aquella en que cometió el delito.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Y la República Argentina ha hecho ese convenio con todos los paises?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Con todos, nó, todavía.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Con España, con Francia... con Italia?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Y con otras muchas naciones.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Italía!... ¿Y se entrega cualquier delincuente?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Si el delito es de alguna gravedad y existen pruebas...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Un asesinato... una estafa... un robo... una falsificación? <stage>(turbado)</stage></p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Naturalmente.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(con intensidad)</stage>
+            <p>¿Y siempre?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Siempre; si se encuentra al procesado ó condenado, como es lógico.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Aunque el hombre se haya arrepentido y sea útil á la sociedad?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(Dejando las pruebas de las que hasta ahora no ha apartado la vista)</stage>
+            <p>Precisamente no hace mucho, sucedió un caso doloroso, que cito aqui en mi tésis: Un puestero del Mercado del Plata vivia desde hacía más de diez años
+              <pb n="37"/>en el pais, trabajando honrada y empeñosamente. Había formado familia, gozaba de la estimación general, era feliz, era bueno, era útil, era generoso, tenia tres hijitos que eran tres preciosuras, una mujer que merecia todas las felicidades... cuando, héte aqui, que un dia cierto pesquisa que andaba en busca del intangible asesino de un tal Castillo, me parece, crée ver en mi puestero á un hombre cuya captura estaba recomendada por la justicia italiana desde muchos años atrás. Lo compara con un retrato que se había hecho circular por todas las policias del mundo, y comprueba que en efecto era él!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(con el alma)</stage>
+            <p>¿Y lo tomaron?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Ahora estará en una cárcel de Italia, si no ha muerto de desesperación.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero, eso es justo?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(sarcástico)</stage>
+            <p>¡Es legal!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Después de díez años de vida honrada?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(id)</stage>
+            <p>¡Es legal!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero y... ¿y la familia?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Imaginese! Disuelta! La mujer cosiendo para afuera ó revolcándose en el fango, los hijos en algun asilo, si no andan rodando también ó vendiendo diarios... ¡La eterna historia!...</p>
+          </sp>
+          <pb n="38"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p><foreign xml:lang="ita">Dio! Dio!</foreign></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA XI</head>
+          <stage>Dichos GASPAR</stage>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <stage>(Con un caballito envuelto en papeles)</stage>
+            <p>Dispense que vuelva; pero tenía que traer esto.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Y qué es esto?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>No está viendo? ¡Un caballito!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Para quién?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¿Para quien ha de ser? Para el nene, pues.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Já, já, já,!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¡Oh! Y de qué se rie este otro?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Pero, ¿no vé Gaspar, que el nene es muy chiquito? ¡Qué Gaspar este!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Bueno, y para cuando crezca! ¿Que iba yo á hacer con los diez pesos entónces?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Gracias de todos modos, muchacho. Yo no me equivocaba al decir que era un hombre de corazón... En cuanto á los tornillos, ya se irán apretando.!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Yo, Don Luis, la verdad... <stage type="inline">(como si quisiera demostrar arrepentimiento y volver al trabajo. Luego reacciona bruscamente:)</stage> Bueno, adios <stage>(Yéndose)</stage></p>
+          </sp>
+          <sp who="#cajistas">
+            <speaker>CAJISTAS</speaker>
+            <stage>(al paso de Gaspar, por el taller entre risas)</stage>
+            <p>Te has lucido, Gaspar!</p>
+          </sp>
+          <pb n="39"/>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Déjense de chichonear. ¡Oh también!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA XII</head>
+          <stage>Dichos, menos GASPAR</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Pobre muchacho! Me ha conmovido!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Y á mi. No por reir dejé de enternecerme!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Qué no puede esperarse de un hombre capáz de esas delicadezas, deschavetado y todo!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>En efecto! <stage>(Vuelve á corregir sus pruebas. Pausa).</stage></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Siempre agitado.)</stage>
+            <p>Pero digame, doctor: ¿cómo... como hacen para tomar á los culpables, según esa ley?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Como para tomar á cualquier otro.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No: pregunto qué requisitos se necesitan?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>El gobierno del país en que se cometió el crimen pide, por intermedio de su embajador ó su ministro, al de relaciones exteriores, que haga prender al criminal cuya presencia se señala aquí, acompañando este pedido con la sentencia, si se trata de un condenado, ó con el mandato de prisión y sus fundamentos, 
+              <pb n="40"/>si se trata de un procesado...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Y después?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>El ministro pasa la solicitud al juez, que, si está en forma y con los documentos precisos, ordena la prisión del delincuente, que ejecuta la policía; á veces, para facilitar los trámites, viene un agente de policía extranjera, como sucedió con el detective que prendió al ingles Balfour, hace pocos años.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Que había hecho?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Una estafa.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Y se lo llevaron así, sin oirlo?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No: una vez comprobada la identidad, los detenidos nombran defensor que, en caso de estar aquellos condenados, observa si es ó nó por delitos penados también en nuestro pais; y en caso de ser simples acusados, si hay suficiente prueba para que se pueda proceder á la extradición.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Y nada más?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>El resto es chicana, á propósito de requisitos que los gobiernos tienen siempre buen cuidado de llenar cumplidamente, antes de pedir la extradición.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero... probar la identidad será dificil?..</p>
+          </sp>
+          <pb n="41"/>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Qué! Cuando mandan un agente, por lo general éste conoce al prófugo, trae retratos y ¡que se yo! Y luego nunca faltan otros que lo hayan conocido en su tierra, ni alguna prueba de otra clase, que varía, según los casos</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Y se lo... se lo llevan?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Indudablemente.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(Acercándosele con sobresalto)</stage>
+            <p>Pero tú estás enfermo, Luís.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Yo, enfermo? No... ¡Ah, si! un mareo; estoy un poco cansado... y lo que me ha contado el señor Suárez de ese infeliz puestero...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No trabajes más.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Así me distraeré.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Te tiemblan las manos.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Un poco de chucho... Ya se me pasa.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Es extraño.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Estaba tan bien!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA XIII</head>
+          <stage>(Obreros, Teresa, Luis, Suárez. BENITO Y CARABINERO)</stage>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Buenos dias, Don Luis. Disculpe que haya tenido que salir; luego le diré... En cambio aquí le traigo un cliente.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Un cliente?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Sí, el señor.</p>
+          </sp>
+          <pb n="42"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Deseaba Vd.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Si es paisano suyo; háblele en italiano no mas.</p>
+          </sp>
+          <sp who="#carabinero">
+            <speaker>CARABINERO</speaker>
+            <p><foreign xml:lang="ita">Non capisco.</foreign></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Qué deseaba?</p>
+          </sp>
+          <sp who="#carabinero">
+            <speaker>CARABINERO</speaker>
+            <p>¡Ah, si! <foreign xml:lang="ita">Scusi. Vorrebbe che mi facesse un cento di biglietti di visita.</foreign></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Voy á mostrarle. <stage type="inline">(Buscando el muestrario de tarjetas)</stage><stage type="inline">(Yo debo conocer... yo conozco á este hombre! Pero donde lo he visto?)</stage><stage>(Se retira al fondo, examinándolo)</stage></p>
+          </sp>
+          <sp who="#carabinero">
+            <speaker>CARABINERO</speaker>
+            <stage>(Aparte á Benito)</stage>
+            <p><foreign xml:lang="ita">E proppio lo stesso, senza la barba. Non ha cambiato nulla. Prenda il ritratto. Io ció l’altro.</foreign></p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <stage>(Dejando disimuladamente el retrato sobre la mesa en que está Suárez, aparte)</stage>
+          </sp>
+          <sp who="#carabinero">
+            <speaker>CARABINERO</speaker>
+            <stage>(Ap. á Benito)</stage>
+            <p><foreign xml:lang="ita">Bisogna non lasciarlo fuggire.</foreign></p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Pierda cuidado!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Aquí están los modelos... <stage>(El carabinero examina lentamente los modelos, mirando de vez en cuando á Luis con ojos escrutadores).</stage></p>
+          </sp>
+          <sp who="#carabinero">
+            <speaker>CARABINERO</speaker>
+            <p><foreign xml:lang="ita">Bene; me li facia come queste.</foreign> <stage>(Indicando una tarjeta.)</stage></p>
+          </sp>
+          <pb n="43"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Para cuando?</p>
+          </sp>
+          <sp who="#carabinero">
+            <speaker>CARABINERO</speaker>
+            <p><foreign xml:lang="ita">Per questa sera. Verró io stesso á prendergli... Quánto é?</foreign></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Un peso.</p>
+          </sp>
+          <sp who="#carabinero">
+            <speaker>CARABINERO</speaker>
+            <stage>(Sacando la cartera del bolsillo.)</stage>
+            <p><foreign xml:lang="ita">Scusi. Non conosco la moneta.</foreign></p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <stage>(Señalandole uno de los billetes.)</stage>
+            <p>Este billete.</p>
+          </sp>
+          <sp who="#carabinero">
+            <speaker>CARABINERO</speaker>
+            <p><foreign xml:lang="ita">Bene; ecco. Ed ecco el mio nome.</foreign><stage>(Dandole su tarjeta.)</stage></p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Yo voy á acompañarlo hasta el hotel, de aqui tres cuadras, porque no sabe las calles y se puede perder el nene.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Como para acusarlo, terrible)</stage>
+            <p>Benito!... ¡Vd.!!!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¿Qué?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Con profundo desaliento)</stage>
+            <p>Nada. Es inútil. <stage type="inline">(Vanse por el foro el Carabinero y Benito. Pausa. Luis leyendo la tarjeta después de haber seguido á los otros con la vista, hasta que desaparecieron).</stage> Tito Nevi...Si fuera... <stage type="inline">(Al ver el retrato que ha quedado sobre la mesa, con un gran grito:)</stage> ¡Mi retrato de Italia! ¿Quién lo ha traido aquí? <stage type="inline">(desesperado)</stage> <foreign xml:lang="ita">¡Ah, Maledetta sorte!!</foreign> Teresa! Teresa!! Tengo que confesarte!... <stage type="inline">(Sofocado, loco)</stage> ¡No se vaya doctor! vuelvo en seguida!! 
+            <pb n="44"/><stage type="inline">(diriguiéndose á la puerta derecha, casi sin poder andar, arrancandose el cuello)</stage> ¡Quiero aire! aire! aire!...... <stage>(Vase por la derecha, como loco. Suárez y Teresa han quedado paralizados de terror.)</stage></p>
+          </sp>
+          <stage>TELON RÁPIDO.</stage>
+        </div>
+      </div>
+      <pb n="45"/>
+      <div type="act" n="2">
+        <head>ACTO SEGUNDO</head>
+          <stage>LA MISMA DECORACION DEL Ier ACTO</stage>
+        <div type="scene">
+          <head>ESCENA I</head>
+          <stage>Teresa, Suárez, en la parte del primer término, Juan, Antonio, Cajista 1° y 2°, en el taller. A poco Luis. La mesa en que trabajaba Suárez está puesta para almorzar.</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Pero, ¿Que le pasa, ¡por Dios! que le pasa? Debe ser algo muy grave para trastornarlo tanto. Nunca lo he visto así.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No me lo explico... Sigue paseándose ajitadamente en el patio.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Cuando me acerqué, me suplicó que lo dejase solo. Estaba pálido, con los ojos extraviados... Dios mio! ¿Qué desgracia nos estará amenazando?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No hay que alarmarse antes de tiempo, señora. Cuando uno se acostumbra á que todo le salga bien, el menor trastorno le parece á prímera vista una catástrofe.</p>
+          </sp>
+          <pb n="46"/>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Oh, no! Luis no tiene nada de exajerado ni alarmista. ¡Al contrarío!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(Acercándose para ir á cambiar de ropa)</stage>
+            <p>Ya son las doce. Vámonos á almorzar. ¿Y Vds. no almuerzan hoy señora?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Estamos esperando á Luis.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Ahi está en el patio. Yo volveré enseguidita con Antonio para sacar las demás pruebas, señor Suárez. Antes de la una las tendrá todas...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Ah! muchas gracias!</p>
+          </sp>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Vamos, compañeros. <stage>(Los cajistas comienzan á cambiarse la ropa, quitandose las blusas.)</stage></p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Pero, ¿qué podrá ser?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No me doy cuenta.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Vds. hablaban de eso, de la extradición cuando llegó Benito con el italiano. En seguida, casi inmediatamente Luis cambió... ¡“Tengo que confesarte”!... ¡Dios mio! ¡Dios mio! Tiemblo al pensar...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Recuerde Vd. que ya antes se había sentido algo mal.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Es cierto... pero..</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(Encaminandose á la puerta del foro)</stage>
+            <p>Hasta de aquí un rato... Mirá, ahí viene el carro.</p>
+          </sp>
+          <pb n="47"/>
+          <sp who="#antonio">
+            <speaker>ANTONIO</speaker>
+            <p>Que espere hasta que volvamos. Buen apetito. <stage>(Vase con Juan y los demas cajistas, que salen en grupos)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA II</head>
+          <stage>Dichos menos los cajistas, luego MARIA</stage>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>En fin pronto sabremos á qué atenernos, es decir, si yo no estoy demás...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Oh! ¿No le pidió que se quedara?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Y por eso estoy aquí.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¿Vamos á almorzar ya? <stage>(asomandose a la puerta izquierda.)</stage></p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No; espera un rato. Yo te avisaré. <stage type="inline">(Retirase Maria)</stage> ¡Luis!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>TERESA, SUÁREZ, LUIS</stage>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Apareciendo trastornado)</stage>
+            <p>¿Se han ido?... Esperaba que se fueran... Tengo que decirles cosas... cosas que se me atraviesan en la garganta y me aprietan el corazón como una mano de hielo... ¡Pobre Teresa!... ¡Señor Suárez!... ¡Señor Suárez! Vd. es el único que puede ayudarme... Tengo toda mi esperanza puesta en Vd... ¡Dio! Dio! <pb n="48"/>me ahogo!... ¡es horrible... ¡Teresa! antes de hablar, necesito que me jures perdonarme..</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Perdonarte?... ¿Y qué Luis?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡No! dime antes que me perdonas, aunque haya cometido un crimen, aunque... aunque te haya engañado!...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Engañarme... tú... tú...!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Vacilas?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No, Luis; no vacilo!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Teresa! Teresa mia! <stage>(abrazandola).</stage></p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Habla, habla, Luis! no me tengas en esta zozobra...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Si... ahora puedo... Teresa; señor Suárez... Yo no me llamo Luis, yo no me llamo Vernengo... Me llamo Marco Severi.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿Marco Severi?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p><stage>(con espanto, alejandose de él.)</stage> ¡Dios mio! ¿Quiere decir...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Recuerda que me has perdonado!... Recuerda... porque todavía tengo que confesarte algo más horrible!... No te he engañado sólo en eso ¡oh, no!... Tu esposo, Teresa, Teresa mía!... no es un hombre honrado... Marco Severi es un prófugo, un contumáz, condenado por falsíficador en Italia!... ¡Ah! ahora respiro! He tenido fuerzas para decir lo peor!... Pero no me rechaces sin 
+          <pb n="49"/>oirme... Señor Suárez... Vd. también comprenderá... perdonará... <stage type="inline">Soñaba que era otro hombre, que Marco Severi había muerto... (á Teresa, desesperado y tierno á la vez)</stage> Te he engañado, es verdad... pero te quería, te quiero tanto! ¡Estaba tan seguro de ser bueno, de ser honrado, de hacerte feliz!... ¡Sólo en tí pensaba! todo era por tí! mi trabajo, mi iniciativa, mi vida entera, hasta el más lijero latido de mi corazón.. Sólo por tí estoy sufriendo esta tremenda tortura... por tí y por nuestro hijo!...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(llorando)</stage>
+            <p>Pero, ¿por qué? ¿por qué, Dios mío?..</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(tratando de calmar á Luis)</stage>
+            <p>Las culpas se borran, el hombre se regenera, Don Luis...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Las culpas son eternas! Cuando se las cree definitivamente sepultadas, renacen para aplastarnos.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Cómo!... ¿Acaso?...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(sobrecojida)</stage>
+            <p>¿Que dices?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(fatídico)</stage>
+            <p>Que la mia ha reaparecido, terrible, amenazadora, implacable!... Benito, el tipógrafo, es un pesquisa... El hombre que lo acompañaba, un italiano recién llagado... ¡como en el caso de Balfour; doctor!... es un carabinero!...
+            <pb n="50"/>viene á llevarme, á arrancarme del hogar para enterrarme en el presidio!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Pero ¿no se engaña, D. Luis? ¿no está viendo visiones?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡No, no! Aunque no viese tan claro, éste me lo anunciaria... ¡Salta, salta como para salirse del pecho y seguir libre, libre!... Benito vuelve del departamento de policia... me lo dijo Gaspar... Y esos dos hombres han dejado aquí, sobre la mesa, este retrato mio de cuando estaba en Italia... Yo ¡imbecil! lo había conservado adentro, bien oculto, para que nadie lo viese...... ¿Por qué fatalidad ha caido en sus manos?... Benito, el espia, estaba aquí á todas horas, ¡teníamos el enemigo en casa!... Y estoy descubierto, perdido, perdido!...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Perdido... ¿Quiere mi defensa, D. Luis? ¡Vaya! calmese y cuénteme su... desgracia. Puede ser que el peligro no sea tanto como Vd. se lo imagina; puede ser que sea facil alejarlo.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Oh, si, si, ¿verdad que si?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Para ti, Teresa, para Vd., señor Suárez, mi relato justificará el perdón y el olvido... ¡ay! para los jueces, no!... <stage type="inline">(Pausa)</stage> Viviamos en Roma miserablemente, cuando mi vieja madre querida se enfermó de gravedad... Yo no tenía
+            <pb n="51"/>trabajo, ni dinero, ni pan... Señalado como anarquista peligroso, cuando no era más que un pobre muchacho exaltado y gritón, los patrones me rechazaban como á un pestifero. No tenia ni recursos, ni protectores, ni amigos... Mi madre seguía agravándose... Se me moría de enfermedád y de hambre; de hambre sobre todo... ¿comprendes? ¿comprendes eso? ¿sabes lo que es suplicio.... Yo me volvía loco.... corría por todas partes pidiendo trabajo á vil precio, como un mendigo! Era un buen obrero, casi un artista, -puedo decirlo-, y hubiera trabajado hasta matarme por un pedazo de pan para la pobre anciana que se moría.... Ante la repulsa de todos me asaltaban terribles ideas de venganza! Hasta entonces había sido anarquista lírico, por exceso de juventud, por exceso de ardor en la sangre, por curiosidad y por novelería.... Pero entonces, al verme impotente junto á mi madre moribunda, sin pan, sin médico, sin asistencia, sin remedios, ¡les juro que hubiese echo volar la ciudad, el mundo entero, sin que me temblara la mano!.... No llegué á tanto.... El dia de mayor desesperación, cuando no veia otra salida que estrellarme la cabeza contra
+            <pb n="52"/>las piedras de la calle para no verla morir, un antiguo compañero de taller me tendió una tabla de salvación; ¡terrible recursos!... Se trataba de falsificar billetes de banco... Yo capáz de provocar una catástrofe en mi demencia, ¿cómo iba á vacilar?... Acepté; acepté con regocijo... Ebrio, trastornado, comencé con furia á grabar planchas, á abrir el abismo ante mis piés... pero... mi madre tenia pan... tenia pan, pero... ya era tarde!... El día que terminé las planchas, la había dejado muy mal... Volvi corrriendo en cuanto pude... El médico -¡quizás por librarse de nosotros!- me aconsejó que la llevara sin perder un momento á alguna aldea fuera de Roma... En un carrito de hortelano que volvía de vacío, la llevé sobre un jergón á Frascati... ¡Pobre mi madre!... Pocos días despues moría en mis brazos!... La dejé, dormida para siempre, en el triste cementerio de la aldea... Volví á la posada con el alma desamparada y solitaria... Allí una terrible noticia me volvíó á la vida. Habian descubierto la falsificación, tomando á todos mis compañeros. ¡Mi madre, muriendo, me salvaba!... Escapé, me disfracé, me quité la barba, pude llegar á Génova, embarcarme,
+            <pb n="53"/>venir .... ¡Oh! ¡cuánta angustia y qué espantosa pesadilla!...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿De modo que ni siquiera aprovechó la falsificación?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Fuera de lo poco qué me adelantaron mis compañeros para asistir á mi madre...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Y después? ¿La causa? ¿Está todavia abierta? ¿Han sentenciado?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Hasta llegar á Buenos Aires no tuve noticia del proceso.-Aquí me fui informando, ¡con cuanta ansiedad! Las pruebas eran abrumadoras... Como estaba lejos, los compañeros me cargaron con todo el peso de la culpa...¡Yo no podía defenderme! Y aunque pudiese, me hubieran condenado.... Una falsificación no se perdona... Se me condenó en contumacia á largos, muy largos años de presidio. ¡Una eternidad, toda una vida!...¡Oh! los primeros meses fueron espantosos! A cada momento creía que iban á descubrirme, á llevarme á Italia, á la cadena... Poco á poco fui tranquilizándome... Nadie me incomodaba, nadie me sospechaba, nadie me perseguía... Trabajaba bien, ganaba dinero, queria y podia ser un hombre honrado; las circunstancias no me arrastraban ya como invencible torbellino!..
+            <pb n="54"/>Pronto me crei regenerado, limpio de toda mancha. Y cuando conocí á Teresa, cuando la amé, cuando supe que me correspondia, bendije este suelo de hospitalidad y de perdón, en que los hombres parecen mejores, la tierra más fecunda, el cielo más puro!.. ¡Oh, días de delicia! No pensé.... <stage type="inline">(á Teresa),</stage> alza la cabeza, no llores así, no pensé, no recordé siquiera mi nombre supuesto, porque me unía á ella con toda la amplitud de mi voluntad, con todas las más altas potencias de mi alma!..¡Oh! mirame á los ojos, Teresa! ¿Crees que si las mismas leyes, si el mismo Dios declararan disueltos nuestros lazos, quedarian disueltos para mí?... Mírame, mírame y contesta! <stage>(Teresa ha acompañado todo este parlamento con sollozos mal contenidos).</stage></p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(con tierno y desesperado arrebato)</stage>
+            <p>¡Oh, Luis!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Así, contra mi pecho! Ya sé que me perdonas, que me has perdonado... <stage>(abrazándola).</stage></p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Ha sufrido Vd. mucho, amigo mio!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Tánto! ¡Y ahora que quería empezar una nueva existencia, con mi mujer, con nuestro nene, con los compañeros de trabajo... Después de tanta felicidad, <pb n="55"/>¡qué espantosa cada!... Pero Vd. me guiará, Vd. me salvará!.. ¡Aconséjeme, sálvame! No permita que todo se haga polvo entre mis manos: mi esperanza, mi obra, mi familia, hasta yo mismo!...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Le juro hacer lo humanamente posible!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Y lo conseguirá, lo conseguirá, ¿no es cierto?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Tengamos un poco de sangre fria. Hay que darse cuenta de la situación, ver los peligros, tratar de escapar...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Si, Si!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Me pongo en sus manos.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Dice Vd. que ha habido sentencia....</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>A veinte años de presidio, sí.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿Se apeló?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Fué confirmada...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Había sin embargo circunstancias atenuantes....</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>El defensor que me nombraron de oficio quiso hacerlas valer; trabajo inútil!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Y Vd. cree que lo han descubierto, que lo persiguen?...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>A estas horas debo de estar envuelto en una red invisible todavía, pero ya sin escape... Ese hombre, ese italiano
+        <pb n="56"/>tiene que ser un carabinero que me ha conocido en Italia..</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Sí; es posible; y lo peor es que no tenemos medio de averiguar, de estar seguros.... Si es un carabinero debe haber traido todos los documentos en forma, debe estar en situación de allanar las dificultades que pudieran oponerse....</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Desgraciadamente..</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Y de un momento á otro pueden tratar de prenderlo....</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Seguro!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(desesperada)</stage>
+            <p>¡Oh, Luis, Luis!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Luego se tratará de la identificación... ¿Ese retrato?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(dándoselo)</stage>
+            <p>Aqui está.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Destrúyalo.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Inútil; han de tener otros!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No importa.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Dame. Lo voy á quemar! <stage>(Vase precipitadamente al interior con el retrato).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>LUIS—SUÁREZ</stage>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(despues de cavilar un rato)</stage>
+            <p>No encuentro otro medio!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Cual? Diga, diga Vd.....</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Huir, escapar! Las circunstancias son tales que, una vez preso, no habria
+            <pb n="57"/>esperanza, á menos de un milagro...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Oh, no tengo miedo por mi!... pero tiemblo, agonizo por ella, por ellos!..¡Qué sería de ellos!...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Valor!.. Vd. debe salir inmediatamente de aquí, ocultarse lejos, á esperar lo que ocurra....Así se podrá ver, meditar...¡Quién sabe!... Todavia creo que es una falsa alarma!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Oh, yo no lo espero!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>En fin en el peor de los casos ese es el mejor partido... ¿Tiene algún dinero?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Sí, casualmente.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Entonces..</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA IV</head>
+          <stage>LUIS, SUÁREZ Y MARIA</stage>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <stage>(aparece corriendo, como una loca)</stage>
+            <p>¡Ah Luis! perdón, perdón! yo te he perdido! ¡soy una desgraciada, una miserable!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Qué dices!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>El retrato...tu retrato...¡Yo se lo dí á Benito! ¡Yo te he entregado!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡El retrato!.. ¡Tú...tú! Ah, desgraciada! <stage>(Con furioso arrebato, precipitándose á ella como para matarla).</stage></p>
+          </sp>
+          <pb n="58"/>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡No sabía, Luis, perdóname! No sabía! (Luis se contiene apenas, Suarez se acerca para intervenir) ¡Como sospechar de ese canalla...cuando lo quería tanto!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA V</head>
+          <stage>Dichos TERESA</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(Que ha estado al paño desde que apareció Maria, acercándose con nobleza)</stage>
+            <p>Perdónala, Luis!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Mira á Teresa, se conmueve, baja la cabeza y luego, como llorando dice á Maria)</stage>
+            <p>Poveretta!. No; tú no tienes la culpa! Con el retrato ó sin él hubiera sido igual! y si tuvieras culpa, ;cómo no perdonarte, cuando á mí mísmo me perdonan?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <stage>(irguiéndose temible de ira y de odio)</stage>
+            <p>¡Ah! pero yo no perdono! yo no olvido! y algún día!.. ¡ese hombre!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(calmándola)</stage>
+            <p>Bien, no perdamos más tiempo! <stage type="inline">(á Luis)</stage> Es preciso que Vd. se marche inmediatamente! Vaya á mi casa; está muy cerca, pero allá no lo buscarán por el momento... Me reuniré con Vd. enseguida, y arbitraremos los medios de que se escape con la mayor seguridad posible... Después, cuando se despeje la situación y veamos más claro, <pb n="59"/>ó Vd. podrá volver tranquilamente, ó su familia irá á reunirsele... Yo averiguaré entre tanto, y me presentaré á la justicia si es preciso... Pero lo urgente es huír.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Si; vete, vete, Luis!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero, déjenme pensar ....¿Se remedia algo huyendo? ¿No intento un imposible, completamente inútil además? Se salvará la familia, la obra, el porvenir?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Lo primero es ponerse en salvo... Después podrá meditar sobre todo eso!... Empecemos por Vd.; lo demás vendrá enseguida.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Si; pronto, pronto!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <stage>(alcanzándole el sombrero)</stage>
+            <p>Tu sombrero.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿El dinero?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Aqui está... ¡Teresa! ¡el nene! ¡Quiero verlo, quiero besarlo!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Si! ¡Desgraciada criatura! <stage>(le acerca el niño, que estará en la cuna)</stage></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Adios, adios! ¡Dios te bendiga! <stage type="inline">(besando al niño)</stage> ¡Adios, Teresa!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Pero, ¿no habrán establecido vigilancia en la calle?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Corro á ver.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Si no vuelve, comprenderé que hay vigilancia; no se comprometa, doctor.</p>
+          </sp>
+        </div>
+        <pb n="60"/>
+        <div type="scene">
+          <head>ESCENA V</head>
+          <stage>(Dichos. GASPAR)</stage>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <stage>(Entra corriendo)</stage>
+            <p>Don Luis, disculpe... una palabrita...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>En este momento...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¡Es muy importante!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Que quería? Despache pronto...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>La manzana está rodeada de agentes disfrazados, y en la esquina se ha escondido Benito con un italiano grandote... Van agarrar á alguno en esta casa!... y como yo.... ¡qué quiere! le tengo amistad, D. Luis, he corrido á avisarle por si acaso... ¿Vd. sabe á quien buscan?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p><foreign xml:lang="ita">¡Maledetta sorte!</foreign></p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¿Vd? ¡No puede ser!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Desesperado)</stage>
+            <p>¡Se acabó, Teresa! ¡Se acabó, se acabó!... ¡Todo se ha hundido! ¡Todo se ha derrumbado! <stage type="inline">(Gran transición y tranquilo)</stage> Ahora... paciencia!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VI</head>
+          <stage>Dichos, JUAN que se acerca sin comprender</stage>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No hay medio de escapar por
+            <pb n="61"/>las azoteas... de ocultarse en una casa vecina?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Bah! ¡sería un retardo nada más!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¡Una idea!... El cajón de papel... <stage>(señalando la puerta del patio).</stage></p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Lo registrarían.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>No! Benito sabe que hay que devolverlo.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Saquemos el papel, Juan.</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <p>Sí. <stage>(Comienzan á sacar papel de imprenta de un cajón que se supone en el patio. A ellos se unen los cajistas que van llegando)</stage></p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>La idea es salvadora... ¡Qué lo lleven á casa!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Mis amigos! ¡Cómo agradecerles!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¡Vaya!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Algún día sabrán que han hecho bien en ayudarme. ¡Dios los bendiga! <stage>(Vase por la derecha. Suárez lo sigue)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VII</head>
+          <stage>Dichos, otros Cajistas D. JERMAN</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Maria! ¡Maria! El nene...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <stage>(Toma el niño y vase por la izquierda)</stage>
+            <p>¡Silencio!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(Habiendo terminado de amontonar las grandes resmas de papel en un rincon,
+              <pb n="62"/>á los cajistas)</stage>
+            <p>¡Vaya! A trabajar como si no hubiese pasado nada!...</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¡Y yo tambien! Ahora puedo volver, sin que me dé vergüenza...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Muy buenas tardes... <stage>(ap.):</stage> Aquí pasa algo. <stage type="inline">(Al ver la mesa puesta)</stage> Ni siquiera han almorzado... ¿No está Luis?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No, señor.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>¿Vendrá pronto, jé, jé?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Puede ser... no sé...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>¿Ha ido lejos?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No le puedo decir!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Pero, ¡que caray! siempre vendrá á levantar el pagaré, ¿no?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No... Sí... Sin duda...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>A Vd. le pasa algo, hijita, jé, jé!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿A mí?</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Sí, ¡qué caray!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Yo...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Hemos tenido peleita, ¿no? ¡Jé, jé!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Le aseguro...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Pero no se me aflija, que se pone más linda y yo... ¡qué caray!... Ya me parece demasiado linda sin llorar!... Diga: ¿me necesita para algo?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Oh, no, no!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Ya sabe, hijita: cuente conmigo no más... Pero, ¿qué tiene?... ¿por qué llora así?... Hábleme, tenga confianza
+              <pb n="63"/>le digo. No me la voy á comer, ¡qué caray!... ¡Nada!... Se ha vuelto muda!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Y cuando él está todavía! ¡Qué será después, Dios mio!... <stage>(En este momento reaparece Luis, seguido por Suárez y algunos cajistas que habian quedado en el patio).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VIII</head>
+          <stage>Dichos, LUIS Y SUÁREZ</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <stage>(Gran grito)</stage>
+            <p>¡Luis!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Teresa!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Por qué? ¿por qué no te has ido?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Es mi deber!... ¡Ah, D. Jermán!... ¿Por el pagaré?</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Si; es decir, en caso de que...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Por qué!... ¡por qué!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Por eso... Aqui tiene Vd. el dinero.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Aquí está el documento.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Muy bien.</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Gracias... Y me retiro, jé, jé... Muchas felicidades... <stage type="inline">(ap)</stage> Volveré... se me hace que la breva está madurando. Si <stage type="inline">(alto)</stage> Vds. me llegan á necesitar, ¡qué caray! cuenten conmigo. <stage>(Vase por el foro)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA IX</head>
+          <stage>Dichos, menos D. JERMAN</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Por el pagaré! ¡No te has ido por el pagaré!</p>
+          </sp>
+          <pb n="64"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Por eso sólo no! Era inútil huir... completamente inutil... ¿Como escapar de un castigo que uno lleva adentro? ¿Qué me importa la libertad sin Vds., lejos de Vds., sabiendo que la misería los acecha? Marchándome yo con ese dinero, ¿qué conseguía? Burlar una semana, un mes, un año á mis perseguidores, para caer luego irremisiblemente en sus manos... Y entre tanto vendría el protesto de los pagarés, la ejecución, el embargo de la imprenta, su venta en remate por menos de lo que importarán los gastos judiciales, un suplicio, un largo suplicio para tí, con la miseria por coronamiento... ¿Es vida eso? ¿Es posible intentarlo?...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Si! Otro puede arreglarlo todo; el Sr. Suárez.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>En vano traté de convencerlo.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Desde que te dejé, empecé á ver claro, mi cerebro enloquecido se tranquilizó... Estaba cometiendo una cobardía cuyas primeras víctimas serían Vds., sin que yo mismo me librara...</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA X</head>
+          <stage>Dichos, MARIA</stage>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Luis! ¡No ha podido escapar!</p>
+          </sp>
+          <pb n="65"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡No bastaba con levantar el pagaré! No basta aún! Es preciso salvar la imprenta, es preciso asegurar el pan de nuestro hijo! Me es preciso también librarme de esta zozobra, de la cárcel en las pesadillas de todas las noches, en las angustias de todos los días!...¡Oh! no podria escapar llevando el presidio aqui!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Pero Vd... convénzalo... dígale que huya!... que se vaya! Quizás esté á tiempo todavia!...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No quiere escucharme, señora...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Si, es verdad; Vd. creia; tenia esperanza. ¡Yo no! Es decir, tengo una, una sola... <stage type="inline">(Llamando á los cajistas)</stage> ¡Compañeros!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¿Qué intentas? <stage>(Los cajistas, entristecidos, acuden y rodean á Luis)</stage></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Escúchenme... no hay tiempo que perder... ya deben estar sobre mis huellas... ¡Compañeros! estas infelices mujeres, mi pobre hijito van á quedar desamparados... Una horrible fatalidad pesa sobre mi, sobre ellos, sin que ellos, por lo menos, lo hayan merecido... Pero tengo una esperanza, la última. ¡Vds!</p>
+          </sp>
+          <sp who="#juan">
+            <speaker>JUAN</speaker>
+            <stage>(como ofreciéndose sin condiciones:)</stage>
+            <p>Nosotros...</p>
+          </sp>
+          <pb n="66"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Esta misma tarde ibamos á dejar fundada la cooperativa.. Hay que fundarla con ella, con él...</p>
+          </sp>
+          <sp who="#cajistas">
+            <speaker>CAJISTAS</speaker>
+            <p>¡Si, si!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Acabo de levantar el cuarto pagaré. La mitad de la imprenta está saneada. Esa <emph>les</emph> pertenece! Si Vds. conquistan la otra, podré vivir, podré morir en paz, porque sabré que mi pobre familia no ha rodado conmigo!.. Que no se abandone esa idea; por Vds., por mi, por ellos!... Oigan estas palabras como mi testamento, porque tienen la solemnidad de un testamento.... ¡Den este ejemplo de amor, de fraternidad!</p>
+          </sp>
+          <sp who="#cajistas">
+            <speaker>CAJISTAS</speaker>
+            <p>Lo haremos. ¡Sí, sí!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Quién se atreverá á decir que no es Vd. el mejor de los hombres!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ay, amigo! Vd. vele también por ella, por mi hijito! Cuando no esté aqui, aconseje y ayude á mis compañeros, á mis hermanos!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Haré aun más! Pero... ya ha hecho Vd. todo lo humanamente posible. Ahora puede estar tranquilo... ¿Por qué no probar tadavia? ¿por qué no huir?</p>
+          </sp>
+          <sp who="#cajistas">
+            <speaker>CAJISTAS</speaker>
+            <p>Si, eso es!-Es natural!-¡Claro!-etc.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Déjame siquiera esa esperanza de verte feliz!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah, ya es tarde!...</p>
+          </sp>
+          <pb n="67"/>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Quién sabe!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Acabo de entregar todo mi dinero.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Por eso, no! ¡A ver, compañeros! <stage type="inline">(Todos se apresuran á vaciar sus bolsillos en mano de Gaspar)</stage> Mire: todos han comprendidos sin decirles...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Oh, qué agradecida!..</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Buenos muchachos!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Hay como sesenta pesos....Es poco; pero ya con eso....</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Si! vaya! Y escribame desde donde pueda... Conseguiremos mandarle más, cueste lo que cueste!..</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Oh, gracias, hermanos, hermanos queridos.... Gracias por este movimiento que es como un rayo de sol! yo....</p>
+          </sp>
+          <sp who="#oficial">
+            <speaker>OFICIAL DE POLICIA</speaker>
+            <stage>(que ha entrado poco antes sin ser visto y acercándose poco á poco)</stage>
+            <p>¡Marco, Severi! Dése Vd. preso! <stage>(Sorpresa general. Los personajes forman un cuadro conmovedor rodeando á Luis que, con la cabeza inclinada, se muestra dispuesto á entregarse).</stage></p>
+          </sp>
+          <stage>TELON</stage>
+        </div>
+      </div>
+      <pb n="68"/>
+      <div type="act" n="3">
+        <head>ACTO TERCERO</head>
+        <stage>SALONCITO EN UNA COMISARIA</stage>
+        <div type="scene">
+          <head>ESCENA I</head>
+          <stage>JUEZ y SUÁREZ, luego AGENTE</stage>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>En nuestra entrevista anterior no lo felicité por sus brillantes exámenes generales. Se habla de ello con el mayor elogio.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Bondad suya, señor Juez. Y á pesar de ellos hubiese tenido serias dificultades, si no es la bondad de ese Luis Vernengo ó Marco Severi, por quien me intereso tanto. Es pobre, y sin embargo imprimió mi larga tésis, que quizá no pueda pagar nunca....</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¡Se la pagará, ya lo creo! Con su brillante porvenir.... Pero, todo cuanto usted me ha dicho y me dice, me inclina favorablemente hacia el detenido, dentro de lo lícito, que no es mucho.... Por eso lo he dejado aquí en la comisaría, donde está mejor y con cierta libertad que no tendria en otra parte....</p>
+          </sp>
+          <pb n="69"/>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Yo se lo agradezco en su nombre y en el mío, señor Juez. Su benevolencia es preciosa para ese hombre, tan bueno como desgraciado.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Pero ahí se detiene mi acción.... La ley es la ley, y nosotros, sus ejecutores, no podemos,—y mucho menos en estos casos en que existe la intervención de un gobierno extrangero,—hacer lo que Magnaud, el buen Juez de Chateau Thierry y juzgar sencilla y patriarcalmente con nuestra conciencia de hombres. No podemos, tampoco, hacer interpretaciones libres y caprichosas ó arbitrarias de la ley; tenemos que ajustarnos á su letra, que no es elástica ni admite más excepciones que las señaladas por ella misma.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Debería admitirlas.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Ese es otro cantar; pero tampoco me incumbe á mi, sino al Congreso.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Pero ¿no cree usía que es inhumano y hasta injusto, arrebatar su familia, su tierra de adopción, su porvenir de trabaio, de honradez, de utilidad para todos, á un hombre que pecó arrastrado por terribles circunstancias, que se ha regenerado, que observa una conducta intachable, que tiene un carácter elevado y varonil, una cabeza llena de <pb n="70"/>inteligencia y un gran corazón? Y dejamos.... ¡no! no dejaremos que nos amputen ese brazo robusto y generoso!</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>La ley es una.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Ley estrecha, sin amplitud, sin el alto concepto de lo que debe ser nuestra tierra....</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿Quiere usted restablecer el derecho de asilo, como en los antiguos templos?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Para los casos de regeneración probada, hasta de regeneración posible.... seria nobilísimo!</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Este es un hecho excepcional.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Sí! pero una excepción de tanta magnitud no se ha previsto siquiera....Es como decir al que se enmienda, al que vuelve sobre sus pasos y toma el buen camino. «¡Eh! tonto, no lo hagas! si de todas maneras es inútil, si de todas maneras no te hemos de perdonar! Sigue siendo como antes, tonto!»</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Por una consideración excepcional, y <emph>sentimental</emph>, permitame que se lo diga, la sociedad no puede abandonar un arma de defensa que es evidentemente buena y justa.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No pido que se abandone: exijo que se corrija en lo que tiene de injusto y de implacable! ¿Por qué no ha previsto <pb n="71"/>estos casos, en que se impone una ley de amor?...</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Cuántas cosas no se preven! El hombre no es infalible... Y le confieso que me llenaría de satisfacción poder salvar á Severi... Le tengo simpatía.. Sé que, libre, seguiría siendo útil y bueno...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Entonces su conciencia...</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>La conciencia nada tiene que ver en este asunto, amigo mío. Si se comenzara á juzgar con la conciencia, volveríamos á caer en todas las atrocidades de la justicia arbitraria, porque los jueces somos hombres, no ángeles y... hay conciencias sin conciencia! No; hay que ceñirse á la ley estricta, y ella me ata las manos, como le dije esta mañana..</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>A propósito de lo que me dijo usía: aconsejé á la desgraciada Teresa que viese y suplicase al ministro de relaciones exteriores, y como éste ha sido mi profesor en la facultad, donde me demostraba mucho aprecio, le solicité una audiencia para la pobre mujer. Me la concedió, y Teresa debe haberle hablado ó estará á punto de hacerlo á estas horas.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Supongo que lo ha visto ya, porque acabo de recibir una esquelita del secretario, <pb n="72"/>pidiéndome confidencialmente y con urgencia, antecedentes é informes sobre Marco Severi.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿Y se los ha mandado usía?</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Lo haré enseguida.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Disculpe usía la indiscreción: ¿serán favorables?</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Todo lo más favorables. Pero, fuera de esos datos que quizá le conquisten la buena voluntad de los hombres del gobierno, le repito que, por mi parte, no puedo hacer nada... Usted conoce esta clase de asuntos: El ministro italiano ha intervenido, sabe que Severi está preso. Los trámites se han llenado en toda forma... y como para que no quepa disyuntiva posible, un agente de la policía italiana ha venido en busca de su presa.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Es verdad.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>A estas horas el ministro italiano debe haber telegrafiado al de negocios extrangeros... ¡Ya vé usted! Nuestra policía, nuestra justicia, nuestro mismo gobierno tienen, también, las manos atadas; y se haría un tristísimo papel, hasta podria producirse un incidente diplomático si no se entrégara á Severi...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>La mosca de Voltaire, que provoca un cataclismo á cien leguas de <pb n="73"/>distancia!... ¡Oh! doctor! ¡sacrificar asi á un infortunado! ¡Casi un inocente!</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p><foreign xml:lang="lat">Dura lex sed lex</foreign>, amigo mío.... Veremos lo que se resuelve allá arriba, y entre tanto cuente con mi buena voluntad. Pero.... ni una palabra de esto, ¿no? He faltado á mis deberes de Juez hablando así.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Pero á sus deberes de hombre no, señor!</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Bien. Déjeme un momento. Voy á contestar al ministro.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Aguardaré en el patio.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Aqui en la oficina contigua.- <stage>(Vase Suarez. El juez toca un timbre y á poco aparece un agente de policia, que se cuadra haciéndole la venia).</stage></p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¿Está ese agente de investigaciones? Hablo del que tomó á Severi.</p>
+          </sp>
+          <sp who="#agente">
+            <speaker>AGENTE</speaker>
+            <p>¿Benito? Si, señor Juez.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Digale que venga. <stage>(Vase el agente)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA II</head>
+          <stage>JUEZ y BENITO</stage>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Usted prendió á Marco Severi?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Si, señor Juez.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¿Cómo lo descubrió?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Hace más de mes y medio, señor
+            <pb n="74"/>Juez. El retrato había venido hacía mucho pero ¡qué! yo ya ni me acordaba! Como decian que era anarquista y los demas tambien, me mandaron de Investigaciones á que averiguara, porque yo fuí tipógrafo cuando me contentaba con estar esclavo para ganar una mezquindad.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Bueno, bueno, adelante; eso no hace al caso.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Yo, pues, entré como tipógrafo en la imprenta de don Luis,.... de Marco Severi, quiero decir, para ver lo que andaban tramando.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¿De modo que lo descubrió por casualidad?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Un poco por casualidad, y un poco por que no me chupo el dedo..... Comencé por hacerle el amor á la cuñadita, aunque tiene muy mal genio, para que me ayudara sin maliciar, ella que siempre está en la casa......</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Pero, al grano! ¿Es anarquista Severi?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Lo que es, es un alma de Dios......Pero en cuantito lo vi, me pareció conocerlo "Yo he visto esta cara entre los retratados". Y para salir de dudas me fui esa misma noche á investigaciones y me puse á recorrer los retratos. Al fin di con el de Marco Severi, recomendado
+            <pb n="75"/>de Italia........ Aunque el retrato tenia barba, lo conoci enseguidita..... Ya casi seguro le avisé al señor Comisario, y creo que él hizo telegrafiar á Europa para que mandaran los papeles, que trajo el agente Tito Nevi. Yo, entre tanto, me quedé en la imprenta, aunque ya supiera que no había anarquistas, para filiarlo al Severi y no dejar que se escapase. ¡Y qué se me iba á escapar!</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Bueno. Todo eso lo sabiamos. Lo que quiero es informes sobre la conducta de Vernengo ó Severi.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Ya le dije, señor Juez, que era un alma de Dios, bueno como el pan y hasta medio tilingo.... No se mete en nada. Siempre está con la mujer y el chiquilin, como un bobeta. Pero dice que quiere que todos los de la imprenta sean felices y se hagan ricos junto con él. ¡Mire qué otario! No le dije que era.....</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¡Basta! ¿De modo que no tiene antecedentes desfavorables?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>Que yo sepa.....</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Y si no sabe, no tendrá; porque me parece que usted!....</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <p>¡El oficio! ¡Qué quiere, señor Juez! Para eso estamos! Uno no es pesquisa
+            <pb n="76"/>para saber las cosas buenas, sino las cosas malas!</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Puede retirarse y esperar. <stage>(Vase Benito).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA III</head>
+          <stage>JUEZ, luego el AGENTE, luego el ESCRIBIENTE</stage>
+          <stage>El Juez escribe rapidamente, pone sobre á la carta, toca el timbre. Al agente que aparece enseguida:</stage>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Esta carta al ministerio de relaciones exteriores inmediatamente. Que venga el preso Severi. <stage type="inline">(Al Escribiente que va cruzando la escena:)</stage> ¿Está el comisario?</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <stage>(muy humilde y obsequioso:)</stage>
+            <p>No, señor Juez.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¿Y el sub-comisario?</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>No, señor Juez.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¿Y el oficial de guardia?</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>Va á volver en seguida, señor Juez.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¿Ha sucedido algo grave?</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>No, señor Juez. Diligencias.....</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Está bien.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>¿Puedo retirarme, señor Juez?</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Si.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>Con su permiso, señor Juez. <stage>(Vase el Escribiente).</stage></p>
+          </sp>
+        </div>
+        <pb n="77"/>
+        <div type="scene">
+          <head>ESCENA IV</head>
+          <stage>JUEZ—LUIS</stage>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Siéntese, Severi.... Quería preguntarle si tiene algo más que decir en su favor. Hábleme con estera confianza...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Nada más.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¿Usted cree, entonces, que su asunto no tiene remedio?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Así es, desgraciadamente, señor.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¿Qué está bien condenado?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ay, si, señor; aunque el castigo no guarde proporción con la culpa, ¡Ya se ve! Los gobiernos defienden con más vigor lo que les toca de mas cerca!..... Pero no es justo, señor, no es justo! Si se castiga la falta, no por vengarse, sino para que el culpable se arrepienta y se enmiende, no estoy arrepentido y enmendado ya? No es equitativo tener en cuenta las terribles circunstancias que me empujaron, que me arrebataron, que me obligaron?.... El espectáculo de una madre querida que se muere de miseria, de hambre ¿no equivale á la locura? ¿Puede creerse que no estuve loco en aquellos dias de espanto?</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Su defensor debe haber invocado todas esas consideraciones en Italia.</p>
+          </sp>
+          <pb n="78"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Oh! en Italia, en Italia! ¡Ah, señor Juez! Ustedes que llaman al extranjero para que comparta su trabajo y sus beneficios; ustedes que lo reciben tan amistosa tan generosamente; ustedes que al cabo de corto tiempo lo consideran como un miembro de su gran familia, ¿por qué, por qué tienen esta ley implacable que no perdona al que ha merecido perdón, y que no sólo lo castiga á él, sino que maltrata y maldice cuanto tiene alrededor, hundiendo á los suyos en la miseria y la vergüenza, dispersando al viento cuanto su esfuerzo creó, prolongando la inicua pena hasta en sus mismos hijos... ¡Oh! vea, señor Juez! ¡Le juro que desde que pisé este país, desde que empecé á trabajar con fruto, desde que formé un hogar que creía bendito, fui, soy otro hombre ¡Marco Severi quedó en Italia con su espantosa pesadilla de un minuto! Luis Vernengo es un hombre útil y honrado! Pero se mata á Luis Vernengo para hacer resucitar en cambio al delincuente Marco Severi! ¡Se destruye lo que ha hecho Luis Vernengo, su hogar, su obra, su porvenir, para que resurja la falta no cometida de Marco Severi!...</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Cálmese, cálmese.</p>
+          </sp>
+          <pb n="79"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero usted es bueno, señor Juez; usted compende, usted es hombre, usted es hijo de este país benévolo y tolerante, más amplio y generoso que las viejas sociedades europeas; usted hará por mi lo que otro no haría, usted me dará la libertad, usted me devolverá á mi familia y á mis obreros...</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Si pudiera! Pero el sentimiento no gobierna. El Juez pasa antes del hombre.... Sin embargo....</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Sin embargo....</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>No; no se deje llevar todavía por la esperanza, pues el desengaño sería mucho más doloroso. Iba á decirle que sus amigos, su misma mujer trabajan por salvarlo con quienes quizás lo puedan...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Y conseguirán?....</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Es muy dificil, pero siquiera hay una probabilidad que no he tenido valor de ocultarle, como debiera....</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah, qué consuelo me trae, señor Jueż y cuánto, cuánto le agradezco sus buenas palabras!....</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Pero.... no se haga muchas ilusiones.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah!</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Es una simple probabilidad, ya le he dicho. Sus jueces desearían ser benignos y sus amigos no lo abandonan.</p>
+          </sp>
+          <pb n="80"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Eso es un bálsamo para mí.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Su defensor lo espera. ¿Quiere verlo?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿El señor Suárez? ¡Oh, sí, si! Gracias, señor Juez.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Voy á llamarlo. <stage type="inline">(acercándose á la puerta, llama)</stage> Pase, doctor.</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA V</head>
+          <stage>JUEZ, LUIS Y SUÁREZ</stage>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Con permiso.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Los dejo solos.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Muchísimas gracias. <stage>(Vase el Juez).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VI</head>
+          <stage>LUIS — SUÁREZ</stage>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Señor Suárez! Vd. tampoco me abandona!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Me abandonó Vd. cuando le pedí un favor que importaba un sacrificio?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Insignificante! ¡No hablemos de eso!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Le tengo una buena noticia.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Será la que el Juez me ha dado á comprender?....</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Ah, el Juez! Suceda lo que quiera,
+            <pb n="81"/>debe Vd. quedarle agradecido. En primer lugar lo deja aqui donde está mejor que en el departamento ó la penitenciaria, y puede ver á los suyos. Después nos esta dejando tiempo para que demos algunos pasos, mientras todavía hay esperanza por remota que sea. Por indicación suya he hecho que Teresa vaya á ver al ministro de relaciones exteriores.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Pobre, pobre Teresa!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>El ministro debe haberla escuchado, pues acaba de dirijirse confidencialmente al Juez pidiéndole informes.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Y los han mandado?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Excelentes.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡No se ilusione tan pronto!.... Si el asunto dependiera exclusivamente del ministro, se podría tener más esperanza.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Si! Pero puede pedir al presidente que... que me indulte.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Ah! El presidente no puede indultar á un condenado por la justicia de otra nación...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Y quién tiene mi vida entre sus manos entonces!...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>El ministro de Italia.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Si el ministro de Italia retira el 
+              <pb n="82"/>pedido de extradición, estas puertas se abrirán para usted...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero no lo retirará...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Quién sabe! aunque media la grave circunstancia de que haya venido con los documentos necesarios, un agente de la policia italiana, que ya habrá telegrafiado su captura...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Ah! el carabinero!...  <foreign xml:lang="ita">¡Dio, Dio! Allora</foreign>...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Si falla esta esperanza, nos quedaria la última: que nuestro gobierno pidiera su indulto al rey de Italia!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No lo pedirá, no lo conseguirá; ¡un falsificador de la moneda del reino!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Ay, D. Luis! Ahora veo, que he hecho mal en hablarle de estas cosas! Parece que de gusto lo estuviera haciendo caer de la esperanza á la desesperación, martirizándolo como un verdugo!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Mi querido amigo, mi querido amigo! ¡Un verdugo usted! Castigado ó no, mi gratitud y su recuerdo vivirán siempre en mi! Pero... también es cierto que sufro horriblemente...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Teresa no ha de tardar...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Si? ¡Pobrecita!... No quisiera que me viese así, aflijido, deshecho! Voy á... voy á refrescarme, á tratar de parecer <pb n="83"/>tranquilo, ya que no puedo parecer feliz.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Si, vaya, vaya... Yo esperaré, D. Luis.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Todo lo que viene de usted tiene el aroma de la amistad: hasta su delicadeza de llamarme Luis y no... Marco Severi.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿Marco Severi? Yo conozco á Luis Vernengo nada más. <stage type="inline">(Vase Luis)</stage> ¡Pobre hombre! <stage type="inline">(se oye rumor dentro)</stage> ¡Eh! ¿qué es eso?</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VI</head>
+          <stage>SUÁREZ. GASPAR, ESCRIBIENTE, AGENTE</stage>
+          <sp who="#escribiente">
+            <speaker>ESCRIBINETE</speaker>
+            <stage>(Muy autoritario, contrastando con su humildad anterior, grita)</stage>
+            <p>¡Pásenlo aqui!</p>
+          </sp>
+          <sp who="#agente">
+            <speaker>AGENTE</speaker>
+            <stage>(Dando un empujón á Gaspar)</stage>
+            <p>¡Entre, pues, hombre! <stage>(Suarez se ha retirado á un rincón del fondo)</stage></p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Aqui estoy.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <stage>(Tomando un gran libro, para anotar lo que en seguida pregunta)</stage>
+            <p>¿Como se llama Vd.?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <stage>(Con chunga)</stage>
+            <p>Gaspar Nuñez, alias Cumpa, alias Florcita, <stage type="inline">(porque me gusta <pb n="84"/>pasear),</stage> argentino, 21 años, soltero, tipógrafo, sé leer y escribir.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <stage>(Interrumpiendo de pronto lo que escribe)</stage>
+            <p>Se conoce que también sabe tener entradas en la policia!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Por eso que le digo: No! Si tambien lo podia haber aprendido en el enrolamiento y en la inscripción. Las comisarias?.... No he entrado ni.... ni veinte veces siquiera.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>¿Y por qué ha entrado?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¡Biabas!</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>¡Repórtese! Hable como la gente, guarango! ¿Sabe por qué está preso?</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¿Y cómo voy á saber si no me dice?</p>
+          </sp>
+          <sp who="#agente">
+            <speaker>AGENTE</speaker>
+            <p>Se ha desacatado á la autoridad.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¡Qué! Si Benito es particular.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>Es un agente de investigaciones.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Que se ponga chapa con letrero, entonces!</p>
+          </sp>
+          <sp who="#agente">
+            <speaker>AGENTE</speaker>
+            <p>Y lo amenazó con revolver, en la calle. Aqui está el arma. <stage>(Deja el revolver sobre la mesa).</stage></p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <stage>(Si me dan tiempo)</stage>
+            <p>Fué jugando...</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>¡Cállese la boca!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Como éramos compañeros de taller.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>¡Silencio, he dicho!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Y ahora me salen con que es <pb n="85"/>pesquisa! ¡Eso es tongo! <stage>(Dando un violento golpe sobre la mesa del Escribiente)</stage></p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>Métalo al calabozo!.... No! registrelo primero. <stage>(El agente lo registra).</stage></p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>¡Registra, mi vida!</p>
+          </sp>
+          <sp who="#agente">
+            <speaker>AGENTE</speaker>
+            <p>Quince centavos y unas llaves.</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Deme recibo.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>Insolente!... Tome. <stage>(Escribe un papel y se lo da).</stage></p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <stage>(examinándolo con insolencia)</stage>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>¡Métalo inmediatamente al calabozo!</p>
+          </sp>
+          <sp who="#gaspar">
+            <speaker>GASPAR</speaker>
+            <p>Ajisito cumbarí. <stage>(Llévanse á Gaspar).</stage></p>
+          </sp>
+        </div>
+        <pb n="86"/>
+        <div type="scene">
+          <head>ESCENA VII</head>
+          <stage>ESCRIBIENTE — SUÁREZ</stage>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <stage>(creyéndose solo)</stage>
+            <p>¡Estos compadres! Si pudiera hacerles dar uná zurra sin que supiesen los diarios! <stage type="inline">(Sorprendido y violento al ver á Suárez)</stage> ¿Vd. espera á alguien?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Precisamente á las señoras.</p>
+          </sp>
+          <sp who="#escribiente">
+            <speaker>ESCRIBIENTE</speaker>
+            <p>¡Ah! ¿estas mujeres? ... <stage>(Aparecen Teresa y Maria.—Vase el escribiente).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VIII</head>
+          <stage>TERESA — MARIA — SUÁREZ</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Ah; señor Suarez, señor Suarez!... no puedo más!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Señora... Teresa... ¿qué le ha sucedido?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡No lo sospecha!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Si; sospecho... Pero, ¿cómo?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Ah, señor! ¡qué angustias!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿El ministro...?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Yo no puedo... no puedo hablar.. María, tú...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>El ministro nos recibió perfectamente, hay que decirlo; es un hombre bueno, muy bueno... Teresa empezó á contárselo todo y él la escuchaba muy atento. ¡No sé de dónde ha podido sacar Teresa todas las cosas que le dijo! Hacía llorar! El mismo ministro estaba conmovido deveras... « Bueno, señora,» dijo por fin, — « veo que se trata de un sujeto muy digno de interés. Voy á pedir informes, y si son tan favorables, intercederé amistosamente con el señor ministro de Italia. Vendrá de un momento á otro, y como cuadra la casualidad de que voy á acceder á varios pedidos <pb n="87"/>suyos; él, á su vez me concederá lo que yo le pida, según creo».</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Ah, bien, bien, bien !</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Sí, muy bien; pero después!.... Teresa quiso esperar y nos quedamos en la antesala. Los minutos nos parecían horas mortales !... Por fin llegó el ministro italiano. Tardó adentro una eternidad. Figúrese cómo nos saltaría el corazón!.... Cuando salió, el ministro nos hizo llamar. Tenía la cara muy seria, casi triste, y Teresa, al verlo, estuvo por desmayarse. « Señora » — le dijo.-« el ministro italiano... <stage>(la ahoga un sollozo).</stage></p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(adivinando lo que Maria iba á decir:)</stage>
+            <p>Nada puede porque el asunto ya está en manos de la justicia de su país.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Así.. asi le dijo.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Esos hombres no tienen corazón!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Y nada... nada más?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Si.. una esperanza.. muy vaga... El ministro— ¡ah! me temo que sólo haya sido por tranquilizar á mi hermana, loca de desesperación ! —el ministro añadió que, en vista de unos informes muy buenos, habían convenido con el ministro italiano en hacer una cosa que quizás diera buen resultado.-« No se desanime del todo, señora », — le dijo cariñosamente á Teresa— «puede ser que consigamos <pb n="88"/>devolverle á su marido. Vaya á verlo y espere, que si hay algo, yo se lo haré saber enseguida ».</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¿Intentará...?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Bien se veia que trataba de engañarme, de lástima! ¡Pobre hijito mío! ¡Pobre nene inocente! ¡Cómo empieza tu vida!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <stage>(ap.)</stage>
+            <p>¡Ah, el infame aquel!... Si pudiera!... <stage type="inline">(amenazadora)</stage> Creo que respiraría mejor!..</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Tranquilicense Vds. porque voy á llamar á Luis... No le digan una palabra de todo esto. ¿A que aflijirle más?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Sí, tiene razón!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA VIII</head>
+          <stage>SUÁREZ, TERESA, MARIA Y JUEZ, á poco LUIS</stage>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¡Ah, las señoras!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Piden verlo.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Al momento. <stage type="inline">(toca el timbre y da en voz baja una órden al agente que se presenta y que se retira en seguida).</stage> ¿El ministro?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Nada.</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Bien lo sabía.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Le ha dado una esperanza remota...</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Naturalmente.</p>
+          </sp>
+          <pb n="89"/>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Si no temiera abusar... le preguntaría por otro de la imprenta, que han traído..</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>Me lo acaban de pasar.. No escapa de unos cuantos meses bien merecidos. Es bueno que aprenda. Pero no se ha de morir por eso.</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>P¡obre muchacho! Ha hecho las del perro fiel...</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>No quiero ver ahora á Severi.... <stage>(Váse).</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA IX</head>
+          <stage>Dichos, y un instante después, LUIS</stage>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Teresa! ¡Teresa! <stage>(se abrazan).</stage></p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Luis!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Y el nene! No me has traido el nene!... ¡Y María! Buenas tardes; María!... Nadie me olvida, ¡eh!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Los tipógrafos han venido á preguntar por Vd.; y uno ha hecho más todavía, ¡una locura! ya le contaré!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿No los han dejado verme?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Yo les pedí que vinieran más tarde...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Y tú, pobrecita, fuiste á ver al ministro!...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Si, Luis, si....</p>
+          </sp>
+          <pb n="90"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿A qué preguntarte? ¡Claro se ve...!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Ah, no! no creas! Me ha dado una esperanza.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(Incrédulo y abatido)</stage>
+            <p>¡Oh, qué alegría! Pero, pero.... He estado pensando en Vds., en tí, en el nenito, en María, en los compañeros.... No! las cosas no pueden quedar como las habíamos arreglado; era un disparate. Preso en Italia, no puedo ser dueño de una imprenta en Buenos Aires ¿no es verdad, doctor?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Habría inconvenientes, dificultades, naturalmente....</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Por eso he pensado en pasarte la propiedad, Teresa ó pasársela á otro, á nuestro amigo Suarez, por ejemplo; porque como hombre y como abogado podrá defenderla mejor en cualquier tiempo...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>A su esposa, á su esposa, D. Luis- Yo la ayudaré lo mismo y es lo más derecho.</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿A mi? ¡No puede ser!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Por qué?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Crees que yo me quedaría aquí yendo tú á...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Qué dices!...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Que me voy á Italia, si te llevan, en el mismo buque si puedo!...</p>
+          </sp>
+          <pb n="91"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Que locura!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Estoy resuelta!..</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero, ¿sabes desdichada lo que te esperaria alli?... El trabajo que embrutece y mata, la miseria que envilece y corrompe, la... ¡ni pensarlo quiero!.... Dime: ¿que harías cuando vieras á nuestro hijo, debil, desnudo, sin pan, muriéndose de hambre, como murió mi madre?... ¡Que harias!... ¡No! ¡ni pienses! ¡Ni pienses ir!...</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Estoy resuelta..</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡No, no irás!... Si lo haces... si lo intentas siquiera, te juro... ¡te juro que me ahogo con mis propias manos!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Oh, qué horror, qué horror! No iré, te esperare diez, veinte años, toda una vida, toda una eternidad.... hasta que vuelvas!....</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Bien! Haré el traspaso, á tu nombre... Pero, ¿sabe Vd. si puedo hacerlo, doctor?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Según... Quien lo sabe ahora á ciencia cierta, porque conoce ya la causa es el juez. Voy á verlo <stage type="inline">(Vase)</stage> .</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA X</head>
+          <stage>Dichos menos SUÁREZ.</stage>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Qué buen amigo; Teresa! ¡Ese si <pb n="92"/>que es un hombre de corazón! Ver que me quieren me consuela!... y todos son buenos conmigo!...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Menos aquel infame...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Hace su oficio... El deseo de ganar mucho... El dinero corrompe y él tiene la culpa de muchas cosas....</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡No! ¡ese es canalla en el alma!... Engañar á una pobre, para que le sirva de espía!... ¡Oh, pero la vida es larga!....</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>Déjalo con su vergüenza... Castigarlo seria perderte.</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Oh, y qué me importa!</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA XI</head>
+          <stage>Dichos y SUÁREZ</stage>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(entrando)</stage>
+            <p>¡La fatalidad!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¿Que hay?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Alguna nueva desgracia?</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿No puede hacerse?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>No se si...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Hable Vd! ¡Un poco más, un poco menos!</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>Es que... acaba de pedirse el embargo de la imprenta.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Quién?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¿Don Jermán?</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Si! ¡D. Jermán!</p>
+          </sp>
+          <pb n="93"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Todo! Todo se lo lleva la borrasca!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Miserable! Para tenernos en su poder!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¿Qué dices?</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>No, nada, Luis, por Dios! ¡no te alteres así!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Qué sospecha!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡Vamos! no te irrites! cálmate, no tienes razón!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Pero, ¿por qué? ¿Por qué has dicho eso? Por algo será y quiero saberlo! Habla! explicate!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Yo te diré...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Habla! habla pronto!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Es que...ese hombre pretende casarse conmigo!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(sospechando algo más)</stage>
+            <p>No me engañas?</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Te he dicho la verdad, la pura verdad....</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(ap.)</stage>
+            <p>¡Que desastre!</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Y tú... te casarás?...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Oh, no! ¡Si lo desprecio!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Vaya! Estoy más tranquilo...</p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA XII</head>
+          <stage>Dichos y D. JERMAN</stage>
+          <sp who="#teresa">
+            <speaker>TERESA</speaker>
+            <p>¡D. Jermán!</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Aquí!</p>
+          </sp>
+          <pb n="94"/>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Qué cinismo!...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Pedí permiso para verlo, D. Luis, porque quería decirle, tenía que decirle...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <stage>(terrible)</stage>
+            <p>¿Qué tenía que decirme? ¡vamos á ver!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Que he solicitado el embargo de la imprenta.</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Y tiene el valor de decírmelo en mi cara... á mí!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>No se enfurezca tan pronto, hombre!... Escucheme si la embargo, es para que quede más segura!...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Y todavía me lo dice de ese modo!... Todavía se vanagloria de dejar en la calle á dos infelices mujeres!...</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>¿En la calle? ¡Al contrario! Uno hablando se entiende. Embargo, nombro depositario á su mujer y así nadie puede reclamar la imprenta para los gastos de su causa ó alguna otra cosa...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Nadie la tocaria!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Eso será lo que dice Vd. ¡Todo podría suceder muy bien! Y así, gracias á mí, Teresa seguiria viviendo tranquilamente en su casa: ya se lo había dicho á ella...</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡A ella! <stage type="inline">(Con una horrible sospecha :)</stage> ¡Teresa!</p>
+          </sp>
+          <sp who="#teresa">
+            <speaker>TRRESA</speaker>
+            <p>¡Oh, Luis, Luis! No vayas á hacerte injusto, tan luego ahora...</p>
+          </sp>
+          <pb n="95"/>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Lo quiere hacer por mi, Luis! ¿No es cierto?</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <stage>(¡Ay, sospechaba!)</stage>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡Yo no comprendo nada!</p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>Pero..</p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>Y si no estuviera aquí donde no puedo, le juro... <stage>(quiere lanzarse sobre él)</stage></p>
+          </sp>
+          <sp who="#jerman">
+            <speaker>JERMAN</speaker>
+            <p>¡Pero, hombre!...</p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <p>¡Por favor, amigo mío!.... <stage>(lo detiene.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA XIII</head>
+          <stage>Dichos, y BENITO</stage>
+          <sp who="#benito">
+            <speaker>BENITO</speaker>
+            <stage>(que va á cruzar la escena, viendo de pronto quienes están en ella)</stage>
+            <p>¡Ay! ¡Donde me fuí á meter!...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡¡Benito!! ¡Ah, canalla! todo esto es tu obra!... <stage>(tomando el revólver de Gaspar que ha quedado sobre la mesa.)</stage></p>
+          </sp>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡María! ¡Ese revólver!... <stage>(forceja por sacárselo; entre tanto Benito tiene tiempo de huir.)</stage></p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>¡Déjame! ¡déjame ! <stage type="inline">(Luis se lo quita y se queda con él).</stage> ¿Por qué no me has dejado?</p>
+          </sp>
+        </div>
+        <pb n="96"/>
+        <div type="scene">
+          <head>ESCENA XIV</head>
+          <stage>Dichos, menos BENITO</stage>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>No te he dejado. <stage type="inline">(Todos menos Luis rodean á María).</stage> No te he dejado, porque ya basta de fatalidades; porque está deshecho porque está derrumbado, porque está maldito todo <stage type="inline">(acercándose á una puerta para irse)</stage> cuanto hicimos juntos... porque todo cuanto toca Marco Severi, se desvanece en polvo... Porque Marco Severi está demás y... desaparecerá... desaparecer ... desaparecerá... <stage>(guarda el revólver y va á salir.)</stage></p>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>ESCENA XV</head>
+          <stage>Dichos — EL JUEZ</stage>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¡Marco Severi!... El señor Ministro de Italia y el de relaciones exteriores telegrafiaron al rey pidiéndole el indulto de un delincuente... El ministro italiano de negocios extranjeros acaba de telegrafiar en contestación que su majestad ha concedido el indulto... Marco Severi... no... ¡Luis Vernengo, queda Vd. en libertad!</p>
+          </sp>
+          <pb n="97"/>
+          <sp who="#luis">
+            <speaker>LUIS</speaker>
+            <p>¡¡Teresa!! <stage>(Cae abrumado por el exceso de felicidad. Cuadro.).</stage></p>
+          </sp>
+          <sp who="#suarez">
+            <speaker>SUÁREZ</speaker>
+            <stage>(al Juez)</stage>
+            <p>¡Oh, señor!</p>
+          </sp>
+          <sp who="#juez">
+            <speaker>JUEZ</speaker>
+            <p>¡Hay que enmendar esa ley!</p>
+          </sp>
+          <stage>TELON</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
