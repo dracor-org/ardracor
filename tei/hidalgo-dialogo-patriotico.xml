@@ -5,15 +5,16 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Diálogo patriótico interesante</title>
-        <title type="sub">Entre Jacinto Chano, capataz de una estancia en las islas del Tordillo, y el gaucho de la Guardia del Monte</title>
+        <title type="sub">Entre Jacinto Chano, capataz de una estancia en las islas del Tordillo, y
+          el gaucho de la Guardia del Monte</title>
         <author>
           <persName>
             <forename>Bartolomé</forename>
             <surname>Hidalgo</surname>
-              </persName>
+          </persName>
           <idno type="wikidata">Q809535</idno>
         </author>
-      <editor xml:id="tr">
+        <editor xml:id="tr">
           <forename>Teresa</forename>
           <surname>Ravelo</surname>
         </editor>
@@ -39,17 +40,21 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: obras de la Independencia: 1818-1824</name>
-          <idno type="URL">https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT2.pdf#page=37</idno>
+          <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: obras de
+            la Independencia: 1818-1824</name>
+          <idno type="URL"
+            >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT2.pdf#page=37</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
         </bibl>
         <bibl type="originalSource">
-        <title>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: la Independencia: 1818-1824.</title>
-            <author><forename>Beatriz</forename>
-              <surname>Seibel</surname></author> 1ª ed. – Buenos Aires<pubPlace/>: <editor>Instituto Nacional del Teatro</editor>, pp.<biblScope unit="page" from="70" to="88">70-88</biblScope>, <date>2007</date>.
-        </bibl>
+          <title>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: la
+            Independencia: 1818-1824.</title>
+          <author><forename>Beatriz</forename>
+            <surname>Seibel</surname></author> 1ª ed. – Buenos Aires<pubPlace/>: <editor>Instituto
+            Nacional del Teatro</editor>, pp.<biblScope unit="page" from="70" to="88"
+            >70-88</biblScope>, <date>2007</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -67,8 +72,8 @@
     <revisionDesc>
       <listChange>
         <change when="2025-05-30">(tr) initial encoding</change>
-        <change when="2025-07-30">(rdl) revision</change> 
-        <change when="2025-08-17">(gdr) revision</change> 
+        <change when="2025-07-30">(rdl) revision</change>
+        <change when="2025-08-17">(gdr) revision</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -79,36 +84,38 @@
       </event>
     </listEvent>
   </standOff>
-<text>
-<front>
-  <pb n="73"/>
+  <text>
+    <front>
+      <pb n="73"/>
       <titlePage>
-            <docTitle>
-              <titlePart type="main">Diálogo patriótico interesante</titlePart>
-            </docTitle>
-            <docAuthor>Bartolomé Hidalgo</docAuthor>
-          </titlePage>
+        <docTitle>
+          <titlePart type="main">Diálogo patriótico interesante</titlePart>
+        </docTitle>
+        <docAuthor>Bartolomé Hidalgo</docAuthor>
+      </titlePage>
       <castList>
         <head>PERSONAJES</head>
         <castItem>
-           <role>CONTRERAS</role>
-           <roleDesc>CAPATAZ DE UNA ESTANCIA EN LAS ISLAS DEL TORDILLO</roleDesc>
+          <role>CONTRERAS</role>
+          <roleDesc>CAPATAZ DE UNA ESTANCIA EN LAS ISLAS DEL TORDILLO</roleDesc>
         </castItem>
-        <castItem>             
-           <role>CHANO</role>
-           <roleDesc>GAUCHO DE LA GUARDIA DEL MONTE</roleDesc>
+        <castItem>
+          <role>CHANO</role>
+          <roleDesc>GAUCHO DE LA GUARDIA DEL MONTE</roleDesc>
         </castItem>
       </castList>
- </front>
-<body>
-    <pb n="75"/>    
-    <note type="author">
-      <p><emph>Se supone recién llegado a la Guardia del Monte el capataz Chano y el diálogo en casa del paisano Ramón Contreras (que es el gaucho de la Guardia).</emph></p>
-    </note>
-         <sp who="#contreras">
+    </front>
+    <body>
+      <pb n="75"/>
+      <note type="author">
+        <p><emph>Se supone recién llegado a la Guardia del Monte el capataz Chano y el diálogo en
+            casa del paisano Ramón Contreras (que es el gaucho de la Guardia).</emph></p>
+      </note>
+      <sp who="#contreras">
         <speaker>CONTRERAS</speaker>
         <l>Con que, amigo, ¿diáonde diablos</l>
-        <l>sale? Meta el <term>redomón <note type="editor">caballo de amansamiento</note></term>,</l>
+        <l>sale? Meta el <term>redomón <note type="editor">caballo de
+          amansamiento</note></term>,</l>
         <l>desensille, votoalante…</l>
         <l>¡Ah pingo que da calor!</l>
       </sp>
@@ -132,7 +139,7 @@
         <l>apretamelé el cinchón</l>
         <l>porque voy a platicar</l>
         <l>con el paisano Ramón,</l>
-    <pb n="76"/>
+        <pb n="76"/>
         <l>y ya también salí al tranco,</l>
         <l>y cuando se puso el sol</l>
         <l>caí al camino y me vine;</l>
@@ -153,7 +160,8 @@
         <l>¡Bien haiga quien lo parió!</l>
         <l>Por fin, después de este lance</l>
         <l>del todo sosegó,</l>
-        <l>y hoy lo <term>sobé <note type="editor">agotar con marcha fatigosa</note></term> de mañana</l>
+        <l>y hoy lo <term>sobé <note type="editor">agotar con marcha fatigosa</note></term> de
+          mañana</l>
         <l>antes de salir el sol,</l>
         <l>de suerte que está el caballo</l>
         <l>parejo que da temor.</l>
@@ -164,14 +172,15 @@
         <l>en cualquiera <term>bagualón <note type="editor">caballo sin domar</note></term>...!</l>
         <l>Mientras se calienta el agua</l>
         <l>y echamos un cimarrón</l>
-     <pb n="77"/>
+        <pb n="77"/>
         <l>¿qué novedades se corren?</l>
       </sp>
       <sp who="#chano">
         <speaker>CHANO</speaker>
         <l>Novedades… qué se yo;</l>
         <l>hay tantas que uno no acierta</l>
-        <l>a qué lao caerá el <term>dos <note type="editor">carta de triunfo en el monte</note></term>,</l>
+        <l>a qué lao caerá el <term>dos <note type="editor">carta de triunfo en el
+            monte</note></term>,</l>
         <l>aunque le esté viendo el lomo.</l>
         <l>Todo el Pago es sabedor</l>
         <l>que yo siempre por la causa</l>
@@ -201,7 +210,7 @@
         <l>Pues bajo de ese entender</l>
         <l>empriestemé su atención,</l>
         <l>y le diré cuanto siente</l>
-      <pb n="78"/>
+        <pb n="78"/>
         <l>este pobre corazón,</l>
         <l>que como tórtola amante</l>
         <l>que a su consorte perdió,</l>
@@ -234,10 +243,11 @@
         <l>canta al son de su miseria:</l>
         <l>¡no es la miseria mal son!</l>
       </sp>
-     <pb n="79"/>
+      <pb n="79"/>
       <sp who="#contreras">
         <speaker>CONTRERAS</speaker>
-        <l>¿Y no se sabe en qué <term>diasques <note type="editor">disques, intrigas</note></term></l>
+        <l>¿Y no se sabe en qué <term>diasques <note type="editor">disques,
+          intrigas</note></term></l>
         <l>este enriedo consistió?</l>
         <l>¡La pujanza en los paisanos</l>
         <l>que son de mala intención!</l>
@@ -266,9 +276,10 @@
         <l>ha de ser más superior?</l>
         <l>El mérito es quien decide,</l>
         <l>oiga una comparaición:</l>
-        <l>quiere hacer una <term>voltiada <note type="editor">voltear las vacas para marcarlas</note></term></l>
+        <l>quiere hacer una <term>voltiada <note type="editor">voltear las vacas para
+              marcarlas</note></term></l>
         <l>en la estancia del Rincón</l>
-    <pb n="80"/>
+        <pb n="80"/>
         <l>el amigo Sayavedra:</l>
         <l>pronto se corre la voz</l>
         <l>del Pago entre la gauchada,</l>
@@ -299,7 +310,7 @@
         <l>y ella da su proteición</l>
         <l>a todo el que la respeta.</l>
         <l>El que la lay agravió</l>
-       <pb n="81"/>  
+        <pb n="81"/>
         <l>que la desagravie al punto:</l>
         <l>esto es lo que manda Dios,</l>
         <l>lo que pide la justicia</l>
@@ -336,7 +347,7 @@
         <speaker>CHANO</speaker>
         <l>Todos disputan derechos,</l>
         <l>pero, amigo, sabe Dios</l>
-      <pb n="82"/>  
+        <pb n="82"/>
         <l>si conocen sus deberes:</l>
         <l>de aquí nace nuestro error,</l>
         <l>nuestras desgracias y penas:</l>
@@ -370,7 +381,7 @@
         <l>ya no lo desamparó.</l>
         <l>Pero, ¡ah contar de miserias!,</l>
         <l>de la mesma formación</l>
-      <pb n="83"/>  
+        <pb n="83"/>
         <l>sacaban la soldadesca</l>
         <l>delgada que era un dolor,</l>
         <l>con la ropa hecha miñangos</l>
@@ -402,7 +413,7 @@
         <l>y en el pantano primero</l>
         <l>lueguito ya se enterró,</l>
         <l>seguí adelante, ¡ah barriales!</l>
-      <pb n="84"/>  
+        <pb n="84"/>
         <l>Si daba miedo, señor.</l>
         <l>anduve por todas partes</l>
         <l>vi un grande caserón</l>
@@ -437,7 +448,7 @@
         <l>de nuestra revulución,</l>
         <l>y después de güena fe</l>
         <l>se hiciera una relación</l>
-      <pb n="85"/>  
+        <pb n="85"/>
         <l>de los gastos que han habío,</l>
         <l>el pescuezo apuesto yo</l>
         <l>a que sobraba dinero</l>
@@ -465,9 +476,9 @@
         <l>sin que todos los servicios</l>
         <l>que a la Patria le emprestó,</l>
         <l>lo libren de una roncada</l>
-        <l>que le largue algún <term>pintor <note></note>por jactancioso</term>.</l>
+        <l>que le largue algún <term>pintor <note/>por jactancioso</term>.</l>
       </sp>
-     <pb n="86"/>  
+      <pb n="86"/>
       <sp who="#contreras">
         <speaker>CONTRERAS</speaker>
         <l>Pues yo siempre oí decir</l>
@@ -485,7 +496,8 @@
         <l>o quitó algún mancarrón,</l>
         <l>o del peso de unos medios</l>
         <l>a algún paisano alivió;</l>
-        <l>lo prienden, me lo <term>enchalecan <note>poner un cuero fresco que oprime los brazos y lo inmoviliza</note></term>,</l>
+        <l>lo prienden, me lo <term>enchalecan <note>poner un cuero fresco que oprime los brazos y
+              lo inmoviliza</note></term>,</l>
         <l>y en cuanto se descuidó</l>
         <l>le limpiaron la <term>caracha <note>sarna</note></term>;</l>
         <l>y de malo y saltiador</l>
@@ -502,7 +514,7 @@
         <l>al principio mucha bulla,</l>
         <l>embargo, causa, prisión,</l>
         <l>van y vienen, van y vienen,</l>
-      <pb n="87"/>    
+        <pb n="87"/>
         <l>secretos, almiración,</l>
         <l>¿qué declara? que es mentira,</l>
         <l>que él es un hombre de honor.</l>
@@ -534,7 +546,7 @@
         <l>premio al que lo mereció,</l>
         <l>guerra eterna a la discordia,</l>
         <l>y entonces sí creo yo</l>
-      <pb n="88"/>    
+        <pb n="88"/>
         <l>que seremos hombres libres</l>
         <l>y gozaremos el don</l>
         <l>más precioso de la tierra:</l>

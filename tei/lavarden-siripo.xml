@@ -7,11 +7,11 @@
         <title type="main">SIRIPO</title>
         <title type="sub">TRAGEDIA EN VERSO</title>
         <author cert="high"><persName>
-          <forename>Manuel José</forename>
-          <nameLink>de</nameLink>
-          <surname>Lavardén</surname>
-        </persName>
-        <idno type="wikidata">Q19417874</idno></author>
+            <forename>Manuel José</forename>
+            <nameLink>de</nameLink>
+            <surname>Lavardén</surname>
+          </persName>
+          <idno type="wikidata">Q19417874</idno></author>
         <editor xml:id="rdl">
           <forename>Romina</forename>
           <nameLink>De</nameLink>
@@ -22,29 +22,31 @@
           <nameLink>del</nameLink>
           <surname>Rio</surname>
         </editor>
-        </titleStmt>
+      </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
-               <idno type="URL">https://dracor.org/</idno>
-               <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
-               <idno type="URL">https://hdlab.space/</idno>
-                <availability>
-                   <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">
-            CC0
-          </licence> 
-                </availability>
-            </publicationStmt>
+        <idno type="URL">https://dracor.org/</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"> CC0
+          </licence>
+        </availability>
+      </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Antología de poetas argentinos</name>
-          <idno type="URL">https://libsysdigi.library.uiuc.edu/OCA/Books2009-03/3324749/3324749_2/3324749_2.pdf</idno>
+          <idno type="URL"
+            >https://libsysdigi.library.uiuc.edu/OCA/Books2009-03/3324749/3324749_2/3324749_2.pdf</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
         </bibl>
-        <bibl type="originalSource"><title>Antología de poetas argentinos</title><biblScope unit="tomo">II - La Revolución</biblScope>
-        <author><forename>Juan</forename><surname>de la C. Puig</surname></author>
-        <editor>Martín Biedma e hijo</editor><pubPlace>Buenos Aires</pubPlace>, pp.<biblScope unit="page" from="70" to="112">70/112</biblScope><date>1910</date></bibl>
+        <bibl type="originalSource"><title>Antología de poetas argentinos</title><biblScope
+            unit="tomo">II - La Revolución</biblScope>
+          <author><forename>Juan</forename><surname>de la C. Puig</surname></author>
+          <editor>Martín Biedma e hijo</editor><pubPlace>Buenos Aires</pubPlace>, pp.<biblScope
+            unit="page" from="70" to="112">70/112</biblScope><date>1910</date></bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -56,7 +58,7 @@
           <person xml:id="cayumari" sex="MALE">
             <persName>CAYUMARI</persName>
           </person>
-          <person xml:id="hurtado" sex="MALE" >
+          <person xml:id="hurtado" sex="MALE">
             <persName>HURTADO</persName>
           </person>
           <person xml:id="siripo" sex="MALE">
@@ -74,15 +76,17 @@
         </listPerson>
       </particDesc>
       <textClass>
-      <keywords><term source="wikidata" type="genreTitle">Tragedia</term>
-      </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Tragedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-05-21">(rdl) inicia la corrección del XML descargado de Ezdrama por Ulrike</change>
-          <change when="2025-07-19">(gdr) revisión de la ficha y añadido de roleDesc</change>
+        <change when="2025-05-21">(rdl) inicia la corrección del XML descargado de Ezdrama por
+          Ulrike</change>
+        <change when="2025-07-19">(gdr) revisión de la ficha y añadido de roleDesc</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -98,196 +102,200 @@
   </standOff>
   <text>
     <front>
-    <pb n="04"/>
+      <pb n="04"/>
       <castList>
         <head>Personajes</head>
         <castItem>
-      <role>SIRIPO</role>
-      <roleDesc>Jefe timbú.</roleDesc>
-      <role>MIRANDA</role>
-      <roleDesc>Don Diego de Miranda. Cautivo de Siripo junto a su hija.</roleDesc>
-      <role>LAMBARÉ</role>
-      <roleDesc>Hermano de Lara.</roleDesc>
-      <role>LUCÍA</role>
-      <roleDesc>Lucia de Miranda. Esposa española de Sebastián Hurtado, cautiva de los indígenas.</roleDesc>
-      <role>CAYUMARI</role>
-      <roleDesc>Indio aliado de los españoles que interviene para ayudar a Hurtado y Lucía.</roleDesc>
-      <role>HURTADO</role>
-      <roleDesc>Capitán español, marido de Miranda.</roleDesc>
-      <role>SALVAJES ARMADOS</role>
-      <role>LARA</role>
-      <roleDesc>India favorita de Siripo.</roleDesc>
-      </castItem>
+          <role>SIRIPO</role>
+          <roleDesc>Jefe timbú.</roleDesc>
+          <role>MIRANDA</role>
+          <roleDesc>Don Diego de Miranda. Cautivo de Siripo junto a su hija.</roleDesc>
+          <role>LAMBARÉ</role>
+          <roleDesc>Hermano de Lara.</roleDesc>
+          <role>LUCÍA</role>
+          <roleDesc>Lucia de Miranda. Esposa española de Sebastián Hurtado, cautiva de los
+            indígenas.</roleDesc>
+          <role>CAYUMARI</role>
+          <roleDesc>Indio aliado de los españoles que interviene para ayudar a Hurtado y
+            Lucía.</roleDesc>
+          <role>HURTADO</role>
+          <roleDesc>Capitán español, marido de Miranda.</roleDesc>
+          <role>SALVAJES ARMADOS</role>
+          <role>LARA</role>
+          <roleDesc>India favorita de Siripo.</roleDesc>
+        </castItem>
       </castList>
     </front>
     <body>
       <div type="act">
         <pb n="05"/>
-        <head>2° ACTO <note type="editor"> Copia del original autógrafo existente en la Bibl. del Senado Nacional, en la Colección Gutiérrez. El primer acto está perdido.</note></head>
+        <head>2° ACTO <note type="editor"> Copia del original autógrafo existente en la Bibl. del
+            Senado Nacional, en la Colección Gutiérrez. El primer acto está perdido.</note></head>
         <div type="scene">
-        <head>ESCENA 1</head>
+          <head>ESCENA 1</head>
           <sp who="#miranda">
-          <speaker>MIRANDA</speaker>
-          <l>Ya tu solo, Cacique generoso,</l>
-          <l>Podrías acabar pesares tantos;</l>
-          <l>No más desde hoy te quejes de Lucía;</l>
-          <l>Ella su mal ó bien deja en tus manos.</l>
-          <l>Tuya será Lucía si la quieres.</l>
-        </sp>
-        <sp who="#siripo">
-          <speaker>SIRIPO</speaker>
-          <l>Ah! si, la quiero!</l>
-        </sp>
-        <sp who="#miranda">
-          <speaker>MIRANDA</speaker>
-          <l>La quisieras, cuando</l>
-          <l>Merecer su cariño procurases</l>
-          <l>Con artes justas. Ese culto vano,</l>
-          <l>Que das al sol, por siempre te separa</l>
-          <l>De sus tan anhelados agasajos.</l>
-        </sp>
-        <pb n="06"/>
-        <sp who="#siripo">
-          <speaker>SIRIPO</speaker>
-          <l>¿Tan celosa será, que me prohiba</l>
-          <l>Hasta de la deidad el amor santo?</l>
-        </sp>
-        <sp who="#miranda">
-          <speaker>MIRANDA</speaker>
-          <l>No es deidad á quien ciego le tributas;</l>
-          <l>Esa es hechura de otro ser mas alto.</l>
-          <l>¿Será que la deidad se constituya</l>
-          <l>En estado inferior al de los hombres</l>
-          <l> A que el mismo dio ser? El don precioso</l>
-          <l>De que las criaturas disfrutamos,</l>
-          <l>La dulce libertad, será negada</l>
-          <l>Al que del universo es soberano?</l>
-          <l>Será nuestro dar regla de los giros</l>
-          <l>Con que cierra los meses y los años?</l>
-          <l>Oh! cacique!, al ilustre entendimiento</l>
-          <l>De que el cielo te dota, haces agravio.</l>
-          <l>Con que así no aclaró la luminosa</l>
-          <l>Verdad, la lobreguez de tus engaños,</l>
-          <l>Cuando viste al eclipse, tan temido,</l>
-          <l>De divinos graduar á nuestros sabios?</l>
-          <l>Sí, yo te vi que altivo le mirabas,</l>
-          <l>Mientras supersticioso terror vano</l>
-          <l>Tus timbues arrojaba por el suelo,</l>
-          <l>Tus agoreros mesmos y tus magos,</l>
-          <l>Los que la enfermedad del dios caduco</l>
-          <l>Plañían, con visible sobresalto.</l>
-        </sp>
-        <pb n="07"/>
-        <sp who="#siripo">
-          <speaker>SIRIPO</speaker>
-          <l>No es nuevo para mí cuanto me dices,</l>
-          <l>Ni me juzgues de luces tan escaso</l>
-          <l>Que á la razón me niegue. Antes de ahora,</l>
-          <l>Mi espíritu buscaba el desengaño,</l>
-          <l>No pudiendo entender como Dios era</l>
-          <l>El que de otra mostraba ser esclavo.</l>
-          <l>Yo via sus efectos invariables</l>
-          <l> Y que no era su curso voluntario,</l>
-          <l>Cual mísero mortal le contemplaba</l>
-          <l>Que procura en la noche su descanso.</l>
-          <l>Yo lo creo, ya ves; pero no es justo</l>
-          <l>Tan en perjuicio mió publicarlo,</l>
-          <l>Renunciar á la ley de mis mayores,</l>
-          <l>es renunciar á un tiempo al cacicazgo.</l>
-          <l>Y por no arrodillarme á un Dios fingido,</l>
-          <l>Que no me puede hacer ni bien ni daño,</l>
-          <l>Humillar para siempre la cabeza</l>
-          <l>Y en cualquier español tener un amo.</l>
-          <l>Mucho vale Lucía, mas el precio</l>
-          <l>Que pides por su mano, es demasiado</l>
-          <l>Para quien libre vio su primer dia</l>
-          <l>Y ha empezado á gustar del dulce mando.</l>
-          <l>Yo creo que Lucía es muy amable,</l>
-          <l>Un amante á creer más no está obligado.</l>
-        </sp>
-        <pb n="08"/>
-        <sp who="#miranda">
-          <speaker>MIRANDA</speaker>
-          <l>Depon vanos recelos. La experiencia</l>
-          <l>De cinco años de paz, el justo trato</l>
-          <l>Del español y prendas amistosas</l>
-          <l>Y honradas, además, te habrá mostrado.</l>
-        </sp>
-        <sp who="#siripo">
-          <speaker>SIRIPO</speaker>
-          <l>Serán entre vosotros los varones</l>
-          <l>Que las dóciles hembras más humanos?</l>
-          <l>La fiereza de tu hija te desmiente.</l>
-        </sp>
-        <sp who="#miranda">
-          <speaker>MIRANDA</speaker>
-          <l>Lucía te reserva sus halagos,</l>
-          <l>Para cuando te vea digno de ellos</l>
-          <l>Por el modo feliz del yugo santo.</l>
-          <l>La agua que santifica, nueva cuna</l>
-          <l>Te da para que seas numerado</l>
-          <l>Como uno de nosotros. No receles</l>
-          <l>Que padezca tu mando menoscabo.</l>
-          <l>Más bien porque Lucía en tales tierras</l>
-          <l>Es la única mujer del suelo patrio,</l>
-          <l>De todos sus patriotas el aprecio</l>
-          <l>Partir haz apacible en su regazo.</l>
-        </sp>
-        <sp who="#siripo">
-          <speaker>SIRIPO</speaker>
-          <l>Tú ¿qué dices, Lucía? ¿Porqué callas?</l>
-          <l>Qué me quieren decir tus ojos bajos?</l>
-          <l>Que imperioso tu padre te constriñe</l>
-          <l>A tomar un partido involuntario?</l>
+            <speaker>MIRANDA</speaker>
+            <l>Ya tu solo, Cacique generoso,</l>
+            <l>Podrías acabar pesares tantos;</l>
+            <l>No más desde hoy te quejes de Lucía;</l>
+            <l>Ella su mal ó bien deja en tus manos.</l>
+            <l>Tuya será Lucía si la quieres.</l>
           </sp>
-        <pb n="09"/>
-        <sp who="#miranda">
-          <speaker>MIRANDA</speaker>
-          <l>El natural pudor....</l>
-        </sp>
-        <sp who="#siripo">
-          <speaker>SIRIPO</speaker>
-          <p><stage>(impaciente)</stage></p>
-          <l>Di, tú, Lucía:</l>
-          <l>¿Merecedor me juzgas de tu agrado?</l>
-        </sp>
-        <sp who="#lucía">
-          <speaker>LUCÍA</speaker>
-          <p><stage>(confusa)</stage></p>
-          <l>Cacique, cuando el nombre valeroso</l>
-          <l>Que los tuyos celebran, y de pasmo</l>
-          <l>Llena tus enemigos;...cuando el aire</l>
-          <l>Guerrero, que pregona de tu brazo</l>
-          <l>El esfuerzo y valor;...cuando tus ansias,</l>
-          <l>Que supiste mezclar con ruego y llanto...</l>
-          <l>Capaces no hayan sido de hacer suyo</l>
-          <l>Un pecho de otro afecto ya ocupado,</l>
-          <l>Del honor que obsequioso me conservas</l>
-          <l>Y que sobre mi vida inútil amo,</l>
-          <l>La fuerza poderosa me reduce</l>
-          <l>Y el duro corazón hace más blando.</l>
-        </sp>
-        <sp who="#siripo">
-          <speaker>SIRIPO</speaker>
-          <l>Luego, tú ¿ya me amabas? ¿Y qué nube</l>
-          <l>Tu alma cubrió con velo que inhumana,</l>
-          <l>Escondiendo la luz de tus favores,</l>
-          <l>De tus iras mostraba solo el rayo?</l>
-        </sp>
-        <sp who="#lucía">
-          <speaker>Lucía</speaker>
-          <l>Tu culto diferente...</l>
-        </sp>
-        <pb n="10"/>
-        <sp who="#siripo">
-          <speaker>SIRIPO</speaker>
-          <l>¿Me privaba</l>
-          <l>De tanto bien? ¡Sin duda era tirano!</l>
-          <l>Al sol, yo le rendí, porque mis ojos,</l>
-          <l>De objeto tan hermoso alucinados,</l>
-          <l>No habiendo conocido tu belleza,</l>
-          <l>De mi veneración digno le hallaron.</l>
-        </sp></div>
+          <sp who="#siripo">
+            <speaker>SIRIPO</speaker>
+            <l>Ah! si, la quiero!</l>
+          </sp>
+          <sp who="#miranda">
+            <speaker>MIRANDA</speaker>
+            <l>La quisieras, cuando</l>
+            <l>Merecer su cariño procurases</l>
+            <l>Con artes justas. Ese culto vano,</l>
+            <l>Que das al sol, por siempre te separa</l>
+            <l>De sus tan anhelados agasajos.</l>
+          </sp>
+          <pb n="06"/>
+          <sp who="#siripo">
+            <speaker>SIRIPO</speaker>
+            <l>¿Tan celosa será, que me prohiba</l>
+            <l>Hasta de la deidad el amor santo?</l>
+          </sp>
+          <sp who="#miranda">
+            <speaker>MIRANDA</speaker>
+            <l>No es deidad á quien ciego le tributas;</l>
+            <l>Esa es hechura de otro ser mas alto.</l>
+            <l>¿Será que la deidad se constituya</l>
+            <l>En estado inferior al de los hombres</l>
+            <l>A que el mismo dio ser? El don precioso</l>
+            <l>De que las criaturas disfrutamos,</l>
+            <l>La dulce libertad, será negada</l>
+            <l>Al que del universo es soberano?</l>
+            <l>Será nuestro dar regla de los giros</l>
+            <l>Con que cierra los meses y los años?</l>
+            <l>Oh! cacique!, al ilustre entendimiento</l>
+            <l>De que el cielo te dota, haces agravio.</l>
+            <l>Con que así no aclaró la luminosa</l>
+            <l>Verdad, la lobreguez de tus engaños,</l>
+            <l>Cuando viste al eclipse, tan temido,</l>
+            <l>De divinos graduar á nuestros sabios?</l>
+            <l>Sí, yo te vi que altivo le mirabas,</l>
+            <l>Mientras supersticioso terror vano</l>
+            <l>Tus timbues arrojaba por el suelo,</l>
+            <l>Tus agoreros mesmos y tus magos,</l>
+            <l>Los que la enfermedad del dios caduco</l>
+            <l>Plañían, con visible sobresalto.</l>
+          </sp>
+          <pb n="07"/>
+          <sp who="#siripo">
+            <speaker>SIRIPO</speaker>
+            <l>No es nuevo para mí cuanto me dices,</l>
+            <l>Ni me juzgues de luces tan escaso</l>
+            <l>Que á la razón me niegue. Antes de ahora,</l>
+            <l>Mi espíritu buscaba el desengaño,</l>
+            <l>No pudiendo entender como Dios era</l>
+            <l>El que de otra mostraba ser esclavo.</l>
+            <l>Yo via sus efectos invariables</l>
+            <l>Y que no era su curso voluntario,</l>
+            <l>Cual mísero mortal le contemplaba</l>
+            <l>Que procura en la noche su descanso.</l>
+            <l>Yo lo creo, ya ves; pero no es justo</l>
+            <l>Tan en perjuicio mió publicarlo,</l>
+            <l>Renunciar á la ley de mis mayores,</l>
+            <l>es renunciar á un tiempo al cacicazgo.</l>
+            <l>Y por no arrodillarme á un Dios fingido,</l>
+            <l>Que no me puede hacer ni bien ni daño,</l>
+            <l>Humillar para siempre la cabeza</l>
+            <l>Y en cualquier español tener un amo.</l>
+            <l>Mucho vale Lucía, mas el precio</l>
+            <l>Que pides por su mano, es demasiado</l>
+            <l>Para quien libre vio su primer dia</l>
+            <l>Y ha empezado á gustar del dulce mando.</l>
+            <l>Yo creo que Lucía es muy amable,</l>
+            <l>Un amante á creer más no está obligado.</l>
+          </sp>
+          <pb n="08"/>
+          <sp who="#miranda">
+            <speaker>MIRANDA</speaker>
+            <l>Depon vanos recelos. La experiencia</l>
+            <l>De cinco años de paz, el justo trato</l>
+            <l>Del español y prendas amistosas</l>
+            <l>Y honradas, además, te habrá mostrado.</l>
+          </sp>
+          <sp who="#siripo">
+            <speaker>SIRIPO</speaker>
+            <l>Serán entre vosotros los varones</l>
+            <l>Que las dóciles hembras más humanos?</l>
+            <l>La fiereza de tu hija te desmiente.</l>
+          </sp>
+          <sp who="#miranda">
+            <speaker>MIRANDA</speaker>
+            <l>Lucía te reserva sus halagos,</l>
+            <l>Para cuando te vea digno de ellos</l>
+            <l>Por el modo feliz del yugo santo.</l>
+            <l>La agua que santifica, nueva cuna</l>
+            <l>Te da para que seas numerado</l>
+            <l>Como uno de nosotros. No receles</l>
+            <l>Que padezca tu mando menoscabo.</l>
+            <l>Más bien porque Lucía en tales tierras</l>
+            <l>Es la única mujer del suelo patrio,</l>
+            <l>De todos sus patriotas el aprecio</l>
+            <l>Partir haz apacible en su regazo.</l>
+          </sp>
+          <sp who="#siripo">
+            <speaker>SIRIPO</speaker>
+            <l>Tú ¿qué dices, Lucía? ¿Porqué callas?</l>
+            <l>Qué me quieren decir tus ojos bajos?</l>
+            <l>Que imperioso tu padre te constriñe</l>
+            <l>A tomar un partido involuntario?</l>
+          </sp>
+          <pb n="09"/>
+          <sp who="#miranda">
+            <speaker>MIRANDA</speaker>
+            <l>El natural pudor....</l>
+          </sp>
+          <sp who="#siripo">
+            <speaker>SIRIPO</speaker>
+            <p><stage>(impaciente)</stage></p>
+            <l>Di, tú, Lucía:</l>
+            <l>¿Merecedor me juzgas de tu agrado?</l>
+          </sp>
+          <sp who="#lucía">
+            <speaker>LUCÍA</speaker>
+            <p><stage>(confusa)</stage></p>
+            <l>Cacique, cuando el nombre valeroso</l>
+            <l>Que los tuyos celebran, y de pasmo</l>
+            <l>Llena tus enemigos;...cuando el aire</l>
+            <l>Guerrero, que pregona de tu brazo</l>
+            <l>El esfuerzo y valor;...cuando tus ansias,</l>
+            <l>Que supiste mezclar con ruego y llanto...</l>
+            <l>Capaces no hayan sido de hacer suyo</l>
+            <l>Un pecho de otro afecto ya ocupado,</l>
+            <l>Del honor que obsequioso me conservas</l>
+            <l>Y que sobre mi vida inútil amo,</l>
+            <l>La fuerza poderosa me reduce</l>
+            <l>Y el duro corazón hace más blando.</l>
+          </sp>
+          <sp who="#siripo">
+            <speaker>SIRIPO</speaker>
+            <l>Luego, tú ¿ya me amabas? ¿Y qué nube</l>
+            <l>Tu alma cubrió con velo que inhumana,</l>
+            <l>Escondiendo la luz de tus favores,</l>
+            <l>De tus iras mostraba solo el rayo?</l>
+          </sp>
+          <sp who="#lucía">
+            <speaker>Lucía</speaker>
+            <l>Tu culto diferente...</l>
+          </sp>
+          <pb n="10"/>
+          <sp who="#siripo">
+            <speaker>SIRIPO</speaker>
+            <l>¿Me privaba</l>
+            <l>De tanto bien? ¡Sin duda era tirano!</l>
+            <l>Al sol, yo le rendí, porque mis ojos,</l>
+            <l>De objeto tan hermoso alucinados,</l>
+            <l>No habiendo conocido tu belleza,</l>
+            <l>De mi veneración digno le hallaron.</l>
+          </sp>
+        </div>
         <div type="scene">
           <head>ESCENA 2</head>
           <p><stage>LUCÍA - SIRIPO - MIRANDA - LAMBARÉ</stage></p>
@@ -299,7 +307,8 @@
             <speaker>SIRIPO</speaker>
             <p><stage>(á Lambaré)</stage></p>
             <l>¿Qué te altera?</l>
-          </sp><sp who="#lambaré">
+          </sp>
+          <sp who="#lambaré">
             <speaker>LAMBARÉ</speaker>
             <l>Cayumari</l>
             <l>Del frente del naciente ha retirado</l>
@@ -315,8 +324,9 @@
           </sp>
           <pb n="11"/>
           <sp who="#siripo">
-            <speaker>SIRIPO</speaker> 
-            <p><stage>Lambaré, corre á indagarlo. (<emph rend="italic">dentro vocería</emph>)</stage></p>
+            <speaker>SIRIPO</speaker>
+            <p><stage>Lambaré, corre á indagarlo. (<emph rend="italic">dentro
+                vocería</emph>)</stage></p>
             <l>Y mira... Mas, ¿qué grita turbulenta</l>
             <l>A lo lejos escucho?</l>
           </sp>
@@ -340,8 +350,8 @@
             <l>¡Cayumari,</l>
             <l>Contra su fé, pudiera intentar algo!</l>
           </sp>
-        <sp who="#miranda">
-          <speaker>MIRANDA</speaker>
+          <sp who="#miranda">
+            <speaker>MIRANDA</speaker>
             <p><stage>(<emph rend="italic">á Lucía</emph>)</stage></p>
             <l>Fuerza es volver por él.</l>
           </sp>
@@ -399,7 +409,8 @@
         <div type="scene">
           <head>ESCENA 4</head>
           <pb n="13"/>
-          <p><stage>CUYUMARI, <emph rend="italic">después</emph> LAMBARÉ - SIRIPO - MIRANDA - LUCÍA</stage></p>
+          <p><stage>CUYUMARI, <emph rend="italic">después</emph> LAMBARÉ - SIRIPO - MIRANDA -
+              LUCÍA</stage></p>
           <sp who="#cayumari">
             <speaker>CAYUMARI</speaker>
             <l>Un joven español pretende verte</l>
@@ -449,7 +460,7 @@
             <p><stage>(<emph rend="italic">bajo, á Lucía</emph>)</stage></p>
             <l>Vente, más malo</l>
             <l>Es encontrarte aquí.</l>
-            </sp>
+          </sp>
           <sp who="#siripo">
             <speaker>SIRIPO</speaker>
             <l>Nada receles,</l>
@@ -532,7 +543,8 @@
           </sp>
           <sp who="#hurtado">
             <speaker>HURTADO</speaker>
-            <l><note ana="Ñuño de Lara murió en la defensa, pero ha convenido fingirle vivo.">(I)</note> Ñuño de Lara, Alcaide de este fuerte</l>
+            <l><note ana="Ñuño de Lara murió en la defensa, pero ha convenido fingirle vivo."
+                >(I)</note> Ñuño de Lara, Alcaide de este fuerte</l>
             <l>Que rendísteis, por vía del engaño,</l>
             <l>De paz y humanidad, con raro ejemplo,</l>
             <l>Para tratar con vos, poder me ha dado;</l>
@@ -549,8 +561,9 @@
             <l>Cuyas armas, desde ahora vengadoras,</l>
             <l>La fiereza y traición autorizaron.</l>
             <l>Juan Diaz de Solis á vuestras playas,</l>
-            <pb n="17"/>            
-            <l>Ocultos <note ana="En el manuscrito de Lavarden dice: Incultos escondrijos etc.">(I)</note> escondrijos de Leopardo,</l>
+            <pb n="17"/>
+            <l>Ocultos <note ana="En el manuscrito de Lavarden dice: Incultos escondrijos etc."
+                >(I)</note> escondrijos de Leopardo,</l>
             <l>La sociable cultura os conducía</l>
             <l>Y humanidad, á bordo de sus naos.</l>
             <l>Si erais tan inhumanos y feroces,</l>
@@ -856,7 +869,7 @@
             <l>¡Si una que había fué del inhumano</l>
             <l>Furor de los timbués triste despojo!</l>
           </sp>
-           <pb n="26"/>
+          <pb n="26"/>
           <sp who="#siripo">
             <speaker>SIRIPO</speaker>
             <l>Aún vive, de mi dicha por encanto.</l>
@@ -865,7 +878,7 @@
           <sp who="#hurtado">
             <speaker>HURTADO</speaker>
             <l>¡Dios piadoso!</l>
-          </sp>  
+          </sp>
           <sp who="#siripo">
             <speaker>SIRIPO</speaker>
             <l>De mi amor obligada...</l>
@@ -923,7 +936,7 @@
             <l>El lado del naciente dejó franco,</l>
             <l>Para hacerla que huyese sin ser vista</l>
             <l>De los mios ; mas ella (afortunado!)</l>
-            <l>Amante, agradecida, no se atreve</l> 
+            <l>Amante, agradecida, no se atreve</l>
             <l>A abandonarme así. Me sale al paso.</l>
             <l>(Ay de mí cual venía! Nunca el alba</l>
             <pb n="28"/>
@@ -987,7 +1000,7 @@
             <l>Novela seré yo de desgraciados.</l>
             <l>Mi suerte me apartó del venturoso</l>
             <l>Lugar en que felices espiraron</l>
-            <l>Mis nobles españoles la fortuna,</l> 
+            <l>Mis nobles españoles la fortuna,</l>
             <l>Y sus vueltas traidoras desarmando.</l>
             <l>Yo solo introducido tierra adentro</l>
             <l>Quedé, para juguete de los hados.</l>
@@ -1049,8 +1062,8 @@
             <l>Lucía... Yo la nombro? ¡Quién pudiera</l>
             <l>Este nombre olvidar! De ira me abrazo.</l>
             <l>La pérfida te vende. No ha querido</l>
-            <l>Usar de tu bondad.</l> 
-            </sp>
+            <l>Usar de tu bondad.</l>
+          </sp>
           <sp who="#lara">
             <speaker>LARA</speaker>
             <l>Ahora yo rabio.</l>
@@ -1163,7 +1176,7 @@
           <sp who="#miranda">
             <speaker>MIRANDA</speaker>
             <p><stage>(triste)</stage></p>
-            <l>Que buen acojimiento la previenes</l> 
+            <l>Que buen acojimiento la previenes</l>
             <l>A una mujer del débil sexo lauro,</l>
             <l>Que por medio á los riesgos de los mares</l>
             <l>Y el furor de las guerras arrostrando</l>
@@ -1190,16 +1203,16 @@
             <l>Pues sabed ¡ay de mi! mi amado padre</l>
             <l>Que el honor de esas canas venerado</l>
             <l>Abandona Lucía. De Siripo</l>
-            <l>El rendimiento, el ruego, los halagos </l>
+            <l>El rendimiento, el ruego, los halagos</l>
             <l>(Las palabras me ahogan) la seducen,</l>
-            <l> Y su injurioso intento colorando</l>
+            <l>Y su injurioso intento colorando</l>
             <l>Con título de esposa...</l>
           </sp>
           <sp who="#miranda">
             <speaker>MIRANDA</speaker>
             <p><stage>(indignado)</stage></p>
-            <l>¿Se resuelve,</l> 
-            <l>A condición de que él se haga cristiano,</l> 
+            <l>¿Se resuelve,</l>
+            <l>A condición de que él se haga cristiano,</l>
             <l>A rendir su beldad á un vil salvaje</l>
             <l>Horrible y asqueroso?</l>
           </sp>
@@ -1216,7 +1229,9 @@
             <l>Me es mi apreciado honor mucho más caro.</l>
             <l>Aun no me tiembla el pulso, y á ser cierto</l>
             <l>Que alguien le amancillase, no mis años</l>
-            <l>Estorbaran mi saña vengativa...<note ana="En el manuscrito de Lavarden hay, después de este verso, otro que dice: Pero tales injurias satisfago?">*</note></l>
+            <l>Estorbaran mi saña vengativa...<note
+                ana="En el manuscrito de Lavarden hay, después de este verso, otro que dice: Pero tales injurias satisfago?"
+                >*</note></l>
             <l>Yo he sido, solo yo, quien al Cacique</l>
             <l>La constancia de mi hija ha subyugado.</l>
             <pb n="36"/>
@@ -1335,7 +1350,7 @@
             <l>Lucía, mi Lucía, muestra el cielo</l>
             <l>Que ha tomado nuestra honra por su cargo.</l>
             <l>Me mandó á confortarte. Ten presentes</l>
-            <l>Tu patria y religión, y cuanto te amo.</l> 
+            <l>Tu patria y religión, y cuanto te amo.</l>
           </sp>
           <sp who="#lucía">
             <speaker>LUCÍA</speaker>
@@ -1444,7 +1459,7 @@
           </sp>
         </div>
         <div type="scene">
-        <pb n="42"/>
+          <pb n="42"/>
           <head>ESCENA 13</head>
           <p><stage>MIRANDA - LUCÍA</stage></p>
           <sp who="#miranda">
@@ -1480,7 +1495,9 @@
             <l>Mi crimen y mi boda? Es necesario</l>
             <l>Que la muerte le lave. Morir debo.</l>
             <l>Yo de mi mesma juez pronuncio el fallo.</l>
-            <l>El amor lo aconseja, honor lo manda. <note ana="El manuscrito de Lavarden dice: El honor lo aconseja, amor lo manda.">*</note></l>
+            <l>El amor lo aconseja, honor lo manda. <note
+                ana="El manuscrito de Lavarden dice: El honor lo aconseja, amor lo manda."
+              >*</note></l>
           </sp>
           <sp who="#miranda">
             <speaker>MIRANDA</speaker>
@@ -1557,7 +1574,7 @@
             <l>Ese orgullo feroz verás postrado.</l>
             <l>Yo sabré hacer de modo que la imagen,</l>
             <l>Que da á tu corazón valor tamaño,</l>
-            <l>Con horrible semblante se te objete,</l> 
+            <l>Con horrible semblante se te objete,</l>
             <l>Y esa sombra vaga y aire vano,</l>
             <l>Que ande con tristes ayes y gemidos</l>
             <l>Tu sueño y tu memoria perturbando.</l>
