@@ -543,8 +543,8 @@
           </sp>
           <sp who="#hurtado">
             <speaker>HURTADO</speaker>
-            <l><note ana="Ñuño de Lara murió en la defensa, pero ha convenido fingirle vivo."
-                >(I)</note> Ñuño de Lara, Alcaide de este fuerte</l>
+            <l><note place="foot">Ñuño de Lara murió en la defensa, pero ha convenido fingirle
+                vivo.</note> Ñuño de Lara, Alcaide de este fuerte</l>
             <l>Que rendísteis, por vía del engaño,</l>
             <l>De paz y humanidad, con raro ejemplo,</l>
             <l>Para tratar con vos, poder me ha dado;</l>
@@ -562,8 +562,8 @@
             <l>La fiereza y traición autorizaron.</l>
             <l>Juan Diaz de Solis á vuestras playas,</l>
             <pb n="17"/>
-            <l>Ocultos <note ana="En el manuscrito de Lavarden dice: Incultos escondrijos etc."
-                >(I)</note> escondrijos de Leopardo,</l>
+            <l>Ocultos <note place="foot">En el manuscrito de Lavarden dice: Incultos escondrijos
+                etc.</note> escondrijos de Leopardo,</l>
             <l>La sociable cultura os conducía</l>
             <l>Y humanidad, á bordo de sus naos.</l>
             <l>Si erais tan inhumanos y feroces,</l>
@@ -1229,9 +1229,8 @@
             <l>Me es mi apreciado honor mucho más caro.</l>
             <l>Aun no me tiembla el pulso, y á ser cierto</l>
             <l>Que alguien le amancillase, no mis años</l>
-            <l>Estorbaran mi saña vengativa...<note
-                ana="En el manuscrito de Lavarden hay, después de este verso, otro que dice: Pero tales injurias satisfago?"
-                >*</note></l>
+            <l>Estorbaran mi saña vengativa... <note place="foot">En el manuscrito de Lavarden hay,
+                después de este verso, otro que dice: Pero tales injurias satisfago?</note></l>
             <l>Yo he sido, solo yo, quien al Cacique</l>
             <l>La constancia de mi hija ha subyugado.</l>
             <pb n="36"/>
@@ -1495,9 +1494,8 @@
             <l>Mi crimen y mi boda? Es necesario</l>
             <l>Que la muerte le lave. Morir debo.</l>
             <l>Yo de mi mesma juez pronuncio el fallo.</l>
-            <l>El amor lo aconseja, honor lo manda. <note
-                ana="El manuscrito de Lavarden dice: El honor lo aconseja, amor lo manda."
-              >*</note></l>
+            <l>El amor lo aconseja, honor lo manda. <note place="foot">El manuscrito de Lavarden
+                dice: El honor lo aconseja, amor lo manda.</note></l>
           </sp>
           <sp who="#miranda">
             <speaker>MIRANDA</speaker>
