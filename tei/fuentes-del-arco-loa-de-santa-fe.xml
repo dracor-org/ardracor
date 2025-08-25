@@ -82,6 +82,7 @@
       <listChange>
         <change when="2025-06-10">(lv) cambia codificacion inicial y adapta a Dracor</change>
         <change when="2025-07-01">(gdr) corrección de la ficha</change>
+        <change when="2025-08-25">(gdr) cambios de mayúscula a minúscula y errores en atributo</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -104,8 +105,14 @@
       <castList>
         <castItem>
           <role>Música</role>
+          </castItem>
+          <castItem>
           <role>Caballero Primero</role>
+          </castItem>
+          <castItem>
           <role>Caballero Segundo</role>
+          </castItem>
+          <castItem>
           <role>Caballero Tercero</role>
         </castItem>
       </castList>
@@ -115,8 +122,8 @@
           sisa que contribuía en la yerba del Paraguay. Antonio Fuentes del Arco, Santa Fe,
           1717.</head>
         <head type="subtitle">Obra de D. Antonio Fuentes del Arco hijo de la ciudad de Santa
-          Fe</head>
-        <p>Loa. En las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad el Rey Don
+          Fe. Loa.</head>
+        <p>En las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad el Rey Don
           Philipo Quinto en acción de gracias por haberla descargado del tributo de la sisa que
           contribuía en la yerba del Paraguay, precedió a la comedia de no puede ser que se hizo en
           celebridad de su patrón el doctor de la iglesia San Gerónimo.</p>

@@ -61,10 +61,10 @@
       <particDesc>
         <listPerson>
           <person sex="MALE" xml:id="contreras">
-            <persName>CONTRERAS</persName>
+            <persName>Contreras</persName>
           </person>
           <person sex="MALE" xml:id="chano">
-            <persName>CHANO</persName>
+            <persName>Chano</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -72,8 +72,9 @@
     <revisionDesc>
       <listChange>
         <change when="2025-05-30">(tr) initial encoding</change>
-        <change when="2025-07-30">(rdl) revision</change>
-        <change when="2025-08-17">(gdr) revision</change>
+        <change when="2025-07-30">(rdl) revisión</change>
+        <change when="2025-08-17">(gdr) revisión</change>
+        <change when="2025-08-25">(gdr) cambios de mayúscula a minúscula</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -94,14 +95,14 @@
         <docAuthor>Bartolomé Hidalgo</docAuthor>
       </titlePage>
       <castList>
-        <head>PERSONAJES</head>
+        <head>Personajes</head>
         <castItem>
-          <role>CONTRERAS</role>
-          <roleDesc>CAPATAZ DE UNA ESTANCIA EN LAS ISLAS DEL TORDILLO</roleDesc>
+          <role>Contreras</role>
+          <roleDesc>Capataz de una estancia en las islas del Tordillo</roleDesc>
         </castItem>
         <castItem>
           <role>CHANO</role>
-          <roleDesc>GAUCHO DE LA GUARDIA DEL MONTE</roleDesc>
+          <roleDesc>GAUCHO de la Guardia del Monte</roleDesc>
         </castItem>
       </castList>
     </front>
@@ -112,7 +113,7 @@
             casa del paisano Ramón Contreras (que es el gaucho de la Guardia).</emph></p>
       </note>
       <sp who="#contreras">
-        <speaker>CONTRERAS</speaker>
+        <speaker>Contreras</speaker>
         <l>Con que, amigo, ¿diáonde diablos</l>
         <l>sale? Meta el <term>redomón <note type="editor">caballo de
           amansamiento</note></term>,</l>
@@ -120,19 +121,19 @@
         <l>¡Ah pingo que da calor!</l>
       </sp>
       <sp who="#chano">
-        <speaker>CHANO</speaker>
+        <speaker>Chano</speaker>
         <l>De las islas del Tordillo</l>
         <l>salí en este <term>mancarrón<note type="editor">caballo viejo</note></term>:</l>
         <l>¡pero si es trabuco, Cristo!</l>
         <l>¿Cómo está señó Ramón?</l>
       </sp>
       <sp who="#contreras">
-        <speaker>CONTRERAS</speaker>
+        <speaker>Contreras</speaker>
         <l>Lindamente a su servicio…</l>
         <l>¿Y se vino del tirón?</l>
       </sp>
       <sp who="#chano">
-        <speaker>CHANO</speaker>
+        <speaker>Chano</speaker>
         <l>Sí, amigo, estaba de balde,</l>
         <l>y le dije a Salvador:</l>
         <l>andá traeme el azulejo,</l>
@@ -167,7 +168,7 @@
         <l>parejo que da temor.</l>
       </sp>
       <sp who="#contreras">
-        <speaker>CONTRERAS</speaker>
+        <speaker>Contreras</speaker>
         <l>¡Ah, Chano!... ¡Pero si es <term>liendre <note type="editor">astuto</note></term></l>
         <l>en cualquiera <term>bagualón <note type="editor">caballo sin domar</note></term>...!</l>
         <l>Mientras se calienta el agua</l>
@@ -176,7 +177,7 @@
         <l>¿qué novedades se corren?</l>
       </sp>
       <sp who="#chano">
-        <speaker>CHANO</speaker>
+        <speaker>Chano</speaker>
         <l>Novedades… qué se yo;</l>
         <l>hay tantas que uno no acierta</l>
         <l>a qué lao caerá el <term>dos <note type="editor">carta de triunfo en el
@@ -195,7 +196,7 @@
         <l>Alcancemé un cimarrón.</l>
       </sp>
       <sp who="#contreras">
-        <speaker>CONTRERAS</speaker>
+        <speaker>Contreras</speaker>
         <l>No se corte, dele <term>guasca <note type="editor">lonja de cuero</note></term>,</l>
         <l>siga la conversación,</l>
         <l>velay mate: todos saben</l>
@@ -206,7 +207,7 @@
         <l>es como de Salomón.</l>
       </sp>
       <sp who="#chano">
-        <speaker>CHANO</speaker>
+        <speaker>Chano</speaker>
         <l>Pues bajo de ese entender</l>
         <l>empriestemé su atención,</l>
         <l>y le diré cuanto siente</l>
@@ -245,7 +246,7 @@
       </sp>
       <pb n="79"/>
       <sp who="#contreras">
-        <speaker>CONTRERAS</speaker>
+        <speaker>Contreras</speaker>
         <l>¿Y no se sabe en qué <term>diasques <note type="editor">disques,
           intrigas</note></term></l>
         <l>este enriedo consistió?</l>
@@ -259,7 +260,7 @@
         <l>porque sabe más que yo.</l>
       </sp>
       <sp who="#chano">
-        <speaker>CHANO</speaker>
+        <speaker>Chano</speaker>
         <l>Desde el principio, Contreras,</l>
         <l>esto ya se equivocó;</l>
         <l>de todas nuestras Provincias</l>
@@ -333,7 +334,7 @@
         <l>cuando hable mi mancarrón.</l>
       </sp>
       <sp who="#contreras">
-        <speaker>CONTRERAS</speaker>
+        <speaker>Contreras</speaker>
         <l>Es cierto cuanto me ha dicho,</l>
         <l>y mire que es un dolor</l>
         <l>ver estas rivalidades,</l>
@@ -344,7 +345,7 @@
         <l>todo nuestro sudor.</l>
       </sp>
       <sp who="#chano">
-        <speaker>CHANO</speaker>
+        <speaker>Chano</speaker>
         <l>Todos disputan derechos,</l>
         <l>pero, amigo, sabe Dios</l>
         <pb n="82"/>
@@ -366,7 +367,7 @@
         <l>¡El diablo es este Ramón!</l>
       </sp>
       <sp who="#contreras">
-        <speaker>CONTRERAS</speaker>
+        <speaker>Contreras</speaker>
         <l>Lo que a mí me causa espanto</l>
         <l>es ver que ya se acabó</l>
         <l>tanto dinero, por Cristo;</l>
@@ -439,7 +440,7 @@
         <l>aonde está el borbollón.</l>
       </sp>
       <sp who="#chano">
-        <speaker>CHANO</speaker>
+        <speaker>Chano</speaker>
         <l>Eso es querer saber mucho.</l>
         <l>Si se hiciera una razón</l>
         <l>de toda la plata y oro</l>
@@ -480,13 +481,13 @@
       </sp>
       <pb n="86"/>
       <sp who="#contreras">
-        <speaker>CONTRERAS</speaker>
+        <speaker>Contreras</speaker>
         <l>Pues yo siempre oí decir</l>
         <l>que ante la lay era yo</l>
         <l>igual a todos los hombres.</l>
       </sp>
       <sp who="#chano">
-        <speaker>CHANO</speaker>
+        <speaker>Chano</speaker>
         <l>Mesmamente, así pasó,</l>
         <l>y en papeletas de molde</l>
         <l>por todo se publicó;</l>

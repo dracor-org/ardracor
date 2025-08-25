@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">SIRIPO</title>
-        <title type="sub">TRAGEDIA EN VERSO</title>
+        <title type="main">Siripo</title>
+        <title type="sub">Tragedia en verso</title>
         <author cert="high"><persName>
             <forename>Manuel José</forename>
             <nameLink>de</nameLink>
@@ -87,6 +87,7 @@
         <change when="2025-05-21">(rdl) inicia la corrección del XML descargado de Ezdrama por
           Ulrike</change>
         <change when="2025-07-19">(gdr) revisión de la ficha y añadido de roleDesc</change>
+         <change when="2025-08-25">(gdr) mayúsculas a minúsculas en nombres, castItem añadido y corrección de atributo</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -106,22 +107,36 @@
       <castList>
         <head>Personajes</head>
         <castItem>
-          <role>SIRIPO</role>
+          <role>Siripo</role>
           <roleDesc>Jefe timbú.</roleDesc>
-          <role>MIRANDA</role>
+          </castItem>
+          <castItem>
+          <role>Miranda</role>
           <roleDesc>Don Diego de Miranda. Cautivo de Siripo junto a su hija.</roleDesc>
-          <role>LAMBARÉ</role>
+          </castItem>
+          <castItem>
+          <role>Lambaré</role>
           <roleDesc>Hermano de Lara.</roleDesc>
-          <role>LUCÍA</role>
+            </castItem>
+          <castItem>
+          <role>Lucía</role>
           <roleDesc>Lucia de Miranda. Esposa española de Sebastián Hurtado, cautiva de los
             indígenas.</roleDesc>
-          <role>CAYUMARI</role>
+            </castItem>
+            <castItem>
+          <role>Cayumari</role>
           <roleDesc>Indio aliado de los españoles que interviene para ayudar a Hurtado y
             Lucía.</roleDesc>
-          <role>HURTADO</role>
+            </castItem>
+            <castItem>
+          <role>Hurtado</role>
           <roleDesc>Capitán español, marido de Miranda.</roleDesc>
-          <role>SALVAJES ARMADOS</role>
-          <role>LARA</role>
+          </castItem>
+          <castItem>
+          <role>Salvajes armados</role>
+          </castItem>
+          <castItem>
+          <role>Lara</role>
           <roleDesc>India favorita de Siripo.</roleDesc>
         </castItem>
       </castList>
