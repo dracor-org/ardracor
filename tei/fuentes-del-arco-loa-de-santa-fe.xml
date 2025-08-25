@@ -50,7 +50,7 @@
           <date when="2022">2022</date>
           <title>La Loa de Santa Fe en honor a Felipe V (1717)</title>. <title level="j">Revista
             América</title>, <biblScope unit="issue">31</biblScope>,pp. <biblScope unit="page"
-            from="224" to="253">224–253</biblScope>
+            from="224" to="253">224–253.</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -58,16 +58,16 @@
       <particDesc>
         <listPerson>
           <person xml:id="musica" sex="FEMALE">
-            <persName>MÚSICA</persName>
+            <persName>Música</persName>
           </person>
           <person xml:id="caballeroPrimero" sex="MALE">
-            <persName>CABALLERO PRIMERO</persName>
+            <persName>Caballero Primero</persName>
           </person>
           <person xml:id="caballeroSegundo" sex="MALE">
-            <persName>CABALLERO SEGUNDO</persName>
+            <persName>Caballero Segundo</persName>
           </person>
           <person xml:id="caballeroTercero" sex="MALE">
-            <persName>CABALLERO TERCERO</persName>
+            <persName>Caballero Tercero</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -142,7 +142,7 @@
         dice:</stage>
 
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Del mal que ocupa entre ambos horizontes</l>
         <l>Por crespas greñas de encumbrados montes</l>
         <l>Sacaba febo sus cabellos rojos</l>
@@ -173,7 +173,7 @@
         <l>Pueble sonoro la región del viento</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Todos repitan alegres</l>
         <l>Dentrambos sus altas glorias</l>
         <l>Y con voces nunca oídas</l>
@@ -182,8 +182,9 @@
 
       <pb n="238"/>
       <stage>Sale el segundo caballero por la puerta del lado izquierdo</stage>
+
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Yace en eso otra falda</l>
         <l>Castillo de esmeralda</l>
         <l>Opuesto a los asaltos de un gran río</l>
@@ -218,14 +219,14 @@
         <l>Si es del gozo ilusión o del deseo?</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Todo es llegar a tiempo caballero</l>
         <l>Joven gallardo, de la gala esmero</l>
         <l>Porque ya con canora melodía,</l>
         <l>Se repiten los ecos la alegría</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>De regocijos alegres</l>
         <l>Hoy la dicha se corona</l>
         <l>Y al aplauso que dedica</l>
@@ -233,7 +234,7 @@
       </sp>
       <stage>Sale el caballero 3° por la puerta de mano derecha</stage>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Aquí donde las aves</l>
         <l>Rabeles son de pluma que suaves</l>
         <l>En sonoroso acento</l>
@@ -260,7 +261,7 @@
         <l>Que son de esta ciudad sus rayos bellos</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Ilustre caballero generoso</l>
         <l>Sin duda más que Adonis, más hermoso</l>
         <l>Ya con vuestra llegada</l>
@@ -269,20 +270,20 @@
         <l>Parece que venís en estos gozos</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>A saber vengo</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Cual es el motivo</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Cual es el incentivo</l>
         <l>Que a tan extraño regocijo mueve</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Atendedme señores, seré breve</l>
         <l>En las riberas de ese claro espejo</l>
         <l>Que dilata espacioso con despejo</l>
@@ -374,32 +375,32 @@
         <l>A todos os convido</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Yo me ofrezco a serviros de luego</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Yo señor no me niego:</l>
         <l>Más a quien se atribuye aquella hazaña</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>A la luciente púrpura de España</l>
         <l>Y por el mismo modo aquí también</l>
         <l>A la púrpura docta de Belén,</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Pero como el obsequio se ha de hacer</l>
         <l>Si no tenemos nada que ofrecer?</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Pues qué hemos de decir,</l>
         <l>O cómo les habemos de aplaudir?</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Los ecos que da el viento</l>
         <l>Dirigirán las voces al intento</l>
         <l>Y advierto que este día</l>
@@ -409,19 +410,19 @@
 
       <pb n="250"/>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>El motivo no puedo yo alcanzar</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Fue el arcabuz de las negociaciones</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Muy justas son con él las atenciones</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Pues tú le alaba, y tú a Philipo Quinto</l>
         <l>Que yo lo haré por modo no distinto</l>
         <l>Al excelso doctor nuestro patrón</l>
@@ -429,135 +430,135 @@
         <l>Postrados se le rindan a millones</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Corazones</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Humildes se le postren con respetos</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Afectos</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Y gozosos, se pidan en albricias</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Caricias</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Corran por todo el mundo las noticias</l>
         <l>De los favores que al patrón debemos</l>
         <l>Y todos uniformes le entreguemos</l>
       </sp>
       <sp who="#musica #caballeroPrimero">
-        <speaker>MÚSICA Y EL CABALLERO</speaker>
+        <speaker>Música y el Caballero</speaker>
         <l>Corazones, afectos y caricias</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Rinda el orbe a las altas majestades</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Lealtades</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Y fervorosos todos sin tibiezas</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Finezas</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Y los que ocupan puestos y ejercicios</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Servicios</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Porque son tales hoy los beneficios</l>
         <l>Que de su larga mano se reciben,</l>
         <l>Que no le pagaran aunque le obliguen</l>
       </sp>
-      <sp who="#música #caballeroSegundo">
-        <speaker>MÚSICA Y EL CABALLERO</speaker>
+      <sp who="#musica #caballeroSegundo">
+        <speaker>Música y el Caballero</speaker>
         <l>Con lealtades, finezas y servicios</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Ofrézcale el anciano, el grande, el niño</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Cariño</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>En pago de su amor y su amistad</l>
       </sp>
 
       <pb n="252"/>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Voluntad</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Agradeciéndole la diligencia</l>
       </sp>
       <sp who="#musica">
-        <speaker>MÚSICA</speaker>
+        <speaker>Música</speaker>
         <l>Correspondencia</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Pues medianera fue su inteligencia</l>
         <l>Débasele también en la alegría</l>
         <l>A don Andrés Martínez de Murguía</l>
       </sp>
       <sp who="#musica #caballeroTercero">
-        <speaker>MÚSICA y CABALLERO</speaker>
+        <speaker>Música y Caballero</speaker>
         <l>Cariño, voluntad, correspondencia</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Y pues ya en voces y ecos habéis dado</l>
         <l>A entender que ya estoy tan obligado</l>
         <l>Que festejo será el que prebendemos</l>
         <l>En que a todos gozosos los dejemos</l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Que sea una comedia</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Y ha de ser <title type="work">“Que No Puede Guardarse Una Mujer”</title><note
             type="explanation">Se trata de una obra de Moreto, muy popular en el siglo
           XVIII.</note></l>
       </sp>
       <sp who="#caballeroSegundo">
-        <speaker>CABALLERO SEGUNDO</speaker>
+        <speaker>Caballero Segundo</speaker>
         <l>Dices bien pues en ella los galanes</l>
         <l>Que son ya de las damas piedra imanes</l>
         <l>Hallarán fácil modo de alcanzarlas</l>
       </sp>
       <sp who="#caballeroTercero">
-        <speaker>CABALLERO TERCERO</speaker>
+        <speaker>Caballero Tercero</speaker>
         <l>Y no querrán sus dueños ya guardarlas</l>
         <l>Pues el ejemplo tienen evidente</l>
       </sp>
       <sp who="#caballeroPrimero">
-        <speaker>CABALLERO PRIMERO</speaker>
+        <speaker>Caballero Primero</speaker>
         <l>Escuche que es atento todo oyente</l>
         <l>El ignorante, el sabio y el discreto</l>
         <l>Que es el autor Don Agustín Moreto</l>
