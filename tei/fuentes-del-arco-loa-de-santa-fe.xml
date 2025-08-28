@@ -4,10 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Comedia representada en las fiestas que la ilustre ciudad de Santa Fe
-          hizo a Su Majestad Felipe Quinto en acción de gracias por haberlo descargado del tributo
-          de la sisa que contribuía en la yerba del Paraguay</title>
-        <title type="other">Loa de Santa Fe en honor a Felipe V (1717)</title>
+        <title type="main">Loa de Santa Fe en honor a Felipe V</title>
+        <title type="other">Comedia representada en las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad Felipe Quinto en acción de gracias por haberlo descargado del tributo de la sisa que contribuía en la yerba del Paraguay</title>
         <author>
           <persName>
             <forename>Antonio</forename>
@@ -29,14 +27,12 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">
-            CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Calvo, Luis María (2022). La Loa de Santa Fe en honor a Felipe V (1717). Revista
-            América, 31, pp. 224-253.</name>
+          <name>Calvo, Luis María (2022). La Loa de Santa Fe en honor a Felipe V (1717). Revista América, 31, pp. 224-253.</name>
           <idno type="URL">http://www.cehsf.ceride.gov.ar/america_31.pdf</idno>
           <availability status="free">
             <p>No specific license.</p>
@@ -48,12 +44,15 @@
             <surname>Calvo</surname>
           </author>
           <date when="2022">2022</date>
-          <title>La Loa de Santa Fe en honor a Felipe V (1717)</title>. <title level="j">Revista
-            América</title>, <biblScope unit="issue">31</biblScope>,pp. <biblScope unit="page"
-            from="224" to="253">224–253.</biblScope>
+          <title>La Loa de Santa Fe en honor a Felipe V (1717)</title>. <title level="j">Revista América</title>, <biblScope unit="issue">31</biblScope>,pp. <biblScope unit="page" from="224" to="253">224–253</biblScope>.
         </bibl>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Our edition follows Luis M. Calvo transcription but starts in the title "Obra...", as the previous head included in his edition is not in the original manuscript.</p>
+      </editorialDecl>
+    </encodingDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
@@ -80,9 +79,10 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-06-10">(lv) cambia codificacion inicial y adapta a Dracor</change>
-        <change when="2025-07-01">(gdr) corrección de la ficha</change>
-        <change when="2025-08-25">(gdr) cambios de mayúscula a minúscula y errores en atributo</change>
+        <change when="2025-06-10" who="lv">codificacion inicial y adaptación a Dracor</change>
+        <change when="2025-07-01" who="gdr">corrección general de la ficha</change>
+        <change when="2025-08-25" who="gdr">cambios de mayúscula a minúscula y errores en atributo</change>
+         <change when="2025-08-28" who="gdr">cambio sugerido por especialista en el título y divisiones de stage</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -98,6 +98,10 @@
         <desc/>
       </event>
     </listEvent>
+     <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000008"
+        passive="https://www.wikidata.org/wiki/Q135988819"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
@@ -117,44 +121,29 @@
         </castItem>
       </castList>
       <set>
-        <head type="main">Comedia representada en las fiestas que la ilustre ciudad de Santa Fe hizo
-          a Su Majestad Felipe Quinto en acción de gracias por haberlo descargado del tributo de la
-          sisa que contribuía en la yerba del Paraguay. Antonio Fuentes del Arco, Santa Fe,
-          1717.</head>
-        <head type="subtitle">Obra de D. Antonio Fuentes del Arco hijo de la ciudad de Santa
-          Fe. Loa.</head>
-        <p>En las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad el Rey Don
-          Philipo Quinto en acción de gracias por haberla descargado del tributo de la sisa que
-          contribuía en la yerba del Paraguay, precedió a la comedia de no puede ser que se hizo en
-          celebridad de su patrón el doctor de la iglesia San Gerónimo.</p>
-        <note type="editor">La Loa, escrita en verso, cuenta con la intervención de tres
-          “Caballeros” y un cuarto personaje que simboliza la Música. Los santafesinos son
-          descriptos como fieles súbditos que acatan la voluntad real aunque el impuesto la sisa les
-          empobrece y, para dar solución a sus penurias, acuden a la intercesión de su santo
-          patrono. Las súplicas son escuchadas por San Jerónimo quien golpea su “pecho embravecido”
-          produciendo un sonido que es escuchado por el Rey. En consecuencia Felipe V se muestra
-          clemente y manda suspender la contribución del tributo.</note>
+        <head n="1">Obra de D. Antonio Fuentes del Arco hijo de la ciudad de Santa Fe </head>
+        <head n="2">Loa</head>
+        <head n="3">En las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad el Rey Don Philipo Quinto en acción de gracias por haberla descargado del tributo de la sisa que contribuía en la yerba del Paraguay, precedió a la comedia de no puede ser que se hizo en celebridad de su patrón el doctor de la iglesia San Gerónimo.</head>
+        <p>Personas que hablan en ella: tres caballeros y música</p>
+        <note type="editor">La Loa, escrita en verso, cuenta con la intervención de tres “Caballeros” y un cuarto personaje que simboliza la Música. Los santafesinos son descriptos como fieles súbditos que acatan la voluntad real aunque el impuesto la sisa les empobrece y, para dar solución a sus penurias, acuden a la intercesión de su santo patrono. Las súplicas son escuchadas por San Jerónimo quien golpea su “pecho embravecido” produciendo un sonido que es escuchado por el Rey. En consecuencia Felipe V se muestra clemente y manda suspender la contribución del tributo.</note>
       </set>
     </front>
     <body>
-      <stage>Personas que hablan en ella: tres caballeros y música</stage>
+      <div type="act" n="1">
       <sp who="#musica">
-        <speaker>MUSICA</speaker>
+        <speaker>Música</speaker>
         <l>Desde su solio eminente</l>
         <l>Mercedes. Philipo brota</l>
         <l>Y Gerónimo halla en ella</l>
         <l>Para su pueblo mejoras.</l>
       </sp>
-      <stage>Sale el primer caballero por la puerta. De en medio del paño y acabada la música
-        dice:</stage>
-
+      <stage>Sale el primer caballero por la puerta. De en medio del paño y acabada la música dice:</stage>
       <sp who="#caballeroPrimero">
         <speaker>Caballero Primero</speaker>
         <l>Del mal que ocupa entre ambos horizontes</l>
         <l>Por crespas greñas de encumbrados montes</l>
         <l>Sacaba febo sus cabellos rojos</l>
         <l>Y con dorados ojos</l>
-
         <pb n="236"/>
         <l>Al orbe está mirando</l>
         <l>Las oscuras tinieblas desterrando,</l>
@@ -186,10 +175,8 @@
         <l>Y con voces nunca oídas</l>
         <l>Hagan debidas lisonjas</l>
       </sp>
-
       <pb n="238"/>
       <stage>Sale el segundo caballero por la puerta del lado izquierdo</stage>
-
       <sp who="#caballeroSegundo">
         <speaker>Caballero Segundo</speaker>
         <l>Yace en eso otra falda</l>
@@ -219,7 +206,6 @@
         <l>Y atendiendo mi oído</l>
         <l>Despierta, dice, entre sonoros ruidos</l>
         <l>Y así vengo a buscar</l>
-
         <pb n="240"/>
         <l>Quién del sueño me pudo despertar:</l>
         <l>Más allí un hombre veo</l>
@@ -256,7 +242,6 @@
         <l>Cítara es de cristal, por su corriente</l>
         <l>Que en la yerba y en los juncos tropezando</l>
         <l>Con acentos de espuma está corriendo</l>
-
         <pb n="242"/>
         <l>Aquí quedo ya dudoso</l>
         <l>De tan crecido gozo</l>
@@ -301,7 +286,6 @@
         <l>Que es dividido en trozos</l>
         <l>Formando laberintos enredosos</l>
         <l>Ya altivo se despeña</l>
-
         <pb n="244"/>
         <l>Ya lame inculta peña</l>
         <l>Ya encrespado, al correr se ensoberbece,</l>
@@ -332,7 +316,6 @@
         <l>Sacarla o consumirla por afuera</l>
         <l>Quedó esto así mandado,</l>
         <l>Si bien que fue por tiempo limitado</l>
-
         <pb n="246"/>
         <l>La imposición que tuvo el instituto</l>
         <l>Abrazó la ciudad este tributo</l>
@@ -363,7 +346,6 @@
         <l>Paso en fin impelido del deseo</l>
         <l>Y en el candor jadeo</l>
         <l>De Gerónimo el magno, halló el alivio</l>
-
         <pb n="248"/>
         <l>Pues su espíritu ardiente y nunca tibio</l>
         <l>Daba golpes al pecho embravecido</l>
@@ -414,7 +396,6 @@
         <l>A Don Andrés Martínez de Murguía</l>
         <l>También se ha de elogiar</l>
       </sp>
-
       <pb n="250"/>
       <sp who="#caballeroSegundo">
         <speaker>Caballero Segundo</speaker>
@@ -512,7 +493,6 @@
         <speaker>Caballero Tercero</speaker>
         <l>En pago de su amor y su amistad</l>
       </sp>
-
       <pb n="252"/>
       <sp who="#musica">
         <speaker>Música</speaker>
@@ -549,9 +529,7 @@
       </sp>
       <sp who="#caballeroTercero">
         <speaker>Caballero Tercero</speaker>
-        <l>Y ha de ser <title type="work">“Que No Puede Guardarse Una Mujer”</title><note
-            type="explanation">Se trata de una obra de Moreto, muy popular en el siglo
-          XVIII.</note></l>
+        <l>Y ha de ser <title type="play">“Que No Puede Guardarse Una Mujer”</title><note type="editor">Se trata de una obra de Moreto, muy popular en el siglo XVIII.</note></l>
       </sp>
       <sp who="#caballeroSegundo">
         <speaker>Caballero Segundo</speaker>
@@ -568,8 +546,9 @@
         <speaker>Caballero Primero</speaker>
         <l>Escuche que es atento todo oyente</l>
         <l>El ignorante, el sabio y el discreto</l>
-        <l>Que es el autor Don Agustín Moreto</l>
+        <l>Que es el autor Don Agustín Moreto.</l>
       </sp>
+      </div>
     </body>
   </text>
 </TEI>

@@ -38,8 +38,7 @@
         <bibl type="digitalSource">
           <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: sainetes
             urbanos y gauchescos, 1800–1814</name>
-          <idno type="URL"
-            >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf#page=83</idno>
+          <idno type="URL">https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf#page=83</idno>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -82,20 +81,21 @@
       <textClass>
         <keywords>
           <term source="wikidata" type="genreTitle">Sainete</term>
-          <term source="#seibel">Sainete urbano</term>
+          <term source="seibel">Sainete urbano</term>
         </keywords>
         <classCode scheme="http://www.wikidata.org/entity/">Q835067</classCode>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-05-15">(gdr) change initial encoding</change>
-        <change when="2025-05-19">(rdl) correction errors ezdrama</change>
-        <change when="2025-05-20">(gdr) revision</change>
-        <change when="2025-05-26">(rdl) correction sourcedesc, text errors, add pb</change>
-        <change when="2025-06-02">(gdr) change header</change>
-        <change when="2025-06-29">(gdr) change xml declaration</change>
-        <change when="2025-08-25">(gdr) capital letter to smallcase</change>
+        <change when="2025-05-15" who="gdr">change initial encoding</change>
+        <change when="2025-05-19" who="rdl">correction errors ezdrama</change>
+        <change when="2025-05-20" who="gdr">revision</change>
+        <change when="2025-05-26" who="rdl">correction sourcedesc, text errors, add pb</change>
+        <change when="2025-06-02" who="gdr">change header</change>
+        <change when="2025-06-29" who="gdr">change xml declaration</change>
+        <change when="2025-08-25" who="gdr">capital letters to smallcase</change>
+         <change when="2025-08-25" who="gdr">add wikidata and divs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -104,13 +104,14 @@
       <event type="print" when="1959">
         <desc/>
       </event>
-      <event type="premiere" when="1805">
-        <desc/>
-      </event>
       <event type="written" notBefore="1810" notAfter="1816">
         <desc/>
       </event>
     </listEvent>
+     <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000003"
+        passive="https://www.wikidata.org/wiki/Q135989927"/>
+    </listRelation>
   </standOff>
   <text>
     <pb n="165"/>
@@ -143,7 +144,7 @@
       </set>
     </front>
     <body>
-      <div type="act">
+      <div type="act" n="1">
         <sp who="#rosa">
           <speaker>Rosa</speaker>
           <l>¡Oh, qué olor tan refulgente</l>
@@ -818,7 +819,7 @@
             –paseándose– dice:</stage>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>A la una al <foreign xml:lang="grc">Kyrie eleison,</foreign></l>
           <l>a las dos al campanario,</l>
           <l>a las tres al incensario,</l>
@@ -844,7 +845,7 @@
             Sacristán,corriendo, dice lo que sigue:</stage>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l><foreign xml:lang="grc">Kyrie eleison, eleison</foreign>,</l>
           <l>que me rompan la cabeza;</l>
           <l>
@@ -865,7 +866,7 @@
           <l>de enamorar esta Rosa?</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Usted enamore en verso,</l>
           <l>yo la enamoraré en prosa.</l>
         </sp>
@@ -879,7 +880,7 @@
           <l>Sabe Dios si le querrá.</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Adivinaste: la niña</l>
           <l>con más razón amará</l>
           <l>no a un poeta como tú,</l>
@@ -898,7 +899,7 @@
           <l>al diablo del sacristán!</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Tal vez que la muchachuela</l>
           <l>se esté muriendo por mí.</l>
           <l>¿No es así, niña?</l>
@@ -910,7 +911,7 @@
         </sp>
         <pb n="183"/>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Querida <foreign xml:lang="la">Domina mea</foreign>,</l>
           <l>ego siendo sacristán,</l>
           <l><foreign xml:lang="la">dabo tibi</foreign>,</l>
@@ -971,7 +972,7 @@
           <l>un verso para cantar.</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Veré que dentro de poco</l>
           <l>haré que seas sacristán.</l>
         </sp>
@@ -1001,7 +1002,7 @@
           <l>A ti, antorcha de mi vida.</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>¡Oh, <foreign xml:lang="lat">pulcra Domina mea</foreign>!,</l>
           <l>¿por qué contra esta librea</l>
           <l>de sotana y de manteo</l>
@@ -1037,7 +1038,7 @@
           <l>esta muchacha: larán.</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Si me quiere robaré</l>
           <l>incienso en la Catedral</l>
           <l>para que pueda su casa</l>
@@ -1070,7 +1071,7 @@
           <l>cada cual con su bastón y caminando ligero.</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>¿Sí? Pues bajo de esta mesa</l>
           <l>guardo muy bien mi pellejo.</l>
           <stage>(Se esconde debajo de la mesa).</stage>
@@ -1304,7 +1305,7 @@
             dice:</stage>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l><foreign xml:lang="grc">Kyrie eleison, eleison</foreign>,</l>
           <l>voyme ya, no me hagan nada,</l>
           <l>a oír la misa cantada,</l>
@@ -1318,7 +1319,7 @@
             primeros versos que siguen:</stage>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l><foreign xml:lang="lat">Miserere mei</foreign> pronto,</l>
           <l>señor <foreign xml:lang="lat">Domine</foreign> abogado,</l>
           <l>porque aqueste don Javier</l>
@@ -1398,7 +1399,7 @@
           <l>que el viejo o el Sacristán…</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>¿Y cuándo yo digo nada?</l>
         </sp>
         <sp who="#arganto">
@@ -1572,7 +1573,7 @@
           <l>Corriente, amigo, corriente.</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Por activa y por pasiva,</l>
           <l>por gerundio y subjuntivo,</l>
           <l>por el modo indicativo,</l>
@@ -1682,7 +1683,7 @@
           <l>o a palos o a terminazos.</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Ahora falta solamente</l>
           <l>que yo le haga mis cariños</l>
           <l>a mi novia refulgente,</l>
@@ -1695,7 +1696,7 @@
           <l>¡Un demonio para ti!</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>¿Y la una mitad no es tuya</l>
           <l>y la otra para mí?</l>
         </sp>
@@ -1705,7 +1706,7 @@
           <l>sobre ese particular.</l>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>No hay remedio, mis obsequios</l>
           <l>un momento ha de aguantar.</l>
         </sp>
@@ -1716,7 +1717,7 @@
           <stage>(Le pega)</stage>
         </sp>
         <sp who="#sacristan">
-          <speaker>SACRISTAN</speaker>
+          <speaker>Sacristán</speaker>
           <l>Toma tu también.</l>
           <stage>(Le pega).</stage>
           <stage>Se agarran a pelear, y lo que los ve Benito, carga con la muchacha y se la lleva,
@@ -1730,8 +1731,10 @@
           <l>la obligaré a pescozones:</l>
           <l>Señores, a río revuelto ganancia de pescadores.</l>
         </sp>
-        <trailer>FIN</trailer>
       </div>
     </body>
+    <back>
+      <trailer>Fin</trailer>
+      </back>
   </text>
 </TEI>

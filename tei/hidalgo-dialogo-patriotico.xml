@@ -5,8 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Diálogo patriótico interesante</title>
-        <title type="sub">Entre Jacinto Chano, capataz de una estancia en las islas del Tordillo, y
-          el gaucho de la Guardia del Monte</title>
+        <title type="sub">Entre Jacinto Chano, capataz de una estancia en las islas del Tordillo, y el gaucho de la Guardia del Monte</title>
         <author>
           <persName>
             <forename>Bartolomé</forename>
@@ -40,8 +39,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: obras de
-            la Independencia: 1818-1824</name>
+          <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: obras de la Independencia: 1818-1824</name>
           <idno type="URL"
             >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT2.pdf#page=37</idno>
           <availability status="free">
@@ -49,12 +47,7 @@
           </availability>
         </bibl>
         <bibl type="originalSource">
-          <title>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: la
-            Independencia: 1818-1824.</title>
-          <author><forename>Beatriz</forename>
-            <surname>Seibel</surname></author> 1ª ed. – Buenos Aires<pubPlace/>: <editor>Instituto
-            Nacional del Teatro</editor>, pp.<biblScope unit="page" from="70" to="88"
-            >70-88</biblScope>, <date>2007</date>.</bibl>
+          <title>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: la Independencia: 1818-1824.</title><author><forename>Beatriz</forename><surname>Seibel</surname></author> 1ª ed. – Buenos Aires<pubPlace/>: <editor>Instituto Nacional del Teatro</editor>, pp.<biblScope unit="page" from="70" to="88">70-88</biblScope>, <date>2007</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -71,10 +64,11 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-05-30">(tr) initial encoding</change>
-        <change when="2025-07-30">(rdl) revisión</change>
-        <change when="2025-08-17">(gdr) revisión</change>
-        <change when="2025-08-25">(gdr) cambios de mayúscula a minúscula</change>
+        <change when="2025-05-30" who="tr">initial encoding</change>
+        <change when="2025-07-30" who="rdl">revisión</change>
+        <change when="2025-08-17" who="gdr">revisión</change>
+        <change when="2025-08-25" who="gdr">cambios de mayúscula a minúscula</change>
+        <change when="2025-08-28" who="gdr">wikidata y divs</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -84,6 +78,10 @@
         <desc/>
       </event>
     </listEvent>
+     <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000010"
+        passive="https://www.wikidata.org/wiki/Q135989608"/>
+    </listRelation>
   </standOff>
   <text>
     <front>
@@ -101,17 +99,15 @@
           <roleDesc>Capataz de una estancia en las islas del Tordillo</roleDesc>
         </castItem>
         <castItem>
-          <role>CHANO</role>
-          <roleDesc>GAUCHO de la Guardia del Monte</roleDesc>
+          <role>Chano</role>
+          <roleDesc>Gaucho de la Guardia del Monte</roleDesc>
         </castItem>
       </castList>
+      <set><p>Se supone recién llegado a la Guardia del Monte el capataz Chano y el diálogo en casa del paisano Ramón Contreras (que es el gaucho de la Guardia).</p></set>
     </front>
     <body>
       <pb n="75"/>
-      <note type="author">
-        <p><emph>Se supone recién llegado a la Guardia del Monte el capataz Chano y el diálogo en
-            casa del paisano Ramón Contreras (que es el gaucho de la Guardia).</emph></p>
-      </note>
+      <div type="act" n="1">
       <sp who="#contreras">
         <speaker>Contreras</speaker>
         <l>Con que, amigo, ¿diáonde diablos</l>
@@ -161,8 +157,7 @@
         <l>¡Bien haiga quien lo parió!</l>
         <l>Por fin, después de este lance</l>
         <l>del todo sosegó,</l>
-        <l>y hoy lo <term>sobé <note type="editor">agotar con marcha fatigosa</note></term> de
-          mañana</l>
+        <l>y hoy lo <term>sobé <note type="editor">agotar con marcha fatigosa</note></term>de mañana</l>
         <l>antes de salir el sol,</l>
         <l>de suerte que está el caballo</l>
         <l>parejo que da temor.</l>
@@ -190,7 +185,7 @@
         <l>al grito se presentó</l>
         <l>Chano con todos sus hijos.</l>
         <l>¡Ah tiempo aquel, ya pasó!</l>
-        <l>Si jue en la <term>Patria del medio <note type="editor">años 1811/1814</note></term></l>
+        <l>Si jue en la <term>Patria del medio <note type="editor">años 1811-1814</note></term></l>
         <l>lo mesmo me sucedió,</l>
         <l>pero, amigo, en esta Patria…</l>
         <l>Alcancemé un cimarrón.</l>
@@ -247,8 +242,7 @@
       <pb n="79"/>
       <sp who="#contreras">
         <speaker>Contreras</speaker>
-        <l>¿Y no se sabe en qué <term>diasques <note type="editor">disques,
-          intrigas</note></term></l>
+        <l>¿Y no se sabe en qué <term>diasques <note type="editor">intrigas</note></term></l>
         <l>este enriedo consistió?</l>
         <l>¡La pujanza en los paisanos</l>
         <l>que son de mala intención!</l>
@@ -567,7 +561,10 @@
         <l>Ramón se largó al rodeo</l>
         <l>y el diálogo se acabó.</l>
       </sp>
-      <stage>FIN</stage>
-    </body>
+      </div>
+      </body>
+      <back>
+      <trailer>Fin</trailer>
+      </back>
   </text>
 </TEI>
