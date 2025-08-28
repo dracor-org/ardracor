@@ -7,11 +7,12 @@
         <title type="main">Siripo</title>
         <title type="sub">Tragedia en verso</title>
         <author cert="high"><persName>
-            <forename>Manuel José</forename>
+            <forename>Manuel</forename>
+            <forename>José</forename>
             <nameLink>de</nameLink>
             <surname>Lavardén</surname>
           </persName>
-          <idno type="wikidata">Q19417874</idno></author>
+          <idno type="wikidata">Q3286866</idno></author>
         <editor xml:id="rdl">
           <forename>Romina</forename>
           <nameLink>De</nameLink>
