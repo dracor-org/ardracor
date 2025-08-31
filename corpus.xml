@@ -19,7 +19,9 @@
     <encodingDesc>
       <projectDesc>
         <p>
-          ArDraCor is a growing corpus of TEI-encoded of Argentinian plays (18th century–1920). It is a joint effort between scholars and students from the University of Rostock (Germany) and the HD LAB-CONICET (Argentina).
+          ArDraCor is a growing corpus of TEI-encoded of Argentinian plays (18th century–1920).
+          It is a joint effort between scholars and students from the University of Rostock (Germany) and the HD LAB-CONICET (Argentina).
+          For a corpus description and full credits please see the <ref target="https://github.com/dracor-org/ardracor">README on GitHub</ref>.
         </p>
       </projectDesc>
     </encodingDesc>
@@ -29,3 +31,4 @@
     </revisionDesc>
   </teiHeader>
 </teiCorpus>
+
