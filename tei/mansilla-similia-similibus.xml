@@ -49,25 +49,19 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>The text was extracted from the digital source with the tool OCR4all. I was corrected and
-          edited in two versions, one with the original historical spelling and one with modern
-          spelling. The version with modern spelling is used for this DraCor version. Ovious errors
-          in the text were corrected. Capitalized words were converted to lower-case. Page breaks of
-          the original are indicated. Line breaks and hyphenation of the original are not kept. Text
-          that was set in italics in the source is encoded as such. Abbreviations are not expanded.
-          Foreign words are marked up the the 'foreign' element and their language is indicated.</p>
+        <p>The text was extracted from the digital source with the tool OCR4all. It was corrected and edited in two versions, one with the original historical spelling and one with modern spelling. The version with modern spelling is used for this DraCor version. Obvious errors in the text were corrected. Capitalized words were converted to lower-case. Page breaks ofthe original are indicated. Line breaks and hyphenation of the original are not kept. Text that was set in italics in the source is encoded as such. Abbreviations are not expanded.Foreign words are marked up the the 'foreign' element and their language is indicated.</p>
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="Mauricio" sex="MALE">
+          <person xml:id="mauricio" sex="MALE">
             <persName>Mauricio</persName>
           </person>
-          <person xml:id="Luisa" sex="FEMALE">
+          <person xml:id="luisa" sex="FEMALE">
             <persName>Luisa Duvernoy</persName>
           </person>
-          <person xml:id="Carlos" sex="MALE">
+          <person xml:id="carlos" sex="MALE">
             <persName>Carlos Duhamel</persName>
           </person>
         </listPerson>
@@ -138,13 +132,13 @@
               instantes. Luisa sentada tocando; Mauricio apoyado en el piano, mirándola
               afectuosamente.</emph>
           </stage>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿Y así alejados, pasaron Vds. los primeros años de su infancia? ¡Cuán dolorosa debe
               haber sido para Vd. esa separación!</p>
           </sp>
           <pb n="8"/>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con frialdad.</emph></stage>
             <p>De ninguna manera. <stage>(<emph>Reponiéndose</emph>)</stage> O mejor dicho . . . .
@@ -152,123 +146,110 @@
             <p>Pero a decir verdad, los niños hallan tantos medios de distraerse, que soportan mejor
               que los hombres los dolores de la ausencia.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con melancolía.</emph></stage>
             <p>¡Oh! Sí, la ausencia es un tormento muy cruel.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>hace un movimiento de impaciencia.</emph></stage>
             <p>¡Ah!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿No ha recibido Vd. aún su correspondencia?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No, señorita!
                   <!-- question: are abbreviations expanded or not? --><stage><emph>(Ap).</emph></stage>
               ¡Cuánto le ama!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿Y esa licencia de que Vd. me habló el otro día? O será acaso que . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Hable Vd., Luisa . . . . . Por ver una sonrisa <pb n="9"/> en esa encantadora boca .
               . . . . . . . sería capaz de . . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con coquetería.</emph></stage>
             <p>¿De qué, zalamero? . . . . ¿Quizá de ir Vd. mismo a buscarle? . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, rápidamente.</emph></stage>
-            <p>Eso no . . . . <stage><emph>(Con lentitud)</emph></stage> ¿Pero olvida Vd., que su
-              corazón está comprometido?</p>
+            <p>Eso no . . . . <stage><emph>(Con lentitud)</emph></stage> ¿Pero olvida Vd., que su corazón está comprometido?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
-            <p>No lo crea Vd. Mauricio. Un momento no ceso de pensar en aquella a quien él ama. En
-              esa deliciosa criatura a quien creo conocer; con cuánto fuego la pinta.
-                  <stage><emph>(Candorosamente)</emph></stage> ¿Recuerda Vd. las palabras con que
-              termina su penúltima carta?</p>
+            <p>No lo crea Vd. Mauricio. Un momento no ceso de pensar en aquella a quien él ama. En esa deliciosa criatura a quien creo conocer; con cuánto fuego la pinta.
+                  <stage><emph>(Candorosamente)</emph></stage> ¿Recuerda Vd. las palabras con que termina su penúltima carta?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con indiferencia.</emph></stage>
             <p>No las recuerdo . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
-            <p>Son éstas: <stage><emph>(Recitando lentamente)</emph></stage> «Vivo sólo para ella;
-              no sé si todo el mundo ama de igual manera, pero el amor en mi pecho no es un
-              sentimiento egoísta: yo me olvido, me consumo por <pb n="10"/> ese amor; y para evitar
-              una pena a la que amo, diera dichoso cien veces mi vida.»</p>
+            <p>Son éstas: <stage><emph>(Recitando lentamente)</emph></stage> «Vivo sólo para ella; no sé si todo el mundo ama de igual manera, pero el amor en mi pecho no es un sentimiento egoísta: yo me olvido, me consumo por <pb n="10"/> ese amor; y para evitar una pena a la que amo, diera dichoso cien veces mi vida.»</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p><stage><emph>(Ap).</emph></stage> Sabe la carta de memoria . . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Así he de amar yo, cuando ame.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p><stage><emph>(Ap.)</emph></stage> ¡Ay! No sabe ella misma que así lo ama ya.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
-            <p>El amor, créame Vd., es el sufrimiento; ante todo es el sacrificio. <stage><emph>(Con
-                  ingenuidad)</emph></stage> Además, ese es el ejemplo que nos dan los amantes
-              modelos de todos los tiempos; amar es sufrir. ¿No querrá Vd. negarlo? . . .</p>
+            <p>El amor, créame Vd., es el sufrimiento; ante todo es el sacrificio. <stage><emph>(Con ingenuidad)</emph></stage> Además, ese es el ejemplo que nos dan los amantes modelos de todos los tiempos; amar es sufrir. ¿No querrá Vd. negarlo? . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con seriedad.</emph></stage>
-            <p>Y podría decir a Vd., Luisa, que pienso de otra suerte; pero veo sus ideas a ese
-              respecto por demás arraigadas. La influencia que sobre Vd. han ejercido Miss Willson y
-              sus heroínas inglesas, es demasiado intensa.</p>
+            <p>Y podría decir a Vd., Luisa, que pienso de otra suerte; pero veo sus ideas a ese respecto por demás arraigadas. La influencia que sobre Vd. han ejercido Miss Willson y sus heroínas inglesas, es demasiado intensa.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con descontento.</emph></stage>
-            <p>No comprendo lo que quiere Vd. decir; y no <pb n="11"/> tardará, ya lo veo, en
-              llamarme, como de costumbre, sentimental.</p>
+            <p>No comprendo lo que quiere Vd. decir; y no <pb n="11"/> tardará, ya lo veo, en llamarme, como de costumbre, sentimental.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
-            <p>No; pero si su santa madre, que era Francesa, todo lo más Francesa posible, hubiera
-              podido velar ella misma sobre la educación de Vd., de seguro, Luisa, su hija tendría
-              sobre las afecciones verdaderas, ideas menos . . . .</p>
+            <p>No; pero si su santa madre, que era Francesa, todo lo más Francesa posible, hubiera podido velar ella misma sobre la educación de Vd., de seguro, Luisa, su hija tendría sobre las afecciones verdaderas, ideas menos . . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, secamente.</emph></stage>
             <p>¿Menos qué?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con tristeza.</emph></stage>
             <p>Menos malsanas . . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, fríamente.</emph></stage>
             <p>Sí, yo soy demasiado poética, y Vd., tal vez, demasiado . . . . prosaico .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con mal humor.</emph></stage>
             <p>Afortunadamente, mi hermano es todo lo poético que puede apetecerse.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, fríamente.</emph></stage>
             <p>Miss Willson me espera para concluir mi tra<pb n="12"/>ducción del Tasso . . . . Si
@@ -276,7 +257,7 @@
                   la mano a Mauricio.)</emph></stage> A la inglesa . . . . Sin rencor. ¿Verdad?
                   <stage><emph>(Se va).</emph></stage></p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, contemplándola.</emph></stage>
             <p>¡Deliciosa . . . . por demás deliciosa!</p>
@@ -285,79 +266,79 @@
         <div type="scene">
           <head>Escena II.</head>
           <stage>Carlos. — Mauricio.</stage>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, dentro.</emph></stage>
             <p>Aquí debe ser. Una verja, una calle de árboles, y, sobre todo, ni una alma
               viviente.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>La voz de Carlos ! . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, entrando.</emph></stage>
             <p>Y Carlos en cuerpo y alma. <stage><emph>(Se estrechan la mano).</emph></stage></p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <pb n="13"/>
             <speaker>Mauricio.</speaker>
             <p>¡Querido amigo!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Aquí me tienes rápido como el telégrafo y abnegado como . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, interrumpiéndole.</emph></stage>
             <p>Como tú solo.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Bien, bien. Me has llamado, y aquí estoy. ¿Qué mérito hay en ello? ¿Veamos qué
               ocurre? Tus cartas son tan misteriosas, cuanto desconsoladoras.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, suspirando.</emph></stage>
             <p>¡Ay, Carlos! <stage><emph>(Le ofrece una silla y se sientan).</emph></stage> Me
               encuentro en tal estado, que no sé si estoy ya loco a punto de enloquecerme.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, con tranquilidad.</emph></stage>
             <p>Comprendo; estás enamorado; y según he podido vislumbrar, dentro de ese caos de
               interjecciones y adjetivos con que tus cartas están erizadas, sobre todo la última,
               estás ferozmente celoso. ¡Mal negocio, malísimo!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <pb n="14"/>
             <speaker>Mauricio</speaker>
             <stage><emph>, con calor.</emph></stage>
             <p>Sí que lo estoy, y celoso como un tigre, celoso como un Otelo, celoso como . . .
               .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, interrumpiéndole.</emph></stage>
             <p>Como todos los enamorados . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¡Ay! No como todos los enamorados, que mi caso es único, excepcional.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Entiendo. Los enamorados reclaman patente de invención. Pero vamos a lo que interesa,
               o mejor dicho, detengámonos en un punto capital . . . . capitalísimo.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¡Pobre de mi!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Mira, déjate de lamentos y hablemos con formalidad. Podrás decirme, por qué te
               obstinas en casarte con una mujer de quien estás celoso? Y nota que no me extraña esa
@@ -367,66 +348,66 @@
               que no debe tomarse nunca por asalto, a menos de estar seguro de haber abierto brecha,
               ¡qué diantre!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Tienes y no tienes razón . . . . Escúchame con calma Carlos, y sobre todo, no me
               vengas con reproches ni observaciones, por favor, que ya harto castigado estoy de mi
               debilidad . . . . de mi . . . . majadería . . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Sea . . . . Pero, dime a lo menos el nombre del que . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, interrumpiéndole.</emph></stage>
             <p>Es inútil. Ya sabes que al separarnos este invierno, te hablé de un proyecto de
               boda.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Me dijiste que apenas conocías a la joven, pero que ambas familias, o más bien el
               padre de tu futura y el tuyo habían sido antiguos camaradas.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <pb n="16"/>
             <speaker>Mauricio.</speaker>
             <p>Sí; el excelente señor Duvernoy veló de lejos sobre mi educación, después de muerto
               mi padre.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Sí; y hablando con propiedad, descuidó tanto tu educación cuanto tu patrimonio. El
               buen señor se proponía hacer de tí un sabio. ¡Tú un sabio! Peregrina idea, que no
               podía brotar más que de la cabeza de un . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No lo maltrates . . . . vive enteramente consagrado a la ciencia; no se ha ocupado
               nunca en otra cosa. La química le debe grandes descubrimientos.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Enhorabuena; pero la química no le ha enseñado a educar bien a su hija, que, a juzgar
               por tus celos, no es sino una coqueta.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Pobre Luisa! . . . . No le haces justicia.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, pasa a la derecha.</emph></stage>
             <p><stage><emph>(Con incredulidad).</emph></stage> Déjame en paz! <stage><emph>(Cam<pb
                     n="17"/>biando de tono)</emph></stage> ¿Pero querrás decirme si tu rival es
               inglés como la institutriz?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con hesitación.</emph></stage>
             <p>No es inglés.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Lo siento; hubiera servido tus intereses con doble celo, pero hay algo superior a mis
               fuerzas: perdonar a los ingleses la mala pasada que nos jugaron allá en Crecy y en
@@ -434,42 +415,42 @@
               evitarlo. <stage><emph>(Cambiando de tono)</emph></stage> Decías que tu rival . . . .
               . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con calor.</emph></stage>
             <p>Digo que este rival es más temible, más poderoso que todos tus ingleses pasados y
               futuros, porque ese ser poderoso . . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>No te comprendo . . . . ¿está aquí?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No, o más bien . . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Acaba . . . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker><pb n="18"/>Mauricio.</speaker>
             <p>Sí; búrlate de mí; te lo permito; este rival aborrecido, este rival temido es mi
               hermano, un hermano.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>¿Tu hermano? ¡Qué hermano es ese llovido del cielo! ¡Comprendo!
                   <stage><emph>(Pausa).</emph></stage> ¿En tu viaje a Normandía has descubierto que
               papá? . . . Pero, qué estoy diciendo, soy un necio, caramba! La tontería es
               contagiosa.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¿Recuerdas esa fotografía, que iluminaste aquel día de lluvia en el castillo de mi
               tía?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Y quedó tan admirable, que desde entonces me he entregado en cuerpo y alma a ese
               género de trabajo artístico. ¡Qué éxito fabuloso! Pero es indudable, no hay como el
@@ -479,12 +460,12 @@
               qué colorido, qué relieve. <stage><emph>(La contempla como satisfecho de su propia
                   obra)</emph></stage>.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker><pb n="19"/>Mauricio.</speaker>
             <p>Al diablo con tus pintarrajos: ese colorido y ese relieve han causado todo el daño.
               ¡Ay! Carlos, habías favorecido demasiado mi retrato.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Cada vez comprendo menos! Pero, empiezo por negar se pueda quitar a un artista el
               derecho sacratísimo de favorecer un retrato. El público, el vulgo en fin, no lo niego,
@@ -492,100 +473,100 @@
               día en que uno, uno solo quizá, nos ve, nos comprende, créeme, nos ama de veras: para
               ese solo se pintó el retrato, y basta.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Déjame en paz con tus teorías. <stage><emph>(Carlos hace un movimiento de
                   desdén).</emph></stage> Llego, la veo.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Pero ¿a quién? ¿A cuál?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con viveza.</emph></stage>
             <p>A ella, a Luisa! <stage><emph>(Con pasión)</emph></stage> ¡Adorable criatura! . . .
               Su padre quiere casarnos inmediatamente.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker><pb n="20"/>Carlos.</speaker>
             <p>¿Y tú?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Yo deseo ante todo ganar su corazón. Me creía ya en buen camino; pero un día . . .
               .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>¿Un día?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>La bendita fotografía, olvidada entre las hojas de un libro cae, Luisa la recoge, y
               apenas la perciben sus ojos, mi prometida exclama: ¡Ay! ¡Qué joven tan bello!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>¿Y eso qué importa?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Vas a verlo. Después de devorar el retrato con los ojos, sin dejar un instante de
               contemplarlo detenidamente, con voz dulcísima pregunta: «¿Su hermano de Vd.?» Yo me
               turbo, pierdo la serenidad y balbuceante respondo: «Sí, mi hermano.»</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker><pb n="21"/>Carlos.</speaker>
             <p>¡Pero hombre! <stage><emph>(Pasa al lado opuesto).</emph></stage></p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con viveza.</emph></stage>
             <p>Desde ese momento, Luisa no ha cesado de hablarme de ese hermano. Me interroga, me
               acosa y me tortura sin cesar.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, riendo a carcajadas.</emph></stage>
             <p>¡Ja! ¡Ja! ¡Ja! Vaya una comedia!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con gravedad.</emph></stage>
             <p>No te rías, Carlos, que el caso es serio, es doloroso.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Vaya un caso ¡celoso! y celoso de tí mismo. ¡Ah farsante! <stage><emph>(Le golpea el
                   hombro).</emph></stage></p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No te burles, Carlos, que ese hermano es joven, tiene cinco años menos que yo, su
               frente tersa no está surcada por esta cruel cicatriz y en su cabellera ondeada no
               aparece una sola cana.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker><pb n="22"/>Carlos.</speaker>
             <p>¡Calla, necio! ¡Ea, valor! El amor está ahí y es todo lo que hace falta. Mauricio, el
               corazón de una joven es como esos grandes ríos perdidos de la América, que, como ha
               dicho un sabio de chispa, corren a la ventura por esas grandes llanuras, sin saber
               adónde conducir el rico caudal de sus aguas. Hay que decirles: por allí.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>De error en error, de debilidad en debilidad, he llegado a crearme una situación tan
               difícil cuanto peligrosa. Luisa me interroga sin cesar, me hace repetidas preguntas
               sobre ese hermano, quiere saberlo todo, y yo, pobre de mí, en vez de desengañarla . .
               . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, interrumpiéndole.</emph></stage>
             <p>¿Pero? . . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Compadéceme, Carlos. ¿Pero cómo resistir a la tentación? Para comprenderlo, fuera
               necesario haber visto las miradas, las sonrisas de esa encantadora criatura, que al
@@ -595,19 +576,19 @@
               historias y poco a poco, pero bien a mi pesar, he llegado a crearme un hermano
               admirable, perfecto, único . . . . de quien está perdidamente enamorada.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>¡Qué atrocidad!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Y no es eso todo . . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>¿Hay más, todavía?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Ya lo creo; este hermano modelo, me escribe todos los días, largas, interminables
               cartas, que ella oye leer con avidez por encima de mi hombro y yo, pobre de mí,
@@ -615,43 +596,43 @@
               encantada, sus rizos rubios acarician mi rostro, y . . . . ¡Ah! juego terrible y
               delicioso, que destroza mi corazón!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Pero hombre! Vaya una ocurrencia estrafalaria!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker><pb n="24"/>Mauricio.</speaker>
             <p>En esas cartas mi hermano se dice enamorado de . . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, interrumpiéndolo.</emph></stage>
             <p>¡Bravo! ¡Bravo! Bien pensado. Por un lado exaltas la imaginación de la muchacha y por
               otro la desencantas. Perfectamente.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¡Te engañas! Mi incomparable Luisa, que no comprende sino el amor desgraciado, está
               cada día más enamorada.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>¡De modo que esa muchacha está completamente loca!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No; pero es novelesca y tiene diecisiete años.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>¡Eh! Quién sabe! Tu sistema puede dar todavía buen resultado, que Hahnemann, aunque
               desconocido, no deja por eso de ser un gran genio. ¡Hum! ¡Hum!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker><pb n="25"/>Mauricio.</speaker>
             <p>¡Tú siempre homeópata!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Carlos.</speaker>
             <p>Siempre! Mira. <stage><emph>(Saca el reloj)</emph></stage> Me nace una idea; voy a
               dejarla crecer, y dentro de media hora me tienes a tu disposición. Si encontramos lo
@@ -659,14 +640,14 @@
                   bolsillo)</emph></stage>
               <foreign xml:lang="lat">Similia</foreign> . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Te acompañaré hasta la verja. <stage><emph>(Se van).</emph></stage></p>
           </sp>
         </div>
         <div type="scene">
           <head>Escena III.</head>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, sola.</emph></stage>
           </sp>
@@ -694,116 +675,116 @@
         <div type="scene">
           <head>Escena IV.</head>
           <stage>Luisa. — Mauricio <emph>que entra por el fondo.</emph></stage>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Venga Vd. Mauricio, tengo una noticia, una gran noticia.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¿Cuál?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker><pb n="27"/>Luisa</speaker>
             <stage><emph>, con viveza y alegremente.</emph></stage>
             <p>Miss Willson tiene novio; lo adora, se adoran, se casan!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con frialdad.</emph></stage>
             <p>¿Y porqué no?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con extrañeza.</emph></stage>
             <p>Cómo, ¿encuentra Vd. esto natural? Y no parece más sorprendido que si se tratase . .
               . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¿De Vd., Luisa? No, por cierto. Ella ama, <stage><emph>(suspira)</emph></stage> es
               amada. ¿Porqué no ha de casarse?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p><stage><emph>(Ap).</emph></stage> Me ha quitado la gana de reír.
                   <stage><emph>(Alto)</emph></stage> Miss Willson acaba de anunciarme su proyecto de
               matrimonio. Es toda una larga historia, que hasta hasta hoy ha guardado secreta.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Secreto que a Vd. le sorprende y le desagrada un poco, según veo.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker><pb n="28"/>Luisa.</speaker>
             <p>Efectivamente; no comprendo su reserva, ni . . . . pero imagino que con razón, debió
               pensar que el amor de su primo Tom, a quien conozco desde que aprendí a deletrear, no
               podía interesarme mucho; ese primo es un primo <emph>poco interesante</emph>.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No a los ojos de Miss Willson, de seguro. Vd. dice que lo ama mucho!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con desdén.</emph></stage>
             <p>Ella lo dice.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No parece Vd. muy convencida.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Le confieso a Vd. que me cuesta comprender, pueda darse nombre de amor, al
               sentimiento vulgar que inspira un ser tan insignificante . . . tan . . . ¿qué le diré
               a Vd.? . . . tan <emph>cache</emph> como ese primo Tom.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, seriamente.</emph></stage>
             <p>Según Vd., señorita, un enamorado debe tener el aire. . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker><pb n="29"/>Luisa</speaker>
             <stage><emph>, interrumpiéndolo.</emph></stage>
             <p>De un enamorado. Ríase Vd. o ríñame, Mauricio; pero yo no comprendo los enamorados de
               otro modo, que como Romeo, Edgardo o Tancredo. Para mí, un enamorado debe ser joven,
               hermoso, seductor.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¡Ah! Luisa, el amor como los rayos de la luna, embellece todo lo que toca.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, sonriendo.</emph></stage>
             <p>¿Y después dirá Vd. que es prosaico?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No soy yo quien lo digo. Es Vd., y con harta frecuencia.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con coquetería.</emph></stage>
             <p>Pero no siempre lo pienso.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p><stage><emph>(Ap).</emph></stage> ¡Es adorable!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, hablando consigo misma.</emph></stage>
             <p>Jane Eyre amó sin embargo a Rochester, <pb n="30"/> que no era hermoso. Ah, pero
               también . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con ironía.</emph></stage>
             <p>No olvidemos las excepciones.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con expansión.</emph></stage>
             <p>Dígame Vd., Mauricio, francamente, ¿cree Vd. que se pueda querer a un hombre que se
@@ -811,23 +792,23 @@
               oportunas, que tiene las manos coloradas, los ojos grises, chicos e insignificantes y
               los tacos de los zapatos torcidos?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con alguna sequedad.</emph></stage>
             <p>Es Vd. en extremo observadora, señorita.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>No; pero cuando era pequeñita, para mí el pobre Tom era un espanta-pájaros, un
               verdadero mamarracho. Fijo siempre en la ventana de mi sala de estudio, allí en
               Inglaterra; porque ya he dicho a Vd., que pasé cuatro años en casa de los padres de
               Miss Willson.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>se inclina asintiendo.</emph></stage>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>El pobre muchacho, plantado allí como un <pb n="31"/> árbol seco, se pasaba las horas
               con aquellos tristes ojos grises devorándonos con miradas famélicas. Las hermanas de
@@ -835,16 +816,16 @@
               decía a Miss Willson: «Me iré a América!» desde ese momento ya no se le vio más, y lo
               olvidamos.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Sí, lo olvidaron Vds., pero no Miss Willson.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Así parece. Ahora le escribe que ha ganado algún dinero . . . . y que la quiere
               siempre . . . . Es lacónico.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con gravedad.</emph></stage>
             <p>¡Es sublime! . . . <stage><emph>(Con entusiasmo)</emph></stage> ¡Ah! Calle Vd.,
@@ -854,152 +835,152 @@
               sacrificios, representa ese poco de dinero, una miseria, sin duda, que el pobre
               mendigo viene a ofrecer a la mujer que ama?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿Pero? . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker><pb n="32"/>Mauricio.</speaker>
             <p>¡Y ella! Como el creyente que oculta cerca de su corazón la santa reliquia que
               tiembla de ver expuesta a la mirada de los profanos.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, interrumpiéndole.</emph></stage>
             <p>¿De los profanos?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>No se enfade Vd. ¿Quién de Vds., hubiera comprendido el amor del pobre Tom?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Confieso que las cosas vistas así, tienen otra fisonomía. ¡Pobre Miss Willson! ¡Y yo
               que me burlaba de su melancolía y la llamaba solterona sensible!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <stage><emph>¡Niña desapiadada!</emph></stage>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Era una chanza, y le aseguro a Vd. que si hubiera podido soñar, imaginar por un
               momento . . . . la hubiera . . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker><pb n="33"/>Mauricio.</speaker>
             <p>La hubiera Vd. torturado mil veces noche y día.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con sequedad.</emph></stage>
             <p>No me comprende Vd., y siempre será lo mismo.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con gravedad.</emph></stage>
             <p>Lo temo, señorita, y estoy a punto de ausentarme.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, vivamente.</emph></stage>
             <p>¿Cómo? Marcharse? Dejarnos? ¿Y justamente cuando Miss Willson me anuncia su partida
               para el sábado? <stage><emph>(Con resentimiento)</emph></stage> Tiene tanta prisa . .
               . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, tristemente.</emph></stage>
             <p>De ser dichosa . . . . ¡Ah! déjela Vd. partir y que por esta vez su egoísmo . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, interrumpiéndolo.</emph></stage>
             <p>Es Vd. duro, es Vd. injusto! ¿Cómo? No le ocurre a Vd. que yo también quiero? . .
               .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, sin dejarla concluir.</emph></stage>
             <p>¡Ah! sí, su gran pasión . . . . su Romeo.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker><pb n="34"/>Luisa</speaker>
             <stage><emph>, tristemente.</emph></stage>
             <p>No; quiero a Miss Willson, que me ha servido de madre durante cinco años, y me deja
               casi sola.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Perdóneme Vd., Luisa, pero . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Pero Vd. me cree un poco alocada y nada afectuosa.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Yo no he dicho . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Pero Vd. lo piensa, es lo mismo. Y comprendo la ansiedad que tiene Vd. por salir
               cuanto antes de una casa, que está muy lejos de ser divertida.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Para mí ella encierra . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Sí, ella encierra amigos sinceros. Mi padre lo <pb n="35"/> quiere a Vd. como a un
               hijo, y de ese cariño estoy casi celosa.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¿Vd., Luisa?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, tendiéndole la mano.</emph></stage>
             <p>No; seamos hermanos.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, retirando la mano.</emph></stage>
             <p>¡Ah! Eso de ningún modo.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, secamente.</emph></stage>
             <p>Es Vd. rencoroso, caballero; no importa, yo conservaré siempre por Vd. un sentimiento
               fraternal, y en la mesa, se lo prometo, nadie se sentará jamás entre papá y yo.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con ironía.</emph></stage>
             <p>Doy a Vd. expresivas gracias, señorita; pero a pesar del reconocimiento que inunda mi
               corazón, veo que no hemos nacido para . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿Para comprendernos? ¡Ay! Que sí, y si me atreviese . . . . Pero está Vd. hoy tan
               grave, tan <pb n="36"/> solemne, tan hermano mayor, tan viejo, que nunca tendré valor
               . . .</p>
           </sp>
           <!-- Wie das folgende codieren? -->
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker/>
             <stage>Voz <emph>dentro, de</emph> Cárlos<emph>, que dice.</emph></stage>
             <p>¡Mauricio, Mauricio!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Oigo la voz de su amigo de Vd.; quiero que me lo presente, pero antes voy a alisarme
               un poco estos rizos rebeldes: Vd. sabe que soy coqueta. <stage><emph>(Se
                 va).</emph></stage></p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, se inclina.</emph></stage>
             <p>
@@ -1010,7 +991,7 @@
         <div type="scene">
           <head>Escena V.</head>
           <stage>Mauricio. — Cárlos.</stage>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, entrando con un lío de papeles.</emph></stage>
             <p>Aquí me tienes! Uf! Qué detestable pueblacho. <stage><emph>(Abriendo el lío de
@@ -1028,12 +1009,12 @@
               agrego aquí <stage><emph>(indicándolo)</emph></stage> la manga que falta. ¿No te
               parece? <stage><emph>(Sigue pintando).</emph></stage></p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Sí! <stage><emph>(Se pasea por la escena con los brazos cruzados, se sienta a una
                   mesa a escribir cartas, a medida que las escribe, las rompe).</emph></stage></p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, pintando.</emph></stage>
             <p>Tu opinión y hasta un consejo, pueden serme útiles. <stage><emph>(Se enjuga la frente
@@ -1047,11 +1028,11 @@
                   acerca a Mauricio con el pincel en una mano y una fotografía en la
                 otra)</emph></stage> Mira, este es mi plan!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <stage><emph>Perdóname, Cárlos, no tengo tiempo.</emph></stage>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>¿Pero hombre? Te falta el tiempo para recibirme después de haberme tú mismo llamado,
               y que yo . . . . <stage><emph>(corriendo a la mesa).</emph></stage> Me ocurre una idea
@@ -1060,18 +1041,18 @@
               buena voluntad, parecerá toda una Diana Vernon. <stage><emph>(Sigue
                 pintando).</emph></stage></p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, hablando consigo mismo.</emph></stage>
             <p>Escribiré de París.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, con entusiasmo.</emph></stage>
             <p>¡Admirable!¡Admirable! <stage><emph>(Levantándose, a Mauricio)</emph></stage> ¿Qué te
               parece?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, sin hacerle caso.</emph></stage>
             <p>Está muy bien, está perfecto como semejanza, Pero espérame que ya vuelvo.
@@ -1081,7 +1062,7 @@
         <div type="scene">
           <pb n="39"/>
           <head>Escena VI.</head>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, solo, preocupado mirando la fotografía a distancia.</emph></stage>
             <p>¿Cómo semejanza? ¡Pero entonces! <stage><emph>(Riendo a carcajadas)</emph></stage>
@@ -1111,49 +1092,49 @@
         <div type="scene">
           <head>Escena VII.</head>
           <stage>Cárlos. — Luisa.</stage>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, saludando.</emph></stage>
             <p>
               <stage><emph>(Ap).</emph></stage> ¡Precioso enemigo!
                 <stage><emph>(Alto)</emph></stage> Señorita!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Señor! . . . Mauricio no está aquí . . . . Querrá que me presente yo misma? Soy la
               señorita de la casa.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Vd., señorita, Vd. es la hada, el ángel del hogar, y yo su muy humilde siervo y
               servidor Cárlos Durand.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker><pb n="41"/>Luisa.</speaker>
             <p>Mauricio nos ha hablado frecuentemente de Vd., le quiere muchísimo y le alaba con
               entusiasmo.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Sí, Mauricio tiene la manía de los ausentes.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¡Injusticia! ¡Ah! ¿ Llama Vd. a eso manía?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Dice el proverbio que los ausentes no tienen razón, y yo, al contrario, pienso, que
               los ausentes se hallan en mejores condiciones que los presentes. Un ausente a quien no
               se olvida, bien entendido, conservará siempre todas las cualidades morales y físicas
               que nuestro corazón le acordó, un ausente . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Los Ingleses pretenden, que la distancia presta encanto al paisaje; veo que es Vd. de
               esa opinión.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Lo difícil, es salvar los escollos de la presencia real, como dicen los teólogos, de
               ese lente de aumento, si así puedo expresarme, que examina hoy, mañana, siempre, todos
@@ -1162,210 +1143,210 @@
               hacerse valer, hacerse apreciar, hacerse amar de cerca. ¡Oh! eso sí que es difícil,
               imposible casi . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Solo hasta cierto punto. Vea Vd., Mauricio tiene un hermano.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> Ya pareció aquello.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Un hermano más joven que él.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Un joven de sumo mérito.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Sí; aunque no le conozco sino por su retrato y dos o tres cartas . . .</p>
           </sp>
           <pb n="43"/>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p><stage><emph>(Ap.)</emph></stage> ¡Taimadilla!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>. . . Que su hermano me ha enseñado; pero no puedo ocultar a Vd. que la imaginación,
               el talento de ese joven me han parecido muy . . . . <stage><emph>(con cierta
                   exaltación)</emph></stage> muy notables.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, maliciosamente.</emph></stage>
             <p>¡Hum!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿Decía. Vd.?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Nada, señorita! Vd., decía que ese joven poeta . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, interrumpiéndolo.</emph></stage>
             <p>¡Ah! ¿Es también poeta? . . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>No, no; quiero decir que estando lejos y la distancia prestando encanto al paisaje .
               . . .</p>
           </sp>
           <pb n="44"/>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Ya veo que Vd. se acuerda de mi proverbio inglés; pero no exageramos . . . Le
               confieso a Vd. que si el hermano ausente me parece dotado de mucha más ternura, de
               mucha más pasión, Mauricio tiene una lealtad, un carácter tan caballeresco, un no sé
               qué sin nombre, que casi podría competir con las brillantes cualidades del otro.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> Esto <emph>promete</emph>!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Hace dos meses que veo a Mauricio todos los días, siempre. . . . ¡Ah! ¡Señor Durand!
               Cuando pienso que va a dejarnos tan bruscamente, no sé lo que siento!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, con malicia.</emph></stage>
             <p>¿Tal vez Vd., señorita? . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con cierta gravedad.</emph></stage>
             <p>No, no es eso . . . . pero creo que Mauricio sufre, que no es feliz.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, con seriedad.</emph></stage>
             <p>No lo es.</p>
           </sp>
           <pb n="45"/>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿Y sabe Vd., acaso, la causa? Yo bien reconozco que no tengo derecho a sus
               confidencias; pero . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> La reciprocidad . . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Cuando uno se interesa por alguna persona, que se ha acostumbrado a la idea de
               tenerla siempre cerca de sí, como si fuera de la familia, créame Vd., es muy penoso
               verla alejarse así de improviso.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, misteriosamente.</emph></stage>
             <p>Imperioso deber le llama.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con extrañeza y temor.</emph></stage>
             <p>¿Un deber?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>O más bien la voz de su corazón. <stage><emph>(Acercándose con
                 misterio)</emph></stage> Mauricio está perdidamente enamorado.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿De quién?</p>
           </sp>
           <pb n="46"/>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, con pausa.</emph></stage>
             <p>De una mujer.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¡Ah!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Ella le debe la vida, el honor . . . . le adora!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, muy impresionada.</emph></stage>
             <p>¡La vida!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Luisa, ¿ha notado Vd. esa espantosa cicatriz que surca la frente de Mauricio?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿Cómo espantosa?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Es una cuchillada feroz, recibida en defensa de esa mujer celestial.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¡Dios mío!</p>
           </sp>
           <pb n="47"/>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> ¡Ah! Ya he quemado las naves. <stage><emph>(A
                   Luisa)</emph></stage> Ella le llama, ella le espera, ella le suplica, le . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, dejándose caer con abatimiento en una silla.</emph></stage>
             <p>Comprendo . . . . . . que se marche.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, notando el abatimiento de Luisa.</emph></stage>
             <p>
               <stage><emph>(Ap).</emph></stage> Tanto peor; ya esta dicho.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, tristemente.</emph></stage>
             <p>¡Quién lo hubiera soñado!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Pero dejemos, señorita, un asunto tan penoso; los detalles son desgarradores. ¿Es Vd.
               aficionada a la pintura?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con distracción.</emph></stage>
             <p>Un poco.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, con petulancia.</emph></stage>
             <p>No me falta cierto talento como aficionado; talento que pongo enteramente a su
               disposición. ¿Dibuja Vd.?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Un poco.</p>
           </sp>
           <pb n="48"/>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> Se vuelve lacónica
@@ -1375,58 +1356,58 @@
               Vd. quiere, yo trataré señorita, no de reemplazar a este simpático ausente, pero si
               Vd. no se niega, trataremos yo y mis pinceles de llenar tal vacío . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con voz alterada.</emph></stage>
             <p>Caballero . . . . si Vd. me permite . . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Mucho va Vd. a echarle de menos.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, suspirando.</emph></stage>
             <p>Mucho.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Pero poco a poco, el tiempo . . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, levantándose.</emph></stage>
             <p>Si Vd. me permite . . . . algunas ocupaciones.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> Me he precipitado! <stage><emph>(Sacando del
                   bolsillo <pb n="49"/> algunas vistas fotográficas).</emph></stage> ¿Qué le parecen
               a Vd. estas fotografías; son monumentos de París.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, fríamente.</emph></stage>
             <p>Están bonitas.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Sí, esta fuente es admirable, y una vez los árboles iluminados, ya verá Vd. ¿Ha
               probado Vd. a iluminar alguna vez fotografías, señorita?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, distraída.</emph></stage>
             <p>No, sen̄or.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Yo me encargo de iniciar a Vd. en los misterios de ese arte que conozco a fondo; pero
               el retrato es mi fuerte. <stage><emph>(Luisa se dirige a la mesa y Cárlos se interpone
                   en el camino).</emph></stage></p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, vivamente.</emph></stage>
             <p>No, señorita, esos no están concluidos! <stage><emph>(Ap).</emph></stage> Diantre,
@@ -1437,21 +1418,21 @@
               para sanar todos los males; hasta los incurables.</p>
           </sp>
           <pb n="50"/>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¿Todos los males?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, con tono patético.</emph></stage>
             <p>Hasta el amor desgraciado!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, palpitante.</emph></stage>
             <p>¿Cómo?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> Rendida! <stage><emph>(Alto)</emph></stage> Hace
@@ -1461,26 +1442,26 @@
               . . . yo no sé qué razones me da; como si una obra tan perfecta, a pesar de su defecto
               capital . . .</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con viva curiosidad.</emph></stage>
             <p>¿Qué defecto?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> Bien lo sabía! <stage><emph>(Alto)</emph></stage> Si
               la tuviese aquí, ya se lo indicaría a Vd.</p>
           </sp>
           <pb n="51"/>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, con hesitación.</emph></stage>
             <p>Creo que Mauricio, me la ha mostrado . . . no recuerdo bien, pero es posible, se haya
               quedado olvidada en mi tablero de dibujo. Voy a buscarla, y si la encuentro . . .
               .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Mil gracias! <stage><emph>(Ap).</emph></stage> No irás muy lejos, inocentilla!
                   <stage><emph>(Luisa se va).</emph></stage></p>
@@ -1490,53 +1471,53 @@
           <head>Escena VIII.</head>
           <stage>Cárlos. — Mauricio <emph>de uniforme.</emph>
           </stage>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>
               <stage><emph>(Ap).</emph></stage> Ya no es posible vacilar!
                 <stage><emph>(Alto)</emph></stage> Cárlos! . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, volviéndose, con extrañeza.</emph></stage>
             <p>¿Qué significa ese traje? Estás bellísimo!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>He decidido visitar hoy mismo al general Darvoy, que se halla en el castillo de Ivri;
               pienso volver al servicio activo.</p>
           </sp>
           <pb n="52"/>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Desdichado, alejarte ¡cuando acabo de quemar tus naves!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Cesa de tratar a la ligera un asunto del cual depende mi felicidad, mi razón, mi
               vida. ¿No ves que adoro a ese ángel con una pasión insensata, con un amor de viejo;
               ella misma lo ha dicho, el amor de los viejos es exigente, desconfiado y . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>¿Pero?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Ya sé lo que vas a decirme . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>No, que no lo sabes!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Ya sé que vas a reprocharme que tengo miedo, que tiemblo, que retrocedo delante de
               una sombra; todo ello es cierto. ¿Pero, acaso soy yo el primer valiente a quien lo
               impalpable haya hecho retroceder?</p>
           </sp>
           <pb n="53"/>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>¡Te has vuelto loco! ¡A qué viene esa manía de echártelas ahora de viejo, de
               octogenario; eso es absurdo! ¡Vaya un amor estúpido, Mauricio! Felizmente aquí estoy
@@ -1544,56 +1525,56 @@
               verdad, te ve como debe verte. <stage><emph>(Presentándolo al público)</emph></stage>
               Joven, elegante, con treinta años apenas y adorado por una mujer encantadora.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¿Qué has hecho?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Ninguna atrocidad, te lo prometo . . . . <stage><emph>(Con tono
                 misterioso)</emph></stage> Puedes marcharte . . . . pero no de veras . . . . anda
               que tu adorada te espera . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>Pero ¿qué adorada?</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, con solemnidad.</emph></stage>
             <p>Una mujer que te debe la vida, el honor y a quien tu ausencia mata. He compuesto
               sobre ese punto una novela a la cual no le falta . . .</p>
           </sp>
           <pb n="54"/>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¿Qué has hecho, desgraciado? ¡Me has perdido sin remedio!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>¡Al contrario! Te he salvado, que si otra te ama, ella te amará, eso es lógico.</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con abatimiento.</emph></stage>
             <p>¡Ah! ¡Cárlos! ¿Qué has hecho? Pero te perdono.</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>Me perdonas, ¡no faltaba más!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¡Ay! Tu celo imprudente me cierra todo camino. ¿Cómo, después de la historia
               ridícula? . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>¡Ridícula! ¡Mil gracias! <stage><emph>(Cambian de lugar en la escena).</emph></stage>
               Si hubieras visto la carita larga, con que escuchaba mi charla la romanesca Luisa,
               cambiarías de epíteto, cruel amigo!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>¡Ah! Cárlos. ¿Cómo después de todo lo que <pb n="55"/> has inventado, para salvarme,
               no lo niego; cómo hallaré valor para decirle: «Alma de mi alma Luisa» . . .</p>
@@ -1604,119 +1585,119 @@
           <stage>Los mismos. — Luisa, <emph>aparece, al oír las últimas palabras de Mauricio se
               detiene.</emph>
           </stage>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>
               <stage><emph>(Ap. emocionada).</emph></stage> ¡Mi nombre!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
             <p>. . «Luisa mía, ese hermano que crees amar, no existió nunca sino en tu imaginación;
               y ese amor que has consagrado a un fantasma destroza sin piedad el corazón del pobre
               Mauricio!» <stage><emph>(Oculta lloroso el rostro entre las manos).</emph></stage></p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>¡Cielos! <stage><emph>(El medallón que Luisa trae en la mano cae al suelo y al ruido
                   se vuelven Cárlos y Mauricio).</emph></stage></p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, se adelanta y recoge el medallón.</emph></stage>
             <p>¿Qué es esto? ¿Un retrato? La fotografía de . . .</p>
           </sp>
           <pb n="56"/>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, adelantándose lentamente y fijando los ojos con seriedad, en
                 Mauricio.</emph></stage>
             <p>De un gran culpable . . . . de un embustero, que yo debiera castigar . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con ternura, acercándose a Luisa.</emph></stage>
             <p>¡Ah! Luisa, esa palabra . . .</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, interponiéndose, con gravedad afectada.</emph></stage>
             <p>El deber . . . . . la voz de su corazón . . . . . una mujer.</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, sonriéndose, a Cárlos.</emph></stage>
             <p>Quite Vd., que ya no creo nada de eso! <stage><emph>(A Mauricio, con
                 seriedad)</emph></stage> ¿O más bien, Mauricio, qué debo creer?</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, tomándole las manos con ternura.</emph></stage>
             <p>¡Qué era un insensato; que te adoro! <stage><emph>(Pausa).</emph></stage></p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, a Luisa.</emph></stage>
             <p>¿Y Vd., pichona?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, irónicamente.</emph></stage>
             <p>¡Cómo no me ha salvado la vida!</p>
           </sp>
           <pb n="57"/>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, con pasión.</emph></stage>
             <p>¡Pero te doy la mía!</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa.</speaker>
             <p>Acepto; pero que no se me engañe más; pues de otra suerte . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, estrechándole la mano con pasión.</emph></stage>
             <p>¡Luisa, Luisa mía!</p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos.</speaker>
             <p>. . Tomará el hermano! <stage><emph>(Entrega el medallón a
               Mauricio).</emph></stage></p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, confusa, a Cárlos.</emph></stage>
             <p>¡Ah! calle Vd.! . . .</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph>, enseñando el medallón a Luisa.</emph></stage>
             <p>¿Y ahora qué hacemos del retrato?</p>
           </sp>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, a Mauricio.</emph></stage>
             <p>¡No seas cruel!</p>
           </sp>
-          <sp who="#Mauricio">
+          <sp who="#mauricio">
             <speaker>Mauricio</speaker>
             <stage><emph> entregando a Luisa el retrato.</emph></stage>
             <p>Es tuyo, no lo olvides nunca.</p>
           </sp>
           <pb n="58"/>
-          <sp who="#Luisa">
+          <sp who="#luisa">
             <speaker>Luisa</speaker>
             <stage><emph>, mirando el retrato, a Mauricio con tono cariñoso.</emph></stage>
             <p>Eso jamás . . . . señor celoso! <stage><emph>(Se toman las manos; hablan
                   bajo).</emph></stage></p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, a Mauricio.</emph></stage>
             <p>¡Quéjate ahora! El retrato estaba favorecido! <stage><emph>(Mauricio sonríe con
                   satisfacción).</emph></stage></p>
           </sp>
-          <sp who="#Carlos">
+          <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, al público.</emph></stage>
             <p>¿Señores, tenía yo razón? Es indudable: <foreign xml:lang="lat"><emph>Similia
@@ -1727,9 +1708,7 @@
       </div>
     </body>
     <back>
-      <div>
-        <p>Fin.</p>
-      </div>
-    </back>
+      <trailer>Fin</trailer>
+      </back>
   </text>
 </TEI>
