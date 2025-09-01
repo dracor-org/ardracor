@@ -123,8 +123,8 @@
       </set>
     </front>
     <body>
-      <div type="act">
-        <div type="scene">
+      <div type="act" n="1">
+        <div type="scene" n="1">
           <head>Escena primera.</head>
           <stage>Mauricio. — Luisa.</stage>
           <stage>
@@ -263,7 +263,7 @@
             <p>¡Deliciosa . . . . por demás deliciosa!</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" n="2">
           <head>Escena II.</head>
           <stage>Carlos. — Mauricio.</stage>
           <sp who="#carlos">
@@ -645,7 +645,7 @@
             <p>Te acompañaré hasta la verja. <stage><emph>(Se van).</emph></stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" n="3">
           <head>Escena III.</head>
           <sp who="#luisa">
             <speaker>Luisa</speaker>
@@ -672,7 +672,7 @@
             tan reservada, tan . . . . . . fea. Está enamorada y es correspondida; no deja de ser
             gracioso y me hace reír a pesar mío. <stage><emph>(Riendo).</emph></stage></p>
         </div>
-        <div type="scene">
+        <div type="scene" n="4">
           <head>Escena IV.</head>
           <stage>Luisa. — Mauricio <emph>que entra por el fondo.</emph></stage>
           <sp who="#luisa">
@@ -988,7 +988,7 @@
               mayor! . . .</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" n="5">
           <head>Escena V.</head>
           <stage>Mauricio. — Cárlos.</stage>
           <sp who="#carlos">
@@ -1059,7 +1059,7 @@
                   <stage><emph>(Se va).</emph></stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" n="6">
           <pb n="39"/>
           <head>Escena VI.</head>
           <sp who="#carlos">
@@ -1089,7 +1089,7 @@
                   Luisa.</emph></stage> Pero aquí está el enemigo. Alerta . . .</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" n="7">
           <head>Escena VII.</head>
           <stage>Cárlos. — Luisa.</stage>
           <sp who="#carlos">
@@ -1467,7 +1467,7 @@
                   <stage><emph>(Luisa se va).</emph></stage></p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" n="8">
           <head>Escena VIII.</head>
           <stage>Cárlos. — Mauricio <emph>de uniforme.</emph>
           </stage>
@@ -1580,7 +1580,7 @@
               no lo niego; cómo hallaré valor para decirle: «Alma de mi alma Luisa» . . .</p>
           </sp>
         </div>
-        <div type="scene">
+        <div type="scene" n="9">
           <head>Escena IX.</head>
           <stage>Los mismos. — Luisa, <emph>aparece, al oír las últimas palabras de Mauricio se
               detiene.</emph>
