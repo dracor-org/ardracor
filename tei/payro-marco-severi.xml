@@ -61,58 +61,58 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person gender="MALE" xml:id="cajista">
+          <person sex="MALE" xml:id="cajista">
             <persName>Cajista</persName>
           </person>
-          <person gender="MALE" xml:id="benito">
+          <person sex="MALE" xml:id="benito">
             <persName>Benito</persName>
           </person>
-          <person gender="MALE" xml:id="juan">
+          <person sex="MALE" xml:id="juan">
             <persName>Juan</persName>
           </person>
-          <person gender="MALE" xml:id="escribiente">
+          <person sex="MALE" xml:id="escribiente">
             <persName>Escribiente</persName>
           </person>
-          <person gender="FEMALE" xml:id="teresa">
+          <person sex="FEMALE" xml:id="teresa">
             <persName>Teresa</persName>
           </person>
-          <person gender="MALE" xml:id="antonio">
+          <person sex="MALE" xml:id="antonio">
             <persName>Antonio</persName>
           </person>
-          <person gender="MALE" xml:id="cajistas">
+          <person sex="MALE" xml:id="cajistas">
             <persName>Cajistas</persName>
           </person>
-          <person gender="MALE" xml:id="gaspar">
+          <person sex="MALE" xml:id="gaspar">
             <persName>Gaspar</persName>
           </person>
-          <person gender="FEMALE" xml:id="maria">
+          <person sex="FEMALE" xml:id="maria">
             <persName>María</persName>
           </person>
-          <person gender="MALE" xml:id="juez">
+          <person sex="MALE" xml:id="juez">
             <persName>Juez</persName>
           </person>
-          <person gender="MALE" xml:id="caj2">
+          <person sex="MALE" xml:id="caj2">
             <persName>Cajista 2.°</persName>
           </person>
-          <person gender="MALE" xml:id="agente">
+          <person sex="MALE" xml:id="agente">
             <persName>Agente</persName>
           </person>
-          <person gender="FEMALE" xml:id="oficial">
+          <person sex="FEMALE" xml:id="oficial">
             <persName>Oficial de policía</persName>
           </person>
-          <person gender="MALE" xml:id="caj1">
+          <person sex="MALE" xml:id="caj1">
             <persName>Cajista 1.°</persName>
           </person>
-          <person gender="MALE" xml:id="carabinero">
+          <person sex="MALE" xml:id="carabinero">
             <persName>Carabinero</persName>
           </person>
-          <person gender="MALE" xml:id="luis">
+          <person sex="MALE" xml:id="luis">
             <persName>Luis</persName>
           </person>
-          <person gender="MALE" xml:id="jerman">
+          <person sex="MALE" xml:id="jerman">
             <persName>Jerman</persName>
           </person>
-          <person gender="MALE" xml:id="suarez">
+          <person sex="MALE" xml:id="suarez">
             <persName>Suárez</persName>
           </person>
         </listPerson>
