@@ -55,25 +55,25 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="rosa" gender="FEMALE">
+          <person xml:id="rosa" sex="FEMALE">
             <persName>Rosa</persName>
           </person>
-          <person xml:id="javier" gender="MALE">
+          <person xml:id="javier" sex="MALE">
             <persName>Javier</persName>
           </person>
-          <person xml:id="benito" gender="MALE">
+          <person xml:id="benito" sex="MALE">
             <persName>Benito</persName>
           </person>
-          <person xml:id="arganto" gender="MALE">
+          <person xml:id="arganto" sex="MALE">
             <persName>Arganto</persName>
           </person>
-          <person xml:id="sacristan" gender="MALE">
+          <person xml:id="sacristan" sex="MALE">
             <persName>Sacristán</persName>
           </person>
-          <person xml:id="silvestre" gender="MALE">
+          <person xml:id="silvestre" sex="MALE">
             <persName>Silvestre</persName>
           </person>
-          <person xml:id="abogado" gender="MALE">
+          <person xml:id="abogado" sex="MALE">
             <persName>Abogado</persName>
           </person>
         </listPerson>
