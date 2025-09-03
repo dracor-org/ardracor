@@ -65,7 +65,7 @@
           <person xml:id="lara" sex="FEMALE">
             <persName>Lara</persName>
           </person>
-          <person xml:id="miranda" sex="FEMALE">
+          <person xml:id="miranda" sex="MALE">
             <persName>Miranda</persName>
           </person>
           <person xml:id="lambaré" sex="MALE">
