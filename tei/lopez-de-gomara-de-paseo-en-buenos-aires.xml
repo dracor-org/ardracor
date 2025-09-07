@@ -297,7 +297,7 @@
           <person xml:id="consignatario-1" sex="MALE">
             <persName>Consignatario de frutos</persName>
           </person>
-          <person xml:id="cosignatario-2" sex="MALE">
+          <person xml:id="consignatario-2" sex="MALE">
             <persName>Consignatario de frutos 2º</persName>
           </person>
           <person xml:id="corredor-granos" sex="MALE">
@@ -1546,7 +1546,7 @@
               <speaker>Conde:</speaker>
               <l>(Lo que no tengo es gabán).</l>
             </sp>
-            <sp who="#vendedor">
+            <sp who="#vendedor-diarios">
               <speaker>Vendedor:</speaker>
               <l><emph>La Nación, La Prensa</emph></l>
             </sp>
@@ -2007,12 +2007,12 @@
             <head>Escena XII</head>
             <stage><emph>Conde, Cuervitos 1º y 2º (cómicamente vestidos de gomosos).<note>Gomosos:
                   Jóvenes elegantes con goma o fijador en el pelo.</note></emph></stage>
-            <sp who="#cuervito-1:">
+            <sp who="#cuervito-1">
               <speaker>Cuervito 1º:</speaker>
               <l>Ese nos ha conocido.</l>
               <stage><emph>(Al cruzarse con D. Diego).</emph></stage>
             </sp>
-            <sp who="#cuervito-2:">
+            <sp who="#cuervito-2">
               <speaker>Cuervito 2º:</speaker>
               <l>No importa porque se va.</l>
             </sp>
@@ -3068,7 +3068,7 @@
               <l>tome su onza.</l>
             </sp>
             <pb n="260"/>
-            <sp who="#conde:">
+            <sp who="#conde">
               <speaker>Conde:</speaker>
               <l>No la tomo.</l>
             </sp>
@@ -4609,7 +4609,7 @@
               <l>¡Cuánto aplauso! ¡Qué entusiasmo!</l>
               <l>No se ha visto cosa igual.</l>
             </sp>
-            <sp who="#corista-a">
+            <sp who="#corista-1">
               <speaker>Corista 1ª:</speaker>
               <l>Porque tiene buenas piernas</l>
               <l>y muy poca dignidad,</l>
@@ -5398,7 +5398,7 @@
               <l>Soy señores el papel</l>
               <l>que fabrica Ángel Estrada.</l>
             </sp>
-            <sp who="#la_cerveza">
+            <sp who="#la-cerveza">
               <speaker>La cerveza:</speaker>
               <l>Fuerte y sin delicadeza</l>
               <l>pero fresca linda chica</l>
