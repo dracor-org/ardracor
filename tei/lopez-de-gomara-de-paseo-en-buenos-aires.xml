@@ -375,6 +375,9 @@
       <event type="print" when="1889">
         <desc/>
       </event>
+      <event type="premiere" when="1890">
+        <desc/>
+      </event>
     </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/arg0000015"
