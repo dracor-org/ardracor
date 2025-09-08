@@ -3068,7 +3068,7 @@
               <l>tome su onza.</l>
             </sp>
             <pb n="260"/>
-            <sp who="#conde">
+            <sp who="#conde-tupe">
               <speaker>Conde:</speaker>
               <l>No la tomo.</l>
             </sp>
@@ -5398,7 +5398,7 @@
               <l>Soy señores el papel</l>
               <l>que fabrica Ángel Estrada.</l>
             </sp>
-            <sp who="#la-cerveza">
+            <sp who="#cerveza">
               <speaker>La cerveza:</speaker>
               <l>Fuerte y sin delicadeza</l>
               <l>pero fresca linda chica</l>
