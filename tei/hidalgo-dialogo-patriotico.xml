@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xml:id="ar000010" xml:lang="spa" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000010" xml:lang="spa">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,8 +40,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: obras de la Independencia: 1818-1824</name>
-          <idno type="URL"
-            >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT2.pdf#page=37</idno>
+          <idno type="URL">https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT2.pdf#page=37</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
@@ -79,8 +78,7 @@
       </event>
     </listEvent>
      <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000010"
-        passive="https://www.wikidata.org/wiki/Q135989608"/>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000010" passive="https://www.wikidata.org/wiki/Q135989608"/>
     </listRelation>
   </standOff>
   <text>
