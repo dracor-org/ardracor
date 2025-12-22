@@ -42,7 +42,7 @@
             <p>In the public domain.</p>
           </availability>
         </bibl>
-        <bibl type="originalSource"><title>Antología de poetas argentinos</title><biblScope unit="tomo">II - La Revolución</biblScope>
+        <bibl type="originalSource"><title level="m">Antología de poetas argentinos</title><biblScope unit="volume">II - La Revolución</biblScope>
           <author><forename>Juan</forename><surname>de la C. Puig</surname></author>
           <editor>Martín Biedma e hijo</editor><pubPlace>Buenos Aires</pubPlace>, pp.<biblScope unit="page" from="70" to="112">70/112</biblScope><date>1910</date>.</bibl>
       </sourceDesc>
@@ -82,11 +82,11 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-05-21" who="rdl">inicia la corrección del XML descargado de Ezdrama por
+        <change when="2025-05-21" who="#rdl">inicia la corrección del XML descargado de Ezdrama por
           Ulrike</change>
-        <change when="2025-07-19" who="gdr">revisión de la ficha y añadido de roleDesc</change>
-         <change when="2025-08-25" who="gdr">mayúsculas a minúsculas en nombres, castItem añadido y corrección de atributo</change>
-         <change when="2025-08-25" who="gdr">última revisión de la ficha con actualizaciones</change>
+        <change when="2025-07-19" who="#gdr">revisión de la ficha y añadido de roleDesc</change>
+         <change when="2025-08-25" who="#gdr">mayúsculas a minúsculas en nombres, castItem añadido y corrección de atributo</change>
+         <change when="2025-08-25" who="#gdr">última revisión de la ficha con actualizaciones</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -100,7 +100,7 @@
       </event>
     </listEvent>
      <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000004"
+      <relation name="wikidata" active="https://dracor.org/entity/ar000004"
         passive="https://www.wikidata.org/wiki/Q136032630"/>
     </listRelation>
   </standOff>

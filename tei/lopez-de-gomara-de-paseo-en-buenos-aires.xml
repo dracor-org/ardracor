@@ -40,7 +40,7 @@
             orígenes a la actualidad.</title>
           <biblScope unit="volume">Tomo 5 (1885-1899). Obras de la Nación Moderna.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
-            <date>2008</date>, pp. <biblScope unit="page">207–313</biblScope>. <idno type="URL"
+            <date>2008</date>, pp. <biblScope unit="page" from="207" to="213">207–313</biblScope>. <idno type="URL"
             >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT5.pdf</idno>
           <availability status="free">
             <p>No specific license.</p>
@@ -622,9 +622,9 @@
           <div type="scene" n="2">
             <head>Escena II</head>
             <stage>
-              <p>El Oficial de policía. El Vigilante conduciendo al espectador o sea Diego. El
-                Sargento que figura estar de guardia mientras dura el cuadro.</p>
-              <p>Hablado.</p>
+              <p><emph>El Oficial de policía. El Vigilante conduciendo al espectador o sea Diego. El
+                  Sargento que figura estar de guardia mientras dura el cuadro.</emph></p>
+              <p><emph>Hablado.</emph></p>
             </stage>
             <sp who="#oficial-policia">
               <speaker>Oficial:</speaker>
@@ -1097,7 +1097,7 @@
               <l>¡me gusta mucho vivir!</l>
             </sp>
             <sp who="#sargento-policia">
-              <speaker>SARGENTO:</speaker>
+              <speaker>Sargento:</speaker>
               <l>Ya se puede usted servir.</l>
               <stage><emph>(Dándole el mate).</emph></stage>
             </sp>
@@ -1218,7 +1218,7 @@
               <l>nunca dejé de cumplir.</l>
             </sp>
             <sp who="#diego">
-              <speaker>DIEGO:</speaker>
+              <speaker>Diego:</speaker>
               <l>(A qué oír tanta tontería)</l>
               <stage><emph>(Alto al Conde)</emph></stage>
               <l>Voy un sueñecillo a echar.</l>
@@ -2083,13 +2083,13 @@
               <speaker>Conde:</speaker>
               <l>¿Quién es ese pobrecito?</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Ya quisiera ser como él</l>
               <l>aunque roto y engrasado.</l>
             </sp>
             <stage><emph>Aparece El Oro.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Y ese otro?</l>
             </sp>

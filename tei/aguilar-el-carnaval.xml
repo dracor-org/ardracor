@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000019" xml:lang="spa">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title type="main">El carnaval</title>
+           <title type="sub">Diálogo entre seis personas</title>
+           <!-- Sainete urbano -->
+           <author>
+             <persName>
+               <forename>Cristóbal de</forename>
+               <surname>Aguilar</surname>
+             </persName>
+           </author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+     <front>
+       <pb n="23"/>
+       <castList>
+         <head>Personajes</head>
+         <castItem>
+           <role>Don Arnesto de Silba,</role>
+           <roleDesc><emph>hombre formal</emph></roleDesc>
+         </castItem>
+         <castItem>
+           <role></role>
+         </castItem>
+         <!-- Bitte die folgenden Rollen ebenso codieren:
+         (Kapitälchen/Wörter ganz in Großbuchstaben bitte in normale
+         Schreibung mit Kleinbuchstaben überführen: ) -->
+         DOÑA ANDREA ARCE, mujer de don Arnesto, señora de peso
+         DON MIGUEL DE LUZA, mozo de juicio
+         POLONIA, criada
+         DOÑA SEGUNDA CASCABEL, viuda, tormenta
+         DON FADRIQUE VIVERO, tronera
+       </castList>
+     </front>
+      <body>
+         <div type="scene" n="1">
+           <stage><emph>SALA ADORNADA EN QUE ESTARÁN DON ARNESTO, DON MIGUEL Y
+             DOÑA ANDREA, ESTA TOCANDO EL SALTERIO, Y LOS TRES CANTANDO
+             BOLERAS, COMO SE SIGUE.</emph></stage>
+           <!-- <stage> ist für Regieanweisungen; 
+           <emph> ist für Kursive -->
+           <sp who="#don-arnesto #don-miguel #dona-andrea"><!-- für jeden Redebeitrag
+           ein <sp>-Element, in dem dann <speaker> und <l> und ggf. <stage> 
+           enthalten sind -->
+             <!-- wer spricht wird in who verlinkt, pro sprecher mit # und dann 
+             der Name (bitte einheitlich die Namen verwenden) -->
+             <speaker></speaker><!-- wenn im Text explizit kein Sprecher steht,
+             dann das Element leer lassen -->
+             <lg><!-- <lg> ist für Strophen, falls eine solche Struktur sichtbar ist -->
+               <l>En las carnestolendas</l>
+               <l>por desventura,</l><!-- <l> für einzelne Verszeilen -->
+               <l>a las más de las gentes</l>
+               <l>les da locura</l>
+               <l>de que no sanan</l>
+               <l>hasta pasar tres días,</l>
+               <l>que es cosa rara.</l>
+             </lg>
+             <lg>
+               <l>Aun a gentes de canas,</l>
+               <l>por experiencia,</l>
+               <l>se les tiene observado</l>
+               <l>les da demencia,</l>
+               <l>mal insanable,</l>
+               <l>de que al año siguiente</l>
+               <l>siempre recaen.</l>
+             </lg>
+           </sp>
+           <pb n="24"/><!-- das ist ein Seitenumbruch mit Seitenzahl in n.
+           Seitenumbruchselement werden immer VOR Beginn der jeweiligen Seite 
+           eingefügt, nicht am Ende -->
+           <stage><emph>Tocan la puerta.</emph></stage>
+           <sp who="#dona-andrea">
+             <speaker>Andrea:</speaker>
+             <l>¡Polonia, mira quién toca</l>
+             <l>la puerta, camina presto!</l>
+           </sp>
+           <sp who="#polonia">
+             <speaker>Polonia:</speaker>
+             <l>Mi sa<note>Sa: señora.</note></l>
+             <l>Segunda es quien viene.</l>
+           </sp>
+           <sp who="#dona-andrea">
+             <speaker>Andrea:</speaker>
+             <l part="I">¿Con quién?</l><!-- part="I" meint, dass hier ein Vers beginnt -->
+           </sp>
+           <sp who="#polonia">
+             <speaker>Polonia:</speaker>
+             <l part="F">Con un caballero.</l><!-- der hier ende mit part="F" -->
+           </sp>
+           <sp who="#dona-andrea">
+             <speaker>Andrea:</speaker>
+             <l>Diles que entren, y vete</l>
+             <l>a traer las luces luego.</l>
+           </sp>
+           <stage><emph>Vase Polonia.</emph></stage>
+           <stage><emph>Entran doña Segunda y don Fadrique.</emph></stage>
+           <sp who="#dona-segunda">
+             <speaker>Segunda:</speaker>
+             <l>Me alegro de ver a ustedes</l>
+             <l>sin novedad. ¿Usted bueno,</l>
+             <l>señor don Arnesto? ¡Vaya,</l>
+             <l>madama, cuánto me alegro</l>
+             <l>de hallarla tan divertida!</l>
+             <l>Así se hace en este tiempo.</l>
+           </sp>
+         </div>
+      </body>
+   </text>
+</TEI>
