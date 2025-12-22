@@ -37,8 +37,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Poesias de Juan Cruz Varela y las tragedias Dido y Argia</name>
-          <idno type="URL"
-            >https://upload.wikimedia.org/wikipedia/commons/4/49/Poesias_-_Juan_Cruz_Varela.pdf</idno>
+          <idno type="URL">https://upload.wikimedia.org/wikipedia/commons/4/49/Poesias_-_Juan_Cruz_Varela.pdf</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
@@ -95,8 +94,7 @@
       </event>
     </listEvent>
      <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000005"
-        passive="https://www.wikidata.org/wiki/Q136046283"/>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000005" passive="https://www.wikidata.org/wiki/Q136046283"/>
     </listRelation>
   </standOff>
   <text>

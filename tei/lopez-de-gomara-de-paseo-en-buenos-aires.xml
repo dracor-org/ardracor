@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000015" xml:lang="spa">
   <teiHeader>
@@ -25,11 +25,9 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -380,8 +378,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000015"
-        passive="http://www.wikidata.org/entity/"/>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000015" passive="http://www.wikidata.org/entity/"/>
     </listRelation>
   </standOff>
   <text>
@@ -1297,8 +1294,7 @@
               <l>¡Calle! Cuervitos tenemos.</l>
             </sp>
             <stage><emph>Música.</emph></stage>
-            <sp who="#cuervito-1 #cuervito-2
-              #cuervito-3">
+            <sp who="#cuervito-1 #cuervito-2               #cuervito-3">
               <speaker>Los tres Cuervitos:</speaker>
               <l>Somos los cuervitos</l>
               <l>unos compadritos</l>
@@ -1324,8 +1320,7 @@
               <l>Brillantes y dinero</l>
               <l>son lo de más valor.</l>
             </sp>
-            <sp who="#cuervito-1 #cuervito-2
-              #cuervito-3">
+            <sp who="#cuervito-1 #cuervito-2               #cuervito-3">
               <speaker>Los tres:</speaker>
               <l>Buenas valiendo algo</l>
               <l>todas las cosas son</l>
@@ -1579,10 +1574,8 @@
               <stage><emph>(Gritando)</emph></stage>
               <l><emph>Patria Italiana, El Censor,</emph></l>
               <l><emph>Courrier de la Plata, <foreign xml:lang="ger">Deutsche</foreign>,</emph></l>
-              <l><emph><foreign xml:lang="ita">Roma</foreign>, <foreign xml:lang="ita"
-                    >Figaro</foreign>, La Unión,</emph></l>
-              <l><emph><foreign xml:lang="ita">La Nazione</foreign>, <foreign xml:lang="ita"
-                    >L´Operaio</foreign>.</emph></l>
+              <l><emph><foreign xml:lang="ita">Roma</foreign>, <foreign xml:lang="ita">Figaro</foreign>, La Unión,</emph></l>
+              <l><emph><foreign xml:lang="ita">La Nazione</foreign>, <foreign xml:lang="ita">L´Operaio</foreign>.</emph></l>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
@@ -2792,8 +2785,7 @@
           <stage><emph>El escenario estará dividido: a la derecha la calle en cuyo telón del fondo
               se verá en perspectiva el Paseo de Julio, el muelle de pasajeros y el Río de la Plata
               en el último plano. A la izquierda el fondín. La pared divisoria figurará al exterior
-              de soportales o recova; en el interior tendrá en primer término la puerta de <pb
-                n="255"/> entrada. Pocos y malos muebles. A la izquierda una mesita con tres
+              de soportales o recova; en el interior tendrá en primer término la puerta de <pb n="255"/> entrada. Pocos y malos muebles. A la izquierda una mesita con tres
               asientos en primer término, a la izquierda otra pasada la puerta de entrada. Los
               retratos de Garibaldi y Víctor Manuel pegados en la pared; en el fondo el mostrador y
               estantería.</emph></stage>

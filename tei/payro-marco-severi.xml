@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000006" xml:lang="spa">
   <teiHeader>
@@ -41,15 +41,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Marco Severi</name>
-          <idno type="URL"
-            >https://libsysdigi.library.illinois.edu/oca/Books2008-12/3326499/3326499.pdf</idno>
+          <idno type="URL">https://libsysdigi.library.illinois.edu/oca/Books2008-12/3326499/3326499.pdf</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
         </bibl>
         <bibl type="originalSource">
-          <author>Roberto Payró</author><title level="a">Marco Severi</title>. In: <title level="s"
-            >Drama en tres actos</title> (Estrenado en el teatro Rivadavia el 18 de julio de 1905).
+          <author>Roberto Payró</author><title level="a">Marco Severi</title>. In: <title level="s">Drama en tres actos</title> (Estrenado en el teatro Rivadavia el 18 de julio de 1905).
             <pubPlace>Buenos Aires</pubPlace>: <publisher>Casa editora é impresora de M. Rodríguez
             Giles</publisher><date>1907</date>. 
         </bibl>
@@ -150,8 +148,7 @@
       </event>
     </listEvent>
      <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000006"
-        passive="https://www.wikidata.org/wiki/Q136048204"/>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000006" passive="https://www.wikidata.org/wiki/Q136048204"/>
     </listRelation>
   </standOff>
   <text>
@@ -742,8 +739,7 @@
           </sp>
           <sp who="#maria">
             <speaker>María</speaker>
-            <p>Bueno. Si á la vuelta traés el retrato, este mismo, digo, ponelo en el álbum. <pb
-                n="17"/>Yo lo sacaré después para guardarlo en el armario.</p>
+            <p>Bueno. Si á la vuelta traés el retrato, este mismo, digo, ponelo en el álbum. <pb n="17"/>Yo lo sacaré después para guardarlo en el armario.</p>
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
@@ -1062,8 +1058,7 @@
             <speaker>Jerman</speaker>
             <p>Pues cuando le vendí esta imprenta á tu marido, no fué por él, sino por vos, hijita;
               y hasta se la hubiera regalado, si... <stage type="inline">(Teresa vase
-                violentamente).</stage> ¡Oh! ¿Y qué le ha dado ahora? ¡Je, je! Está <pb n="23"
-              />visto que mientras son felices son ariscas... Pero ya vendrá el mal tiempo, y
+                violentamente).</stage> ¡Oh! ¿Y qué le ha dado ahora? ¡Je, je! Está <pb n="23"/>visto que mientras son felices son ariscas... Pero ya vendrá el mal tiempo, y
               entonces... ¡qué caray!...</p>
           </sp>
         </div>
@@ -1158,8 +1153,7 @@
             <p>No es justo, no. Pero no hay que irse al otro lado sin más ni más. Gaspar tiene mala
               cabeza, pero buen corazón, y es una criatura... A su edad hay que disculparlo...
               Además Vds., los hijos del país, tienen la sangre caliente y eso... eso es un buen
-              defecto! Yo le hablaré, le aconsejaré, y estoy seguro de que se compondrá. <foreign
-                xml:lang="ita">Póvero ragazzo!</foreign></p>
+              defecto! Yo le hablaré, le aconsejaré, y estoy seguro de que se compondrá. <foreign xml:lang="ita">Póvero ragazzo!</foreign></p>
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
@@ -1542,8 +1536,7 @@
           </sp>
           <sp who="#gaspar">
             <speaker>Gaspar</speaker>
-            <p>¿Quién? ¿yo?... ni una copita... desde esta madrugada cuando me acosté <stage
-                type="inline">(ap.)</stage>
+            <p>¿Quién? ¿yo?... ni una copita... desde esta madrugada cuando me acosté <stage type="inline">(ap.)</stage>
               <pb n="33"/> Será el colazo de anoche.</p>
           </sp>
           <sp who="#luis">
@@ -2374,8 +2367,7 @@
             <stage>(fatídico)</stage>
             <p>Que la mia ha reaparecido, terrible, amenazadora, implacable!... Benito, el
               tipógrafo, es un pesquisa... El hombre que lo acompañaba, un italiano recién
-              llagado... ¡como en el caso de Balfour; doctor!... es un carabinero!... <pb n="50"
-              />viene á llevarme, á arrancarme del hogar para enterrarme en el presidio!</p>
+              llagado... ¡como en el caso de Balfour; doctor!... es un carabinero!... <pb n="50"/>viene á llevarme, á arrancarme del hogar para enterrarme en el presidio!</p>
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>
@@ -2419,8 +2411,7 @@
               novelería.... Pero entonces, al verme impotente junto á mi madre moribunda, sin pan,
               sin médico, sin asistencia, sin remedios, ¡les juro que hubiese echo volar la ciudad,
               el mundo entero, sin que me temblara la mano!.... No llegué á tanto.... El dia de
-              mayor desesperación, cuando no veia otra salida que estrellarme la cabeza contra <pb
-                n="52"/>las piedras de la calle para no verla morir, un antiguo compañero de taller
+              mayor desesperación, cuando no veia otra salida que estrellarme la cabeza contra <pb n="52"/>las piedras de la calle para no verla morir, un antiguo compañero de taller
               me tendió una tabla de salvación; ¡terrible recursos!... Se trataba de falsificar
               billetes de banco... Yo capáz de provocar una catástrofe en mi demencia, ¿cómo iba á
               vacilar?... Acepté; acepté con regocijo... Ebrio, trastornado, comencé con furia á
@@ -2462,8 +2453,7 @@
               invencible torbellino!.. <pb n="54"/>Pronto me crei regenerado, limpio de toda mancha.
               Y cuando conocí á Teresa, cuando la amé, cuando supe que me correspondia, bendije este
               suelo de hospitalidad y de perdón, en que los hombres parecen mejores, la tierra más
-              fecunda, el cielo más puro!.. ¡Oh, días de delicia! No pensé.... <stage type="inline"
-                >(á Teresa),</stage> alza la cabeza, no llores así, no pensé, no recordé siquiera mi
+              fecunda, el cielo más puro!.. ¡Oh, días de delicia! No pensé.... <stage type="inline">(á Teresa),</stage> alza la cabeza, no llores así, no pensé, no recordé siquiera mi
               nombre supuesto, porque me unía á ella con toda la amplitud de mi voluntad, con todas
               las más altas potencias de mi alma!..¡Oh! mirame á los ojos, Teresa! ¿Crees que si las
               mismas leyes, si el mismo Dios declararan disueltos nuestros lazos, quedarian
@@ -2610,8 +2600,7 @@
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>
-            <p>Huir, escapar! Las circunstancias son tales que, una vez preso, no habria <pb n="57"
-              />esperanza, á menos de un milagro...</p>
+            <p>Huir, escapar! Las circunstancias son tales que, una vez preso, no habria <pb n="57"/>esperanza, á menos de un milagro...</p>
           </sp>
           <sp who="#luis">
             <speaker>Luis</speaker>
@@ -2862,8 +2851,7 @@
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
-            <stage>(Habiendo terminado de amontonar las grandes resmas de papel en un rincon, <pb
-                n="62"/>á los Cajistas)</stage>
+            <stage>(Habiendo terminado de amontonar las grandes resmas de papel en un rincon, <pb n="62"/>á los Cajistas)</stage>
             <p>¡Vaya! A trabajar como si no hubiese pasado nada!...</p>
           </sp>
           <sp who="#gaspar">
@@ -2991,9 +2979,7 @@
           </sp>
           <sp who="#jerman">
             <speaker>Jerman</speaker>
-            <p>Gracias... Y me retiro, jé, jé... Muchas felicidades... <stage type="inline"
-                >(ap)</stage> Volveré... se me hace que la breva está madurando. Si <stage
-                type="inline">(alto)</stage> Vds. me llegan á necesitar, ¡qué caray! cuenten
+            <p>Gracias... Y me retiro, jé, jé... Muchas felicidades... <stage type="inline">(ap)</stage> Volveré... se me hace que la breva está madurando. Si <stage type="inline">(alto)</stage> Vds. me llegan á necesitar, ¡qué caray! cuenten
               conmigo. <stage>(Vase por el foro)</stage></p>
           </sp>
         </div>
@@ -3300,8 +3286,7 @@
           </sp>
           <sp who="#juez">
                <speaker>Juez</speaker>
-            <p>Supongo que lo ha visto ya, porque acabo de recibir una esquelita del secretario, <pb
-                n="72"/>pidiéndome confidencialmente y con urgencia, antecedentes é informes sobre
+            <p>Supongo que lo ha visto ya, porque acabo de recibir una esquelita del secretario, <pb n="72"/>pidiéndome confidencialmente y con urgencia, antecedentes é informes sobre
               Marco Severi.</p>
           </sp>
           <sp who="#suarez">
@@ -3338,8 +3323,7 @@
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>
-            <p>La mosca de Voltaire, que provoca un cataclismo á cien leguas de <pb n="73"
-              />distancia!... ¡Oh! doctor! ¡sacrificar asi á un infortunado! ¡Casi un inocente!</p>
+            <p>La mosca de Voltaire, que provoca un cataclismo á cien leguas de <pb n="73"/>distancia!... ¡Oh! doctor! ¡sacrificar asi á un infortunado! ¡Casi un inocente!</p>
           </sp>
           <sp who="#juez">
                <speaker>Juez</speaker>
@@ -3459,8 +3443,7 @@
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
-            <p>¡El oficio! ¡Qué quiere, señor Juez! Para eso estamos! Uno no es pesquisa <pb n="76"
-              />para saber las cosas buenas, sino las cosas malas!</p>
+            <p>¡El oficio! ¡Qué quiere, señor Juez! Para eso estamos! Uno no es pesquisa <pb n="76"/>para saber las cosas buenas, sino las cosas malas!</p>
           </sp>
           <sp who="#juez">
                <speaker>Juez</speaker>
@@ -3841,8 +3824,7 @@
           <sp who="#gaspar">
             <speaker>Gaspar</speaker>
             <stage>(Con chunga)</stage>
-            <p>Gaspar Nuñez, alias Cumpa, alias Florcita, <stage type="inline">(porque me gusta <pb
-                  n="84"/>pasear),</stage> argentino, 21 años, soltero, tipógrafo, sé leer y
+            <p>Gaspar Nuñez, alias Cumpa, alias Florcita, <stage type="inline">(porque me gusta <pb n="84"/>pasear),</stage> argentino, 21 años, soltero, tipógrafo, sé leer y
               escribir.</p>
           </sp>
           <sp who="#escribiente">
@@ -4008,8 +3990,7 @@
               estaba conmovido deveras... « Bueno, señora,» dijo por fin, — « veo que se trata de un
               sujeto muy digno de interés. Voy á pedir informes, y si son tan favorables,
               intercederé amistosamente con el señor ministro de Italia. Vendrá de un momento á
-              otro, y como cuadra la casualidad de que voy á acceder á varios pedidos <pb n="87"
-              />suyos; él, á su vez me concederá lo que yo le pida, según creo».</p>
+              otro, y como cuadra la casualidad de que voy á acceder á varios pedidos <pb n="87"/>suyos; él, á su vez me concederá lo que yo le pida, según creo».</p>
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>

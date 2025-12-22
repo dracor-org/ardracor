@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000001" xml:lang="spa">
   <teiHeader>
@@ -25,11 +25,9 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -342,8 +340,7 @@
             <speaker>Carlos.</speaker>
             <p>Mira, déjate de lamentos y hablemos con formalidad. Podrás decirme, por qué te
               obstinas en casarte con una mujer de quien estás celoso? Y nota que no me extraña esa
-              adoración; pero no se trata de adorar sino de casarse . . . . lo cual es otro <pb
-                n="15"/> cuento . . . . ¡Mal principio, Mauricio! Casarte con el corazón agitado por
+              adoración; pero no se trata de adorar sino de casarse . . . . lo cual es otro <pb n="15"/> cuento . . . . ¡Mal principio, Mauricio! Casarte con el corazón agitado por
               las dudas; créeme, eso es imprudente, es temerario. El matrimonio es una fortificación
               que no debe tomarse nunca por asalto, a menos de estar seguro de haber abierto brecha,
               ¡qué diantre!</p>
@@ -398,8 +395,7 @@
           <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, pasa a la derecha.</emph></stage>
-            <p><stage><emph>(Con incredulidad).</emph></stage> Déjame en paz! <stage><emph>(Cam<pb
-                    n="17"/>biando de tono)</emph></stage> ¿Pero querrás decirme si tu rival es
+            <p><stage><emph>(Con incredulidad).</emph></stage> Déjame en paz! <stage><emph>(Cam<pb n="17"/>biando de tono)</emph></stage> ¿Pero querrás decirme si tu rival es
               inglés como la institutriz?</p>
           </sp>
           <sp who="#mauricio">
@@ -571,8 +567,7 @@
             <p>Compadéceme, Carlos. ¿Pero cómo resistir a la tentación? Para comprenderlo, fuera
               necesario haber visto las miradas, las sonrisas de esa encantadora criatura, que al
               escuchar mis palabras parece prestar oído a melodía dulcísima. No te sorprendas, que
-              por tenerla así, pendiente de mis labios, con sus rasgados ojos fijos en los míos, <pb
-                n="23"/> no sé que no hubiera hecho. Día a día, le he contado toda clase de
+              por tenerla así, pendiente de mis labios, con sus rasgados ojos fijos en los míos, <pb n="23"/> no sé que no hubiera hecho. Día a día, le he contado toda clase de
               historias y poco a poco, pero bien a mi pesar, he llegado a crearme un hermano
               admirable, perfecto, único . . . . de quien está perdidamente enamorada.</p>
           </sp>
@@ -1000,8 +995,7 @@
                   <stage><emph>(Enseñándole una fotografía)</emph></stage> No había sino estas
               Aspasias más o menos escotadas. <stage><emph>(Fijándose en Mauricio)</emph></stage>
               ¿Pero qué tienes? ¡Qué cara tan fúnebre! Qué te acongoja? He tratado a toda prisa, es
-              cierto, de dar a la fisonomía de esta <foreign xml:lang="eng"
-                ><emph>bull-dog</emph></foreign>, con cabellos de oro, una expresión presentable,
+              cierto, de dar a la fisonomía de esta <foreign xml:lang="eng"><emph>bull-dog</emph></foreign>, con cabellos de oro, una expresión presentable,
               algo de . . . . y ¡qué diantre! no lo he conseguido. Pero la cosa no es fácil, y
               desafío hasta al mismo Correggio. <stage><emph>(Enseñándole la
                 fotografía)</emph></stage> ¿Qué te parece? <stage><emph>(Toma un pincel que sacara
@@ -1069,8 +1063,7 @@
               ¡Qué mamarracho, Dios mío! qué mamarracho! <stage><emph>(Tirando el
                 pincel)</emph></stage> Tales originales son desesperantes, y no llegaré nunca a nada
               de verosímil con estas modernas Circes. <stage><emph>(Al público)</emph></stage> Vean
-              Vds. Mi plan es racional y basado puramente en el gran principio homeopático <foreign
-                xml:lang="lat"><emph>Similia similibus curantur</emph></foreign>, o lo que es lo
+              Vds. Mi plan es racional y basado puramente en el gran principio homeopático <foreign xml:lang="lat"><emph>Similia similibus curantur</emph></foreign>, o lo que es lo
               mismo <emph>un claro saca a otro claro</emph>. Quería curar el mal por el mal. Hacer
               creer a esta loquilla, que ese retrato, es decir, el retrato que hubiera podido tener,
               pero que no tengo, era la propia imagen de aquella que Mauricio ama y de quien es

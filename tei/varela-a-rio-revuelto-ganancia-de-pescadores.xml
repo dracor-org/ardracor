@@ -47,8 +47,7 @@
               sainetes urbanos y gauchescos, 1800–1814 / Cristóbal De Aguilar... [et al.].</title>
             <author><forename>Beatriz</forename>
               <surname>Seibel</surname></author> 1ª ed. – Buenos Aires<pubPlace/>: <editor>Instituto
-              Nacional del Teatro</editor>, pp.<biblScope unit="page" from="165" to="197"
-              >165-197</biblScope>, <date>2006</date>.</bibl>
+              Nacional del Teatro</editor>, pp.<biblScope unit="page" from="165" to="197">165-197</biblScope>, <date>2006</date>.</bibl>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -109,8 +108,7 @@
       </event>
     </listEvent>
      <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000003"
-        passive="https://www.wikidata.org/wiki/Q135989927"/>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000003" passive="https://www.wikidata.org/wiki/Q135989927"/>
     </listRelation>
   </standOff>
   <text>
