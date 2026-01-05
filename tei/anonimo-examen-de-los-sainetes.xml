@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000014" xml:lang="spa">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">El examen de sainetes</title>
+        <author>Anónimo</author>
+        <editor xml:id="lv">
+          <forename>Laura</forename>
+          <surname>Volkind</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio Riande</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/en/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
+            >CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Biblioteca Virtual Miguel de Cervantes</name>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmchd833</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <editor><forename>Mariano G.</forename><surname>Bosch</surname></editor>: <title level="a"
+            >El examen de los sainetes</title>. En: <title level="m">Teatro antiguo de Buenos Aires:
+            piezas del siglo XVIII, su influencia en la educación popular</title>. <pubPlace>Buenos
+            Aires</pubPlace>: <publisher>Imprenta El Comercio</publisher>, <date>1904</date>,
+            pp.<biblScope unit="page" from="50" to="78">50–78</biblScope>.</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="poetaPrimero" sex="MALE">
+            <persName>Poeta Primero</persName>
+          </person>
+          <person xml:id="poetaSegundo" sex="MALE">
+            <persName>Poeta Segundo</persName>
+          </person>
+          <person xml:id="poetaTercero" sex="MALE">
+            <persName>Poeta Tercero</persName>
+          </person>
+          <person xml:id="donCeledonio" sex="MALE">
+            <persName>Don Celedonio</persName>
+          </person>
+          <person xml:id="alcalde" sex="MALE">
+            <persName>Alcalde</persName>
+          </person>
+          <person xml:id="regidor" sex="MALE">
+            <persName>Regidor</persName>
+          </person>
+          <person xml:id="escribano" sex="MALE">
+            <persName>Escribano</persName>
+          </person>
+          <person xml:id="corchete" sex="MALE">
+            <persName>Corchete</persName>
+          </person>
+          <person xml:id="maridoPrimero" sex="MALE">
+            <persName>Marido Primero</persName>
+          </person>
+          <person xml:id="maridoSegundo" sex="MALE">
+            <persName>Marido Segundo</persName>
+          </person>
+          <person xml:id="abatePrimero" sex="MALE">
+            <persName>Abate Primero</persName>
+          </person>
+          <person xml:id="abateSegundo" sex="MALE">
+            <persName>Abate Segundo</persName>
+          </person>
+          <person xml:id="cortejo" sex="MALE">
+            <persName>Cortejo</persName>
+          </person>
+          <person xml:id="damaPrimera" sex="FEMALE">
+            <persName>Dama Primera</persName>
+          </person>
+          <person xml:id="damaSegunda" sex="FEMALE">
+            <persName>Dama Segunda</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Sainete</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q835067</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-09-18" who="lv">codificación inicial y adaptación a Dracor</change>
+        <change when="2025-12-28" who="gdr">reviso ficha</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="premiere" when="1806" notBefore="1804" notAfter="1806">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000014"
+        passive="https://www.wikidata.org/wiki/Q136326659"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000014"
+        passive="https://hdlab.space/teatrar/obras/0021.html"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="50"/>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Examen de los sainetes</titlePart>
+        </docTitle>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>Poeta Primero</role>
+        </castItem>
+        <castItem>
+          <role>Poeta Segundo</role>
+        </castItem>
+        <castItem>
+          <role>Poeta Tercero</role>
+        </castItem>
+        <castItem>
+          <role>Don Celedonio</role>
+        </castItem>
+        <castItem>
+          <role>Alcalde</role>
+        </castItem>
+        <castItem>
+          <role>Regidor</role>
+        </castItem>
+        <castItem>
+          <role>Escribano</role>
+        </castItem>
+        <castItem>
+          <role>Cochete</role>
+        </castItem>
+        <castItem>
+          <role>Marido Primero</role>
+        </castItem>
+        <castItem>
+          <role>Marido Segundo</role>
+        </castItem>
+        <castItem>
+          <role>Abate Primero</role>
+        </castItem>
+        <castItem>
+          <role>Abate Segundo</role>
+        </castItem>
+        <castItem>
+          <role>Cortejo</role>
+        </castItem>
+        <castItem>
+          <role>Dama Primera</role>
+        </castItem>
+        <castItem>
+          <role>Dama Segunda</role>
+        </castItem>
+      </castList>
+      <set>
+        <head>Aprobado por el Dr. Belgrano en 16 de Mayo de 1806</head>
+        <stage><emph>(Salen los Poetas como furiosos, rompiendo unos papeles).</emph></stage>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Vayan muy enoramala.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>De sus cabezas reniego.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>No son dignos de sainetes.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>No merecen nuestros versos.</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Dejadlos por ignorantes.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Abandonemos el pueblo y pues no tienen enmienda, quédense con sus defectos.</p>
+        </sp>
+        <stage><emph rend="italic">(Al irse á entrar sale Don Celedonio y los
+          detiene).</emph></stage>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>A dónde con tanta prisa? pues qué es esto, caballeros?</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Qué ha de ser! Esto es dexar por testarudos y necios <pb n="51"/> á todos vuestros
+            paisanos ya que no quieren creernos y corregir sus costumbres con tantos avisos ciertos;
+            que parece que su achaque se agrava con los remedios.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Yo he compuesto cien sainetes sólo contra los cortejos, y cada día se miran salir
+            cortejos de nuevo.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Y yo contra los Abates he esgrimido mis azeros y han hecho tan poco caso que se están
+            de mí riyendo.</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Yo á los maridos sufridos he puesto de majaderos y ellos llevan con paciencia lo que se
+            murmura de ellos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Y yo que contra visitas, gorras, nuditos y enredos, tertulias y petimetras tanto he
+            dicho, tanto he hecho, y miro que mi trabajo todo se lo lleva el viento, qué diré? qué
+            pensaré? qué haré? y qué todos haremos si no es dexar el lugar juntamente
+            repitiendo:</p>
+        </sp>
+        <sp who="#poetaPrimero #poetaSegundo #poetaTercero">
+          <speaker>Los Tres</speaker>
+          <p>Queden por incorregibles y abandonemos el pueblo.</p>
+          <stage><emph rend="italic">(Hazen que se van).</emph></stage>
+        </sp>
+        <pb n="52"/>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Tened, señores, tened. A qué viene todo eso? no juzgo por necesario el avsentarse tan
+            presto.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Pues qué halla Vmd. algun camino ó algun decente medio para que sin ausentarnos
+            desairados no quedemos?</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Sí. señor, Vmds. oygan, si han de seguir mi consejo.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Pues oimos.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Pues señores, que hay razon de queja es cierto, y que ninguno ha hecho caso de quanto
+            Vmds. dixeron; este sin duda es el daño; pues vaya aora el remedio; y para decir qual es
+            váyame Vmd. respondiendo. No tiene Alcalde el lugar?</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Sí señor.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Y ayuntamiento?</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Sí señor.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Con su Escribano Regidor y fiel de fechos?</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Muy bien.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Y Vds. no tienen su boquita?</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Y tragadero.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Sus deditos?</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Y uñas largas.</p>
+        </sp>
+        <pb n="53"/>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Sus plumas?</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Coп sus tinteros.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Su papel y quantas cosas sirven para vn pedimento?</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>De todo eso nada falta.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Pues, hombres, hay más que hazerlo. Ir al Alcalde al instante, pedir justicia muy
+            recio. Quexarse de los Abates, las visitas, los cortejos, los maridos, las tertulias y
+            quantos hombres perversos hay y ha habido en el lugar, enmienda en todo pidiendo.
+            castigo de los culpados intimación de los reos que vengan á dar descargo de sus culpas
+            al momento, y el que debiere que pague y el que nó, que quede absuelto.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Por Dios, que teneis razon, no habíamos dado en ello; vamos á pedir justicia, pues nos
+            toca de derecho.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Vamos; que no hay que temer teniendo ganado el pleito.</p>
+        </sp>
+        <sp who="#poetaPrimero #poetaSegundo #poetaTercero">
+          <speaker>Los tres Poetas</speaker>
+          <p>Hoy morirán todos quantos son de esta vida tropiezos.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Eso sí, pleguete Cristo, sacúdanle bien los huesos, que los demás del lugar <pb n="54"
+            /> ninguna culpa tenemos, para privarnos á todos de Vmds. y sus conceptos. Paguen la
+            pena los malos y alegrémonos los buenos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Amigo, Don Celedonio, hoy se verá el escarmiento mayor que han visto los siglos, no ha
+            de quedar trapo viejo que no salga á la vergüenza; con todos nos atrevemos, con abates,
+            con maridos, con tertulias, con cortejos, y avn con las damas, que ya las hemos perdido
+            el miedo, mirando que sus enojos se han convertido en festejos.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Pues ánimo, y á quejarse!</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Seguidme todos diciendo</p>
+        </sp>
+        <sp who="#poetaPrimero #poetaSegundo #poetaTercero">
+          <speaker>Todos</speaker>
+          <p>Hoy morirán todos quantos son de esta vida un tropiezo.</p>
+          <stage><emph rend="italic">(Vanse)</emph>.</stage>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>A bien que yo nada soy, ni marido, ni cortejo, ni Abate, que segun dizen es aora delito
+            nuevo; y assi pienso ver la fiesta y divertirme sin riesgo; veremos en lo que para y qué
+            resuelve el consejo.</p>
+          <stage><emph rend="italic">(Vase).</emph></stage>
+        </sp>
+        <stage>Pito<emph rend="italic">Sala corta. -(Se aparta Don Celedonio)- Salen Alcalde,
+            Regidor, Escribano y Corchete.</emph></stage>
+        <pb n="55"/>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Ó só Alcalde ó no só Alcalde dígolo porque assi pienzo hazer justicia muy seca, sin que
+            haiga nada por medio. Regidor, qué hay del lugar? están los vezinos quietos?</p>
+        </sp>
+        <sp who="#regidor">
+          <speaker>Regidor</speaker>
+          <p>Todos están como hermanos sosegados y contentos.</p>
+        </sp>
+        <sp who="#escribano">
+          <speaker>Escribano</speaker>
+          <p>Doy fé.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Bien se necesita que fuera imposible creerlo sin la fé del Escribano.</p>
+        </sp>
+        <sp who="#regidor">
+          <speaker>Regidor</speaker>
+          <p>Pues por qué razón?</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Jumento, no sabeis vos que vn lugar es lo mismo que un infierno?</p>
+        </sp>
+        <sp who="#escribano">
+          <speaker>Escribano</speaker>
+          <p>Doy fé.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Yo apostaré algo que no pasa el día entero sin que tengamos encima más de cien chismes
+            y cuentos.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Y si supiera el Alcalde <stage><emph rend="italic">(aparte)</emph></stage> la que se
+            está disponiendo mucho mejor lo diría; pero él lo verá muy presto. Llego pues: señor
+            Alcalde mil vezes la mano os beso.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>O señor Don Celedonio qué es lo que trais de nuevo? es queja de algun vezino, ó es que
+            se ponga remedio <pb n="56"/> reformando algun abuso?</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Yo de ninguno me quejo, ni quiero enmendar abusos, porque es peligroso empleo, y esto
+            de reformador fuera vn oficio muy bueno á no tener malas tornas, quando digan mis
+            defectos, mucho más si acaso incurro en lo mismo que repruebo.</p>
+          <stage><emph rend="italic">Salen los Poetas.</emph></stage>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Allí está el Alcalde; vamos á que nos oyga.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Qué es esto?</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Vna tropa de pleitiantes que vienen á acometernos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Señor Alcalde eminente, Juez de todo este Emisferio más docto que Papiniano, más
+            erudito y discreto de quantos jurisconsultos ha tenido el vniverso; aquí en monton
+            venimos yo y aquellos caballeros á pedir justicia seca.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Yo guardaros la prometo, y para hazerla mejor, ola, saquen los asientos.</p>
+          <stage><emph rend="italic">(Sacan los Corchetes una mesa y recado de escribir y sillas
+              donde se sientan todas menos los Poetas).</emph></stage>
+          <pb n="57"/>
+          <p>Sentaos Don Celedonio Servireis de fiel de fechos. Ahora proseguid vosotros.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Señor, todo nuestro intento se reduze á querellarnos de todos quantos no han hecho caso
+            de nuestros sainetes; no han corregido sus yerros, como se estaban se están y avn peor
+            que se estuvieron.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>¿Y quién son los delincuentes?</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Los maridos, los cortejos, los Abates, las tertulias y todo el femineo sexo.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>¡No es nada la miscelánea!</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Tantas vezes reincidieron, se miran tan obstinados, que no hay que esperar remedio. Y
+            assi lo mejor será darles castigo severo, multas, prisiones, porrazos vapulaciones ó
+            encierros. Y si no basta lo dicho apretarles los gargüeros, que es vien de todo el lugar
+            que nada pierde en perderlos.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Por cierto que sin mugeres estaríamos contentos! qué me dizes, Regidor?</p>
+        </sp>
+        <sp who="#regidor">
+          <speaker>Regidor</speaker>
+          <p>Digo que segun derecho la demanda está bien puesta.</p>
+        </sp>
+        <pb n="58"/>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Pues ven acá, majadero, no desiais poco haze que estaba el lugar tan quieto?</p>
+        </sp>
+        <sp who="#regidor">
+          <speaker>Regidor</speaker>
+          <p>Es que este es vn mal oculto que no perturba el sosiego, y avnque se queman en casa se
+            queda el fuego allá dentro.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Y vos señor Celedonio qué dezis?</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Yo nada veo, mas si lo confiesan todos sin duda debe ser cierto.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Yo lo sabré prontamente y he de hazer vn escarmiento. Ola.</p>
+        </sp>
+        <sp who="#corchete">
+          <speaker>Corchete</speaker>
+          <p>Señor?</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Al instante traedme á la Audiencia presos todos los que se han nombrado y mirad que
+            vengais presto.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Yo señor, si lugar hay, por los Abates apelo.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Por los Abates, por quê?</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Porque segun considero ellos pecan de ignorancia nó de malicia.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Muy bueno. Ignorancia, y se han escrito cien sainetes contra ellos!</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Es verdad, pero hasta aora quién habla de entenderlo? <pb n="59"/> con aprender la
+            doctrina sabe el más rudo del pueblo que ser uno mal marido es un delito muy feo; ser
+            cortejante, malísimo, andar con los devaneos y ociosidades del mundo muy malo y muy
+            imperfecto; pero vestirse de Abate cómo habían de creerlo siendo un pecado que no
+            prohiben los mandamientos!</p>
+        </sp>
+        <stage><emph rend="italic">(Salen los Corchetes con los dos Maridos presos).</emph></stage>
+        <sp who="#corchetes">
+          <speaker>Corchetes</speaker>
+          <p>Aquí vienen dos maridos.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Traed los otros al momento.</p>
+        </sp>
+        <sp who="#maridoPrimero">
+          <speaker>Marido Primero</speaker>
+          <p>Señor Alcalde, nosotros qué delitos hemos hecho?</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Qué delitos? Ser maridos! Mirad si tendreis proceso!</p>
+        </sp>
+        <sp who="#maridoSegundo">
+          <speaker>Marido Segundo</speaker>
+          <p>Si es delito el ser marido, por mí, que nos descasemos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>No es delito el ser maridos sino el de no saber serlo; vosotros con vuestra vida y con
+            vuestro flojo Genio permitís en vuestra casa cortejantes manifiestos. Dejais á vuestras
+            mujeres todo el mando y el gobierno y haceis por cosentidores</p>
+          <pb n="60"/>
+          <p>solo vn papel de terceros, habeys cerrado el oydo á los sabios documentos que en tan
+            diversos sainetes os han advertido el riesgo. Sois maridos obstinados no habeis querido
+            creernos; mirad si teneis delito para cien años de encierro!</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Responded á la querella ó contaos con los muertos.</p>
+        </sp>
+        <sp who="#maridoPrimero">
+          <speaker>Marido Primero</speaker>
+          <p>Por cierto, señor Alcalde, que es un temerario aprieto querer por lo que hay afuera
+            juzgar lo que pasa adentro: mas si es fuerza responder, por mí respondo, advirtiendo que
+            lo que pasa por mí á otros pasa, segun creo. Yo tengo mujer ilustre y que se precia de
+            serlo, con <emph rend="italic">un honor</emph> muy antiguo que heredó de sus abuelos.
+            Desde que vivimos juntos no hemos tenido un tropiezo, y quiera Dios que assi sea hasta
+            que nos enterremos. Yo estoy contento con ella, vivimos con gran sosiego; pues no fuera
+            tonteria el ponernos descontentos?</p>
+          <pb n="61"/>
+          <p>Gobierna bien la familia, me tiene amor y respeto, de sus hijos cuida bien y á nadie da
+            mal ejemplo; tiene algunos concurrentes, (¿por qué llamarlos cortejos?) del mismo modo
+            que yo otras concurrencias tengo. Si con estos ó los otros tuviese algunos tropiezos,
+            allá con su confesor debe ajustar esos cuentos. Assi avnque lluevan sainetes no me
+            asusto ni me altero, pues estando ellos de un lado y mi mujer de por medio estimo el
+            honor de esta y hago de aquellos desprecio.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Vive Dios, que el maridillo se ha mantenido muy tieso! Aora veo que hay maridos que son
+            más de lo que creemos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Señor Alcalde, no sirve quanto alega en su provecho. Siendo notorios al mundo tan
+            públicos desaciertos y aun quando sea verdad, no basta solo vn exemplo estando tantos
+            contrarios lo contrario persuadiendo.</p>
+        </sp>
+        <sp who="#maridoPrimero">
+          <speaker>Marido Primero</speaker>
+          <p>A eso de que soy yo solo, <pb n="62"/> responda mi compañero.</p>
+        </sp>
+        <sp who="#maridoSegundo">
+          <speaker>Marido Segundo</speaker>
+          <p>Mas sabe el tonto en su casa que no en la agena el discreto, dice un refran que lo
+            saben niños, mujeres y viejos.</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Dexese vm. de refranes y responda.</p>
+        </sp>
+        <sp who="#maridoSegundo">
+          <speaker>Marido Segundo</speaker>
+          <p>Voy á ello, avnque no era necesario pues harto digo con eso. Yo soy de aquellos maridos
+            complacientes perpetuos en que vaya su mujer á Comedias y paseos, que se trate con las
+            gentes y se divierta sin miedo; todo eso es mucha verdad; y qué tenemos con eso?</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Señor Alcalde, este hombre está convicto y confeso, mirad si llevo razon en los
+            sainetes que he hecho. Al instante sentenciadle para que sirva de exemplo.</p>
+        </sp>
+        <sp who="#maridoSegundo">
+          <speaker>Marido Segundo</speaker>
+          <p>Despacio, señor poeta, pues avnque yo lo confieso niego que esto sea delito y á
+            mantenerlo me ofrezco.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Con que no ha de ser delito consentir tales excesos?</p>
+        </sp>
+        <sp who="#maridoSegundo">
+          <speaker>Marido Segundo</speaker>
+          <p>Amigo, Vm. sabe poco <pb n="63"/> de mundo, según voy viendo. En esto de consentir se
+            encierra mucho misterio y hay maridos que consienten y niegan al mismo tiempo. Los que
+            componen sainetes ven las cosas desde lexos con anteojos de teatros que hacen distante
+            el objeto. Yo, no digo que el marido se esté callando y sufriendo el que trate su mujer
+            con qualquiera chuchumeco, porque esas desigualdades le deben dar gran recelo, que no es
+            bueno vn desigual para amigo, no cortejo, y no es mucho que la cosa donde va el respeto
+            á menos si entra el cortejo ganando salga el marido perdiendo, Mas no todos son assi,
+            hay otros que son diversos, y el marido que conoce de su mujer los talentos fía de ella
+            ó desconfía segun sean los sujetos. Finalmente, no dudando que habrá uno que otro
+            perverso pero no tantos, no tantos como han pretendido hacerlos, <pb n="64"/> los
+            maridos que se duermen sabrán que pueden hacerlo y tambien no ignoran quando se han de
+            mantener dispiertos. No habeis visto algun muchacho con vn gurrion ó gilguero que avnque
+            lo tiene de vn hilo lo dexa al parecer suelto? Pues la mujer es lo mismo, en mi poder yo
+            la tengo y avnque la di cuerda y cuerda la recojo quando quiero; bastante con esto digo,
+            Dios me entiende y yo me entiendo.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Por vida de la Justicia que sois marido perfecto y merecíais casaros con la Reina de
+            Marruecos. No se hable mas de este caso; y manténgase en sequestro hasta que se dé
+            sentencia con los que vayan viniendo. Dad fé de todo Escribano, y á otra querella
+            pasemos.</p>
+        </sp>
+        <sp who="#escribano">
+          <speaker>Escribano</speaker>
+          <p>Doy fé de que hubo maridos <stage><emph rend="italic">(escribe)</emph></stage>que ser
+            maridos supieron,</p>
+        </sp>
+        <sp who="#regidor">
+          <speaker>Regidor</speaker>
+          <p>Yo estoy del caso aturdido, y no acabo de creerlo!</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Esto saben los maridos, fuego en los tontos y lerdos los tontos somos nosotros <pb
+              n="65"/> que tan mal los conocemos.</p>
+        </sp>
+        <stage><emph rend="italic">(Salen los Corchetes con dos Abates)</emph>.</stage>
+        <sp who="#corchete">
+          <speaker>Corchete</speaker>
+          <p>Aquí vienen dos Abates.</p>
+        </sp>
+        <p> </p>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Otros pájaros tenemos.</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Pues estos no han de escapar por réplicas ni argumentos, que tienen pleito perdido.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Pues hazed los cargos presto.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Pues, señores, son llamados Vmds. á este congreso para hazerles fuertes cargos de
+            varios delitos feos y en especial el de Abates.</p>
+        </sp>
+        <sp who="#abatePrimero">
+          <speaker>Abate Primero</speaker>
+          <p>Pues antes que á otro pasemos dígame Vm. señor mío, pues los dos no lo sabemos, qué
+            delito es ser Abate?</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Qué delito? Y muy tremendo y en prueba de que lo es han tenido sus recelos de que iban
+            á San Fernando que era un estraño destierro.</p>
+        </sp>
+        <sp who="#abatePrimero">
+          <speaker>Abate Primero</speaker>
+          <p>Como de esas estrañezas se oyen por divertimiento, y avnque Vm. á mi pregunta no creo
+            que ha satisfecho, vaya otra, á la que dará la misma respuesta, creo: qué culpa Vm. en
+            el Abate, es el traje o el sugeto?</p>
+        </sp>
+        <pb n="66"/>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Yo culpo al Abate solo.</p>
+        </sp>
+        <sp who="#abatePrimero">
+          <speaker>Abate Primero</speaker>
+          <p>Pero será distinguiendo; pues cómo he de creer yo que vn traje que es tan honesto, que
+            visten tantos ilvstres y distinguidos sugetos vn traje que nunca sirve de adorno para
+            plebeyos, de disfraz para hombres vagos, para ociosos de pretexto, se ha de rediculizar
+            con satírico desprecio; y vn traje que toda Evropa ha tenido en grande aprecio siendo
+            honesto distintivo de lo grave y de lo serio sin que el mal uso de algunos pueda servir
+            de argumento para hazer vniversales particulares defectos.</p>
+        </sp>
+        <sp who="#abateSegundo">
+          <speaker>Abate Segundo</speaker>
+          <p>Y añada Vm. á lo dicho vn traje que por ser bueno, propio de gente estudiosa lo han
+            escogido, creyendo cumplir, andando decentes, las ideas del Gobierno; en lugar de capas
+            pardas ó de raidos manteos, con que hasta áora oscuramente andaban siempre
+            revueltos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Vmds, tienen razón: <pb n="67"/> con el traje no me meto.</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Yo culpo solo al Abate.</p>
+        </sp>
+        <sp who="#abatePrimero">
+          <speaker>Abate Primero</speaker>
+          <p>Pues eso amigo no entiendo: Vm. disculpa al Abate y lo culpa al mismo tiempo.</p>
+        </sp>
+        <sp who="#poetaTercero">
+          <speaker>Poeta Tercero</speaker>
+          <p>Cómo?</p>
+        </sp>
+        <sp who="#abatePrimero">
+          <speaker>Abate Primero</speaker>
+          <p>Lo diré bien claro: el Abate no es empleo, oficio ni dignidad, como otros que avnque
+            los vemos vsar de distintos trajes tienen siempre igual concepto. El Abate es solo vn
+            hombre que anda vestido de negro, el pelo rizado en bucle, con su capilla i su cuello;
+            si Vm. dize que este traje es por su aprobacion bueno dize que es bueno el Abate pues
+            quitándole algo de esto al punto el Abate falta y las notas y dicterios ya no caen sobre
+            el Abate sino sobre vn Juan ó Pedro.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Vive Dios, que el tal Abate cortara en el ayre un pelo. No he visto hilar más delgado
+            desde que hay copos y cerros.</p>
+        </sp>
+        <sp who="#abateSegundo">
+          <speaker>Abate Segundo</speaker>
+          <p>Y avnque demos de barato el que Vm. trueque los frenos, confunda el traje y el hombre,
+              <pb n="68"/> el vestido y el sujeto y que -algunos abates (como Vm. quiere
+            entenderlos) caigan en alguna falta (quien puede librarse de ello) no creo que es este
+            daño tan general, tan extenso que qual público delito se haga público escarmiento
+            suponiendo conmoción que nunca ha tenido el pueblo, y tropel de delinquentes, que nunca
+            han llegado á serlo sino en las tablas, que es donde se abultan más los defectos.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Bien lo hizieron los maridos, pero estos no lo hazen menos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Yo no digo...</p>
+        </sp>
+        <sp who="#abateSegundo">
+          <speaker>Abate Segundo</speaker>
+          <p>Hablemos claro, dexémonos de misterios: á Vm. le ha hecho con las damas algun abate mal
+            tercio y quiere vengar en todos la culpa de un compañero! y esta es la verdad, ¿por qué
+            hemos de andar con rodeos?</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Basta; suspéndese el juicio que luego sentenciaremos. Dad fé, Escribano.</p>
+        </sp>
+        <sp who="#escribano">
+          <speaker>Escribano</speaker>
+          <p>Doy fé, de que en todo respondieron <pb n="69"/> los suso dichos abates.</p>
+          <stage><emph rend="italic">Salen los Ministros con una Dama y un Cortejo.</emph></stage>
+        </sp>
+        <sp who="#corchete">
+          <speaker>Corchete</speaker>
+          <p>Aquí vienen dos cortejos.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>¡Qué voz tan escandalosa! Con que Vmds. son cortejos?</p>
+        </sp>
+        <sp who="#damaPrimera">
+          <speaker>Dama Primera</speaker>
+          <p>Si es el cortejo esa voz que introdujo el vso necio para hazer escandaloso el más
+            honesto recreo, en verdad que no lo somos; mas si se entiende el cortejo por vna amistá
+            de honor y vn lícito pasatiempo, sí señor, lo confesamos y nos preciamos de serlo.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Habrá mayor desvergüenza! pues cómo no se caen muertos solamente al pronunciar un
+            delito tan horrendo de una cosa que, según el terrible traqueteo que la han dado los
+            poetas, no había de haber ni vn bledo?</p>
+        </sp>
+        <sp who="#cortejo">
+          <speaker>Cortejo</speaker>
+          <p>Pues apesar de sus golpes el cortejo se está entero, y se estará muchos años.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Vaya, vaya, yo estoy lelo, ó no sé lo que me pasa: sin duda son locos estos ó grandes
+            desvergonzados. <pb n="70"/> que han de salir mal me temo.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>Señor Alcalde, es ocioso que yo haga cargos de nuevo si ellos confiesan su culpa.</p>
+        </sp>
+        <sp who="#damaPrimera">
+          <speaker>Dama Primera</speaker>
+          <p>Los cargos hemos de hazerlos nosotres á Vm.</p>
+        </sp>
+        <sp who="#poetaSegundo">
+          <speaker>Poeta Segundo</speaker>
+          <p>A mí?</p>
+        </sp>
+        <sp who="#damaPrimera">
+          <speaker>Dama Primera</speaker>
+          <p>Sí, señor, á Vm. primero y á todos quantos poetas han hablado de cortejos porque no han
+            dado en el hito después de tanto embeleco, y con infames sospechas ofenden nuestro
+            respeto. Señor Alcalde, en vn punto estriba todo el enredo: en no querer persuadirse que
+            puede haber trato honesto y amistad limpia y sencilla en dos de distinto sexo. El
+            agravio que á las damas se haze con juicios tan necios ya se puede discurrir teniendo su
+            honor en menos. Yo conozco bien los hombres; algunos son desatentos y amigos de publicar
+            favores que no obtuvieron. Otros muy desvergonzados, otros libres y resueltos, muchos
+            necios é ignorantes; <pb n="71"/> de suerte que en todos ellos apenas tratarse pueden vn
+            puñado de discretos. Este caballero es vno de los que yo he hallado cuerdos por eso me
+            incliné á él. Su trato, su modo atento me han empeñado á estimarlo; mi marido está
+            contento y satisfecho de que escogiese con acierto á vn hombre cuya assistencia, cuyos
+            pasos y consejos han sido para su casa de vtilidad y provecho. Las gentes que assí lo
+            ven han dicho que es mi cortejo y si es el serlo esto solo, desde luego lo confieso.</p>
+        </sp>
+        <sp who="#cortejo">
+          <speaker>Cortejo</speaker>
+          <p>Y en prueba de que no entienden de cortejo ó galanteo la mitad de los poetas, pudieran
+            dar exemplos, señalando muchos que yo, y todos, conocemos, que al parecer que es de
+            gusto no son sino de tormento; otros en que está el cariño muy retirado y muy lexos y
+            que se mantiene solo por políticos respetos, <pb n="72"/> muchísimos, de acomodos, otros
+            por lograr ascensos, y finalmente, son pocos los que por vn fin perverso. Y avn esos se
+            tratan solos, sin criados, ni mensajeros, sin billetes amatorios, sin música en el
+            terreno, cuchilladas en la calle, en las ventanas requiebros y otros escándalos que
+            hazían nuestros abuelos; no quedando eso en escándalo sino para los Ingenios.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Vivan, vivan muchos años, Señor Alcalde, me huelgo de ver defendido vn caso al que con
+            tal andimiento el poético furor ha acosado á sangre y fuego. A ver si saben los niños
+            hablar quando viene á quento.</p>
+        </sp>
+        <sp who="#damaPrimera">
+          <speaker>Dama Primera</speaker>
+          <p>Pues quién ha dicho que todo este perpétuo silencio fuera falta de respuestas, ó porque
+            estén discurriendo que todo lo que se dize es verdad del evangelio? Callan, callan y se
+            rien porque se divierte el pueblo; pero aora que son llamados <pb n="73"/> y assi los
+            reconvinieron, han dicho algo, pues lo más se les queda en el tintero, que solo apuntan
+            los tajos como esgrimidores diestros.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Está bien. Dad fé, Escribano. y el juzgado despachemos.</p>
+        </sp>
+        <sp who="#escribano">
+          <speaker>Escribano</speaker>
+          <p>Doy fé que ay mil razones á favor de los cortejos.</p>
+        </sp>
+        <stage><emph rend="italic"/>(Salen los Corchetes con dos Damas).</stage>
+        <sp who="#corchete">
+          <speaker>Corchete</speaker>
+          <p>Aqui están estas dos damas.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Qué delitos cometieron?</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Estas son las de tertulias visitas y otros enrredos, y su cavsa está á mi cargo.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Hazedlo pues, y abreviemos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Aunque el delito de Vmds. señoras, no es tan perverso que sea culpa mortal, con todo,
+            caer las vemos en muchas venialidades que traen daños muy pequeños. Vmds. en sus
+            tertulias no tratan asuntos serios; todo es hablar de nuditos, de gorras y de pañuelos.
+            de modas y fruslerias, visitas y pasatiempos. Perturban la sociedad, solo estiman los
+            talentos <pb n="74"/> de aquellos que los emplean en estos necios empleos y traen y
+            llevan noticias como si fueran correos. El daño es vniversal y no han querido creernos
+            despues que con mil sainetes sa les ha hecho manifiesto; y assi no estrañen aora vn
+            castigo tan severo.</p>
+        </sp>
+        <sp who="#damaPrimera">
+          <speaker>Dama Primera</speaker>
+          <p>Yo creí que los poetas no eran tan faltos de seso, y que los versos que hazian eran por
+            hazer que hazemos; mas al ver que sus ideas las toman con tanto empeño, tengo lástima, y
+            me rio, y estoy por no responderlos; no ostante, porque no imputen á delito mi silencio,
+            responderé preguntando.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Qué pico tiene tan suelto <stage type="inline"><emph rend="italic"
+              >(aparte)</emph>.</stage></p>
+        </sp>
+        <sp who="#damaPrimera">
+          <speaker>Dama Primera</speaker>
+          <p>Digame Vm. señor mio, (assi Dios le lleve al cielo), porqué habla vsted castellano y no
+            en latin ó en ebreo?</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Porque es mi lengua nativa, y en otra no me instruyeron, y es la que oí desde niño y
+            tuve conocimiento.</p>
+        </sp>
+        <sp who="#damaPrimera">
+          <speaker>Dama Primera</speaker>
+          <p>Pues por esa misma cavsa <pb n="75"/> nosotras, que no tenemos desde que vimos el mundo
+            mas libros ni mas Maestros que nuestras madres y amigas, cuyos solos documentos se
+            dirigen á enseñarnos la labor de nuestro sexo, hablamos con mas frecuencia de las cosas
+            que savemos y en las que nos han criado, siendo más prudente acuerdo que el de algunos
+            que, preciados de entendidos y discretos, se suelen meter á hablar de lo que nunca
+            entendieron.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Pólvora tiene la mina. No he visto pico más bello! Habla, que cada palabra es mejor que
+            caramelo.</p>
+        </sp>
+        <sp who="#damaSegunda">
+          <speaker>Dama Segunda</speaker>
+          <p>Y eso de dezir tambien que nosotras no entendemos quién es ignorante ó sabio ni
+            estimamos sus talentos, es solo hablar; pues nosotras al instante conocemos solo por la
+            muestra el paño; y si hazemos mas aprecio de los tontos, es porque siempre nos va bien
+            con ellos.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Mas de quarenta sentencias ha dicho en menos de vn credo.</p>
+        </sp>
+        <pb n="76"/>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Hay mas á quien dar avdiencia?</p>
+        </sp>
+        <sp who="#regidor">
+          <speaker>Regidor</speaker>
+          <p>Aquí están todos los reos; solo falta sentenciarlos.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>A fé que es terrible aprieto. Qué os parece, Regidor?</p>
+        </sp>
+        <sp who="#regidor">
+          <speaker>Regidor</speaker>
+          <p>Yo, señor, nunca sentencio. y assi, no sé sentenciar.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>El casillo tiene pelos. Amigo Don Celedonio, Vm. que es hábil y esperto sáqueme de
+            estos ahogos</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Pues, en qué nos detenemos? por debajo de la pierna sentenciaré yo este pleito.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Pues quanto Vm. sentenciare desde luego doy por hecho.</p>
+        </sp>
+        <sp who="#donCeledonio">
+          <speaker>Don Celedonio</speaker>
+          <p>Está vien. Yo me conformo. De suerte que aquí tenemos maridos que no son tontos, Abates
+            que no son lerdos, cortejos que no son ranas, damas que son mucho quento. Cada qual ha
+            defendido por su parte sus derechos y á los cargos substanciales plenamente han
+            satisfecho. Por otro lado áy poetas que avnque han errado los medios no es razon el
+            castigarlos, y porque al fin su delito solo es hablar con exceso. <pb n="77"/> Y assí
+            porque vnos y otros nunca se quexen, resuelvo el que puedan los poetas hazer sainetes
+            sin riesgo, con la precisa advertencia de que estén todos creyendo que quanto en ellos
+            se dize la mayor parte es supuesto, para engañar á los bobos y agarrarles el dinero,
+            siendo lícito al poeta ponderar por lusimiento; y assi que ningun sainete puede servir
+            de pretexto para motejar á nadie en traje, costumbre ó genio, pues en citando á un
+            sainete será sospechoso texto. Y Vmds. á quienes tiran ríanse de sus esfuerzos, y si
+            quieren divertirse pueden ir vn rato á verlos. Este es mi Dictamen, salvo el mejor, á el
+            qual le cedo.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>Yo confirmo esta sentencia: execútese al momento.</p>
+        </sp>
+        <sp who="#damaSegunda">
+          <speaker>Dama Segunda</speaker>
+          <p>Compongan en ora buena: y sépase que sus versos á su vtilidad dirigen aun más que á
+            nuestro provecho.</p>
+        </sp>
+        <sp who="#maridoPrimero #maridoSegundo">
+          <speaker>Todos</speaker>
+          <p>Nosotros nos conformamos.</p>
+        </sp>
+        <pb n="78"/>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Y nosotros ofrecemos en adelante enmendarnos y no ser tan saineteros.</p>
+        </sp>
+        <sp who="#damaPrimera">
+          <speaker>Dama Primera</speaker>
+          <p>Amigos, prestad paciencia y hablad con algun mas tiento, teniendo siempre presente el
+            refrán de cada puerco.</p>
+        </sp>
+        <sp who="#abatePrimero">
+          <speaker>Abate Primero</speaker>
+          <p><emph rend="italic">De la crítica el camino á la sátira, va recto; caminar sin
+              deslizarse que es peligroso el terreno.</emph></p>
+        </sp>
+        <sp who="#abateSegundo">
+          <speaker>Abate Segundo</speaker>
+          <p>La reprehensión que es juiciosa distingue bien de sugetos y siempre debe caer sobre los
+            mas, no en los menos.</p>
+        </sp>
+        <sp who="#escribano">
+          <speaker>Escribano</speaker>
+          <p>Doy fé, de que la sentencia á todos dexa contentos.</p>
+        </sp>
+        <sp who="#poetaPrimero">
+          <speaker>Poeta Primero</speaker>
+          <p>Y porque vean Vmds. no nos turba este suceso, les daré una tonadilla porque sirva de
+            festejo.</p>
+        </sp>
+        <sp who="#alcalde">
+          <speaker>Alcalde</speaker>
+          <p>En punto de tonadillas corred sin rienda y sin freno, que si no es buena la letra lo es
+            la música á lo menos. <note place="foot">Estos versos fueron suprimidos.</note></p>
+        </sp>
+        <sp who="#poetaPrimero #poetaSegundo #poetaTercero">
+          <speaker>Todos</speaker>
+          <p>Vaya, pues, para pedir el perdon de nuestros yerros.<note place="foot">Cantábanse las
+              tonadillas y concluía.</note></p>
+        </sp>
+      </div>
+    </body>
+  </text>
+</TEI>

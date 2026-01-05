@@ -46,12 +46,12 @@
           <availability status="free">
             <p>No specific license.</p>
           </availability>
-          <bibl type="originalSource">
-            <author>Justo S. López de Gomara</author>: <title level="m">De paseo en Buenos Aires.
-              Bosquejo local en dos actos y diez cuadros, en verso.</title>. <pubPlace>Buenos
-              Aires</pubPlace>: <publisher>Imprenta Tribuna Nacional</publisher>
-            <date>1889</date>.</bibl>
         </bibl>
+        <bibl type="originalSource">
+          <author>Justo S. López de Gomara</author>: <title level="m">De paseo en Buenos Aires.
+            Bosquejo local en dos actos y diez cuadros, en verso.</title>. <pubPlace>Buenos
+              Aires</pubPlace>: <publisher>Imprenta Tribuna Nacional</publisher>
+          <date>1889</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
