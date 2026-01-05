@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">El examen de sainetes</title>
+        <title type="main">Examen de sainetes</title>
         <author>Anónimo</author>
         <editor xml:id="lv">
           <forename>Laura</forename>
@@ -39,10 +39,10 @@
         </bibl>
         <bibl type="originalSource">
           <editor><forename>Mariano G.</forename><surname>Bosch</surname></editor>: <title level="a"
-            >El examen de los sainetes</title>. En: <title level="m">Teatro antiguo de Buenos Aires:
+            >Examen de los sainetes</title>. En: <title level="m">Teatro antiguo de Buenos Aires:
             piezas del siglo XVIII, su influencia en la educación popular</title>. <pubPlace>Buenos
             Aires</pubPlace>: <publisher>Imprenta El Comercio</publisher>, <date>1904</date>,
-            pp.<biblScope unit="page" from="50" to="78">50–78</biblScope>.</bibl>
+            pp. <biblScope unit="page" from="50" to="78">50–78</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -71,6 +71,9 @@
           </person>
           <person xml:id="corchete" sex="MALE">
             <persName>Corchete</persName>
+          </person>
+          <person xml:id="corchetes" sex="MALE">
+            <persName>Corchetes</persName>
           </person>
           <person xml:id="maridoPrimero" sex="MALE">
             <persName>Marido Primero</persName>
@@ -117,7 +120,7 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ar000014"
-        passive="https://www.wikidata.org/wiki/Q136326659"/>
+        passive="https://www.wikidata.org/entity/Q136326659"/>
       <relation name="teatrar" active="https://dracor.org/entity/ar000014"
         passive="https://hdlab.space/teatrar/obras/0021.html"/>
     </listRelation>
@@ -153,7 +156,7 @@
           <role>Escribano</role>
         </castItem>
         <castItem>
-          <role>Cochete</role>
+          <role>Corchete</role>
         </castItem>
         <castItem>
           <role>Marido Primero</role>

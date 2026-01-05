@@ -45,7 +45,7 @@
           <name>Antología de obras de teatro argentino</name>
           <author><forename>Cristóbal</forename>
             <surname>de Aguilar</surname></author>: <title level="a">El carnaval. Diálogo entre seis
-            personas.</title> In: <editor>Seibel, Beatriz</editor>. <title level="m">Antología de
+            personas.</title> In: <editor><surname>Seibel</surname>, <forename>Beatriz</forename></editor>. <title level="m">Antología de
             obras de teatro argentino. Desde sus orígenes a la actualidad.</title>
           <biblScope unit="volume">Tomo 1. Sainetes urbanos y gauchescos, 1800–1814.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
@@ -115,7 +115,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar0000019"
+      <relation name="wikidata" active="https://dracor.org/entity/ar000019"
         passive="http://www.wikidata.org/entity/Q137700603"/>
       <relation name="teatrar" active="https://dracor.org/entity/ar000019"
         passive="https://hdlab.space/teatrar/obras/0001.html"/>
@@ -128,7 +128,7 @@
         <docTitle>
           <titlePart type="main">El carnaval</titlePart>
         </docTitle>
-        <docAuthor>Cristóbal de Aguilar</docAuthor>
+        <docAuthor><emph>Cristóbal de Aguilar</emph></docAuthor>
       </titlePage>
       <pb n="22"/>
       <pb n="23"/>
