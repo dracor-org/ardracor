@@ -40,9 +40,10 @@
         </publicationStmt>
          <sourceDesc>
            <bibl type="digitalSource">
+             <name>Antología de obras de teatro argentino</name>
              <author>Cristóbal de Aguilar</author>: <title level="a">El carnaval.
                Diálogo entre seis personas.</title> In: <editor>Seibel,
-                 Beatriz</editor>. <title level="m"><name>Antología de obras de teatro argentino.</name> Desde sus
+                 Beatriz</editor>. <title level="m">Antología de obras de teatro argentino. Desde sus
                    orígenes a la actualidad.</title>
              <biblScope unit="volume">Tomo 1. Sainetes urbanos y gauchescos, 1800–1814.</biblScope>
              <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
@@ -107,7 +108,7 @@
    </teiHeader>
   <standOff>
     <listEvent>
-      <event type="written" from="1805" to="1806">
+      <event type="written" when="1806" from="1805" to="1806">
         <desc/>
       </event>
     </listEvent>
@@ -372,7 +373,7 @@
              <l>en la memoria, y se llama</l>
              <l part="I"><emph>Catón cristiano.</emph> <note><emph>Catón cristiano:</emph> obrita con nociones de religión.</note></l>
            </sp>
-           <sp who="donFadrique">
+           <sp who="#donFadrique">
              <speaker>Fadrique:</speaker>
              <l part="F">Me acuerdo.</l>
              <l>Y aunque lo leí despacio</l> 
@@ -481,7 +482,7 @@
              <l>bárbaros, irracionales,</l> 
              <l>inciviles y groseros.</l>
            </sp>
-           <sp who="donArnesto">
+           <sp who="#donArnesto">
              <speaker>Arnesto:</speaker>
              <l>¿Cómo se podrá eludir</l>
              <l>la fuerza de este argumento?</l>
