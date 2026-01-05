@@ -24,6 +24,8 @@
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
         <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
@@ -34,9 +36,9 @@
         <bibl type="digitalSource">
           <author>Justo S. López de Gomara</author>: <title level="a">De paseo en Buenos Aires.
             Bosquejo local en dos actos y diez cuadros, en verso.</title> In: <editor>Seibel,
-            Beatriz</editor>. <title level="m">Antología de obras de teatro argentino. Desde sus
+            Beatriz</editor>. <title level="m"><name>Antología de obras de teatro argentino.</name> Desde sus
             orígenes a la actualidad.</title>
-          <biblScope unit="volume">Tomo 5 (1885-1899). Obras de la Nación Moderna.</biblScope>
+          <biblScope unit="volume">Tomo 5 (1885–1899). Obras de la Nación Moderna.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
             <date>2008</date>, pp. <biblScope unit="page" from="207" to="213">207–313</biblScope>. <idno type="URL"
             >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT5.pdf</idno>
@@ -45,7 +47,7 @@
           </availability>
           <bibl type="originalSource">
             <author>Justo S. López de Gomara</author>: <title level="m">De paseo en Buenos Aires.
-              óBosquejo local en dos actos y diez cuadros, en verso.</title>. <pubPlace>Buenos
+              Bosquejo local en dos actos y diez cuadros, en verso.</title>. <pubPlace>Buenos
               Aires</pubPlace>: <publisher>Imprenta Tribuna Nacional</publisher>
             <date>1889</date>.</bibl>
         </bibl>
@@ -72,13 +74,13 @@
           <person xml:id="diego" sex="MALE">
             <persName>Diego</persName>
           </person>
-          <person xml:id="vigilante-1" sex="MALE">
+          <person xml:id="vigilante1" sex="MALE">
             <persName>Vigilante</persName>
           </person>
-          <person xml:id="coro-vigilantes" sex="MALE">
+          <person xml:id="coroVigilantes" sex="MALE">
             <persName>Coro de vigilantes</persName>
           </person>
-          <person xml:id="oficial-policia" sex="MALE">
+          <person xml:id="oficialPolicia" sex="MALE">
             <persName>Un oficial de policía</persName>
           </person>
           <person xml:id="yerno" sex="MALE">
@@ -93,25 +95,25 @@
           <person xml:id="negra" sex="FEMALE">
             <persName>Una negra</persName>
           </person>
-          <person xml:id="vigilante-2" sex="MALE">
+          <person xml:id="vigilante2" sex="MALE">
             <persName>Vigilante</persName>
           </person>
-          <person xml:id="conde-tupe" sex="MALE">
+          <person xml:id="condeTupe" sex="MALE">
             <persName>El Conde del Tupé</persName>
           </person>
-          <person xml:id="sargento-policia" sex="MALE">
+          <person xml:id="sargentoPolicia" sex="MALE">
             <persName>Un sargento de policía</persName>
           </person>
-          <person xml:id="vigilante-3" sex="MALE">
+          <person xml:id="vigilante3" sex="MALE">
             <persName>Vigilante</persName>
           </person>
-          <person xml:id="cuervito-1" sex="MALE">
+          <person xml:id="cuervito1" sex="MALE">
             <persName>Cuervito 1º</persName>
           </person>
-          <person xml:id="cuervito-2" sex="MALE">
+          <person xml:id="cuervito2" sex="MALE">
             <persName>Cuervito 2º</persName>
           </person>
-          <person xml:id="cuervito-3" sex="MALE">
+          <person xml:id="cuervito3" sex="MALE">
             <persName>Cuervito 3º</persName>
           </person>
           <person xml:id="barrenderos" sex="MALE">
@@ -120,16 +122,16 @@
           <person xml:id="cocineras" sex="FEMALE">
             <persName>Cocineras</persName>
           </person>
-          <person xml:id="vendedor-diarios" sex="MALE">
+          <person xml:id="vendedorDiarios" sex="MALE">
             <persName>Un vendedor de diarios</persName>
           </person>
-          <person xml:id="cantante-italiana" sex="FEMALE">
+          <person xml:id="cantanteItaliana" sex="FEMALE">
             <persName>Cantante italiana</persName>
           </person>
-          <person xml:id="cantante-frances" sex="MALE">
+          <person xml:id="cantanteFrances" sex="MALE">
             <persName>Cantante francés</persName>
           </person>
-          <person xml:id="cantante-francesa" sex="FEMALE">
+          <person xml:id="cantanteFrancesa" sex="FEMALE">
             <persName>Cantante francesa</persName>
           </person>
           <person xml:id="perrera" sex="MALE">
@@ -144,19 +146,19 @@
           <person xml:id="oro" sex="UNKNOWN">
             <persName>El oro</persName>
           </person>
-          <person xml:id="coro-corredores" sex="MALE">
+          <person xml:id="coroCorredores" sex="MALE">
             <persName>Coro de corredores</persName>
           </person>
-          <person xml:id="corredor-1" sex="MALE">
+          <person xml:id="corredor1" sex="MALE">
             <persName>Corredor 1º</persName>
           </person>
-          <person xml:id="corredor-2" sex="MALE">
+          <person xml:id="corredor2" sex="MALE">
             <persName>Corredor 2º</persName>
           </person>
-          <person xml:id="corredor-3" sex="MALE">
+          <person xml:id="corredor3" sex="MALE">
             <persName>Corredor 3º</persName>
           </person>
-          <person xml:id="corredor-4" sex="MALE">
+          <person xml:id="corredor4" sex="MALE">
             <persName>Corredor 4º</persName>
           </person>
           <person xml:id="macana" sex="MALE">
@@ -171,7 +173,7 @@
           <person xml:id="sterling" sex="MALE">
             <persName>Mr. Sterling</persName>
           </person>
-          <person xml:id="dueno-loro" sex="MALE">
+          <person xml:id="duenoLoro" sex="MALE">
             <persName>El dueño de un loro</persName>
           </person>
           <person xml:id="tartagal" sex="MALE">
@@ -186,13 +188,13 @@
           <person xml:id="fondero" sex="MALE">
             <persName>Un fondero</persName>
           </person>
-          <person xml:id="coro-inmigrantes" sex="UNKNOWN">
+          <person xml:id="coroInmigrantes" sex="UNKNOWN">
             <persName>Coro de inmigrantes</persName>
           </person>
-          <person xml:id="don-pais" sex="MALE">
+          <person xml:id="donPais" sex="MALE">
             <persName>Don País</persName>
           </person>
-          <person xml:id="coro-general" sex="UNKNOWN">
+          <person xml:id="coroGeneral" sex="UNKNOWN">
             <persName>Coro general</persName>
           </person>
           <person xml:id="gallegos" sex="UNKNOWN">
@@ -207,7 +209,7 @@
           <person xml:id="franceses" sex="UNKNOWN">
             <persName>Franceses</persName>
           </person>
-          <person xml:id="misia-dolores" sex="FEMALE">
+          <person xml:id="misiaDolores" sex="FEMALE">
             <persName>Misia Dolores</persName>
           </person>
           <person xml:id="bailarina" sex="FEMALE">
@@ -217,25 +219,25 @@
           <person xml:id="rematador" sex="MALE">
             <persName>Un rematador</persName>
           </person>
-          <person xml:id="vendedor-bollitos" sex="MALE">
+          <person xml:id="vendedorBollitos" sex="MALE">
             <persName>Un vendedor de bollitos</persName>
           </person>
-          <person xml:id="vendedor-frutas" sex="MALE">
+          <person xml:id="vendedorFrutas" sex="MALE">
             <persName>Un vendedor de frutas</persName>
           </person>
-          <person xml:id="coro-compradores" sex="UNKNOWN">
+          <person xml:id="coroCompradores" sex="UNKNOWN">
             <persName>Coro de compradores</persName>
           </person>
-          <person xml:id="comprador-1" sex="MALE">
+          <person xml:id="comprador1" sex="MALE">
             <persName>Comprador 1º</persName>
           </person>
-          <person xml:id="comprador-2" sex="MALE">
+          <person xml:id="comprador2" sex="MALE">
             <persName>Comprador 2º</persName>
           </person>
-          <person xml:id="comprador-rico" sex="MALE">
+          <person xml:id="compradorRico" sex="MALE">
             <persName>Comprador rico</persName>
           </person>
-          <person xml:id="comprador-3" sex="MALE">
+          <person xml:id="comprador3" sex="MALE">
             <persName>Comprador 3º</persName>
           </person>
           <person xml:id="changador" sex="MALE">
@@ -244,22 +246,22 @@
           <person xml:id="familia" sex="UNKNOWN">
             <persName>Una familia</persName>
           </person>
-          <person xml:id="padre-familia" sex="MALE">
+          <person xml:id="padreFamilia" sex="MALE">
             <persName>Un padre de família</persName>
           </person>
           <person xml:id="madre" sex="FEMALE">
             <persName>La madre</persName>
           </person>
-          <person xml:id="hijo-mayor" sex="MALE">
+          <person xml:id="hijoMayor" sex="MALE">
             <persName>Hijo mayor</persName>
           </person>
-          <person xml:id="hijo-2" sex="MALE">
+          <person xml:id="hijo2" sex="MALE">
             <persName>Hijo 2º</persName>
           </person>
-          <person xml:id="nina-mayor" sex="FEMALE">
+          <person xml:id="ninaMayor" sex="FEMALE">
             <persName>Niña mayor</persName>
           </person>
-          <person xml:id="hijo-3" sex="MALE">
+          <person xml:id="hijo3" sex="MALE">
             <persName>Hijo 3º</persName>
           </person>
           <person xml:id="marinero-1" sex="MALE">
@@ -271,37 +273,37 @@
           <person xml:id="capitan-buque" sex="MALE">
             <persName>Un capitán de buque</persName>
           </person>
-          <person xml:id="corista-2" sex="FEMALE">
+          <person xml:id="corista2" sex="FEMALE">
             <persName>Corista 2ª</persName>
           </person>
-          <person xml:id="corista-1" sex="FEMALE">
+          <person xml:id="corista1" sex="FEMALE">
             <persName>Corista 1ª</persName>
           </person>
           <person xml:id="traspunte" sex="MALE">
             <persName>Un traspunte</persName>
           </person>
-          <person xml:id="voz-1" sex="UNKNOWN">
+          <person xml:id="voz1" sex="UNKNOWN">
             <persName>Una voz</persName>
           </person>
-          <person xml:id="voz-2" sex="UNKNOWN">
+          <person xml:id="voz2" sex="UNKNOWN">
             <persName>Otra voz</persName>
           </person>
-          <person xml:id="muchas-voces" sex="UNKNOWN">
+          <person xml:id="muchasVoces" sex="UNKNOWN">
             <persName>Muchas voces</persName>
           </person>
-          <person xml:id="coro-frutos" sex="UNKNOWN">
+          <person xml:id="coroFrutos" sex="UNKNOWN">
             <persName>Coros de frutos del país</persName>
           </person>
-          <person xml:id="consignatario-1" sex="MALE">
+          <person xml:id="consignatario1" sex="MALE">
             <persName>Consignatario de frutos</persName>
           </person>
-          <person xml:id="consignatario-2" sex="MALE">
+          <person xml:id="consignatario2" sex="MALE">
             <persName>Consignatario de frutos 2º</persName>
           </person>
-          <person xml:id="corredor-granos" sex="MALE">
+          <person xml:id="corredorGranos" sex="MALE">
             <persName>Un corredor de granos</persName>
           </person>
-          <person xml:id="republica-argentina" sex="UNKNOWN">
+          <person xml:id="republicaArgentina" sex="UNKNOWN">
             <persName>La República Argentina</persName>
           </person>
           <person xml:id="gallego" sex="MALE">
@@ -316,7 +318,7 @@
           <person xml:id="viticultura" sex="UNKNOWN">
             <persName>La viticultura</persName>
           </person>
-          <person xml:id="botella-mendoza" sex="UNKNOWN">
+          <person xml:id="botellaMendoza" sex="UNKNOWN">
             <persName>Una botella de Mendoza</persName>
           </person>
           <person xml:id="barril" sex="UNKNOWN">
@@ -337,19 +339,19 @@
           <person xml:id="cristaleria" sex="UNKNOWN">
             <persName>La cristalería</persName>
           </person>
-          <person xml:id="cosas-buenas" sex="UNKNOWN">
+          <person xml:id="cosasBuenas" sex="UNKNOWN">
             <persName>Tres cosas buenas</persName>
           </person>
           <person xml:id="alcohol" sex="UNKNOWN">
             <persName>El alcohol</persName>
           </person>
-          <person xml:id="fabrica-panos" sex="UNKNOWN">
+          <person xml:id="fabricaPanos" sex="UNKNOWN">
             <persName>La fábrica de paños</persName>
           </person>
           <person xml:id="reposteria" sex="UNKNOWN">
             <persName>La repostería criolla</persName>
           </person>
-          <person xml:id="azucar-tucuman" sex="UNKNOWN">
+          <person xml:id="azucarTucuman" sex="UNKNOWN">
             <persName>El azúcar de Tucumán</persName>
           </person>
         </listPerson>
@@ -378,7 +380,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000015" passive="http://www.wikidata.org/entity/"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar0000015" passive="http://www.wikidata.org/entity/Q137675151"/>
     </listRelation>
   </standOff>
   <text>
@@ -526,7 +528,7 @@
           <speaker>Espectador:</speaker>
           <p>Que nos devuelva la plata quien la tenga.</p>
         </sp>
-        <sp who="#vigilante-1">
+        <sp who="#vigilante1">
           <speaker>Vigilante:</speaker>
           <stage><emph>(Desde la salida, al espectador)</emph></stage>
           <p>Cállese usted.</p>
@@ -535,7 +537,7 @@
           <speaker>Espectador:</speaker>
           <p>¿Por qué me he de callar? No me da la gana.</p>
         </sp>
-        <sp who="#vigilante-1">
+        <sp who="#vigilante1">
           <speaker>Vigilante:</speaker>
           <p>Camine a la comisaría.</p>
         </sp>
@@ -543,7 +545,7 @@
           <speaker>Espectador:</speaker>
           <p>Yo no he faltado en nada.</p>
         </sp>
-        <sp who="#vigilante-1">
+        <sp who="#vigilante1">
           <speaker>Vigilante:</speaker>
           <p>No se resista porque será pa pior.</p>
         </sp>
@@ -552,7 +554,7 @@
           <p>¿Pero qué he hecho yo? <stage><emph>(Al público).</emph></stage></p>
           <p>Digan ustedes si no tengo razón.</p>
         </sp>
-        <sp who="#vigilante-1">
+        <sp who="#vigilante1">
           <speaker>Vigilante:</speaker>
           <p>Aquí no hay más criterio que el mío.</p>
         </sp>
@@ -564,7 +566,7 @@
           <speaker>Espectador:</speaker>
           <p>Lo hago por prudencia pero conste que protesto.</p>
         </sp>
-        <sp who="#vigilante-1">
+        <sp who="#vigilante1">
           <speaker>Vigilante:</speaker>
           <p>Usted protesta y el comisario le cobrará los ocho males del protesto.</p>
         </sp>
@@ -582,7 +584,7 @@
           <div type="scene" n="1">
             <head>Escena I</head>
             <stage><emph>Música</emph></stage>
-            <sp who="#coro-vigilantes">
+            <sp who="#coroVigilantes">
               <speaker>Coro de vigilantes:</speaker>
               <l>Soy vigilante,</l>
               <l>gallo policial,</l>
@@ -623,19 +625,19 @@
                   Sargento que figura estar de guardia mientras dura el cuadro.</emph></p>
               <p><emph>Hablado.</emph></p>
             </stage>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Ya principia la chorrera.</l>
               <l>¡Caramba con el empleo!</l>
               <l>¿Este qué hizo?</l>
               <stage><emph>(Al Vigilante).</emph></stage>
             </sp>
-            <sp who="#vigilante-1">
+            <sp who="#vigilante1">
               <speaker>Vigilante:</speaker>
               <l>Armó un batuque</l>
               <l>en el San Martín.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <stage><emph>(A Diego que iba a hablar)</emph></stage>
               <l>¡Silencio!</l>
@@ -644,7 +646,7 @@
               <speaker>Diego:</speaker>
               <l>Hombre si no he dicho nada.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Que se calle usted.</l>
             </sp>
@@ -652,11 +654,11 @@
               <speaker>Diego:</speaker>
               <l><foreign xml:lang="lat">Laus Deo.</foreign></l>
             </sp>
-            <sp who="#vigilante-1">
+            <sp who="#vigilante1">
               <speaker>Vigilante:</speaker>
               <l>Nos está insultando en gringo.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Ya lo interrogaré luego.</l>
               <pb n="214"/>
@@ -668,7 +670,7 @@
               <speaker>Diego:</speaker>
               <l>¿Y yo qué hago señor mío?</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>¿Qué ha de hacer? Quedarse preso.</l>
             </sp>
@@ -684,7 +686,7 @@
               <speaker>Suegra:</speaker>
               <l>¡Por usted maldito yerno!</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>De estar sosegado un rato</l>
               <l>¡caracoles! ¿no habrá medio?</l>
@@ -695,7 +697,7 @@
               <speaker>Suegra:</speaker>
               <l>¿Y a usted qué le importa?</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Bueno,</l>
               <l>paguen ocho nacionales</l>
@@ -705,7 +707,7 @@
               <speaker>Suegra:</speaker>
               <l>¿Yo pagar? ¡Antes le mato!</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Guarden ustedes respeto</l>
               <l>a la autoridad.</l>
@@ -733,7 +735,7 @@
               <l>Ojalá y no le encontraran</l>
               <l>ni un pedazo así.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <stage><emph>(A la Suegra)</emph></stage>
               <l>Silencio.</l>
@@ -750,7 +752,7 @@
               <speaker>Suegra:</speaker>
               <l>Ya se ve que sí.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Lo veo.</l>
             </sp>
@@ -820,7 +822,7 @@
               <l>que la dejará recuerdo.</l>
             </sp>
             <pb n="217"/>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>El desorden está claro,</l>
               <l>ocho pesos cuesta eso.</l>
@@ -831,7 +833,7 @@
               <stage><emph>(Al Yerno)</emph></stage>
               <l>iba usté a parar al cepo.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Paguen y váyanse pronto.</l>
             </sp>
@@ -839,7 +841,7 @@
               <speaker>Suegra:</speaker>
               <l>¡Pagar yo! No tengo un peso.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Abonará por los dos</l>
               <l>el señor.</l>
@@ -850,7 +852,7 @@
               <l>¡Hombre! ¡está bueno!</l>
               <l>¿Yo voy a pagar por ella?</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Ella no tiene dinero</l>
               <l>y es el jefe de familia</l>
@@ -867,7 +869,7 @@
               <l>Diez y seis…</l>
               <l>veinte y cuatro.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Sobra esto</l>
               <stage><emph>(Devolviendo los billetes)</emph></stage>
@@ -948,7 +950,7 @@
               <l>que hijo branco le di.</l>
             </sp>
             <stage><emph>Hablado.</emph></stage>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>¿Nada más que eso pasó?</l>
               <l>Pues tenga usted más cachaza.</l>
@@ -961,7 +963,7 @@
               <l>¿Quién se queda en la estacada</l>
               <l>ante el progreso constante?</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Cuide usted en adelante</l>
               <l>de no ir tan adelantada.</l>
@@ -988,17 +990,17 @@
               <l>Amigo,</l>
               <l>¿qué le ha ocurrido? ¿qué tiene?</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>¿Por qué viene usté a parar</l>
               <l>aquí, a la Comisaría?</l>
             </sp>
-            <sp who="#vigilante-2">
+            <sp who="#vigilante2">
               <speaker>Vigilante:</speaker>
               <l>Porque no quiso pagar</l>
               <l>al mayoral del tranvía.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Cómo puede usted creer</l>
               <l>que un hombre en mi situación</l>
@@ -1009,22 +1011,22 @@
               <l>me negué, empezó a insultarme</l>
               <l>y ahí tiene cuanto ha pasado.</l>
             </sp>
-            <sp who="#vigilante-2">
+            <sp who="#vigilante2">
               <speaker>Vigilante:</speaker>
               <l>Y además le sacudió</l>
               <l>el mayoral unos buenos.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Yo también…</l>
             </sp>
-            <sp who="#vigilante-2">
+            <sp who="#vigilante2">
               <speaker>Vigilante:</speaker>
               <l>Malos y menos.</l>
               <pb n="221"/>
               <l>¡Buena soba le pegó!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Me contuve, pues yo mismo</l>
               <l>tengo miedo de mi enojo.</l>
@@ -1035,22 +1037,22 @@
               <speaker>Diego:</speaker>
               <l>(¡Qué cinismo!)</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>¡Bueno! Pague usted la multa</l>
               <l>si tiene con qué pagar.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Ofendido)</emph></stage>
               <l>Quien soy debe usté ignorar</l>
               <l>y por eso así me insulta.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>¡Ocho pesos!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(¡San Procopio!</l>
               <l>si pago me arruinaría).</l>
@@ -1059,7 +1061,7 @@
               <l>A nadie mi cuna cede.</l>
               <l>Yo soy Conde del Tupé.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>¡Hombre qué me cuenta usté!</l>
               <l>¿Es conde?</l>
@@ -1068,24 +1070,24 @@
               <speaker>Diego:</speaker>
               <l>(Sí, lo que puede).</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <stage><emph>(Al Conde)</emph></stage>
               <l>¿Y vive usté?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Turbado)</emph></stage>
               <l>En la ciudad.</l>
               <l>(Mas no sé cómo ni en dónde).</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <stage><emph>(Al Sargento)</emph></stage>
               <l>Pronto mate al señor Conde.</l>
             </sp>
             <pb n="222"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Asustado)</emph></stage>
               <l>Hombre, ¡qué barbaridad!</l>
@@ -1093,18 +1095,18 @@
               <l>Yo soy un joven muy bueno</l>
               <l>¡me gusta mucho vivir!</l>
             </sp>
-            <sp who="#sargento-policia">
+            <sp who="#sargentoPolicia">
               <speaker>Sargento:</speaker>
               <l>Ya se puede usted servir.</l>
               <stage><emph>(Dándole el mate).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(¿Qué es esto? ¡Será el veneno!)</l>
               <l>No lo tomo, no señor</l>
               <l>¿por qué matarme querría?</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Permita usted que me ría,</l>
               <l>recién comprendo el error.</l>
@@ -1112,7 +1114,7 @@
               <l>es el mate que aquí ve</l>
               <l>más saludable que el té.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Caramba! ¡Me ha dado un susto!</l>
               <l>Es usté atento sin tasa.</l>
@@ -1120,42 +1122,42 @@
               <stage><emph>(Lo toma).</emph></stage>
               <l>¿Cómo se toma?</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Chupando.</l>
             </sp>
             <stage><emph>Lo hace.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Caracoles, cómo abrasa!</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>No es nada.</l>
               <stage><emph>(Riéndose).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Y aún le da risa.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>¡Ja, ja , ja! La vez primera</l>
               <l>eso le pasa a cualquiera.</l>
             </sp>
             <pb n="223"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>A buena hora me lo avisa.</l>
               <l>¡Bueno! ¿Me puedo marchar?</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Sin pagar es imposible.</l>
               <l>Aunque es para mí sensible</l>
               <l>la noche aquí ha de pasar.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(La pasaré muy completa</l>
               <l>con tal de ahorrar tanto peso…</l>
@@ -1168,7 +1170,7 @@
               <l>Señor Conde, mal comienza</l>
               <l>nuestra ansiada inmigración.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Picado)</emph></stage>
               <l>Usted pierde la razón</l>
@@ -1180,7 +1182,7 @@
               <l>(Tiene su farsa donaires)</l>
               <l>Yo he venido a trabajar.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Pues yo vengo a pasear</l>
               <l>por capricho, en Buenos Aires.</l>
@@ -1190,7 +1192,7 @@
               <l>Capricho de gran señor</l>
               <stage><emph>(Con ironía).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Nada al dinero se opone.</l>
             </sp>
@@ -1198,7 +1200,7 @@
               <speaker>Diego:</speaker>
               <l>¡Tendrá mucho!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Se supone.</l>
               <l>Bien lo dice mi esplendor.</l>
@@ -1209,7 +1211,7 @@
               <l>Pensará que me lo creo).</l>
             </sp>
             <pb n="224"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Mi más mínimo deseo</l>
               <l>nunca dejé de cumplir.</l>
@@ -1221,7 +1223,7 @@
               <l>Voy un sueñecillo a echar.</l>
               <stage><emph>(Se recuesta en la silla y duerme).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Yo voy a reflexionar</l>
               <l>esperando al nuevo día.</l>
@@ -1280,12 +1282,12 @@
           <div type="scene" n="6">
             <head>Escena VI</head>
             <stage><emph>Dichos, dos Vigilantes trayendo a los tres Cuervitos.</emph></stage>
-            <sp who="#vigilante-3">
+            <sp who="#vigilante3">
               <speaker>Vigilante 1º:</speaker>
               <l>Mi oficial aquí traemos</l>
               <l>gente antigua conocida.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Pues a la tipa enseguida.</l>
             </sp>
@@ -1294,7 +1296,7 @@
               <l>¡Calle! Cuervitos tenemos.</l>
             </sp>
             <stage><emph>Música.</emph></stage>
-            <sp who="#cuervito-1 #cuervito-2               #cuervito-3">
+            <sp who="#cuervito1 #cuervito2               #cuervito3">
               <speaker>Los tres Cuervitos:</speaker>
               <l>Somos los cuervitos</l>
               <l>unos compadritos</l>
@@ -1305,22 +1307,22 @@
               <l>pues siempre tomamos</l>
               <l>lo que no nos den.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Reloj de oro o de plata</l>
               <l>es pieza superior.</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º</speaker>
               <l>Alfiler de corbata</l>
               <l>suele ser lo mejor.</l>
             </sp>
-            <sp who="#cuervito-3">
+            <sp who="#cuervito3">
               <speaker>Cuervito 3º</speaker>
               <l>Brillantes y dinero</l>
               <l>son lo de más valor.</l>
             </sp>
-            <sp who="#cuervito-1 #cuervito-2               #cuervito-3">
+            <sp who="#cuervito1 #cuervito2               #cuervito3">
               <speaker>Los tres:</speaker>
               <l>Buenas valiendo algo</l>
               <l>todas las cosas son</l>
@@ -1337,7 +1339,7 @@
               <l>nuestra dignidad.</l>
             </sp>
             <stage><emph>Hablado.</emph></stage>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Esos que están en las sillas</l>
               <stage><emph>Se acercan a Diego y el Conde palpándoles los bolsillos.</emph></stage>
@@ -1345,22 +1347,22 @@
               <l>Este sí tiene.</l>
               <stage><emph>(Por el Conde).</emph></stage>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>Este no.</l>
               <stage><emph>(Por Diego).</emph></stage>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡Una caja de pastillas!</l>
               <stage><emph>(Al tirar de la cadena del Conde saca prendida una caja de
                   pastillas).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Que me roban!</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Tal por cual.</l>
               <stage><emph>(Muy indignado)</emph></stage>
@@ -1368,32 +1370,32 @@
               <l>¡De ese modo no se engaña</l>
               <l>a un laborioso industrial!</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>¡Si no es un hombre decente!</l>
             </sp>
-            <sp who="#cuervito-3">
+            <sp who="#cuervito3">
               <speaker>Cuervito 3º:</speaker>
               <l>¡Si no tiene dos centavos!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡No tengo! A mis pies, esclavos.</l>
               <stage><emph>(Sacando la onza)</emph></stage>
               <l>Esto es oro reluciente.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡La vanidad le perdió!</l>
               <stage><emph>(Al Cuervito 2º)</emph></stage>
               <l>Forzoso es que le quitemos esa onza.</l>
             </sp>
             <pb n="228"/>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>Ahora no podemos.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>De eso me encargaré yo.</l>
             </sp>
@@ -1402,7 +1404,7 @@
           <div type="scene" n="7">
             <head>Escena VII</head>
             <stage><emph>Dichos menos los Cuervitos.</emph></stage>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Ya principia a clarear.</l>
               <l>Ea, basta de dormir.</l>
@@ -1417,7 +1419,7 @@
               <stage><emph>(Al oficial)</emph></stage>
               <l>por qué he estado detenido.</l>
             </sp>
-            <sp who="#oficial-policia">
+            <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Hombre yo ya no me acuerdo.</l>
             </sp>
@@ -1427,7 +1429,7 @@
               <stage><emph>(Al Conde)</emph></stage>
               <l>Vamos cuanto antes.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Una hora pronto se pasa.</l>
               <l>Aún no está abierta mi casa</l>
@@ -1540,30 +1542,30 @@
               <l>y sopla un viento del río…</l>
               <l>Conde ¿no tiene usted frío?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Lo que no tengo es gabán).</l>
             </sp>
-            <sp who="#vendedor-diarios">
+            <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l><emph>La Nación, La Prensa</emph></l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Chico!</l>
               <l>Dame un diario.</l>
             </sp>
-            <sp who="#vendedor-diarios">
+            <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l>¿Cuál señor?</l>
               <l><emph>La Patria, El Porteño,</emph></l>
               <l><emph><foreign xml:lang="eng">Standard Herald</foreign>, Correo Español.</emph></l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Cualquiera de ellos y cobra.</l>
             </sp>
-            <sp who="#vendedor-diarios">
+            <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l>¡Una onza! No tengo yo</l>
               <l>cambio de ella en ocho días.</l>
@@ -1582,7 +1584,7 @@
               <l>Qué retahíla, ¡vive Dios!</l>
               <l>Qué cantidad de periódicos.</l>
             </sp>
-            <sp who="#vendedor-diarios">
+            <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l>Y esto es al salir el sol</l>
               <l>que lo que es hasta ocultarse,</l>
@@ -1593,11 +1595,11 @@
               <l><emph>de la Iglesia, El Globo,</emph></l>
               <l><emph>El Río de la Plata</emph>, ¡qué sé yo!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Entonces se leerá mucho!</l>
             </sp>
-            <sp who="#vendedor-diarios">
+            <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l>Se lee mucho, sí señor</l>
               <l>mas con tanta opinión, se arma</l>
@@ -1611,7 +1613,7 @@
               <speaker>Diego:</speaker>
               <l>¿Y quién dice la verdad?</l>
             </sp>
-            <sp who="#vendedor-diarios">
+            <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l>¡Qué inocente preguntón!</l>
               <l>La verdad metida en prensa…</l>
@@ -1620,20 +1622,20 @@
               <l>con la mejor intención.</l>
             </sp>
             <stage><emph>Dos vendedores se tironean en el fondo de la escena.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Qué hacen aquellos?</l>
             </sp>
-            <sp who="#vendedor-diarios">
+            <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l>Disputan</l>
               <l>cuál tira más de los dos.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Y cuál es?</l>
             </sp>
-            <sp who="#vendedor-diarios">
+            <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l>Para saberlo</l>
               <l>vaya a cualquiera estación</l>
@@ -1653,7 +1655,7 @@
                 Cantantes franceses.</emph></stage>
             <stage><emph>Los cómicos desfilan por la escena precedidos de algunos changadores con
                 baúles y caracterizados como indica el diálogo.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Ahí tenemos forasteros.</l>
             </sp>
@@ -1662,7 +1664,7 @@
               <l>Desembarcan del vapor</l>
               <l><emph>Venus</emph> de Montevideo.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Qué equipaje, ¡Santo Dios!</l>
               <l>(Ojalá fuera así el mío).</l>
@@ -1674,7 +1676,7 @@
               <l>es de más allá el traidor</l>
               <l>o el barba.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Si está afeitado.</l>
             </sp>
@@ -1682,7 +1684,7 @@
               <speaker>Diego:</speaker>
               <l>Se la pega.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Doña Sol?</l>
             </sp>
@@ -1696,7 +1698,7 @@
               <l>¿qué tal andará de voz?</l>
             </sp>
             <stage><emph>Música.</emph></stage>
-            <sp who="#cantante-italiana">
+            <sp who="#cantanteItaliana">
               <speaker>Cantante italiana:</speaker>
               <l>Yo soy la Ópera,</l>
               <l>nací en Italia</l>
@@ -1738,29 +1740,29 @@
               <l>¿Usted habla en esa lengua?</l>
             </sp>
             <pb n="235"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No he de hablar.</l>
               <stage><emph>(Al Francés)</emph></stage>
               <l><foreign xml:lang="fre">Monsiu pardon,</foreign></l>
               <l><foreign xml:lang="fre">¿vous venez a les varietés?</foreign></l>
             </sp>
-            <sp who="#cantante-frances">
+            <sp who="#cantanteFrances">
               <speaker>Francés:</speaker>
               <l>Hábleme usté en español.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Pregunto que a dónde viene.</l>
             </sp>
-            <sp who="#cantante-frances">
+            <sp who="#cantanteFrances">
               <speaker>Francés:</speaker>
               <l>Ahorra lo entiendo mecor.</l>
               <l>Escúcheme usted un momento,</l>
               <l>porque a decírselo voy.</l>
             </sp>
             <stage><emph>Música.</emph></stage>
-            <sp who="#cantante-frances">
+            <sp who="#cantanteFrances">
               <speaker>Francés:</speaker>
               <l><foreign xml:lang="fre"><emph>Je suis parisien,</emph></foreign></l>
               <l><foreign xml:lang="fre"><emph>je chante tres bien,</emph></foreign></l>
@@ -1784,7 +1786,7 @@
               <l><foreign xml:lang="fre"><emph>couplets et can-can.</emph></foreign></l>
             </sp>
             <pb n="236"/>
-            <sp who="#cantante-francesa">
+            <sp who="#cantanteFrancesa">
               <speaker>Francesa:</speaker>
               <l><foreign xml:lang="fre"><emph>Je suis une française</emph></foreign></l>
               <l><foreign xml:lang="fre"><emph>que fortune viens fair</emph></foreign></l>
@@ -1870,7 +1872,7 @@
               <l>¡Asesinos! ¡Carbonarios!</l>
             </sp>
             <stage><emph>(Se va).</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Qué hombre más original,</l>
               <l>riéndome le contemplo.</l>
@@ -1880,7 +1882,7 @@
               <l>Ahí tiene usted un buen ejemplo.</l>
               <l>¡No le suceda a usted igual!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿A mí? ¿Se atreve usted? ¡Vamos!</l>
             </sp>
@@ -1894,7 +1896,7 @@
               <l>es muy posible que baje</l>
               <l>hasta hacerle compañía.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Me admira su atrevimiento.</l>
               <l>¡Me insulta usted caballero!</l>
@@ -1904,7 +1906,7 @@
               <l>Soy muy claro y muy sincero.</l>
             </sp>
             <pb n="239"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Eso es decir que yo miento.</l>
             </sp>
@@ -1913,7 +1915,7 @@
               <l>Si piensa que soy un bolo</l>
               <l>tengo de farsas bastante.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Soy Conde!</l>
             </sp>
@@ -1925,7 +1927,7 @@
               <speaker>Diego:</speaker>
               <l>No, si se da lustre él solo.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Me dará reparación.</l>
             </sp>
@@ -1933,7 +1935,7 @@
               <speaker>Diego:</speaker>
               <l>Sí, señor, y una paliza.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Asustado)</emph></stage>
               <l>Yo sólo llevo a la liza,</l>
@@ -1944,7 +1946,7 @@
               <l>Creo que hace usted muy bien</l>
               <l>si a su cuero tiene aprecio.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Esas ofensas desprecio.</l>
             </sp>
@@ -1956,7 +1958,7 @@
               <l>Si no cambia de camino</l>
               <l>concluirá mal, se lo abono.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Lo que hago yo me lo sé.</l>
             </sp>
@@ -1966,7 +1968,7 @@
               <l>cualquier chico de la escuela</l>
               <l>sabe mucho más que usté.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No le he pedido consejo.</l>
             </sp>
@@ -1974,7 +1976,7 @@
               <speaker>Diego:</speaker>
               <l>Pero gratis se lo doy.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡De más alta esfera soy!</l>
             </sp>
@@ -1985,7 +1987,7 @@
               <l>al punto, y me voy despacio</l>
               <l>al Asilo de Inmigrantes.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Allí vive? ¡Qué atorrantes!</l>
             </sp>
@@ -2003,22 +2005,22 @@
             <head>Escena XII</head>
             <stage><emph>Conde, Cuervitos 1º y 2º (cómicamente vestidos de gomosos).<note>Gomosos:
                   Jóvenes elegantes con goma o fijador en el pelo.</note></emph></stage>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Ese nos ha conocido.</l>
               <stage><emph>(Al cruzarse con D. Diego).</emph></stage>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>No importa porque se va.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Conde, de ese modo da</l>
               <stage><emph>(Abrazando al Conde)</emph></stage>
               <l>los amigos al olvido.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Asombrado)</emph></stage>
               <l>(Parecen gente de tono)</l>
@@ -2031,11 +2033,11 @@
               <pb n="241"/>
               <l>No extrañen lo que me pasa.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Un olvido es muy frecuente.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Los conozco pero tuerzo</l>
               <l>el torpe cerebro en vano.</l>
@@ -2043,27 +2045,27 @@
               <stage><emph>(Dándosela)</emph></stage>
               <l>(Me pagarán el almuerzo).</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Qué milagro, tan temprano</l>
               <l>ya fuera del lecho blando.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Salí del Club, y paseando…</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿Ha tenido mala mano?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Perdí diez mil nacionales</l>
               <l>mas para mí eso no es nada.</l>
               <l>Ya me vendrá la bolada.</l>
               <l>¡Que Dios no me dé otros males!</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <stage><emph>(Al 2º)</emph></stage>
               <l>Este nos tapa hermanito.</l>
@@ -2072,7 +2074,7 @@
               <l>Seguiremos el paseo.</l>
             </sp>
             <stage><emph>Aparece El Papel.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Quién es ese pobrecito?</l>
             </sp>
@@ -2086,7 +2088,7 @@
               <speaker>Conde:</speaker>
               <l>¿Y ese otro?</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿No ha adivinado?</l>
               <l>Son el oro y el papel.</l>
@@ -2203,7 +2205,7 @@
               <l>abriré a ciento setenta.</l>
             </sp>
             <stage><emph>(Se va).</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Al papel)</emph></stage>
               <l>Aunque sé que me rebajo,</l>
@@ -2215,25 +2217,25 @@
               <l>con el honrado trabajo.</l>
             </sp>
             <stage><emph>(Sale).</emph></stage>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿Qué le ha dicho?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Me presiente</l>
               <l>y humillado me saluda.</l>
             </sp>
             <stage><emph>Pasan transeúntes muy ligeros.</emph></stage>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Vamos.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Dónde va la gente?</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>Pues a la Bolsa no hay duda.</l>
             </sp>
@@ -2248,7 +2250,7 @@
             <head>Escena XIV</head>
             <stage><emph>Coro de Corredores.</emph></stage>
             <stage><emph>Música.</emph></stage>
-            <sp who="#coro-corredores">
+            <sp who="#coroCorredores">
               <speaker>Coro de corredores:</speaker>
               <l>Somos corredores</l>
               <l>de Bancos y tierra,</l>
@@ -2291,122 +2293,122 @@
             <stage><emph>El Conde, Cuervito 1º, Cuervito 2º, Corredores 1º, 2º, 3º y 4º, el Dr.
                 Macana.</emph></stage>
             <stage><emph>Hablado.</emph></stage>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Del dinero y del comercio</l>
               <l>nos hallamos en la casa</l>
               <l>¿qué le parece La Bolsa?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Muy bien (la mía es tan flaca).</l>
               <l>¿Qué hace tanta gente?</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Ver</l>
               <l>cómo sube y baja.</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>Vendo dos mil Tartagales.</l>
             </sp>
-            <sp who="#corredor-2">
+            <sp who="#corredor2">
               <speaker>Corredor 2º:</speaker>
               <l>Compro muelles de la Plata.</l>
             </sp>
-            <sp who="#corredor-3">
+            <sp who="#corredor3">
               <speaker>Corredor 3º:</speaker>
               <l>¡Crédito Real!</l>
             </sp>
-            <sp who="#corredor-4">
+            <sp who="#corredor4">
               <speaker>Corredor 4º:</speaker>
               <l>Previsora.</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>Banco Nacional ¿quién pasa?</l>
             </sp>
             <stage><emph>Durante este diálogo los corredores figuran hacer operaciones, toman notas,
                 etc, etc.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Con qué rapidez operan.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Como que es sobre palabra.</l>
             </sp>
             <pb n="247"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Entonces pruebo fortuna</l>
               <l>si gano, muy bien me pagan,</l>
               <l>y si pierdo ¡qué me importa!</l>
               <l>Me hago el tonto y santas pascuas).</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿Desearía comprar?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Phs! Por ayudar el alza.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Aquel es un corredor.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Al Corredor 1º)</emph></stage>
               <l>¡Caballero!</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>¿Qué me manda?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Cómpreme, dos mil acciones.</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>¿Y de qué?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>De lo que salga.</l>
               <l>Con tal que gane unos pesos…</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>¿Y si pierde en la jugada?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Yo perder? ¡Es imposible!</l>
               <l>(Como no perdiera el habla).</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>¡Bien! Si me da garantía.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Hombre! Qué mala crianza,</l>
               <l>desconfiar de un caballero…</l>
               <l>no lo permito, ¡caramba!</l>
               <l>Yo buscaré otro.</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <stage><emph>(Con ironía)</emph></stage>
               <l>Si quiere</l>
               <l>sin anticipo, el que pasa.</l>
             </sp>
             <stage><emph>Cruza la escena el Dr. Macana, a quien se dirige el Conde.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Saludándole)</emph></stage>
               <l>¿Me querría usted operar?</l>
@@ -2417,7 +2419,7 @@
               <l>Con mucho gusto. Mi fama</l>
               <l>¿cómo ha llegado hasta usted?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Un talento de su talla…</l>
               <l>(Le adularé para ver</l>
@@ -2427,7 +2429,7 @@
               <speaker>Dr. Macana:</speaker>
               <l>¡Gracias!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Ahora mismo…</l>
             </sp>
@@ -2438,7 +2440,7 @@
               <l>y hablaremos. Mi tarjeta.</l>
             </sp>
             <stage><emph>(Se la da y se va saludando).</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Leyendo)</emph></stage>
               <l>¡Qué leo! "Doctor Macana</l>
@@ -2447,12 +2449,12 @@
               <l>¡Pues vaya una operación</l>
               <l>lucida, que me aguardaba!</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Aquí viene todo el mundo</l>
               <l>a ver si encuentra una ganga.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Si hasta viene una mujer</l>
               <l>¿quién puede ser esta dama?</l>
@@ -2477,7 +2479,7 @@
               <l>Yo subo como la espuma</l>
               <l>y bajo si me lo mandan.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Y son buenas sus acciones?</l>
             </sp>
@@ -2491,7 +2493,7 @@
               <l>que el día menos pensado</l>
               <l>puedo amanecer quebrada.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Y aquí hay muchas como usted?</l>
             </sp>
@@ -2502,7 +2504,7 @@
               <l>cooperativas no faltan.</l>
               <l>Suscríbase usted conmigo.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Lo que es la moza me agrada).</l>
               <l>Yo bien me suscribiría.</l>
@@ -2512,7 +2514,7 @@
               <l>Y como a plazos se paga…</l>
               <l>(en los que veas mi plata).</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Señora cuente conmigo.</l>
             </sp>
@@ -2569,42 +2571,42 @@
             <head>Escena XVIII</head>
             <stage><emph>Diego, los dos Cuervitos, Corredores, Tartagal, La Pobladora, el Dueño de
                 un loro, Planqué, un Portero (cuando indique el diálogo).</emph></stage>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <stage><emph>(Al 2º)</emph></stage>
               <l>Es muy fácil que te estrelles</l>
               <l>metido en ese negocio.</l>
             </sp>
-            <sp who="#corredor-2">
+            <sp who="#corredor2">
               <speaker>Corredor 2º:</speaker>
               <l>¿No te asocias?</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>No me asocio</l>
               <l>porque andan flojos los Muelles.</l>
             </sp>
-            <sp who="#corredor-2">
+            <sp who="#corredor2">
               <speaker>Corredor 2º:</speaker>
               <l>Ya se firmarán.</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>Lo espero.</l>
             </sp>
-            <sp who="#corredor-2">
+            <sp who="#corredor2">
               <speaker>Corredor 2º:</speaker>
               <l>¿Entonces a qué te inclinas?</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>Me gustan las Catalinas.</l>
             </sp>
-            <sp who="#corredor-2">
+            <sp who="#corredor2">
               <speaker>Corredor 2º:</speaker>
               <l>Jóvenes también las quiero.</l>
             </sp>
-            <sp who="#dueno-loro">
+            <sp who="#duenoLoro">
               <speaker>El dueño de un loro:</speaker>
               <stage><emph>(Viene muy embozado y al desembozarse con mucha precaución se ve el loro
                   que trae en la mano, con una cuerda colgando de una pata).</emph></stage>
@@ -2613,29 +2615,29 @@
               <l>Vamos a ver cuánto dan.</l>
               <stage><emph>(Con misterio).</emph></stage>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <l>¿Vende el loro?</l>
             </sp>
-            <sp who="#corredor-2">
+            <sp who="#corredor2">
               <speaker>Corredor 2º:</speaker>
               <l>¡Qué bonito!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Y no habla el animalito?</l>
             </sp>
-            <sp who="#dueno-loro">
+            <sp who="#duenoLoro">
               <speaker>El dueño:</speaker>
               <l>Ya lo creo… ¡en alemán!</l>
             </sp>
             <stage><emph>(Lo ata en un banco que habrá al lado).</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Por qué lo ata en ese banco?</l>
             </sp>
             <pb n="252"/>
-            <sp who="#dueno-loro">
+            <sp who="#duenoLoro">
               <speaker>El dueño:</speaker>
               <l>Porque cuando tiende el vuelo,</l>
               <l>se sube el loro hasta el cielo.</l>
@@ -2665,24 +2667,24 @@
               <stage><emph>(Sale).</emph></stage>
             </sp>
             <stage><emph>Pasa una robusta ama de cría con un chico en cada brazo.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No acaba la procesión</l>
               <l>otra mujer viene ahora.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Esa es "La Pobladora".</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Cumple muy bien su misión!</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Pero es hora y no he almorzado.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Bostezando)</emph></stage>
               <l>(¡Ah! Por fin apareció aquello</l>
@@ -2692,17 +2694,17 @@
               <l>Yo siempre me desayuno</l>
               <l>muy tarde.</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>Vamos a hacerlo.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <stage><emph>(Al 2º)</emph></stage>
               <l>(Con maña hay que convencerlo</l>
               <l>y sacar la onza a ese tuno).</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <stage><emph>(Al Conde)</emph></stage>
               <l>Y puesto que usted destina</l>
@@ -2710,7 +2712,7 @@
               <l>iremos a visitar</l>
               <l>la fonda de Giacumina.</l>
             </sp>
-            <sp who="#corredor-1">
+            <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
               <stage><emph>(Reparando en los tres extraños)</emph></stage>
               <l>¡Planqué! Hay intrusos, ¡Planqué!</l>
@@ -2723,41 +2725,41 @@
                 es natural, del lado donde le tocan no pudiendo, por consiguiente, apercibirse del
                 autor de esta broma que se aplica en la Bolsa a toda persona desconocida en
                 ella.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(A uno de sus acompañantes)</emph></stage>
               <l>¿Qué quiere?</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>No quiero nada.</l>
               <stage><emph>(Le tocan del otro lado y se vuelve hacia allá diciendo al Cuervito
                   2º)</emph></stage>
               <l>¡Ah! Es usted el de la llamada.</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <stage><emph>(Sin entenderle)</emph></stage>
               <l>Yo no.</l>
             </sp>
             <pb n="254"/>
             <stage><emph>Vuelven a tocarle.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(A uno del grupo, muy indignado)</emph></stage>
               <l>¿Qué me toca usted?</l>
             </sp>
-            <sp who="#corredor-2">
+            <sp who="#corredor2">
               <speaker>Corredor 2º:</speaker>
               <stage><emph>(Riendo)</emph></stage>
               <l>Si yo no le toco.</l>
             </sp>
             <stage><emph>Le aplastan el sombrero al Conde.</emph></stage>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡Atiza!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Muy enojado, dirigiéndose al grupo de Corredores)</emph></stage>
               <l>Vamos, pierdo la paciencia,</l>
@@ -2854,24 +2856,24 @@
           <div type="scene" n="20">
             <head>Escena XX</head>
             <stage><emph>El gaucho, el Conde, Cuervito 1º, Cuervito 2º, el Fondero.</emph></stage>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Como ve no nos hallamos</l>
               <l>en un restaurant de tono.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Es capricho de buen gusto,</l>
               <l>uno debe verlo todo.</l>
               <l>(Y vosotros pagaréis</l>
               <l>y ya veréis qué bien como).</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Para empezar, un vermouth.</l>
               <stage><emph>(Al Fondero)</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Haremos gasto)</l>
               <l>A mí, Oporto.</l>
@@ -2883,7 +2885,7 @@
               <stage><emph>(Al Cuervito 1º)</emph></stage>
               <l>¿Y Tomás?</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿Qué Tomás?</l>
             </sp>
@@ -2891,7 +2893,7 @@
               <speaker>Gaucho:</speaker>
               <l>Tomaré otro.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <stage><emph>(Con ironía, al Fondero)</emph></stage>
               <pb n="257"/>
@@ -2903,7 +2905,7 @@
               <stage><emph>(Brindando)</emph></stage>
               <l>¡A su madre!</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>(Me haré el zonzo)</l>
             </sp>
@@ -2916,7 +2918,7 @@
               <l>le preparan a este otario;</l>
               <l>pero no les quito el ojo).</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <stage><emph>(Al Cuervito 2º y al Conde)</emph></stage>
               <l>Pues ya que hemos renovado</l>
@@ -2928,11 +2930,11 @@
               <l>Usted es un guapo mozo</l>
               <l>y hasta podría ayudarnos.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Puede mandar sin estorbo.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Es el caso que tuvimos</l>
               <l>un tío: Don Celedonio,</l>
@@ -2946,65 +2948,65 @@
               <l>que fuesen más meritorios.</l>
             </sp>
             <pb n="258"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Qué tío tan bienhechor!</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>¿Se enternece?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Casi lloro.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Pero nosotros ya estamos</l>
               <l>cansados de ir tanto a bordo</l>
               <l>y no sabemos qué hacer.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(¡Qué pensamiento dichoso!)</l>
               <l>El cielo me los envía.</l>
               <l>¡Fortuna te reconozco!</l>
               <l>¿Y cuánto llevaban hoy?</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Cinco mil pesos.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿En oro?</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡Ah! No señor, en papel.</l>
               <l>Más modestos que usted somos.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Aunque fueran en cartón).</l>
               <l>Pues yo… (¡de emoción me ahogo!).</l>
               <l>Si yo pudiera servirles…</l>
               <l>ir por ustedes…</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡Eh!</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>¡Cómo!</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Sería usted tan amable…</l>
               <l>¡de su bondad estoy absorto!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Si tal, yo mejor que ustedes</l>
               <l>los inmigrantes conozco</l>
@@ -3016,12 +3018,12 @@
               <l>porque ¿quién podría ser</l>
               <l>para mí más meritorio?).</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿Sí? Pues aquí están los pesos.</l>
               <stage><emph>(Saca un grueso rollo).</emph></stage>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <stage><emph>(Deteniéndolo)</emph></stage>
               <l>Un momento. No me opongo</l>
@@ -3029,19 +3031,19 @@
               <l>pero es demasiado pronto</l>
               <l>para hacer tal confianza.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Angustiado)</emph></stage>
               <l>¿Duda usted de mí? Responde…</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>Usted mismo nos ha dicho</l>
               <l>que anoche perdió y nosotros</l>
               <l>¿podremos sin garantías</l>
               <l>confiar tan sagrados fondos?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(¡Ay! Yo voy a desmayarme</l>
               <l>mi gozo veo en un pozo.</l>
@@ -3056,18 +3058,18 @@
               <l>me sobra a mí una onza de oro.</l>
               <stage><emph>(La tira sobre la mesa fingiendo desdén y desenvoltura).</emph></stage>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <stage><emph>(Ocultando su alegría)</emph></stage>
               <l>Conde, dispénsele usted,</l>
               <l>tome su onza.</l>
             </sp>
             <pb n="260"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No la tomo.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>La junto con mi dinero</l>
               <l>y en las manos se la pongo.</l>
@@ -3078,13 +3080,13 @@
               <l>Hermano, no seas zonzo,</l>
               <l>da excusas al señor Conde.</l>
             </sp>
-            <sp who="#cuervito-2">
+            <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>Perdóneme usted si pudo</l>
               <l>ofenderse.</l>
               <stage><emph>(Se levanta).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Muy contento)</emph></stage>
               <l>No sé cómo</l>
@@ -3093,7 +3095,7 @@
               <stage><emph>(Impaciente)</emph></stage>
               <l>Señores, hasta la noche.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Adiós, Conde generoso.</l>
               <l>¡Desde el cielo le bendice</l>
@@ -3103,7 +3105,7 @@
               <speaker>Gaucho:</speaker>
               <l>(¡Pucha, qué linda enflautada!).</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <stage><emph>(Al Cuervito 2º)</emph></stage>
               <l>Hermanito, vamos pronto.</l>
@@ -3123,7 +3125,7 @@
           <div type="scene" n="21">
             <head>Escena XXI</head>
             <stage><emph>El Conde, el Fondero.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Saltando estoy de alegría</l>
               <l>¡dicha tan inesperada!</l>
@@ -3155,7 +3157,7 @@
               <l>Le daría un punta pie</l>
               <l>y a la calle le echaría.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Nada más que eso le haría?</l>
               <pb n="262"/>
@@ -3171,7 +3173,7 @@
               <l>¡Vengan para acá punguistas!</l>
               <l>Devuelvan la onza a ese mozo.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Mi providencia, ¡qué gozo!</l>
             </sp>
@@ -3182,13 +3184,13 @@
               <l>Donde se encuentra un paisano</l>
               <l>no se le roba a un cristiano.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Ahora me puedo animar).</l>
               <l>¿En dónde mi onza se esconde?</l>
               <l>Díganlo pronto ¡ladrones!</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡Eh! ¡Quién habla de ladrones!</l>
               <l>¿En dónde está el señor Conde?</l>
@@ -3199,7 +3201,7 @@
               <l>Dale la onza o mi daga</l>
               <l>tu matambre se lo paga.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>A medias.</l>
               <stage><emph>(En voz baja al Gaucho).</emph></stage>
@@ -3217,7 +3219,7 @@
               <l>¡Redomón! Si no querés</l>
               <l>que mi facón te destripe.</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿Y nos dejarás marchar?</l>
             </sp>
@@ -3226,7 +3228,7 @@
               <l>Aunque sea hasta el infierno.</l>
               <l>¿Acaso soy yo gobierno?</l>
             </sp>
-            <sp who="#cuervito-1">
+            <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Toma la onza y a volar.</l>
               <stage><emph>(Se la da).</emph></stage>
@@ -3239,7 +3241,7 @@
               <l>Amico deme sua mano,</l>
               <l>y chupe que io convido.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Onza de mis entretelas,</l>
               <l>Dios grande te vuelve a mí.</l>
@@ -3260,7 +3262,7 @@
                 nacionalidades).</emph></stage>
             <pb n="264"/>
             <stage><emph>Música.</emph></stage>
-            <sp who="#coro-inmigrantes">
+            <sp who="#coroInmigrantes">
               <!-- speaker added: -->
               <speaker>Coro de inmigrantes:</speaker>
               <l>Humildes y honrados,</l>
@@ -3284,7 +3286,7 @@
           <div type="scene" n="24">
             <head>Escena XXIV</head>
             <stage><emph>Don País, Diego, el Conde.</emph></stage>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>El almuerzo, buenas gentes.</l>
             </sp>
@@ -3295,7 +3297,7 @@
               <speaker>Diego:</speaker>
               <l>¡Salud, señor Don País!</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>¡Qué! ¿Todavía seguís</l>
               <l>sin hallar vuestros parientes?</l>
@@ -3308,7 +3310,7 @@
               <pb n="165"/>
               <l>me parece lo mejor.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Mas tanto indiferentismo…</l>
             </sp>
@@ -3326,7 +3328,7 @@
               <l>que sobre sí se levanta</l>
               <l>con más poderoso aliento.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Mucho esperáis por la traza.</l>
             </sp>
@@ -3344,7 +3346,7 @@
               <l>porque mi honrada fortuna</l>
               <l>a mí mismo me la debo.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>¡Bien joven! Contad conmigo</l>
               <l>porque el hombre que obra así</l>
@@ -3354,7 +3356,7 @@
             <stage><emph>Entra el Conde y tomando un plato de lata y una cuchara se dirige a uno de
                 los distribuidores de rancho.</emph></stage>
             <pb n="266"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Aún llego a tiempo a almorzar).</l>
               <l>Sírveme mucho, escogido.</l>
@@ -3363,7 +3365,7 @@
               <stage><emph>(Se sienta a una mesa que habrá en el fondo a la
                 izquierda).</emph></stage>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <stage><emph>(Contemplando a los inmigrantes)</emph></stage>
               <l>Ved la belleza que encierra</l>
@@ -3389,13 +3391,13 @@
               <l>¿Qué estoy viendo? ¡El señor Conde!</l>
               <l>No tiene mal apetito.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Me han visto! ¡Necio maldito!</l>
               <stage><emph>(Desenvuelve un diario como para leer, ocultándose tras
                 él).</emph></stage>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Pero hombre ¿por qué se esconde?</l>
             </sp>
@@ -3404,7 +3406,7 @@
               <l>Es un pobre majadero</l>
               <l>que habla tanto como miente.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Pues yo no quiero esa gente.</l>
               <pb n="267"/>
@@ -3412,18 +3414,18 @@
               <l>¡Escuche usted caballero!</l>
               <l>¿Dónde vive?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Tímidamente)</emph></stage>
               <l>Aquí hasta hoy.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Pues antes que el día venga</l>
               <l>se va, ya que le avergüenza</l>
               <l>el noble pan que le doy.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Es una fatalidad</l>
               <l>que un hijo de ilustre cuna</l>
@@ -3438,33 +3440,33 @@
               <l>mas yo me sé respetar,</l>
               <l>no esperen que me rebaje.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>No rebaja la labor,</l>
               <l>por el contrario, enaltece.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Pues hombre a mí me parece</l>
               <l>cursi y prosaico el sudor.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Dios nos condenó a verterle.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>A las clases inferiores,</l>
               <l>mas los hombres superiores</l>
               <l>debemos aborrecerle.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Muy pretencioso es su afán</l>
               <l>cuyas razones no entiendo.</l>
             </sp>
             <pb n="268"/>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Señor es que yo desciendo…</l>
             </sp>
@@ -3480,7 +3482,7 @@
               <l>le costó muchos apuros</l>
               <l>prenderse la hoja de parra.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Dejémonos de ilusiones.</l>
               <l>No hay ya nobleza en la cuna,</l>
@@ -3489,27 +3491,27 @@
               <l>Así este país lo entiende</l>
               <l>y vive rico y contento.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Yo no.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Por usted lo siento</l>
               <l>pues no veo qué pretende.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Pues como soy un buen chico,</l>
               <l>elegante y distinguido,</l>
               <l>por ser justo y merecido</l>
               <l>quisiera ser pronto rico.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>¿Sin trabajar? ¡Qué quimera!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Hay mil medios para el caso.</l>
               <l>Supongamos que hallo al paso</l>
@@ -3519,7 +3521,7 @@
               <l>me lleva…</l>
             </sp>
             <pb n="269"/>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Desilusiones,</l>
               <l>porque aquí no se usa el dote.</l>
@@ -3540,23 +3542,23 @@
               <l>es que forma sus hogares</l>
               <l>el amor, no el interés.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Sinfonías que no admito.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Yo quiero aquí gente buena.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Ya tengo la tripa llena).</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Con que a mudarse mocito.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Voy a buscar mi baúl.</l>
               <l>Tenéis razón, no está bien</l>
@@ -3570,12 +3572,12 @@
               <l>no podrá hacer cosa seria.</l>
             </sp>
             <pb n="270"/>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Descuidad; con la miseria,</l>
               <l>a ser hombre aprenderá.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Con una valija y un paraguas bajo el brazo)</emph></stage>
               <l>Me voy.</l>
@@ -3586,7 +3588,7 @@
               <stage><emph>(Salida cómica).</emph></stage>
             </sp>
             <stage><emph>Música.</emph></stage>
-            <sp who="#coro-general">
+            <sp who="#coroGeneral">
               <speaker>Coro general:</speaker>
               <l>Mientras llega el momento</l>
               <l>de trabajar</l>
@@ -3630,7 +3632,7 @@
               <l><foreign xml:lang="fre"><emph>Allons enfants de la patrie</emph></foreign></l>
               <l><foreign xml:lang="fre"><emph>le jour de gloire est arrivé.</emph></foreign></l>
             </sp>
-            <sp who="#coro-general">
+            <sp who="#coroGeneral">
               <speaker>Todos:</speaker>
               <l>Con quien persevera</l>
               <l>con fe y honradez</l>
@@ -3656,37 +3658,37 @@
           <div type="scene" n="1">
             <head>Escena I</head>
             <stage><emph>El Conde, Misia Dolores.</emph></stage>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <stage><emph>(Entrando)</emph></stage>
               <l>Me parece que ya es tiempo</l>
               <l>de pagarme señor mío.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(¡La patrona tan temprano!</l>
               <l>¡Está bien, me haré el dormido!)</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>(Sí; ronca que no me engañas).</l>
               <stage><emph>(Sacudiéndole)</emph></stage>
               <l>¿No me oye usted?</l>
               <!-- removed superfluous full stop -->
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Simulando espanto)</emph></stage>
               <l>¡Al asesino!</l>
               <l>¡Qué espantosa pesadilla!</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>Basta de burla y prontito</l>
               <l>pague usted el mes de alquiler</l>
               <l>tal como hemos convenido.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Es usted Misia Dolores?</l>
               <l>La estoy agradecidísimo</l>
@@ -3697,7 +3699,7 @@
               <l>ya trituraban mis huesos sus</l>
               <l>gigantescos colmillos…</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>Déjese usted de zonceras</l>
               <pb n="273"/>
@@ -3709,31 +3711,31 @@
               <l>De otra manera no quiero</l>
               <l>tenerlo a usted de inquilino.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Pero es posible señora?</l>
               <l>¡Desconfiar…!</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>No desconfío…</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Hace bien.</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>Que estoy segura</l>
               <l>de que un magnífico calote</l>
               <l>quiere usted darme.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Señora!</l>
               <l>¡No me ofenda usted por Cristo!</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>¡Si es usted un atorrante!</l>
               <l>Miren qué pilchas, ¡qué avíos!</l>
@@ -3741,7 +3743,7 @@
               <stage><emph>(Levanta los que hay sobre el catre).</emph></stage>
               <l>por no morirse de frío!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No levante usted las sábanas,</l>
               <stage><emph>(Se incorpora).</emph></stage>
@@ -3755,13 +3757,13 @@
               <l>e iré a buscar un amigo</l>
               <l>que me debe diez mil duros.</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>¡Me basta con veinticinco!</l>
               <l>Me voy pero conste que hoy</l>
               <l>ha de abonarme el recibo.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Ni el abono de la Patti</l>
               <l>anda tan dificilillo).</l>
@@ -3770,7 +3772,7 @@
               <l>Diga usted a su sobrina</l>
               <l>que me traiga un matecito.</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>Hombre no faltaba más,</l>
               <l>chúpese el dedo chico.</l>
@@ -3780,7 +3782,7 @@
           <div type="scene" n="2">
             <head>Escena II</head>
             <stage><emph>El Conde.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Se levanta y se viste, dando tinta en las costuras de la ropa, y pasando
                   por el sombrero el pañuelo, con el que se habrá secado después de
@@ -3875,7 +3877,7 @@
               <speaker>Bailarina:</speaker>
               <l>¿Sales tan pronto alma mía?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(¿Qué veo? ¡Mi ángel caído!)</l>
               <l>Sí, contra mi voluntad.</l>
@@ -3890,7 +3892,7 @@
               <speaker>Bailarina:</speaker>
               <l>¡Una injusticia!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Un delito!</l>
               <l>¡Destruir así estos amores</l>
@@ -3900,7 +3902,7 @@
               <speaker>Bailarina:</speaker>
               <l>Me ocurre un remedio heroico.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Un remedio! Pronto, ¡dilo!</l>
               <l>¡Sácame de estas angustias!</l>
@@ -3909,7 +3911,7 @@
               <speaker>Bailarina:</speaker>
               <l>¡Huyamos! Me voy contigo.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Y qué haremos por el mundo?</l>
             </sp>
@@ -3920,7 +3922,7 @@
               <l>tú trabajas, y los dos</l>
               <l>así dichosos vivimos.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Si no he trabajado nunca!</l>
             </sp>
@@ -3930,7 +3932,7 @@
               <l>En el acto te contrata</l>
               <l>Orejón, si se lo pido.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Si tampoco sé bailar!</l>
               <l>¡Es muy cruel mi destino!</l>
@@ -3939,7 +3941,7 @@
               <speaker>Bailarina:</speaker>
               <l>Lo que hay es que no me quieres.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡No quererte! Con delirio.</l>
             </sp>
@@ -3947,7 +3949,7 @@
               <speaker>Bailarina:</speaker>
               <l>Jurámelo de rodillas.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Es imposible ángel mío</l>
               <l>porque me duele esta pierna.</l>
@@ -3959,7 +3961,7 @@
                   paraguas).</emph></stage>
               <l>Falso, ¡perjuro maldito!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Ay!</l>
               <l>(El puño del paraguas</l>
@@ -3967,7 +3969,7 @@
               <stage><emph>Sale la patrona</emph></stage>
               <l>¡Santo Cristo, la patrona!</l>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>¿Qué es eso? ¿Por qué esos gritos?</l>
               <stage><emph>(Mira con curiosidad y malicia los faldones del frac del Conde que salen
@@ -3980,7 +3982,7 @@
               <l>Que se quiere ir sin pagarte</l>
               <l>y sin casarse conmigo.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Lo mejor será escaparse.</l>
               <stage><emph>(Toma carrera cojeando).</emph></stage>
@@ -3988,7 +3990,7 @@
               <stage><emph>(Al salir, Misia Dolores le agarra por los faldones del frac que quedan
                   en sus manos).</emph></stage>
             </sp>
-            <sp who="#misia-dolores">
+            <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>¡Farsante, pillo!</l>
               <l>Se nos escapa el bribón</l>
@@ -4010,11 +4012,11 @@
               <l>Señores mucha atención</l>
               <l>que va a empezar el remate.</l>
             </sp>
-            <sp who="#vendedor-bollitos">
+            <sp who="#vendedorBollitos">
               <speaker>Un Vendedor:</speaker>
               <l>Bollitos de tarragona.</l>
             </sp>
-            <sp who="#vendedor-frutas">
+            <sp who="#vendedorFrutas">
               <speaker>Otro:</speaker>
               <l>Nasranca dulce, banane.</l>
             </sp>
@@ -4031,7 +4033,7 @@
               <l>una pichincha</l>
               <l>les brindo yo.</l>
             </sp>
-            <sp who="#coro-compradores">
+            <sp who="#coroCompradores">
               <speaker>Coro:</speaker>
               <l>No hay en la Boca</l>
               <l>mejor terreno,</l>
@@ -4049,7 +4051,7 @@
               <l>hará su suerte</l>
               <l>quien me lo compre.</l>
             </sp>
-            <sp who="#coro-compradores">
+            <sp who="#coroCompradores">
               <speaker>Coro:</speaker>
               <l>Animo todos</l>
               <l>ricos y pobres</l>
@@ -4061,11 +4063,11 @@
               <l>Pronto una oferta.</l>
               <l>¿No hay quién ofrezca?</l>
             </sp>
-            <sp who="#comprador-1">
+            <sp who="#comprador1">
               <speaker>Comprador 1º:</speaker>
               <l>Veintiún mil pesos.</l>
             </sp>
-            <sp who="#comprador-2">
+            <sp who="#comprador2">
               <speaker>Comprador 2º:</speaker>
               <l>Quinientos.</l>
             </sp>
@@ -4074,7 +4076,7 @@
               <speaker>Rematador:</speaker>
               <l>Sea.</l>
             </sp>
-            <sp who="#comprador-1">
+            <sp who="#comprador1">
               <speaker>Comprador 1º:</speaker>
               <l>¡Cien más!</l>
             </sp>
@@ -4090,23 +4092,23 @@
               <stage><emph>(Dirigiéndose al 2º)</emph></stage>
               <l>¿Cincuenta?</l>
             </sp>
-            <sp who="#comprador-2">
+            <sp who="#comprador2">
               <speaker>Comprador 2º:</speaker>
               <l>Es cara.</l>
             </sp>
-            <sp who="#comprador-3">
+            <sp who="#comprador3">
               <speaker>Comprador 3º:</speaker>
               <l>¡Diez más!</l>
             </sp>
-            <sp who="#comprador-2">
+            <sp who="#comprador2">
               <speaker>Comprador 2º:</speaker>
               <l>¡Cinco!</l>
             </sp>
-            <sp who="#comprador-rico">
+            <sp who="#compradorRico">
               <speaker>Comprador rico:</speaker>
               <l>¡Tres cientos!</l>
             </sp>
-            <sp who="#coro-compradores">
+            <sp who="#coroCompradores">
               <speaker>Coro:</speaker>
               <l>¡Qué oferta bárbara!</l>
               <l>Los ricos a los pobres</l>
@@ -4118,7 +4120,7 @@
               <l>¿Tres cientos más?</l>
               <stage><emph>(Al 3º)</emph></stage>
             </sp>
-            <sp who="#comprador-rico">
+            <sp who="#compradorRico">
               <speaker>Comprador:</speaker>
               <l>Dos nales yo solo ofrezco.</l>
             </sp>
@@ -4126,7 +4128,7 @@
               <speaker>Rematador:</speaker>
               <l>Bueno, ¡cien más!</l>
             </sp>
-            <sp who="#comprador-3">
+            <sp who="#comprador3">
               <speaker>Comprador 3º:</speaker>
               <l>Dos solo.</l>
             </sp>
@@ -4140,7 +4142,7 @@
               <l>¡Que va a caer el martillo!</l>
               <l>Una… dos… tres…</l>
             </sp>
-            <sp who="#coro-compradores">
+            <sp who="#coroCompradores">
               <speaker>Coro:</speaker>
               <l>Vamos que el remate</l>
               <l>ya se ha concluido,</l>
@@ -4155,7 +4157,7 @@
               <l>de los martilleros</l>
               <l>yo soy el mejor.</l>
             </sp>
-            <sp who="#coro-compradores">
+            <sp who="#coroCompradores">
               <speaker>Coro:</speaker>
               <l>De los martilleros</l>
               <l>él es el mejor</l>
@@ -4167,7 +4169,7 @@
           <div type="scene" n="5">
             <head>Escena V</head>
             <stage><emph>El Conde chorreando y sucio, Don País.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Ay! ¡Desdichado de mí!</l>
               <l>¿Mis males no acabarán?</l>
@@ -4180,12 +4182,12 @@
               <l>en manos de una patrona!</l>
               <!-- removed superfluous fullstop -->
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>¡El Conde! No es ilusión</l>
               <l>y en qué estado lastimoso.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Señor! Sea generoso</l>
               <l>conmigo, ¡por compasión!</l>
@@ -4194,24 +4196,24 @@
               <l>fui a pasar. Una manguera</l>
               <l>reventó y me ha dado un baño.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Já, já, já.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Y se ríe usted!</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>¡Tiene gracia el accidente!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Me salpicó hasta la frente</l>
               <l>¡Caramba! Y huele tan mal.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Entre usted en esta tienda.</l>
               <l>El país le paga un traje;</l>
@@ -4253,7 +4255,7 @@
               <stage><emph>(Con ironía)</emph></stage>
               <l>Conde, ¿qué le ha sucedido?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No me haga usted recordar</l>
               <l>lo que me hace sonrojar</l>
@@ -4263,11 +4265,11 @@
               <speaker>Diego:</speaker>
               <l>¿De veras?</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Así parece.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Y aunque sea humilde y bajo</l>
               <l>anhelo encontrar trabajo.</l>
@@ -4276,7 +4278,7 @@
               <speaker>Diego:</speaker>
               <l>Ahora mi afecto merece.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Arruinado, sin un cuarto,</l>
               <l>muerto de necesidad</l>
@@ -4288,7 +4290,7 @@
               <l>Y cómo pudo cambiar</l>
               <l>tanto y en tiempo tan poco.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Comprendí que estaba loco,</l>
               <l>pero es largo de contar.</l>
@@ -4300,12 +4302,12 @@
               <speaker>Diego:</speaker>
               <l>Se lo diré a mi patrón.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Trabaje y le ayudaré.</l>
               <stage><emph>(Se retira Don País).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Yo aún quiero ver si consigo</l>
               <l>mi onza recuperar</l>
@@ -4368,7 +4370,7 @@
               <l>Pronto la bandera quite.</l>
               <l>El changador saca el palo y enrolla la bandera y el palo.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Tímidamente)</emph></stage>
               <l>Si me permite…</l>
@@ -4377,7 +4379,7 @@
               <speaker>Diego:</speaker>
               <l>¿Qué?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Que yo la llevaré.</l>
             </sp>
@@ -4390,7 +4392,7 @@
               <speaker>Changador:</speaker>
               <l>Que le aproveche, ¡atorrante!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Ya trabajo. ¡No lo soy!</l>
             </sp>
@@ -4399,7 +4401,7 @@
               <stage><emph>(Al Conde)</emph></stage>
               <l>Tome lo que a ganar va.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Me paga usted adelantado!</l>
             </sp>
@@ -4408,7 +4410,7 @@
               <l>Eso le estimulará</l>
               <l>por el camino empezado.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Dos pesos! Que placer dan</l>
               <l>logrados honradamente.</l>
@@ -4439,7 +4441,7 @@
               <l>que desgraciadamente</l>
               <l>no tenemos dinero.</l>
             </sp>
-            <sp who="#padre-familia">
+            <sp who="#padreFamilia">
               <speaker>El padre:</speaker>
               <l>Yo soy el feliz padre.</l>
             </sp>
@@ -4447,19 +4449,19 @@
               <speaker>La madre:</speaker>
               <l>Yo soy la madre modelo.</l>
             </sp>
-            <sp who="#hijo-mayor">
+            <sp who="#hijoMayor">
               <speaker>Hijo 1º:</speaker>
               <l>Yo soy el primogénito.</l>
             </sp>
-            <sp who="#hijo-2">
+            <sp who="#hijo2">
               <speaker>Hijo 2º:</speaker>
               <l>Yo el número dos tengo.</l>
             </sp>
-            <sp who="#nina-mayor">
+            <sp who="#ninaMayor">
               <speaker>Niña Mayor:</speaker>
               <l>Yo soy la primer niña.</l>
             </sp>
-            <sp who="#hijo-3">
+            <sp who="#hijo3">
               <speaker>Hijo 3º:</speaker>
               <l>Y yo el hijo tercero.</l>
             </sp>
@@ -4468,7 +4470,7 @@
               <l>Y los demás que siguen</l>
               <l>son los más pequeñuelos.</l>
             </sp>
-            <sp who="#padre-familia #madre">
+            <sp who="#padreFamilia #madre">
               <speaker>Padre y madre:</speaker>
               <l>Decidnos santos dioses,</l>
               <l>qué hacemos con todo esto,</l>
@@ -4498,7 +4500,7 @@
               <l>Tomaremos el tranvía</l>
               <l>¡no puedo más Aniceto!</l>
             </sp>
-            <sp who="#padre-familia">
+            <sp who="#padreFamilia">
               <speaker>El padre:</speaker>
               <l>No cabemos, hija mía.</l>
               <l>(Felizmente va completo).</l>
@@ -4523,11 +4525,11 @@
               <l>que del viejo mundo viene.</l>
             </sp>
             <pb n="289"/>
-            <sp who="#padre-familia">
+            <sp who="#padreFamilia">
               <speaker>El padre:</speaker>
               <l>¿Y cuál será?</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l><emph>El triunfador</emph></l>
               <l>bandera argentina tiene.</l>
@@ -4548,11 +4550,11 @@
               <speaker>Marinero 2º:</speaker>
               <l>Ya está aquí.</l>
             </sp>
-            <sp who="#padre-familia">
+            <sp who="#padreFamilia">
               <speaker>El padre:</speaker>
               <l>¡Qué gallardo se presenta!</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>¡Altivo se muestra así</l>
               <l>de los colores que ostenta!</l>
@@ -4599,12 +4601,12 @@
             <stage><emph>Corista 1ª y 2ª, la Bailarina, el Conde, Diego, un
               Traspunte.</emph></stage>
             <stage><emph>Apoyadas en el bastidor de la derecha.</emph></stage>
-            <sp who="#corista-2">
+            <sp who="#corista2">
               <speaker>Corista 2ª:</speaker>
               <l>¡Cuánto aplauso! ¡Qué entusiasmo!</l>
               <l>No se ha visto cosa igual.</l>
             </sp>
-            <sp who="#corista-1">
+            <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
               <l>Porque tiene buenas piernas</l>
               <l>y muy poca dignidad,</l>
@@ -4614,7 +4616,7 @@
               <speaker>Traspunte:</speaker>
               <l>¿Es envidia o caridad?</l>
             </sp>
-            <sp who="#corista-1">
+            <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
               <l>¡Yo envidia de esa chiruza!</l>
               <l>Hombre no faltaba más.</l>
@@ -4625,11 +4627,11 @@
               <l>¡A verlas…!</l>
               <stage><emph>(Se aproxima).</emph></stage>
             </sp>
-            <sp who="#corista-1">
+            <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
               <l>Quieto morral.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(Entrando)</emph></stage>
               <pb n="291"/>
@@ -4641,7 +4643,7 @@
               <l>¡Ojo! Los buenos propósitos</l>
               <l>no vayamos a olvidar.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No hay cuidado solamente</l>
               <l>quiero mi onza recobrar.</l>
@@ -4652,13 +4654,13 @@
               <l>Voy a hablarle dos minutos.</l>
               <stage><emph>(Se adelanta acercándose a la bailarina).</emph></stage>
             </sp>
-            <sp who="#corista-1">
+            <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
               <l>¡Qué manera de llamar!</l>
               <l>Aumentan los aplausos.</l>
               <l>¡Cómo se impacienta el público!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Mi Inocencia!</l>
             </sp>
@@ -4666,7 +4668,7 @@
               <speaker>Bailarina:</speaker>
               <l>¡Mi Don Juan!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Qué hiciste de mis faldones?</l>
             </sp>
@@ -4676,45 +4678,45 @@
             </sp>
             <stage><emph>Suben el telón sorprendiendo al Conde, que se retira corriendo entre los
                 gritos de la sala.</emph></stage>
-            <sp who="#corista-1">
+            <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
               <stage><emph>(Riendo).</emph></stage>
               <l>Ja, ja.</l>
             </sp>
-            <sp who="#voz-1">
+            <sp who="#voz1">
               <speaker>Una voz:</speaker>
               <l>¡Fuera!</l>
             </sp>
-            <sp who="#voz-2">
+            <sp who="#voz2">
               <speaker>Otra:</speaker>
               <l>¡Que baile!</l>
             </sp>
-            <sp who="#muchas-voces">
+            <sp who="#muchasVoces">
               <speaker>Muchas voces:</speaker>
               <l>¡Que baile!</l>
             </sp>
-            <sp who="#corista-1">
+            <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
               <l>Qué buena grita le dan.</l>
               <l>¿Quién será ese tipo?</l>
             </sp>
             <pb n="292"/>
-            <sp who="#corista-2">
+            <sp who="#corista2">
               <speaker>Corista 2ª:</speaker>
               <l>El novio</l>
               <l>de carácter oficial.</l>
             </sp>
-            <sp who="#corista-1">
+            <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
               <l>Pues si desea… casarse</l>
               <l>tendrá gran facilidad.</l>
             </sp>
-            <sp who="#corista-2">
+            <sp who="#corista2">
               <speaker>Corista 2ª:</speaker>
               <l>Hija, las dificultades</l>
               <l>a todos no agradan.</l>
             </sp>
-            <sp who="#corista-1">
+            <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
               <stage><emph>(Con sorna)</emph></stage>
               <l>¡Ya!</l>
@@ -4726,7 +4728,7 @@
               <l>Usted ha comprometido</l>
               <l>mi éxito más colosal.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Pero Inocencia, ¡por Dios!</l>
             </sp>
@@ -4734,7 +4736,7 @@
               <speaker>Bailarina:</speaker>
               <l>¡Déjeme usted pronto en paz!</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿En dónde están mis faldones?</l>
             </sp>
@@ -4742,7 +4744,7 @@
               <speaker>Bailarina:</speaker>
               <l>En la basura estarán.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Pero ¿no encontraron nada</l>
               <l>en el bolsillo?</l>
@@ -4752,7 +4754,7 @@
               <l>Si tal</l>
               <l>una onza reluciente.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Qué suerte! Pues dámela.</l>
             </sp>
@@ -4762,7 +4764,7 @@
               <l>Ya no me queda ni un real,</l>
               <l>la he gastado a tu salud.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Oh cruel fatalidad!</l>
             </sp>
@@ -4776,7 +4778,7 @@
               <l>No puede estar tu recuerdo</l>
               <l>en mayor intimidad.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Y está linda ¿son de seda</l>
               <l>buena y fina?</l>
@@ -4794,7 +4796,7 @@
               <speaker>Diego:</speaker>
               <l>¿Volvemos a las andadas?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Mi decisión es formal,</l>
               <l>he roto con el pasado</l>
@@ -4822,7 +4824,7 @@
               <l>y a trabajar con constancia</l>
               <l>porque ahí la fortuna está.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Ese Diego es mi deseo,</l>
               <l>que me prometió ayudar</l>
@@ -4847,7 +4849,7 @@
               <l>Vayan saliendo señores,</l>
               <l>que al punto se va a cerrar.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Caramba, qué oscuro está esto.</l>
             </sp>
@@ -4857,7 +4859,7 @@
               <l>Camine usted más despacio,</l>
               <l>pues si no a caerse va.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Ando en el adoquinado!</l>
             </sp>
@@ -4867,7 +4869,7 @@
               <stage><emph>(Tropieza con la bailarina que sale muy tapada del brazo de un
                   señorito).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Eh! ¿Qué es eso?</l>
             </sp>
@@ -4880,7 +4882,7 @@
               <l>y va con su reemplazante</l>
               <l>a gastar su onza en champagne.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Y yo que la cuidé tanto!</l>
               <l>Quiera Dios les haga mal.</l>
@@ -4890,7 +4892,7 @@
               <l>Dígame usted en confianza</l>
               <l>¿no era falsa?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Ay! ¡Ojalá!</l>
             </sp>
@@ -4910,7 +4912,7 @@
                 las nutrias y corderitos que desfilarán en escena de la manera más vistosa que fuera
                 posible.</emph></stage>
             <stage><emph>Música.</emph></stage>
-            <sp who="#coro-frutos">
+            <sp who="#coroFrutos">
               <speaker>Coros de frutos del país:</speaker>
               <!-- speaker added -->
               <l>Somos los espléndidos</l>
@@ -4947,61 +4949,61 @@
             <head>Escena XI</head>
             <stage><emph>Consignatario 1º, Consignatario 2º, Don País, el Conde, un Corredor de
                 granos.</emph></stage>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <l>¡Caramba, qué lana hermosa!</l>
             </sp>
-            <sp who="#consignatario-2">
+            <sp who="#consignatario2">
               <speaker>Consignatario 2º:</speaker>
               <pb n="297"/>
               <l>Me viene a mí consignada.</l>
             </sp>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <l>Usted siempre tiene suerte.</l>
               <l>(¡Y tan viejo! Es una lástima).</l>
             </sp>
-            <sp who="#corredor-granos">
+            <sp who="#corredorGranos">
               <speaker>Corredor de granos:</speaker>
               <l>¿Quieren hacer un negocio?</l>
               <l>Trae la cara llena de parches.</l>
             </sp>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <l>Sepamos de qué se trata.</l>
             </sp>
-            <sp who="#corredor-granos">
+            <sp who="#corredorGranos">
               <speaker>Corredor:</speaker>
               <l>Yo soy corredor de granos.</l>
             </sp>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <l>Se le conoce en la cara.</l>
             </sp>
-            <sp who="#consignatario-2">
+            <sp who="#consignatario2">
               <speaker>Consignatario 2º:</speaker>
               <l>Le ofrezco mi calador</l>
               <stage><emph>(Sacándolo)</emph></stage>
               <l>que parece hacerle falta.</l>
             </sp>
-            <sp who="#corredor-granos">
+            <sp who="#corredorGranos">
               <speaker>Corredor:</speaker>
               <l>¿Y cuernos? ¿No quiere cuernos?</l>
               <l>¡Tengo una partida bárbara!</l>
               <l>Si usted los quiere, de balde</l>
               <l>se los pondré en su barraca.</l>
             </sp>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <l>Váyase usted al demonio</l>
               <l>con sus granos y sus astas.</l>
             </sp>
             <stage><emph>Se va el Corredor.</emph></stage>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 2º:</speaker>
               <l>Ahí se acerca Don País.</l>
             </sp>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <l>¡Qué hombre activo! No se cansa</l>
               <l>jamás, y siempre está en todo</l>
@@ -5011,7 +5013,7 @@
               <l>Tiene de acero los músculos</l>
               <l>y una actividad que pasma.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Mucho me elogian ustedes,</l>
               <l>con tan amables palabras.</l>
@@ -5029,31 +5031,31 @@
               <l>y vengo a recomendarles,</l>
               <l>denle ocupación honrada.</l>
             </sp>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <stage><emph>(Al Conde)</emph></stage>
               <l>¿Quiere trabajar en cueros?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>(Vaya una ocurrencia rara).</l>
               <l>Me resfrío fácilmente.</l>
             </sp>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <l>Pues métase usted en la cama.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>El señor quiso decirle,</l>
               <l>cueros de oveja o de vaca.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Vamos! Eso es otra cosa,</l>
               <l>entonces sí que me agrada.</l>
             </sp>
-            <sp who="#consignatario-1">
+            <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
               <l>Pues le tomo a mi servicio,</l>
               <l>y si veo que trabaja</l>
@@ -5061,12 +5063,12 @@
               <l>un porvenir a mi lado</l>
               <l>le ofrezco.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <stage><emph>(A Don País)</emph></stage>
               <l>¡Don País, gracias!</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Déselas a la experiencia</l>
               <l>que le transforma y le cambia,</l>
@@ -5077,7 +5079,7 @@
               <l>y solo prospera quien</l>
               <l>honradamente trabaja.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Déjelo para mañana,</l>
               <l>que hoy es día de solemne</l>
@@ -5096,7 +5098,7 @@
             <head>Escena XII</head>
             <stage><emph>Dichos, la República Argentina que entra a los acordes del Himno
                 Nacional.</emph></stage>
-            <sp who="#republica-argentina">
+            <sp who="#republicaArgentina">
               <speaker>República:</speaker>
               <l>Llena de fe y de bondad</l>
               <l>rica, fuerte, heroica, hermosa,</l>
@@ -5156,16 +5158,16 @@
             </sp>
             <stage><emph>Se sienta bajo un solio, caprichosamente formado de pieles y palmas a la
                 derecha de la escena.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Alegre grupo se ve</l>
               <l>con numerosas banderas.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Las colonias extranjeras.</l>
             </sp>
-            <sp who="#republica-argentina">
+            <sp who="#republicaArgentina">
               <speaker>República:</speaker>
               <stage><emph>(Levantándose)</emph></stage>
               <l>Recibámoslas en pie.</l>
@@ -5221,7 +5223,7 @@
               <l>porque basta conocerte</l>
               <l>para por siempre adorarte.</l>
             </sp>
-            <sp who="#republica-argentina">
+            <sp who="#republicaArgentina">
               <speaker>República:</speaker>
               <l>¡Gracias mil, hombres de bien!</l>
               <l>Os tiendo abiertos los brazos</l>
@@ -5246,12 +5248,12 @@
               <l>cómo va nuestro trabajo.</l>
               <stage><emph>(Se sienta, agrupándose todos a su alrededor).</emph></stage>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Ahí llegan dos de hermosura</l>
               <l>que cualquiera envidiaría.</l>
             </sp>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>La una es la ganadería</l>
               <l>y la otra, la agricultura.</l>
@@ -5319,7 +5321,7 @@
                 alegóricos a la respectiva representación, <pb n="306"/> bien entendido que en el
                 buen gusto e ingenio de su confección estriba el principal éxito de esta
                 escena.</emph></stage>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <stage><emph>(A la República)</emph></stage>
               <l>Desean pasar revista</l>
@@ -5328,7 +5330,7 @@
               <l>pero te ofrecen leales</l>
               <l>cada día una conquista.</l>
             </sp>
-            <sp who="#republica-argentina">
+            <sp who="#republicaArgentina">
               <speaker>República:</speaker>
               <l>Que pasen los industriales.</l>
             </sp>
@@ -5343,7 +5345,7 @@
               <l>entre Mendoza y San Juan.</l>
             </sp>
             <stage><emph>Música.</emph></stage>
-            <sp who="#botella-mendoza">
+            <sp who="#botellaMendoza">
               <speaker>La botella:</speaker>
               <l>Yo soy una guapa moza.</l>
             </sp>
@@ -5351,7 +5353,7 @@
               <speaker>El barril:</speaker>
               <l>Yo soy un fino galán.</l>
             </sp>
-            <sp who="#botella-mendoza">
+            <sp who="#botellaMendoza">
               <speaker>La botella:</speaker>
               <l>La botella de Mendoza.</l>
             </sp>
@@ -5359,7 +5361,7 @@
               <speaker>El barril:</speaker>
               <l>El vinillo de San Juan.</l>
             </sp>
-            <sp who="#botella-mendoza #barril">
+            <sp who="#botellaMendoza #barril">
               <speaker>Los dos:</speaker>
               <l>¡Cómo el alma se alboroza</l>
               <l>si nuestro calor la dan!</l>
@@ -5367,7 +5369,7 @@
             <stage><emph>Se retiran.</emph></stage>
             <stage><emph>Hablado.</emph></stage>
             <stage><emph>Sale la Pasa.</emph></stage>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Qué vieja chica y rugosa!</l>
               <l>¿Por qué no se queda en casa?</l>
@@ -5379,7 +5381,7 @@
               <l>yo señores soy la pasa</l>
               <l>arrugada más sabrosa.</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡La pasa! Pues pase usted.</l>
             </sp>
@@ -5441,7 +5443,7 @@
             </sp>
             <stage><emph>(Se retira).</emph></stage>
             <stage><emph>Música.</emph></stage>
-            <sp who="#cosas-buenas">
+            <sp who="#cosasBuenas">
               <speaker>Tres cosas buenas:</speaker>
               <l>De bombos y anuncios llenas</l>
               <l>para siempre inseparables</l>
@@ -5463,7 +5465,7 @@
             </sp>
             <stage><emph>(Se retira).</emph></stage>
             <pb n="309"/>
-            <sp who="#fabrica-panos">
+            <sp who="#fabricaPanos">
               <speaker>La fábrica de paños:</speaker>
               <l>Fue Carulla mi papá</l>
               <l>mas no pudo alimentarme</l>
@@ -5474,12 +5476,12 @@
             </sp>
             <stage><emph>El Conde se le acerca y empieza a tirarle de la manta que llevará a las
                 espaldas.</emph></stage>
-            <sp who="#don-pais">
+            <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Tirando con fuerza tanta</l>
               <l>¿qué demonios hace aquél?</l>
             </sp>
-            <sp who="#conde-tupe">
+            <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Pues como tengo carpanta</l>
               <l>tirando estoy de la manta</l>
@@ -5512,7 +5514,7 @@
             </sp>
             <stage><emph>(Se retira).</emph></stage>
             <stage><emph>Música.</emph></stage>
-            <sp who="#azucar-tucuman">
+            <sp who="#azucarTucuman">
               <speaker>El azúcar:</speaker>
               <l>Señores soy el azúcar</l>
               <l>más dulce que nunca habrá,</l>
@@ -5542,7 +5544,7 @@
               <l>Ay que sí, etc.</l>
             </sp>
             <stage><emph>Hablado.</emph></stage>
-            <sp who="#republica-argentina">
+            <sp who="#republicaArgentina">
               <speaker>República:</speaker>
               <l>¡Orgullosa! Satisfecha</l>
               <l>estoy de ti, pueblo mío.</l>

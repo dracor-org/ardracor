@@ -24,6 +24,8 @@
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
         <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>

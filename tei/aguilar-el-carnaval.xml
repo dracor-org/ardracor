@@ -6,22 +6,115 @@
          <titleStmt>
            <title type="main">El carnaval</title>
            <title type="sub">Diálogo entre seis personas</title>
-           <!-- Sainete urbano -->
            <author>
              <persName>
                <forename>Cristóbal de</forename>
                <surname>Aguilar</surname>
              </persName>
+             <idno type="wikidata">Q109853645</idno>
            </author>
+           <editor xml:id="fb">
+             <persName>
+               <forename>Finnja</forename>
+               <surname>Borchardt</surname>
+             </persName>
+           </editor>
+           <editor xml:id="uhk">
+             <persName>
+               <forename>Ulrike</forename>
+               <surname>Henny-Krahmer</surname>
+             </persName>
+             <idno type="wikidata">Q115644151</idno>
+           </editor>
          </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
+        <publicationStmt>
+          <publisher xml:id="dracor">DraCor</publisher>
+          <idno type="URL">https://dracor.org</idno>
+          <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+          <idno type="URL">https://hdlab.space/</idno>
+          <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+          <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+          <availability>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
+          </availability>
+        </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+           <bibl type="digitalSource">
+             <author>Cristóbal de Aguilar</author>: <title level="a">El carnaval.
+               Diálogo entre seis personas.</title> In: <editor>Seibel,
+                 Beatriz</editor>. <title level="m"><name>Antología de obras de teatro argentino.</name> Desde sus
+                   orígenes a la actualidad.</title>
+             <biblScope unit="volume">Tomo 1. Sainetes urbanos y gauchescos, 1800–1814.</biblScope>
+             <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
+             <date>2006</date>, pp. <biblScope unit="page" from="21" to="46">21–46</biblScope>. <idno type="URL"
+               >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf</idno>
+             <availability status="free">
+               <p>No specific license.</p>
+             </availability>
+             <bibl type="originalSource">unknown</bibl>
+           </bibl>
          </sourceDesc>
       </fileDesc>
+     <encodingDesc>
+       <editorialDecl>
+         <p>The text was extracted from the digital version of the <emph>Antología de obras de teatro
+           argentino.</emph>. In general, the text is taken as it appears in the digital source.
+           A column layout, where
+           it occurs, is not encoded as such; instead, the text is encoded sequentially. Page breaks
+           of the digital source are indicated. Line breaks are not encoded. Capitalized words were
+           converted to lower-case. Text that was set in italics in the digital source is encoded as
+           such. Foreign words are marked up the the 'foreign' element and their language is
+           indicated. Obvious errors (e.g., typos in the character names) were corrected.</p>
+       </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+       <particDesc>
+         <listPerson>
+           <person xml:id="donArnesto" sex="MALE">
+             <persName>Don Arnesto de Silba</persName>
+           </person>
+           <person xml:id="donMiguel" sex="MALE">
+             <persName>Don Miguel de Luza</persName>
+           </person>
+           <person xml:id="donaAndrea" sex="FEMALE">
+             <persName>Doña Andrea Arce</persName>
+           </person>
+           <person xml:id="polonia" sex="FEMALE">
+             <persName>Polonia</persName>
+           </person>
+           <person xml:id="donaSegunda" sex="FEMALE">
+             <persName>Doña Segunda Casacabel</persName>
+           </person>
+           <person xml:id="donFadrique" sex="MALE">
+             <persName>Don Fadrique Vivero</persName>
+           </person>
+         </listPerson>
+       </particDesc>
+       <textClass>
+         <keywords>
+           <term source="aguilar" type="genreTitle">diálogo</term>
+           <term source="seibel" type="genreTitle">sainete urbano</term>
+         </keywords>
+         <classCode scheme="http://www.wikidata.org/entity/">Q134550525</classCode>
+       </textClass>
+     </profileDesc>
+     <revisionDesc>
+       <listChange>
+         <change when="2025-12-20" who="#fb">file conversion from source</change>
+         <change when="2026-01-05" who="#uhk">addition of metadata and revision of encoding</change>
+       </listChange>
+     </revisionDesc>
    </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" from="1805" to="1806">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar0000019" passive="http://www.wikidata.org/entity/Q137700603"/>
+    </listRelation>
+  </standOff>
    <text>
      <front>
        <pb n="23"/>
@@ -32,35 +125,38 @@
            <roleDesc><emph>hombre formal</emph></roleDesc>
          </castItem>
          <castItem>
-           <role></role>
+           <role>Doña Andrea Arce,</role>
+           <roleDesc><emph>mujer de don Arnesto, señora de peso</emph></roleDesc>
          </castItem>
-         <!-- Bitte die folgenden Rollen ebenso codieren:
-         (Kapitälchen/Wörter ganz in Großbuchstaben bitte in normale
-         Schreibung mit Kleinbuchstaben überführen: ) -->
-         DOÑA ANDREA ARCE, mujer de don Arnesto, señora de peso
-         DON MIGUEL DE LUZA, mozo de juicio
-         POLONIA, criada
-         DOÑA SEGUNDA CASCABEL, viuda, tormenta
-         DON FADRIQUE VIVERO, tronera
+         <castItem>
+           <role>Don Miguel de Luza,</role>
+           <roleDesc><emph>mozo de juicio</emph></roleDesc>
+         </castItem>
+         <castItem>
+           <role>Polonia,</role>
+           <roleDesc><emph>criada</emph></roleDesc>
+         </castItem>
+         <castItem>
+           <role>Doña Segunda Casacabel,</role>
+           <roleDesc><emph>viuda, tormenta</emph></roleDesc>
+         </castItem>
+         <castItem>
+           <role>Don Fadrique Vivero,</role>
+           <roleDesc><emph>tronera</emph></roleDesc>
+         </castItem>
        </castList>
      </front>
       <body>
+        <div type="act" n="1">
          <div type="scene" n="1">
-           <stage><emph>SALA ADORNADA EN QUE ESTARÁN DON ARNESTO, DON MIGUEL Y
-             DOÑA ANDREA, ESTA TOCANDO EL SALTERIO, Y LOS TRES CANTANDO
-             BOLERAS, COMO SE SIGUE.</emph></stage>
-           <!-- <stage> ist für Regieanweisungen; 
-           <emph> ist für Kursive -->
-           <sp who="#don-arnesto #don-miguel #dona-andrea"><!-- für jeden Redebeitrag
-           ein <sp>-Element, in dem dann <speaker> und <l> und ggf. <stage> 
-           enthalten sind -->
-             <!-- wer spricht wird in who verlinkt, pro sprecher mit # und dann 
-             der Name (bitte einheitlich die Namen verwenden) -->
-             <speaker></speaker><!-- wenn im Text explizit kein Sprecher steht,
-             dann das Element leer lassen -->
-             <lg><!-- <lg> ist für Strophen, falls eine solche Struktur sichtbar ist -->
+           <stage><emph>Sala adornada en que estarán Don Arnesto, Don Miguel
+             y Doña Andrea, está tocando el salterio, y los tres cantanto
+             boleras, como se sigue.</emph></stage>
+           <sp who="#donArnesto #donMiguel #donaAndrea">
+             <speaker></speaker>
+             <lg>
                <l>En las carnestolendas</l>
-               <l>por desventura,</l><!-- <l> für einzelne Verszeilen -->
+               <l>por desventura,</l>
                <l>a las más de las gentes</l>
                <l>les da locura</l>
                <l>de que no sanan</l>
@@ -77,11 +173,9 @@
                <l>siempre recaen.</l>
              </lg>
            </sp>
-           <pb n="24"/><!-- das ist ein Seitenumbruch mit Seitenzahl in n.
-           Seitenumbruchselement werden immer VOR Beginn der jeweiligen Seite 
-           eingefügt, nicht am Ende -->
+           <pb n="24"/>
            <stage><emph>Tocan la puerta.</emph></stage>
-           <sp who="#dona-andrea">
+           <sp who="#donaAndrea">
              <speaker>Andrea:</speaker>
              <l>¡Polonia, mira quién toca</l>
              <l>la puerta, camina presto!</l>
@@ -91,22 +185,22 @@
              <l>Mi sa<note>Sa: señora.</note></l>
              <l>Segunda es quien viene.</l>
            </sp>
-           <sp who="#dona-andrea">
+           <sp who="#donaAndrea">
              <speaker>Andrea:</speaker>
-             <l part="I">¿Con quién?</l><!-- part="I" meint, dass hier ein Vers beginnt -->
+             <l part="I">¿Con quién?</l>
            </sp>
            <sp who="#polonia">
              <speaker>Polonia:</speaker>
-             <l part="F">Con un caballero.</l><!-- der hier ende mit part="F" -->
+             <l part="F">Con un caballero.</l>
            </sp>
-           <sp who="#dona-andrea">
+           <sp who="#donaAndrea">
              <speaker>Andrea:</speaker>
              <l>Diles que entren, y vete</l>
              <l>a traer las luces luego.</l>
            </sp>
            <stage><emph>Vase Polonia.</emph></stage>
            <stage><emph>Entran doña Segunda y don Fadrique.</emph></stage>
-           <sp who="#dona-segunda">
+           <sp who="#donaSegunda">
              <speaker>Segunda:</speaker>
              <l>Me alegro de ver a ustedes</l>
              <l>sin novedad. ¿Usted bueno,</l>
@@ -115,7 +209,865 @@
              <l>de hallarla tan divertida!</l>
              <l>Así se hace en este tiempo.</l>
            </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>Señores, a la obediencia</l>
+             <l>de ustedes.</l>
+           </sp>
+           <sp who="#donaSegunda #donaAndrea #donArnesto #donMiguel">
+             <speaker>Todos:</speaker>
+             <l>Estimamos, caballero,</l> 
+             <l>las expresiones de usted.</l>
+           </sp>
+           <sp who="#donArnesto">
+             <speaker>Arnesto:</speaker>
+             <l>Que ustedes lo pasen bien</l>
+             <l>de salud, mucho me alegro.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l part="I">Señor don Miguel...</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l part="F">Madama.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>No está usted como del tiempo,</l>
+             <l>muy taciturno lo miro.</l>
+           <pb n="25"/>
+             <l>Ese humor jamás es bueno.</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Es uniforme, señora,</l>
+             <l>el que logro en todo tiempo.</l>
+           </sp>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>Usted siempre tan bizarra:</l>
+             <l>señal de salud, eso es bueno.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>No estoy muy buena, porque</l>
+             <l>ayer, jugando al afrecho,<note>Jugar al afrecho: tirar huevos</note></l>
+             <l>me dieron un feroz golpe</l>
+             <l>en un ojo con un huevo,</l>
+             <l>que hube de ver las estrellas;</l>
+             <l>y según va, me recelo</l>
+             <l>que me veré precisada</l>
+             <l>a sangrarme luego, luego.</l>
+           </sp>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>Si, señora, he reparado</l>
+             <l>bastante hinchado el izquierdo.</l>
+             <l>No se exponga usted al aire</l>
+             <l>sin habérselo cubierto,</l>
+             <l>porque he visto de otro tanto</l>
+             <l>a una muchacha perderlo.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>No, señora, ¿para qué?</l>
+             <l>Ya a estos golpes están hechos</l>
+             <l>mis ojos, brazos y espaldas;</l>
+             <l>esta es la pauta del tiempo.</l>
+           </sp>
+           <sp who="#donArnesto">
+             <speaker>Arnesto:</speaker>
+             <l>A la verdad, es bien cara</l>
+             <l>y tan cara que aquellos</l>
+             <l>que le son apasionados</l>
+             <l>pueden decir sin recelo</l>
+             <l>que es un ojo de la cara</l>
+             <pb n="26"/>
+             <l>lo que les cuesta. Buen precio.</l>
+             <l>Pero, pues tanto les gusta,</l>
+             <l>hágales muy buen provecho.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>Yo jamás perdí ninguno,</l>
+             <l>y no hay año que no juego</l>
+             <l>una docena de días:</l>
+             <l>siete u ocho por lo menos</l>
+             <l>antes de carnestolendas</l>
+             <l>y los tres días enteros</l>
+             <l>de esta gran solemnidad.</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Pero puede usted perderlo,</l>
+             <l>y no es prudencia exponerse</l>
+             <l>a un riesgo tan verdadero</l>
+             <l>por la falible esperanza</l>
+             <l>de salir bien del empeño</l>
+             <l>como los años pasados;</l>
+             <l>porque dice aquel proverbio</l>
+             <l>que el cántaro que a la fuente</l>
+             <l>continuo le llevan bueno,</l>
+             <l>en fuerza de tanto ir,</l>
+             <l>algún día traerá menos</l>
+             <l>algún pedazo y acaso</l>
+             <l>no volverá sino en tiestos.<note>Tiestos: pedazos de vaso de barro.</note></l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>Esas desgracias suceden</l>
+             <l>a los que juegan con miedo,</l>
+             <l>como supongo en usted.</l>
+             <l>Nada; dureza, y a ellos:</l>
+             <l>si me diste un buen porrazo,</l>
+             <l>doyte tres o cuatro buenos.</l>
+             <l>¿No sabe usted que en la guerra</l>
+             <pb n="27"/>
+             <l>al soldado que huye el cuerpo</l>
+             <l>es a quien llegan las balas</l>
+             <l>puntualmente más presto?</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Sin embargo, el exponerse</l>
+             <l>a ese o a cualquier riesgo</l>
+             <l>sin necesidad alguna,</l>
+             <l>desde luego no lo apruebo.</l> 
+             <l>Y mucho menos a este</l> 
+             <l>que –si he de hablar lo que siento–</l> 
+             <l>es, a más de temerario,</l> 
+             <l>bestial, bárbaro y grosero.</l> 
+             <l>No se enoje usted, madama,</l> 
+             <l>si hablo con tal desprecio</l> 
+             <l>de los juegos que de manos</l> 
+             <l>suelen llamarse, entendiendo</l> 
+             <l>que antes que yo naciera</l> 
+             <l>hombres de mucho talento</l> 
+             <l>los tenían bautizados</l> 
+             <l>con estos elogios mesmos.</l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>Es preciso muchas veces</l> 
+             <l>tener uno sufrimiento</l> 
+             <l>para escuchar ciertas cosas</l> 
+             <l>que no tienen fundamento.</l> 
+             <l>¿Conque al tirarse uno a otro</l>
+             <l>–sean duraznos o huevos–</l> 
+             <l>seis u ocho pelotazos,</l> 
+             <l>dé donde diere con ellos,</l> 
+             <l>dicen esos hombres doctos,</l> 
+             <l>que es bárbaro, que es grosero?</l> 
+             <l>¿En qué libro habrán dejado</l> 
+             <l>explicado todo eso?</l>
+           </sp>
+           <pb n="28"/>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>En el que usted leería</l>
+             <l>en la escuela en algún tiempo,</l>
+             <l>cuyo nombre por común</l>
+             <l>podrá acaso retenerlo</l>
+             <l>en la memoria, y se llama</l>
+             <l part="I"><emph>Catón cristiano.</emph> <note><emph>Catón cristiano:</emph> obrita con nociones de religión.</note></l>
+           </sp>
+           <sp who="donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l part="F">Me acuerdo.</l>
+             <l>Y aunque lo leí despacio</l> 
+             <l>(porque tardé en aprenderlo</l>
+             <l>sus dos años poco más</l> 
+             <l>y de punta a cabo tengo</l> 
+             <l>dadas lecciones en él</l> 
+             <l>más que en la cabeza pelos),</l> 
+             <l>no he visto que el tal Catón</l>
+             <l>hable de tirarse huevos</l> 
+             <l>en tiempo de carnaval,</l> 
+             <l>ni que bautismo haya hecho</l> 
+             <l>poniéndoles tales nombres.</l> 
+             <l>Lo que firmemente creo</l> 
+             <l>es que usted se habrá engañado,</l> 
+             <l>y tengo también por cierto</l> 
+             <l>que no hay muchacho ninguno</l> 
+             <l>que ignore que el tirar huevos</l> 
+             <l>no tiene otro nombre alguno</l> 
+             <l>sino jugar al afrecho:</l> 
+             <l>yo no sé si me he explicado.</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Sí, señor. Bien comprendo</l>
+             <l>todo cuando usted ha dicho;</l>
+             <l>pero tenga usted por cierto</l>
+             <l>que no padezco yo engaño.</l>
+             <pb n="29"/>
+             <l>Y para que vea cierto</l> 
+             <l>que ese libro (que se hizo</l> 
+             <l>sin más fin ni más objeto</l> 
+             <l>que para educar a niños,</l> 
+             <l>enseñándoles preceptos</l> 
+             <l>de laudable educación)</l> 
+             <l>lo dice así, lea atento</l> 
+             <l>la página cincuenta y siete,</l> 
+             <l>en el renglón décimo tercio,</l> 
+             <l>y verá que a los que juegan</l> 
+             <l>de manos llama en efecto</l> 
+             <l>villanos, que generalmente</l> 
+             <l>conocemos por groseros.</l> 
+             <l>Esto es una suposición</l> 
+             <l>de jugar sin instrumento</l> 
+             <l>que pueda ofender a otro,</l> 
+             <l>sino solo por ser juegos</l> 
+             <l>de manos, sin lastimarse</l>
+             <l>uno a otro ni en un pelo.</l> 
+             <l>Conque no debe extrañarse</l> 
+             <l>que a aquellos que, desde luego,</l>
+             <l>o puedan quitar la vida</l> 
+             <l>o dejar un miembro leso<note>Leso: herido o dañado.</note></l>
+             <l>se les llame a boca llena</l> 
+             <l>barbarie, en todo derecho.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>Ahora quedamos bien,</l>
+             <l>¡caramba, qué magisterio!</l>
+             <l>Bien haya la decisión,</l> 
+             <l>hacen muy pocos momentos</l> 
+             <l>que estábamos más honrados</l>
+             <pb n="30"/>
+             <l>los afectos a esos juegos.</l> 
+             <l>Yo dificulto bastante</l> 
+             <l>que usted pronunciara esto</l> 
+             <l>a presencia de señores</l> 
+             <l>y señoras de altos puestos,</l> 
+             <l>que autorizan esta clase</l> 
+             <l>de simple divertimento,</l> 
+             <l>siendo ellas mismas las que</l> 
+             <l>acaso no juegan menos</l> 
+             <l>que las de clase inferior.</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Madama, no tengo miedo</l>
+             <l>jamás a hablar la verdad</l> 
+             <l>con franqueza: la venero</l> 
+             <l>mucho por hacerle agravio,</l> 
+             <l>y por lo mismo no tengo</l> 
+             <l>chico ni grande embarazo</l> 
+             <l>para repetir lo mesmo</l> 
+             <l>delante de cuantos duques,</l> 
+             <l>condes y duquesas fueron,</l> 
+             <l>son y serán hasta el día</l> 
+             <l>del juicio, porque el respeto</l>
+             <l>que a estas personas se debe</l> 
+             <l>no puede en ningún evento</l> 
+             <l>ser en perjuicio de ella.</l> 
+             <l>Serán esos caballeros</l>
+             <l>y señoras, que usted dice,</l> 
+             <l>muy nobles: sus privilegios</l> 
+             <l>los respetaré yo siempre</l> 
+             <l>hasta lo sumo que debo,</l> 
+             <l>porque la razón lo pide;</l> 
+             <l>pero, prescindiendo de esto,</l> 
+             <l>si juegan del mismo modo</l> 
+             <pb n="31"/>
+             <l>que se ha dicho, sin recelo</l> 
+             <l>digo y diré a sus mercedes,</l> 
+             <l>sin que a sus clases ni un pelo</l> 
+             <l>les agravie, que esos hechos</l> 
+             <l>hágalos quien los hiciere,</l> 
+             <l>siempre serán en mi aprecio</l> 
+             <l>bárbaros, irracionales,</l> 
+             <l>inciviles y groseros.</l>
+           </sp>
+           <sp who="donArnesto">
+             <speaker>Arnesto:</speaker>
+             <l>¿Cómo se podrá eludir</l>
+             <l>la fuerza de este argumento?</l>
+           </sp>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>A mi entender no hay respuesta,</l> 
+             <l>pues pone de manifiesto</l> 
+             <l>con las pruebas el perjuicio</l> 
+             <l>inseparable a que el cuerpo,</l> 
+             <l>y acaso la misma vida,</l> 
+             <l>precisamente está expuesto.</l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>¿Con qué habremos de tirar?</l>
+             <l part="I">¿Con jazmines?</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l part="F">Desde luego,</l> 
+             <l>mejor sería con nada;</l> 
+             <l>pero, al fin, es más modesto,</l> 
+             <l>más fino y sin riesgo alguno</l> 
+             <l>tirar flores que no huevos.</l>
+           </sp>
+           <sp who="#donArnesto">
+             <speaker>Arnesto:</speaker>
+             <l>Allá en mis mocedades,</l> 
+             <l>como entre sueños me acuerdo,</l>
+             <l>asistí a cierta asamblea</l>
+             <l>celebrada en este tiempo;</l> 
+             <l>y tengo presente era</l> 
+             <l>el asunto de estos juegos</l> 
+             <l>flores, anises y olores</l> 
+             <pb n="32"/>
+             <l>tirados de cuerpo a cuerpo,</l> 
+             <l>pero jamás hacia el rostro</l> 
+             <l>(y ya se ve lo diverso</l>
+             <l>de unas materias tan tenues</l> 
+             <l>comparadas con los huevos).</l> 
+             <l>Sin embargo, un capitán</l>
+             <l>que se halló allí, forastero,</l> 
+             <l>tuvo la desatención</l> 
+             <l>de dar con un dulce seco</l> 
+             <l>a una señora en la frente;</l> 
+             <l>mas si no parte al momento</l> 
+             <l>de la sala, como un aire,</l> 
+             <l>creeré lo hubieran muerto</l>
+             <l>a estocadas, fijamente,</l> 
+             <l>seis u ocho caballeros</l> 
+             <l>que tomaron el agravio</l> 
+             <l>por su cuenta todos ellos.</l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>También fue delicadeza,</l> 
+             <l>por vida de mi chapeo,</l> 
+             <l>en esa ninfa de alcorza <note>Alcorza: baño de azúcar.</note></l>
+             <l>el ofenderse por eso.</l>
+             <l>¿Qué haría su alfeñiquez <note>Alfeñiquez: de alfeñique: golosina.</note></l>
+             <l>si el capitán forastero</l> 
+             <l>le hubiera tirado a ella,</l> 
+             <l>como a mí anoche, un buen cuerno</l> 
+             <l>lleno de ceniza y agua,</l> 
+             <l>y encima carbón y afrecho?</l>
+             <l>Sin duda hubiera creído</l> 
+             <l>que se le caía un cerro</l> 
+             <pb n="33"/>
+             <l>encima de su merced.</l>
+             <l>Pues yo, como soy discreto,</l> 
+             <l>nadita que se me dio;</l> 
+             <l>fui a mudarme ropa luego</l> 
+             <l>y volví a corresponder</l> 
+             <l>con una olla de sebo</l> 
+             <l>y hollín de la chimenea,</l> 
+             <l>y diciendo “¡allá va afrecho!”</l> 
+             <l>las puse a las picaronas</l> 
+             <l>frititas como un buñuelo.</l> 
+             <l>A fe que el señor Catón</l> 
+             <l>cristiano no dirá que esto</l> 
+             <l>se llama juego de manos,</l> 
+             <l>sino de ollas y cuernos.</l> 
+             <l>Aquí no hubo golpe alguno,</l> 
+             <l>los vestidos se perdieron:</l> 
+             <l>salimos tales a tales,</l> 
+             <l>¿y quién hace caso de eso?</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>No hubo contusión ni herida</l> 
+             <l>en ese acaecimiento;</l> 
+             <l>pero, ¿perder un vestido</l> 
+             <l>es de tan poco momento</l> 
+             <l>que no dude posponerse</l> 
+             <l>al más insulso recreo</l> 
+             <l>de dar una pesadumbre</l> 
+             <l>al que lo pierde? Muy ciego</l> 
+             <l>ha de estar quien no conozca</l> 
+             <l>que esos no se llaman juegos.</l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>¿Y cómo se llamarán,</l> 
+             <l>señor mío, en su dialecto?</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Sé su nombre, no lo ignoro,</l>
+             <pb n="34"/>
+             <l>pero por ciertos respetos</l> 
+             <l>es fuerza olvidarme de él.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>Señor don Miguel, ¿qué es esto?</l> 
+             <l>¿Conque sacamos en limpio</l> 
+             <l>que ni con agua y afrecho,</l> 
+             <l>con huevos, ni cosa alguna</l> 
+             <l>ya divertirnos podremos?</l> 
+             <l>Si a usted lo hicieran virrey,</l> 
+             <l>pobre carnaval, yo creo</l> 
+             <l>para mí, lo desterraba</l> 
+             <l>sin duda de todo el reino;</l> 
+             <l>y aun lo hacía enterrar vivo</l> 
+             <l>a fin de que en ningún tiempo</l> 
+             <l>pudieran resucitarle</l> 
+             <l>los que tienen otro genio.</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Sí, señora, puede usted</l> 
+             <l>desde luego así creerlo.</l> 
+             <l>Y entiendo haría un servicio,</l> 
+             <l>a Dios, al rey y a los pueblos,</l>
+             <l>razonable en extirpar</l> 
+             <l>las reliquias de unos juegos</l> 
+             <l>cuyo origen vergonzoso</l> 
+             <l part="I">fue el gentilismo.<note>Gentilismo: religión de los gentiles o idólatras.</note></l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l part="F">¿Y por eso</l> 
+             <l>les llama usted vergonzosos?</l> 
+             <l>¿Conque los que establecieron</l> 
+             <l>todo un Imperio Romano</l> 
+             <l>serían algunos lerdos</l> 
+             <l>que no sabrían discurrir</l> 
+             <pb n="35"/>
+             <l>si este otro establecimiento</l> 
+             <l>de carnestolendas era</l> 
+             <l>de perjuicio o de provecho?</l> 
+             <l>Unos hombres más profundos</l> 
+             <l>que la cueva de Cisneros,</l> 
+             <l>y que hasta hoy no se oye</l> 
+             <l>a los más ancianos viejos</l> 
+             <l>más que daca los romanos,</l> 
+             <l>toma los romanos: ¡bueno!</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>No importa su poderío,</l> 
+             <l>sus conquistas y gobierno,</l> 
+             <l>para que dejen de haber</l> 
+             <l>sido hombres todos ellos,</l> 
+             <l>y hombres sin religión.</l> 
+             <l>Esto basta para hacerlos</l>
+             <l>el horror del cristianismo</l> 
+             <l>y para que los miremos</l>
+             <l>incapaces de dar tono</l> 
+             <l>en tiempo; que el Evangelio</l> 
+             <l>es nuestra ley, y detesta</l> 
+             <l>estos juegos porque en ellos</l> 
+             <l>hay muchos inconvenientes</l> 
+             <l>repugnantes al severo</l> 
+             <l>moral que ella nos prescribe.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>Pero, según yo me acuerdo,</l> 
+             <l>poco ha le oí a usted</l> 
+             <l>decir que eran groseros</l> 
+             <l>y bárbaros porque traen</l> 
+             <l>aquellos remotos riesgos</l> 
+             <l>que usted nos quiso abultar;</l> 
+             <l>mas ahora lo que veo</l> 
+             <pb n="36"/>
+             <l>es que añade inconvenientes</l> 
+             <l>segundos a los primeros.</l> 
+             <l>¡Jesús, qué delicadeza</l>
+             <l>de conciencia! Ni por pienso,</l> 
+             <l>si usted fuera confesor,</l> 
+             <l>lo fuera mío un momento.</l> 
+             <l>Vea usted qué pecadazos</l> 
+             <l>pueda haber en que a lo menos</l>
+             <l>–ya que se excluya el tirar</l> 
+             <l>por juguete algunos huevos–</l>
+             <l>anden mujeres y hombres</l> 
+             <l>mezclados, ya sea corriendo</l>
+             <l>unos tras otros, saltando,</l> 
+             <l>bailando, en fin, divirtiendo</l>
+             <l>el tiempo en tan inocente</l> 
+             <l>e indiferente recreo.</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>¡Ah, señora, son peores</l>
+             <l>estos aun que los primeros,</l> 
+             <l>porque estos tiran al alma,</l> 
+             <l>aquellos solo a los cuerpos!</l> 
+             <l>Y por más que canonice</l> 
+             <l>usted esos sus bureos<note>Bureo: entretenimiento, fiesta no lícita.</note></l>
+             <l>con los indebidos nombres</l> 
+             <l>de inocentes, serán ellos</l> 
+             <l>siempre, siempre, cuando menos,</l> 
+             <l>una ocasión de pecado,</l> 
+             <l>y gravísimo en extremo.</l> 
+             <l>Sé muy bien lo que allí pasa:</l> 
+             <l>no lo he visto por mí mesmo,</l> 
+             <l>pero estoy muy cerciorado</l> 
+             <pb n="37"/>
+             <l>que cada uno de ellos</l> 
+             <l>es una ginebra entera.</l> 
+             <l>Señora, no nos cansemos,</l> 
+             <l>las carnestolendas tienen</l> 
+             <l>más almas en los infiernos</l> 
+             <l>que las que usted imagina:</l> 
+             <l>ojalá no fuera cierto.</l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>Usté habla solo de oídas:</l> 
+             <l part="I">¿no es verdad?</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l part="F">Pero es tan cierto</l> 
+             <l>lo que afirmo como es</l> 
+             <l>que la pólvora y el fuego</l> 
+             <l>si se unen, es preciso</l> 
+             <l>se verifique el incendio.</l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>Pues para que vea usted</l>
+             <l>que yo no lo sé por cuento</l> 
+             <l>como usted, sino de vista,</l> 
+             <l>oiga lo que en esos juegos</l> 
+             <l>que usted condena por malos</l> 
+             <l>en el campo y en el pueblo</l> 
+             <l>se practica, y quedará</l> 
+             <l>desimpresionado presto</l> 
+             <l>de las gordas paparruchas</l>
+             <l>que le han encajado. ¡Es cierto</l>
+             <l>que mienten algunos hombres</l> 
+             <l>como el mayor embustero!</l>
+             <l>Si es al campo, señor mío,</l> 
+             <l>van las familias, es cierto,</l> 
+             <l>a jugar carnestolendas</l> 
+             <l>con muchísimos sujetos</l> 
+             <l>y sujetas convidadas;</l> 
+             <pb n="38"/>
+             <l>pero ¿qué tenemos de eso?</l>
+             <l>Por la mañana temprano,</l> 
+             <l>en dispertándose, luego,</l> 
+             <l>lo primero persignarse,</l> 
+             <l>pidiendo con todo esfuerzo</l> 
+             <l>que por aquella señal</l> 
+             <l>los libre Dios del violento</l> 
+             <l>combate del enemigo;</l> 
+             <l>y, preparados con esto,</l> 
+             <l>venga ahora la guitarra</l> 
+             <l>se toca y baila; el almuerzo</l>
+             <l>–se menudean sus tragos</l> 
+             <l>sin andar con cumplimientos–;</l> 
+             <l>se chacotea un ratito.</l>  
+             <l>¡A jugar!, pero con tiento:</l> 
+             <l>uno coge cuatro yuyos</l> 
+             <l>y va con ellos corriendo</l> 
+             <l>y le refriega la cara</l> 
+             <l>a una mujer; esta luego</l>
+             <l>corre tras él y le hace,</l> 
+             <l>sobre poco más o menos,</l> 
+             <l>pagar en igual moneda</l> 
+             <l>lo que le estaba debiendo;</l> 
+             <l>que hacen los demás lo mismo</l> 
+             <l>o con yuyos o el afrecho.</l> 
+             <l>Que, rendidos de esta lucha,</l> 
+             <l>se sientan luego en el suelo</l> 
+             <l>a jugar juegos de prendas;</l> 
+             <l>y me acuerdo que entre ellos</l> 
+             <l>hay uno de tanta gracia</l> 
+             <l>que es un purito silencio:</l> 
+             <l>ruido, ni imaginarse,</l>
+             <pb n="39"/>
+             <l>porque todo es un secreto,</l> 
+             <l>hablando junto al oído</l> 
+             <l>unos a otros. En comiendo,</l> 
+             <l>el que no quiere dormir,</l>
+             <l>a jugar como primero;</l> 
+             <l>a la noche contradanzas</l> 
+             <l>hasta las doce, y laus Deo.</l>
+             <l>¿En cuál de estas menudencias</l> 
+             <l>que distribuyen el tiempo</l> 
+             <l>se encuentran los pecadazos<note>Pecadazos: aumentativo de pecados.</note></l>
+             <l>que usted pondera y yo niego?</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Ya, si usted lo niega todo,</l> 
+             <l>predicamos en desierto.</l>
+           </sp>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>No lo negaré yo, no,</l> 
+             <l>antes en prueba de ello</l> 
+             <l>podría alegar un lance</l> 
+             <l>que ha muy poquísimo tiempo</l> 
+             <l>sucedió a cierta señora</l> 
+             <l>que incauta llevó a esos juegos</l> 
+             <l>una hija suya, y lloró</l> 
+             <l>su indiscreción sin remedio.</l>
+           </sp>
+           <sp who="#donArnesto">
+             <speaker>Arnesto:</speaker>
+             <l>A nadie puede ocultarse</l> 
+             <l>el peligro verdadero</l> 
+             <l>que hay en las asambleas,</l> 
+             <l>bajo el dorado pretexto</l> 
+             <l>de ser entre gente honrada.</l> 
+             <l>Los nobles y los plebeyos</l> 
+             <l>son hechos de un mismo barro;</l> 
+             <l>nadie tiene el privilegio</l> 
+             <pb n="40"/>
+             <l>de andar por entre las llamas</l>
+             <l>sin quemarse: cuando el fuego</l> 
+             <l>de nuestra concupiscencia</l> 
+             <l>no fuera en sí tan violento,</l> 
+             <l>la misma ocasión lo haría</l>
+             <l>encenderse en un momento.</l> 
+             <l>Luego, entrarse voluntario</l> 
+             <l>en la ocasión, e ileso</l>
+             <l>querer salir sin caer,</l> 
+             <l>ese es un cuento de cuentos.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>Señor, no andemos a dizques,<note>Dizques: plural de "dicen que".</note></l>
+             <l>a la experiencia me atengo.</l>
+             <l>Si fueran ciertos acaso</l>
+             <l>esos lances tan funestos,</l> 
+             <l>ni los señores saldrían</l> 
+             <l>al fin de ellos tan contentos</l>
+             <l>como salen, ni las damas</l>
+             <l>tan gustosas en extremo.</l> 
+             <l>Ellos se vuelven a casa</l> 
+             <l>a carcajadas riendo,</l>
+             <l>ellas parlando y cantando,</l> 
+             <l>que es la señal del contento.</l> 
+             <l>Conque, ¿dónde están entonces</l> 
+             <l>las señas de lo funesto</l>
+             <l>de esas pobres diversiones?</l>
+             <l>Digamos –y eso es lo cierto–</l> 
+             <l>que, en dando que ha de rabiar</l> 
+             <l>el perro, aunque sano y bueno</l>
+             <l>esté, a fuerza de palos</l>
+             <l>lo quieren quitar de en medio.</l>
+             <pb n="41"/>
+             <l>Todo lo que he dicho a ustedes</l> 
+             <l>en infinitos paseos</l> 
+             <l>a que he concurrido yo</l> 
+             <l>antes de mi casamiento,</l> 
+             <l>en tiempo de mi difunto</l> 
+             <l>y en mi viudez, es cierto.</l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>Ea, pues, mi sa Segunda</l>
+             <l>¿nos marchamos o qué hacemos?</l>
+             <l>No sacaremos partido,</l> 
+             <l>no, con estos caballeros.</l> 
+             <l>Ellos están en sus trece,</l> 
+             <l>nosotros en doce y medio.</l> 
+             <l>Conque mejor es dejarlo:</l> 
+             <l>que se lleven todo el pleito </l>
+             <l>con tal que nos dejen libre</l> 
+             <l>y a salvo nuestro derecho</l> 
+             <l>para usar de él esta noche</l> 
+             <l>en casa de don Fulgencio,</l> 
+             <l>donde sé que se han juntado</l>
+             <l>muchachas como un espejo</l> 
+             <l>a jugar carnestolendas,</l> 
+             <l>y es lástima perder esto;</l>
+             <l>el don Fulgencio es de humor:</l>
+             <l>escrúpulos, ni por pienso.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>Vamos, pues. Mi sa Andrea,</l> 
+             <stage>Se levantan todos.</stage>
+             <l>el ratito ha estado bueno,</l> 
+             <l>en no habiendo oposición</l> 
+             <l>en lo que se trata, es cierto</l>
+             <pb n="42"/>
+             <l>que es una pura friolera</l>
+             <l>y en esto no hay sentimientos.</l>
+           </sp>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>Los entendimientos son</l>  
+             <l>naturalmente guerreros,</l> 
+             <l>bien que rinden sus banderas</l> 
+             <l>si hallan razón para hacerlo.</l> 
+             <l>Celebraré se mejore usted.</l>
+           </sp>
+           <sp who="#donaSegunda">
+             <speaker>Segunda:</speaker>
+             <l>Señor don Arnesto, adiós.</l> 
+             <l>Señor don Miguel, lo mesmo.</l>
+           </sp>
+           <sp who="#donArnesto #donMiguel">
+             <speaker>Arnesto y Miguel:</speaker>
+             <l>Madama, mande a su afecto.</l>
+           </sp>
+           <sp who="#donFadrique">
+             <speaker>Fadrique:</speaker>
+             <l>A la obediencia, madama.</l> 
+             <l>Agur, agur, caballeros.</l>
+           </sp>
+           <sp who="#donArnesto #donMiguel">
+             <speaker>Los Dos:</speaker>
+             <l>Vaya usted muy norabuena.</l>
+           </sp>
+           <stage>Vanse doña Segunda y don Fadrique.</stage>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>¡Polonia, alumbra presto!</l>
+           </sp>
+           <stage>Siéntanse los tres.</stage>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>¡Bravo par de calaveras,</l> 
+             <l>son la viuda y el cortejo!</l>
+             <l>Vaya, vaya, no creyera</l> 
+             <l>tan obtuso entendimiento</l> 
+             <l>en gentes cuya presencia</l> 
+             <l>prometía más talento.</l> 
+             <l>¡Qué malísima crianza</l> 
+             <l>y porte tan truhanesco</l> 
+             <l>manifiesta el don Fadrique!</l>
+             <l>A fe mía, le prometo</l>
+             <pb n="43"/>
+             <l>a usted que en toda mi vida</l>
+             <l>vi un hombre tan majadero.</l>
+           </sp>
+           <sp who="#donArnesto">
+             <speaker>Arnesto:</speaker>
+             <l>Es fuerte desvergonzado</l> 
+             <l>el dichoso caballero.</l> 
+             <l>¿No reparó usted la audacia</l> 
+             <l>con que desmintió el aserto</l>
+             <l>que usted discreto le opuso?</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Sí, señor, pero a un jumento</l> 
+             <l>de esa clase ¿quiere usted</l> 
+             <l>que le hiciera cargo de eso?</l>
+             <l>Es una especie de hombres</l> 
+             <l>de quien yo jamás me siento,</l> 
+             <l>porque conozco que nace</l> 
+             <l>su ningún comedimiento</l> 
+             <l>en hablar, no de malicia,</l> 
+             <l>de elación o de desprecio,</l> 
+             <l>sino de ningunas luces,</l> 
+             <l>de la escasez de talento,</l> 
+             <l>de una educación villana,</l> 
+             <l>en fin, de ser unos necios.</l>
+           </sp>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>Apenas entró en la sala</l>  
+             <l>ya dije para mí: cierto</l> 
+             <l>que, para primer visita,</l> 
+             <l>son escasos cumplimientos</l> 
+             <l>los que gasta en saludar</l> 
+             <l>este gentil caballero.</l> 
+             <l>Pero cuando empezó a hablar</l> 
+             <l>tan sin propósito, luego</l> 
+             <l>conocí la veta a fondo,</l> 
+             <l>y más cuando el argumento</l>
+             <pb n="44"/>
+             <l>a favor de los romanos.</l>
+             <l>Yo no oí más desconciertos</l> 
+             <l>ni solemnes disparates</l> 
+             <l>en mi vida. Desde luego,</l> 
+             <l>si no es loco enteramente,</l> 
+             <l>está en vísperas de serlo.</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>¿Y a nuestra doña Segunda</l> 
+             <l>acaso le falta un pelo</l> 
+             <l>para ser loca <foreign xml:lang="lat">in utroque</foreign>?<note>In utroque: en ambos. Se decía de aquellos que eran graduados en Derecho Civil y Canónico.</note></l>
+             <l>¿Aquel continuo meneo,</l> 
+             <l>los quiebros, las contorsiones,</l> 
+             <l>y los ridículos gestos</l> 
+             <l>que para hablar afectaba,</l> 
+             <l>no es serlo en ambos derechos?</l>
+           </sp>
+           <sp who="#donArnesto">
+             <speaker>Arnesto:</speaker>
+             <l>¿Y dónde dejan ustedes</l> 
+             <l>aquel “caramba” truhanesco,</l> 
+             <l>tan impropio a una señora</l> 
+             <l>de mediano nacimiento,</l> 
+             <l>que con tonillo insultante</l> 
+             <l>nos echó? ¿No estuvo bueno?</l>
+           </sp>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>Yo juzgo que su marido</l> 
+             <l>poquísimo sentimiento</l> 
+             <l>podría tener al dejarla,</l> 
+             <l>aunque fuese por el medio</l> 
+             <l>repugnante del morir.</l>
+           </sp>
+           <sp who="#donMiguel">
+             <speaker>Miguel:</speaker>
+             <l>Desde luego yo lo creo,</l> 
+             <l>porque un cascabel así</l> 
+             <l>unido a un marido cuerdo</l> 
+             <l>es una muerte civil,</l>
+             <l>y es mejor en tal extremo</l> 
+             <pb n="45"/>
+             <l>morirse de un tabardillo</l>
+             <l>porque, al fin, despacha presto.</l> 
+             <l>Ahora van al sarao,</l> 
+             <l>y entre otros como ellos</l> 
+             <l>juegan, bailan y retozan</l> 
+             <l>poco menos que jumentos.</l> 
+             <l>Allí habrá huevos de agua</l> 
+             <l>con que batirse los sesos</l> 
+             <l>acaso de un pelotazo.</l> 
+             <l>No faltarán desatentos</l> 
+             <l>que pasen más adelante,</l> 
+             <l>y si el dicho don Fulgencio</l>
+             <l>es hombre de tomo y lomo<note>De tomo y lomo: importante.</note></l>
+             <l>–como lo dijeron ellos– </l>
+             <l>habrá tragos de mistela;</l> 
+             <l>ésta subirá al cerebro</l> 
+             <l>y, puestos en este estado,</l> 
+             <l>¡válgame Dios de los cielos,</l> 
+             <l>qué consecuencias tan graves</l>
+             <l>precisamente preveo!</l>
+           </sp>
+           <sp who="#donArnesto">
+             <speaker>Arnesto:</speaker>
+             <l>Las que el vil libertinaje</l>
+             <l>trae consigo este tiempo</l>
+             <l>del perverso carnaval.</l> 
+             <l>¡Ay, amigo, gracias demos</l> 
+             <l>al Señor, que por su amor</l> 
+             <l>no ha permitido doblemos</l> 
+             <l>a este ídolo fantasma</l> 
+             <l>la rodilla, como vemos</l> 
+             <l>que doblan generalmente</l> 
+             <l>grandes, chicos y plebeyos,</l>
+             <l>temiendo el perder el juicio</l> 
+             <pb n="46"/>
+             <l>estos tres días enteros</l> 
+             <l>por obsequio a su deidad,</l> 
+             <l>ojalá no les dé el premio.</l>
+           </sp>
+           <sp who="#donaAndrea">
+             <speaker>Andrea:</speaker>
+             <l>La gracia del caso es</l> 
+             <l>que, infatuados y ciegos,</l> 
+             <l>siendo ellos unos locos,</l> 
+             <l>llaman locos a los cuerdos.</l>
+           </sp>
          </div>
+        </div>
       </body>
+     <back>
+       <trailer>Fin</trailer>
+     </back>
    </text>
 </TEI>
