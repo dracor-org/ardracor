@@ -1,0 +1,2701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000020" xml:lang="spa">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">La industria contra la fuerza</title>
+        <author>
+          <persName>
+            <forename>Cristóbal de</forename>
+            <surname>Aguilar</surname>
+          </persName>
+          <idno type="wikidata">Q109853645</idno>
+        </author>
+        <editor xml:id="fb">
+          <persName>
+            <forename>Finnja</forename>
+            <surname>Borchardt</surname>
+          </persName>
+        </editor>
+        <editor xml:id="uhk">
+          <persName>
+            <forename>Ulrike</forename>
+            <surname>Henny-Krahmer</surname>
+          </persName>
+          <idno type="wikidata">Q115644151</idno>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
+            >CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Antología de obras de teatro argentino</name>
+          <author><forename>Cristóbal</forename>
+            <surname>de Aguilar</surname></author>: <title level="a">La industria contra la
+            fuerza.</title> In: <editor><surname>Seibel</surname>,
+            <forename>Beatriz</forename></editor>. <title level="m">Antología de obras de teatro
+            argentino. Desde sus orígenes a la actualidad.</title>
+          <biblScope unit="volume">Tomo 1. Sainetes urbanos y gauchescos, 1800–1814.</biblScope>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
+            <date>2006</date>, pp. <biblScope unit="page" from="49" to="114">49–114</biblScope>.
+            <idno type="URL"
+            >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf</idno>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author><surname>Aguilar</surname>, <forename>Cristóbal</forename>
+            <nameLink>de</nameLink></author>. <title level="a">La industria contra la
+            fuerza.</title> In: <editor><surname>Trenti Rocamora</surname>, <forename>J.
+              Luis</forename></editor>. <title level="m">Selección dramatica de Cristobal de
+            Aguilar, autor de la Córdoba colonial.</title>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Imprenta Victoria</publisher>,
+            <date>1950</date>. <note source="seibel">En esta pieza, José Luis Trenti Rocamora
+            modernizó la grafía y la puntuación, la dividió en cuadros y escenas, y suprimió los
+            "Don" y "Doña" que el autor colocara antes de los nombres. Además las partes destruidas
+            del original fueron completadas, para poder seguir la lectura sin tropiezos.
+              <emph>Selección dramática de Cristóbal de Aguilar</emph>, Instituto Nacional de
+            Estudios de Teatro, Buenos Aires, 1950.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>The text was extracted from the digital version of the <emph>Antología de obras de teatro
+            argentino.</emph>. In general, the text is taken as it appears in the digital source. A
+          column layout, where it occurs, is not encoded as such; instead, the text is encoded
+          sequentially. Page breaks of the digital source are indicated. Line breaks are not
+          encoded. Capitalized words were converted to lower-case. Text that was set in italics in
+          the digital source is encoded as such. Foreign words are marked up the the 'foreign'
+          element and their language is indicated. Obvious errors (e.g., typos in the character
+          names) were corrected.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="donDiego" sex="MALE">
+            <persName>Don Diego de Areneses</persName>
+          </person>
+          <person xml:id="donaPepa" sex="FEMALE">
+            <persName>Doña Pepita</persName>
+          </person>
+          <person xml:id="casilda" sex="FEMALE">
+            <persName>Casilda</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="seibel" type="genreTitle">sainete urbano</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q134550525</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-12-20" who="#fb">file conversion from source</change>
+        <change when="2026-01-05" who="#uhk">addition of metadata and revision of encoding</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" when="1806" notBefore="1805" notAfter="1806">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000020"
+        passive="http://www.wikidata.org/entity/Q137705648"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000020"
+        passive="https://hdlab.space/teatrar/obras/0002.html"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <pb n="49"/>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">La industria contra la fuerza</titlePart>
+        </docTitle>
+        <docAuthor><emph>Cristóbal de Aguilar</emph></docAuthor>
+      </titlePage>
+      <pb n="50"/>
+      <gap reason="editorial"/>
+      <pb n="51"/>
+      <castList>
+        <head>Personajes</head>
+        <castItem>
+          <role>Don Diego de Areneses,</role>
+          <roleDesc><emph>hombre interesado y caprichoso</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Doña Pepita,</role>
+          <roleDesc><emph>su hija</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Don Florindo Mazeda,</role>
+          <roleDesc><emph> mozo superficial y de conveniencia</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Don José de Aranda,<note>Don José aparece indistintamente con los apellidos Aranda
+              y Videla.</note>,</role>
+          <roleDesc><emph> pretendiente de Doña Pepita, mozo de grandes prendas y
+            talentos</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Casilda,</role>
+          <roleDesc><emph>criada de Doña Pepita</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Jaime y Teresa,</role>
+          <roleDesc><emph> padrinos de una boda</emph></roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+      <div type="scene" n="1">
+        <head>Escena I</head>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Hija, muchos cuidados me cuestas</l>
+          <l>y quiero salir de ellos,</l>
+          <l>esta semana que entra.</l>
+          <l>Don Florindo y Don José,</l>
+          <l>uno y otro en competencia,</l>
+          <l>solicitan con instancia</l>
+          <l>tu mano. Yo bien quisiera</l>
+          <l>dejarte a ti la elección</l>
+          <l>más libre en esta materia,</l>
+          <l>pero veo que vosotras</l>
+          <l>las mujeres, luego os lleva</l>
+          <l>la atención quien más suspira.</l>
+          <l>Aquel que en vuestra presencia</l>
+          <pb n="52"/>
+          <l>aunque con cortas palabras</l>
+          <l>dice mucho en corta arenga.</l>
+          <l>Y finalmente el que sabe</l>
+          <l>ganar la benevolencia</l>
+          <l>a costa de sumisiones,</l>
+          <l>comedimiento y protestas.</l>
+          <l>En esta suposición</l>
+          <l>ya ves, que el que mejor piensa</l>
+          <l>es aquel que sin pasión</l>
+          <l>mira las cosas de afuera,</l>
+          <l>a que se añade, ser padre.</l>
+          <l>Mis canas, mis experiencias,</l>
+          <l>parece que me autorizan</l>
+          <l>a tomar la mano en esta</l>
+          <l>acción, y así decido</l>
+          <l>que sin replicarme seas</l>
+          <l>esposa de Don Florindo;</l>
+          <l>y quédese enhorabuena</l>
+          <l>sin ti el señor Don José</l>
+          <l>de Aranda. Su parentela</l>
+          <l>ni él mismo no desmerece</l>
+          <l>este enlace, pero Pepa</l>
+          <l>él es, aunque muy buen mozo,</l>
+          <l>de muy cortísimas rentas,</l>
+          <l>y a ti y a mí lo que importa</l>
+          <l>es un hombre que sostenga</l>
+          <l>el esplendor de la casa</l>
+          <l>con toda aquella decencia</l>
+          <l>correspondiente, esto es:</l>
+          <l>su coche, buenas libreas,</l>
+          <l>gran aparato de casa,</l>
+          <pb n="53"/>
+          <l>su tertulia, mejor mesa,</l>
+          <l>en el coliseo palco,</l>
+          <l>en el paseo franqueza</l>
+          <l>y una mesita de banca</l>
+          <l>o <sic>ruisifan</sic> en que puedan</l>
+          <l>circular treinta medallas</l>
+          <l>con moderada prudencia.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Yo estimo y estimaré</l>
+          <l>padre mío cuanto quieras,</l>
+          <l>vuestro paternal consejo.</l>
+          <l>La sumisión y obediencia</l>
+          <l>que en todos tiempos se os debe</l>
+          <l>no la ignoro, mas quisiera</l>
+          <l>que diérais gratos oídos</l>
+          <l>en la presente materia</l>
+          <l>de que tratamos, a una</l>
+          <l>hija que aunque sólo cuenta</l>
+          <l>diez y ocho años no más,</l>
+          <l>quiso el cielo poseyera</l>
+          <l>con un razonable juicio,</l>
+          <l>algún poco de prudencia</l>
+          <l>y que conoce por esto</l>
+          <l>que con sumisión atenta</l>
+          <l>bien puede haceros presente,</l>
+          <l>sin agraviar la obediencia,</l>
+          <l>cuanto con justos motivos</l>
+          <l part="I">piensa exponeros.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l part="F">Di, Pepa,</l>
+          <l>pero ten por entendido,</l>
+          <l>que si intentas con salemas<note>Salema es un pez muy atractivo por sus colores. Aquí
+              se emplea en el sentido de zalamería.</note></l>
+          <pb n="54"/>
+          <l>eludir lo que yo mando,</l>
+          <l>lo harás de agrado o por fuerza.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Mi padre, a cuatro palabras</l>
+          <l>se reduce mi respuesta</l>
+          <l>éstas son: tengáis presente</l>
+          <l>a favor de mi defensa,</l>
+          <l>la libertad que hoy el cielo</l>
+          <l>me concedió por que hiciera</l>
+          <l>en la actual circunstancia</l>
+          <l>perfecto uso de ella.</l>
+          <l>En esta virtud, señor,</l>
+          <l>con reverente protesta</l>
+          <l>os digo que no paséis</l>
+          <l>a violentar mi inocencia</l>
+          <l>ordenando de la mano</l>
+          <l>a Don Florindo Mazeda,</l>
+          <l>pues ésta la he reservado</l>
+          <l>para Don José Videla.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>¡Hola, qué decididita</l>
+          <l>está Vm. en la materia!</l>
+          <l>Pues sepa y tenga entendido,</l>
+          <l>que el señorito Videla</l>
+          <l>no es con quien se casará</l>
+          <l>Vm., y si proterba</l>
+          <l>se mantuviese en sus trece,</l>
+          <l>irá a habitar una celda</l>
+          <l>del monasterio que a mí</l>
+          <l>se me ponga en la cabeza.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Vuelvo a repetir, señor,</l>
+          <l>pretextando mi obediencia</l>
+          <l>a todos vuestros preceptos,</l>
+          <pb n="55"/>
+          <l>que me permitáis licencia</l>
+          <l>para elegir a mi arbitrio</l>
+          <l>esposo, y pues congenia</l>
+          <l>Don José tanto conmigo,</l>
+          <l>sed servido, sea esta</l>
+          <l>la unión que enlace dos almas</l>
+          <l>que nacieron para ello.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Quince días doy a Vm.</l>
+          <l>de término, por que vea</l>
+          <l>que no soy ningún tirano,</l>
+          <l>pero pasados si encuentra</l>
+          <l>repulsa mi voluntad,</l>
+          <l>yo haré que Vm. me obedezca.</l>
+        </sp>
+        <stage><emph>(Vase).</emph></stage>
+      </div>
+      <div type="scene" n="2">
+        <head>Escena II</head>
+        <stage><emph>Pepa</emph></stage>
+        <sp who="#donaPepa">
+          <l>¡Válgame Dios, es posible</l>
+          <l>que el amor a las riquezas,</l>
+          <l>al fausto y la vanidad,</l>
+          <l>hagan a un padre más fuerza</l>
+          <l>que la amable libertad</l>
+          <l>de una hija! ¡Oh, infeliz Pepa</l>
+          <l>tú perder a un hombre amable</l>
+          <l>lleno de mérito y prendas</l>
+          <l>personales, que te ama</l>
+          <l>y lo amas con terneza!</l>
+          <l>Tú anteponer a su amor</l>
+          <l>cuatro puñados de tierra</l>
+          <l>que posee Don Florindo</l>
+          <l>en su mayorazgo y renta.</l>
+          <l>Tú despreciar un talento,</l>
+          <pb n="56"/>
+          <l>discreción y gentileza</l>
+          <l>como la de Don José</l>
+          <l>por un fanfarrón tronera</l>
+          <l>cuyo mérito consiste</l>
+          <l>en unas pocas talegas</l>
+          <l>de pesos, que desperdicia</l>
+          <l>juzgándolo por grandeza.</l>
+          <l>No, primero moriré</l>
+          <l>de una calentura lenta</l>
+          <l>con que el pesar me consuma</l>
+          <l>en la estrechez de una celda,</l>
+          <l>que no admitiré otras bodas</l>
+          <l>sean ellas las que sean</l>
+          <l>sino aquellas que feliz</l>
+          <l>puedan hacerme en la tierra.</l>
+        </sp>
+        <stage><emph>Entra Don Diego.</emph></stage>
+      </div>
+      <div type="scene" n="3">
+        <head>Escena III</head>
+        <stage><emph>Pepa, Diego</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Señorita, me olvidaba</l>
+          <l>de una prevención, y es esta:</l>
+          <l>cuidado que a Don Florindo</l>
+          <l>cuando a nuestra casa venga</l>
+          <l>a visita, Vm. le ponga</l>
+          <l>una carita que en ella</l>
+          <l>dé a entender su repugnancia,</l>
+          <l>porque como soy Armenta,</l>
+          <l>que si llego a traslucirlo</l>
+          <l>probará mi saña fiera.</l>
+          <l>No por esto digo a Vm.</l>
+          <l>que de ninguna manera</l>
+          <pb n="57"/>
+          <l>se la ponga a Don José</l>
+          <l>mala, que no es bien comprenda</l>
+          <l>no es él el favorecido.</l>
+          <l>No quiero tengan arengas</l>
+          <l>con su rival, que a su tiempo</l>
+          <l>yo trazaré de manera</l>
+          <l>la cosa, que no perciba</l>
+          <l>ni sentimiento, ni queja.</l>
+          <l>Es buen mozo y no hallo ser</l>
+          <l>conveniente se proceda</l>
+          <l>a una violenta expulsión</l>
+          <l>de casa; porque esto suena</l>
+          <l>a rompimiento y no quiero</l>
+          <l>reñir con su parentela…</l>
+        </sp>
+        <stage><emph>(Vase).</emph></stage>
+      </div>
+      <div type="scene" n="4">
+        <head>Escena IV</head>
+        <stage><emph>Pepa</emph></stage>
+        <sp who="#donaPepa">
+          <l>¡Ahora, sí estamos mejor,</l>
+          <l>fingir cara placentera</l>
+          <l>a quien no puedo sufrir</l>
+          <l>un minuto en mi presencia!</l>
+          <l>Si viniera Don José</l>
+          <l>antes, yo le diera cuenta</l>
+          <l>del conflicto en que me hallo.</l>
+          <l>Su entendimiento y prudencia</l>
+          <l>y el tierno amor con que me ama</l>
+          <l>pudiera en esta tormenta</l>
+          <l>ser el Iris favorable</l>
+          <l>que la bonanza trajera</l>
+          <l>a un corazón afligido.</l>
+          <l>Sí, es indispensable Pepa,</l>
+          <l>que a la mayor brevedad</l>
+          <pb n="58"/>
+          <l>todo lo que pasa sepa.</l>
+        </sp>
+      </div>
+      <div type="scene" n="5">
+        <head>Escena V</head>
+        <!-- Ab hier weiter prüfen: -->
+        <stage><emph>Pepa, Casilda</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Señorita, Don Florindo</l>
+          <l>para entrar pide licencia.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Mira, decidle Casilda</l>
+          <l>que estoy un poco indispuesta,</l>
+          <l>que después que me mejore</l>
+          <l>recibiré sus finezas,</l>
+          <l>y vuelve al instante acá.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Voy señorita. (Aparte) Si fuera</l>
+          <l>esta respuesta conjuro;</l>
+          <l>salía el diablo fuera</l>
+          <l>y dejaba a esta infeliz</l>
+          <l>sosegar…</l>
+          <l><stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="6">
+        <stage><emph>Pepa</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Contra la fuerza</l>
+          <l>es imposible chocar,</l>
+          <l>según muestra la experiencia.</l>
+          <l>Esto es verdad, pero en caso</l>
+          <l>que el ardid no prevalezca,</l>
+          <l>la industria ha hecho prodigios</l>
+          <l>infinitos y así Pepa</l>
+          <l>este que ahora te ocurre</l>
+          <l>puede ser que deje ilesa</l>
+          <l>tu libertad oprimida</l>
+          <l>de una tirana violencia.</l>
+          <pb n="59"/>
+          <l>Llamar pienso a Don José</l>
+          <l>y después que de mí sepa</l>
+          <l>que estoy expuesta a perderle</l>
+          <l>y él a mí, le daré cuenta</l>
+          <l>del ardid que he meditado</l>
+          <l>por ver si acaso lo aprueba.</l>
+        </sp>
+      </div>
+      <div type="scene" n="7">
+        <stage>Pepa, Casilda</stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Ya estoy de vuelta, señora.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="I">¿Qué te dijo?</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">Frioleras</l>
+          <l>como aquellas que acostumbra;</l>
+          <l>me dijo que si es jaqueca</l>
+          <l>que os pusiérais unos parches</l>
+          <l>de hollín de la chimenea</l>
+          <l part="I">y que…</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Casilda:</speaker>
+          <l part="F">No me digas más.</l>
+          <l>Parte a toda diligencia</l>
+          <l>y di a Don José Aranda,</l>
+          <l>que importa que a verme venga</l>
+          <l>al instante, y si lo hallas</l>
+          <l>vuélvete con ligereza</l>
+          <l>a tu cuarto y en él haz</l>
+          <l>centinela hasta que venga,</l>
+          <l>para que me avises luego.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>¿Y si mi amo me encuentra</l>
+          <l>al salir o entrar, qué digo?</l>
+        </sp>
+        <pb n="60"/>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Dile que vas a la tienda</l>
+          <l>a buscar un poco de hilo</l>
+          <l>para urdir... <note>Urdir: preparar los hilos para pasarlos al telar.</note></l>
+          <l><stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="8">
+        <stage><emph>Casilda</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Quien tal creyera</l>
+          <l>que con la misma verdad</l>
+          <l>se engañe de esta manera.</l>
+          <l>Es cierto que ella va a urdir</l>
+          <l>porque al llegar a la puerta</l>
+          <l>le oí decir que la industria</l>
+          <l>se hizo contra la fuerza,</l>
+          <l>y que tenía un ardid</l>
+          <l>prevenido contra ella.</l>
+          <l>¿Cuál será? ¿Pero el diablo</l>
+          <l>acaso ventajas lleva</l>
+          <l>en armar una tramoya</l>
+          <l>a una mujer si lo intenta?</l>
+          <l>Pero me voy correndito</l>
+          <l>antes que mi señora venga.</l>
+          <l><stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="9">
+        <stage><emph>Pepa</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Los minutos se hacen horas</l>
+          <l>aquella que amando espera</l>
+          <l>el objeto que idolatra.</l>
+          <l>No atrae con más vehemencia</l>
+          <l>el imán así al acero</l>
+          <pb n="61"/>
+          <l>que la que mi pecho encuentra</l>
+          <l>en el corazón de aquel</l>
+          <l>joven, que igualmente prueba</l>
+          <l>la atracción que fino el mío</l>
+          <l>hace del suyo. ¡Oh, quiera</l>
+          <l>el cielo sernos propicio;</l>
+          <l>qué felicidad la nuestra!</l>
+          <l>Pero suframos, amor,</l>
+          <l>que alguna esperanza queda</l>
+          <l>en el meditado arbitrio;</l>
+          <l>valor y a la diligencia.</l>
+          <stage><emph>Llega Casilda.</emph></stage>
+        </sp>
+      </div>
+      <div type="scene" n="10">
+        <stage>Pepa, Casilda</stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Pues que soy ciega,</l>
+          <l>en la mitad del camino</l>
+          <l>le encontré, le dije que era</l>
+          <l>importante una visita</l>
+          <l>con prontitud y cautela.</l>
+          <l>Él me quiso detener</l>
+          <l>a saber de mí qué era</l>
+          <l>lo que con tal precisión</l>
+          <l>solicitas su presencia.</l>
+          <l>Yo nada le contesté,</l>
+          <l>sino sólo que viniera</l>
+          <l>conmigo y en la antesala</l>
+          <l>a besar tu mano espera.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l> Dile que entre, Casilda.</l>
+        </sp>
+        <pb n="62"/>
+      </div>
+      <div type="scene" n="11">
+        <stage><emph>Pepa, José</emph></stage>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <stage><emph>(Detenido en el umbral de la puerta dice:)</emph></stage>
+          <l>Señora, ya está en la puerta</l>
+          <l>esperando tus preceptos</l>
+          <l>el que de vuestra belleza</l>
+          <l part="I">vive esclavo.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="F">Dueño mío</l>
+          <l>entrad. ¿Qué reserva es ésta</l>
+          <l>cuando sabes tienes franca</l>
+          <l>en mi corazón la puerta?</l>
+          <l>Tomad asiento y oíd –si es que el sentimiento os deja</l>
+          <l>libre de oído– el puñal</l>
+          <l>que el corazón me atraviesa.</l>
+          <l>Mi padre, ¡ah cruel codicia!,</l>
+          <l>mi padre obstinado intenta</l>
+          <l>con plazo de pocos días,</l>
+          <l>que a Don Florindo Mazeda</l>
+          <l>dé la mano, que es lo mesmo</l>
+          <l>que si la muerte me diera;</l>
+          <l>porque habiendo os entregado</l>
+          <l>mis sentidos y potencias</l>
+          <l>a vos, como a dueño mío,</l>
+          <l>a vos, como a dueño mío,</l>
+          <l>si por una tiranía</l>
+          <l>en la precisión me viera</l>
+          <l>de abandonar vuestro amor.</l>
+          <l>Pero no creáis que esta</l>
+          <l>resolución fuera hija</l>
+          <l>de haber cedido a la fuerza,</l>
+          <pb n="63"/>
+          <l>que eso en mí es tan imposible</l>
+          <l>como si ahora cayera</l>
+          <l>un astro del firmamento.</l>
+          <l>No, dueño mío, no es ésa</l>
+          <l>la razón que a separarnos</l>
+          <l>llegaría, sino ésta:</l>
+          <l>Que siguiendo su intención</l>
+          <l>me ha me ha propuesto este dilema</l>
+          <l>mi padre: o darle la mano</l>
+          <l>a Don Florindo, o una celda</l>
+          <l>perpetua en reclusión.</l>
+          <l>Ya veis que de esta manera</l>
+          <l>no seré de Don Florindo</l>
+          <l>mas tampoco seré vuestra.</l>
+          <l>En tal caso decidme</l>
+          <l>¿qué otro recurso nos queda</l>
+          <l>¿qué otro recurso nos queda</l>
+          <l>Mi imaginación no encuentra</l>
+          <l>sino uno solo y costoso.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Mi siempre estimada Pepa,</l>
+          <l>el corazón me ha partido</l>
+          <l>tu noticia. Mi alma dejas</l>
+          <l>llena de mil sobresaltos,</l>
+          <l>temores, ansias y penas.</l>
+          <l>Yo desfallezco, yo muero</l>
+          <l>ahora mismo a tu presencia,</l>
+          <l>¡ay adorada Pepita,</l>
+          <l>ahora sé por experiencia</l>
+          <l>que el afecto con que te amo</l>
+          <l>es consecuente con la pena</l>
+          <l>que experimento al oiros!</l>
+          <pb n="64"/>
+          <l>¡Yo perderos, dulce Pepa!</l>
+          <l>¡Yo veros en otros brazos!</l>
+          <l>Antes la parca severa</l>
+          <l>con su cortante guadaña</l>
+          <l>siegue mi vida, que vea</l>
+          <l>a mi idolatrado hechizo</l>
+          <l>con otro dueño. Qué esperas</l>
+          <l>¡oh, muerte!, da a un infeliz</l>
+          <l>el golpe fatal y sea</l>
+          <l>testigo del sacrificio</l>
+          <l>mi siempre adorada prenda.</l>
+          <stage><emph>(Hace como que desfallece).</emph></stage>
+          <l>Pero yo… yo… si ya… o dolor</l>
+          <l>el pecho apenas alienta,</l>
+          <l>adiós mi dulce embeleso</l>
+          <l>que la lengua titubea,</l>
+          <l>el corazón desfallece,</l>
+          <l>mi sangre es hielo en las venas</l>
+          <l>y en breve verás cadáver</l>
+          <l>mi desgraciada existencia.</l>
+        </sp>
+        <stage><emph> Cae abatido a los pies de Doña Pepita, que levantándose al instante por un
+            poco de agua, le echa al rostro y le dice:</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <stage><emph>(Con turbación)</emph></stage>
+          <l>Oye, señor, dueño mío</l>
+          <l>no estoy en mí, si volviera</l>
+          <l>del letargo le diría,</l>
+          <l>pero parece que en fuerza</l>
+          <l>del baño abre los ojos,</l>
+          <l>cielos, mitigad mi pena</l>
+          <l>y estas lágrimas que siento</l>
+          <l>sobre su rostro haced sean</l>
+          <pb n="65"/>
+          <l>tan eficaces que sirvan</l>
+          <l>de mitigarle la pena</l>
+          <l>que dio causa a su deliquio.<note>Deliquio: desfallecimiento.</note></l>
+          <stage><emph>(Con admiración y alegría)</emph></stage>
+          <l>¡Gracias al cielo, ya alienta,</l>
+          <l>ya mira! ¡Oh, dueño amable!</l>
+        </sp>
+        <stage><emph>Dando un suspiro dice Don José a Doña Pepa</emph></stage>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>¡Ay, mi amadísima Pepa!</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Serénate, ten de mí</l>
+          <l>compasión, que en esta escena</l>
+          <l>si no he perdido la vida</l>
+          <l>próxima he estado a perderla</l>
+          <l>porque siendo yo tan tuya,</l>
+          <l>¿cómo es posible que viera</l>
+          <l>expirar a quien amaba</l>
+          <l>sin que también falleciera?</l>
+          <l part="I">¿Cómo os sentís?</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l part="F">Vuestra vista</l>
+          <l>Vuestra vista</l>
+          <l>mi abatido corazón.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Y al mío esperanza la vuestra.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Pero decidme señora –si es que esta especie no sea</l>
+          <l>resulta de mi deliquio–</l>
+          <l>¿no me dijiste que encuentras</l>
+          <l>un solo arbitrio que alcance</l>
+          <l>a entorpecer la violencia</l>
+          <l>de vuestro padre o me engaño?</l>
+          <pb n="66"/>
+          <l>Dilo, por si valer pueda</l>
+          <l>que el náufrago navegante</l>
+          <l>que perece en la tormenta</l>
+          <l>si por acaso columbra</l>
+          <l>o ve alguna tabla suelta</l>
+          <l>en aprieto semejante</l>
+          <l>echa la mano de ella;</l>
+          <l>y a ocasión ha valido</l>
+          <l>a infelices de que fueran</l>
+          <l>libres del triste naufragio</l>
+          <l>y a salvamento salieran.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>No fue ilusión, es verdad</l>
+          <l>me interrumpió la sorpresa</l>
+          <l>del desmayo que os tomó</l>
+          <l>pero ya libre de ella</l>
+          <l>os lo propondré por si</l>
+          <l>vos dueño mío lo apruebas.</l>
+          <l>Algunos hombres que aman</l>
+          <l>extremosamente piensan</l>
+          <l>que en todo tiempo amarán</l>
+          <l>al objeto que los prenda;</l>
+          <l>y se engañan porque luego</l>
+          <l>que éste falte la belleza,</l>
+          <l>el mismo objeto les es</l>
+          <l>repugnante y a ver llegan</l>
+          <l>quien de un extremo a otro extremo</l>
+          <l>pase con inconsecuencia.</l>
+          <l>Bien sé, que esto no es amar,</l>
+          <l>pero vamos a la treta.</l>
+          <l>Fundada en estos principios</l>
+          <l>se me ha puesto en la cabeza</l>
+          <pb n="67"/>
+          <l>que si me desfigurase</l>
+          <l>con alguna estratagema,</l>
+          <l>de suerte que monstruosa</l>
+          <l>a los ojos pareciera</l>
+          <l>de Don Florindo, al instante</l>
+          <l>haría en él la tibieza</l>
+          <l>el principio de la acción</l>
+          <l>y daría fin a ella</l>
+          <l>por el aborrecimiento,</l>
+          <l>desprecio, indiferencia.</l>
+          <l>Libre ya de un pretendiente</l>
+          <l>tan contrario a mis ideas</l>
+          <l>el paso que seguiría</l>
+          <l>sería por consecuencia</l>
+          <l>que cediendo Don Florindo</l>
+          <l>de su pretensión, por fuerza</l>
+          <l>cesaba la de mi padre</l>
+          <l>a que la mano le diera.</l>
+          <l>Y vednos aquí ya libres</l>
+          <l>de la furiosa tormenta</l>
+          <l>que a los dos nos amenaza.</l>
+          <l>Mi padre aprecia tus prendas</l>
+          <l>y si no os concedió el fiat</l>
+          <l>de mi mano, no es por tema<note><emph>Oposición caprichosa.</emph></note></l>
+          <l>sino porque en parangón</l>
+          <l>de las ingentes riquezas</l>
+          <l>de Don Florindo, no valen</l>
+          <l>cosa ninguna, ni pesan</l>
+          <l>según su pasión al oro</l>
+          <l>tu entendimiento y tus prendas.</l>
+          <pb n="68"/>
+          <l>Con que viendo ya vacante</l>
+          <l>mi mano y que conservas</l>
+          <l>voluntad invariable</l>
+          <l>hacia mí, es cosa hecha</l>
+          <l>que por su parte no habrá</l>
+          <l>embarazo que entorpezca</l>
+          <l>nuestras deseadas bodas.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Pero mi estimada Pepa,</l>
+          <l>¿y si acaso sale errado</l>
+          <l part="I">tu supuesto?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="F">Nada temas</l>
+          <l>que una mujer industriosa</l>
+          <l>si es un poquito resuelta</l>
+          <l>sabe con sagacidad</l>
+          <l>eludir la mayor fuerza.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Bien, ¡pero desfigurarte!</l>
+          <l>No véis mi adorada Pepa</l>
+          <l>que es exponerse a ser tú</l>
+          <l>homicida de ti misma.</l>
+          <l>Yo no podré permitiros</l>
+          <l>que con tan costosa prueba</l>
+          <l>hayas de darme tu mano.</l>
+          <l>No Pepa mía, no Pepa.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¡Sosiégate, que mi ardid</l>
+          <l>aunque disforme aparezca</l>
+          <l>no me hará perder un pelo,</l>
+          <l>el menor de mi cabeza!</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>¿Pues qué pretendes hacer?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Escucha la estratagema:</l>
+          <l>Primeramente a Casilda</l>
+          <pb n="69"/>
+          <l>es menester darle cuenta</l>
+          <l>de toda la maniobra</l>
+          <l>porque ayude a sostenerla.</l>
+          <l>Es una muchacha de sigilo</l>
+          <l>y no importa que lo sepa</l>
+          <l>al caso. Yo he de fingir</l>
+          <l>que entré al baño por la siesta,</l>
+          <l>supuesto lo tomo en casa,</l>
+          <l>que al salir de él una fiera</l>
+          <l>parálisis me baldó</l>
+          <l>un brazo y entrambas piernas</l>
+          <l>que me ensordeció de modo</l>
+          <l>que ni con una trompeta</l>
+          <l>puedo oír cosa ninguna,</l>
+          <l>que es necesario muletas</l>
+          <l>para que pueda tenerme</l>
+          <l>en pie, después que aparezca</l>
+          <l>convaleciente y que al fin</l>
+          <l>en virtud de mi sordera</l>
+          <l>fingida, cuando me hablen</l>
+          <l>daré siempre unas respuestas</l>
+          <l>ridículas semejante</l>
+          <l>a una sorda verdadera.</l>
+          <l>Tú, dueño mío verás</l>
+          <l>sin que verdad ello sea,</l>
+          <l>hablar dos mil disparates</l>
+          <l>a la que amas de veras.</l>
+          <l>Los demás lo sentirán;</l>
+          <l>mas qué importa, si con esta</l>
+          <l>tramoya se logra el fin</l>
+          <l>a lograr nuestras ideas</l>
+          <pb n="70"/>
+          <l>religiosas, que terminan</l>
+          <l>en que yo tu esposa sea</l>
+          <l>y tú mi esposo adorado.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Siendo de esta manera</l>
+          <l>el ardid, convengo en ello,</l>
+          <l>porque sin que tú padezcas</l>
+          <l>cosa alguna, se dispone</l>
+          <l>la más extraña comedia</l>
+          <l>que pudo idear Cervantes,</l>
+          <l>y creeré dulce Pepa</l>
+          <l>que el vaticinio que has hecho</l>
+          <l>tenga efectiva certeza.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Pues déjame maniobrar</l>
+          <l>bajo ya de la supuesta</l>
+          <l>licencia que me permites</l>
+          <l>para ahora mismo emprenderla.</l>
+          <l>Mas te encargo dueño mío</l>
+          <l>que continúe tu asistencia</l>
+          <l>en casa, como hasta aquí.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Eso me encargas, quisiera</l>
+          <l>no separarme un instante</l>
+          <l>adorada dulce prenda</l>
+          <l>de tus ojos, porque en ellos</l>
+          <l>mi vida cifrada queda.</l>
+          <l part="I">Quédate, adiós… <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="12">
+        <stage><emph>Pepa</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="F">Por dónde</l>
+          <l>empezaré esta comedia</l>
+          <pb n="71"/>
+          <l>de figurón, su tramoya.</l>
+          <l>Vaya, el primer papel sea</l>
+          <l>Casilda. Voy a llamarla</l>
+          <l>e instruirla de la arenga.</l>
+          <stage><emph>(Llama a Casilda).</emph></stage>
+          <l>¡Casilda! Ésta está sorda.</l>
+          <l>¡Casilda! Parece trueca</l>
+          <l>por el suyo mi papel.</l>
+          <l part="I">¡Casilda!...</l>
+        </sp>
+      </div>
+      <div type="scene" n="13">
+        <stage><emph>Pepa, Casilda</emph></stage>
+        <stage><emph>Sale Casilda.</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">Vengo de afuera.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l> ¿De dónde? ¿Quién te mandó?</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Mi amo, a que le dijera</l>
+          <l>al notario que el despacho</l>
+          <l>de los contratos es fuerza</l>
+          <l>se abrevie, porque ya urge</l>
+          <l>el matrimonio que intenta</l>
+          <l>contraiga Vm. esta semana</l>
+          <l>con Don Florindo Mazeda.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Está bien, ¿y qué os parece</l>
+          <l part="I">el novio?</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">A mí, señora</l>
+          <l>si me permitís licencia</l>
+          <l>os diré claritamente</l>
+          <l>que me parece un tormento,</l>
+          <l>quizá para Vm. será</l>
+          <pb n="72"/>
+          <l>alguna cosa estupenda,</l>
+          <l>porque lo entiende mejor,</l>
+          <l>mas para mí aunque sea</l>
+          <l>yo la más tonta del mundo,</l>
+          <l>no daré por su fachenda <note><emph>Fachenda: jactancia.</emph></note></l>
+          <l>un caracol y me alargo.</l>
+          <l>En fin, ¿quiere Vm. que vuelva</l>
+          <l>a traerle el chocolate?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>No, Casilda, óyeme atenta.</l>
+          <l>Bien sabéis cuánto te estimo</l>
+          <l>y la confianza entera</l>
+          <l>que hice de ti en todo tiempo;</l>
+          <l>bajo este pie, yo quisiera</l>
+          <l>que en el conflicto en que estoy</l>
+          <l>fueras tú la medianera</l>
+          <l>que me ayudase a salir</l>
+          <l part="I">de él…</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">Sea, señora, el que sea,</l>
+          <l>contad siempre con Casilda,</l>
+          <l>que por serviros dispuesta</l>
+          <l>estoy a cuanto ordenares</l>
+          <l>aunque sea entrar en guerra</l>
+          <l>campal con los doce pares</l>
+          <l>de Francia a lanza y rodela.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>En virtud de cuanto estima</l>
+          <l>mi amistad tu fina oferta</l>
+          <stage><emph>(Le da un anillo)</emph></stage>
+          <l>toma este bello diamante</l>
+          <l>y en él la más clara prueba</l>
+          <pb n="73"/>
+          <l>de cuanto os amo y sabed</l>
+          <l>que mayor premio os espera</l>
+          <l>si fielmente me ayudaras</l>
+          <l>a salir con esta empresa.</l>
+          <l>Yo aborrezco a Don Florindo,</l>
+          <l>mi padre obstinado intenta</l>
+          <l>casarme con él; me ha dicho</l>
+          <l>que si me niego indiscreta,</l>
+          <l>me ha de encerrar de por vida</l>
+          <l>en la estrechez de una celda.</l>
+          <l>Al contrario, a Don José</l>
+          <l>lo amo con tal terneza</l>
+          <l>que primero moriré</l>
+          <l>que infiel sea a la promesa</l>
+          <l>que hice de darle mi mano;</l>
+          <l>mi situación es ésta.</l>
+          <l>Yo, buscando algún arbitrio</l>
+          <l>para evadirme de esta</l>
+          <l>opresión, he discurrido</l>
+          <l>fingir con toda viveza</l>
+          <l>fingir con toda viveza</l>
+          <l>una perlesía <note><emph>Perlesía: debilidad muscular acompañada de
+              temblor.</emph></note> fiera</l>
+          <l>me baldó manos y pies,</l>
+          <l>que me insultó una sordera</l>
+          <l>tan total que nada oigo</l>
+          <l>y que sólo con muletas</l>
+          <l>podré ayudada de ti</l>
+          <l part="I">dar tal, cual paso…</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">¿Y qué intentas</l>
+          <l>hacer con tanto aparato?</l>
+        </sp>
+        <pb n="74"/>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Toma, que Don Florindo me vea</l>
+          <l>de esta suerte y que al mirarme</l>
+          <l>manca, coja y con muletas</l>
+          <l>y más sorda que una tapia,</l>
+          <l>desista de tal prebenda</l>
+          <l>y dejando el campo libre</l>
+          <l>cesen ya todas mis penas.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>¿Y qué dirá vuestro padre?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Se conformará por fuerza</l>
+          <l>con el tiempo y como sabe</l>
+          <l>que Don José tiene puesta</l>
+          <l>su voluntad en mi persona,</l>
+          <l>apelará con cautela</l>
+          <l>a complacerle, accediendo</l>
+          <l>a las bodas que por ahora niega.</l>
+          <l>Yo estoy de acuerdo con él,</l>
+          <l>y en tal caso bien de prisa</l>
+          <l>admitirá el desposorio</l>
+          <l>antes que el tiempo se pierda.</l>
+          <l>Se efectuará y después</l>
+          <l>que ya remedio no tenga</l>
+          <l>lo hecho de forma alguna,</l>
+          <l>conocerán que la fuerza</l>
+          <l>se vence con el discurso,</l>
+          <l>con el ardid y la treta.</l>
+          <l>Moveré manos y pies,</l>
+          <l>arrojaré las muletas</l>
+          <l>y oiré la voz más delgada</l>
+          <l>aunque sea a media lengua.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Bien dicen que las mujeres</l>
+          <l>cuando dan en un tema,</l>
+          <pb n="75"/>
+          <l>por imposibles que encuentren</l>
+          <l>los rompen con la cabeza.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Ahora bien, Casilda mía,</l>
+          <l>mano a la obra y ten cuenta</l>
+          <l>que tú has de ser la informanta</l>
+          <l>de todos cuantos vengan</l>
+          <l>a saber lo sucedido,</l>
+          <l>porque yo no tengo lengua</l>
+          <l>hasta que cante victoria</l>
+          <l>saliendo con esta empresa.</l>
+          <l>Yo esperaré recostada</l>
+          <l>en esta silla y tú mientras</l>
+          <l>pasa al cuarto de mi padre</l>
+          <l>y dale menuda cuenta</l>
+          <l>de todo lo acaecido.</l>
+          <l>No olvides fingir sorpresa,</l>
+          <l>espanto, lágrimas, gritos</l>
+          <l>y toda aquella salema</l>
+          <l>con que sabe alucinar</l>
+          <l>nuestro sexo cuando intenta</l>
+          <l>hacer que alguna mentira</l>
+          <l>por una verdad se tenga.</l>
+          <l>Parte, pues, no pierdas tiempo.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Va a empezar la comedia,</l>
+          <l>algún día había de hacer</l>
+          <l>papel mi persona en ésta</l>
+          <l>que se va a representar.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Ciérrame al salir la puerta.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="I">Está bien… <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+        <pb n="76"/>
+      </div>
+      <div type="scene" n="14">
+        <stage><emph>Pepa</emph></stage>
+        <stage><emph>Doña Pepa se sienta en una silla.</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="F">Haré un ensayo</l>
+          <l>a ver qué tal representa</l>
+          <l>Pepita la perlesía.</l>
+          <stage><emph>(Mueve trémula la cabeza, dejando caer los brazos sin
+            movimiento).</emph></stage>
+          <l>Alguna cosilla cuesta,</l>
+          <l>como es el primer ensayo</l>
+          <l>puede no salir completa</l>
+          <l>la ficción, más repetida</l>
+          <l>ni la mejorcita enferma</l>
+          <l>de perlesía ha de hacer</l>
+          <l>tantos mohines y gambetas</l>
+          <l>como yo, pero mi padre</l>
+          <l part="I">no tardará…</l>
+        </sp>
+        <stage><emph> Entran atropelladamente Don Diego y Casilda.</emph></stage>
+      </div>
+      <div type="scene" n="15">
+        <stage><emph>Pepa, Casilda, Diego</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l part="F">¡Hija, Pepa!</l>
+          <l>¡Ah, hija de mis entrañas!</l>
+          <l>¿Qué desgracia ha sido ésta</l>
+          <l>que me ha contado Casilda?</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>No esperes de ella respuesta</l>
+          <l>porque ese aire maligno</l>
+          <l>después de baldarle las piernas,</l>
+          <l>brazos y pescuezo,</l>
+          <pb n="77"/>
+          <l>le cerró entrambas orejas</l>
+          <l>de suerte que no oye nada.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Parte luego, haz diligencias</l>
+          <l>de un doctor, el que primero</l>
+          <l>encuentres, no te detengas.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Mientras tanto quede Vm.</l>
+          <l>en este cuarto con ella</l>
+          <l>pero no le hable palabra</l>
+          <l part="I">que es en vano.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l part="F"> Marcha a priesa.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Como un trueno.</l>
+          <l><stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="16">
+        <stage><emph>Pepa, Diego</emph></stage>
+        <stage><emph> Paseándose, dice Don Diego.</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>¡Válgame Dios qué tragedia</l>
+          <l>tan terrible y en qué caso</l>
+          <l>y circunstancia! Siquiera</l>
+          <l>esta fatal perlesía</l>
+          <l>nos hubiera dado tregua</l>
+          <l>de efectuarse las bodas,</l>
+          <l>al fin, lo de menos fuera</l>
+          <l>la maldita parálisis,</l>
+          <l>pues Don Florindo sufriera</l>
+          <l>de buena o mala gana</l>
+          <l>este accidente, y la Pepa</l>
+          <l>dotada ya por su padre</l>
+          <l>aunque baldada, era dueña</l>
+          <pb n="78"/>
+          <l>de un saneado caudal.</l>
+          <l>Pero ahora cuando vea</l>
+          <l>una mujer hecha un tronco</l>
+          <l>y que sólo con muletas</l>
+          <l>podrá dar algunos pasos,</l>
+          <l>sorda y de por vida enferma,</l>
+          <l>decidirá, ya se ve,</l>
+          <l>los conciertos. <note><emph> Conciertos: convenidos</emph></note> Ya no queda</l>
+          <l>recurso para apremiar</l>
+          <l>a Don Florindo; aquí es ella.</l>
+          <l>Yo he desdeñado imprudente</l>
+          <l>a un mozo de tantas prendas</l>
+          <l>como a Don José de Aranda,</l>
+          <l>por pillarle las talegas</l>
+          <l>a Don Florindo y ahora</l>
+          <l>sin que remediarlo pueda</l>
+          <l>perdí rosín y manzanas.</l>
+          <l>¡Oh, si prevenirse pudieran</l>
+          <l>los futuros contingentes,</l>
+          <l>cómo de otra manera</l>
+          <l>procediéramos los hombres!</l>
+          <l>Al fin paciencia y con ella</l>
+          <l>veremos a Don José</l>
+          <l>que aunque no ignoro que es fuerza</l>
+          <l>de razón el mucho amor</l>
+          <l>que siempre tuvo a la Pepa,</l>
+          <l>puede ser que le haga entrar</l>
+          <l>en el partido. La puerta</l>
+          <l>oigo sonar. La Casilda</l>
+          <l part="I">es sin duda…</l>
+        </sp>
+        <pb n="79"/>
+      </div>
+      <div type="scene" n="17">
+        <stage><emph>Dichos, Casilda</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">A la carrera</l>
+          <l>partí y a medio camino</l>
+          <l>encontré al Doctor Vrisuela;</l>
+          <l>le impuse del accidente</l>
+          <l>con la mayor prudencia</l>
+          <l>del origen, los progresos,</l>
+          <l>síntomas y demás señales</l>
+          <l>de la enfermedad y me dijo</l>
+          <l>que era inútil la asistencia</l>
+          <l>de ningún facultativo</l>
+          <l>para un mal que desespera</l>
+          <l>a todos cuantos doctores</l>
+          <l>tiene la universidad entera;</l>
+          <l>y se burla de purgantes, píldoras,</l>
+          <l>aguas, recetas y de cuanto</l>
+          <l>en sí toda la farmacopea;</l>
+          <l>y al despedirme me dijo:</l>
+          <l>que si le hacían a la enferma</l>
+          <l>el menor medicamento,</l>
+          <l>al punto el hoyo le abrieran.</l>
+          <l>Con que según este fallo</l>
+          <l>mejor será señor verla</l>
+          <l>hecha un tronco que no darla</l>
+          <l>cosa con que luego muera.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Yo me conformo Casilda</l>
+          <l>respecto la diligencia</l>
+          <l>que vienes de practicar,</l>
+          <l>con que sólo se le atienda</l>
+          <l>a su persona y alivio,</l>
+          <pb n="80"/>
+          <l>lo demás tenga paciencia</l>
+          <l>y tengámosla nosotros,</l>
+          <l>pues el cielo así lo ordena,</l>
+          <l>pregúntale tú Casilda</l>
+          <l>cómo se siente, que apenas</l>
+          <l>tengo valor de mirarla.</l>
+        </sp>
+        <stage><emph>Casilda le grita al oído.</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Señorita, óigame atenta.</l>
+          <l>¿Cómo se siente de males?</l>
+          <l>¿Me conoce? Si está lela.</l>
+          <stage><emph>Doña Pepa menea la cabeza así a todas partes como fatua. A
+            gritos:</emph></stage>
+          <l>Tenga mucha confianza</l>
+          <l>en una santa que apenas</l>
+          <l>hay quien no sea su devoto,</l>
+          <l>por lo que se experimenta</l>
+          <l>de prodigios concedidos</l>
+          <l>a los que a ella se encomiendan.</l>
+          <l>Diga con el corazón</l>
+          <l>sino puede con la lengua</l>
+          <l>¡Santa Freta [sic] de mi vida</l>
+          <l>líbrame de esta tragedia!</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¡Qué sé yo del molinillo!</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>¡Válgame Dios, qué sordera!</l>
+          <stage><emph>(Gritando)</emph></stage>
+          <l>¿No quiere tomar un caldo,</l>
+          <l part="I">señorita?...</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="F">En la alacena</l>
+          <l>me parece que lo vi.</l>
+        </sp>
+        <pb n="81"/>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>¿Quiere que le ponga vela</l>
+          <l>a esa Santa que le dije?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Unas tres o cuatro presas</l>
+          <l>no más, pero sin ají.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>No vi jamás tal sordera,</l>
+          <l>enteramente ha perdido</l>
+          <l>el oído. Si quisiera…</l>
+          <l>pero yo le propondré</l>
+          <l>a ver si a mí me contesta.</l>
+          <l>¿Pepa no quieres tomar</l>
+          <l>sopa en vino con pimienta,</l>
+          <l>que es contra la mala hora?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¿Que me pelen la cabeza?</l>
+          <l>Ni pensarlo, si este mal es</l>
+          <l>en los brazos y piernas.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>No digo esto, sino</l>
+          <l>que antes de comer las presas</l>
+          <l>tomes una sopa en vino.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¿Don Rufino? ¿El hijo de Doña Elena?</l>
+          <l>¿Y qué quiere?</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Esto es en vano, Casilda.</l>
+          <stage><emph>Se acerca a Casilda y le dice al oído.</emph></stage>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Dice que aunque sea a fuerza</l>
+          <l>procure tomar en vino</l>
+          <l>cuatro adarmes de pimienta</l>
+          <l part="I">oriental…</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="F">¡Qué desatino!</l>
+          <l>¿Pañal y estando yo enferma</l>
+          <l>de puro frío? Es matarme.</l>
+        </sp>
+        <pb n="82"/>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Es perdida diligencia</l>
+          <l>el hablarle, a nadie oye.</l>
+          <l>Dale Casilda las presas</l>
+          <l>de gallina que pidió.</l>
+          <stage><emph>Tocan la puerta.</emph></stage>
+          <l>Pero antes mira la puerta</l>
+          <l part="I">que están tocando.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda</speaker>
+          <l part="F"> Allá voy… <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="18">
+        <stage><emph>Pepa, Diego</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Es menester darle cuenta</l>
+          <l>a Don Florindo del caso,</l>
+          <l>¿pero qué dirá? ¿Qué fuera?</l>
+          <l>Pero no, mejor será…</l>
+        </sp>
+        <stage><emph>Sale Casilda.</emph></stage>
+      </div>
+      <div type="scene" n="19">
+        <stage><emph>Dichos, Casilda</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Ya sube por la escalera</l>
+          <l>Don Florindo a ver a Vm.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Dile que pase a esta pieza</l>
+          <l>en que estoy y que dispense.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l><stage><emph>(Aparte).</emph></stage></l>
+          <l>Estamos según mis cuentas</l>
+          <l>en la segunda jornada</l>
+          <l>de esta graciosa comedia. <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+        <stage><emph>Entra otra vez con Don Florindo</emph></stage>
+        <pb n="83"/>
+      </div>
+      <div type="scene" n="20">
+        <stage><emph>Dichos, Florindo</emph></stage>
+        <sp who="#don-florindo">
+          <speaker>Florindo:</speaker>
+          <l> Le vôtre servant monsieur.</l>
+          <stage><emph>Don Diego se levanta con muchos cumplimientos y le arrima una silla cerca de
+              la de la enferma.</emph></stage>
+          <l>Servitor Madamucela,</l>
+          <l>ayer pasé a ver a Vm.</l>
+          <l>y me dijo la Pucela</l>
+          <l>que aún estaba recogida.</l>
+        </sp>
+        <stage><emph>Doña Pepa le hace contencias con la cabeza y sigue de la misma suerte mientras
+            está Don Florindo.</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Sí, señor, y después de esa</l>
+          <l>visita se entró en el baño</l>
+          <l>con robustez, sana y buena</l>
+          <l>y al salir de él, un mal aire</l>
+          <l>que llaman gota serena,</l>
+          <l>la insultó dejándola</l>
+          <l>sin uso en brazos ni piernas,</l>
+          <stage><emph>Mientras Don Diego le está haciendo esta relación a Don Florindo, estará éste
+              con admiración mirando a Doña Pepa de pies a cabeza.</emph></stage>
+          <l>y tan falta del oído</l>
+          <l>que a ninguno nos contesta.</l>
+          <l>Se le consultó al momento</l>
+          <l>al Licenciado Vrisuela,</l>
+          <l>que es uno de los mejores</l>
+          <l>profesores y se cierra</l>
+          <l>en que toda medicina</l>
+          <l>le es muy nociva a la enferma</l>
+          <pb n="84"/>
+          <l>por la complicancia que traen</l>
+          <l>con la tal gota serena,</l>
+          <l>la multitud de accidentes</l>
+          <l>que le son por consecuencia</l>
+          <l>sociables. Yo no he podido</l>
+          <l part="I">pasar allá…</l>
+        </sp>
+        <sp who="#don-florindo">
+          <speaker>Florindo:</speaker>
+          <l part="F">¡Qué simpleza!,</l>
+          <l>cuando en estas circunstancias</l>
+          <l>es precisa su asistencia</l>
+          <l>a Madama...</l>
+          <stage><emph>(Hablando a Pepita)</emph></stage>
+          <l>¿Con qué, y pues</l>
+          <l>vea el diablo cómo enreda</l>
+          <l>las cosas, y yo venía</l>
+          <l>a consultarla qué piezas</l>
+          <l>de cintas se necesitan</l>
+          <l>para la cucarda nueva</l>
+          <l>que se ha inventado en París.</l>
+          <l>¿No la ha visto Vm. mi Pepa?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¿La jaqueca? No señor</l>
+          <l>si es otra, arrastro las piernas</l>
+          <l>tengo los brazos baldados</l>
+          <l>y apenas con las muletas</l>
+          <l>apoyándome en Casilda</l>
+          <l>podré dar un par de vueltas.</l>
+        </sp>
+        <sp who="#don-florindo">
+          <speaker>Florindo:</speaker>
+          <l>No ha entendido una palabra.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Casilda, en la misma oreja</l>
+          <l>grítale que Don Florindo</l>
+          <l>trata de una escarapela</l>
+          <l>que se ha inventado en París</l>
+          <pb n="85"/>
+          <l>y quiere saber de ella</l>
+          <l>según él le dé el diseño,</l>
+          <l>¿si bastarán nueve piezas</l>
+          <l>de cinta negra de hule</l>
+          <l>o serán menester treinta?</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>¿Y si yo me desgañito?</l>
+          <l>pues ya me faltan las fuerzas</l>
+          <l>para gritar, que no soy</l>
+          <l>clarinete ni trompeta</l>
+          <l>para estar siempre en un tono</l>
+          <l>de contrapunto. Está buena</l>
+          <l>la conveniencia del día.</l>
+          <l>Contemple Vm. la prebenda</l>
+          <l>que me ha causado. ¡Ay, es nada</l>
+          <l>yo era ayer sólo llavera</l>
+          <l>y por mis grandes pecados</l>
+          <l>he ascendido a trompetera!</l>
+          <stage><emph>(Le habla fuertemente en el oído).</emph></stage>
+          <l>Allá voy, lo que le dijo</l>
+          <l>Don Florindo, es acerca</l>
+          <l>de un moño para el sombrero</l>
+          <l>de estos a modo de cresta.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¿A la siesta? Sí, señor,</l>
+          <l>esa misma hora era</l>
+          <l>cuando yo salí del baño.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Lo ve Vm. para que crea</l>
+          <l>que pues a mí no me oye</l>
+          <l>no oirá a un cañón de a cuarenta.</l>
+        </sp>
+        <sp who="#don-florindo">
+          <speaker>Florindo:</speaker>
+          <l>En efecto, desconfío</l>
+          <l>que ya en su vida oír pueda.</l>
+          <pb n="86"/>
+          <l>En fin, abrirá los ojos</l>
+          <l>y sale la misma cuenta.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Amigo, estas cosas son</l>
+          <l>para nuestra inteligencia</l>
+          <l>una pura obscuridad,</l>
+          <l>pero pues el cielo ordena</l>
+          <l>este golpe para entrambos,</l>
+          <l>los dos tengamos paciencia.</l>
+        </sp>
+        <sp who="#don-florindo">
+          <speaker>Florindo:</speaker>
+          <l>¿Paciencia? Los capuchinos</l>
+          <l>que la tengan en enhorabuena.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Pero Vm. y yo tenemos</l>
+          <l>que conformarnos por fuerza</l>
+          <l>o de grado, según fuere</l>
+          <l part="I">nuestra virtud.</l>
+        </sp>
+        <sp who="#don-florindo">
+          <speaker>Florindo:</speaker>
+          <l part="F">Vm. entienda</l>
+          <l>que si lo dice por mí</l>
+          <l>no se aflija, Doña Pepa</l>
+          <l>es muchacha y con el tiempo</l>
+          <l>puede mudar de sistema</l>
+          <l>la perlesía y entonces</l>
+          <l>se casará enhorabuena.</l>
+          <l>Porque por ahora, amigo,</l>
+          <l>está hecha una muñeca</l>
+          <l>de movimiento. Tratamos</l>
+          <l>es verdad de que ella fuera</l>
+          <l>mi costilla, en atención</l>
+          <l>a que no había sordera,</l>
+          <l>temblor de pies, ni de manos,</l>
+          <l>que no andaba con muletas,</l>
+          <l>y en fin, que era una mujer</l>
+          <pb n="87"/>
+          <l>sana, robusta y completa</l>
+          <l>como las demás mujeres</l>
+          <l>a quien no da pataleta.</l>
+          <l>Nada de eso hay al presente,</l>
+          <l>con que en esta inteligencia</l>
+          <l>clarito, sin fruncimientos,</l>
+          <l>mentiras ni estratagema,</l>
+          <l>que muy buena prole haga</l>
+          <l>al que enamorarse quiera</l>
+          <l>de ella, que yo por mi parte</l>
+          <l>le cedo la preferencia.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Es verdad; pero el amor</l>
+          <l>anterior, ¿no le hace fuerza</l>
+          <l>a un hombre que la amó tierno?</l>
+        </sp>
+        <sp who="#don-florindo">
+          <speaker>Florindo:</speaker>
+          <l>El amor tenga paciencia</l>
+          <l>que el querer no se inventó</l>
+          <l>sino para cosas buenas.</l>
+          <l>A Doña Pepa la quise</l>
+          <l>por su garabato y prendas,</l>
+          <l>si éstas ya se le acabaron,</l>
+          <l>es preciso que con ellas</l>
+          <l>se haya acabado mi amor</l>
+          <l>y le eche un réquiem eternam.</l>
+          <l>¿Qué hay de particular</l>
+          <l>en que yo ya no la quiera?</l>
+          <l>El amor se va y se viene</l>
+          <l>a manera de veleta,</l>
+          <l>si a las cuatro apunta al norte</l>
+          <l>a las cinco da la vuelta</l>
+          <l>y se encara para el sur</l>
+          <l>tan fija como antes era;</l>
+          <pb n="88"/>
+          <l>esto no debe extrañarle</l>
+          <l>es preciso que así sea,</l>
+          <l>porque como tiene alas</l>
+          <l>a dos por tres ya se vuela.</l>
+          <l>Yo no hablo de memoria,</l>
+          <l>varias historias nos cuentan</l>
+          <l>que por quita allá esas pajas</l>
+          <l>los que antes amantes eran –como no es esclavitud</l>
+          <l>esto de amar a las hembras</l>
+          <l>por tiempo determinado–</l>
+          <l>sacaron el cuerpo afuera.</l>
+          <l>Y mire Vm. es conveniente</l>
+          <l>esta mudanza, pues fuera</l>
+          <l>un Diocleciano martirio</l>
+          <l>querer una cosa misma</l>
+          <l>hoy, mañana y pasado.</l>
+          <l>No, señor, ropita nueva,</l>
+          <l>que lo demás es estar</l>
+          <l>como forzado en galeras.</l>
+          <l>Ya Vm. ve que yo me fundo</l>
+          <l>y no hablo de paporreta <note><emph>Paporreta: paparrucha.</emph></note></l>
+          <l>sino con citas de historias</l>
+          <l>muy recientes y modernas.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¿Casilda hablan de sangrarme?</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <stage><emph>(Al oído)</emph></stage>
+          <l>No, señora, es de veletas.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa</speaker>
+          <l>¿Por cima de las calcetas?</l>
+          <pb n="89"/>
+          <l>No quiero, mas que lo mande</l>
+          <l>Hipócrates o Avicena.</l>
+        </sp>
+        <sp who="#don-florindo">
+          <speaker>Florindo:</speaker>
+          <l>Ya escampa y llueven pepinos.</l>
+          <l>Amigo Don Diego, fuera</l>
+          <l>estoy de lo contratado,</l>
+          <l>quédese Vm. con su Pepa</l>
+          <l>que yo me iré muy contento</l>
+          <l>a ver si mi suerte encuentra</l>
+          <l>una Teodora, Juliana,</l>
+          <l>Mónica, Rita o Lorenza,</l>
+          <l>que no sea de adición,</l>
+          <l>con las orejas abiertas,</l>
+          <l>de piernas y brazos sana,</l>
+          <l>que no es fuerza sea Pepa.</l>
+          <l>Abur, Don Diego y mandar</l>
+          <l>Pepitona a la obediencia. <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="21">
+        <stage><emph>Pepa, Casilda, Diego</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>¡Oh, qué tarde he conocido</l>
+          <l>a este estafermo <note><emph> Estafermo: monigote.</emph></note> tronera!
+                <note><emph>Tronera: persona desbaratada.</emph></note></l>
+          <l>Porque aunque tiene razón</l>
+          <l>de excusarse, bien pudiera</l>
+          <l>con discreción y modales</l>
+          <l>políticos dar espera</l>
+          <l>a su repulsa hasta que</l>
+          <l>tranquilizado me viera.</l>
+          <l>En fin, vamos al remedio</l>
+          <pb n="90"/>
+          <l>salga pato o gallareta,</l>
+          <l>iré a ver a Don José</l>
+          <l>y le ofreceré a la Pepa</l>
+          <l>en matrimonio, él la quiso</l>
+          <l>en todo tiempo y pudiera</l>
+          <l>si su amor fue verdadero</l>
+          <l>admitirla aunque la vea</l>
+          <l>tan enferma y mal parada.</l>
+          <l>Él ignora la tragedia</l>
+          <l>que ha sucedido, porque</l>
+          <l>hace tres días que no llega</l>
+          <l>a casa; cuando la mire</l>
+          <l>y llegue a saberla lela</l>
+          <l>y asimplada que la [ha] puesto</l>
+          <l>la perlesía, ya es fuerza</l>
+          <l>que no le haga cara buena</l>
+          <l>a una propuesta que lleva</l>
+          <l>todo el desprecio en sí misma,</l>
+          <l>y mucho más si supiera</l>
+          <l>que el dichoso Don Florindo</l>
+          <l>por mueble inútil la deja.</l>
+          <l>En fin, la ventura ha sido</l>
+          <l>hija de la diligencia</l>
+          <l>en todo tiempo, allá voy</l>
+          <l>a buscarle, pues la Pepa</l>
+          <l>si pierde esta coyuntura</l>
+          <l>se quedó siempre soltera.</l>
+          <l>Casilda, sólo te encargo</l>
+          <l>no te apartes de la Pepa,</l>
+          <l>que no tardaré yo mucho. <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+        <pb n="91"/>
+      </div>
+      <div type="scene" n="22">
+        <stage><emph>Casilda, Pepa</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>¿Separarme yo de ella?</l>
+          <l>Ni un minuto. Señorita,</l>
+          <l>¿qué le parece la fiesta?</l>
+          <l>Levántese y pegue saltos</l>
+          <l>que ya está nuestra comedia</l>
+          <l>en punto de caramelo.</l>
+        </sp>
+        <stage><emph>Se levanta y hace cabriolas y dice:</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Casilda casi revienta</l>
+          <l>mi corazón de alegría,</l>
+          <l>te he de cumplir la promesa</l>
+          <l>que te hice, luego al punto</l>
+          <l>que se corra a esta comedia</l>
+          <l part="I">el telón.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">Aunque Vm. pierda</l>
+          <l>de contento y regocijo</l>
+          <l>las dos últimas potencias</l>
+          <l>del alma, por Dios señora,</l>
+          <l>déjeme a mí la primera.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>No, no me he de olvidar Casilda,</l>
+          <l>ya verás cuando yo sea</l>
+          <l>señora de mis acciones</l>
+          <l>cómo premio tus finezas.</l>
+          <l>Pero logremos el rato</l>
+          <l>que intermedia la comedia</l>
+          <l>en celebrar los pasajes</l>
+          <l>que han intervenido en ella.</l>
+          <l>¿Has visto igual mentecato</l>
+          <l part="I">que el tal Don Florindo?</l>
+        </sp>
+        <pb n="92"/>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">Lleva</l>
+          <l>tan creído el embolismo <note><emph> Embolismo: embuste.</emph></note></l>
+          <l>que si verdadero fuera</l>
+          <l>no le hubiera persuadido</l>
+          <l>mejor.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Para un calavera</l>
+          <l>como él, menos bastaba.</l>
+          <l>¿Pero has visto en mis respuestas</l>
+          <l>desatinos semejantes?</l>
+          <l>Yo me mordía la lengua</l>
+          <l>por reprimirme la risa,</l>
+          <l>y tú con esa trompeta</l>
+          <l>de tu voz me la aumentaba,</l>
+          <l>tu disimulo y fachenda</l>
+          <l>era otro nuevo motivo</l>
+          <l>de no poder contenerla,</l>
+          <l>solamente mitigaba</l>
+          <l>esta pasión la presencia</l>
+          <l>tristísima de mi padre.</l>
+          <l>El abatimiento lleva</l>
+          <l>en su frente taciturna.</l>
+          <l>Ah, pobre padre, tu Pepa</l>
+          <l>no ha dirigido esta trama</l>
+          <l>a darte la menor pena.</l>
+          <l>Si ella la urdió fue forzada</l>
+          <l>de la opresión y la fuerza,</l>
+          <l>pero presto querrá el cielo</l>
+          <l>que al verme robusta y buena</l>
+          <l>y casada con un hombre</l>
+          <pb n="93"/>
+          <l>de partidas tan selectas</l>
+          <l>como Don José, suceda</l>
+          <l>a la aflicción y el dolor,</l>
+          <l>la alegría más completa.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Buen ánimo, señorita,</l>
+          <l>que ya estamos a la puerta</l>
+          <l>o borde del tercer acto…</l>
+          <stage><emph>Tocan la puerta.</emph></stage>
+          <l>Chitón, que tocan la puerta</l>
+          <l>cada muchuelo a su olivo</l>
+          <l>siéntese que mi amo llega.</l>
+          <l><stage><emph>(Se va corriendo a abrir la puerta y vuelve).</emph></stage></l>
+          <l>Es, señorita, Don José</l>
+          <l>que llega con impaciencia</l>
+          <l>a saber de Vm. el efecto</l>
+          <l>que produjo nuestra arenga.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¿Qué esperas? Vuelve corriendo</l>
+          <l>hasta que suba con presteza.</l>
+          <l><stage><emph>(Sale y vuelve a entrar con Don José).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="23">
+        <stage>Dichos, José</stage>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Mi hechizo, mi bien, mi alma,</l>
+          <l>¿soy de vida o ya la fuerza</l>
+          <l>de mis desventuras quieren</l>
+          <l>darme una muerte violenta?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Vuelve en ti dueño querido,</l>
+          <l>tomad asiento, que es nuestra</l>
+          <l part="I">la victoria.</l>
+        </sp>
+        <pb n="94"/>
+        <sp who="#don-josé">
+          <speaker>José</speaker>
+          <l part="F"> ¿Qué me dices?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Salió la tramoya puesta</l>
+          <l>en solfa tan a lo vivo</l>
+          <l>que Don Florindo nos deja</l>
+          <l>a los dos el campo a salvo.</l>
+          <l>Produjo dos mil inepcias</l>
+          <l>en mi desprecio, mi padre</l>
+          <l>le arguyó con entereza</l>
+          <l>aunque con modo suave,</l>
+          <l>pero nada le hizo fuerza.</l>
+          <l>Se fue con una tronada,</l>
+          <l>sin despedirse siquiera</l>
+          <l>con alguna cortesía</l>
+          <l>propio de un hombre que deja</l>
+          <l>afligida a una familia.</l>
+          <l>Mi padre viendo su terca</l>
+          <l>tenacidad en reprochar</l>
+          <l>mi mano, se marchó fuera</l>
+          <l>en tu busca a proponerte</l>
+          <l>lo mismo que tú deseas;</l>
+          <l>muy desengañado ya</l>
+          <l>de que es un loco de veras</l>
+          <l>el que antes apreciaba</l>
+          <l>por un hombre de vergüenza,</l>
+          <l>probidad y distinción.</l>
+          <l>Ved si la victoria es nuestra.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Ya respiro, Pepa mía,</l>
+          <l>ya el corazón bambalea</l>
+          <l>de regocijo en el pecho.</l>
+          <l>El Iris de esta tormenta</l>
+          <pb n="95"/>
+          <l>ha sido tu discreción</l>
+          <l>en la fina estratagema</l>
+          <l>que a la violencia opusiste</l>
+          <l>haciendo fuerza a la fuerza.</l>
+          <l>¿Cómo podré yo pagarte</l>
+          <l>cuánto tu amor se desvela</l>
+          <l>en facilitar al mío</l>
+          <l>que tu corazón posea?</l>
+          <l>En fin, mi amada, no tengo</l>
+          <l>alhaja que daros pueda</l>
+          <l>de mi mayor estimación</l>
+          <l>que mi pecho en que tú reinas</l>
+          <l>con el absoluto imperio</l>
+          <l>de sentidos y potencias.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>La tramoya ha sido suya,</l>
+          <l>los meneos de cabeza,</l>
+          <l>las convulsiones, los mohines</l>
+          <l>y las graciosas respuestas.</l>
+          <l>Pero elógieme también</l>
+          <l>a mí que fui trompetera</l>
+          <l>en los dos primeros actos</l>
+          <l>de nuestra tragicomedia,</l>
+          <l>y casi desgarré sangre</l>
+          <l>con los gritos que a la oreja</l>
+          <l>llamé la atención del patio.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Quién duda que a ti se deba</l>
+          <l>la mitad de este artificio</l>
+          <l>en que sola yo no fuera</l>
+          <l>posible salir con él,</l>
+          <l>por más esfuerzos que hiciera.</l>
+          <pb n="96"/>
+          <l>¡Tú has levantado los fuelles</l>
+          <l>de este órgano y las teclas</l>
+          <l>quedaron a mi cuidado!</l>
+          <l>Con que de esta manera</l>
+          <l>en el órgano de amor…</l>
+          <l>tu has sido mi compañera.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Este reloj premiará</l>
+          <l>su sigilo y su fineza.</l>
+        </sp>
+        <stage><emph>Dale un reloj a Casilda. Casilda, viendo el reloj.</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Amén, a las nueve en punto</l>
+          <l>según veo por la muestra,</l>
+          <l>voy a dar a mi señorita</l>
+          <l>la última pataleta,</l>
+          <l>porque mi amo no tarda.</l>
+          <stage><emph>Tocan la puerta.</emph></stage>
+          <l>Miren si me erré en la cuenta</l>
+          <l>a su puesto cada uno</l>
+          <l>que voy a abrirle la puerta.<stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="14">
+        <stage><emph>Pepa, José</emph></stage>
+        <stage><emph>Se sienta Doña Pepita, aparentando su accidente y habla.</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Se sienta Doña Pepita, aparentando su accidente y habla.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Señora tened paciencia</l>
+          <l>por unos pocos instantes,</l>
+          <l>que ésta es la última escena.</l>
+        </sp>
+        <pb n="97"/>
+      </div>
+      <div type="scene" n="15">
+        <stage><emph>Dichos, Casilda, Diego</emph></stage>
+        <stage><emph> Entran Don Diego y Casilda, y Don José se levanta a
+          cumplimentarlo.</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Vengo amigo de su casa</l>
+          <l>de Vm., y vi en la puerta</l>
+          <l>al criado que me dijo</l>
+          <l>que muy poca delantera</l>
+          <l>que hubiera llevado yo</l>
+          <l>le hubiera encontrado en ella.</l>
+          <l>En fin, le dejé un recado</l>
+          <l>encargándole dijera</l>
+          <l>a Vm. que lo había buscado.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Sí, señor, entré en la iglesia</l>
+          <l>luego que salí de casa</l>
+          <l>y de ella pasé a ésta;</l>
+          <l>donde hallé la novedad</l>
+          <l>de la pesadumbre horrenda</l>
+          <l>con que está Vm. por el mal</l>
+          <l>de su hija Doña Pepa.</l>
+          <l>Yo lo siento cuanto puede</l>
+          <l>sentir quien la ama de veras,</l>
+          <l>y si estas circunstancias</l>
+          <l>mi inutilidad contempla</l>
+          <l>Vm. que puede servir</l>
+          <l>de algo, mande con certeza</l>
+          <l>que ejecutaré en su alivio</l>
+          <l>cuanto alcanzaren mis fuerzas.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>¡Ay, amigo!, mucho puede</l>
+          <l>una amistad verdadera</l>
+          <pb n="98"/>
+          <l>en los críticos instantes</l>
+          <l>en que el infortunio cerca</l>
+          <l>mi afligido corazón,</l>
+          <l>y a esta casa toda entera.</l>
+          <l>Y pues os hallo propicio</l>
+          <l>voy a hablaros con franqueza:</l>
+          <l>en peores circunstancias</l>
+          <l>no pudo venirnos esta</l>
+          <l>perlesía de Pepita.</l>
+          <l>Ella ya Vm. le ve, como muerta,</l>
+          <l>se ha baldado entrambos brazos,</l>
+          <l>se ha amortecido las piernas,</l>
+          <l>y por remate de males</l>
+          <l>le ha cogido una sordera</l>
+          <l>tan extraña que no atina</l>
+          <l>a dar completa respuesta</l>
+          <l>a nada. Yo precisado</l>
+          <l>a pasar luego a Sigüenza</l>
+          <l>en prosecución de un</l>
+          <l>mayorazgo que me heredan.</l>
+          <l>Dejar a mi hija sola</l>
+          <l>mayormente estando enferma</l>
+          <l>es tiranía inhumana,</l>
+          <l>omitir la diligencia</l>
+          <l>de mi viaje es perder</l>
+          <l>el mayorazgo y su renta.</l>
+          <l>En esta complicación</l>
+          <l>de males mi ingenio encuentra</l>
+          <l>un arbitrio solamente</l>
+          <l>que es el casar a la Pepa.</l>
+          <l>El con quién es el asunto</l>
+          <pb n="99"/>
+          <l>en tal conflicto, quisiera</l>
+          <l>consultar un sano consejo</l>
+          <l>como el de Vm. que me abriera</l>
+          <l>el camino enmarañado</l>
+          <l>que mi discurso no acierta</l>
+          <l>a encontrar, y le protesto</l>
+          <l>que aquella ingenuamente</l>
+          <l>persona que me proponga</l>
+          <l>queda desde hoy electa</l>
+          <l>por mi parte, si conviene</l>
+          <l>en darle la mano ella.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Si Vm. no lo solicita</l>
+          <l>hombre de gran conveniencia,</l>
+          <l>ya me está ocurriendo uno</l>
+          <l>que pudiera entrar en esta</l>
+          <l part="I">negociación.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l part="F">¿Y quién es?</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Es un Don José Videla,</l>
+          <l>amigo de Vm. y amante</l>
+          <l>tiempo ha de Doña Pepa.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Amigo, con alma y vida</l>
+          <l>quede aceptada su oferta,</l>
+          <l>y en señal de gratitud</l>
+          <l>por la nobleza que encierra</l>
+          <l>en sí la acción, sean mis brazos</l>
+          <l>le paga de esta fineza.</l>
+        </sp>
+        <stage><emph> Se abrazan mutuamente.</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Casilda, ¿a dónde va don José</l>
+          <l>se despide? ¿Va a otra tierra?</l>
+        </sp>
+        <pb n="100"/>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>No, señora, no se va</l>
+          <l>sino que acá se nos queda.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>A la casa de moneda</l>
+          <l>de Potosí, y tan lejos.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Ya Vm. ve la pobre Pepa</l>
+          <l>al estado que ha venido,</l>
+          <l>nada oculto a Vm. ella lleva</l>
+          <l>consigo una perlesía,</l>
+          <l>una incurable sordera,</l>
+          <l>y unas manos sin acción;</l>
+          <l>pero lleva en su cabeza</l>
+          <l>honor, probidad, cordura,</l>
+          <l>madurez, juicio y prudencia.</l>
+          <l>Éste es el presente estado</l>
+          <l>de mi infeliz hija, vea</l>
+          <l>Vm. bien si así la quiere</l>
+          <l>y se contenta con ella.</l>
+          <l>Soy ingenuo, amigo mío,</l>
+          <l>y a sujeto de sus prendas</l>
+          <l>venderle gato por liebre</l>
+          <l>más que favor fuera ofensa.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Señor Don Diego, repito</l>
+          <l>una y mil veces la oferta,</l>
+          <l>¡la quiero con el alma y vida!</l>
+          <l>Coja, sorda, manca y renga,</l>
+          <l>más que a cuantas sin lección</l>
+          <l>encierra la Europa entera.</l>
+          <l>Pero parece preciso</l>
+          <l>el consentimiento de ella,</l>
+          <l>pues la amable libertad</l>
+          <l>debe quedar siempre exenta</l>
+          <pb n="101"/>
+          <l>de la ajena voluntad</l>
+          <l>si es que las dos no se acuerdan.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Sí, amigo, ya estoy en ello.</l>
+          <l>Casilda, dile a la oreja</l>
+          <l>que si quiere a Don José</l>
+          <l>por su esposo, que él la acepta</l>
+          <l>si su voluntad recibe</l>
+          <l>con agrado esta propuesta.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>No extrañaré que ahora oiga</l>
+          <l>porque a una tapia si fuera</l>
+          <l>posible y le preguntaran</l>
+          <l>¿queréis casarte? dijera:</l>
+          <l>sí señor, cincuenta veces.</l>
+          <l>Yo hablo con experiencia</l>
+          <l>ahora lo verán: ¡señorita!</l>
+          <l><stage><emph>(Gritándole fuertemente al oído).</emph></stage></l>
+          <l>Dice mi amo que espera</l>
+          <l>saber de Vm. si le agrada</l>
+          <l>el señorito Videla</l>
+          <l>que está aquí para su esposo,</l>
+          <l>porque sólo esto se espera</l>
+          <l>para firmar los contratos</l>
+          <l>y efectuarse esta misma</l>
+          <l>noche el desposorio. ¿Es cierto?</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l part="I">Sí…</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="F">Sí, padre mío, lo acepta</l>
+          <l>con entera voluntad</l>
+          <l>vuestra hija. Enhorabuena.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>¿Qué les dije? ¿Me engañé?</l>
+          <l>¡Toma, si tendré experiencia!</l>
+        </sp>
+        <pb n="102"/>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>A la verdad, es lo primero</l>
+          <l>que con acierto contesta.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Hay días que aún los más sordos</l>
+          <l>oyen algo. La sordera</l>
+          <l>como los demás achaques</l>
+          <l>tienen sus creces y menguas.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Sin duda eso será,</l>
+          <l>ojalá que así siguiera.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Ojalá, pleito por menos</l>
+          <l>aunque tullida existiera.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Pues amigo, aquí no resta</l>
+          <l>otra cosa que ahora mismo</l>
+          <l>hacer que el notario extienda</l>
+          <l>los despachos, y esta noche</l>
+          <l>se desposen enhorabuena.</l>
+          <l>Yo pasaré incontinente</l>
+          <l>a ver a Doña Teresa</l>
+          <l>mi hermana, y a su marido</l>
+          <l>para que padrinos sean.</l>
+          <l>Y en una silla poltrona</l>
+          <l>se conducirá a la Pepa</l>
+          <l>a la Parroquia y quedamos</l>
+          <l>hoy mismo del todo fuera</l>
+          <l part="I">de cuidados.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l part="F">Pues señor,</l>
+          <l>parto con vuestra licencia</l>
+          <l>a disponer ciertas cosas</l>
+          <l>que piden mi diligencia,</l>
+          <l>y dentro de pocas horas</l>
+          <l>estaré luego de vuelta.</l>
+          <pb n="103"/>
+          <l>Esto supuesto ordenad</l>
+          <l>señor, las demás que restan</l>
+          <l>que yo quedo a vuestra orden</l>
+          <l>y a las de Madama Pepa. <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Adiós señor Don José,</l>
+          <l>no tarde Vm. en dar la vuelta.</l>
+        </sp>
+      </div>
+      <div type="scene" n="16">
+        <stage><emph>Pepa, Casilda, Diego</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>No ha sido poca fortuna</l>
+          <l>que el lance se nos viniera</l>
+          <l>a las manos tan rodado,</l>
+          <l>porque de no, queda Pepa</l>
+          <l>para tía sin remedio.</l>
+          <l>Yo me voy Casilda a estas</l>
+          <l>diligencias que has oído,</l>
+          <l>no te apartes de la Pepa</l>
+          <l>ni un instante, solamente</l>
+          <l>ponle la bata chinesca,</l>
+          <l>la gorra negra y las plumas.</l>
+          <l>Componla de tal manera</l>
+          <l>que supla la compostura</l>
+          <l>su tullimiento, y sordera.</l>
+          <l>Que todo esté preparado</l>
+          <l>para que a las siete y media</l>
+          <l>marche ella con los padrinos</l>
+          <l>a nuestra Parroquia misma</l>
+          <l>a desposarse. En seguida</l>
+          <l>vaya Pedro a la nevera</l>
+          <l>y compre para refresco</l>
+          <pb n="104"/>
+          <l>los helados de canela,</l>
+          <l>una docena de vasos,</l>
+          <l>agua de guindas, y almendras,</l>
+          <l>docena y media; bizcochos</l>
+          <l>imperiales, libra y media.</l>
+          <l part="I">¿Has entendido?</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l part="F">Ya estoy.</l>
+          <l>¿Y podrá tomar la enferma</l>
+          <l>si se le antoja algo de esto</l>
+          <l>por parvedad de materia?</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>¿Con que su achaque es de frío</l>
+          <l>y quieres que le convengan</l>
+          <l>helados? ¡Por vida mía</l>
+          <l>que no sé cómo tú piensas!</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Es que siempre oí decir</l>
+          <l>que un clavo a otro clavo llega</l>
+          <l>a sacar, y en nuestro caso</l>
+          <l>¿quién quita que sucediera?</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>No olvidéis lo que te he dicho</l>
+          <l>que me voy a toda priesa</l>
+          <l>a ver a mi hermana y cuñado,</l>
+          <l>ciérrate luego esa puerta. <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+      </div>
+      <div type="scene" n="17">
+        <stage><emph>Pepa, Casilda</emph></stage>
+        <stage><emph>Doña Pepa se levanta de la silla y dice:</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>¡Fuera de potro, Casilda</l>
+          <l>que ya no tengo paciencia</l>
+          <l>para estar representando</l>
+          <pb n="105"/>
+          <l>el papel de estarme quieta,</l>
+          <l>cuando soy, ya me conoces,</l>
+          <l>más viva que una centella!</l>
+          <l>Vaya, tráeme la bata</l>
+          <l>color de canario y venga…</l>
+          <l>pero no, mejor estoy</l>
+          <l>puntualmente con ésta</l>
+          <l>verde, es color de esperanza</l>
+          <l>y como yo estoy con ella,</l>
+          <l>quiero que el color anuncie</l>
+          <l>lo que acá en mi pecho queda.</l>
+          <l>Sácame la gorra blanca</l>
+          <l>esa sembrada de perlas,</l>
+          <l>ponle plumas encarnadas</l>
+          <l>que signifiquen que en guerra</l>
+          <l>desigual venció la industria</l>
+          <l>al poder y a la violencia.</l>
+        </sp>
+        <stage><emph>Va adentro Casilda y saca lo que pide y se lo pone en la cabeza.</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Aquí está la gorra ya.</l>
+          <l>¡Naranjas! Que estás con ella</l>
+          <l>cual general que ha ganado</l>
+          <l>una victoria completa.</l>
+          <l>El bastón no más os falta,</l>
+          <l>lo suplirá la muleta.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Tu humor te envidio, Casilda.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Nacer en Carnestolendas</l>
+          <l>como yo nací y tendréis</l>
+          <l>esa misma preeminencia.</l>
+          <stage><emph>Tocan.</emph></stage>
+          <pb n="106"/>
+          <l>La puerta tocan, al potro</l>
+          <l>señorita y yo a la oreja.</l>
+        </sp>
+      </div>
+      <div type="scene" n="18">
+        <stage><emph>Dichos, José</emph></stage>
+        <stage><emph>Va a abrir y vuelve con Don José.</emph></stage>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>¿He tardado, prenda mía?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>A la que amante os espera</l>
+          <l>cada minuto parece</l>
+          <l>que el tiempo retrocediera.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>¿Vuestro padre no ha venido</l>
+          <l>aún de la diligencia</l>
+          <l>que dijo que a practicar</l>
+          <l>se marchaba a toda priesa?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>No, pero no tardará,</l>
+          <l>fue a ver a Doña Teresa</l>
+          <l>mi tía y su marido</l>
+          <l>para que padrinos sean</l>
+          <l>de nuestras bodas.</l>
+          <l>Yo iré a ellas con muletas</l>
+          <l>pero os protesto que al punto</l>
+          <l>que desposada me vea</l>
+          <l>con vos, mi adorado dueño,</l>
+          <l>les haré ver –porque sepan</l>
+          <l>cuánto el amor sutiliza–</l>
+          <l>que a pie firme doy la vuelta.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>¿Y qué dirá vuestro padre</l>
+          <l>al encontrarse con esta</l>
+          <l>metamorfosis tan rara?</l>
+        </sp>
+        <pb n="107"/>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Aunque diga cuanto quiera</l>
+          <l>lo hecho, hecho estará.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Pues mira mi dulce Pepa</l>
+          <l>¿quieres tomar un consejo</l>
+          <l>que a u no y otro nos convenga?</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Sí, mi dueño, siendo tuyo</l>
+          <l>pronta está tu amante Pepa</l>
+          <l>a abrazar el que le diere</l>
+          <l>tu entendimiento y prudencia.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Pues bajo de ese supuesto</l>
+          <l>soy de sentir que en la escena</l>
+          <l>última de nuestras bodas</l>
+          <l>cuando casados nos vea</l>
+          <l>tu padre, cese el engaño,</l>
+          <l>intriga y hablen las veras.</l>
+          <l>La ingenuidad y sencillez</l>
+          <l>es un rasgo de nobleza</l>
+          <l>que aminora a los culpados</l>
+          <l>el delito si confiesan</l>
+          <l>humildemente la culpa,</l>
+          <l>y no necesiten la pena.</l>
+          <l>Y este proceder entiendo</l>
+          <l>que el juicio y razón lo aprueban,</l>
+          <l>cuando haga admiración</l>
+          <l>de verte sana, perfecta,</l>
+          <l>antes de satisfacerle</l>
+          <l>con las rodillas en la tierra</l>
+          <l>y con ternura decirle:</l>
+          <l>Padre mío, aquí está vuestra</l>
+          <l>hija pronta a recibir</l>
+          <pb n="108"/>
+          <l>el castigo que merezca</l>
+          <l>la industria contra la fuerza</l>
+          <l>por el engaño en que os hizo</l>
+          <l>estar. Mi culpa os es manifiesta…</l>
+          <l>Dispensame vuestra gracia</l>
+          <l>para levantarme y sea</l>
+          <l>todo paz, todo alegría,</l>
+          <l>pues que me ves sana y buena.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>El consejo es como tuyo</l>
+          <l>y en él unes con destreza</l>
+          <l>virtud, religión y honor,</l>
+          <l>verdad, candor y nobleza.</l>
+          <l>Te prometo practicarlo</l>
+          <l>sin discrepar una letra.</l>
+        </sp>
+        <stage><emph>Tocan la puerta.</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Ellos son, me voy a abrir</l>
+          <l>señorita pataleta,</l>
+          <l>que presto una buena crisis</l>
+          <l>la ha de dejar sana y buena. <stage><emph>(Vase).</emph></stage></l>
+        </sp>
+        <stage><emph>Vuelve a entrar Casilda con Don Diego, Don Jaime y Doña Teresa, padrinos de la
+            boda.</emph></stage>
+      </div>
+      <div type="scene" n="24">
+        <stage><emph> Dichos, Teresa, Diego, Jaime</emph></stage>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>¡Oh, amigo, a la obediencia</l>
+          <l>celebro la prontitud;</l>
+          <l>nos ganó Vm. la palmeta!</l>
+        </sp>
+        <sp who="#jaime #teresa">
+          <speaker>Jaime y Teresa:</speaker>
+          <l>Sobrinos dadme los brazos</l>
+          <l>recibiendo en ellos muestras</l>
+          <pb n="109"/>
+          <l>del regocijo que a entreambos</l>
+          <l>nos posee en esta fiesta.</l>
+        </sp>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l>Mi tía, siéntese aquí,</l>
+          <l>celebro verla tan buena.</l>
+        </sp>
+        <sp who="#teresa">
+          <speaker>Teresa:</speaker>
+          <l>Y yo siento el accidente</l>
+          <l>que al presente te molesta,</l>
+          <l>pero me alegra encontraros</l>
+          <l>de novia, querida Pepa.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Señores ya son las siete,</l>
+          <l>la Parroquia está tan cerca</l>
+          <l>que atravesando la calle</l>
+          <l>luego se encuentra con ella.</l>
+          <l>Vamos que estará esperando</l>
+          <l>el cura. Casilda, a Pepa</l>
+          <l>llévala tú de la mano</l>
+          <l>apoyada en la muleta,</l>
+          <l>y vayan que a breve rato</l>
+          <l>ya los contemplo de vuelta.</l>
+          <l>Yo me quedo a disponer</l>
+          <l>algunas cosas que es fuerza</l>
+          <l>preparar.</l>
+        </sp>
+        <stage><emph>Se levantan todos y salen, y Don Diego se queda paseándose y
+          dice:</emph></stage>
+      </div>
+      <div type="scene" n="25">
+        <stage><emph>Diego</emph></stage>
+        <sp who="#donDiego">
+          <l>Hoy fuera para mí el día</l>
+          <l>más feliz si yo pudiera</l>
+          <l>dar este estado a mi hija</l>
+          <pb n="110"/>
+          <l>en una salud completa.</l>
+          <l>Pero los bienes y males</l>
+          <l>de este mundo así se alternan.</l>
+          <l>¡Pobre muchacha, en la edad</l>
+          <l>más florida, cuando era</l>
+          <l>la sazón más oportuna</l>
+          <l>de disfrutar las finezas</l>
+          <l>de un hombre que la idolatra,</l>
+          <l>es cuando está casi muerta,</l>
+          <l>sin sensación en sus miembros,</l>
+          <l>sin oídos, sus potencias</l>
+          <l>perturbadas y por fin</l>
+          <l>como una estatua de piedra.</l>
+          <l>¡Si yo llegara algún día</l>
+          <l>a verla robusta y buena,</l>
+          <l>creo que perdiera el juicio</l>
+          <l>de alegría! ¿Qué no hubiera</l>
+          <l>algún remedio eficaz</l>
+          <l>aunque necesario fuera</l>
+          <l>dar por él cuanto poseo,</l>
+          <l>para que a gozar volviere</l>
+          <l>una cumplida salud?</l>
+          <l>En fin, tengamos paciencia,</l>
+          <l>que con la resignación</l>
+          <l>todo mal se sobrelleva.</l>
+          <l>Veamos mientras que vuelven</l>
+          <l>quiero ver en las gavetas</l>
+          <l>de este escritorio, las joyas</l>
+          <l>de diamantes que conserva</l>
+          <l>mi amor, de su buena madre</l>
+          <l>para feriarla con ellas</l>
+          <pb n="111"/>
+          <l>después de los desposorios.</l>
+          <l>Aquí están: A ver…</l>
+          <l>Sí... las mismas:</l>
+          <l>broche, collar, zarcillos.</l>
+          <l>¿Pero dónde están las perlas</l>
+          <l>que no las encuentro aquí?</l>
+          <l>Vedlas, allí están, ponerlas</l>
+          <l>quiero en el bolsillo,</l>
+          <l>gócelas muy enhorabuena.</l>
+          <l>Se las daré cuanto entre</l>
+          <l>y mi bendición obtenga.</l>
+          <stage><emph>Ruido de gritos.</emph></stage>
+          <l>¿Pero quién grita, qué es esto? <stage><emph>(Asoma a la puerta).</emph></stage></l>
+        </sp>
+        <stage><emph>Casilda entra a gritos y llena de gozo dice:</emph></stage>
+      </div>
+      <div type="scene" n="26">
+        <stage><emph>Casilda, Diego</emph></stage>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Señor, las noticias buenas</l>
+          <l>que os traigo piden albricias</l>
+          <l>de buen tamaño. Está buena</l>
+          <l part="I">y sana mi señorita…</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l part="F">¿Qué dices</l>
+          <l>mujer, es cierta</l>
+          <l>la noticia? ¿O tú te burlas?</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Es en realidad tan cierta</l>
+          <l>como que en breves minutos</l>
+          <l>la veréis entrar tan buena</l>
+          <l>como antes de su accidente.</l>
+          <pb n="112"/>
+          <l>Ya se acabó la sordera,</l>
+          <l>ya viene por su pie firme</l>
+          <l>sin apoyo ni muletas,</l>
+          <l>todos quedaron pasmados</l>
+          <l>sin saber de qué dependa</l>
+          <l>novedad tan repentina,</l>
+          <l>pero ella es tan cierta</l>
+          <l>como lo es que hay milagros.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <stage><emph>(Saca de la faltriquera y le da).</emph></stage>
+          <l>Toma en albricias de esta</l>
+          <l>novedad tan oportuna</l>
+          <l>esta mirilla de perlas,</l>
+          <l>y quédate que me voy</l>
+          <l>corriendo yo mismo a verla. <stage><emph>(Va a salir).</emph></stage></l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>¿Para qué? Si ved ahí suben</l>
+          <l>de prisa por la escalera</l>
+          <l>vedlos ahí.</l>
+        </sp>
+        <stage><emph>Entran todos con regocijo haciendo contencias a Don Diego, y Doña Pepa se
+            arrodilla a los pies de su padre.</emph></stage>
+      </div>
+      <div type="scene" n="27">
+        <stage><emph>Dichos, Pepa, Teresa, José, Jaime</emph></stage>
+        <sp who="#donaPepa">
+          <speaker>Pepa:</speaker>
+          <l part="F">Padre mío</l>
+          <l>aquí está vuestra hija llena</l>
+          <l>de la mayor confusión</l>
+          <l>a vuestros pies, por clemencia</l>
+          <l>perdonad si os engañé</l>
+          <l>aparentándome enferma</l>
+          <l>de perlesía, que en esto</l>
+          <pb n="113"/>
+          <l>os protesto, no hubo mengua</l>
+          <l>del filial amor que os debo,</l>
+          <l>ni del respeto que a vuestra</l>
+          <l>autoridad corresponde.</l>
+          <l>Fue sólo buscar aquella</l>
+          <l>libertad que los mortales</l>
+          <l>en tan sumo agrado aprecian,</l>
+          <l>y pues me veis empleada</l>
+          <l>con tan digno esposo, buena</l>
+          <l>y sana como antes,</l>
+          <l>dadme los brazos y sea</l>
+          <l>esta boda celebrada</l>
+          <l>con paz, regocijo y fiesta.</l>
+        </sp>
+        <sp who="#donDiego">
+          <speaker>Diego:</speaker>
+          <l>Tenéis derecho a mis brazos</l>
+          <l>hija mía, por la seria</l>
+          <l>confesión que de tu culpa</l>
+          <l>haces hoy a mi presencia.</l>
+          <l>Yo te perdono el ardid</l>
+          <l>que opusistes a mi terca</l>
+          <l>oposición y el cuidado</l>
+          <l>que me debió tu dolencia.</l>
+          <l>Recibe mi bendición</l>
+          <l>paternal, y que por en señas</l>
+          <l>de que te la doy con gusto</l>
+          <l>del todo estés satisfecha,</l>
+          <l><stage><emph>(Le da unas joyas)</emph></stage></l>
+          <l>toma esas joyas y haced</l>
+          <l>de ellas el uso que quieras.</l>
+        </sp>
+        <sp who="#jaime">
+          <speaker>Jaime:</speaker>
+          <l>Nunca quedó más airosa</l>
+          <l>vuestra paternal clemencia</l>
+          <pb n="114"/>
+          <l>que perdonando un defecto</l>
+          <l>que la sencillez confiesa</l>
+          <l>con tanta ingenuidad.</l>
+        </sp>
+        <sp who="#teresa">
+          <speaker>Teresa:</speaker>
+          <l>Hermano, goza a la Pepa</l>
+          <l>y a su esposo tantos años</l>
+          <l>cuantos tu hermana desea.</l>
+        </sp>
+        <sp who="#don-josé">
+          <speaker>José:</speaker>
+          <l>Y yo señor, os suplico</l>
+          <l>para daros justa prueba</l>
+          <l>de mi gratitud, adoptéis</l>
+          <l>un hijo que en todo tiempo</l>
+          <l>estará a vuestra obediencia.</l>
+        </sp>
+        <sp who="#casilda">
+          <speaker>Casilda:</speaker>
+          <l>Y por fin, dice Casilda</l>
+          <l>a todos, vivan con cuenta.</l>
+          <l>Nadie fie del poder,</l>
+          <l>la autoridad y la violencia,</l>
+          <l>porque en el caso presente</l>
+          <l>según el drama nos muestra</l>
+          <l>ya Vms. ven que no vale</l>
+          <l>contra la industria la fuerza.</l>
+        </sp>
+        <stage><emph>Fin</emph></stage>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

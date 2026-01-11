@@ -120,7 +120,7 @@
     </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ar000014"
-        passive="https://www.wikidata.org/entity/Q136326659"/>
+        passive="http://www.wikidata.org/entity/Q136326659"/>
       <relation name="teatrar" active="https://dracor.org/entity/ar000014"
         passive="https://hdlab.space/teatrar/obras/0021.html"/>
     </listRelation>
