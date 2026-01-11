@@ -110,7 +110,7 @@
   </teiHeader>
   <standOff>
     <listEvent>
-      <event type="written" when="1806" notBefore="1805" notAfter="1806">
+      <event type="written" notBefore="1805" notAfter="1806">
         <desc/>
       </event>
     </listEvent>

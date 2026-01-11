@@ -114,7 +114,7 @@
   </teiHeader>
   <standOff>
     <listEvent>
-      <event type="premiere" when="1806" notBefore="1804" notAfter="1806">
+      <event type="premiere" notBefore="1804" notAfter="1806">
         <desc/>
       </event>
     </listEvent>
