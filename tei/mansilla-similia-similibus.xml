@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000001" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000001" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -654,7 +654,7 @@
               dejarla crecer, y dentro de media hora me tienes á tu disposicion. Si encontramos lo
               que busco, estamos salvados. Felizmente, tengo aquí mi caja. <stage><emph>(Se toca el
                   bolsillo)</emph></stage>
-              <foreign xml:lang="lat">Similia</foreign> . . . .</p>
+              <foreign xml:lang="la">Similia</foreign> . . . .</p>
           </sp>
           <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
@@ -1016,7 +1016,7 @@
                   <stage><emph>(Enseñándole una fotografía)</emph></stage> No había sino estas
               Aspasias más o ménos escotadas. <stage><emph>(Fijándose en Mauricio)</emph></stage>
               ¿Pero qué tienes? ¡Qué cara tan fúnebre! Qué te acongoja? He tratado á toda prisa, es
-              cierto, de dar á la fisonomía de esta <foreign xml:lang="eng"><emph>bull-dog</emph></foreign>, con cabellos de oro, una expresión presentable,
+              cierto, de dar á la fisonomía de esta <foreign xml:lang="en"><emph>bull-dog</emph></foreign>, con cabellos de oro, una expresión presentable,
               algo de . . . . y ¡qué diantre! no lo he conseguido. Pero la cosa no es fácil, y
               desafío hasta al mismo Correggio. <stage><emph>(Enseñándole la
                 fotografía)</emph></stage> ¿Qué te parece? <stage><emph>(Toma un pincel que sacara
@@ -1084,13 +1084,13 @@
               ¡Qué mamarracho, Dios mío! qué mamarracho! <stage><emph>(Tirando el
                 pincel)</emph></stage> Tales originales son desesperantes, y no llegaré nunca á nada
               de verosímil con estas modernas Circes. <stage><emph>(Al público)</emph></stage> Vean
-              Vds. Mi plan es racional y basado puramente en el gran principio homeopático <foreign xml:lang="lat"><emph>Similia similibus curantur</emph></foreign>, o lo que es lo
+              Vds. Mi plan es racional y basado puramente en el gran principio homeopático <foreign xml:lang="la"><emph>Similia similibus curantur</emph></foreign>, o lo que es lo
               mismo <emph>un claro saca á otro claro</emph>. Quería curar el mal por el mal. Hacer
               creer á esta loquilla, que ese retrato, es decir, el retrato que hubiera podido tener,
               pero que no tengo, era la propia imagen de aquella que Mauricio ama y de quien es
               adorado con todas las potencias de su alma. Esta es mi idea. Mauricio, enamorado de
               otra mujer, se convierte por el hecho mismo, á los ojos de Luisa en hombre posible, en
-              un hombre amable con o sin <foreign xml:lang="fra"><emph>calembourg</emph></foreign>;
+              un hombre amable con o sin <foreign xml:lang="fr"><emph>calembourg</emph></foreign>;
               en un hombre que puede ser amado, que debe ser amado, por todas las mujeres, porque
               jóvenes o viejas no aman ni amarán nunca sino á aquel que creen que otras aman; á lo
               ménos, esta es mi valiente experiencia. Y á tener tiempo, pudiera probar á Vds. que la
@@ -1714,7 +1714,7 @@
           <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, al público.</emph></stage>
-            <p>¿Señores, tenía yo razón? Es indudable: <foreign xml:lang="lat"><emph>Similia
+            <p>¿Señores, tenía yo razón? Es indudable: <foreign xml:lang="la"><emph>Similia
                   similibus, curantur.</emph></foreign></p>
           </sp>
           <stage>Telón rápido</stage>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000015" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000015" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -656,7 +656,7 @@
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
-              <l><foreign xml:lang="lat">Laus Deo.</foreign></l>
+              <l><foreign xml:lang="la">Laus Deo.</foreign></l>
             </sp>
             <sp who="#vigilante1">
               <speaker>Vigilante:</speaker>
@@ -1563,7 +1563,7 @@
               <speaker>Vendedor:</speaker>
               <l>¿Cuál señor?</l>
               <l><emph>La Patria, El Porteño,</emph></l>
-              <l><emph><foreign xml:lang="eng">Standard Herald</foreign>, Correo Español.</emph></l>
+              <l><emph><foreign xml:lang="en">Standard Herald</foreign>, Correo Español.</emph></l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1579,9 +1579,9 @@
               <l>que le haga muy buen provecho.</l>
               <stage><emph>(Gritando)</emph></stage>
               <l><emph>Patria Italiana, El Censor,</emph></l>
-              <l><emph>Courrier de la Plata, <foreign xml:lang="ger">Deutsche</foreign>,</emph></l>
-              <l><emph><foreign xml:lang="ita">Roma</foreign>, <foreign xml:lang="ita">Figaro</foreign>, La Unión,</emph></l>
-              <l><emph><foreign xml:lang="ita">La Nazione</foreign>, <foreign xml:lang="ita">L´Operaio</foreign>.</emph></l>
+              <l><emph>Courrier de la Plata, <foreign xml:lang="de">Deutsche</foreign>,</emph></l>
+              <l><emph><foreign xml:lang="it">Roma</foreign>, <foreign xml:lang="it">Figaro</foreign>, La Unión,</emph></l>
+              <l><emph><foreign xml:lang="it">La Nazione</foreign>, <foreign xml:lang="it">L´Operaio</foreign>.</emph></l>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
@@ -1748,8 +1748,8 @@
               <speaker>Conde:</speaker>
               <l>No he de hablar.</l>
               <stage><emph>(Al Francés)</emph></stage>
-              <l><foreign xml:lang="fre">Monsiu pardon,</foreign></l>
-              <l><foreign xml:lang="fre">¿vous venez a les varietés?</foreign></l>
+              <l><foreign xml:lang="fr">Monsiu pardon,</foreign></l>
+              <l><foreign xml:lang="fr">¿vous venez a les varietés?</foreign></l>
             </sp>
             <sp who="#cantanteFrances">
               <speaker>Francés:</speaker>
@@ -1768,51 +1768,51 @@
             <stage><emph>Música.</emph></stage>
             <sp who="#cantanteFrances">
               <speaker>Francés:</speaker>
-              <l><foreign xml:lang="fre"><emph>Je suis parisien,</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>je chante tres bien,</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>je viens au pays</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>cherchant l´avenir.</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>Je parle l´espagnol</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>comme un rossignol</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Je suis parisien,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>je chante tres bien,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>je viens au pays</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>cherchant l´avenir.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Je parle l´espagnol</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>comme un rossignol</emph></foreign></l>
               <l>Yo digo: ¡que viva</l>
               <l>la gracia de Dios!</l>
-              <l>¡Oh! <foreign xml:lang="fre"><emph>Mon Dieu,</emph></foreign></l>
-              <l>¡Oh! <foreign xml:lang="fre"><emph>Mon Dieu,</emph></foreign></l>
+              <l>¡Oh! <foreign xml:lang="fr"><emph>Mon Dieu,</emph></foreign></l>
+              <l>¡Oh! <foreign xml:lang="fr"><emph>Mon Dieu,</emph></foreign></l>
               <l>yo mucho dinerro</l>
               <l>creo ganarré.</l>
-              <l><foreign xml:lang="fre"><emph>Par ma foi,</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>par ma foi</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>cette republique</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>convenir a moi.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Par ma foi,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>par ma foi</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>cette republique</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>convenir a moi.</emph></foreign></l>
               <l>Yo creo señores,</l>
               <l>que ustedes irrán</l>
               <l>a aplaudir los míos</l>
-              <l><foreign xml:lang="fre"><emph>couplets et can-can.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>couplets et can-can.</emph></foreign></l>
             </sp>
             <pb n="236"/>
             <sp who="#cantanteFrancesa">
               <speaker>Francesa:</speaker>
-              <l><foreign xml:lang="fre"><emph>Je suis une française</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>que fortune viens fair</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>premiére chanteuse</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>de café concert.</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>Charmante et joyeuse</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>toujours complaissante</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>jolie tapageuse</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>et rien m´epouvante.</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>Me voila,</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>me voila</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>regardez ce-ci,</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>regardez ce-la.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Je suis une française</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>que fortune viens fair</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>premiére chanteuse</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>de café concert.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Charmante et joyeuse</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>toujours complaissante</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>jolie tapageuse</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>et rien m´epouvante.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Me voila,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>me voila</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>regardez ce-ci,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>regardez ce-la.</emph></foreign></l>
               <stage><emph>(Levantándose las faldas)</emph></stage>
-              <l><foreign xml:lang="fre"><emph>Pas de maîtres,</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>pas d´amant</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>ne me fait pas peur</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>tout un regiment.</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>Devant le publique</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>je ne tremble pas</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>je brave la critique</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>en dansant comme ça.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Pas de maîtres,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>pas d´amant</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>ne me fait pas peur</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>tout un regiment.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Devant le publique</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>je ne tremble pas</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>je brave la critique</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>en dansant comme ça.</emph></foreign></l>
             </sp>
             <stage><emph>Se van bailando can-can flojito.</emph></stage>
           </div>
@@ -2807,7 +2807,7 @@
             </sp>
             <sp who="#fondero">
               <speaker>Fondero:</speaker>
-              <l><foreign xml:lang="ita"><emph>Signore non tengo questo.</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph>Signore non tengo questo.</emph></foreign></l>
             </sp>
             <sp who="#gaucho">
               <speaker>Gaucho:</speaker>
@@ -2818,7 +2818,7 @@
             </sp>
             <sp who="#fondero">
               <speaker>Fondero:</speaker>
-              <l><foreign xml:lang="ita"><emph>Volete qualqui altra cosa.</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph>Volete qualqui altra cosa.</emph></foreign></l>
             </sp>
             <stage><emph>(Trae las copas y sirve).</emph></stage>
             <sp who="#gaucho">
@@ -3624,17 +3624,17 @@
             <pb n="271"/>
             <sp who="#italianos">
               <speaker>Italianos:</speaker>
-              <l><foreign xml:lang="ita"><emph>E l´Italia il bel paese</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph>E l´Italia il bel paese</emph></foreign></l>
               <stage><emph>Tarantela.</emph></stage>
-              <l><foreign xml:lang="ita"><emph>Il piú grande che si sá</emph></foreign></l>
-              <l><foreign xml:lang="ita"><emph>nelle arti nelle istorie,</emph></foreign></l>
-              <l><foreign xml:lang="ita"><emph>nella sua maestá.</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph>Il piú grande che si sá</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph>nelle arti nelle istorie,</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph>nella sua maestá.</emph></foreign></l>
             </sp>
             <stage><emph>Bailan.</emph></stage>
             <sp who="#franceses">
               <speaker>Franceses:</speaker>
-              <l><foreign xml:lang="fre"><emph>Allons enfants de la patrie</emph></foreign></l>
-              <l><foreign xml:lang="fre"><emph>le jour de gloire est arrivé.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>Allons enfants de la patrie</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph>le jour de gloire est arrivé.</emph></foreign></l>
             </sp>
             <sp who="#coroGeneral">
               <speaker>Todos:</speaker>

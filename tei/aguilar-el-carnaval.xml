@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000019" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000019" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -994,7 +994,7 @@
             <speaker>Miguel:</speaker>
             <l>¿Y a nuestra doña Segunda</l>
             <l>acaso le falta un pelo</l>
-            <l>para ser loca <foreign xml:lang="lat">in utroque</foreign>?<note>In utroque: en
+            <l>para ser loca <foreign xml:lang="la">in utroque</foreign>?<note>In utroque: en
                 ambos. Se decía de aquellos que eran graduados en Derecho Civil y
               Canónico.</note></l>
             <l>¿Aquel continuo meneo,</l>

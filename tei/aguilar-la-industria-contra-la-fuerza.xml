@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000020" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000020" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -797,7 +797,7 @@
             <l>de la furiosa tormenta</l>
             <l>que a los dos nos amenaza.</l>
             <l>Mi padre aprecia tus prendas</l>
-            <l>y si no os concedió el <foreign xml:lang="lat">fiat</foreign></l>
+            <l>y si no os concedió el <foreign xml:lang="la">fiat</foreign></l>
             <l>de mi mano, no es por tema<note><emph>Oposición caprichosa.</emph></note></l>
             <l>sino porque en parangón</l>
             <l>de las ingentes riquezas</l>
@@ -1450,10 +1450,10 @@
           <stage><emph>Dichos, Florindo</emph></stage>
           <sp who="#donFlorindo">
             <speaker>Florindo:</speaker>
-            <l><foreign xml:lang="fra">Le vôtre servant monsieur.</foreign></l>
+            <l><foreign xml:lang="fr">Le vôtre servant monsieur.</foreign></l>
             <stage><emph>Don Diego se levanta con muchos cumplimientos y le arrima una silla cerca
                 de la de la enferma.</emph></stage>
-            <l><foreign xml:lang="ita">Servitor Madamucela,</foreign></l>
+            <l><foreign xml:lang="it">Servitor Madamucela,</foreign></l>
             <l>ayer pasé a ver a Vm.</l>
             <l>y me dijo la Pucela</l>
             <l>que aún estaba recogida.</l>
@@ -1637,7 +1637,7 @@
             <l>si éstas ya se le acabaron,</l>
             <l>es preciso que con ellas</l>
             <l>se haya acabado mi amor</l>
-            <l>y le eche un <foreign xml:lang="lat">réquiem eternam</foreign>.</l>
+            <l>y le eche un <foreign xml:lang="la">réquiem eternam</foreign>.</l>
             <l>¿Qué hay de particular</l>
             <l>en que yo ya no la quiera?</l>
             <l>El amor se va y se viene</l>
