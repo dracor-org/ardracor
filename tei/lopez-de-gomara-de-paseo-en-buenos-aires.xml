@@ -27,11 +27,9 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -40,14 +38,12 @@
           <author><forename>Justo S.</forename>
             <surname>López de Gomara</surname></author>: <title level="a">De paseo en Buenos Aires.
             Bosquejo local en dos actos y diez cuadros, en verso.</title> In:
-              <editor><surname>Seibel</surname>, <forename>Beatriz</forename></editor>. <title
-            level="m"><name>Antología de obras de teatro argentino.</name> Desde sus orígenes a la
+              <editor><surname>Seibel</surname>, <forename>Beatriz</forename></editor>. <title level="m"><name>Antología de obras de teatro argentino.</name> Desde sus orígenes a la
             actualidad.</title>
           <biblScope unit="volume">Tomo 5 (1885–1899). Obras de la Nación Moderna.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
             <date>2008</date>, pp. <biblScope unit="page" from="207" to="213">207–313</biblScope>.
-            <idno type="URL"
-            >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT5.pdf</idno>
+            <idno type="URL">https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT5.pdf</idno>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -387,10 +383,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000015"
-        passive="http://www.wikidata.org/entity/Q137675151"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000015"
-        passive="https://hdlab.space/teatrar/obras/0168.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000015" passive="http://www.wikidata.org/entity/Q137675151"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000015" passive="https://hdlab.space/teatrar/obras/0168.html"/>
     </listRelation>
   </standOff>
   <text>
@@ -1586,10 +1580,8 @@
               <stage><emph>(Gritando)</emph></stage>
               <l><emph>Patria Italiana, El Censor,</emph></l>
               <l><emph>Courrier de la Plata, <foreign xml:lang="ger">Deutsche</foreign>,</emph></l>
-              <l><emph><foreign xml:lang="ita">Roma</foreign>, <foreign xml:lang="ita"
-                    >Figaro</foreign>, La Unión,</emph></l>
-              <l><emph><foreign xml:lang="ita">La Nazione</foreign>, <foreign xml:lang="ita"
-                    >L´Operaio</foreign>.</emph></l>
+              <l><emph><foreign xml:lang="ita">Roma</foreign>, <foreign xml:lang="ita">Figaro</foreign>, La Unión,</emph></l>
+              <l><emph><foreign xml:lang="ita">La Nazione</foreign>, <foreign xml:lang="ita">L´Operaio</foreign>.</emph></l>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
@@ -2799,8 +2791,7 @@
           <stage><emph>El escenario estará dividido: a la derecha la calle en cuyo telón del fondo
               se verá en perspectiva el Paseo de Julio, el muelle de pasajeros y el Río de la Plata
               en el último plano. A la izquierda el fondín. La pared divisoria figurará al exterior
-              de soportales o recova; en el interior tendrá en primer término la puerta de <pb
-                n="255"/> entrada. Pocos y malos muebles. A la izquierda una mesita con tres
+              de soportales o recova; en el interior tendrá en primer término la puerta de <pb n="255"/> entrada. Pocos y malos muebles. A la izquierda una mesita con tres
               asientos en primer término, a la izquierda otra pasada la puerta de entrada. Los
               retratos de Garibaldi y Víctor Manuel pegados en la pared; en el fondo el mostrador y
               estantería.</emph></stage>

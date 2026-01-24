@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000014" xml:lang="spa">
   <teiHeader>
@@ -22,11 +22,9 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/en/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/en/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -38,8 +36,7 @@
           </availability>
         </bibl>
         <bibl type="originalSource">
-          <editor><forename>Mariano G.</forename><surname>Bosch</surname></editor>: <title level="a"
-            >Examen de los sainetes</title>. En: <title level="m">Teatro antiguo de Buenos Aires:
+          <editor><forename>Mariano G.</forename><surname>Bosch</surname></editor>: <title level="a">Examen de los sainetes</title>. En: <title level="m">Teatro antiguo de Buenos Aires:
             piezas del siglo XVIII, su influencia en la educación popular</title>. <pubPlace>Buenos
             Aires</pubPlace>: <publisher>Imprenta El Comercio</publisher>, <date>1904</date>,
             pp. <biblScope unit="page" from="50" to="78">50–78</biblScope>.</bibl>
@@ -119,10 +116,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000014"
-        passive="http://www.wikidata.org/entity/Q136326659"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000014"
-        passive="https://hdlab.space/teatrar/obras/0021.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000014" passive="http://www.wikidata.org/entity/Q136326659"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000014" passive="https://hdlab.space/teatrar/obras/0021.html"/>
     </listRelation>
   </standOff>
   <text>
@@ -351,8 +346,7 @@
         </sp>
         <sp who="#donCeledonio">
           <speaker>Don Celedonio</speaker>
-          <p>Eso sí, pleguete Cristo, sacúdanle bien los huesos, que los demás del lugar <pb n="54"
-            /> ninguna culpa tenemos, para privarnos á todos de Vmds. y sus conceptos. Paguen la
+          <p>Eso sí, pleguete Cristo, sacúdanle bien los huesos, que los demás del lugar <pb n="54"/> ninguna culpa tenemos, para privarnos á todos de Vmds. y sus conceptos. Paguen la
             pena los malos y alegrémonos los buenos.</p>
         </sp>
         <sp who="#poetaPrimero">
@@ -683,8 +677,7 @@
         </sp>
         <sp who="#donCeledonio">
           <speaker>Don Celedonio</speaker>
-          <p>Esto saben los maridos, fuego en los tontos y lerdos los tontos somos nosotros <pb
-              n="65"/> que tan mal los conocemos.</p>
+          <p>Esto saben los maridos, fuego en los tontos y lerdos los tontos somos nosotros <pb n="65"/> que tan mal los conocemos.</p>
         </sp>
         <stage><emph rend="italic">(Salen los Corchetes con dos Abates)</emph>.</stage>
         <sp who="#corchete">
@@ -935,8 +928,7 @@
         </sp>
         <sp who="#donCeledonio">
           <speaker>Don Celedonio</speaker>
-          <p>Qué pico tiene tan suelto <stage type="inline"><emph rend="italic"
-              >(aparte)</emph>.</stage></p>
+          <p>Qué pico tiene tan suelto <stage type="inline"><emph rend="italic">(aparte)</emph>.</stage></p>
         </sp>
         <sp who="#damaPrimera">
           <speaker>Dama Primera</speaker>
