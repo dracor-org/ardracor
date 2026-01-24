@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000006" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000006" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Marco Severi</title>
+        <title>Marco Severi</title>
         <title type="sub">Drama en tres actos</title>
         <author>
           <persName>
@@ -1153,7 +1153,7 @@
             <p>No es justo, no. Pero no hay que irse al otro lado sin más ni más. Gaspar tiene mala
               cabeza, pero buen corazón, y es una criatura... A su edad hay que disculparlo...
               Además Vds., los hijos del país, tienen la sangre caliente y eso... eso es un buen
-              defecto! Yo le hablaré, le aconsejaré, y estoy seguro de que se compondrá. <foreign xml:lang="ita">Póvero ragazzo!</foreign></p>
+              defecto! Yo le hablaré, le aconsejaré, y estoy seguro de que se compondrá. <foreign xml:lang="it">Póvero ragazzo!</foreign></p>
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
@@ -1823,7 +1823,7 @@
           <pb n="38"/>
           <sp who="#luis">
             <speaker>Luis</speaker>
-            <p><foreign xml:lang="ita">Dio! Dio!</foreign></p>
+            <p><foreign xml:lang="it">Dio! Dio!</foreign></p>
           </sp>
         </div>
         <div type="scene" n="11">
@@ -2050,7 +2050,7 @@
           </sp>
           <sp who="#carabinero">
                <speaker>Carabinero</speaker>
-            <p><foreign xml:lang="ita">Non capisco.</foreign></p>
+            <p><foreign xml:lang="it">Non capisco.</foreign></p>
           </sp>
           <sp who="#luis">
             <speaker>Luis</speaker>
@@ -2058,7 +2058,7 @@
           </sp>
           <sp who="#carabinero">
                <speaker>Carabinero</speaker>
-            <p>¡Ah, si! <foreign xml:lang="ita">Scusi. Vorrebbe che mi facesse un cento di biglietti di visita.</foreign></p>
+            <p>¡Ah, si! <foreign xml:lang="it">Scusi. Vorrebbe che mi facesse un cento di biglietti di visita.</foreign></p>
           </sp>
           <sp who="#luis">
             <speaker>Luis</speaker>
@@ -2068,7 +2068,7 @@
           <sp who="#carabinero">
                <speaker>Carabinero</speaker>
             <stage>(Aparte á Benito)</stage>
-            <p><foreign xml:lang="ita">E proppio lo stesso, senza la barba. Non ha cambiato nulla. Prenda il ritratto. Io ció l’altro.</foreign></p>
+            <p><foreign xml:lang="it">E proppio lo stesso, senza la barba. Non ha cambiato nulla. Prenda il ritratto. Io ció l’altro.</foreign></p>
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
@@ -2078,7 +2078,7 @@
           <sp who="#carabinero">
                <speaker>Carabinero</speaker>
             <stage>(Ap. á Benito)</stage>
-            <p><foreign xml:lang="ita">Bisogna non lasciarlo fuggire.</foreign></p>
+            <p><foreign xml:lang="it">Bisogna non lasciarlo fuggire.</foreign></p>
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
@@ -2091,7 +2091,7 @@
           </sp>
           <sp who="#carabinero">
                <speaker>Carabinero</speaker>
-            <p><foreign xml:lang="ita">Bene; me li facia come queste.</foreign>
+            <p><foreign xml:lang="it">Bene; me li facia come queste.</foreign>
               <stage>(Indicando una tarjeta.)</stage></p>
           </sp>
           <pb n="43"/>
@@ -2101,7 +2101,7 @@
           </sp>
           <sp who="#carabinero">
                <speaker>Carabinero</speaker>
-            <p><foreign xml:lang="ita">Per questa sera. Verró io stesso á prendergli... Quánto
+            <p><foreign xml:lang="it">Per questa sera. Verró io stesso á prendergli... Quánto
                 é?</foreign></p>
           </sp>
           <sp who="#luis">
@@ -2111,7 +2111,7 @@
           <sp who="#carabinero">
                <speaker>Carabinero</speaker>
             <stage>(Sacando la cartera del bolsillo.)</stage>
-            <p><foreign xml:lang="ita">Scusi. Non conosco la moneta.</foreign></p>
+            <p><foreign xml:lang="it">Scusi. Non conosco la moneta.</foreign></p>
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
@@ -2120,7 +2120,7 @@
           </sp>
           <sp who="#carabinero">
                <speaker>Carabinero</speaker>
-            <p><foreign xml:lang="ita">Bene; ecco. Ed ecco el mio nome.</foreign><stage>(Dandole su
+            <p><foreign xml:lang="it">Bene; ecco. Ed ecco el mio nome.</foreign><stage>(Dandole su
                 tarjeta.)</stage></p>
           </sp>
           <sp who="#benito">
@@ -2145,7 +2145,7 @@
                 hasta que desaparecieron).</stage> Tito Nevi...Si fuera... <stage type="inline">(Al
                 ver el retrato que ha quedado sobre la mesa, con un gran grito:)</stage> ¡Mi retrato
               de Italia! ¿Quién lo ha traido aquí? <stage type="inline">(desesperado)</stage>
-              <foreign xml:lang="ita">¡Ah, Maledetta sorte!!</foreign> Teresa! Teresa!! Tengo que
+              <foreign xml:lang="it">¡Ah, Maledetta sorte!!</foreign> Teresa! Teresa!! Tengo que
               confesarte!... <stage type="inline">(Sofocado, loco)</stage> ¡No se vaya doctor!
               vuelvo en seguida!! <pb n="44"/><stage type="inline">(diriguiéndose á la puerta
                 derecha, casi sin poder andar, arrancandose el cuello)</stage> ¡Quiero aire! aire!
@@ -2668,7 +2668,7 @@
             <speaker>Luis</speaker>
             <stage>(Mira á Teresa, se conmueve, baja la cabeza y luego, como llorando dice á
               Maria)</stage>
-            <p><foreign xml:lang="ita">Poveretta!</foreign>. No; tú no tienes la culpa! Con el retrato ó sin él hubiera sido igual! y
+            <p><foreign xml:lang="it">Poveretta!</foreign>. No; tú no tienes la culpa! Con el retrato ó sin él hubiera sido igual! y
               si tuvieras culpa, ;cómo no perdonarte, cuando á mí mísmo me perdonan?</p>
           </sp>
           <sp who="#maria">
@@ -2771,7 +2771,7 @@
           </sp>
           <sp who="#luis">
             <speaker>Luis</speaker>
-            <p><foreign xml:lang="ita">¡Maledetta sorte!</foreign></p>
+            <p><foreign xml:lang="it">¡Maledetta sorte!</foreign></p>
           </sp>
           <sp who="#gaspar">
             <speaker>Gaspar</speaker>
@@ -3327,7 +3327,7 @@
           </sp>
           <sp who="#juez">
                <speaker>Juez</speaker>
-            <p><foreign xml:lang="lat">Dura lex sed lex</foreign>, amigo mío.... Veremos lo que se
+            <p><foreign xml:lang="la">Dura lex sed lex</foreign>, amigo mío.... Veremos lo que se
               resuelve allá arriba, y entre tanto cuente con mi buena voluntad. Pero.... ni una
               palabra de esto, ¿no? He faltado á mis deberes de Juez hablando así.</p>
           </sp>
@@ -3749,7 +3749,7 @@
           </sp>
           <sp who="#luis">
             <speaker>Luis</speaker>
-            <p>¡Ah! el carabinero!... <foreign xml:lang="ita">¡Dio, Dio! Allora</foreign>...</p>
+            <p>¡Ah! el carabinero!... <foreign xml:lang="it">¡Dio, Dio! Allora</foreign>...</p>
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>

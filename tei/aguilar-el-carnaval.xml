@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000019" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000019" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">El carnaval</title>
+        <title>El carnaval</title>
         <title type="sub">Diálogo entre seis personas</title>
         <author>
           <persName>
@@ -33,11 +33,9 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -49,9 +47,7 @@
             obras de teatro argentino. Desde sus orígenes a la actualidad.</title>
           <biblScope unit="volume">Tomo 1. Sainetes urbanos y gauchescos, 1800–1814.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
-            <date>2006</date>, pp. <biblScope unit="page" from="21" to="46">21–46</biblScope>. <idno
-            type="URL"
-            >https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf</idno>
+            <date>2006</date>, pp. <biblScope unit="page" from="21" to="46">21–46</biblScope>. <idno type="URL">https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf</idno>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -115,10 +111,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000019"
-        passive="http://www.wikidata.org/entity/Q137700603"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000019"
-        passive="https://hdlab.space/teatrar/obras/0001.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000019" passive="http://www.wikidata.org/entity/Q137700603"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000019" passive="https://hdlab.space/teatrar/obras/0001.html"/>
     </listRelation>
   </standOff>
   <text>
@@ -1000,7 +994,7 @@
             <speaker>Miguel:</speaker>
             <l>¿Y a nuestra doña Segunda</l>
             <l>acaso le falta un pelo</l>
-            <l>para ser loca <foreign xml:lang="lat">in utroque</foreign>?<note>In utroque: en
+            <l>para ser loca <foreign xml:lang="la">in utroque</foreign>?<note>In utroque: en
                 ambos. Se decía de aquellos que eran graduados en Derecho Civil y
               Canónico.</note></l>
             <l>¿Aquel continuo meneo,</l>

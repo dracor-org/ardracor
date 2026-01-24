@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000008" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000008" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Loa de Santa Fe en honor a Felipe V</title>
+        <title>Loa de Santa Fe en honor a Felipe V</title>
         <title type="other">Comedia representada en las fiestas que la ilustre ciudad de Santa Fe hizo a Su Majestad Felipe Quinto en acción de gracias por haberlo descargado del tributo de la sisa que contribuía en la yerba del Paraguay</title>
         <author>
           <persName>

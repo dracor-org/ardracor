@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000010" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000010" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Diálogo patriótico interesante</title>
+        <title>Diálogo patriótico interesante</title>
         <title type="sub">Entre Jacinto Chano, capataz de una estancia en las islas del Tordillo, y el gaucho de la Guardia del Monte</title>
         <author>
           <persName>

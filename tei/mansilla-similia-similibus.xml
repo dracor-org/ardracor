@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000001" xml:lang="spa">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000001" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Similia Similibus</title>
+        <title>Similia Similibus</title>
         <title type="sub">Proverbio en un acto</title>
         <author>
           <persName>
@@ -27,11 +27,9 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -96,10 +94,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000001"
-        passive="http://www.wikidata.org/entity/Q135012307"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000019"
-        passive="https://hdlab.space/teatrar/obras/0170.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000001" passive="http://www.wikidata.org/entity/Q135012307"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000019" passive="https://hdlab.space/teatrar/obras/0170.html"/>
     </listRelation>
   </standOff>
   <text>
@@ -365,8 +361,7 @@
             <speaker>Carlos.</speaker>
             <p>Mira, déjate de lamentos y hablemos con formalidad. Podrás decirme, por qué te
               obstinas en casarte con una mujer de quien estás celoso? Y nota que no me extraña esa
-              adoracion; pero no se trata de adorar sino de casarse . . . . lo cual es otro <pb
-                n="15"/> cuento . . . . ¡Mal principio, Mauricio! Casarte con el corazon agitado por
+              adoracion; pero no se trata de adorar sino de casarse . . . . lo cual es otro <pb n="15"/> cuento . . . . ¡Mal principio, Mauricio! Casarte con el corazon agitado por
               las dudas; creeme, eso es imprudente, es temerario. El matrimonio es una fortificacion
               que no debe tomarse nunca por asalto, á ménos de estar seguro de haber abierto brecha,
               ¡qué diantre!</p>
@@ -421,8 +416,7 @@
           <sp who="#carlos">
             <speaker>Carlos</speaker>
             <stage><emph>, pasa á la derecha.</emph></stage>
-            <p><stage><emph>(Con incredulidad).</emph></stage> Déjame en paz! <stage><emph>(Cam<pb
-                    n="17"/>biando de tono)</emph></stage> ¿Pero querrás decirme si tu rival es
+            <p><stage><emph>(Con incredulidad).</emph></stage> Déjame en paz! <stage><emph>(Cam<pb n="17"/>biando de tono)</emph></stage> ¿Pero querrás decirme si tu rival es
               Inglés como la institutriz?</p>
           </sp>
           <sp who="#mauricio">
@@ -594,8 +588,7 @@
             <p>Compadéceme, Carlos. ¿Pero cómo resistir á la tentacion? Para comprenderlo, fuera
               necesario haber visto las miradas, las sonrisas de esa encantadora criatura, que al
               escuchar mis palabras parece prestar oído á melodía dulcísima. No te sorprendas, que
-              por tenerla así, pendiente de mis labios, con sus rasgados ojos fijos en los mios, <pb
-                n="23"/> no sé que no hubiera hecho. Dia á dia, le he contado toda clase de
+              por tenerla así, pendiente de mis labios, con sus rasgados ojos fijos en los mios, <pb n="23"/> no sé que no hubiera hecho. Dia á dia, le he contado toda clase de
               historias y poco á poco, pero bien á mi pesar, he llegado á crearme un hermano
               admirable, perfecto, único . . . . de quien está perdidamente enamorada.</p>
           </sp>
@@ -661,7 +654,7 @@
               dejarla crecer, y dentro de media hora me tienes á tu disposicion. Si encontramos lo
               que busco, estamos salvados. Felizmente, tengo aquí mi caja. <stage><emph>(Se toca el
                   bolsillo)</emph></stage>
-              <foreign xml:lang="lat">Similia</foreign> . . . .</p>
+              <foreign xml:lang="la">Similia</foreign> . . . .</p>
           </sp>
           <sp who="#mauricio">
             <speaker>Mauricio.</speaker>
@@ -1023,8 +1016,7 @@
                   <stage><emph>(Enseñándole una fotografía)</emph></stage> No había sino estas
               Aspasias más o ménos escotadas. <stage><emph>(Fijándose en Mauricio)</emph></stage>
               ¿Pero qué tienes? ¡Qué cara tan fúnebre! Qué te acongoja? He tratado á toda prisa, es
-              cierto, de dar á la fisonomía de esta <foreign xml:lang="eng"
-                ><emph>bull-dog</emph></foreign>, con cabellos de oro, una expresión presentable,
+              cierto, de dar á la fisonomía de esta <foreign xml:lang="en"><emph>bull-dog</emph></foreign>, con cabellos de oro, una expresión presentable,
               algo de . . . . y ¡qué diantre! no lo he conseguido. Pero la cosa no es fácil, y
               desafío hasta al mismo Correggio. <stage><emph>(Enseñándole la
                 fotografía)</emph></stage> ¿Qué te parece? <stage><emph>(Toma un pincel que sacara
@@ -1092,14 +1084,13 @@
               ¡Qué mamarracho, Dios mío! qué mamarracho! <stage><emph>(Tirando el
                 pincel)</emph></stage> Tales originales son desesperantes, y no llegaré nunca á nada
               de verosímil con estas modernas Circes. <stage><emph>(Al público)</emph></stage> Vean
-              Vds. Mi plan es racional y basado puramente en el gran principio homeopático <foreign
-                xml:lang="lat"><emph>Similia similibus curantur</emph></foreign>, o lo que es lo
+              Vds. Mi plan es racional y basado puramente en el gran principio homeopático <foreign xml:lang="la"><emph>Similia similibus curantur</emph></foreign>, o lo que es lo
               mismo <emph>un claro saca á otro claro</emph>. Quería curar el mal por el mal. Hacer
               creer á esta loquilla, que ese retrato, es decir, el retrato que hubiera podido tener,
               pero que no tengo, era la propia imagen de aquella que Mauricio ama y de quien es
               adorado con todas las potencias de su alma. Esta es mi idea. Mauricio, enamorado de
               otra mujer, se convierte por el hecho mismo, á los ojos de Luisa en hombre posible, en
-              un hombre amable con o sin <foreign xml:lang="fra"><emph>calembourg</emph></foreign>;
+              un hombre amable con o sin <foreign xml:lang="fr"><emph>calembourg</emph></foreign>;
               en un hombre que puede ser amado, que debe ser amado, por todas las mujeres, porque
               jóvenes o viejas no aman ni amarán nunca sino á aquel que creen que otras aman; á lo
               ménos, esta es mi valiente experiencia. Y á tener tiempo, pudiera probar á Vds. que la
@@ -1723,7 +1714,7 @@
           <sp who="#carlos">
             <speaker>Cárlos</speaker>
             <stage><emph>, al público.</emph></stage>
-            <p>¿Señores, tenía yo razón? Es indudable: <foreign xml:lang="lat"><emph>Similia
+            <p>¿Señores, tenía yo razón? Es indudable: <foreign xml:lang="la"><emph>Similia
                   similibus, curantur.</emph></foreign></p>
           </sp>
           <stage>Telón rápido</stage>
