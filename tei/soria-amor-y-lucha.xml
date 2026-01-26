@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000001" xml:lang="es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Amor y lucha</title>
+        <title type="sub">Presagio lírico en un acto y cinco cuadros en prosa y verso</title>
+        <author>
+          <persName>
+            <forename>Ezequiel</forename>
+            <surname>Soria</surname>
+          </persName>
+          <idno type="wikidata">Q16565813</idno>
+        </author>
+        <editor xml:id="uhk">
+          <persName>
+            <forename>Ulrike</forename>
+            <surname>Henny-Krahmer</surname>
+          </persName>
+          <idno type="wikidata">Q115644151</idno>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Biblioteca Virtual Miguel de Cervantes</name>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcjm2j4</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <author>Eduarda Mansilla de García</author>: <title level="a">Similia Similibus.
+              Proverbio en un acto.</title>. In: <title level="m">Creaciones</title>.
+            <pubPlace>Buenos Aires</pubPlace>: <publisher>Imprenta de Juan A. Alsina</publisher>
+            <date>1883</date>, pp. <biblScope unit="page" from="5" to="58">5–58</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>The text was extracted from the digital source
+          by keying. Obvious errors in the text were corrected.
+          The orthography was modernized.
+          Capitalized words were converted to lower-case.
+          Page breaks of the original are indicated.
+          Line breaks and hyphenation of the original are
+          not kept. Text that was set in italics in the
+          source is encoded as such.
+          Abbreviations are not expanded.
+          Foreign words are marked up the the 'foreign' element
+          and their language is indicated.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="coro" sex="UNKNOWN">
+            <persName>Coro</persName>
+          </person>
+          <person xml:id="custodio" sex="MALE">
+            <persName>Custodio</persName>
+          </person>
+          <person xml:id="tuper" sex="MALE">
+            <persName>Juan Tuper</persName>
+          </person>
+          <person xml:id="julia" sex="FEMALE">
+            <persName>Julia</persName>
+          </person>
+          <person xml:id="raul" sex="MALE">
+            <persName>Raul</persName>
+          </person>
+          <person xml:id="capitan" sex="MALE">
+            <persName>Capitán</persName>
+          </person>
+          <person xml:id="una-persona" sex="MALE">
+            <persName>Una persona</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="soria" type="genreTitle">presagio lírico</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2406762</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-09-15" who="#uhk">file creation</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1895">
+        <desc/>
+      </event>
+      <event type="premiere" when="1895">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/arg0000001"
+                passive="http://www.wikidata.org/entity/Q135012307"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb/>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Amor y lucha</titlePart>
+          <titlePart type="sub">Presagio lírico en un acto y cinco cuadros en prosa y verso</titlePart>
+        </docTitle>
+        <note>Música del maestro Andrés Abad Antón</note>
+        <note>Estrenada con extraordinario éxito en el Teatro
+          Olimpo la noche del viernes 28 de Junio de 1895.</note>
+      </titlePage>
+      <pb/>
+      <castList>
+        <head>Reparto.</head>
+        <head>Personajes</head>
+        <head>Actores</head>
+        <castItem>
+          <role>Julia</role>
+          <roleDesc>Sra. Carlota Millanes.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Raul</role>
+          <roleDesc>Sra. Lola Millanes.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Custodio</role>
+          <roleDesc>Sr. Pablo Diaz.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>El Cura Benvenuto</role>
+          <roleDesc>Sr. Enrique Gil.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>General Bravo</role>
+          <roleDesc>Sr. Eusebio Falco.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>General Fino</role>
+          <roleDesc>Sr. Joaquín Coss.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Juan Tuper</role>
+          <roleDesc>Sr. Francisco G. Ferrer.</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Capitán</role>
+          <roleDesc>Sr. Juan Zapater.</roleDesc>
+        </castItem>
+      </castList>
+      <p>Paisanos, paisanas, soldados y marineros</p>
+      <set>
+        <p>La acción se supone en una época futura</p>
+      </set>
+    </front>
+    <body>
+      <pb/>
+      <div type="act" n="1">
+        <head>Acto único</head>
+        <div type="cuadro" n="1">
+          <head>Cuadro primero</head>
+          <stage>(La escena representa una plaza de un pueblo
+            de campo: A la izquierda una esquina cuya puerta y ventana
+            dan al frente; formando una calle a la derecha. A la
+            derecha en primer término una pulpería con mesa a fuera
+            en torno de la cual beben y charlan Custodio, mujeres del
+            pueblo y paisanos. En la ventana hablan Tuper y Julia).</stage>
+          <div type="scene" n="1">
+            <head>Escena primera</head>
+            <stage>Música</stage>
+            <sp who="#coro">
+              <speaker>Coro</speaker>
+              <l>Llegó ya la lid fiera,</l>
+              <l>corred paisanos</l>
+              <l>y por la azul bandera</l>
+              <l>luchad cual bravos.</l>
+              <l>Con gusto brindaremos</l>
+              <l>porque en la guerra</l>
+              <l>alumbre el sol de gloria</l>
+              <l>sobre esta tierra.</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Las copas alcemos todos</l>
+              <l>y los brindis preparad;</l>
+              <l>de huespued tendremo luego</l>
+              <l>al ilustre capitán.</l>
+            </sp>
+            <sp who="#tuper">
+              <speaker>Tup.</speaker>
+              <l><stage>(<emph>ap.</emph>)</stage> (Guardar mi secreto</l>
+              <l>no olvides, hermana.</l>
+            </sp>
+            <pb n="10"/>
+            <sp who="#julia">
+              <speaker>Julia</speaker>
+              <l>Pues yo te prometo</l>
+              <l>nunca decir nada)</l>
+            </sp>
+            <sp who="#coro">
+              <speaker>Coro</speaker>
+              <l>Amigos juremos</l>
+              <l>en nombre Dios</l>
+              <l>luchar por la patria</l>
+              <l>con bélico ardor, ah!</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Al rancho y los hijos</l>
+              <l>digamos adios;</l>
+              <l>dejemos familia</l>
+              <l>mujeres y amor.</l>
+            </sp>
+            <sp who="#coro">
+              <speaker>Coro</speaker>
+              <l>Al rancho y los hijos</l>
+              <l>digamos adios;</l>
+              <l>dejemos familia</l>
+              <l>mujeres y amor.</l>
+            </sp>
+            <stage>(Transición musical.
+              Raul, tipo del dandy
+              de campaña, viste traje negro
+              de saco, pañuelo rojo al cuello;
+              de chambergo y calzando botas. Aparece
+              por el fondo de la calle de la derecha
+              cantando un estilo nacional)</stage>
+            <sp who="#raul">
+              <speaker>Raul</speaker>
+              <l>Para luchar con la vida</l>
+              <l>a mí me sobra valor,</l>
+              <l>que consuelo mis tristezas</l>
+              <l>en los brazos de mi amor.</l>
+              <l>Con mi daga y mi pingo</l>
+              <l>a nadie suelo temer</l>
+              <l>que me alienta en el combate</l>
+              <l>el amor de una mujer.</l>
+              <stage>(<emph>Vuelve la vista a la
+                  ventana y al ver a Julia y Tuper
+                  hanblando se irrita</emph>).</stage>
+              <l>mas, que miro! cielo santo!</l>
+              <l>la ingrata me hace traición.</l>
+            </sp>
+            <sp who="#julia">
+              <speaker>Julia</speaker>
+              <l>Mi Raul!</l>
+            </sp>
+            <sp who="#tuper">
+              <speaker>Tuper</speaker>
+              <l>Está celoso.</l>
+            </sp>
+            <sp who="#raul">
+              <speaker>Raul</speaker>
+              <l>Yo le arranco el corazón.</l>
+              <stage>(<emph>Va a avanzar
+                  a la ventana y el coro lo
+                  sujeta</emph>).</stage>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Sujetad ese muchacho!</l>
+            </sp>
+            <sp who="#raul">
+              <speaker>Raul</speaker>
+              <l>Yo le tengo que matar. <stage>(<emph>en
+                    este momento aparece el capitán y el tumulto
+                    cesa</emph>).</stage></l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Capit.</speaker>
+              <l>Señores...</l>
+            </sp>
+            <sp who="#raul #julia #tuper #custodio">
+              <speaker>Todos</speaker>
+              <l>El capitán!</l>
+            </sp>
+            <sp who="#coro">
+              <speaker>Coro</speaker>
+              <l>Amigos juremos</l>
+              <l>en nombre de Dios</l>
+              <l>luchar por la patria</l>
+              <l>con bélico ardor</l>
+            </sp>
+            <pb n="11"/>
+            <stage>Hablado</stage>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Vengan, muchachos; ahora</l>
+              <l>solo falta que obsequiemos</l>
+              <l>al capitán.</l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Capit.</speaker>
+              <l>Son amables</l>
+              <l>por demás; yo no merezco</l>
+              <l>tantas bondades. ¡Amigos!</l>
+              <l>corren difíciles tiempos</l>
+              <l>y es necesario que todos</l>
+              <l>hagamos nobles esfuerzos</l>
+              <l>a fin de que la victoria</l>
+              <l>sea nuestra.</l>
+            </sp>
+            <sp who="#custodo">
+              <speaker>Cust.</speaker>
+              <l>Ya lo creo</l>
+              <l>que ha de ser nuestra,
+                ¡qué diablos!</l>
+              <l>somos capitán un pueblo</l>
+              <l>que no aguanta <emph>malas
+                  pulgas</emph></l>
+              <l>con un carácter de acero,</l>
+              <l>con patriotismo en el alma...</l>
+              <l>y cuando llegue el momento</l>
+              <l>hemos de dar todo ¡todo!</l>
+              <l>el rancho, el hijo, el pellejo;</l>
+              <l>que antes que perder la honra,</l>
+              <l>nos han de arrancar el cuero.</l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Capit.</speaker>
+              <l>Así me gustan los hombres,</l>
+              <l>y aunque este es valiente pueblo</l>
+              <l>allá, tras la cordillera;</l>
+              <l>saben luchar con denuedo</l>
+              <l>que el valor y el patriotismo</l>
+              <l>tienen raices entre ellos.</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>¿Y nosotros somos mancos?</l>
+              <l>¿que nos chupamos el dedo?</l>
+              <l>Mire usted; esta <emph>mozada</emph></l>
+              <l>no conoce lo que es miedo</l>
+              <l>y si es preciso, las hembras</l>
+              <l>han de manejar el rémington</l>
+              <l>y en fin, capitán, que estamos</l>
+              <l>a lo que venga dispuestos</l>
+              <l>conque: de frente; a la lucha!</l>
+              <l>que el triunfo será nuestro</l>
+              <l>y mientras llegue ese día,</l>
+              <l>solo en la patria pensemos;</l>
+              <l>que le rancho se haga tapera,</l>
+              <pb n="12"/>
+              <l>que el campo se pierda entero,</l>
+              <l>que se mueran los ganados</l>
+              <l>y haya hambre y ruina... ¿qué es eso?</l>
+              <l>y aunque perdamos la vida</l>
+              <l>¡todo con gusto perdemos!</l>
+              <l>pero, hay que salvar la patria,</l>
+              <l>el honor que defendemos</l>
+            </sp>
+            <sp who="#raul #julia #tuper #custodio">
+              <speaker>Todos</speaker>
+              <l>Bravo!</l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Capit.</speaker>
+              <l>Me gusta ese temple</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Por el capitán brindemos</l>
+            </sp>
+            <sp who="#raul #julia #tuper #custodio">
+              <speaker>Todos</speaker>
+              <l>Brindemos <stage>(<emph>beben</emph>).</stage></l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Capit.</speaker>
+              <l>Yo por ustedes</l>
+              <l>brindo</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Si no soy molesto</l>
+              <l>Capitán le pediría</l>
+              <l>que nos contara los hechos</l>
+              <l>de la actual guerra. Ignoramos</l>
+              <l>los detalles por completo;</l>
+              <l>ni la causa de la guerra</l>
+              <l>a punto fijo sabemos.</l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Capit.</speaker>
+              <l>Con mucho gusto</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Atención</l>
+              <l>que aquí se va a oír lo bueno</l>
+              <l>largue el
+                <stage><emph>rollo</emph></stage>
+                capitán</l>
+              <l>que estamos todos atentos.
+                <stage>(<emph>pausa</emph>).</stage></l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Capit.</speaker>
+              <l>Comenzaro los preludios</l>
+              <l>el año mil ocho cientos</l>
+              <l>noventa y cuatro; en el año</l>
+              <l>noventa y cinco mas recio</l>
+              <l>creció el debate diario</l>
+              <l>y el asunto tomó cuerpo.</l>
+              <l>Los hombres de más valía</l>
+              <l>y los diarios más serios</l>
+              <l>hablaban de la cuestión</l>
+              <l>analizando los hechos,</l>
+              <l>desarrollando doctrinas</l>
+              <l>y siempre, en todo momento,</l>
+              <l>el problema de la guerra</l>
+              <l>era el tema predilecto.</l>
+              <l>Límites, mojones, líneas</l>
+              <l>de altas cumbres; tales cerros</l>
+              <l>tales pasos, el <emph>divorcio</emph></l>
+              <l><foreign xml:lang="lat"><emph>aquarum</emph></foreign>
+                eran los términos</l>
+              <l>que se empleaban diariamente;</l>
+              <l>la marea fue creciendo</l>
+              <pb n="13"/>
+              <l>y al demarcarse los límites</l>
+              <l>de Bolivia y este pueblo,</l>
+              <l>nuestros vecinos gritaron</l>
+              <l>y con tal o cual pretexto</l>
+              <l>de que Bolivia nos daba</l>
+              <l>territorio que era de ellos</l>
+              <l><emph>se armó la gorda</emph>,
+                y hoy día</l>
+              <l>lanza la guerra su incendio,</l>
+              <l>la patria se halla en peligro</l>
+              <l>y hay que luchar con denuedo.</l>
+            </sp>
+            <sp who="#raul #julia #tuper #custodio">
+              <speaker>Todos</speaker>
+              <l>¡Lucharemos!</l>
+            </sp>
+            <sp who="#raul">
+              <speaker>Raul</speaker>
+              <l>Capitán</l>
+              <l>vamos a la guerra presto</l>
+            </sp>
+            <sp who="#una-persona">
+              <speaker>Uno</speaker>
+              <stage>(<emph>a Raul</emph>)
+                ¿Y tu novia?</stage>
+            </sp>
+            <sp who="#raul">
+              <speaker>Raul</speaker>
+              <l>¡Hum! mi novia</l>
+              <l>es una ingrata y deseo</l>
+              <l>olvidarla para siempre.</l>
+              <l>¡Hoy, solo en la patria pienso!</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Estás celoso Raulito,</l>
+              <l>Julia te quiere, mas creo</l>
+              <l>que deben ser tus amores,</l>
+              <l>la milicia.</l>
+            </sp>
+            <sp who="#raul">
+              <speaker>Raul</speaker>
+              <l>Por mi cuerpo</l>
+              <l>en vez de sangre circula</l>
+              <l>¡plomo derretido, fuego!</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>¡Y yo también! Aunque sea</l>
+              <l>un <emph>paisanote</emph>
+                ya viejo</l>
+              <l>con estas crines canosas
+                <stage>(<emph>se palpa la barba</emph>).</stage></l>
+              <l>y dolores en el cuerpo</l>
+              <l>puedo hacer algo;
+                <emph>¡demonche!</emph></l>
+              <l>Aun muchas fuerzas tengo</l>
+              <l>pero ¡ay! si otra vez volvieran
+                <stage>(<emph>animándose</emph>)</stage></l>
+              <l>aquellos hermosos tiempos</l>
+              <l>en que brioso saltaba,</l>
+              <l>sembrando exterminio y fuego</l>
+              <l>del Boquerón las trincheras</l>
+              <l>¡la <emph>pucha</emph>! amigo,
+                ¡qué tiempos!</l>
+            </sp>
+            <sp who="#raul">
+              <speaker>Raul</speaker>
+              <l>Pero hoy día, es ya compadre</l>
+              <l>eslabón que no da fuego!</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l><emph>Che, che,</emph> que
+                te estás pasando</l>
+              <l>soy hombre aun, ¿que te haz
+                <emph>creído?</emph></l>
+              <l>y si me ponen delante</l>
+              <l>una hembra de quince
+                Eneros</l>
+              <l>no le hago ascos y al
+                instante</l>
+              <l>le pinto amore y le
+                <emph>priendo</emph></l>
+              <pb n="14"/>
+              <l>las espuelas, que es un
+                gusto</l>
+              <l>¡qué diablos! también yo
+                tengo</l>
+              <l>paladar <emph>pa</emph>
+                cierta fruta.</l>
+            </sp>
+            <sp who="#una-persona">
+              <speaker>Uno</speaker>
+              <l>¡Qué
+                <emph>compadrón</emph>
+                está el viejo!</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Entre tanto, capitán,</l>
+              <l>siga su historia, que
+                atentos</l>
+              <l>le oímos</l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Cap.</speaker>
+              <l>Para que entiendan</l>
+              <l>mejor, en forma de cuento</l>
+              <l>les relataré la historia</l>
+              <l>de la guerra</l>
+            </sp>
+            <sp who="#custodio">
+              <speaker>Cust.</speaker>
+              <l>Pues, silencio;</l>
+              <l>nadie interrumpa el
+                relato,</l>
+              <l>ya estamos todos atentos
+                <stage>(<emph>pausa</emph>).</stage></l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Cap.</speaker>
+              <l>La madre España estremosa</l>
+              <l>amamantó dos hermanas;</l>
+              <l>creciendo libres y ufanas</l>
+              <l>nublando con luz radiosa</l>
+              <l>estrellas americanas.</l>
+              <l>Una, resultó más grande</l>
+              <l>y dió a su hermana el
+                regazo;</l>
+              <l>libre quiso hacerla, el brazo</l>
+              <l>tendió entonces sobre el Ande</l>
+              <l>y la estrechó en un abrazo.</l>
+              <l>Ya las dos independientes</l>
+              <l>alzaron sus albas frentes</l>
+              <l>de gloriosas soberanas,</l>
+              <l>y entre sus prazos potentes</l>
+              <l>se estrechaban como hermanas.</l>
+              <l>Mas un día ¡triste día!</l>
+              <l>pensó la hermana pequeña</l>
+              <l>que quien más tierra tenía</l>
+              <l>era la grande y le empeña</l>
+              <l>lucha tenáz y bravía,</l>
+              <l>¡Lucha insensata! en verdad.</l>
+              <l>¡por un pedazo de tierra!</l>
+              <l>no viendo en su ceguedad</l>
+              <l>que quien le dio libertad</l>
+              <l>es al que le hace la guerra;</l>
+              <l>Ellos luchas con valor,</l>
+              <l>también con valor luchamos</l>
+              <l>y con placer, con amor,</l>
+              <l>ambos a la lid marchamos</l>
+              <l>en defensa del honor!</l>
+            </sp>
+            <sp who="#tuper">
+              <speaker>Tuper</speaker>
+              <stage>(<emph>Con
+                  cierta ironía</emph>.)</stage>
+              <pb n="15"/>
+              <l>Vuestro entusiasmo se explica</l>
+              <l>pero si la hermana chica</l>
+              <l>os diese muerte en derrotas...</l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Cap.</speaker>
+              <l><stage>(<emph>Con
+                    arranque</emph>)</stage>
+                ¡La sangre de los patriotas</l>
+              <l>da honra a quien le salpica!</l>
+            </sp>
+            <sp who="#raul #julia #tuper #custodio">
+              <speaker>Todos</speaker>
+              <l>¡Bravo!</l>
+            </sp>
+            <sp who="#capitan">
+              <speaker>Cap.</speaker>
+              <l>Idos disponiendo para la marcha.</l>
+            </sp>
+            <sp who="#raul">
+              <speaker>Raul</speaker>
+              <l>Yo ya estoy listo, nada tengo que
+                llevar</l>
+              <l>más que mi persona.</l>
+            </sp>
+            <sp who="#tuper">
+              <speaker>Tuper</speaker>
+              <p>También yo estoy dispuesto.
+                Capitán, reconozco vuestro
+                patriotismo y aunque soy
+                <stage>(<emph>indeciso</emph>)</stage>...
+                soy extranjero, me permitirá
+                que le acompañe. Soy periodista y mi
+                oficio...
+                <stage>(Habla bajo con el
+                  capitán.)</stage></p>
+            </sp>
+            <sp who="#capitan">
+              <p>Comprendo.
+                <stage>(<emph>Se saludan Tuper
+                    y el Capitán</emph>)</stage></p>
+            </sp>
+            <sp who="#tuper">
+              <p><stage>(<emph>ap.</emph>)</stage>
+                ¡Nos veremos capitán! La diplomacia
+                me obliga por ahora a cerrar la boca.</p>
+            </sp>
+          </div>
+          <div type="scene" n="2">
+            <head>Escena II</head>
+          </div>
+          <div type="scene" n="3">
+            <head>Escena III</head>
+          </div>
+          <div type="scene" n="4">
+            <head>Escena IV</head>
+          </div>
+          <div type="scene" n="5">
+            <head>Escena V</head>
+          </div>
+        </div>
+        <div type="cuadro" n="2">
+          <head>Cuadro segundo</head>
+          <div type="scene" n="1">
+            <head>Escena primera</head>
+          </div>
+          <div type="scene" n="2">
+            <head>Escena II</head>
+          </div>
+          <div type="scene" n="3">
+            <head>Escena III</head>
+          </div>
+          <div type="scene" n="4">
+            <head>Escena IV</head>
+          </div>
+          <div type="scene" n="5">
+            <head>Escena V</head>
+          </div>
+          <div type="scene" n="6">
+            <head>Escena VI</head>
+          </div>
+          <div type="scene" n="7">
+            <head>Escena VII</head>
+          </div>
+        </div>
+        <div type="cuadro" n="3">
+          <head>Cuadro tercero</head>
+          <div type="scene" n="1">
+            <head>Escena primera</head>
+          </div>
+          <div type="scene" n="2">
+            <head>Escena II</head>
+          </div>
+          <div type="scene" n="3">
+            <head>Escena III</head>
+          </div>
+          <div type="scene" n="4">
+            <head>Escena IV</head>
+          </div>
+        </div>
+        <div type="cuadro" n="4">
+          <head>Cuadro cuarto</head>
+          <div type="scene" n="1">
+            <head>Escena primera</head>
+          </div>
+          <div type="scene" n="2">
+            <head>Escena II</head>
+          </div>
+          <div type="scene" n="3">
+            <head>Escena III</head>
+          </div>
+        </div>
+        <div type="cuadro" n="5">
+          <head>Cuadro V</head>
+          <div type="scene" n="1">
+            <head>Escena primera</head>
+          </div>
+          <pb n="37"/>
+          <div type="scene" n="2">
+            <head>Escena última</head>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <trailer>Telón rápido</trailer>
+    </back>
+  </text>
+</TEI>
