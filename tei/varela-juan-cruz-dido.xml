@@ -1,0 +1,2544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://staging.dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000008" xml:lang="es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Dido</title>
+        <author>
+          <persName>
+            <forename>Juan</forename>
+            <forename>Cruz</forename>
+            <surname>Varela</surname>
+          </persName>
+          <idno type="wikidata">Q1710435</idno>
+        </author>
+        <editor xml:id="lv">
+          <forename>Laura</forename>
+          <surname>Volkind</surname></editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"> CC0
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Biblioteca Virtual Miguel de Cervantes</name>
+          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt1m1</idno>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+          <bibl type="originalSource">
+            <author><forename>Juan Cruz</forename>
+              <surname>Varela</surname></author>: <title level="a">Dido</title>. En <title level="m"
+              >Teatro Hispanoamericano.</title>
+            <biblScope unit="volume">Tomo II, Siglo XIX.</biblScope>
+            <pubPlace>Nueva York</pubPlace>: <editor>Anaya Book</editor>, <date>1973</date>, pp.
+              <biblScope unit="page" from="14" to="69">14–69</biblScope>.</bibl>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="eneas" sex="MALE">
+            <persName>Eneas</persName>
+          </person>
+          <person xml:id="barcenia" sex="FEMALE">
+            <persName>Barcenia</persName>
+          </person>
+          <person xml:id="ana" sex="FEMALE">
+            <persName>Ana</persName>
+          </person>
+          <person xml:id="nesteo" sex="MALE">
+            <persName>Nesteo</persName>
+          </person>
+          <person xml:id="sergesto" sex="MALE">
+            <persName>Sergesto</persName>
+          </person>
+          <person xml:id="dido" sex="FEMALE">
+            <persName>Dido</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Tragedia</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-06-04" who="#lv">cambio codificacion inicial y adapto a Dracor</change>
+        <change when="2025-06-08" who="#gdr">primera revisión</change>
+        <change when="2025-17-09" who="#lv">última revisión de la ficha con actualizaciones</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1823">
+        <desc/>
+      </event>
+      <event type="premiere" when="1825">
+        <desc/>
+      </event>
+      <event type="written" when="1823">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000008"
+        passive="http://www.wikidata.org/entity/Q136325261"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000008"
+        passive="https://hdlab.space/teatrar/obras/0289.html"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main"><emph rend="bold italic">Dido</emph></titlePart>
+        </docTitle>
+        <docAuthor>Juan Cruz Varela</docAuthor>
+      </titlePage>
+      <castList>
+        <head>Personajes</head>
+        <castItem>
+          <role>Dido</role>
+          <roleDesc><emph rend=" italic">reina de Cartago</emph></roleDesc>
+        </castItem>
+        <castItem><role>Ana</role>
+          <roleDesc><emph rend=" italic">su hermana</emph></roleDesc>
+        </castItem>
+        <castItem><role>Barcenia</role>
+          <roleDesc><emph rend=" italic">dama de la reina</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Eneas</role>
+          <roleDesc><emph rend=" italic">rey de los troyanos</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Nesteo</role>
+          <roleDesc><emph rend=" italic">teniente troyano</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Sergesto</role>
+          <roleDesc><emph rend=" italic">comandante troyano</emph></roleDesc>
+        </castItem>
+      </castList>
+      <set>
+        <p><emph rend="bold">La escena es en Cartago, en un salón del palacio de la
+          reina.</emph></p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head><emph rend="bold">Acto I</emph></head>
+        <div type="scene" n="1">
+          <head><emph rend="bold italic">Escena I</emph></head>
+          <stage>Nesteo y Sergesto.</stage>
+          <sp who="#sergesto">
+            <speaker>Sergesto</speaker>
+            <l>Fuera mengua, en verdad, si hubiera Eneas</l>
+            <l>formado tal designio, mas, Nesteo,</l>
+            <l>¿no miras tus sospechas disiparse</l>
+            <l>bien como el humo se disipa al viento?</l>
+            <l>El amor a la gloria y a la fama</l>
+            <l>es superior a todo; y los inciensos</l>
+            <l>que los héroes ofrecen, nunca suben</l>
+            <l>en honor de otro Dios, ni en otro templo.</l>
+            <l>Dido es hermosa, es reina; nuestras naves</l>
+            <l>en paz amiga recibió en sus puertos;</l>
+            <l>y desde aquella noche en que, pendiente</l>
+            <l>de los labios de Eneas, el suceso</l>
+            <l>oyó de Troya, y nuestros crudos males</l>
+            <l>la flecha del amor hirió su pecho.</l>
+            <l>Todo es verdad; pero jamás podría</l>
+            <l>nuestro rey humillarse hasta el extremo</l>
+            <l>de olvidarse a sí mismo, porque Dido</l>
+            <l>no se acuerda de sí. Nunca, Nesteo,</l>
+            <l>me quise persuadir que el mismo Eneas</l>
+            <l>manchase así la historia de sus hechos.</l>
+            <l>En fin, tú ya lo ves: nuestros bajeles</l>
+            <l>las velas hoy ofrecerán al viento;</l>
+            <l>y mañana la aurora, al levantarse,</l>
+            <l>nos verá en alta mar, lejos de un puerto</l>
+            <l>do se respira un aire ponzoñoso</l>
+            <l>destructor de la gloria, y en que el tiempo</l>
+            <l>en ocio muelle y femenil halago</l>
+            <l>se pierde sin honor y sin provecho.</l>
+            <l>Eneas, juntamente con nosotros,</l>
+            <l>se lanzará a la mar; él el primero</l>
+            <l>en paz serena afrontará el peligro,</l>
+            <l>y a insultar a la muerte aprenderemos.</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>Mi sospecha, Sergesto, si crecía,</l>
+            <l>era porque crecía mí deseo</l>
+            <l>de abandonar cuanto antes unas playas</l>
+            <l>que a los troyanos ha negado el cielo.</l>
+            <l>Los restos de Ilión son destinados</l>
+            <l>para dar nueva forma al universo,</l>
+            <l>y hacer que las edades venideras</l>
+            <l>repitan con asombro nuestros hechos.</l>
+            <l>¿Qué debía yo creer, cuando miraba</l>
+            <l>pasarse tantos soles, y con ellos</l>
+            <l>Eneas entregarse a los placeres</l>
+            <l>que, de la reina en el delirio ciego,</l>
+            <l>le ofrece este palacio? Es necesario</l>
+            <l>de bronce duro amurallarse el pecho</l>
+            <l>contra el halago de mujer que adora,</l>
+            <l>contra la astucia del amor artero.</l>
+            <l>Eneas lo hizo ya: cuando la noche</l>
+            <l>cielos y tierra con oscuro velo</l>
+            <l>cubra, y entregue los mortales todos</l>
+            <l>al letargo pacífico del sueño,</l>
+            <l>entonces nuestras naves silenciosas</l>
+            <l>al mar se confiarán; tal es al menos</l>
+            <l>la orden que Eneas a Cloanto diera</l>
+            <l>cuando a su estancia lo llamó en secreto</l>
+            <l>al rayar este día, en que la gloria</l>
+            <l>a mostrársenos vuelve. Yo, Sergesto,</l>
+            <l>reviví con la nueva; y de mi engaño</l>
+            <l>yo sólo sé con qué placer he vuelto.</l>
+            <l>Otra vez en Eneas hallo al héroe</l>
+            <l>que, de mi patria en el fatal incendio,</l>
+            <l>me enseñó en una noche solamente</l>
+            <l>cómo puede un mortal hacerse eterno.</l>
+          </sp>
+          <sp who="#sergesto">
+            <speaker>Sergesto</speaker>
+            <l>Siempre debiste hacer esa justicia</l>
+            <l>al mérito de Eneas. Tantos hechos,</l>
+            <l>tantas proezas, y un renombre claro</l>
+            <l>no se mancillan pronto, y mucho menos</l>
+            <l>por el débil amor, cuyos placeres</l>
+            <l>tan sólo afectan mujeriles pechos.</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>Cuando inundaron los troyanos campos</l>
+            <l>las falanges inmensas de los griegos,</l>
+            <l>tres lustros no contabas, y de entonces</l>
+            <l>sonó en tu oído de la guerra el eco.</l>
+            <l>Diez años de un combate continuado</l>
+            <l>a la ruina de Troya precedieron,</l>
+            <l>y, en tan largo período, el pecho tuyo</l>
+            <l>sólo en justa venganza estuvo hirviendo.</l>
+            <l>Gritos feroces, moribundos ayes,</l>
+            <l>ríos de sangre, asolación y muertos,</l>
+            <l>tal era el cuadro de la patria nuestra</l>
+            <l>en tantos días de furor inmenso;</l>
+            <l>y tal escuela a conocer no enseña</l>
+            <l>el corazón del hombre. Yo, Sergesto,</l>
+            <l>con pocos años más de los que cuentas,</l>
+            <l>sé cuánto puede amor. Cuando los griegos</l>
+            <l>vinieron sobre Troya, las troyanas</l>
+            <l>solamente bastaran a vencerlos,</l>
+            <l>si los griegos tuvieran corazones</l>
+            <l>que no fueran de tigres o de acero.</l>
+            <l>Cuando yo a Aquiles conocí, y a Ulises</l>
+            <l>y a los dos hijos del soberbio Atreo,</l>
+            <l>ya había conocido la violencia</l>
+            <l>con que arde a veces del amor el fuego.</l>
+            <l>Y ¡cuán difícil es ahogar su llama</l>
+            <l>a quien se goza con su mismo incendio!</l>
+            <l>Por esto, amigos, cuando ya seis lunas</l>
+            <l>ha que pisamos de Cartago el suelo,</l>
+            <l>sin que hasta hoy Eneas se acordase</l>
+            <l>de su honor y de Italia, en el silencio</l>
+            <l>mi sospecha oculté: pero he temido</l>
+            <l>que en el altar de amor quemara incienso,</l>
+            <l>y que la gratitud de ser amado</l>
+            <l>amante lo tornara, posponiendo</l>
+            <l>su antigua gloria, y la mayor que resta</l>
+            <l>con llenar del destino los secretos.</l>
+          </sp>
+          <sp who="#sergesto">
+            <speaker>Sergesto</speaker>
+            <l>Pues de otro modo ha sido.</l>
+            <stage><emph rend="bold">(En actitud de mirar afuera por alguna ventana del
+                salón.)</emph></stage>
+            <l>El sol ya brilla</l>
+            <l>sobre la cima de los altos cerros</l>
+            <l>que a Cartago dominan: el instante</l>
+            <l>es ya llegado en que cumplir debemos</l>
+            <l>la orden que, por medio de Cloanto,</l>
+            <l>Eneas nos ha dado. Con secreto</l>
+            <l>de nuestra pronta fuga, y de la hora</l>
+            <l>en que es preciso concurrir al puerto,</l>
+            <l>avisemos a todos los troyanos:</l>
+            <l>y do el honor nos llama, allá volemos,</l>
+            <l>y nunca Eneas sienta haber nombrado</l>
+            <l>por uno de sus jefes a Sergesto.</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>Vamos, amigo. ¡Malhadada reina!</l>
+            <l>¡Cuánto tu suerte y tu dolor lamento!</l>
+          </sp>
+          <stage><emph rend="rend">(Se van los dos.)</emph></stage>
+        </div>
+        <div type="scene" n="2">
+          <head><emph rend="bold italic">Escena II</emph></head>
+          <stage>Dido y Ana.</stage>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <stage><emph rend="bold">(Saliendo con su hermana.)</emph></stage>
+            <l>¡Ay, Ana! Tú lo sabes: la primera</l>
+            <l>te abrí mi corazón; y mi secreto,</l>
+            <l>hasta que el fondo te mostré del alma,</l>
+            <l>tus ojos penetrantes no leyeron.</l>
+            <l>Mi ardor no es obra tuya: yo no imputo</l>
+            <l>ni imputaré jamás a tus consejos</l>
+            <l>el repentino estrago de esta llama</l>
+            <l>que ya en pavesas convirtió mi pecho.</l>
+            <l>Frenética era ya, cuando tu lengua</l>
+            <l>aún no aprobara mi furor inmenso,</l>
+            <l>ni tu cariño a la infelice Dido</l>
+            <l>te hiciera tolerables sus excesos.</l>
+            <l>Esta insana pasión me llena toda,</l>
+            <l>y todo abrasa cuanto en torno veo.</l>
+            <l>¿Será que tal volcán, Ana querida,</l>
+            <l>en mi daño los Dioses encendieron?</l>
+            <l>Perdona mi dolor: deja que llore,</l>
+            <l>y derrame mis ansias en tu seno...</l>
+            <l>Yo no sé, yo no sé qué abismos hondos</l>
+            <l>cavarse bajo de mi planta siento.</l>
+            <stage><emph rend="bold">(Se inclina unos instantes en el seno de su
+              hermana.)</emph></stage>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿De cuándo acá, mi Dido, ese lenguaje</l>
+            <l>de desesperación, esos afectos</l>
+            <l>de una inquietud ansiosa y afligente,</l>
+            <l>contrarios hoy a los de ayer serenos?</l>
+            <l>Troya y Eneas en igual renombre</l>
+            <l>sonaban en Cartago, y el incendio</l>
+            <l>de la ciudad más populosa de Asia</l>
+            <l>ya llenaba de asombro el universo.</l>
+            <l>Tú admirabas al héroe que, entre llamas,</l>
+            <l>penates, padre, esposa, el hijo a un tiempo</l>
+            <l>supo salvar con valerosa mano;</l>
+            <l>sin que de Atridas los soldados fieros,</l>
+            <l>ni los horrores de la noche infanda</l>
+            <l>pudieran contrastar su noble esfuerzo.</l>
+            <l>Tú lo admirabas; y en las nuevas salas</l>
+            <l>sirven de adorno a tu palacio regio</l>
+            <l>los animados lienzos, do trazaron</l>
+            <l>tantas hazañas los pinceles diestros.</l>
+            <l>En ellos ¡cuántas veces hemos visto</l>
+            <l>entre escombros y ruina, y humo y fuego,</l>
+            <l>vibrar de Eneas la tremenda espada,</l>
+            <l>y circundar mil muertes a los griegos!</l>
+            <l>Allí se mira entre falange espesa</l>
+            <l>las puntas despreciar de cien aceros,</l>
+            <l>solo animar desperanzada hueste,</l>
+            <l>solo triunfar del bárbaro Androgeo</l>
+            <l>y vengar solo los airados manes</l>
+            <l>de los fuertes de llión, que perecieron</l>
+            <l>en el largo período de diez años</l>
+            <l>contra toda la Grecia combatiendo.</l>
+            <l>¡Dido!, tú lo mirabas; y el destino</l>
+            <l>todavía ocultaba entre sus velos</l>
+            <l>del grande Eneas la futura suerte,</l>
+            <l>y tu suerte también: ni al pensamiento</l>
+            <l>pudo venir jamás que nuestras playas</l>
+            <l>vieran de Troya los preciosos restos.</l>
+            <l>Ellos se fiaron a merced del ponto;</l>
+            <l>y al ponto amotinaron tantos vientos</l>
+            <l>cuantos de Juno a la inmortal venganza</l>
+            <l>y al eterno rencor obedecieron.</l>
+            <l>Otro Dios los salvó: las rotas naves</l>
+            <l>arribaron por fin a nuestros puertos,</l>
+            <l>y Eneas a tus ojos se presenta</l>
+            <l>muy mayor que su fama. Cuando el cielo</l>
+            <l>se ocupa de un mortal, y lo reserva</l>
+            <l>para obrar sus prodigios, ¿qué recelo</l>
+            <l>puede inspirarte la pasión más digna</l>
+            <l>que abrigara jamás humano pecho?</l>
+            <l>¿Temes amar lo que los Dioses aman?</l>
+            <l>¿O son que Dido las deidades menos?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¡Ay, hermana!, perdona... No es mi llama,</l>
+            <l>es mi destino cruel al que yo temo.</l>
+            <l>Yo le vi, tú le viste; y era Eneas,</l>
+            <l>más que un mortal, un Dios; hijo de Venus,</l>
+            <l>amable, tierno, cual su tierna madre,</l>
+            <l>grande su nombre como el universo,</l>
+            <l>me miró, me incendió; y el labio suyo,</l>
+            <l>trémulo hablando del infausto fuego</l>
+            <l>que devoró su patria, más volcanes</l>
+            <l>prendió con sus palabras aquí dentro,</l>
+            <l>que en el silencio de traidora noche</l>
+            <l>allá en su Troya los rencores griegos.</l>
+            <l>Amor y elevación eran sus ojos,</l>
+            <l>elevación y amor era su acento;</l>
+            <l>y, al mirar, y al hablarme, yo bebía,</l>
+            <l>sedienta de agradarle, este veneno</l>
+            <l>en que ya está mi sangre convertida</l>
+            <l>y hará mi gloria o mi infortunio eternos.</l>
+            <l>Al principio dudé si el pecho mío</l>
+            <l>sería digno de su heroico pecho.</l>
+            <l>No he fijado, aunque reina, las miradas</l>
+            <l>de los moderadores de los cielos;</l>
+            <l>no soy más que mortal; y yo creía</l>
+            <l>ver brillar en Eneas un reflejo</l>
+            <l>de aquella lumbre celestial, que pasa</l>
+            <l>del rostro de los Dioses al de aquéllos</l>
+            <l>que su amor soberano arrebataron,</l>
+            <l>o de tan alto origen descendieron.</l>
+            <l>Mi temor era justo; pero pronto</l>
+            <l>no pudo más el alma obedecerlo,</l>
+            <l>y cedió a su pasión: los ojos míos</l>
+            <l>declararon por fin al extranjero</l>
+            <l>el ardor que en mis venas discurría,</l>
+            <l>penetrando sutil hasta los huesos.</l>
+            <l>Su corazón, hermana, sólo es duro</l>
+            <l>enfrente de la muerte, cuando, lleno</l>
+            <l>de coraje sañudo en los combates,</l>
+            <l>la venganza y furor hinchan su pecho:</l>
+            <l>pero, al lado de Dido, si es que pudo</l>
+            <l>resistir al amor, no quiso al menos</l>
+            <l>negar el paso a los ardores míos,</l>
+            <l>y los dejó llegar hasta su seno.</l>
+            <l>Mil de veces pedile en ruego blando</l>
+            <l>que me quisiera referir de nuevo</l>
+            <l>los hados de su patria, y mil de veces</l>
+            <l>los escuché con redoblado anhelo.</l>
+            <l>¡Astucias de mi amor! Mientras su labio</l>
+            <l>pendiente me tenía, yo en los besos</l>
+            <l>me gozaba de Ascanio, y en el hijo</l>
+            <l>encontraba a su padre mi deseo.</l>
+            <l>Todo fue Eneas para mí de entonces;</l>
+            <l>Eneas eran mis dichosos sueños,</l>
+            <l>Eneas era mi vigilia ansiosa,</l>
+            <l>y mi palacio, de su nombre lleno,</l>
+            <l>y Cartago también, de mis furores</l>
+            <l>testigos todos con asombro fueron.</l>
+            <l>Esta ciudad reciente, cuyos muros</l>
+            <l>emprendí con afán, de su cimiento</l>
+            <l>no los ve ya subir; los torreones</l>
+            <l>que elevar a las nubes se debieron</l>
+            <l>para defensa de Cartago un día,</l>
+            <l>apenas se alzan del nivel del suelo;</l>
+            <l>e, interrumpidas ya las obras todas,</l>
+            <l>mi sola ocupación es mi amor ciego.</l>
+            <l>Pero ayer... i ay, hermana!... los destinos,</l>
+            <l>los destinos de Dido la perdieron.</l>
+            <l>No nací para tanto... ¡Nunca, nunca,</l>
+            <l>llegaran sus bajeles a mis puertos!</l>
+            <l>¡Y nunca, nunca tu infeliz hermana</l>
+            <l>sufriera tan atroz remordimiento!</l>
+            <l>¡Ay, Ana! ¿Ya lo sabes? ¿Qué querías</l>
+            <l>de una flaca mujer, contra el incendio</l>
+            <l>que, entre la sombra de callada selva,</l>
+            <l>la abrasaba en presencia de su objeto?</l>
+            <l>¡Día de perdición, ayer luciste!</l>
+            <l>¡Silencio de los bosques! ¡Oh silencio</l>
+            <l>peligroso al pudor! Deja que oculte</l>
+            <l>mi vergüenza, Ana mía, y mi secreto.</l>
+            <stage><emph rend="bold">(En ademán de irse.)</emph></stage>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <stage><emph rend="bold">(Deteniéndola.)</emph></stage>
+            <l>¿Y así rehúsas nuevamente abrirte</l>
+            <l>a la que sola te dará consuelos?</l>
+            <l>Ignoro tu pesar: pero ¿en qué parte</l>
+            <l>vas a encontrar alivio a tu tormento,</l>
+            <l>si en mi seno amoroso y compasivo</l>
+            <l>no quieres descargar su enorme peso?</l>
+            <l>Cuanto más delicada, es más expuesta</l>
+            <l>una intensa pasión a contratiempos,</l>
+            <l>y cuanto más incendio más temores</l>
+            <l>tal vez circundan los amantes pechos.</l>
+            <l>Háblame, Dido; que quizá tu llanto</l>
+            <l>discurre en vano por tu rostro bello;</l>
+            <l>y quizá en vano se atormenta un alma</l>
+            <l>que debiera nadar entre contentos.</l>
+            <l>Las veces de razón, querida hermana,</l>
+            <l>la amistad hace en los amantes ciegos,</l>
+            <l>y la mía merece lo que anhela,</l>
+            <l>porque no anhela más que tu sosiego.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Ver no quiero, Ana mía, convertidos</l>
+            <l>tu amistad y cariño en menosprecio.</l>
+            <l>Si desato mi lengua, y en su claro</l>
+            <l>te pongo el corazón, todo tu afecto</l>
+            <l>se cambia en odio a la infelice Dido,</l>
+            <l>y todo, todo, hasta mi hermana pierdo.</l>
+            <l>Ya se vengaron los airados Dioses,</l>
+            <l>y ya el castigo de mi culpa siento:</l>
+            <l>no aumentes mi dolor con la vergüenza</l>
+            <l>de confesar yo misma mis excesos.</l>
+            <l>No me creí culpable; pero anoche</l>
+            <l>crimen y pena me ha mostrado un sueño,</l>
+            <l>y estoy abandonada a la venganza,</l>
+            <l>a la justa venganza de los cielos.</l>
+            <l>No me aborrezcas, Ana, en mi desdicha,</l>
+            <l>que bastante yo misma me aborrezco.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Ingrata! ¡Ingrata! ¿Alguna vez por suerte</l>
+            <l>te faltó mi amistad, o en largo tiempo</l>
+            <l>el dolor te amargó, sin que mi mano</l>
+            <l>derramara dulzuras en tu seno?</l>
+            <l>¡Aborrecerte yo! ¿Pudiste, Dido,</l>
+            <l>así ofenderme, cuando no te ofendo?</l>
+            <l>¿Este retorno a las finezas mías</l>
+            <l>debiste prepararme, o yo temerlo?</l>
+            <l>Si Eneas y su amor te ocupan toda,</l>
+            <l>y si él solo te basta, por lo menos,</l>
+            <l>la amistad de tu hermana merecía</l>
+            <l>un galardón mejor que tu desprecio.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No insultes mi dolor, ni más agravies</l>
+            <l>un tierno corazón, en que reservo</l>
+            <l>la sola parte que a mi hermana toca</l>
+            <l>sin entregarla al que prendió este fuego.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿Y en qué te obstinas, o por qué no admites</l>
+            <l>la sola mano que te da el remedio?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No hay remedio, querida; si mi labio</l>
+            <l>el misterio revela, no por eso</l>
+            <l>esperes aliviar las ansias mías.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Te ayudaré a sentir, si más no puedo,</l>
+            <l>y ¡qué dulce es llorar, cuando se mezclan</l>
+            <l>lágrimas de amistad al llanto nuestro!</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¿Lo quieres? Está bien. ¡Así quisiera</l>
+            <l>mis ansiedades aquietar el cielo!</l>
+            <l>Oye la causa de mi mal, y mira</l>
+            <l>si te sabré querer, cuando me atrevo</l>
+            <l>a descubrirte la vergüenza mía.</l>
+            <l>¡Oh!, ¡si como es oculta al universo,</l>
+            <l>así lo fuese a las deidades todas</l>
+            <l>cuya venganza desde anoche temo,</l>
+            <l>y que en sueño espantoso me mostraron</l>
+            <l>que fui culpable, sin pensar en serlo!</l>
+            <l>Sal; ve si alguno el importuno paso</l>
+            <l>hacia esta estancia mueve, y al momento</l>
+            <l>hazlo retroceder, no siendo Eneas.</l>
+            <l>Él solo escuchar puede los tormentos</l>
+            <l>que desde anoche el corazón desgarran;</l>
+            <l>él solo puede, pues por él padezco.</l>
+          </sp>
+          <stage>(<emph rend="bold">Ana se va.</emph>)</stage>
+        </div>
+        <div type="scene" n="3">
+          <head><emph rend="bold italic">Escena III</emph></head>
+          <stage>Dido.</stage>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¿Qué la voy a decir? ¿Por dó mi lengua</l>
+            <l>primero empezará? Si no refiero</l>
+            <l>el crimen que me abruma, ni la causa</l>
+            <l>de mis terrores referirla puedo...</l>
+            <l>¡Crimen! Eneas es esposo mío:</l>
+            <l>si decirlo a la faz del orbe entero</l>
+            <l>de mi estrella el rigor no me permite,</l>
+            <l>testigo ha sido de mi unión el cielo.</l>
+            <l>En el fuego del rayo que cruzaba</l>
+            <l>prendió su antorcha el plácido himeneo,</l>
+            <l>fue nuestro altar un álamo del bosque,</l>
+            <l>y la selva frondosa nuestro templo.</l>
+            <l>¡Crimen! Mi corazón exento y libre</l>
+            <l>quedó desde la muerte de Siqueo;</l>
+            <l>y si no quise darlo al duro Yarbas,</l>
+            <l>al blando Eneas entregarlo puedo...</l>
+            <l>Mas, Dido, tú deliras... Te fascinan</l>
+            <l>tu pasión miserable y tu deseo.</l>
+            <l>Si la culpa no es tuya, ¿cómo anoche</l>
+            <l>«¡criminal!, ¡criminal!», te dijo el cielo?</l>
+            <l>¿Y cómo tu razón, cuando volviste</l>
+            <l>del horrífico espanto de aquel sueño,</l>
+            <l>te empezó a condenar y te condena</l>
+            <l>siempre que a la razón das un momento?</l>
+            <l>¡Dioses que el fondo de mi pecho visteis,</l>
+            <l>y las ansias miráis en que peleo!,</l>
+            <l>¿sois Dioses sin piedad?... ¿Y abandonada</l>
+            <l>podré verme de Eneas?... ¿Será cierto,</l>
+            <l>lo que entre sombras vi?</l>
+            <stage><emph rend="bold">(Llamando.)</emph></stage>
+            <l>Vuelve, querida;</l>
+            <l>¡ay, Ana!, vuelve, y me darás consuelo.</l>
+          </sp>
+          <stage><emph rend="bold">(Queda la escena en silencio por un breve rato.)</emph></stage>
+        </div>
+        <div type="scene" n="4">
+          <head><emph rend="bold italic">Escena IV</emph></head>
+          <stage>Dido y Ana.</stage>
+          <stage><emph rend="bold">(Sale Ana.)</emph></stage>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Nadie se acerca, hermana: del palacio</l>
+            <l>dicen que Eneas se ausentó, al momento</l>
+            <l>que el primer rayo, precursor del día,</l>
+            <l>con oro el horizonte fue vistiendo.</l>
+            <l>Cloanto iba con él, y a poco rato</l>
+            <l>Nesteo, añaden que salió, y Sergesto.</l>
+            <stage><emph rend="bold">(Dido muestra su sorpresa y su inquietud.)</emph></stage>
+            <l>Es rara esta conducta; yo a Barcenia</l>
+            <l>encargué que indagara con secreto</l>
+            <l>el motivo que pueda ocasionarla,</l>
+            <l>y que a informarnos regresara luego.</l>
+            <l>Mas no vendrá tan pronto que no puedas...</l>
+            <l>Pero, Dido, ¡qué extraño abatimiento!</l>
+            <l>Heme a tu lado nuevamente, amiga;</l>
+            <l>deposita tus penas en mi pecho;</l>
+            <l>que, si acaso aliviarte no me es dado,</l>
+            <l>sabré contigo perecer al menos.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¡Cruel!, ¡cruel! ¿Qué nueva me has traído?</l>
+            <l>¡Qué puñal, sin saberlo, hasta mi seno...!</l>
+            <l>¿Lo ves?, ¿lo ves?... ya se cumplió...No había</l>
+            <l>la luz del sol esclarecido el cielo,</l>
+            <l>cuando Eneas... ¡oh, Dios! ¿Y dónde ha ido?</l>
+            <l>¿A qué fin a la aurora, y en silencio,</l>
+            <l>del palacio salir? ¡Qué nuevos pasos!</l>
+            <l>¿Qué no debo temer de este misterio?</l>
+            <l>¿Ves cómo era verdad, verdad terrible,</l>
+            <l>la que anunciaba mi horroroso sueño?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Depón, querida, turbación tan grande.</l>
+            <l>¿Qué sueño es ése, que a tan duro extremo</l>
+            <l>de dolor te arrebata? Ya no es justo</l>
+            <l>atormentarme más con tu silencio.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Pues oye, y tiembla, como yo he temblado,</l>
+            <l>y ve si encuentras a mi mal remedio.</l>
+            <l>Desde que Eneas arribó a mis playas</l>
+            <l>no tuve más afán que complacerlo,</l>
+            <l>estudiar sus miradas, sus acciones,</l>
+            <l>anticiparme a todos sus deseos,</l>
+            <l>idolatrarlo, en fin. Diestro en la flecha,</l>
+            <l>era la caza su mayor recreo;</l>
+            <l>y tú me has visto las mañanas todas</l>
+            <l>acompañarle por el bosque espeso,</l>
+            <l>por la llanura de los verdes valles,</l>
+            <l>y por la cumbre de los altos cerros.</l>
+            <l>Ayer sereno, como nunca, el día</l>
+            <l>en oriente lució: los compañeros</l>
+            <l>de Eneas, los magnates de mi corte,</l>
+            <l>y Ascanio mismo, con nosotros fueron.</l>
+            <l>Mas, no bien se esparciera por los campos</l>
+            <l>el venatorio bando, cuando el trueno</l>
+            <l>empezó a retumbar y en negra nube</l>
+            <l>cubrirse el sol y encapotarse el cielo.</l>
+            <l>Ardiendo el rayo sin cesar cruzaba,</l>
+            <l>y el aire todo convertido en fuego,</l>
+            <l>el miedo santo a las eternas causas,</l>
+            <l>el pavor inspiraba, y el respeto.</l>
+            <l>Toda la comitiva disipose;</l>
+            <l>y en las cabañas, o en los hondos senos</l>
+            <l>de las cavernas do las fieras moran</l>
+            <l>buscaron un asilo los dispersos.</l>
+            <l>A Eneas y a tu hermana un bosque amigo</l>
+            <l>amparo les prestó, y en su silencio</l>
+            <l>sólo la voz de amor fue triunfadora,</l>
+            <l>y empezó a resonar dentro del pecho.</l>
+            <l>Ana, si Dido fue culpable, ha sido</l>
+            <l>cómplice de su culpa el mismo cielo.</l>
+            <l>Él suspendió sus rayos y sus iras</l>
+            <l>en el momento que en el bosque espeso</l>
+            <l>penetró nuestra planta; cual si fuera</l>
+            <l>la tormenta terrible, de himeneo</l>
+            <l>la precursora pompa. Aquel instante</l>
+            <l>estalló mi volcán, y...</l>
+            <stage><emph rend="bold">(Cubriéndose el rostro, como avergonzada.)</emph></stage>
+            <l>¿Qué te puedo</l>
+            <l>decir yo con mi voz, que no te diga</l>
+            <l>mejor que con mi voz, con mi silencio?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Prosigue, Dido: de tu blanda hermana</l>
+            <l>no esperes otra cosa que consuelos.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Tal es mi culpa, si llamarse culpa</l>
+            <l>puede el amor, y la pasión que debo</l>
+            <l>a un héroe que ya miro como esposo,</l>
+            <l>y que sin duda lo es...pero yo tiemblo</l>
+            <l>al recordar la noche que ha seguido</l>
+            <l>a un día que empezó tan placentero.</l>
+            <l>Llegó la hora en que recibe a todos</l>
+            <l>en paz amiga el regalado sueño,</l>
+            <l>y en que los miembros fatigados hallan</l>
+            <l>el plácido descanso en blando lecho.</l>
+            <l>No bien entré en el mío, y mis sentidos</l>
+            <l>ocupaba el sopor, cuando del templo</l>
+            <l>donde reposan en la yerta tumba</l>
+            <l>las frígidas cenizas de Siqueo,</l>
+            <l>de repente las bóvedas temblaron;</l>
+            <l>y, arrojando con furia el pavimento</l>
+            <l>las losas sepulcrales, fue mi esposo</l>
+            <l>entre los descarnados esqueletos</l>
+            <l>el que primero conmoverse miro,</l>
+            <l>y acercarse hacia mí con paso lento.</l>
+            <l>Su mirar era horrible, y en mi oído,</l>
+            <l>sonó ronca su voz, cual suena el trueno</l>
+            <l>cuando, de monte en monte retumbando,</l>
+            <l>lejos se escucha resonar el eco.</l>
+            <l>«¡Perjura!», dijo, y al decirlo airado,</l>
+            <l>me arrancó con violencia de mi lecho,</l>
+            <l>y, llevándome al borde de su tumba,</l>
+            <l>«éste es», añade, «tu debido premio.</l>
+            <l>Has roto el juramento sacrosanto</l>
+            <l>que pronunciaste al expirar Siqueo,</l>
+            <l>y que oyeron los Dioses infernales,</l>
+            <l>que presiden la muerte y el silencio:</l>
+            <l>ven a sufrir tormentos espantosos</l>
+            <l>en la mansión callada de los muertos».</l>
+            <l>Sus palabras horrísonas entonces</l>
+            <l>los cadáveres todos repitieron,</l>
+            <l>y ya lanzaban en la horrenda huesa</l>
+            <l>a tu hermana infeliz, cuando su acento</l>
+            <l>«¡Eneas!», exclamó; «ven a librarme</l>
+            <l>de los horrores que por ti padezco».</l>
+            <l>A mi voz los espectros, silenciosos,</l>
+            <l>el mar se señalaron, y cubierto</l>
+            <l>de bajeles el mar, el mismo Eneas</l>
+            <l>iba huyendo de Dido en uno de ellos.</l>
+            <l>Entonces desperté, y, abandonada</l>
+            <l>al furor de las sombras, aquel sueño</l>
+            <l>hubiera puesto término a mi vida,</l>
+            <l>si en fuerza del pavor no me despierto.</l>
+            <l>Un sudor frío, anunciador de muerte,</l>
+            <l>bañaba todos mis cansados miembros,</l>
+            <l>y la imaginación me presentaba</l>
+            <l>en cada nuevo instante horrores nuevos.</l>
+            <l>Al fin brilló la luz, que nunca, nunca</l>
+            <l>ha tardado como hoy a mi deseo.</l>
+            <l>Ana, ya tú lo viste: el alba apenas</l>
+            <l>apagaba su lumbre a los luceros,</l>
+            <l>cuando volé a tu estancia, de la mía,</l>
+            <l>y de mi lecho, y de mí misma huyendo.</l>
+            <l>Ya sabes mi delito y mis temores:</l>
+            <l>si el primero no es tal, ipluguiera al cielo</l>
+            <l>que éstos no fuesen más que sombra vana,</l>
+            <l>y que volasen cual voló mi sueño!</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿Y así, Dido, te entregas al prestigio</l>
+            <l>de una ilusión soñada? ¡Qué!, ¿los celos</l>
+            <l>es tan fuerte pasión que sus furores</l>
+            <l>lleve hasta las mansiones de los muertos?</l>
+            <l>A los que yacen en la tumba ¿piensas</l>
+            <l>que ni tú ni tu amor...?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Sí, ya lo veo:</l>
+            <l>mas, si nada hay de común entre el que goza</l>
+            <l>la luz del día, y el que fue, a lo menos</l>
+            <l>es muy posible que un amante ingrato</l>
+            <l>a quien vive por él deje muriendo.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Mas ¿qué razón a tus temores hallas?</l>
+            <l>¿Qué mudanza ves tú que yo no veo?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Ésta es la hora, y éste mismo el sitio</l>
+            <l>a que todos los días el primero</l>
+            <l>concurre Eneas, y de aquí a la caza</l>
+            <l>conmigo sale. ¿Dónde está? Yo temo</l>
+            <l>que la primera vez que falta Eneas</l>
+            <l>no sé qué me prepara de funesto.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Tal vez no tardará: pero siquiera,</l>
+            <l>en tanto que el motivo no sabemos,</l>
+            <l>no anticipes tu mal. ¿A quién, hermana,</l>
+            <l>para ser infeliz le falta tiempo?</l>
+            <l>Tú verás cómo Eneas... Mas Barcenia</l>
+            <l>hacia aquí viene ya: todo el misterio</l>
+            <l>de su labio sabrás; verás cuál vuelves</l>
+            <l>a tu tranquilidad y a tu sosiego.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head><emph rend="bold italic">Escena V</emph></head>
+          <stage>Dido, Anay Barcenia.</stage>
+          <stage><emph rend="bold">(Sale Barcenia.)</emph></stage>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¿Qué me dices, Barcenia? ¿Son fundados,</l>
+            <l>o no debo dar crédito a mis sueños?</l>
+          </sp>
+          <sp who="#barcenia">
+            <speaker>Barcenia</speaker>
+            <l>No os comprendo, señora; ni tampoco</l>
+            <l>de comprender acabo lo que vengo</l>
+            <l>de escuchar y de ver: de nuestras playas</l>
+            <l>hoy los troyanos se despiden creo.</l>
+            <l>Unos a otros en secreto se hablan,</l>
+            <l>en confuso tropel bajan al puerto,</l>
+            <l>y Eneas, y Cloanto, y otros jefes,</l>
+            <l>parecen ordenar un movimiento</l>
+            <l>que debe hacer la armada. En tal conducta</l>
+            <l>hay algo ciertamente de misterio:</l>
+            <l>los tirios y troyanos ya no forman</l>
+            <l>como hasta el día de hoy, un solo pueblo;</l>
+            <l>desconfían, se evitan, y parecen</l>
+            <l>mostrarse mutuamente algún recelo.</l>
+            <l>Se habla de un modo vario de la causa</l>
+            <l>que ha producido tan extraño efecto:</l>
+            <l>todos se encuentran, se preguntan todos,</l>
+            <l>y nadie sabe responder lo cierto;</l>
+            <l>pero yo temo que tal vez mañana...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <stage><emph rend="bold">(Prorrumpe con ímpetu y su agitación irá creciendo por grados
+                hasta finalizar el acto.)</emph></stage>
+            <l>Basta, Barcenia. ¿Y es posible, cielos,</l>
+            <l>que así se burle, sin hallar castigo,</l>
+            <l>de una reina infeliz un extranjero?</l>
+            <l>¿Qué más he de saber? ¡Hermana! ¡Amiga!</l>
+            <l>Ve, di a ese monstruo que deseo verlo,</l>
+            <l>verlo la última vez. Tú sola puedes</l>
+            <l>librarme en tantas ansias: el perverso</l>
+            <l>a ti sola se abría, y te confiaba</l>
+            <l>su doble corazón y sus secretos</l>
+            <l>Ana, él te amaba, y a tu hermana triste</l>
+            <l>mostraba sólo su mentido fuego.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>No más insultes mi amistad, querida;</l>
+            <l>que ya bastante en tu dolor padezco.</l>
+            <l>Buscaré a tu enemigo; mal he dicho:</l>
+            <l>no lo será tal vez... En fin, yo vuelo</l>
+            <l>a encontrarme con él. Es imposible</l>
+            <l>que quepa tal perfidia en tales pechos.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Ve, vuela, llama al cruel: dile que Dido</l>
+            <l>arde más en su amor cada momento;</l>
+            <l>dile que se consumen mis entrañas</l>
+            <l>en destructor inapagable incendio,</l>
+            <l>y que todo mi ser... No digas nada...</l>
+            <l>deja que me abandone. Yo ¿qué pierdo</l>
+            <l>si he perdido mi paz, mi dulce calma,</l>
+            <l>y quizá mi virtud, por un perverso?</l>
+            <l>La muerte nada más... Tal vez la hora</l>
+            <l>es ésta ya en que, tranquilo y quieto,</l>
+            <l>se lanzará a la mar, y de mi pena</l>
+            <l>se burlará con otros, convirtiendo</l>
+            <l>hacia Cartago la insultante vista</l>
+            <l>y gozando en mi mal... ¿Ves cómo el tiempo,</l>
+            <l>Ana mía, se va? Vuela, querida,</l>
+            <l>pide, ruega, importuna. Yo no creo</l>
+            <l>que tanto mienta el exterior de un hombre...</l>
+            <l>¡Tórnelo yo a mirar, y parta luego!</l>
+            <l>Pero no huya de mí sin que mi lengua</l>
+            <l>«¡ingrato!, ¡ingrato!», le repita al menos.</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head><emph rend="bold">Acto II</emph></head>
+        <div type="scene" n="1">
+          <head><emph rend="bold italic">Escena I</emph></head>
+          <stage>Eneas y Nesteo.</stage>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Era mejor que el corazón, amigo,</l>
+            <l>hecho de bronce o de diamante fuera,</l>
+            <l>y que nunca, jamás, en él tuviesen</l>
+            <l>algún poder las impresiones tiernas.</l>
+            <l>Mi trabajada vida ningún paso</l>
+            <l>me ofreció tan difícil; y más cuesta</l>
+            <l>en la lucha de afectos encontrados</l>
+            <l>hacer que al corazón la gloria venza,</l>
+            <l>que insultar los peligros y la muerte</l>
+            <l>en el ardor feroz de la pelea,</l>
+            <l>y arrollar con denuedo imperturbable</l>
+            <l>en negra noche las falanges griegas.</l>
+            <l>¿Quién creería que un pecho acostumbrado</l>
+            <l>a los horrores de la cruda guerra,</l>
+            <l>fuese pecho amador, blando, sensible,</l>
+            <l>que a los encantos del amor cediera?</l>
+            <l>Ello es así. De mi valor, Nesteo,</l>
+            <l>el esfuerzo mayor es esta ausencia.</l>
+            <l>Dido se quejará de su destino,</l>
+            <l>pero nunca de mí. Por dondequiera</l>
+            <l>lléveme el hado; mas la imagen suya</l>
+            <l>estará siempre en mi memoria impresa;</l>
+            <l>que el amor no degrada, y nunca puede</l>
+            <l>ser generoso quien ingrato sea.</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>La pasión de la reina es acreedora</l>
+            <l>a una pasión igual, y si no fueran</l>
+            <l>las órdenes del cielo...</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>No, Nesteo;</l>
+            <l>es grande mi pasión, mas no me ciega;</l>
+            <l>y yo estoy bien seguro de mi triunfo</l>
+            <l>pues mi primer deber lucha con ella.</l>
+            <l>La victoria es costosa, pero al cabo</l>
+            <l>siempre fue necesaria: estas riberas</l>
+            <l>no son en las que un día los troyanos</l>
+            <l>hallar su patria y su fortuna esperan.</l>
+            <l>Las reliquias de Troya, reservadas</l>
+            <l>para formar una nación soberbia,</l>
+            <l>deben sólo fijarse en las regiones</l>
+            <l>do el Tíber corre, y el latino reina.</l>
+            <l>El oráculo santo lo ha ordenado;</l>
+            <l>y a nosotros, amigo, sólo resta</l>
+            <l>obedecer al cielo, y engreírnos</l>
+            <l>de ser los instrumentos que quisieran</l>
+            <l>los Dioses elegir, para que un día</l>
+            <l>su voluntad suprema se cumpliera.</l>
+            <l>Mas, aunque las deidades sus designios</l>
+            <l>hubieran ocultado, nunca Eneas</l>
+            <l>pudiera permitir que tantos héroes</l>
+            <l>como han sobrevivido a la funesta</l>
+            <l>destrucción de su patria, peregrinos</l>
+            <l>en la extensión de la anchurosa tierra,</l>
+            <l>mendigasen asilos extranjeros,</l>
+            <l>y esclavos fuesen de una ley ajena.</l>
+            <l>Atravesando mares, e insultando</l>
+            <l>la muerte, la desgracia, y la miseria,</l>
+            <l>debiéramos buscar de cualquier modo</l>
+            <l>entre nuevos peligros, glorias nuevas.</l>
+            <l>La historia de los héroes pocos días</l>
+            <l>debe marcar obscuros, y la nuestra</l>
+            <l>ha de servir de ejemplo a las edades,</l>
+            <l>por más que cueste al corazón violencia.</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>Tal es mi parecer; y el labio mío</l>
+            <l>jamás desmiente mi interior. Quisiera</l>
+            <l>que, mudos los oráculos, dejaran</l>
+            <l>a nuestra sola decisión la empresa</l>
+            <l>de conquistar la fama; y que la gloria</l>
+            <l>de un inmortal renombre la debieran</l>
+            <l>a sí mismos, no al cielo, los troyanos.</l>
+            <l>Mas, por mucho que el alma se posea</l>
+            <l>de esta noble ambición, no puedo menos</l>
+            <l>que lamentar la suerte de una reina...</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Es justo, amigo: como tú lamento</l>
+            <l>su desventura yo: ¿ni quién pudiera</l>
+            <l>con más razón dolerse de sus males,</l>
+            <l>que el mismo que los causa? La demencia</l>
+            <l>de la pasión de Dido, sus transportes,</l>
+            <l>el fuego abrasador en que se incendia,</l>
+            <l>estériles no han sido, y a mi pecho</l>
+            <l>harto cuesta el sentirlos. Era fuerza</l>
+            <l>esperar en Cartago a que volviese</l>
+            <l>la estación mansa de la primavera,</l>
+            <l>para lanzar a un mar desconocido</l>
+            <l>nuestras pequeñas naves; y la reina</l>
+            <l>en todo este período ha fomentado</l>
+            <l>la infundada esperanza de que Eneas,</l>
+            <l>prestándose por fin a un himeneo,</l>
+            <l>no saldría ya más de estas riberas.</l>
+            <l>Su amor pasó a mi pecho, pero nunca</l>
+            <l>su ceguedad pasó; ni de mi lengua</l>
+            <l>el dictado de esposa escuchar pudo</l>
+            <l>por más que quiso que su esposo fuera.</l>
+            <l>Si yo no me debiese a los destinos,</l>
+            <l>sólo a Dido, Nesteo, me debiera;</l>
+            <l>porque al cabo la amé, ni vendrá día</l>
+            <l>en que de haberla amado me arrepienta.</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>¡Difícil posición! Y ¡cómo a veces</l>
+            <l>los cuidados que el cielo nos dispensa,</l>
+            <l>y el interés que en nuestra dicha toma,</l>
+            <l>suspiros mil al corazón le cuestan!</l>
+            <l>Mas por esto, señor, mejor sería,</l>
+            <l>pues no hay otro remedio, que la ausencia</l>
+            <l>fuese como la fuga, sin mostraros</l>
+            <l>otra vez a la vista de la reina.</l>
+            <l>¿A qué fin exponeros a reproches</l>
+            <l>que ciertamente la razón condena,</l>
+            <l>pero que el corazón, por más que luche,</l>
+            <l>encuentra justos, y en silencio aprueba?</l>
+            <l>Bien veis que a Dido ni el amor de gloria</l>
+            <l>ni el destino arrebata: amante y ciega,</l>
+            <l>ni escucha más razón que su cariño,</l>
+            <l>ni siente más que su pasión intensa.</l>
+            <l>¿O queréis que, abatida, desolada,</l>
+            <l>desesperada después, vuestra presencia</l>
+            <l>encone más la herida de su pecho,</l>
+            <l>y se deje llevar...? ¡Señor!, es fuerza</l>
+            <l>que huyamos de una vez: en su delirio</l>
+            <l>una mujer amante todo atenta,</l>
+            <l>y quién sabe si Dido... Mas, vos mismo,</l>
+            <l>al rayar este día, con la idea</l>
+            <l>estabais de partir sin ser notado.</l>
+            <l>¿Qué causa puede haber que así convierta...?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Es verdad, lo pensé; mas yo creía</l>
+            <l>ocultar nuestra fuga de la reina,</l>
+            <l>y que su desengaño le viniese</l>
+            <l>cuando, lejos del puerto nuestras velas,</l>
+            <l>ni yo viera su llanto, ni ella misma</l>
+            <l>que yo insultaba su dolor creyera.</l>
+            <l>Se frustró mi designio: el movimiento</l>
+            <l>en que están los troyanos, la presteza</l>
+            <l>con que acuden al puerto, mi salida</l>
+            <l>temprano del palacio, y la sorpresa</l>
+            <l>que ha causado a la reina el que este día</l>
+            <l>faltase yo del sitio en que me espera</l>
+            <l>para ir a la caza, han excitado</l>
+            <l>su amarga duda, y su cruel sospecha.</l>
+            <l>Yo lo temí cuando en la playa misma</l>
+            <l>en medio del concurso vi a Barcenia,</l>
+            <l>y la curiosidad que la agitaba;</l>
+            <l>y, sin embargo, resistí esta prueba.</l>
+            <l>Mas la hermana de Dido de repente</l>
+            <l>ansiosa entre el tumulto se me acerca,</l>
+            <l>me aparta de Cloanto, de su hermana</l>
+            <l>me pinta la aflicción, llora, me ruega,</l>
+            <l>y yo entonces prometo... ¿Quién resiste</l>
+            <l>consolar a su amante, cuando ella</l>
+            <l>no exige más consuelos que la vista</l>
+            <l>del causador de sus amargas penas?</l>
+            <l>Le prometí volver; he vuelto, amigo,</l>
+            <l>y ¡ojalá que mi pecho no sintiera</l>
+            <l>lo terrible del lance! Mas, al menos</l>
+            <l>yo puedo resistir...</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>Podéis; pero ella</l>
+            <l>ni sabrá, ni podrá: no son consuelos,</l>
+            <l>son causas de furor las que la reina</l>
+            <l>en su delirio busca; la esperanza</l>
+            <l>aún quizá la promete... ¿Quién consuela</l>
+            <l>a una mujer frenética? Es preciso</l>
+            <l>que vuestra pronta fuga la convenza</l>
+            <l>que ya no hay esperar: entonces puede</l>
+            <l>que, por creeros ingrato...</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¿Y yo debiera</l>
+            <l>darle motivo para que algún día</l>
+            <l>me impute con razón nota tan fea,</l>
+            <l>y recuerde mi nombre como el nombre</l>
+            <l>de un insensible, que el dolor desprecia?</l>
+            <l>No, Nesteo; he de verla: estoy seguro</l>
+            <l>de no olvidarme de quien soy: la reina</l>
+            <l>sabrá que, si la dejo, en ningún tiempo</l>
+            <l>la dejaría, si no fuese Eneas.</l>
+            <l>Pronto debe venir hasta este sitio:</l>
+            <l>retírate, Nesteo. En la ribera</l>
+            <l>que todo se prepare, y vuelve al punto</l>
+            <l>en que deba mi nave dar la vela.</l>
+          </sp>
+          <stage><emph rend="bold">(Se va Nesteo.)</emph></stage>
+        </div>
+        <div type="scene" n="2">
+          <head><emph rend="bold italic">Escena II</emph></head>
+          <stage>Didoy Eneas.</stage>
+          <stage><emph rend="bold">(Sale Dido y hay algunos momentos de silencio en los que ésta
+              mira a Eneas con cierto aire de indignación.ENEAS manifiesta lo indeciso y difícil de
+              su posición.)</emph></stage>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <stage><emph rend="bold">(Prorrumpe exaltada.)</emph></stage>
+            <l>¿Pudiste, pérfido, esperar? ¿Creíste</l>
+            <l>que el disimulo tu maldad cubriera,</l>
+            <l>y así, callado, entre ignominia y llanto</l>
+            <l>dejarme abandonada? ¿Menosprecias</l>
+            <l>el hospedaje que te di oficiosa,</l>
+            <l>y que pude no darte?; ¿la obsecuencia,</l>
+            <l>la amistad de los tirios?; ¿más que todo,</l>
+            <l>la pasión impetuosa de una reina?</l>
+            <l>¡Perjuro! ¿Sabes lo que a mí me debes?</l>
+            <l>¿O el burlarte en mi mal crees que a tu nombre</l>
+            <l>puede añadir honor? ¡Qué es esto, Eneas!</l>
+            <l>Mi amor, la mano que te di de esposa,</l>
+            <l>este fuego voraz, que por mis venas</l>
+            <l>circula, y cunde, y me consume toda,</l>
+            <l>sin dejarme sentir más existencia</l>
+            <l>que la que siento para amarte, ¿nada,</l>
+            <l>nada es bastante para hacer que vuelvas</l>
+            <l>a contemplar a Dido, y los horrores</l>
+            <l>en que la dejas para siempre envuelta?</l>
+            <l>Bien lo predijo mi espantoso sueño...</l>
+            <l>La tumba, nada más, la tumba yerta,</l>
+            <l>la venganza terrible de los manes,</l>
+            <l>ése es el premio que mi amor espera.</l>
+            <l>Anoche yo te vi, te vi, perjuro,</l>
+            <l>abandonar a Dido; y Dido, en presa</l>
+            <l>a los espectros; y a la horrenda muerte,</l>
+            <l>conoció tarde lo que amarte cuesta.</l>
+            <l>Yo te llamaba, y te llamaba en vano;</l>
+            <l>heme ya junto a ti: puedes siquiera</l>
+            <l>librarme de ti mismo, de los males</l>
+            <l>que, aun en idea, sin piedad me aterran.</l>
+            <l>¡Ingrato!, ¡ingrato! Tan siquiera aguarda</l>
+            <l>a que, más decidida, te prometa</l>
+            <l>un viaje fácil la estación propicia.</l>
+            <l>Un día, nada más, un día espera.</l>
+            <l>Yo no pretendo que en Cartago siempre</l>
+            <l>vivas, y reines, y a mi lado mueras.</l>
+            <l>¡Oh!, ¡si pudiera ser! Pero te ruego</l>
+            <l>que un breve espacio, una pequeña tregua</l>
+            <l>prestes a mi dolor, mientras mi pecho</l>
+            <l>a vivir muertes en la horrible ausencia</l>
+            <l>se puede preparar; mientras la suerte</l>
+            <l>a saber ser tan infeliz me enseña.</l>
+            <l>¿Me lo podrás negar? ¿Tendrás acaso</l>
+            <l>de bronce el corazón? Parta mi Eneas,</l>
+            <l>parta a su Italia, y en remotos climas</l>
+            <l>un bello reino y una amante bella</l>
+            <l>busque en buenhora; pero deme al menos</l>
+            <l>derramar mi dolor en su presencia;</l>
+            <l>y esta inmensa pasión siquiera logre</l>
+            <l>que quien la vio nacer, un día vea</l>
+            <l>hasta dónde llegó... ¡Mísera Dido!</l>
+            <l>¡Oh, Dioses! ¡Qué furor!... Y si tuvieras</l>
+            <l>pecho de bronce y corazón de roca,</l>
+            <l>¿qué más harías con tu amante? ¿Cierras</l>
+            <l>el labio mentidor? ¿Nada respondes?</l>
+            <l>¿Llegar pudiste hasta esperar mi afrenta</l>
+            <l>para entonces, malvado, y sólo entonces,</l>
+            <l>abandonarme así? ¡Oh, luz funesta</l>
+            <l>la que ayer me alumbró! ¿Por qué no vino</l>
+            <l>una fiera del bosque?... ¡Oh, Dios! ¿Tu lengua</l>
+            <l>hora calla, traidor? Mejor callara</l>
+            <l>cuando a tu amante en su delirio oyeras.</l>
+            <l>¡Cruel! ¿Y no se asoma por tus ojos,</l>
+            <l>ni mentida, una lágrima siquiera?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¡Dido! ¡Mísera reina! Yo conozco</l>
+            <l>la razón de tu amor: jamás Eneas</l>
+            <l>se olvidará de lo que a Dido debe,</l>
+            <l>y de los males que por él la cercan.</l>
+            <l>Si yo solo de mí y de mis acciones,</l>
+            <l>como tú de las tuyas, dispusiera,</l>
+            <l>nunca tendrías que llamarme ingrato,</l>
+            <l>por más que fuese tu pasión violenta.</l>
+            <l>No es para mí la vida que los cielos</l>
+            <l>con afán cuidadoso me dispensan:</l>
+            <l>me debo a sus designios; y el Olimpo,</l>
+            <l>cuando escoge a un mortal, marca la senda</l>
+            <l>por do debe marchar, ni le permite</l>
+            <l>un solo paso separarse de ella.</l>
+            <l>No es una sombra vana, no es un sueño</l>
+            <l>al que obedezco yo, ¿ni quién pudiera</l>
+            <l>así curarse de ilusiones tales?</l>
+            <l>Un Dios es, Dido, quien a mí me ordena</l>
+            <l>buscar entre peligros y borrascas</l>
+            <l>más allá de los mares otra tierra.</l>
+            <l>Un Dios es, Dido, quien mis pasos mueve:</l>
+            <l>a la deidad, no a mí...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¡Malvado! ¿Piensas</l>
+            <l>que también no hay un Dios que a Dido cuida,</l>
+            <l>y del perjurio y la traición la venga?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>No soy perjuro ni traidor, querida:</l>
+            <l>si así te llama y te llamó mi lengua,</l>
+            <l>nunca, jamás, la desmintió mi pecho,</l>
+            <l>donde tu imagen y tu amor se encierran.</l>
+            <l>Bastantes días ya, bastantes días</l>
+            <l>me reclama la gloria, que debieran</l>
+            <l>solamente en buscarla haberse empleado,</l>
+            <l>si nunca ardido en tu querer hubiera.</l>
+            <l>Mis compañeros de infortunio, aquéllos</l>
+            <l>que quisieron ponerme a su cabeza,</l>
+            <l>y llamarme su rey, desde el momento</l>
+            <l>en que, entre el fuego y la matanza griega,</l>
+            <l>los libré del incendio de su patria,</l>
+            <l>después que el cielo decretó perderla;</l>
+            <l>ésos han acusado con justicia</l>
+            <l>mi estación en Cartago: ellos esperan,</l>
+            <l>confiados en la fe de los oráculos,</l>
+            <l>que Italia admire de la Troya nueva</l>
+            <l>el naciente esplendor: yo mismo, Dido,</l>
+            <l>a acusarme llegué; ni pudo Eneas</l>
+            <l>esperar a que un Dios lo concitara</l>
+            <l>sí no te hubiera amado con vehemencia.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No insultes más en mi presencia al cielo.</l>
+            <l>¿De cuándo acá los Dioses aconsejan</l>
+            <l>el perjurio, el engaño; y autorizan</l>
+            <l>a que un mortal sacrílego se atreva</l>
+            <l>a cubrir con su nombre sacrosanto</l>
+            <l>las abominaciones que detestan?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Siempre el perjurio y la traición me imputas,</l>
+            <l>cuando mis sentimientos no se mezclan</l>
+            <l>con crímenes tan feos. ¿En qué tiempo</l>
+            <l>su juramento ha quebrantado Eneas?</l>
+            <l>Te juré que te amaba; y te amo, Dido,</l>
+            <l>y te amaré, mientras la lumbre vea</l>
+            <l>del sol vivificante, y esta vida</l>
+            <l>me dispense el destino que me fuerza.</l>
+            <l>Yo debí obedecerle, y fue por eso</l>
+            <l>que consentir no quise en que encendiera</l>
+            <l>Himeneo su antorcha, y nuestras almas</l>
+            <l>por siempre uniese en ligadura eterna.</l>
+            <l>Nunca mi esposa te llamé, ni nunca</l>
+            <l>se escapó de mis labios una prenda</l>
+            <l>de tamaño valor: te alucinaste,</l>
+            <l>y a los delirios de tu pasión ciega</l>
+            <l>diste una realidad que...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Tú, tú mismo</l>
+            <l>me hiciste concebir tan lisonjeras,</l>
+            <l>tan dulces esperanzas. ¿Con qué objeto</l>
+            <l>fomentabas mi llama, y en mis venas</l>
+            <l>el veneno fatal a cada instante</l>
+            <l>vertían tus palabras halagüeñas?</l>
+            <l>Pero yo ¿dónde voy? ¿Cómo pretendo</l>
+            <l>con llanto débil ablandar la peña</l>
+            <l>de que es formado el corazón de un monstruo?</l>
+            <l>Mis lágrimas ¿qué valen?... Nada... Aumentan</l>
+            <l>el triunfo del malvado, y, engreído,</l>
+            <l>contempla mi dolor y lo desprecia.</l>
+            <l>¿Se le oye algún suspiro? ¿Algún sollozo</l>
+            <l>interrumpe su hablar? Quiere que crea</l>
+            <l>que lo violenta un Dios; como si fuesen</l>
+            <l>los Dioses como Dido, que no piensa</l>
+            <l>en nada más que en él; como si un hombre,</l>
+            <l>un hombre solo interesar pudiera</l>
+            <l>a los que en lo alto de su gloria miran</l>
+            <l>como nada los cielos y la tierra.</l>
+            <l>¡Un Dios! ¡Blasfemo! Parte; parte, inicuo;</l>
+            <l>la ambición es tu dios: te llama; vuela</l>
+            <l>donde ella te arrebata, mientras Dido</l>
+            <l>morirá de dolor: sí. Pero tiembla,</l>
+            <l>tiembla cuando, en el mar, el rayo, el viento,</l>
+            <l>y los escollos que mi costa cercan,</l>
+            <l>y amotinadas las bramantes olas,</l>
+            <l>en venganza de Dido se conmuevan.</l>
+            <l>Me llamarás entonces, pero entonces</l>
+            <l>morirás desoído. Cuando muera</l>
+            <l>tu amante desolada, entre los brazos</l>
+            <l>de tierna hermana expirará siquiera.</l>
+            <l>Y sus reliquias posarán tranquilas,</l>
+            <l>y bañadas de llanto en tumba regia:</l>
+            <l>pero tú morirás, y tu cadáver,</l>
+            <l>al volver de las ondas, será presa</l>
+            <l>de los marinos monstruos; e, insepulto,</l>
+            <l>ni en las mansiones de la muerte horrenda</l>
+            <l>descansarán tus manes. Parte, ingrato,</l>
+            <l>no esperes en Italia recompensas</l>
+            <l>hallar de tu traición; parte, que Dido</l>
+            <l>al menos estará entonces contenta</l>
+            <l>cuando allá a las regiones de las almas</l>
+            <l>de tu espantable fin llegue la nueva.</l>
+          </sp>
+          <stage><emph rend="bold">(Se va con precipitación.)</emph></stage>
+        </div>
+        <div type="scene" n="3">
+          <head><emph rend="bold italic">Escena III</emph></head>
+          <stage>Eneas.</stage>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¡Dido! ¡Dido infeliz! Ya no me escucha.</l>
+            <l>La triste se abandona a la violencia</l>
+            <l>de su pasión fatal; y yo, que la amo,</l>
+            <l>¿qué puedo hacer por mitigar su pena?</l>
+            <l>Nada me es dado; nada: yo conmigo</l>
+            <l>me llevo su dolor; pero esta ausencia</l>
+            <l>se juzga ingratitud; y mi memoria,</l>
+            <l>manchada de una nota que detesta</l>
+            <l>mi corazón sincero, será odiada</l>
+            <l>de la mujer que adoro. Más valiera,</l>
+            <l>sí, más valiera que la suerte oscura</l>
+            <l>me hubiese confundido entre la inmensa</l>
+            <l>muchedumbre vulgar: mi nombre entonces</l>
+            <l>cuando muriere yo, también muriera,</l>
+            <l>sin emplearse la fama en transmitirlo</l>
+            <l>de una edad a otra edad; empero, exenta,</l>
+            <l>mi vida fuera mía, y mi cariño</l>
+            <l>no costara a mi amante lo que cuesta.</l>
+            <l>¡Oh, cielos! El tormento que yo sufro</l>
+            <l>no debería ser la recompensa</l>
+            <l>del sacrificio doloroso y grande</l>
+            <l>que a vuestra voluntad consagra Eneas.</l>
+            <l>Perdonadme, deidades inmortales:</l>
+            <l>pero, ya que me disteis resistencia</l>
+            <l>para acallar los gritos de mi pecho,</l>
+            <l>y no escuchar más voces que las vuestras,</l>
+            <l>mirad a Dido con piedad un día;</l>
+            <l>y llegue a persuadirse que su amante</l>
+            <l>hasta un extremo tal supo quererla,</l>
+            <l>que a una pasión tan dulce, nada, nada,</l>
+            <l>que no fueran los Dioses prefiriera.</l>
+            <l>Pero, Eneas, ¡qué es esto! ¿Tu cariño</l>
+            <l>puede cegarte ya? Sigue la senda</l>
+            <l>que la gloria te marca: los troyanos</l>
+            <l>te eligieron su rey; toda la tierra</l>
+            <l>está pendiente de un destino nuevo:</l>
+            <l>las esperanzas de los tuyos llena,</l>
+            <l>cual debieras hacerlo, aunque el Olimpo</l>
+            <l>no se dignara dirigir la empresa.</l>
+            <l>Mucho tarda Nesteo; nuestras naves</l>
+            <l>pudieran ya partir; nada interesa</l>
+            <l>el esperar la noche, porque Dido</l>
+            <l>ya penetró el misterio. ¡Qué violentas</l>
+            <l>son ya las horas que en Cartago pasan!</l>
+            <l>Mas ¿qué será? La hermana de la reina</l>
+            <l>hacia esta estancia se dirige. ¡A mi alma</l>
+            <l>nuevos combates por mi mal esperan!</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head><emph rend="bold italic">Escena IV</emph></head>
+          <stage>Ana y Eneas.</stage>
+          <stage><emph rend="bold">(Sale Ana.)</emph></stage>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>En nueva vez os busco, para daros</l>
+            <l>por mi infeliz hermana nuevas quejas.</l>
+            <l>¿Era posible que en el pecho vuestro</l>
+            <l>se anidara, señor, una dureza</l>
+            <l>que el exterior desmiente, y que parece</l>
+            <l>no poderse hermanar con vuestras prendas?</l>
+            <l>En mí no veréis llanto; y esto mismo</l>
+            <l>me cierra la esperanza. Al que no muevan</l>
+            <l>las lágrimas preciosas de su amante,</l>
+            <l>¿qué podrá ya mover? Pero, ¿no piensa</l>
+            <l>el héroe de llión en la desgracia</l>
+            <l>de Cartago, los tirios, y la reina?</l>
+            <l>Cuando arribasteis vos a nuestros puertos</l>
+            <l>en hora fortunada, estas riberas</l>
+            <l>recién dejaba el implacable Yarbas.</l>
+            <l>Bien lo sabéis, señor, en la demencia</l>
+            <l>de su pasión feroz, pidió de Dido</l>
+            <l>el tálamo partir, y que la diestra</l>
+            <l>le entregara mi hermana, consintiendo</l>
+            <l>en un enlace que el amor detesta.</l>
+            <l>Dido se denegó, y él mismo entonces</l>
+            <l>se presentó en Cartago. La fiereza</l>
+            <l>de un carácter atroz, unida al fuego</l>
+            <l>de un amor tan furioso como aquélla</l>
+            <l>se dejó ver en Yarbas: Dido opuso</l>
+            <l>más tenaz y más justa resistencia</l>
+            <l>al temerario empeño; y, desperado,</l>
+            <l>el amante feroz se ausenta de ella.</l>
+            <l>Pero, al partir, «Yo volveré», le dijo,</l>
+            <l>«no ya como a rogarte; ni la tea</l>
+            <l>que mi mano traerá podrá apagarse</l>
+            <l>sin que en cenizas a Cartago vuelva.</l>
+            <l>Tú sola escaparás de tal incendio;</l>
+            <l>pero no más que para ser la presa</l>
+            <l>en que se cebe mi rencor. Armada</l>
+            <l>a toda la Getulia en mi defensa</l>
+            <l>pronto verás venir; y arrebatada</l>
+            <l>de en medio de los tuyos, en mis tierras</l>
+            <l>serás esclava, pagarás bien caro</l>
+            <l>tu orgullo, tus insultos, y mi afrenta;</l>
+            <l>y, si aquí a Yarbas conociste amante,</l>
+            <l>allá conocerás cómo se venga»,</l>
+            <l>dijo, y partió; y en los confines nuestros</l>
+            <l>ya bramaban las furias de la guerra,</l>
+            <l>cuando entraron, preñadas de troyanos,</l>
+            <l>a este puerto, señor, las naves vuestras.</l>
+            <l>Dido las recibió; y al ver un héroe</l>
+            <l>de cuyo nombre sus comarcas llenas</l>
+            <l>estaban de antemano, y los soldados</l>
+            <l>que pelearon diez años contra Grecia,</l>
+            <l>ni ya temió de Yarbas los insultos,</l>
+            <l>ni pensó en levantar las fortalezas</l>
+            <l>que en el cimiento veis, y en que debían</l>
+            <l>ampararse los tirios en la guerra.</l>
+            <l>La Fama al punto discurrió, y de Yarbas</l>
+            <l>llevó al oído la funesta nueva</l>
+            <l>de tan próspero arribo, y los amores</l>
+            <l>que en el pecho encendisteis de la reina.</l>
+            <l>Lo supo; y si, temiendo a los troyanos,</l>
+            <l>contuvo sus furores la impotencia,</l>
+            <l>la sed de su venganza más se enciende:</l>
+            <l>¿y cuál será su efecto cuando vea</l>
+            <l>que, abandonada la infelice Dido</l>
+            <l>del brazo que se alzaba en su defensa,</l>
+            <l>en presa queda a los rencores suyos?</l>
+            <l>¿Cómo será su rabia, cuando aumentan</l>
+            <l>los celos su furor? ¡Señor!, al menos</l>
+            <l>esperad unos meses, mientras puedan</l>
+            <l>levantarse los muros de Cartago,</l>
+            <l>ya que nos falta quien su vez hiciera.</l>
+            <l>Esperad unos meses: el delirio</l>
+            <l>calmará de la reina, y ya dispuesta</l>
+            <l>a miraros partir, no hará en su pecho</l>
+            <l>el estrago que temo vuestra ausencia.</l>
+            <l>¡Eneas! ¿No escucháis? Si en su infortunio</l>
+            <l>a mi hermana mirarais, no cupiera</l>
+            <l>más resistencia en vos: yo la he dejado</l>
+            <l>en poder de sus tristes compañeras</l>
+            <l>abandonada a su dolor terrible,</l>
+            <l>a un dolor que la mata: ni su lengua</l>
+            <l>pronuncia ya más voz que la de «muerte»,</l>
+            <l>ni ya mi esfuerzo a consolarla llega.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Señora, vuestra hermana es la que causa</l>
+            <l>que el favor que los cielos me dispensan</l>
+            <l>tenga por infortunio; y que la gloria</l>
+            <l>me parezca enfadosa, cuando vuelan</l>
+            <l>todos mis compañeros en su busca,</l>
+            <l>y ellos me llaman cual me llama aquélla.</l>
+            <l>¿Y qué queréis de mí? Yo adoro a Dido;</l>
+            <l>empero más adoro la suprema</l>
+            <l>voluntad de los Dioses: ellos mismos</l>
+            <l>abatirse se dignan hasta Eneas,</l>
+            <l>lo futuro me enseñan, y me mandan</l>
+            <l>que parta al punto de esta dulce tierra.</l>
+            <l>Y yo, ¿qué puedo hacer? Mi amante mismo,</l>
+            <l>la misma Dido, ¿en mi lugar qué hiciera?</l>
+            <l>¿Teme de Yarbas el rencor innoble?</l>
+            <l>Y antes que yo viniese, ¿cuál defensa,</l>
+            <l>que no fueran los tirios, a la rabia</l>
+            <l>del tirano vecino se opusiera?</l>
+            <l>Los tirios bastarán; estas murallas</l>
+            <l>tienen tiempo de alzarse, antes que pueda</l>
+            <l>el duro Yarbas concitar su pueblo,</l>
+            <l>reunirlo, armarlo, y emprender la guerra.</l>
+            <l>Además, el amor no dura mucho</l>
+            <l>en un pecho feroz; la llama tierna</l>
+            <l>es extranjera en él, arde de paso,</l>
+            <l>y luego lo abandona a su rudeza.</l>
+            <l>Así de Yarbas la pasión insana</l>
+            <l>tal vez no existe ya, ni...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Si existiera</l>
+            <l>en vuestro pecho la que en otros días</l>
+            <l>a mi hermana jurasteis, no pudiera</l>
+            <l>la ingratitud dictaros los efugios</l>
+            <l>que vuestro mismo corazón condena.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Ni yo ni nadie condenarme puede.</l>
+            <l>Entre las esperanzas lisonjeras</l>
+            <l>de que una nueva Troya allá en Italia</l>
+            <l>emule de la antigua la grandeza,</l>
+            <l>y de ver a los míos presidiendo</l>
+            <l>los grandes cambios que la tierra espera,</l>
+            <l>sólo Dido me aflige, sólo Dido</l>
+            <l>al hondo pecho los tormentos lleva</l>
+            <l>que amargan mi ventura, y que me impiden</l>
+            <l>ser feliz de una vez. Jamás ausencia</l>
+            <l>fue más justa en amante que la mía:</l>
+            <l>jamás hubo ninguno que cediera</l>
+            <l>a una necesidad más imperiosa</l>
+            <l>que la que a mí me arrastra. Si la reina</l>
+            <l>piensa que sólo en su ulcerado pecho</l>
+            <l>la hiel amarga del dolor se ceba,</l>
+            <l>es porque todavía no ha acabado</l>
+            <l>de conocer el corazón de Eneas.</l>
+            <l>Pero Nesteo viene.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Oh, Dios!</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¡Señora!</l>
+            <l>Quizá el momento de partir se acerca:</l>
+            <l>volad a vuestra hermana, consoladla;</l>
+            <l>si a mí me fuera dado, yo lo hiciera.</l>
+            <l>Vuélvanla la razón vuestros consejos,</l>
+            <l>mas no la aconsejéis que me aborrezca.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head><emph rend="bold italic">Escena V</emph></head>
+          <stage>Ana, Eneas y Nesteo.</stage>
+          <stage><emph rend="bold">(Sale Nesteo.)</emph></stage>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¡Cuál tardaste, Nesteo! ¡No tardaras</l>
+            <l>si lo que siento yo también sintieras!</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>No de otro modo pudo ser: las naves</l>
+            <l>estaban prontas ya, y sólo a Eneas</l>
+            <l>esperaba el navío de Cloanto,</l>
+            <l>para tender al viento nuestras velas.</l>
+            <l>Yo volaba a llamaros, cuando siento</l>
+            <l>el náutico clamor desde la tierra,</l>
+            <l>y observo a los pilotos prepararse,</l>
+            <l>cual para resistir fiera tormenta.</l>
+            <l>El lejano horizonte iba cubriendo</l>
+            <l>caliginosa nube, y densa niebla</l>
+            <l>nos ocultaba el mar, mientras brillaba</l>
+            <l>en el seno del cielo, más serena,</l>
+            <l>del almo sol la esplendorosa lumbre...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿No veis, no veis, señor, lo que os espera</l>
+            <l>si a la merced del pérfido elemento</l>
+            <l>exponéis otra vez vuestra existencia?</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>No, señora; los cielos han hablado</l>
+            <l>más que nunca esta vez. En la ribera</l>
+            <l>conmigo estaba el sacerdote santo;</l>
+            <l>y, humillando su faz hasta la tierra,</l>
+            <l>invocó en alta voz a las deidades</l>
+            <l>que al troyano protegen, y su lengua</l>
+            <l>enmudeció después; sus actitudes,</l>
+            <l>su mirar, sus acciones, todo muestra</l>
+            <l>que lo agitaba un Dios, y que a su vista</l>
+            <l>los celestes arcanos se presentan.</l>
+            <l>Al cabo prorrumpió. «No pienses», dijo,</l>
+            <l>«troyana gente, que segura senda</l>
+            <l>nos abrirá la mar, mientras no tiña</l>
+            <l>la sangre de las víctimas la arena,</l>
+            <l>y no presencie Eneas y sus jefes</l>
+            <l>el sacrificio que Neptuno ordena.</l>
+            <l>La conquista de Troya costó al griego</l>
+            <l>sacrificar en Aulida a Ifigenia,</l>
+            <l>y el mismo día se inmoló en las aras</l>
+            <l>del Dios del mar una hecatombe entera.</l>
+            <l>Sin sangre de una virgen al troyano</l>
+            <l>el ponto se abre cuando a Italia vuela;</l>
+            <l>que, inmolados tres toros a Neptuno,</l>
+            <l>el mar y el viento su favor nos prestan.»</l>
+            <l>Dijo, y al punto el horizonte limpio</l>
+            <l>quedó de nubes y de obscura niebla.</l>
+            <l>Yo dispuse al momento que Cloanto,</l>
+            <l>Sergesto, y los demás, que a la cabeza</l>
+            <l>están de nuestra gente, se impusiesen</l>
+            <l>del celestial portento; y, con presteza,</l>
+            <l>las naves por un rato abandonando,</l>
+            <l>saltasen nuevamente a la ribera.</l>
+            <l>Os aguardan, señor, y el sacerdote,</l>
+            <l>para empezar el sacrificio, espera</l>
+            <l>que concurráis también: cuando termine,</l>
+            <l>el bélico clarín hará la seña</l>
+            <l>del reembarco de todos.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¡Ana! Ahora,</l>
+            <l>decid, ¿nos habla el cielo? ¿Puede Eneas</l>
+            <l>ser acusado con razón de ingrato?</l>
+            <l>Vamos, Nesteo.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Sí: la triste reina</l>
+            <l>también es una víctima inocente</l>
+            <l>que sacrifica Eneas. Ifigenia,</l>
+            <l>al puerto de Calcas inmolada,</l>
+            <l>en Aulida expiró. Su misma tierra</l>
+            <l>verá morir a Dido, porque quiso</l>
+            <l>un bárbaro troyano que muriera.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>No más, señora, atormentéis mi pecho;</l>
+            <l>si vuestro labio sin razón se niega</l>
+            <l>a consolar a Dido, y al contrario</l>
+            <l>su desesperación tal vez aumenta,</l>
+            <l>Eneas hará más: vendrá de nuevo</l>
+            <l>a ver si alcanza mitigar la fuerza</l>
+            <l>del dolor de su amante. Los momentos</l>
+            <l>que, en concluyendo el sacrificio, pueda</l>
+            <l>permanecer aquí, serán de Dido;</l>
+            <l>y cuando los clarines den la seña</l>
+            <l>del instante postrero, de su lado</l>
+            <l>recién me apartaré; que la terneza</l>
+            <l>del que llamasteis bárbaro se extiende</l>
+            <l>a más de lo que creéis. ¡Pueda mi lengua</l>
+            <l>persuadir a mi amante, y las deidades</l>
+            <l>apartar de sus ojos esa venda</l>
+            <l>que no la deja ver, y que su hermana</l>
+            <l>se empeña en no rasgar, como debiera!</l>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head><emph rend="bold">Acto III</emph></head>
+        <div type="scene" n="1">
+          <head><emph rend="bold italic">Escena I</emph></head>
+          <stage>Dido y Ana.</stage>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¿Aún dura el sacrificio? ¿Y el malvado</l>
+            <l>el castigo no teme de su audacia?</l>
+            <l>Implora a las deidades que le ayuden</l>
+            <l>a faltar a su fe. ¿Cuál arrogancia</l>
+            <l>es igual a la suya? ¿Piensa acaso</l>
+            <l>que un sacrificio en las mentidas aras</l>
+            <l>comprometa a los Dioses, como a Dido</l>
+            <l>comprometer pudieran sus palabras?</l>
+            <l>Pero ¡hermana!, ¿se va?, ¿se va, querida?</l>
+            <l>¿Nada dice de mí? ¿Y abandonada</l>
+            <l>así me deja a los furores míos,</l>
+            <l>así me deja a la pasión de Yarbas,</l>
+            <l>y a los horrores que en idea veo,</l>
+            <l>y a la muerte infeliz que me amenaza?</l>
+            <l>¡Ana! ¿No volverá? Quizá mi llanto</l>
+            <l>penetrará una vez en sus entrañas,</l>
+            <l>y un pecho ablandará que no es de bronce;</l>
+            <l>que al menos no lo fue. Dime, ¿lloraba</l>
+            <l>cuando tú le pintaste mis dolores?</l>
+            <l>¿Dio un suspiro a tus quejas, ya que nada</l>
+            <l>a mis lágrimas dio? ¿Nada te dijo?</l>
+            <l>¿Ni siquiera te dijo que me amaba?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Lo repitió, querida; pero el duro</l>
+            <l>miente como mintió; ni hay esperanza</l>
+            <l>de vencerle jamás. Deja que vuele</l>
+            <l>a hallar la muerte en su anhelada Italia.</l>
+            <l>Tú, ya piensa en ti misma; y este llanto</l>
+            <l>que sea el postrer llanto que derrama</l>
+            <l>por un infame tu dolor terrible.</l>
+            <l>Llora, mas con tus lágrimas apaga</l>
+            <l>hasta el último resto del incendio</l>
+            <l>que furioso en tu pecho se cebaba.</l>
+            <l>Llorar más de una vez por un ingrato</l>
+            <l>es un delirio que quizá...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Ya basta.</l>
+            <l>¡Basta, traidora, de rasgar mi pecho!</l>
+            <l>Cuando Dido indecisa batallaba</l>
+            <l>entre la fe a Siqueo y este fuego</l>
+            <l>en que de pronto ardió, ¿no fue mi hermana,</l>
+            <l>no fueron sus consejos lisonjeros</l>
+            <l>los que, adulando mi funesta llama,</l>
+            <l>hicieron que, cediendo a su violencia,</l>
+            <l>mi fe y mis juramentos olvidara?</l>
+            <l>Tuya es la culpa, tuya: ¿y cómo ahora</l>
+            <l>pretendes que desame? ¿Piensas, falsa,</l>
+            <l>que hay poder en los cielos ni en la tierra</l>
+            <l>capaz de hacer que de mi pecho salga</l>
+            <l>la imagen del perjuro que idolatro,</l>
+            <l>y que en medio del alma está enclavada?</l>
+            <l>Sábelo si lo ignoras: este incendio</l>
+            <l>que reduce a pavesas mis entrañas,</l>
+            <l>y en vez de sangre por mis venas corre,</l>
+            <l>no es amor, no es pasión; es la venganza</l>
+            <l>de algún ser superior, es el enojo</l>
+            <l>de todas las deidades, conjuradas</l>
+            <l>en contra de esta triste; así llegaron,</l>
+            <l>ya llegaron al colmo mis desgracias,</l>
+            <l>y mi sufrir excede la medida</l>
+            <l>que a un mortal la natura le señala.</l>
+            <l>¿Lo sabes? -Oye más-. Sí: tú, tú misma,</l>
+            <l>en mis males horrendos empeñada,</l>
+            <l>quieres abandonarme. ¿A qué, perjura,</l>
+            <l>a qué me aconsejaste que le amara,</l>
+            <l>si era de haber un día en que tu labio</l>
+            <l>así se desmintiera, en que tu hermana,</l>
+            <l>lejos de hallar consuelo en tu cariño,</l>
+            <l>viera en ti a su enemiga? ¡Oh, Dios! ¡Ingrata!</l>
+            <l>¿Quieres que deje que de mí se aparte?</l>
+            <l>¿Quieres que deje que se ausente a Italia,</l>
+            <l>y otra mujer feliz, y otros amores,</l>
+            <l>y mi abandono...? ¡Cielo! ¡Qué! ¿Pensabas</l>
+            <l>que hay vida para mí sin que conmigo</l>
+            <l>viva el amante que idolatra el alma?</l>
+            <l>¿Qué puede hacerme dulce la existencia?</l>
+            <l>Ni tu amor, ni tu fe - ¡Qué fe! - Ya falta</l>
+            <l>de tu pecho también: ya te pusiste</l>
+            <l>del bando del malvado, y...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Dido! ¡Amada!,</l>
+            <l>amada de mi vida, ¿qué furores,</l>
+            <l>qué poder invencible te arrebata,</l>
+            <l>y de tal modo trastornarte puede,</l>
+            <l>que aun contra mí tu corazón se alarma?</l>
+            <l>¡Cielos! ¡Yo tu enemiga! ¿Yo ponerme</l>
+            <l>del bando del perverso? Me faltaba</l>
+            <l>este género nuevo de tormento</l>
+            <l>sobre el dolor que tu dolor me causa.</l>
+            <l>¡Yo engañarte, querida!, ¡yo, que vivo</l>
+            <l>para que vivas tú!</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Perdona, hermana;</l>
+            <l>perdóname otra vez. ¿De mí qué esperas?</l>
+            <l>Mi pecho sabe amarte como me amas,</l>
+            <l>pero yo estoy en presa a mis furores,</l>
+            <l>y esta pasión... ¡oh, Dios! Mi furia insana</l>
+            <l>¿tal vez pudo ofenderte? Dulce amiga,</l>
+            <l>¿me querrás perdonar?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Vuelva la calma,</l>
+            <l>vuelva, mi Dido, a tu angustiado pecho.</l>
+            <l>¿No soy tu hermana yo? ¿No tienes tantas</l>
+            <l>pruebas de mi amistad? El labio mío,</l>
+            <l>si alguna vez te dijo que le amaras,</l>
+            <l>fue porque nunca sospeché que Eneas...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No me le nombres más; deja que parta</l>
+            <l>do le llame el destino. ¿Será cierto</l>
+            <l>que le llama tal vez? ¡Siquiera, gratas</l>
+            <l>las deidades que implora, fácil senda</l>
+            <l>por entre el mar y los escollos le abran!,</l>
+            <l>y, ¡ojalá que no en vano se derrame</l>
+            <l>la sangre de la víctima en las aras,</l>
+            <l>y los fervientes votos que alza al cielo</l>
+            <l>no los disipe el viento en nuestras playas!</l>
+            <l>Yo curaré mi mal: también a Dido</l>
+            <l>la escuchará algún Dios. ¿No miras, Ana,</l>
+            <l>cuál la tranquilidad vuelve a mi pecho,</l>
+            <l>y la razón, triunfando de mi llama,</l>
+            <l>ni grita en vano, ni el furor impide</l>
+            <l>que la obedezca ya?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Ah! No burladas</l>
+            <l>mis esperanzas queden. ¡Qué dichosas</l>
+            <l>fuéramos ambas, si el amor dejara</l>
+            <l>su sitio a mi amistad! ¡Cómo mi mano</l>
+            <l>derramaría bálsamo en tus llagas!</l>
+            <l>Házmelo consentir.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Ana, yo nunca</l>
+            <l>mis sentimientos te oculté: las ansias</l>
+            <l>te revelé de mi pasión furiosa.</l>
+            <l>¿Y podré reservarte la mudanza</l>
+            <l>que han obrado los cielos en mi pecho,</l>
+            <l>cuando menos mi pecho lo esperaba?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Ay, Dido! ¿Será cierto? ¡Oh, Dios! ¡Qué nueva</l>
+            <l>tan lisonjera y dulce para mi alma!</l>
+            <l>Bien: no lo veas más. Llama a Barcenia,</l>
+            <l>llámala de una vez: de aquí que vaya</l>
+            <l>hasta el lugar del sacrificio, y diga</l>
+            <l>a tu enemigo que al momento parta;</l>
+            <l>que no le quieres ver; que...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No es posible.</l>
+            <l>¡Que no le quiero ver! Ana, te engañas,</l>
+            <l>y me engaño yo misma... No, no creas</l>
+            <l>que le amo ya; mas antes de que salga</l>
+            <l>para siempre de aquí... ¡Dios!, ¡para siempre!</l>
+            <l>¡Qué idea tan atroz! ¡Cómo desgarra</l>
+            <l>de nuevo el corazón!</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Ah, Dido! ¡Dido!</l>
+            <l>¡Cómo te burlas de tu triste hermana!</l>
+            <l>Modera tus transportes, y refrena</l>
+            <l>esa pasión frenética...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¡Inhumanas,</l>
+            <l>más que inhumanas las deidades todas</l>
+            <l>que el mortal reverencia! Dido, basta,</l>
+            <l>basta ya de sufrir: venga la muerte,</l>
+            <l>y ahogue de una vez en mis entrañas</l>
+            <l>este mal insanable, este veneno</l>
+            <l>que me emponzoña toda. ¿Piensas, Ana,</l>
+            <l>que hay vida para Dido, si se lleva</l>
+            <l>Eneas mi vivir? Pero ¿qué aguarda</l>
+            <l>mi furor que no tienta los socorros</l>
+            <l>que pueden valer? Sí: que a las armas</l>
+            <l>vuelen mis tirios, y con los troyanos</l>
+            <l>en la defensa de mi amor combatan;</l>
+            <l>incendien sus bajeles y destruyan</l>
+            <l>de la agua en las orillas esas aras</l>
+            <l>que alzó la iniquidad, y en las que ahora</l>
+            <l>el incienso en mi daño se levanta.</l>
+            <l>Venguen los tirios a su reina, y luego...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿Qué dices, Dido? ¿Bastarán las armas</l>
+            <l>de un puñado de hombres, que contigo</l>
+            <l>de la Fenicia huyeron, contra tantas</l>
+            <l>legiones que obedecen al inicuo,</l>
+            <l>y que arden todas por marchar a Italia?</l>
+            <l>Pon un freno, querida, a tus transportes,</l>
+            <l>y deja que la mar vengue mañana</l>
+            <l>sobre tu misma costa...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No lo creas:</l>
+            <l>Eneas partirá, que nada basta</l>
+            <l>a poder detenerlo. Y a Cartago</l>
+            <l>verás venir al indomable Yarbas;</l>
+            <l>verás destruir desde el cimiento mismo</l>
+            <l>mi naciente ciudad; oirás la llama</l>
+            <l>más que en Troya estallar; y yo, cautiva,</l>
+            <l>después que de los míos la matanza</l>
+            <l>y el exterminio vea, a los rencores</l>
+            <l>seré de un rey feroz abandonada.</l>
+            <l>Eneas entretanto...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿Y desde ahora</l>
+            <l>por qué no prevenimos las desgracias</l>
+            <l>que acabas de pintar? ¿Por qué tus tirios</l>
+            <l>no seguirán alzando estas murallas,</l>
+            <l>como antes que vinieran los troyanos</l>
+            <l>a sembrar el horror en tus comarcas?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Déjame ya. Barcenia en los altares</l>
+            <l>no sé qué puede hacer que tanto tarda.</l>
+            <l>Yo también a los Dioses en mi templo</l>
+            <l>quise rogar por mí: también prepara</l>
+            <l>ya la sacerdotisa el sacrificio</l>
+            <l>que aplaque a Venus, y en la tumba helada</l>
+            <l>la sombra aplaque del esposo mío.</l>
+            <l>¡Último efugio que me resta, hermana!</l>
+            <l>Si éste me falta, ¿encontraré por suerte</l>
+            <l>el que de tu amistad mi pecho aguarda?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿Y lo podrás dudar?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Di, ¿me prometes</l>
+            <l>servirme de una vez? Y de las ansias</l>
+            <l>que mi pecho devoran ¿será dado</l>
+            <l>que por la ayuda de una mano cara</l>
+            <l>libre me pueda ver?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Háblame, Dido;</l>
+            <l>háblame por piedad. ¿Qué quieres que haga</l>
+            <l>para verte tranquila? Yo, ¿qué cosa</l>
+            <l>te podré denegar?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¡Querida! Nada.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Nada, querida; nada: si mi muerte</l>
+            <l>puede librar tu vida...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Bien; pues arma,</l>
+            <l>arma tu mano de un puñal, y luego</l>
+            <l>aquí, donde está el fuego, aquí, mi amada,</l>
+            <l>húndelo todo...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Oh, Dios! ¡Qué horror! ¿Y Dido</l>
+            <l>tal se atreve a esperar? ¡Ingrata! ¡Ingrata!</l>
+            <l>¿Éste es el premio de cariño tanto?</l>
+            <l>¿Así, cual nunca, mi amistad agravias?</l>
+            <l>¿No te estremeces, Dido?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No: la muerte</l>
+            <l>por una mano tan querida dada,</l>
+            <l>¡qué dulce me sería! ¿Lo rehúsas?</l>
+            <l>Puede ser que lo sientas.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Cielo! ¡Hermana!</l>
+            <l>Ten piedad de ti misma. ¡Oh Dios!</l>
+            <stage><emph rend="bold">(Aparte.)</emph></stage>
+            <l>Barcenia</l>
+            <l>se acerca; del horror viene agitada;</l>
+            <l>y su rostro... ¿Será, será que a tantos</l>
+            <l>otro motivo de furor se añada?</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head><emph rend="bold italic">Escena II</emph></head>
+          <stage>Dido, Ana y Barcenia.</stage>
+          <stage><emph rend="bold">(Sale Barcenia como horrorizada, y hasta en su modo de hablar
+              indicará el espanto.)</emph></stage>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¿Qué te agita, Barcenia? ¿Qué terrores</l>
+            <l>aumentas a los míos? Habla; acaba</l>
+            <l>de matarme tal vez. ¿Pudiera el cielo...?</l>
+          </sp>
+          <sp who="#barcenia">
+            <speaker>Barcenia</speaker>
+            <l>Señora; el cielo sin piedad aparta</l>
+            <l>su bondad de nosotros. ¡Ah! Yo tiemblo</l>
+            <l>de repetir, señora, lo que pasa</l>
+            <l>en el templo. ¡Qué horror!</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <stage><emph rend="bold">(Con una inquietud animosa y afligente.)</emph></stage>
+            <l>Prosigue.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <stage><emph rend="bold">(Con interés.)</emph></stage>
+            <l>Nada;</l>
+            <l>nada será, querida: el miedo turba</l>
+            <l>muy fácilmente las vulgares almas.</l>
+          </sp>
+          <sp who="#barcenia">
+            <speaker>Barcenia</speaker>
+            <l>No enojéis más al cielo, y a los Dioses</l>
+            <l>que presiden la muerte. Yo la causa</l>
+            <l>de tal portento ignoro, pero nunca</l>
+            <l>la deidad al mortal mostró tan clara</l>
+            <l>su venganza terrible. De la reina</l>
+            <l>obedecí el mandato, y a las aras</l>
+            <l>con la sacerdotisa me conduje.</l>
+            <l>Recién las libaciones preparaba</l>
+            <l>y los santos licores, que debían</l>
+            <l>verterse por sus manos en la llama,</l>
+            <l>cuando el incienso ardió; y obscuro, y denso,</l>
+            <l>el humo, lejos de subir, se abaja,</l>
+            <l>por invisible mano rechazado</l>
+            <l>del aire y los altares. Azorada</l>
+            <l>la intérprete del cielo, los licores</l>
+            <l>iba en el fuego a echar; pero apagada</l>
+            <l>la lumbre estaba ya, y el vino todo</l>
+            <l>en negra sangre convertido...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <stage><emph rend="bold">(Temblando.)</emph></stage>
+            <l>¡Hermana!</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <stage><emph rend="bold">(Con una emoción que procurará dominar al
+              momento.)</emph></stage>
+            <l>¡Dido! ¡qué horror!</l>
+          </sp>
+          <sp who="#barcenia">
+            <speaker>Barcenia</speaker>
+            <l>La tumba de Siqueo</l>
+            <l>tres veces se abre entonces, y otras tantas</l>
+            <l>cerrada con estrépito horroroso,</l>
+            <l>sus hondas cavidades retumbaban.</l>
+            <l>El espanto, señora, me ha apartado</l>
+            <l>del ominoso templo, y, encargada</l>
+            <l>por la sacerdotisa de que os llame,</l>
+            <l>pude apenas llegar hasta esta estancia.</l>
+            <l>Sola os espera; porque sola, dice,</l>
+            <l>que con la reina las deidades hablan.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>No vayas, Dido, no: deja que aplaque</l>
+            <l>Semira a la deidad, si está irritada.</l>
+          </sp>
+          <sp who="#barcenia">
+            <speaker>Barcenia</speaker>
+            <l>No, señora; volad: Semira inmóvil</l>
+            <l>en la puerta del templo...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Sí: mi planta</l>
+            <l>apenas muevo ya; mas voy: los Dioses</l>
+            <l>a la muerte, no al templo, a Dido llaman.</l>
+            <stage><emph rend="bold">(Con imperio y una serenidad como la de la
+                desesperación.)</emph></stage>
+            <l>Ninguna de las dos mis pasos siga,</l>
+            <l>ninguna de las dos. Semira, aguarda.</l>
+          </sp>
+          <stage><emph rend="bold">(Se va.)</emph></stage>
+        </div>
+        <div type="scene" n="3">
+          <head><emph rend="bold italic">Escena III</emph></head>
+          <stage>Ana y Barcenia.</stage>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿Qué has hecho, incauta? ¿No pudiste acaso</l>
+            <l>moderar tu pavor? Mira: mi hermana</l>
+            <l>ya sabes que ama a Eneas; mas no sabes</l>
+            <l>cuántos horrores desde anoche a su alma</l>
+            <l>un sueño trajo, en que Siqueo mismo</l>
+            <l>en vengadora voz la amenazaba;</l>
+            <l>no sabes la partida del troyano</l>
+            <l>el atentado que tal vez prepara:</l>
+            <l>nada sabes, en fin. Pero yo temo</l>
+            <l>lo que debes temer: vuela, insensata;</l>
+            <l>no abandones a Dido ni un momento,</l>
+            <l>no la abandones a su furia insana.</l>
+            <l>Yo tardo unos instantes porque espero</l>
+            <l>al que sus penas horrorosas causa,</l>
+            <l>y conviene que le hable, antes que Dido</l>
+            <l>pueda volver aquí. ¡Parte!, ¡qué tardas!</l>
+            <l>Un momento que pase es una furia</l>
+            <l>que entra de nuevo a devorarla...</l>
+          </sp>
+          <sp who="#barcenia">
+            <speaker>Barcenia</speaker>
+            <l>¿Y Ana,</l>
+            <l>y Dido misma a la infeliz Barcenia</l>
+            <l>no quisieron hacer una confianza,</l>
+            <l>que era justa quizá, que cuando menos?...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>No era preciso, amiga: yo bastaba,</l>
+            <l>o creía bastar. Pero ha llegado</l>
+            <l>el instante en que tú... ¡Querida! ¿Aguardas</l>
+            <l>a que otra vez mi lengua te repita</l>
+            <l>que Dido está en peligro?</l>
+          </sp>
+          <sp who="#barcenia">
+            <speaker>Barcenia</speaker>
+            <l>¡Oh, Dios! ¡Y tanta</l>
+            <l>amistad que mi pecho le profesa!</l>
+            <l>Voy, señora; ya voy donde me llama</l>
+            <l>más que todo, el cariño.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Sí, mi amiga;</l>
+            <l>obsérvala de cerca, y desalada</l>
+            <l>vuela hacia mí en el punto en que...</l>
+          </sp>
+          <stage><emph rend="bold italic">(Suena un clarín como a lo lejos. Se supone ser en la
+              ribera.)</emph></stage>
+          <l>¿Dios santo!</l>
+          <l>¿Oyes la seña? Ésa es. ¿Oyes? Mi hermana</l>
+          <l>la escuchará también: ya parte Eneas:</l>
+          <l>fue mentida su vuelta. Vamos, nada</l>
+          <l>nos puede detener: vamos a Dido;</l>
+          <l>volemos, dulce amiga, a consolarla;</l>
+          <l>que este instante decide para siempre</l>
+          <l>de su suerte, Barcenia, y ya se pasa.</l>
+          <stage><emph rend="bold">(Se van con precipitación.)</emph></stage>
+        </div>
+        <div type="scene" n="4">
+          <head><emph rend="bold italic">Escena IV</emph></head>
+          <stage>Eneas y Nesteo.</stage>
+          <stage><emph rend="bold">(La escena estará un breve rato en una soledad y un silencio
+              profundos; pasado éste, se presentarán Eneas y Nesteo.)</emph></stage>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>¡Qué insólito silencio! Este palacio</l>
+            <l>que siempre resonó...</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Nesteo, calla.</l>
+            <l>Vengo a cumplir los últimos deberes</l>
+            <l>que me impone el amor, y apenas basta</l>
+            <l>a resistir mi corazón. Amigo;</l>
+            <l>te lo debo decir, si así te llama</l>
+            <l>mi pecho con verdad: voy a ausentarme</l>
+            <l>para siempre de Dido; y estas playas</l>
+            <l>en jamás volverán a ver a Eneas,</l>
+            <l>ni Eneas a su amante desolada.</l>
+            <l>Así lo quiere el cielo: mas mi vista</l>
+            <l>de mirarla, Nesteo, no se sacia:</l>
+            <l>el instante final es el más fuerte</l>
+            <l>de todos los instantes: nunca estalla</l>
+            <l>con más furia el amor, que en el momento</l>
+            <l>en que es preciso abandonar su amada.</l>
+            <l>No me increpes, amigo: todo está hecho</l>
+            <l>para la gloria ya; permite que haga</l>
+            <l>algo por mis amores, y mi pecho</l>
+            <l>que tanto ha suspirado en esta estancia,</l>
+            <l>suspire en ella por la vez postrera,</l>
+            <l>y oiga mi Dido mis postreras ansias.</l>
+            <l>Ya la seña se dio; nuestras legiones</l>
+            <l>embarcándose están. Mientras que tarda</l>
+            <l>la última seña, que a partir nos fuerza,</l>
+            <l>y no permite espera, es justo salga</l>
+            <l>amor y nada más del pecho mío,</l>
+            <l>amor y nada más. ¡A bien que faltan</l>
+            <l>muy menguados instantes! Pero Dido,</l>
+            <l>¿dónde se ocultará? ¿No habrá su hermana</l>
+            <l>llegado a persuadirla que su amante</l>
+            <l>la adora más que nunca la adoraba?</l>
+            <l>Nesteo, ¿dónde está? ¿Será que crea,</l>
+            <l>que todavía crea que es ingrata</l>
+            <l>una alma en que ella vive, y fuera suya,</l>
+            <l>si fuese mía, como son las almas</l>
+            <l>de todos los felices?</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>Es muy justo,</l>
+            <l>es muy justo, señor, que se deshaga</l>
+            <l>un rato el corazón entre suspiros</l>
+            <l>que una noble pasión del pecho arranca.</l>
+            <l>Os dignasteis llamarme vuestro amigo;</l>
+            <l>lo soy, señor, lo soy: vuestra confianza</l>
+            <l>probadme en esta vez: no se repriman</l>
+            <l>vuestros sollozos más; nunca degrada</l>
+            <l>el querer con nobleza: un pecho grande</l>
+            <l>sensible debe ser.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Nesteo, basta.</l>
+            <l>Si el débil llanto de los ojos míos</l>
+            <l>brotar pudiera alguna vez, brotara</l>
+            <l>sólo en esta ocasión. En ella al menos</l>
+            <l>lo arrancaría la más digna causa,</l>
+            <l>y el secreto dichoso de tal llanto</l>
+            <l>en pecho como el tuyo se encerrara.</l>
+            <l>Mas el silencio del palacio crece,</l>
+            <l>ni hay quien se acerque a estos lugares...</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>Ana</l>
+            <l>parece dirigirse hacia este sitio.</l>
+            <l>¿No es ella? ¿No la veis?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Sí, amigo. ¡Cuántas</l>
+            <l>tristes ideas con su vista llenan</l>
+            <l>de sinsabor y de inquietud el alma!</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head><emph rend="bold italic">Escena V</emph></head>
+          <stage>Ana, Eneas y Nesteo.</stage>
+          <stage><emph rend="bold">(Sale Ana sin reparar en Eneas al principio.)</emph></stage>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Tal vez no hay remedio. -¡Oh, Dios! ¡Qué veo!</l>
+            <l>¿Qué hacéis aquí, señor?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¿Y vuestra hermana?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <stage><emph rend="bold">(Con cierto aire de ironía.)</emph></stage>
+            <l>Mi hermana sufre más de lo que Eneas</l>
+            <l>es capaz de gozar, cuando le llaman</l>
+            <l>cielos y gloria a un tiempo, y cuando llegan</l>
+            <l>las horas de partir. ¡Señor!, el alma</l>
+            <l>de los grandes campeones no se vence</l>
+            <l>con amor ni con llanto. ¡Qué pensara</l>
+            <l>de un héroe el universo, si pudiera</l>
+            <l>ceder el héroe a las pasiones blandas!</l>
+            <l>En buen hora partid: lo que ya importa</l>
+            <l>es que Dido no tenca la desgracia</l>
+            <l>de volveros a ver; la herida suya</l>
+            <l>está sangrando sin cesar, y es rara</l>
+            <l>especie de crueldad venir vos mismo</l>
+            <l>otra vez, y otra vez a desgarrarla.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¿Hasta cuándo, señora, mis dolores</l>
+            <l>han de ser descreídos? Esta llama</l>
+            <l>que mentida pensáis, y que en mi pecho</l>
+            <l>encendió la pasión de vuestra hermana,</l>
+            <l>es una llama noble, duradera,</l>
+            <l>que de un soplo improviso no se apaga,</l>
+            <l>ni se complace en insultar los males</l>
+            <l>del objeto adorado que la causa.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Que sea cual decís: nada interesa</l>
+            <l>a Dios ser querido o engañado</l>
+            <l>de vos en adelante. Mas, si es cierto</l>
+            <l>que os llega a lastimar su suerte infausta,</l>
+            <l>partid en el momento; mis esfuerzos</l>
+            <l>bastarán, si es posible, a consolarla;</l>
+            <l>y si no, lloraré, como ya lloro,</l>
+            <l>los males que su amante le prepara.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>A prepararla vengo, y a pedirle</l>
+            <l>de nuevo que me crea. Mis palabras</l>
+            <l>la podrán persuadir de mis amores,</l>
+            <l>y de la obligación que me arrebata</l>
+            <l>tan lejos de su lado: nunca Dido</l>
+            <l>llegue a juzgarme ingrato. Entonces, Ana,</l>
+            <l>me ausentaré forzado, pero al menos</l>
+            <l>me ausentaré sin que padezca el alma</l>
+            <l>con la idea feroz de que mi amante</l>
+            <l>juzga mentida mi pasión tirana.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Del corazón en el primer desorden,</l>
+            <l>¿cómo os podrá escuchar? Vuestras miradas,</l>
+            <l>vuestras voces, señor, serán puñales</l>
+            <l>que en su pecho entrarán. Cuando la calma</l>
+            <l>la restituya su razón, entonces</l>
+            <l>yo os prometo... lo haré... me obligo a hablarla.</l>
+            <l>Y a decirle tal vez cuanto vos mismo</l>
+            <l>le pudierais decir. Ahora, parta,</l>
+            <l>parta cuanto antes vuestra nave. Dido</l>
+            <l>no tardará en volver hasta esta estancia;</l>
+            <l>sola en su templo con Semira queda.</l>
+            <l>Barcenia está esperándola que salga</l>
+            <l>para no abandonarla un solo instante</l>
+            <l>a sus terrores y a su furia.</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>De Ana</l>
+            <l>el consejo seguid: vuestra presencia</l>
+            <l>funesta puede ser; y quien pensaba</l>
+            <l>darle consuelos en su mal, acaso</l>
+            <l>torne incurable la profunda llaga.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Sí, sed piadoso en esta vez siquiera:</l>
+            <l>si amáis a Dido, por piedad dejadla,</l>
+            <l>ya que no puede siempre a vuestro lado...</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>A pesar de la fuerte repugnancia</l>
+            <l>que siente el corazón, estoy resuelto.</l>
+            <l>Adiós, señora, adiós. ¡Puedan mis ansias</l>
+            <l>ser creídas de Dido, y mi memoria</l>
+            <l>no ser jamás aborrecida! Parta,</l>
+            <l>parta sin verla yo: decís que, si amo,</l>
+            <l>lo debo hacer...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <stage><emph rend="bold">(Viendo a Dido, y saliéndole al encuentro.)</emph></stage>
+            <l>¡Oh, Dios!</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head><emph rend="bold italic">Escena VI</emph></head>
+          <stage>Dido, Ana, Eneas, Nesteo y Barcenia.</stage>
+          <stage><emph rend="bold">(Sale Dido con toda precipitación, como horrorizada, y se
+              encuentra con Ana sin reparar en nadie más. Le sigue Barcenia.)</emph></stage>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¡Piedad! ¡Hermana!</l>
+            <stage><emph rend="bold">(Queda como en un delirio en brazos de Ana.)</emph></stage>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¿Qué es esto, cielo santo? ¡Qué terrores!</l>
+            <l>Barcenia, tú la sigues. ¿De qué causa</l>
+            <l>arranca este furor?</l>
+          </sp>
+          <sp who="#barcenia">
+            <speaker>Barcenia</speaker>
+            <l>Señora, tiemblo</l>
+            <l>de mirar a la reina. Cuanto pasa</l>
+            <l>me amedrenta y me aterra. Un atentado</l>
+            <l>revuelve allá en su mente, y nada alcanza</l>
+            <l>a poder refrenarla. En los umbrales</l>
+            <l>del templo me dejasteis; azorada</l>
+            <l>de repente la reina sale, y entra</l>
+            <l>furiosa en su aposento. Mis pisadas</l>
+            <l>de cerca la seguían; y observando</l>
+            <l>que la observaba yo, vi que llevaba</l>
+            <l>la mano hacia su seno, y sin hablarme,</l>
+            <l>salió otra vez despavorida...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Nada,</l>
+            <l>nada es, amiga.</l>
+            <stage><emph rend="bold">(Ve a Eneas.)</emph></stage>
+            <l>¡Cielos! ¿Todavía,</l>
+            <l>¡bárbaro!, todavía no se sacia,</l>
+            <l>tu impiedad de afligirme? ¿Qué haces? ¿Vienes</l>
+            <l>a mirar ya completa y consumada</l>
+            <l>tu obra de iniquidad? ¡Malvado! ¿Esperas...?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Espero, Dido, consolarte.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¡Cuánta,</l>
+            <l>cuánta crueldad en ese pecho anidas!</l>
+            <stage><emph rend="bold">(Con ironía.)</emph></stage>
+            <l>¡Hijo de Venus tú! La tigre hircana,</l>
+            <l>cuya leche ferina fue, en naciendo,</l>
+            <l>tu sustento primero, tus entrañas</l>
+            <l>a ser feroces enseñó. ¿Pensaste</l>
+            <l>que Dido acaso tu favor aguarda?</l>
+            <l>¿A qué vienes aquí? Parte, perverso.</l>
+            <l>A mí, ¿lo ves?, la tumba helada</l>
+            <l>se me abre a cada paso... Allí Siqueo</l>
+            <l>me espera. Sí, ¿no ves cómo me llama</l>
+            <l>a jurarme de nuevo entre las sombras</l>
+            <l>un amor eternal? ¡Cenizas caras</l>
+            <l>de mi primer objeto confundidas</l>
+            <l>con las mías seréis! ¿No miras, Ana,</l>
+            <l>no miras en contorno los sepulcros,</l>
+            <l>y los espectros, y la muerte?...</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Hermana!</l>
+            <l>¡Dido de mi alma! Por piedad te ruego...</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No hay piedad para mí; si la encontrara</l>
+            <l>maldijera el hallarla. Ni en los cielos</l>
+            <l>la quiero ya esperar. -Parte a tu Italia.</l>
+            <l>¿Qué aguardas ya? Lo ruego, te lo mando;</l>
+            <l>ésa es, Eneas, tu dichosa patria,</l>
+            <l>y no aquel suelo engendrador de sierpes,</l>
+            <l>que sostuvo de Troya las murallas,</l>
+            <l>y que algún día la justicia griega</l>
+            <l>estéril hizo en vengadora llama.</l>
+            <l>¡Vuela, vuela de mí! Mis mismos Dioses</l>
+            <l>impiadosos me arrojan de sus aras.</l>
+            <l>Y cuanto toco se convierte en sangre,</l>
+            <l>y cuanto miro en derredor me espanta,</l>
+            <stage><emph rend="bold">(Se oprime con la mano el corazón.</emph>)</stage>
+            <l>y las serpientes de las Furias moran</l>
+            <l>aquí, aquí. ¿Las ves cómo desgarran</l>
+            <l>el corazón sangriento, y envenenan</l>
+            <l>hasta el aliento que mi labio exhala?</l>
+            <l>¿Qué haces aquí, malvado? ¿Ni a la tumba</l>
+            <l>quieres que baje con placer?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¡Amada!</l>
+            <l>¡Amada más que nunca! No tu pecho</l>
+            <l>así abandones al furor...</l>
+          </sp>
+          <stage><emph rend="bold">(Suena como en la ribera la última seña del
+            clarín.)</emph></stage>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>¿Te llaman,</l>
+            <l>te llaman, Dido, las terribles voces</l>
+            <l>que en los sepulcros retumbando vagan?</l>
+            <l>Ana, ¿no las escuchas?</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Dios! ¡Eneas!</l>
+            <l>¡No pudierais partir sin que sonara</l>
+            <l>otra vez un clarín que anuncia muerte?</l>
+            <l>¿Esto hace, Eneas, quien a Dido amaba?</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Parte, Nesteo; que Cloanto espere</l>
+            <l>un momento no más...</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <stage><emph rend="bold">(Como increpándole su debilidad.)</emph></stage>
+            <l>¡Señor!</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>No partas;</l>
+            <l>deja que muera la infelice Dido.</l>
+            <l>A los que vuelan a buscar a Italia</l>
+            <l>gloria y renombre, ¿interesar pudiera</l>
+            <l>una flaca mujer, la débil llama</l>
+            <l>de un corazón indigno de los héroes?</l>
+            <l>No, Nesteo... ¡Ah! Yo tiemblo... Puedes, Ana,</l>
+            <l>rogar al cielo... pero, ¡qué!... Semira</l>
+            <l>a mi lado en el templo le rogaba,</l>
+            <l>y el templo todo repitió mil voces</l>
+            <l>de «muerte», y nada más... «Muerte», sonaban</l>
+            <l>las espaciosas bóvedas, y «muerte»,</l>
+            <l>las tumbas respondían.</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>Basta, basta;</l>
+            <l>vuelve en tu acuerdo; te lo ruego, Dido,</l>
+            <l>yo soy quien te lo ruego.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Sí, mi hermana:</l>
+            <l>tranquila estoy, tranquila; también puedes</l>
+            <l>tranquilizarte tú. Dido lo manda.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head><emph rend="bold italic">Escena VII</emph></head>
+          <stage>Dido, Ana, Eneas, Nesteo, Barcenia y Sergesto.</stage>
+          <sp who="#sergesto">
+            <speaker>Sergesto</speaker>
+            <stage><emph rend="bold">(Saliendo.)</emph></stage>
+            <l>Ya se ha dado, señor, la última seña:</l>
+            <l>ya se empieza a mover toda la armada;</l>
+            <l>sólo a vos y Nesteo en la ribera</l>
+            <l>un corto resto de mi tropa aguarda.</l>
+            <l>El viento es favorable: apenas riza</l>
+            <l>la suma superficie de las aguas;</l>
+            <l>y el sacerdote dice que los Dioses</l>
+            <l>ya os acusan, señor.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Nesteo, ¿falta</l>
+            <l>aún algo que añadir a mis dolores?</l>
+            <l>¿Por qué no me ausenté sin que llegara</l>
+            <l>a este sitio la reina? ¿Cómo puedo</l>
+            <l>en medio del furor abandonarla?</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <l>Nada temas, Eneas... parte... -¿Dido?...</l>
+            <l>ya voy, ya voy, Siqueo...¡Sombra airada,</l>
+            <l>no me persigas más!... ¡Qué sudor frío</l>
+            <l>discurre por mis miembros! ¡Dios! Helada</l>
+            <l>una mitad de mí ya no la siento.</l>
+            <l>¡Ana! ¡Barcenia! Pero, ¡qué! ¿No basta</l>
+            <l>mi mano a libertarme de mí misma?</l>
+            <l>¡Mira, traidor, y aprende!</l>
+            <stage><emph rend="bold">(Saca precipitadamente un puñal que habrá traído oculto, y se
+                hiere.)</emph></stage>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¡Dido!</l>
+          </sp>
+          <sp who="#ana">
+            <speaker>Ana</speaker>
+            <l>¡Hermana!</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>¡Qué horror!</l>
+          </sp>
+          <sp who="#sergesto">
+            <speaker>Sergesto</speaker>
+            <l>¡Señor! ¿Qué hacéis?, ¿qué hacéis? Huyamos</l>
+            <l>de este sitio espantoso.</l>
+          </sp>
+          <sp who="#dido">
+            <speaker>Dido</speaker>
+            <stage><emph rend="bold">(Moribunda.)</emph></stage>
+            <l>¡Sombra amada!...</l>
+            <l>Perdóname... te sigo... ¡Hermana!... ¡Eneas!</l>
+            <l>yo te amaba... ¡cruel!... y tú me matas.</l>
+            <stage><emph rend="bold">(Muere.)</emph></stage>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>Nesteo, ¿qué hago yo?</l>
+          </sp>
+          <sp who="#nesteo">
+            <speaker>Nesteo</speaker>
+            <l>Partir al punto.</l>
+          </sp>
+          <sp who="#eneas">
+            <speaker>Eneas</speaker>
+            <l>¡Qué funesto presagio llevo a Italia!</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,3950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000026" xml:lang="es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tupac - Amaru</title>
+        <title type="sub">Drama en cinco actos</title>
+        <author>
+          <persName>
+            <forename>Luis</forename>
+            <forename>Ambrosio</forename>
+            <surname>Morante</surname>
+          </persName>
+          <idno type="wikidata">Q137661560</idno>
+        </author>
+        <editor xml:id="mf">
+          <forename>Martha</forename>
+          <surname>Faiad</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio Riande</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Antología de obras de teatro argentino</name>
+          <author><forename>Luis Ambrosio</forename>
+            <surname>Morante</surname></author>: <title level="a">Tupac - Amaru</title>. En:
+              <editor><surname>Seibel</surname>, <forename>Beatriz</forename></editor>. <title
+            level="m">Antología de obras de teatro argentino. Desde sus orígenes a la
+            actualidad.</title>
+          <biblScope unit="volume">Tomo 2: 1818–1824. Obras de la Independencia.</biblScope>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
+            <date>2006</date>, pp. <biblScope unit="page" from="219" to="305">219–305</biblScope>.
+            <idno type="URL"
+            >https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-12/#versiondigital</idno>
+          <!-- this link is not correct -->
+          <note>La edicion de Seibel sigue la de 1924 de Jorge Max Rohde, con una errata en el
+            nombre de D. Ventura Santelices.</note>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person sex="FEMALE" xml:id="bastidas">
+            <persName>D. Micaela Bastidas</persName>
+          </person>
+          <person sex="MALE" xml:id="corregidor">
+            <persName>El corregidor Santelices</persName>
+          </person>
+          <person sex="MALE" xml:id="unIndio">
+            <persName>Un indio</persName>
+          </person>
+          <person sex="MALE" xml:id="todos">
+            <persName>Todos</persName>
+          </person>
+          <person sex="MALE" xml:id="catari">
+            <persName>Tupa Catari</persName>
+          </person>
+          <person sex="MALE" xml:id="uno">
+            <persName>Uno</persName>
+          </person>
+          <person sex="MALE" xml:id="arriaga">
+            <persName>Arriaga</persName>
+          </person>
+          <person sex="MALE" xml:id="otros">
+            <persName>Otros</persName>
+          </person>
+          <person sex="MALE" xml:id="santelices">
+            <persName>D. Ventura Santelices</persName>
+          </person>
+          <person sex="MALE" xml:id="unos">
+            <persName>Unos</persName>
+          </person>
+          <person sex="MALE" xml:id="tupac">
+            <persName>D. Gabriel Tupac Amaru</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q44092605</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-11-29" who="#mf">change initial encoding</change>
+        <change when="2025-12-01" who="#mf">correction errors ezdrama</change>
+        <change when="2025-12-06" who="#mf">revision</change>
+        <change when="2025-12-13" who="#mf">correction sourcedesc, text errors, add pb</change>
+        <change when="2025-12-31" who="#mf">change header</change>
+        <change when="2025-12-31" who="#mf">change xml declaration</change>
+        <change when="2025-12-31" who="#mf">capital letters to smallcase</change>
+        <change when="2025-08-25" who="#gdr">last complete revision of file</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="premiere" when="1821">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation active="https://dracor.org/entity/ar000026" name="wikidata"
+        passive="http://www.wikidata.org/entity/Q137662935"/>
+      <relation active="https://dracor.org/entity/ar000026" name="teatrar"
+        passive="https://hdlab.space/teatrar/obras/0193.html"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="221"/>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Tupac - Amaru</titlePart>
+          <titlePart type="sub">Drama en cinco actos</titlePart>
+        </docTitle>
+        <docAuthor>Luis Ambrosio Morante</docAuthor>
+      </titlePage>
+      <castList>
+        <head>Personajes</head>
+        <castItem><role>El corregidor Santelices</role></castItem>
+        <castItem><role>D. Ventura Santelices</role></castItem>
+        <note>La edicion de Seibel tiene una errata en el nombre. Santelites por Santelices.
+          Corregimos el nombre aquí.</note>
+        <castItem><role>Arriaga</role></castItem>
+        <castItem><role>D. Gabriel Tupac Amaru,</role>
+          <roleDesc>bajo el nombre de Cándor Canqui.</roleDesc></castItem>
+        <castItem><role>Da Micaela Bastidas,</role>
+          <roleDesc> india</roleDesc></castItem>
+        <castItem><role>Tupa Catari,</role>
+          <roleDesc> indio</roleDesc></castItem>
+        <castItem><roleDesc>Indios mitayos de ambos sexos</roleDesc>
+        </castItem>
+      </castList>
+      <set>
+        <p><emph>La acción sucede en el Alto Perú, en la provincia de Tinta, por los años
+            1780.</emph></p>
+      </set>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>Acto primero</head>
+        <stage>
+          <p>El teatro representa un sitio de breñales áridos, todo el fondo está ocupado por un
+            cerro cuya eminencia se pierde a lo ojos del espectador: las breñas relucen y blanquean
+            con la nieve, cuyos copos se caen naturalmente. Durante los dos primeros actos, no cesan
+            de subir y bajar indios mitayos de ambos sexos, cargados con los metales que conducen a
+            los ingenios: mientras esta marcha, en toda su extensión se patetiza la crueldad de sus
+            comitres o celadores. Por intervalos se deja ver la luz del sol, aunque siempre ofuscada
+            por la niebla.</p>
+        </stage>
+        <pb n="222"/>
+        <stage>La obertura presenta una anticipación de todos los efectos del drama.</stage>
+        <div type="scene" n="1">
+          <head>Escena 1ª</head>
+          <stage>Tupac-Amaru, sentado sobre una roca, y Santelices hijo viniendo por la parte donde
+            se supone están los Ingenios.</stage>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <stage>(Abrazándolo)</stage>
+            <l>¡Hoy el sol resplandece con más brillo!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Con dolor)</stage>
+            <l>Para todos los seres fortunados... <stage>(Mira a las eminencias, hace un extremo de
+                dolor y deja caer sus brazos).</stage></l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Qué cuadro tan magnífico presenta naturaleza!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Sube a lo encumbrado</l>
+            <l>de aquellas rocas y naturaleza</l>
+            <l>te mostrará el reverso de ese cuadro.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Tristes ideas sin cesar te afligen!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Con amargura)</stage>
+            <l>¡Soy hombre!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Y yo qué soy?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Un ser dotado</l>
+            <l>de sensibilidad que muchas veces calmó el llorar del mísero Peruano.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Jamás me fue posible, cual quisiera,</l>
+            <l>su llanto consolar. Deploro en vano</l>
+            <l>sus infortunios: pero yo dependo</l>
+            <pb n="223"/>
+            <l>de un padre adverso en todo y contrariado</l>
+            <l>al doliente clamor del pobre Indio…</l>
+            <l>¡Un día llegará!... Me será dado</l>
+            <l>entonces aliviar las amarguras</l>
+            <l>que toleráis: entonces tendrá el lauro</l>
+            <l>Ventura Santelices de que nunca</l>
+            <l>la madre tierna, con terror y espanto</l>
+            <l>maldecirá al nacer del tierno hijo.</l>
+            <l>Mas, ahora… ¡Cándor Canqui!... ahora y en tanto</l>
+            <l>que se realiza. ¿No eres venturoso?...</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Con expresión dolorosa)</stage>
+            <l>¡Lo que cabe en la suerte de un Mitayo,</l>
+            <l>lo que cabe en un Indio!...</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Si recuerdas</l>
+            <l>lo que sufriste en tiempos ya pasados,</l>
+            <l>bien te debes gozar en el presente!...</l>
+            <l>Un trabajo excesivo… Respirando</l>
+            <l>los mefíticos aires que vaporan</l>
+            <l>de esas cavernas los malignos antros…</l>
+            <l>¡Noches de eternidad!... ¡Horas eternas</l>
+            <l>de pernoctar… sin tiempo, sin descanso,</l>
+            <l>sin un mísero lecho en que pudieran</l>
+            <l>reposo hallar tus miembros extenuados!</l>
+            <l>¡Toscos e insuficientes alimentos!...</l>
+            <l>En todas partes siempre levantado</l>
+            <l>el azote fatal, con que se place</l>
+            <l>el corazón de quien lo está impulsando.</l>
+            <l>¡Ancianidad luctuosa y prematura!</l>
+            <l>¡Tal de tus días era el negro cuadro!...</l>
+            <pb n="224"/>
+            <l>¡Tal era la horrorosa perspectiva</l>
+            <l>que te ofreció por tiempo dilatado</l>
+            <l>tu enemiga fortuna! Ahora te he mirado…</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Con energía)</stage>
+            <l>¡Un ser envilecido y degradado!</l>
+            <l>Por más que mi alma independiente, fiera</l>
+            <l>de sí misma, engreída en su elevado</l>
+            <l>meditar, se ostentara en otro tiempo,</l>
+            <l>después llegó a doblarse; y grado a grado</l>
+            <l>perdió su actividad y la energía</l>
+            <l>que la invistiera de un sublime innato…</l>
+            <l>¡Inscripto entre las lista de las bestias</l>
+            <l>domésticas, con ellas comparado</l>
+            <l>yo soportaba el peso de la vida!!!</l>
+            <l>De su apatía y tétrico letargo</l>
+            <l>ella se despertó por un castigo</l>
+            <l>tan cruel como injusto… Breve rayo</l>
+            <l>entonces con su luz me patentiza</l>
+            <l>del hombre los derechos vulnerados.</l>
+            <l>La sangre que mi cuerpo empurpuraba</l>
+            <l>pedía un vengador… ¡Ah! ¡Transportado</l>
+            <l>en horrible furor me precipito</l>
+            <l>sobre el verdugo atroz!... Entre mis brazos</l>
+            <l>a exhalar iba su postrer suspiro…</l>
+            <l>cuando allí compareces. De sagrado</l>
+            <l>le sirves; ¡lo separas de mis justos</l>
+            <l>frenéticos transportes! Y tocado</l>
+            <l>de mi ardimiento, a un ser compadeciste</l>
+            <l>que la naturaleza hizo tu hermano;</l>
+            <l>que los prejuicios y la tiranía</l>
+            <l>con su cetro de hierro destinaron</l>
+            <pb n="225"/>
+            <l>a saciar el dragón de la codicia</l>
+            <l>española. ¡Repara el triste cuadro</l>
+            <l>de aquellos infelices, que doblegan</l>
+            <l>la cerviz bajo el peso inmoderado</l>
+            <l>que sobre ellos gravita! ¡Considera</l>
+            <l>su macilento rostro amalgamado</l>
+            <l>con el sudor y el polvo! Atento mira</l>
+            <l>cómo de un frío agudo penetrados,</l>
+            <l>al respirar de pronto el aire libre</l>
+            <l>presentan un contraste en que luchando,</l>
+            <l>están ambas regiones sobre el triunfo</l>
+            <l>de víctimas sin fin. De aquel estado</l>
+            <l>conseguiste substraerme. Tú de entre ellos</l>
+            <l>me segregaste… ¡Ah! Tu despiadado</l>
+            <l>padre otorgó que se me destinara</l>
+            <l>al servicio doméstico. ¡Un liviano</l>
+            <l>trabajar, salutífero alimento,</l>
+            <l>y el albergue algo más cómodo son rasgos</l>
+            <l>de tu amistad! Escucha Santelices:</l>
+            <l>¡tamaños procederes, si, tamaños</l>
+            <l>beneficios, merecen la confianza</l>
+            <l>de un noble corazón! El desgraciado</l>
+            <l>Cándor-Canqui que aprecias como amigo,</l>
+            <l>debe sus ascendientes al preclaro</l>
+            <l>Inca Saysi-Tupac. He aquí una rama</l>
+            <l>del ínclito inmortal Tupac Amaru</l>
+            <l>que en mil quinientos y setenta y ocho</l>
+            <l>rindió la vida en público cadalso</l>
+            <l>por el virrey Francisco de Toledo.</l>
+            <l>La suspicacia del dominio Hispano</l>
+            <l>extinguió cuantos vástagos pudieran</l>
+            <pb n="226"/>
+            <l>derechos reclamar a lo usurpado.</l>
+            <l>La tradición, y aquel amor constante</l>
+            <l>que a sus Incas conservan los Peruanos,</l>
+            <l>entre obscura extracción salvó mis días.</l>
+            <l>De unos inconocido, venerado</l>
+            <l>de otros, entre la sombra del misterio</l>
+            <l>yo vegetaba, cuando el vil contagio</l>
+            <l>de conscripción anual llegó hasta el Cuzco.</l>
+            <l>Por sorteo a la Mita condenado</l>
+            <l>entre millares de infelices Indios</l>
+            <l>yacía en los afanes subterráneos…</l>
+            <l>Lo demás no lo ignoras… ¡Quizá un día,</l>
+            <l>quizá un día Gabriel Tupac-Amaru</l>
+            <l>te pueda compensar los beneficios</l>
+            <l>que a Gabriel Cándor-Canqui has dispensado!</l>
+            <l>¡Quizá un día Ventura Santelices</l>
+            <l>halle en los corazones Peruanos</l>
+            <l>el augusto lugar que hubo Las Casas</l>
+            <l>de Panamá en el Istmo!... Está lejano</l>
+            <stage>(Con alguna intención)</stage>
+            <l>según tú dices… Mas tu recompensa</l>
+            <l>se halla en tu corazón… ¡El cielo santo</l>
+            <l>quiera hacer gozar de tus virtudes</l>
+            <l>circuido del afecto Americano!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>No de agradecimiento se me hable.</l>
+            <l>Hice lo que debí: lo que ha dictado la humanidad.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Interrumpiéndolo)</stage>
+            <l>Ve aquí la vez primera</l>
+            <l>que tus beneficencias te acordamos;</l>
+            <l>más la última será. Todo el que exige</l>
+            <pb n="227"/>
+            <l>premio del bien que hace, no es humano,</l>
+            <l>no precia lo que obra; no conoce</l>
+            <l>sino el orgullo vil. Tú, destinado</l>
+            <l>para amar la virtud y cultivarla,</l>
+            <l>llena de tus deberes el espacio</l>
+            <l>y deja a tus abyectos compatriotas</l>
+            <l>su avaricia, sus crímenes, sus daños…</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <stage>(Con prontitud)</stage>
+            <l>y sus remordimientos.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Quien conoce</l>
+            <l>de los remordimientos el gusano,</l>
+            <l>quien siente su punzar, no dista mucho</l>
+            <l>de la virtud: mas no, que los Hispanos</l>
+            <l>ni son capaces de remordimientos,</l>
+            <l>ni sienten su dolor…</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Compadezcamos</l>
+            <l>su miseria!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Yo al débil compadezco;</l>
+            <stage>(Exaltado)</stage>
+            <l>¡pero detesto al crimen cuando le hallo</l>
+            <l>en mis verdugos!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Cándor!... ¡Tú te exaltas!</l>
+            <l>¡El velo echemos sobre los estragos</l>
+            <l>y las crueldades, sin cesar nacientes,</l>
+            <l>con que oprimimos, con que subyugamos</l>
+            <l>tu infortunada especie!... ¡Vendrá un tiempo!</l>
+            <l>Mi padre montes de oro prodigando</l>
+            <l>mereció que el empleo que ahora ejerce</l>
+            <l>en nuestra casa sea hereditario:</l>
+            <l>en mí debe recaer. Hasta ese punto</l>
+            <pb n="228"/>
+            <l>Cándor amigo, ¡seas moderado</l>
+            <l>en tus aspiraciones y conducta!</l>
+            <l>¡Que sereno disfrutes tu descanso</l>
+            <l>actual, y te complazcas silencioso</l>
+            <l>en la esperanza y los prestigios faustos</l>
+            <l>de un otro porvenir!... ¡Llegará el día!</l>
+            <l>Mientras cumple su número, en los brazos</l>
+            <l>vive de la amistad: ¡sus impresiones</l>
+            <l>deslizarán el memorar infando</l>
+            <l>de las pasadas penas y harán dulces</l>
+            <l>todos los sinsabores de tu estado!</l>
+            <l>¿Qué más puedes desear?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>La Independencia</l>
+            <l>de los Indios.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Por ahora yo no alcanzo</l>
+            <l>a realizar su logro.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Y qué! ¿No puedo desearla?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Y puedes esperarla. En tanto</l>
+            <l>de la paciencia te arma, soportable</l>
+            <l>tu yugo es el presente.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Has aliviado</l>
+            <l>el mío… ¡vuelve a la eminencia</l>
+            <l>de aquellas rocas! El objeto que amo</l>
+            <l>allí padece expuesto a los rigores</l>
+            <l>del azote y la escarcha.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Qué he escuchado?</l>
+            <l>¿Tú amas? ¿Y lo callastes a tu amigo?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Temí oprimir tu corazón lanzando</l>
+            <l>nuevas penas en él.</l>
+            <pb n="229"/>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Si yo no puedo</l>
+            <l>calmar su situación, bien podré acaso</l>
+            <l>sus males compartir… Dime ¿a quién amas?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Vive mi corazón idolatrando</l>
+            <l>a la hija del anciano Incuasicona,</l>
+            <l>¡puesta en esa crueldad para remplazo</l>
+            <l>de la deuda tiránica en que incurre</l>
+            <l>precisamente el mísero Mitayo!</l>
+            <l>¡Mira sobre la cima de aquel cerro</l>
+            <l>a Micaela Bastidas soportando</l>
+            <l>una carga excedente a sus esfuerzos!</l>
+            <l>¡Mira su situación, mira su estado</l>
+            <l>por no acceder a las brutales ansias</l>
+            <l>del Director que rige los trabajos!</l>
+            <l>¡Mira al feroz verdugo de los Indios</l>
+            <l>cual su dolor insulta amenazando!</l>
+            <l>¡Observa cómo ella nos dirige</l>
+            <l>lagrimosas miradas! ¡Exhalado</l>
+            <l>su corazón en mil y mil suspiros</l>
+            <l>mi auxilio implora, implora por tu amparo!...</l>
+            <l>¡Tierra fecunda en robos y maldades!</l>
+            <l>¡Tierra de maldición! Que cada un año</l>
+            <l>sepultas en tus áridas cavernas</l>
+            <l>millares y millares de Peruanos!</l>
+            <l>¡Rocas regadas con sudor del Indio!</l>
+            <l>¡Antros que retornáis al triste llanto</l>
+            <l>y a la fúnebre endecha del que vive</l>
+            <l>muriendo en vuestros lóbregos espacios!...</l>
+            <l>¿No vengaréis las víctimas del oro?</l>
+            <l>¡Los Españoles! Esos adversarios,</l>
+            <l>esos verdugos de naturaleza,</l>
+            <pb n="230"/>
+            <l>¿no temblarán jamás viendo los rastros</l>
+            <l>de sangre, de sudor, de luto y muerte?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Calma tus frenesíes! Ten cuidado</l>
+            <l>de no entregarte a inútiles transportes</l>
+            <l>que te pueden seguir funestos daños!</l>
+            <l>No deploremos aún los infortunios</l>
+            <l>de tu adorada, sin haber buscado</l>
+            <l>su alivio en algún modo… ¿Di, que puedo</l>
+            <l>hacer en su favor?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Y por acaso</l>
+            <l>a mí me lo preguntas? ¿Soy yo solo</l>
+            <l>el Indio que se ve tiranizado?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>No cuento entre mi clase un solo amigo.</l>
+            <l>Me acusan de que soy un declarado</l>
+            <l>protector de vosotros: ellos me huyen</l>
+            <l>y me execran.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>El odio del malvado</l>
+            <l>hace todo el elogio del virtuoso.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Mi padre hasta el presente me ha librado</l>
+            <l>una pensión: pensión que mis errores</l>
+            <l>sólo en superfluidades emplearon.</l>
+            <l>¡De hoy más sabré hacer de ella un uso digno!</l>
+            <l>¡Disfrutaré un placer amigo caro!</l>
+            <l>¡El placer de ser útil!... Desde ahora</l>
+            <l>ese dinero me será sagrado</l>
+            <l>para hacer el rescate de Bastidas…</l>
+            <l>¡Oh pueda ese metal móvil del llanto,</l>
+            <l>servir alguna vez para consuelo</l>
+            <l>de la humanidad triste!...</l>
+            <pb n="231"/>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Resignado</l>
+            <l>puede el hombre llevar sus infortunios</l>
+            <l>cuando aguarda su término lejano,</l>
+            <l>se mira el puerto… Pueda la esperanza</l>
+            <l>aproximar el término deseado…</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena 2ª</head>
+          <stage>Santelices solo</stage>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Vosotros, detractores de los Indios,</l>
+            <l>vosotros que negáis alucinados</l>
+            <l>su intelectualidad, por un momento</l>
+            <l>fijad vuestra atención: Tupac-Amaru</l>
+            <l>será para vosotros un espejo</l>
+            <l>donde se mire el Sud-Americano.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Escena 3ª</head>
+          <stage>Santelices, Arriaga</stage>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Dios os guarde señor.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Y Dios os guarde.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¡En la eminencia no hay poder humano</l>
+            <l>a resistir el frío! ¡Ah!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Si vos, Arriaga</l>
+            <l>os lamentáis… ¿Qué harán mil desdichados</l>
+            <l>allí en su desnudez?</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Ellos son Indios.</l>
+            <pb n="232"/>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Mas los Indios son hombres.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>No volvamos,</l>
+            <l>señor, a comenzar vuestras disputas.</l>
+            <l>He dicho y lo repito, que no trato</l>
+            <l>de aparecer Filósofo.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Ninguno</l>
+            <l>que lo seáis, señor, ha sospechado.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Yo no pienso jamás en fruslerías.</l>
+            <l>Mi único meditar se halla cifrado</l>
+            <l>en cumplir lo que ordena vuestro padre</l>
+            <l>y llenar la intención del Soberano;</l>
+            <l>así para sacar un ventajoso</l>
+            <l>partido al interés de los hispanos</l>
+            <l>he prohibido a los Indios que mediten.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Vos no queréis que el Indio adquiera grados</l>
+            <l>de ilustración?</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Yo quiero que trabaje.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿De sus ideas no será arbitrario?</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Mucho mejor se vive sin ideas.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Con todo; nunca daña el ser humano.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¡Humano! Con nosotros. Con el Indio:</l>
+            <l>el azote, el rigor y los trabajos.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>La desesperación ved que a las veces</l>
+            <l>se suele apoderar del desgraciado.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>No es asunto mío. No me cuido</l>
+            <l>de que se desesperen. Calculamos</l>
+            <l>lo que un Indio produce a la Semana</l>
+            <l>mientras dura el período de su año:</l>
+            <pb n="233"/>
+            <l>de grado o fuerza, mal o bien le pese,</l>
+            <l>de su destino llenará el espacio;</l>
+            <l>y si acaso se muere lo reemplaza</l>
+            <l>su padre, su hijo, el deudo más cercano.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Arriaga! O no hay suma Providencia,</l>
+            <l><stage>(Con explosión)</stage></l>
+            <l>¡o vos tendréis un fin el más infausto!</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <stage>(Con sobresalto)</stage>
+            <l>¡Qué me decís señor! ¿Qué? ¿se maquina?</l>
+            <l>¿Nos veremos por suerte amenazados</l>
+            <l>de alguna insurrección?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Los opresores</l>
+            <l>hed aquí!... Sanguinosos, impiadados,</l>
+            <l>débiles y cobardes… ¡Oh cual todos</l>
+            <l>sois copia de vos mismos!...</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¡Pues el caso</l>
+            <l>vale la pena de pensar! y creo</l>
+            <l>que debierais temer el común daño.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>El amigo del hombre, nunca sabe</l>
+            <l>temer al hombre.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Nos decís bien claro</l>
+            <l>que os halláis en el secreto.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>En nada estoy.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¿A fe de español rancio?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Jamás supe mentir</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Oídme entonces…</l>
+            <l>A mí, señor, no me sería extraño</l>
+            <l>que estuviese preñado algún proyecto</l>
+            <pb n="234"/>
+            <l>entre tales demonios. Sospechamos</l>
+            <l>de ese Cándor que vos de entre las minas</l>
+            <l>nos quitasteis; su orgullo, aquel osado</l>
+            <l>reproducirse lo hacen aparente</l>
+            <l>para conspiraciones; yo he notado,</l>
+            <l>cuando estuvo debajo de mi azote,</l>
+            <l>que con cierto respeto los Mitayos</l>
+            <l>le obedecían: ved una evidencia…</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Arriaga! Conteneos… No insensato</l>
+            <l>juzguéis ligeramente de aquel hombre</l>
+            <l>que apreciar no supisteis… ¿Vuestros labios</l>
+            <l>osan amancillar…?</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Yo no amancillo…</l>
+            <l>Mas perdonadme aquí si hube olvidado</l>
+            <l>Que es Cóndor-Canqui nuestra fiel hechura.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Moderaos, Arriaga, moderaos!</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Pero no exigiréis que mis aprecios</l>
+            <l>ni mi moderación, tengan contacto</l>
+            <l>con la osada Bastidas.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Qué dijisteis?</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¡Bastidas! Ese numen adorado</l>
+            <l>del predilecto Cándor. Sus amores</l>
+            <l>me son ya muy notorios. ¡Ah! Son ambos</l>
+            <l>para conspiración propios agentes.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Señor, nadie conspira ni ha pensado</l>
+            <l>en conspirar.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¡Conspire aquel que pueda!</l>
+            <l>Un castigo de muerte al temerario</l>
+            <pb n="235"/>
+            <l>que me ose respirar o desmayarse</l>
+            <l>mientras que dura el tiempo del trabajo,</l>
+            <l>será el mejor antídoto.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Infelices!</l>
+            <l>¡No han de tener siquiera algún descanso!</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¡Descanso! Ya descansan los Domingos.</l>
+            <l>¡Ojalá que también fuese otorgado</l>
+            <l>hacerles trabajar en tales días!</l>
+            <l>En cuanto a la Bastidas: si yo alcanzo</l>
+            <l>a penetrar que desperdicia el tiempo</l>
+            <l>en amoríos, de robusta mano</l>
+            <l>le haré suministrar sendos azotes.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Yo os lo prohíbo.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¡Señor! ¡Tales mandatos</l>
+            <l>son evidentemente perniciosos</l>
+            <l>al buen orden!... ¿Hubisteis ya olvidado</l>
+            <l>que vuestro padre aprueba mi conducta,</l>
+            <l>y que sus voluntades observando</l>
+            <l>estoy?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Dijisteis bien… Sí: yo confieso</l>
+            <l>de que el justo furor me ha transportado.</l>
+            <l>Mas tratad a Bastidas con dulzura:</l>
+            <l>ya veis que me limito a suplicaros.</l>
+            <l>¿Me entendisteis? Soy yo quien os suplica…</l>
+            <l>Y mis súplicas creo que no en vano</l>
+            <l>se dirijan a vos.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Contad con ellas.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Pensad Arriaga, pues, que en algún caso</l>
+            <pb n="236"/>
+            <l>yo me puedo acordar que sólo a vuestras</l>
+            <l>sugestiones y cálculos nefarios</l>
+            <l>debe mi padre el tosco cambiamento</l>
+            <l>de su carácter… Corre a lento paso</l>
+            <l>el tiempo, porque el hombre se corrija…</l>
+            <l>No olvidéis tal aviso.</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Escena 4ª</head>
+          <stage>Arriaga solo</stage>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Yo declaro</l>
+            <l>que no le olvidaré. Según observo</l>
+            <l>la tal India otro amante ha conquistado.</l>
+            <l>Adorada de Cándor… De este joven</l>
+            <l>amada… ¿Y yo?... ¡La cruel! ¡Rehusar los brazos</l>
+            <l>de D. Antonio Arriaga! ¿Pues no tiene</l>
+            <l>ejemplo en tantas Indias que acatando</l>
+            <l>están mi voluntad por libertarse</l>
+            <l>de mis rencores?... ¡Pero yo malgasto</l>
+            <l>el tiempo en quejas! Luego separemos</l>
+            <l>su nuevo amante a países más lejanos:</l>
+            <l>su Cándor-Canqui pase a otros destinos</l>
+            <l>y si ella no se humilla a mis halagos</l>
+            <l>el rigor, el castigo y la violencia</l>
+            <l>me vengarán de su desdén tirano.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Escena 5ª</head>
+          <stage>Corregidor, Arriaga</stage>
+          <pb n="237"/>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Vos meditáis Arriaga! ¿Cuál motivo</l>
+            <l>consigue distraeros?</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Los Mitayos:</l>
+            <l>su conducta que gira claramente</l>
+            <l>a las conspiraciones…</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Castigarlos!</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¿Y cómo podré hacerlo cuando media</l>
+            <l>vuestro hijo?... ¡Señor! Diseminando</l>
+            <l>la indisciplina que autoriza, él mismo</l>
+            <l>se complace en su obrar, entusiasmado</l>
+            <l>con esa humanidad que preconiza.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Todo en el orden quedará reglado,</l>
+            <l>yo al joven reprehendiendo, y en los Indios</l>
+            <l>haciendo vos un ejemplar castigo.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Me encargo</l>
+            <l>de cortar la palabra a cualesquiera</l>
+            <l>que osase respirar… ¡Mi venerado</l>
+            <l>Corregidor! No bastan reprehensiones</l>
+            <l>para vuestro hijo. Vigilad sus pasos.</l>
+            <l>¡Ved que al presente se halla su cabeza</l>
+            <l>exaltada, con fuego inmoderado,</l>
+            <l>por alguna India! ¡Ved que sus amores</l>
+            <l>pueden traer incidentes muy infaustos!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Qué joven conocisteis vos, Arriaga,</l>
+            <l>sin pasiones ridículas?... ¿Acaso</l>
+            <l>decís que Santelices arde amante</l>
+            <l>por una India? No debo recelarlo</l>
+            <l>capaz de amarillarse en su fortuna</l>
+            <l>ni en su reputación… El mismo trato,</l>
+            <pb n="238"/>
+            <l>si los usos del mundo, sus placeres,</l>
+            <l>y la facilidad para gozarlos,</l>
+            <l>le llevaran en pos de sus pasiones</l>
+            <l>a otros procedimientos regulados…</l>
+            <l>Veo a mi hijo venir. Por un momento</l>
+            <l>dejadnos.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Me dirijo a los trabajos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Escena 6ª</head>
+          <stage>Corregidor y Santelices</stage>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Mi hijo visita siempre a sus amigos!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Mientras se les oprime como a esclavos.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Quién soy yo a tu entender?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿De mis respetos</l>
+            <l>tenéis queja señor?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>No la he formado…</l>
+            <l>Cual de tu corazón estoy contento,</l>
+            <l>también quisiera estar de los engaños</l>
+            <l>de tu razón.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Es cierto que a las veces</l>
+            <l>traspasa de sus límites.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Aun cuando</l>
+            <l>se aparte de lo justo. ¡Santelices!</l>
+            <l>Toda exageración atrae contrarios,</l>
+            <l>y no remedia el mal… El hombre cuerdo</l>
+            <l>observa con pesar los extraviados</l>
+            <l>errores de su siglo, pero calla</l>
+            <pb n="239"/>
+            <l>y no se enorgullece: no insensato</l>
+            <l>en su reformador se constituye.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Qué, padre mío?...</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Calla.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Obedezcamos.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Mi moral que ahora mismo tu reputas</l>
+            <l>débil y relajada, con los años</l>
+            <l>tendrá tu aprobación. Entonces hijo,</l>
+            <l>conocerás que el hombre colocado</l>
+            <l>sobre inmensa fortuna, no es bastante</l>
+            <l>para hacerse feliz.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Podrá mi labio</l>
+            <l>decir…</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>No es tiempo aún… Los duros golpes</l>
+            <l>de tu opinión se extienden sin reparo</l>
+            <l>adoquier y llevan sus efectos</l>
+            <l>hasta refluir sobre los que granjearon</l>
+            <l>mis consideraciones y confianza.</l>
+            <l>¿Cuál crimen cometieron, respetando</l>
+            <l>las órdenes del Rey y obedeciendo</l>
+            <l>las mías?... Presumiste que ignoramos</l>
+            <l>los planes subrepticios con que intentas</l>
+            <l>sorprender la intención del Soberano</l>
+            <l>para que frene a los corregidor:es,</l>
+            <l>contenga los excesos del Reparto,</l>
+            <l>quite las Mitas, quite los Tributos,</l>
+            <l>Sisas y Expoliación?... ¿Lo ignoras acaso?</l>
+            <l>¡No, Santelices!... Pero yo pretendo olvidar</l>
+            <l>con el hijo alucinado</l>
+            <pb n="240"/>
+            <l>mi autoridad real, y mis derechos</l>
+            <l>paternales. Yo quiero moderado</l>
+            <l>evitar actitudes que podrían</l>
+            <l>investir mis reproches. Sólo trato</l>
+            <l>ser un amigo tierno que a su amigo</l>
+            <l>se queja sin dolerse del agravio.</l>
+            <l>Mi lenguaje hijo mío, bien conozco</l>
+            <l>que habla en tu corazón, y que por tanto</l>
+            <l>lo sabrás contestar.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Cuando mi padre</l>
+            <l>se digna ser mi amigo, y que su labio</l>
+            <l>toca en mi corazón… ¿Dará el consenso</l>
+            <l>de hablarle sin embozos?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Me complazco</l>
+            <l>en escucharte, bien a ti te consta,</l>
+            <l>por más que en la opinión diferenciamos.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Dos amigos discuten libremente?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Sin duda.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Y pueden producirse ambos</l>
+            <l>con calor y energía?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>No lo dudes.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Aun sin temor de caer en desagrado,</l>
+            <l>ni menos resentirse?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Donde reina</l>
+            <l>la sujeción, no hay amistad.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Aplaudo</l>
+            <l>vuestro pensar!... Momento delicioso</l>
+            <l>al hombre pensador!... “¡Oh Ser Increado!</l>
+            <l>La respetable causa que defiendo</l>
+            <pb n="241"/>
+            <l>es obra tuya! ¡Oh puedas por mi labio</l>
+            <l>hacer que vierta el corazón sensible</l>
+            <l>lágrimas compasivas!”… ¡Yo declamo,</l>
+            <l>yo el grito elevo contra la tirana</l>
+            <l>opresión de los Indios!... ¿Un Mitayo</l>
+            <l>qué viene a ser, en la extensiva fuerza</l>
+            <l>de esa palabra?... El abatido esclavo</l>
+            <l>del despotismo, presa de ambiciosos,</l>
+            <l>incremento del sordo peculado</l>
+            <l>y del más despreciable latrocinio!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Santelices!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Cumplamos lo pactado.</l>
+            <l>Dos amigos discuten libremente,</l>
+            <l>¿quién sancionó el poder, quién le ha otorgado</l>
+            <l>derecho al hombre para que subyugue</l>
+            <l>al hombre semejante?... “¡Cruel tirano!</l>
+            <l>Si con la fuerza quieres oprimirme,</l>
+            <l>dame la fuerza de oprimirte: veamos</l>
+            <l>en lid igual quién saca la victoria!”.</l>
+            <l>¡Tal sería la queja del Mitayo</l>
+            <l>si quejarse le fuera permitido!</l>
+            <l>Mas vengamos señor, a los primarios</l>
+            <l>fundamentos y triunfe la justicia.</l>
+            <l>Dejo aparte la Bula de Alejandro:</l>
+            <l>dejo aparte el poder que la otorgara,</l>
+            <l>dejo aparte el derecho reprobado</l>
+            <l>que se arroga la España. ¡Ese derecho</l>
+            <l>de conquista contra hombres desarmados,</l>
+            <l>sorprendidos por dolo, y a la sombra</l>
+            <l>de la Religión Santa! Yo me aparto</l>
+            <pb n="242"/>
+            <l>de cuanto obrar pudieran los Colombos,</l>
+            <l>los Corteses, Almagros y Pizarros.</l>
+            <l>Yo tiendo un velo… Sólo me detengo</l>
+            <l>en nuestros días, donde ha llegado</l>
+            <l>la América infeliz a ser Teatro</l>
+            <l>de la sevicia más encarnizada!</l>
+            <l>El poderoso yugo del Hispano</l>
+            <l>lude y gravita sobre las cervices</l>
+            <l>de los humildes Indios Peruanos.</l>
+            <l>¡Esa codicia sórdida que nutre</l>
+            <l>a nuestra madre Iberia, el simulacro,</l>
+            <l>el Dios de su política y sus vicios,</l>
+            <l>nada, nada, señor ha perdonado</l>
+            <l>para privarles a estos infelices</l>
+            <l>aun de lo más preciso y necesario</l>
+            <l>para la vida; hacerlos instrumentos</l>
+            <l>de su fastuosidad y acostumbrarlos</l>
+            <l>a la servilidad más abatida!</l>
+            <l>¡Mitas, Repartimientos! ¡Helo el cuadro</l>
+            <l>de las playas mortíferas! El fruto</l>
+            <l>de invención española! Descarriados</l>
+            <l>por su cruel avaricia, introdujeron</l>
+            <l>la mita de las minas. ¡Ese ingrato</l>
+            <l>descubrimiento de la más profunda</l>
+            <l>corrupción! ¡Ese anual violento emplazo</l>
+            <l>do salen a una muerte prolongada</l>
+            <l>millares de inocentes condenados!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Cesa ya…</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Dispensadme… Dos amigos</l>
+            <l>discuten, y se cumplen lo pactado.</l>
+            <pb n="243"/>
+            <l>Si no hay mayor desgracia para el Indio</l>
+            <l>que arrebatarle de sus Lares patrios,</l>
+            <l>pues teme que la muerte sus cenizas</l>
+            <l>separe de los restos venerados</l>
+            <l>de sus mayores… ¿Cuál será su angustia</l>
+            <l>de recibir de su sorteo el fallo?</l>
+            <l>¡Fallo muy más terrible para ellos</l>
+            <l>que capital sentencia!... Desarraigados</l>
+            <l>de sus hogares y de sus amigos</l>
+            <l>vienen a ser el diuturnario pasto</l>
+            <l>de ese dragón del Potosí que hambriento</l>
+            <l>jamás, nunca jamás, se mira sacio.</l>
+            <l>Vienen a vegetar sobre una tierra</l>
+            <l>de proscripción, la pena soportando</l>
+            <l>de un suplicio tan crudo, que la muerte</l>
+            <l>les fuera dulce puesta en contra cambio.</l>
+            <l>¡Es allí que debajo del azote</l>
+            <l>agitado por siempre y agitado</l>
+            <l>de un conductor feroce, les mensuran</l>
+            <l>el tiempo, la palabra y aun el craso</l>
+            <l>ambiente que respiran!... ¡Allí es donde</l>
+            <l>se les exige el sacrificio amargo</l>
+            <l>de sus morales facultades!... ¡Clama</l>
+            <l>el Indio y se intercepta su agraviado</l>
+            <l>clamor! ¡Se le intercepta el pensamiento!</l>
+            <l>¡Se le intercepta el suspirar! ¡Y amagos</l>
+            <l>y vejaciones a doquier encuentra!</l>
+            <l>¡Es allí en fin, que el hombre desgustando</l>
+            <l>de ser hombre, aborrece las dulzuras</l>
+            <l>del amor y maldice el punto infausto</l>
+            <l>en que llegó a reproducirse!... ¡Torna</l>
+            <pb n="244"/>
+            <l>los furibundos ojos y ve el llanto</l>
+            <l>de la esposa, la madre desolada</l>
+            <l>desfalleciendo al peso del trabajo,</l>
+            <l>y presentando a su hijo un pecho estéril</l>
+            <l>con lágrimas estériles regado!</l>
+            <l>¡Oh Españoles! ¡Oh monstruos poderosos</l>
+            <l>que su ejemplo seguís! Si tales rasgos</l>
+            <l>no pueden conmover vuestra codicia,</l>
+            <l>si no sentís el penetrante dardo</l>
+            <l>de los remordimientos, si de hombres</l>
+            <l>no tenéis dignidad; ¡que pueda el rayo</l>
+            <l>con sus fuegos purgar toda la tierra</l>
+            <l>de vuestra especie detestable!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Aplaudo</l>
+            <l>tus sentimientos, como no condigan</l>
+            <l>con tus operaciones! Has pintado</l>
+            <l>con pincel y colores recargados,</l>
+            <l>la situación de quienes ignoramos</l>
+            <l>a cuál especie pertenezcan.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Padre!</l>
+            <l>Dejad tan vil refugio a los tiranos</l>
+            <l>de esotros tiempos. No renovéis ahora</l>
+            <l>su execrable consulta. Pretextaron</l>
+            <l>demanda tal, por colorir sus negras</l>
+            <l>atrocidades. Ellos diseñaron</l>
+            <l>al Indio como especie embrutecida;</l>
+            <l>especie con instinto asemejado</l>
+            <l>al del Mono! ¿y por qué? ¡Porque el delito</l>
+            <l>se ruboriza de sí mismo cuando</l>
+            <l>ve su deformidad! Naturaleza</l>
+            <pb n="245"/>
+            <l>hizo nacer al Indio decorado</l>
+            <l>de órganos susceptibles de intelecto.</l>
+            <l>Les puso un corazón sensible y apto</l>
+            <l>para amar. Ellos son tal que nosotros,</l>
+            <l>hijos de la virtud cuando el maltrato</l>
+            <l>no los degrada, o cuando la injusticia</l>
+            <l>no los hace animosos… Vos que osado</l>
+            <l>contáis sobre una impunidad eterna,</l>
+            <l>vos que menospreciáis enseñoreando</l>
+            <l>a un enemigo que terror abate</l>
+            <l>inerme a vuestros pies…; temed que el grado</l>
+            <l>de su misma opresión, no envigorice</l>
+            <l>y le despierte un sentimiento tardo</l>
+            <l>y no extinto jamás!... ¡Temed que un héroe,</l>
+            <l>un hombre superior a los trabajos,</l>
+            <l>ore a sus compatriotas abatidos,</l>
+            <l>les haga despertar de su letargo</l>
+            <l>y derroque el sitial de la injusticia</l>
+            <l>con su genio y valor! ¡Vedle entonando llevando el triunfo asido de sus manos!</l>
+            <l>¡Vedle invencible como la victoria!</l>
+            <l>¡Vedlo a su vez cual vos encarnizado</l>
+            <l>e implacable cual vos, de sangre humana</l>
+            <l>bañarse en los torrentes! ¡Despechado</l>
+            <l>vedle inventar insólitas venganzas,</l>
+            <l>y competiros en furor, estragos,</l>
+            <l>devastación, carnaje, ruina y muerte!</l>
+            <l>¡Prevenid tal catástrofe: evitadlo,</l>
+            <l>Reinad sobre los Indios! Pero sea</l>
+            <l>por la beneficencia… ¡Oh padre amado!</l>
+            <l><stage>(De rodillas)</stage></l>
+            <pb n="246"/>
+            <l>¡Mi buen amigo! ¡Ser de mi existencia!</l>
+            <l>Vos lo podéis. ¡Consiste en vuestra mano</l>
+            <l>borrar en un momento los errores</l>
+            <l>de casi tres centurias!... ¡Intentadlo</l>
+            <l>y lo conseguiréis!... ¡Oh padre mío!</l>
+            <l>No queráis pertinaz y alucinado</l>
+            <l>que vuestro nombre sea eternamente</l>
+            <l>inscripto en el detalle de los tiranos!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>No me es posible contestarte ahora.</l>
+            <l>Sólo te advertiré joven errado,</l>
+            <l>que para ti ambiciono y que algún día</l>
+            <l>serás el sucesor de mi comando.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Escena 7ª</head>
+          <stage>Santelices solo</stage>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Oh quiera el cielo apresurar su punto</l>
+            <l>y conmover a un padre!... ¡Americanos!</l>
+            <l>Entonces ¡ah! tendréis en Santelices</l>
+            <l>un español que aplaque vuestro llanto.</l>
+          </sp>
+          <stage>
+            <p>Fin del Acto Primero</p>
+          </stage>
+          <stage>
+            <p>La música del entreacto imita la furia del viento al trasponerse el sol para caer la
+              noche.</p>
+          </stage>
+        </div>
+      </div>
+      <pb n="247"/>
+      <div type="act" n="2">
+        <head>Acto segundo</head>
+        <div type="scene" n="1">
+          <head>Escena 1ª</head>
+          <stage>Arriaga solo</stage>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¡Confuso estoy!... No sé… mis sugestiones</l>
+            <l>¿cuál impresión harían en el pecho</l>
+            <l>de Santelices padre?... ¡Qué Bastidas</l>
+            <l>cada vez más reitere sus desprecios!</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena 2ª</head>
+          <stage>Arriaga, Tupac-Amaru</stage>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <stage>(Aparte)</stage>
+            <l>¡Ve aquí un rival odioso! ¿De qué sitio vienes?</l>
+            <stage>(A Tupac-Amaru)</stage>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Aparte)</stage>
+            <l>¡Tirano limpio!... Del ingenio.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>¿A dónde vas?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>No estoy en tu dominio</l>
+            <l>para rendirte cuentas.</l>
+          </sp>
+          <sp who="#arriaga">
+            <speaker>Arriaga</speaker>
+            <l>Tus acentos</l>
+            <l>tengan humillación… Llegará el día</l>
+            <l>todo ha defenecer… Sólo te advierto</l>
+            <l>que no siempre serán apadrinadas</l>
+            <l>la indisciplina y seducción… ¡Soberbio!</l>
+            <l>¿Me vuelves el rostro? ¡Canalla sigue altivo</l>
+            <pb n="248"/>
+            <l>que a tu altivez le resta poco tiempo!</l>
+            <l>¡Yo juro hacerte ver la diferencia</l>
+            <l>del Español al Indio!... Y si penetro</l>
+            <l>que con Bastidas en amores locos</l>
+            <l>las horas malgastasteis; de ti, altanero,</l>
+            <l>ella me vengará con cien azotes</l>
+            <l>que la hagan ser humilde a mis preceptos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Escena 3ª</head>
+          <stage>Tupac-Amaru solo</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡De Santelices las promesas, nunca</l>
+            <l>se apartan de mi ansioso pensamiento,</l>
+            <l>al par que de Bastidas la memoria</l>
+            <l>cada vez más aumentan mis tormentos!</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Escena 4ª</head>
+          <stage>Tupac-Amaru y Bastidas</stage>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¿Tú me esperabas buen amigo mío?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Y maldecía el demorar del tiempo.</l>
+            <l>¡Cual se detiene cuando allí te encuentras!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Cual corre y vuela cuando aquí me encuentro!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Y la hora que ahora empieza presurosa</l>
+            <l>disparará cual humo sus momentos!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Las que a ésta le subsigan, igualmente</l>
+            <l>disiparán los suyos.</l>
+            <pb n="249"/>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Entre acervos</l>
+            <l>e inauditos trabajos!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Hasta el punto</l>
+            <l>en que logro mirarte.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Pasajero</l>
+            <l>intervalo!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Es verdad: pero tan grato!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Oh, mi Bastidas! ¡Cuando tus luceros</l>
+            <l>se ocultan de vista, yo te sigo</l>
+            <l>y te sigue mi triste pensamiento!</l>
+            <l>¡Te miro sepultar en las cavernas</l>
+            <l>de aquesas rocas; y el tonar horrendo</l>
+            <l>de cada golpe subterráneo vibra</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Mi pensamiento</l>
+            <l>retrocede y me trae a la memoria</l>
+            <l>aquellos felicísimos momentos</l>
+            <l>cuando del Guatanay en las orillas</l>
+            <l>nos juramos amor puro y eterno.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Cual todo se ha cambiado desde entonces!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Mas Cándor y Bastidas un momento</l>
+            <l>no se cambiaron.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Ni cambiarse pueden.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Jamás! ¡Jamás! ¡Oh márgenes amenos</l>
+            <l>del Guatanay! ¡Testigos silenciosos</l>
+            <l>del apacible ardor de nuestros pechos!</l>
+            <l>¡Nuestra felicidad se ha deslizado</l>
+            <l>al par de vuestras ondas!... Allí, lejos</l>
+            <pb n="250"/>
+            <l>de los tiranos tu me repetías:</l>
+            <l>“Libre será mi patria. El Himeneo</l>
+            <l>nos unirá por siempre”. ¡Dios! ¡El rayo</l>
+            <l>con más presteza no desciende al suelo</l>
+            <l>como aquellos idólatras del oro</l>
+            <l>se lanza sobre ti…, sobre mi viejo padre!</l>
+            <l>¡Cuitada!... Tuve que seguiros</l>
+            <l>en alas de mi amor!... ¡Triste!... A los menos</l>
+            <l>me fuera dable disfrutar tu vista</l>
+            <l>en días de reposo! Mas el fiero</l>
+            <l>Arriaga, envanecido en los triunfos</l>
+            <l>que logra su poder, tentó soberbio</l>
+            <l>dominar mi albedrío: y mi repulsa</l>
+            <l>concitó su furor. Cuantos inventos</l>
+            <l>discurre la venganza de un tirano,</l>
+            <l>tantos en ti ejerció. ¡Fatal momento</l>
+            <l>truncó la vida de mi caro padre!</l>
+            <l>Es entonces que aquel verdugo Íbero</l>
+            <l>me hace elegir entre halagar su gusto</l>
+            <l>o sufrir los trabajos más violentos,</l>
+            <l>hasta que cancionase a Incausicona.</l>
+            <l>Elijo antes morir… ¡Oh Dios! Mi esfuerzo</l>
+            <l>y mi resolución eran distintos.</l>
+            <l>Arrebatada, fuera de concierto,</l>
+            <l>mil y mil veces invoqué la muerte,</l>
+            <l>y no quiso venir. Mis lastimeros</l>
+            <l>ojos torno a otra parte y con los tuyos</l>
+            <l>se encuentran y se hablan; y yo entiendo</l>
+            <l>que la vida me es cara todavía…</l>
+            <l>Mi voz calma tu rabia y tu despecho.</l>
+            <l>Te suplico que vivas: lo prometes</l>
+            <pb n="251"/>
+            <l>y lo cumples… ¡Amargos los momentos</l>
+            <l>se sucedían con amargo lloro!</l>
+            <l>He aquí lo que permiten los protervos.</l>
+            <l>¡Lágrimas y dolor!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>De nuestra idea</l>
+            <l>se borre lo pasado. Sus recuerdos</l>
+            <l>hacen más cruel la situación presente.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¿Y me es dable olvidar aquellos tiempos</l>
+            <l>de menor opresión?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>No los refieras:</l>
+            <l>su memoria me aflige.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Justo duelo</l>
+            <l>a una patria oprimida!... Mas yo, triste,</l>
+            <l>sólo sé amarla y adorarte.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>El sueño</l>
+            <l>huye de mí, huye el reposo, huye</l>
+            <l>la noche, el día huye: y de amor ebrio,</l>
+            <l>inalterado en mis resoluciones,</l>
+            <l>ardiente en el volcán de mis deseos,</l>
+            <l>frenándolos; temiendo y anhelando,</l>
+            <l>¡contrasto los embates que yo pruebo</l>
+            <l>entre Bastidas y Naturaleza!</l>
+            <l>“Libre será mi patria. El Himeneo</l>
+            <l>entonces, unirá nuestras dos almas</l>
+            <l>con vínculo eternal”. Un juramento</l>
+            <l>es quien debe afianzarle, y cuando veamos</l>
+            <l>que el uno para el otro renacemos,</l>
+            <l>cuando el fruto de un lazo venturoso</l>
+            <l>no les haga más feliz… hacia los cielos</l>
+            <pb n="252"/>
+            <l>lo elevaré en mis manos exclamando:</l>
+            <l>“¡Oh, Providencia Suma, yo os presento</l>
+            <l>un ser libre! ¡Que pueda gozar vida</l>
+            <l>para honorar la libertad haciendo</l>
+            <l>un digno uso!”... ¿Pero qué reparo?</l>
+            <l>¿Lloras Bastida mía?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Ser eterno!</l>
+            <l>¡Dios de mi Patria! ¡Dios de la Justicia!</l>
+            <l>admite aquestas lágrimas.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>El tiempo</l>
+            <l>huye veloz.</l>
+          </sp>
+        </div>
+        <div type="scene">
+          <head>Escena 5ª</head>
+          <stage>Dichos y Catari</stage>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Oh Cándor! Preveníos</l>
+            <l>al mayor infortunio. De concierto</l>
+            <l>están Arriaga y Santelices padre</l>
+            <l>para que el hijo y vos en breve tiempo</l>
+            <l>vayáis a la capital del Virreinato</l>
+            <l>hasta nueva orden; y que de los Cerros</l>
+            <l>salga Bastidas y al servicio quede</l>
+            <l>bajo custodia del tirano fiero</l>
+            <l>para evitar peligros que sospechan.</l>
+            <l>De esto trataban ahora en el Ingenio,</l>
+            <l>mis lealtades os ponen la noticia</l>
+            <l>porque vos apliquéis pronto remedio.</l>
+            <pb n="253"/>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Escena 6ª</head>
+          <stage>Tupac-Amaru y Bastidas</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Como si se despertara de un letargo y pasando después a toda la extensión del
+              despecho)</stage>
+            <l>¡Mísero! ¿Yo qué he oído? ¡Muerte! muerte</l>
+            <l>que sin cesar evoco ¿a mis tormentos</l>
+            <l>siempre sorda serás?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <stage>(Queriendo consolarlo)</stage>
+            <l>¡Amigo mío!...</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>A nadie reconozco. Mi despecho…</l>
+            <l>el rencor de ese monstruo… la insaciable</l>
+            <l>sed de su sangre… los transportes ciegos</l>
+            <l>de un amor infeliz… ¡Ah! los furores</l>
+            <l>de la pasión bastarda de los celos…</l>
+            <l>todo se reúne y se aglomera todo,</l>
+            <l>y falta mi razón!...</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Oye a lo menos <stage>(Acercándose y tomándole la mano)</stage></l>
+            <l>a Bastidas, Bastidas que te habla.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Reconociéndola)</stage>
+            <l>¡Tú eres Bastidas! ¡Ah! Tus embelesos</l>
+            <l>son los que a entrambos pierden!... ¡Infelice!</l>
+            <stage>(Separándola con furor)</stage>
+            <l>¡Maldito por jamás sea el primero</l>
+            <l>instante en que te vi! ¿Pero… tú lloras?</l>
+            <stage>(Pasando del furor al arrepentimiento)</stage>
+            <l>¡Perdón! ¡Perdón de mi extraviar! ¡Yo mesmo</l>
+            <l>soy tu asesino y mi asesino!</l>
+            <pb n="254"/>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Cándor!</l>
+            <l>De tus imprecaciones no me duelo:</l>
+            <l>lloro por el estado en que te miro.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Vagando)</stage>
+            <l>¡Ah, Santelices! ¿Cómo en tal momento</l>
+            <l>tú me abandonas? ¿Cómo a tomar parte</l>
+            <l>no vienes en el fardo de tormentos</l>
+            <l>que abruma el corazón?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Tupac-Amaru!</l>
+            <l>Ten piedad de tu esposa… ¡Mis lamentos</l>
+            <l>te pueden conmover! ¿Quieres que muera</l>
+            <l>de tu pesar?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Si tienes ardimiento</l>
+            <l>muere… Tu esposo se halla decidido</l>
+            <l>a seguirte… ¿y por cuál crimen horrendo</l>
+            <l>tú has de morir?... ¡Pero dejarte expuesta</l>
+            <l>a un bárbaro Español, cuyos deseos…</l>
+            <l>¡Llevar hasta el sepulcro aquesta imagen</l>
+            <l>insoportable!... ¡Oh! ¡No! ¡Fuera un tormento,</l>
+            <l>fuera un suplicio mucho más horrible</l>
+            <l>que mi existencia congojosa!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Ciego</l>
+            <l>en tu dolor, me insultas, me vulneras.</l>
+            <l>¿Qué me supone Arriaga? ¡El universo</l>
+            <l>para Bastidas sólo tiene un Cándor!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Insensata que tú eres! ¿Tus esfuerzos</l>
+            <l>que valen comparados al tirano?</l>
+            <l>Tú podrás disponer de tus afectos</l>
+            <l>y de tu corazón: más la violencia…</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <stage>(Mirando adentro)</stage>
+            <pb n="255"/>
+            <l>¡Infelice de mí! ¡Llegó el tremendo temido</l>
+            <l>instante! ¡Arriaga nos ha visto!</l>
+            <l>Mírale impartir órdenes… ¡Oh, cielo!</l>
+            <l>¿y qué será de mí?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>De sus furores</l>
+            <l>busca cómo evadirte, mientras vuelo</l>
+            <l>donde está Santelices. ¡El tirano</l>
+            <l>no ha de gozar sus pérfidos inventos!</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Escena 7ª</head>
+          <stage>Tupac-Amaru solo</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Es la primera vez que el temor fluye</l>
+            <l>en la sangre de un Inca… ¡Mortal hielo</l>
+            <l>discurre por mis venas!... Los instantes</l>
+            <l>corren veloces. No perdamos tiempo.</l>
+            <l>¡Santelices! ¡Amigo! ¡Santelices!</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>Escena 8ª</head>
+          <stage>Corregidor, Tupac-Amaru</stage>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Qué quieres?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>No es a vos… <stage>(Yéndose)</stage></l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Oye altanero.</l>
+            <l>Detente y obedece los mandatos</l>
+            <l>de tu señor.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡De mi señor!... <stage>(Temblando de enojo)</stage></l>
+            <pb n="256"/>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Sí, ¿debo demostrártelo aquí?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Triste Bastidas!</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>Escena 9ª</head>
+          <stage>Corregidor</stage>
+          <sp who="#coregidor">
+            <speaker>Coregidor</speaker>
+            <l>¡Arriaga dice bien! ¡Males funestos</l>
+            <l>este insubordinado causaría</l>
+            <l>detrás de sí arrastrando al inexperto</l>
+            <l>Santelices!... ¡Oh joven imprudente!</l>
+            <l>¡Tú me quieres forzar por tales medios</l>
+            <l>a economizar sangre y no reparas</l>
+            <l>que así tú a derramarla das fomento!...</l>
+            <l>Él viene… Si no puedo persuadirlo,</l>
+            <l>mi potestad consiga contenerlo.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>Escena 10ª</head>
+          <stage>Corregidor y Santelices</stage>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Acércate. No cumplen muchas horas</l>
+            <l>que en mí encontraste un amigo tierno:</l>
+            <l>un amigo indulgente… Mas tú abusas</l>
+            <l>de la indulgencia… Mi confianza empero</l>
+            <l>si puede concederte, la retracto…</l>
+            <l>Tú eres sensible solamente al fiero</l>
+            <l>orgullo de animar tus opiniones</l>
+            <l>contrarias del Monarca a los derechos,</l>
+            <l>y a los derechos de tu Madre España.</l>
+            <pb n="257"/>
+            <l>Tú divagando ese traidor veneno,</l>
+            <l>entre la brutedad que los anima</l>
+            <l>exaltas a los Indios predispuestos</l>
+            <l>siempre a la insurrección. Ya algunos osan</l>
+            <l>desconocer mi autoridad; momentos</l>
+            <l>vendrán en que ose más su altanería.</l>
+            <l>Tú eres su promotor…</l>
+            <l><stage>(Santelices quiere hablar)</stage></l>
+            <l>Guarda silencio.</l>
+            <l>Te he prohibido interrumpir mientras que yo hablo.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Y me prohibís justificar?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Te vuelvo</l>
+            <l>a preceptuar que mientras hablo calles:</l>
+            <l>vuelvo a decir que atajes el acento.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>El hombre justo, escucha: el hombre esclavo</l>
+            <l>de sus bajas pasiones da el silencio.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿No te acuerdas que hablas con tu Padre?</l>
+            <l>¿En tu filantropía joven necio</l>
+            <l>aprendiste a hablar con impudencia</l>
+            <l>de la naturaleza los derechos?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>El déspota pretende traspasarlos</l>
+            <l>más allá de sus límites.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Protervo!</l>
+            <l>¿Tú osarías fijarlos?... Pero miro</l>
+            <l>que ese rebelde corazón abyecto</l>
+            <l>es incapaz de nada… ¡Tú desprecias</l>
+            <l>mi autoridad! ¡Desprecias el respeto</l>
+            <l>que a un padre se le debe!... ¡Tiembla, indigno,</l>
+            <pb n="258"/>
+            <l>de atraer sobre tu frente todo el peso</l>
+            <l>de mi cólera! ¡Tiembla te abandone</l>
+            <l>a las tortuosidades de tu ciego</l>
+            <l>delirio!... Abjura en este mismo instante</l>
+            <l>tus errados principios tan opuestos</l>
+            <l>al interés Hispano… Si resistes,</l>
+            <l>si no tiene obediencia mi precepto,</l>
+            <l>aún tengo yo cadalsos donde caigan</l>
+            <l>de tu cabeza altivos pensamientos.</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>Escena 11ª</head>
+          <stage>Santelices solo</stage>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Tristes Americanos! ¿Vuestra casa</l>
+            <l>me robará de un padre los afectos?</l>
+            <l>¡Se me quiere aterrar con el cadalso!</l>
+            <l>¿Es ser traidor querer compadecerlos?</l>
+            <l>Si amar al semejante los tiranos</l>
+            <l>reputan por traición; caiga en mi cuello</l>
+            <l>la funesta segur.</l>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>Escena 12ª</head>
+          <stage>Santelices y Tupac-Amaru</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Un nuevo crimen te toca</l>
+            <l>ahora impedir!... Ese perverso</l>
+            <l>Arriaga… Mi Bastidas… El azote</l>
+            <l>ya la amenaza… Parte, aquí te espero.</l>
+            <pb n="259"/>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>Escena 13ª</head>
+          <stage>Tupac-Amaru solo</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡De la imaginación siento la fuerza</l>
+            <l>obscurecida! ¡Yo me agito y tiemblo!</l>
+            <l>El alma opresa, y ya debilitada</l>
+            <l>no es poderosa a resistir lo fiero</l>
+            <l>de tanto y tanto embate… ¡Amor! Tu sólo</l>
+            <l>has transformado mi robusto pecho</l>
+            <l>¡y todo por Bastidas!...¡Por salvarla</l>
+            <l>del castigo cruel, me hallo dispuesto</l>
+            <l>a prosternarme ante las plantas viles</l>
+            <l>de sus tiranos!</l>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>Escena 14ª</head>
+          <stage>Tupac-Amaru y Catari</stage>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Hacedor supremo!</l>
+            <l>¿Cuándo nos vengarás?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Tupa-Catari…</l>
+            <l>¿Qué me anuncias?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Oh Dios! ¡Cuánto me duelo</l>
+            <l>de su infeliz estado!... Tu Bastidas…</l>
+            <l>¡Se consumó el castigo!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Justo cielo!... <stage>(Queda abismado. Pausa)</stage></l>
+            <l>¡Bastidas! ¡Mi Bastidas! ¿y lo sufres?</l>
+            <l>¿y no despides sulfurante trueno,</l>
+            <l>Dios vengador del justo?... ¡Ah! ¡Tú no existes</l>
+            <pb n="260"/>
+            <l>tú no tienes poder cuando el perverso</l>
+            <l>prospera… ¡Ay!... ¡Perdonadme Dios sagrado;</l>
+            <l>yo he osado blasfemarte en el acceso</l>
+            <l>de mi dolor!... ¡Oh Dios!... Tú has permitido</l>
+            <l>que se cometa el crimen postrimero,</l>
+            <l>para vengarnos a la vez de todos.</l>
+            <l>¡Tu mano lenta en descargar su peso,</l>
+            <l>Caerá, caerá sobre los asesinos!...</l>
+            <l>¡Arriaga! ¡Arriaga! ¡Bárbaros!... ¡Eterno</l>
+            <l>Dios de mi patria! ¡Yo te reconozco</l>
+            <l>en el santo furor que de mis miembros</l>
+            <l>se apodera! ¡No más clamores vanos!</l>
+            <l>¡No más llanto, no más abatimiento!</l>
+            <l>¿Tupac-Amaru puede con Catari</l>
+            <l>contar?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Hasta morir.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Y del secreto</l>
+            <l>la religión por ti fuera violada</l>
+            <l>al rigor del suplicio o del tormento?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Yo nací Americano.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Darme auxilio</l>
+            <l>prometes?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Y obediencia: y te venero</l>
+            <l>como hijo de mis Incas…</l>
+            <l><stage>(Se le postra).</stage></l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿De qué modo</l>
+            <l>miras tú el dominar de los Íberos?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Como una usurpación la más injusta.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Quieres salvar tu patria?</l>
+            <pb n="261"/>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>En el momento</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Amas la esclavitud?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Antes la muerte.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Me basta. Yo te asocio a mis derechos.</l>
+            <l>¡Yo te agrego a la gloria! ¡Denodados</l>
+            <l>sobre los Españoles reportemos</l>
+            <l>el cúmulo de males que gravita</l>
+            <l>sobre nosotros! Dime: ¿predispuestos</l>
+            <l>están los Indios? ¿La abyección conocen</l>
+            <l>de su estado? ¿Se miran con aliento</l>
+            <l>para romper sus grillos y cadenas?</l>
+            <l>¿Aman la libertad?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Sólo el momento</l>
+            <l>y un redemptor aguardan.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Ve a encontrarlos.</l>
+            <l>La hora en que cesen las tareas, veo</l>
+            <l>que no pueden tardar. Cuando ellos bajen,</l>
+            <l>pues mañana es Domingo, con secreto</l>
+            <l>les irás traspasando la noticia.</l>
+            <l>Y cuando los tiranos a Morfeo</l>
+            <l>rindan feudo preciso, me conduce</l>
+            <l>aquí sus tristes víctimas. Te advierto</l>
+            <l>que sea sin tumulto y preparados</l>
+            <l>a escucharme. Yo entonces pareciendo</l>
+            <l>en medio de vosotros; con la espada</l>
+            <l>de persuasión y el Rayo del acento,</l>
+            <l>os prometo llevar de la Victoria</l>
+            <l>y de la Libertad al Santo Templo.</l>
+          </sp>
+          <stage>
+            <p>Fin del Acto Segundo</p>
+          </stage>
+          <pb n="262"/>
+          <stage>
+            <p>La música del entreacto imita el silencio de la noche interrumpido alguna vez por el
+              rumor del viento que retumba entre los cerros.</p>
+          </stage>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head>Acto tercero</head>
+        <stage>
+          <p>Noche</p>
+        </stage>
+        <div type="scene" n="1">
+          <head>Escena 1ª</head>
+          <stage>Tupac-Amaru y Catari</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Quién va?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Tupa-Catari</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Los has visto?</l>
+            <l>¿Les hablaste? ¿Se miran de la empresa</l>
+            <l>convencidos?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Se miran preparados</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Libres serán, Catari, si me prestan</l>
+            <l>atención!</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Observad con cuál recato</l>
+            <l>y con la precaución que a vos se acercan!</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena 2ª</head>
+          <stage>Los precedentes, Bastidas, mitayos de ambos sexos</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Míseros compatriotas!... ¡Pobres restos</l>
+            <pb n="263"/>
+            <l>de la grey venturosa y opulenta</l>
+            <l>del Gran Manco-Capac! Con dolor miro</l>
+            <l>que el peso de la infamia y la cadena</l>
+            <l>que yo arrastro, arrastráis vos igualmente.</l>
+            <l>El fuego que discurre por mis venas</l>
+            <l>observo, amigos míos, que discurre</l>
+            <l>con igual impulsión hoy por las vuestras.</l>
+            <l>¡Fuego de Libertad y de venganza!</l>
+            <l>¿Quién… a esta voz sagrada, no se alienta</l>
+            <l>y desea ser libre?... Y siendo justo</l>
+            <l>este desear… ¿Quién puede, en su carrera</l>
+            <l>detenernos?... ¡El vástago de un Inca,</l>
+            <l>no teme aquí encontrar almas que amenguan</l>
+            <l>la dignidad de hombres, y que temen</l>
+            <l>arrostrar el rigor de una empresa</l>
+            <l>sólo por el aspecto del peligro!</l>
+            <l>¡No pretendo excitar la efervescencia</l>
+            <l>de vuestro brío; no encender pretendo</l>
+            <l>vuestro resentimiento, haciendo muestra</l>
+            <l>de atentados, insultos, vejaciones</l>
+            <l>que sufrís y sufristeis a do quiera!</l>
+            <l>No es mi ánimo enseñar las cicatrices</l>
+            <l>de que os miráis cubiertos… De la huesa</l>
+            <l>no atentaré a exhumar los yertos manes</l>
+            <l>de malhadados mil, que fenecieran</l>
+            <l>sin poder resistir males tamaños</l>
+            <l>sin punir los autores de su negra</l>
+            <l>situación y adoptaron el suicidio;</l>
+            <l>¡recurso triste que el mortal encuentra</l>
+            <l>en la debilidad o cobardía!</l>
+            <l>¡No, compatriotas!... Cesará mi lengua,</l>
+            <pb n="264"/>
+            <l>yo dejaré en la paz de su sepulcro</l>
+            <l>a las cenizas, siempre lastimeras,</l>
+            <l>de millones de infantes: ¡cuyas madres,</l>
+            <l>cegadas del furor y de la pena,</l>
+            <l>en su mismo nacer le dieron muerte</l>
+            <l>antes que verlos hechos triste presa</l>
+            <l>de la furia Española!... ¡No, Peruanos!</l>
+            <l>¡Yo no os acordaré memorias negras</l>
+            <l>que ni el tiempo jamás podrá borrarlas!</l>
+            <l>¡Indígenas del Sud!... ¡Nuestra existencia,</l>
+            <l>nuestros mayores, nuestros caros hijos</l>
+            <l>nuestros amigos y consortes tiernas,</l>
+            <l>y la América en fin piden venganza!</l>
+            <l>¡Y venganza incesante clamorean!</l>
+            <l>¡Y vengados no están!... ¡Alarma Indios!</l>
+            <l>¡Unamos nuestro ardor! ¡Y que la tierra</l>
+            <l>que nos miró nacer escuche el grito</l>
+            <l>de sacra Libertad e Independencia!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡Libertad! ¡Libertad!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Ella es tu hija!</l>
+            <l>¡Es la hija de tu amor, Naturaleza!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡Libertad! ¡Libertad!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Cómo es hermoso</l>
+            <l>un entusiasmo tal! ¡Oh, como eleva</l>
+            <l>ese augurio feliz mis esperanzas!...</l>
+            <l>Sin embargo… No debo hacer reserva</l>
+            <l>de los peligros que ahora es necesario</l>
+            <l>afrontar con denuedo… ¡Nuestra empresa</l>
+            <l>cuanto es honrosa, tanto es arriesgada!</l>
+            <l>Los españoles por naturaleza</l>
+            <pb n="265"/>
+            <l>son fieros y avezados al carnaje.</l>
+            <l>Terribles en el arte de la guerra:</l>
+            <l>nosotros, sin recursos y sin armas,</l>
+            <l>nosotros, circundados de la fuerza,</l>
+            <l>tenemos solamente la justicia</l>
+            <l>de nuestra santa causa. Ella nos lleva</l>
+            <l>de la inmortalidad al alto templo,</l>
+            <l>o nos conduce a soportar las penas</l>
+            <l>que nuestros anteriores recibieron</l>
+            <l>en la orgullosa Lima… ¡Fortaleza,</l>
+            <l>y Unión! ¡Libres o Muertos!... ¡Defendamos</l>
+            <l>nuestros derechos, nuestra independencia</l>
+            <l>hasta el postrer suspiro!... ¡Que una muerte,</l>
+            <l>o inmarcesible lauro el voto sea</l>
+            <l>de nuestros corazones!... ¿Mas quién duda</l>
+            <l>preferir una muerte a la bajeza,</l>
+            <l>a la infamia y ludibrio que nos cubre</l>
+            <l>y a la infanda vejez que nos espera?</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡Fortaleza y Unión! ¡Libres o muertos!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Cómo mi alma se aplaude y lisonjea</l>
+            <l>viéndoos participar de sus transportes!</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Fuertes Canes y Canches! La experiencia</l>
+            <l>nos hace ver que en nuestros mismos días</l>
+            <l>se acaba de elevar la Independencia</l>
+            <l>de una Nación que a fuer de la constancia,</l>
+            <l>cantó su Libertad. Faltos de fuerzas;</l>
+            <l>como nosotros, más determinados</l>
+            <l>a vencer o morir: con decadencia</l>
+            <l>en sus marchas, mas siempre resolutos</l>
+            <l>en sus proyectos: fiados en la mesma</l>
+            <pb n="266"/>
+            <l>justicia de su causa, hallaron pronto</l>
+            <l>socorro en las Naciones extranjeras,</l>
+            <l>lo mismo que nosotros hallaremos,</l>
+            <l>ora en línea campal, ora en las rocas</l>
+            <l>inaccesibles; ¡vedlos con la fuerza</l>
+            <l>de un destructor torrente desplegarse</l>
+            <l>por las llanuras, y llevar la tea</l>
+            <l>de la devastación y de la muerte!...</l>
+            <l>¡Vedlos al retirarse, cual se llevan</l>
+            <l>consigo aquellas ricas producciones</l>
+            <l>que hubieron cultivado en su miseria</l>
+            <l>para enorgullecer al despotismo!</l>
+            <l>Inquietando <stage>(en vigilia y siempre alerta)</stage></l>
+            <l>a un enemigo superior en todo;</l>
+            <l>ofendiendo a las veces, o en defensa;</l>
+            <l>regocijándose de una derrota</l>
+            <l>por la dulce esperanza lisonjera</l>
+            <l>de una victoria, ansiando por seres libres;</l>
+            <l>¿no abatieron del Anglo la soberbia,</l>
+            <l>haciendo que los trate como a iguales,</l>
+            <l>y respete su augusta Independencia?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Oh Nord Americanos! ¡Oh, mis héroes!</l>
+            <l>¡Nuestros modelos en tamaña empresa!</l>
+            <l>Como vos detestamos los tiranos;</l>
+            <l>como vos detestamos sus cadenas;</l>
+            <l>como vos aspiramos a ser libres;</l>
+            <l>como vos hallaremos la defensa</l>
+            <l>sobre las rocas y elevados cerros</l>
+            <l>de que nos bastionó Naturaleza!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Es de allí que vibrados nuestros golpes,</l>
+            <l>tanto serán seguros cuanto sean</l>
+            <l>inatendidos. Es de allí que el Indio</l>
+            <pb n="267"/>
+            <l>el tanto gozará de sus tareas;</l>
+            <l>sin la necesidad, mas sin superfluo:</l>
+            <l>sin el orgullo, pero sin bajeza,</l>
+            <l>¡quizá sin leyes y quizá sin vicios!</l>
+            <l>¡Es de allí pues que atónita la tierra</l>
+            <l>conocerá de cuánto son capaces</l>
+            <l>del Sud los hijos, cuando el grito elevan</l>
+            <l>por Libertad, y por su dulce Patria!</l>
+            <l>¡Amor sagrado de la Independencia!</l>
+            <l>¡A ti sólo el derecho pertenece</l>
+            <l>de producir los héroes y las diestras</l>
+            <l>que salvando a su madre de opresiones</l>
+            <l>la coronen de gloria y fama eterna!</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Viva Tupac-Amaru!</l>
+          </sp>
+          <sp who="#unos">
+            <speaker>Unos</speaker>
+            <l>¡Viva, viva!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡Viva el grande Caudillo de esta empresa!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Es a mí al que elegís caudillo vuestro?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Tú eres de nuestros Incas rama egregia!</l>
+            <l>Tú eres el digno sucesor de Manco;</l>
+            <l>debe ceñir tus sienes la Suprema</l>
+            <l>roja-borla. Juradle pues, Peruanos,</l>
+            <l>y prestadle sumisos la obediencia.</l>
+            <l>¡Viva Tupac-Amaru-Inca!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l><stage>(Se arrodillan)</stage></l>
+            <l>¡Que viva!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Yo admito vuestros plácemes que elevan</l>
+            <l>la dignidad que merecer pretendo.</l>
+            <l>¿Juráis obedecerme?</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡Sí!</l>
+            <pb n="268"/>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Que pueda</l>
+            <l>el santo Cielo recibir los votos</l>
+            <l>de vuestros corazones! Los acepta,</l>
+            <l>¡Oh Sumo Dios!: yo juro por los manes</l>
+            <l>de mis antepasados; por la mesma</l>
+            <l>Patria, cuyos destinos hoy presido;</l>
+            <l>juro guerrear, vencer, y daros muestra</l>
+            <l>de constancia y valor, hasta que logre</l>
+            <l>destrozar vuestras hórridas cadenas!</l>
+            <l>Hasta ese punto… permitidme amigos,</l>
+            <l>que no acepte la Borla.</l>
+          </sp>
+          <sp who="#uno">
+            <speaker>Uno</speaker>
+            <l>¡Eterno sea</l>
+            <l>Tupac-Amaru!</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Y caiga sin remedio</l>
+            <l>sobre el Hispano todo el anatema!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡Y caiga! ¡Caiga!</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡A la venganza Indios!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡A la venganza!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Suma inteligencia!</l>
+            <l>¡Tú vas a enumerar el sacro día</l>
+            <l>de la justicia! ¡Cuántas, cuántas penas</l>
+            <l>me cuesta su esperanza! ¡Oh, qué terrible</l>
+            <l>será la crisis! ¡Sólo a su fiereza</l>
+            <l>culpen los Españoles! Retiraos</l>
+            <l>con igual disimulo. La cautela</l>
+            <l>a cada uno las armas proporcione</l>
+            <l>que halle más oportunas a la escena</l>
+            <l>que por instantes nos aguarda. Sirvan</l>
+            <l>los mismos instrumentos que doblegan</l>
+            <pb n="269"/>
+            <l>y agobian nuestros cuerpos al ludibrio,</l>
+            <l>sirvan en la ocasión de armas guerreras!</l>
+            <l>De las bocinas el tañido triste</l>
+            <l>es la señal de alarma. En la hora mesma</l>
+            <l>aquí nos reuniremos a la vista</l>
+            <l>de los tiranos. ¡Ah! Que a la sorpresa</l>
+            <l>subsigan el terror, espanto y susto,</l>
+            <l>yo a vuestra vista empaparé mi diestra</l>
+            <l>en cuantos se me opongan, en Arriaga,</l>
+            <l>en Santelices padre y…</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>La clemencia</l>
+            <l>brille para con su hijo.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Cielo justo!...</l>
+            <l>¡Ventura Santelices! ¡La defensa,</l>
+            <l>el amparo del Indio! ¡Nuestro amigo!</l>
+            <l>Él será la excepción de toda regla.</l>
+            <l>Él vivirá. Vosotros sois sensibles</l>
+            <l>al reconocimiento. ¡Haya indulgencia</l>
+            <l>para el amigo nuestro!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>Nuestros pechos</l>
+            <l>serán su escudo.</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>¡Viva y siempre sea</l>
+            <l>benéfico a los hombres!</l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡Sí, que viva!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Despedacemos a los otros. ¡Mueran</l>
+            <l>los esclavos del trono! Cuando estemos</l>
+            <l>sin riesgo de temerles, la clemencia</l>
+            <l>obrará generosa. Id mis amigos.</l>
+            <l>Valor, secreto, unión, y fortaleza.</l>
+            <pb n="270"/>
+            <l>En vos confío. Que no se oiga el trueno</l>
+            <l>sin que haya hecho su estrago la centella.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Escena 3ª</head>
+          <stage>Tupac-Amaru solo</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Helo ya el día grande! ¡Último día</l>
+            <l>de nuestra esclavitud! Cuando amanezca</l>
+            <l>el sol, sus bellos radios luminosos</l>
+            <l>saludarán la noble Independencia,</l>
+            <l>de miles de hombres, libres de tiranos.</l>
+            <l>¡Oh qué grandes destinos se nos muestran</l>
+            <l>ya preparados desde tal momento!</l>
+            <l>Un puñado de hombres se aglomeran,</l>
+            <l>unen sus sentimientos y se atreven</l>
+            <l>a proclamar la Libertad Suprema</l>
+            <l>del nuevo mundo, ¡y sobre mí reposa</l>
+            <l>la vasta ejecución de tan egregia</l>
+            <l>jornada! ¡Oh, pueda yo más ventruoso</l>
+            <l>destrozar de mi Patria las cadenas,</l>
+            <l>restituir la dulzura de sus Incas,</l>
+            <l>y hacer que en las edades venideras</l>
+            <l>Tupac-Amaru sea bendecido!</l>
+            <l>¿Y ese mortal que la beneficencia</l>
+            <l>formara con sus manos?... ¿Ese joven</l>
+            <l>amador de los Indios?... ¡Qué tragedia</l>
+            <l>lamentable, si en medio del desorden,</l>
+            <l>si entre la confusión e inexperiencia</l>
+            <l>el brazo de un furioso descarriado</l>
+            <l>nos trunca de sus días la carrera!</l>
+            <pb n="271"/>
+            <l>¡Llanto infructuoso y lágrimas tardías</l>
+            <l>no serán de consuelo a la sincera</l>
+            <l>amistad!... Que se aleje de estos sitios.</l>
+            <l>Es forzoso… Lo debo… Nuestra extrema</l>
+            <l>situación lo demanda. Retardemos</l>
+            <l>el grande golpe, hasta que el joven tenga</l>
+            <l>un asilo seguro, ¿y que, acertado</l>
+            <l>será confiarle asuntos de materia</l>
+            <l>tan grave? ¿A un Español? ¿A quien su propio</l>
+            <l>interés personal, la habitud mesma</l>
+            <l>del lujo, vanidad, y la molicie,</l>
+            <l>pueden arrebatar a la flaqueza</l>
+            <l>de revelar nuestro importante arcano?</l>
+            <l>¡Qué digo yo! ¿Cómo hago tal ofensa</l>
+            <l>a un hombre tal? Ventura Santelices</l>
+            <l>es un prodigio que naturaleza</l>
+            <l>abortó en este siglo de maldades.</l>
+            <l>Sus virtudes no tienen coherencia</l>
+            <l>con su nacer y todo me asegura,</l>
+            <l>todo lo garantiza, y todo aprueba</l>
+            <l>el que yo deposite mi secreto</l>
+            <l>entre su corazón. ¡Sí! Mi franqueza,</l>
+            <l>mi estimación, mi amor y mi confianza</l>
+            <l>grabarán el sigilo de su lengua.</l>
+          </sp>
+          <stage>
+            <p>Fin del Acto Tercero</p>
+          </stage>
+          <stage>
+            <p>La música del entreacto anuncia la venida del día.</p>
+          </stage>
+        </div>
+      </div>
+      <pb n="272"/>
+      <div type="act" n="4">
+        <head>Acto cuarto</head>
+        <div type="scene" n="1">
+          <head>Escena 1ª</head>
+          <stage>Tupac-Amaru y Santelices</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Ya levantado al despuntar el alba?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Conciliar el reposo no me ha sido</l>
+            <l>posible! Mis ideas tormentosas</l>
+            <l>de tropel asaltaron mis sentidos,</l>
+            <l>sin dejar que mis párpados cerrase</l>
+            <l>un sueño bien hechor ¿y tú has dormido,</l>
+            <l>Cándor?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>No Santelices.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Cuando sufre</l>
+            <l>el corazón, el sueño le huye.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Amigo!</l>
+            <l>El corazón que sufre, siempre tiene</l>
+            <l>el tiempo y la esperanza por alivio.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Ellos te pueden consolar?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Qué fuera de mí sin ellos?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Yo he compadecido</l>
+            <l>la suerte de Bastidas.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>De Bastidas</l>
+            <l>no hablemos, Santelices.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Aún no miro</l>
+            <pb n="273"/>
+            <l>perdida la esperanza. Yo prometo</l>
+            <l>hacer frente al carácter vengativo</l>
+            <l>de un irritado Padre. Al despertarse</l>
+            <l>llegaré a su presencia.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Qué me has dicho?</l>
+            <l>¡Tu padre duerme!... ¡Ah! ¿Tu padre puede</l>
+            <l>dormir?...</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Siempre le acusas!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Ten sabido</l>
+            <l>que ya no más le acusaré.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Tu sangre fría,</l>
+            <l>me asombra.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>El triunfo de sí mismo</l>
+            <l>es el triunfo mayor.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Feliz mil veces</l>
+            <l>quien logra tal esfuerzo!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Envilecido</l>
+            <l>aquel que no le logra!... El más dichoso,</l>
+            <l>jamás podrá decir que está al abrigo</l>
+            <l>de la desgracia! ¿y que le resta al hombre</l>
+            <l>de la fortuna en disfavor?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Lo activo</l>
+            <l>de una dulce amistad consoladora.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Cuando de la amistad no se halla indigno</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <stage>(Después de examinarlo atentamente)</stage>
+            <l>¡Me causas inquietud!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Estoy calmado.</l>
+            <pb n="274"/>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Entre esa misma calma yo diviso</l>
+            <l>la tempestad que anuncia.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Aquel que sabe</l>
+            <l>preverla, debe hallarse precavido.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Qué me quieres decir con esas voces</l>
+            <l>interrumpidas… el mirar sombrío…</l>
+            <l>y ese vagar incierto?... ¡Desgraciado!</l>
+            <l><stage>(Tomándole por un brazo)</stage></l>
+            <l>Abre tu corazón para un amigo.</l>
+            <l>No le tengas confuso en tan horrible</l>
+            <l>ansiedad… ¿Qué meditas?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Del peligro</l>
+            <l>salvarte.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡A mí salvarme! ¿A quién intentas</l>
+            <l>perder?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>El aire… ¡el aire de estos sitios</l>
+            <l>es pestilente! Evita que sus miasmas</l>
+            <l>te puedan ser funestas. Yo te pido</l>
+            <l>que sólo por dos días te separes</l>
+            <l>de tales territorios.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>En mi arbitrio</l>
+            <l>no está el abandonarte… Un espantoso</l>
+            <l>secreto está oprimiendo los sigilos</l>
+            <l>de tu gran corazón. Pugna y se esfuerza</l>
+            <l>por trasladarse al interior del mío…</l>
+            <l>pero tú lo contienes… Habla… En nombre</l>
+            <l>de la amistad más pura, te suplico</l>
+            <l>que hables.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Tendrás valor para escucharme?</l>
+            <pb n="275"/>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Me lo persuado.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Oh mi mejor amigo!</l>
+            <l><stage>(Tomándole ambas manos)</stage></l>
+            <l>¡Resignación! ¡Valor! Tupac-Amaru</l>
+            <l>es quien te habla.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Prosigue.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Ya prosigo.</l>
+            <l>Los Españoles…</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Qué?...</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Ay, joven infelice! Harto te digo.</l>
+            <l>Hoy te aleja de Tinta, si acaso amas</l>
+            <l>tu existencia.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Qué dices?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Harto he dicho…</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Para no terminar dijiste harto.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Harto será si me hayas entendido.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Si, te entiendo… ¡Cruel!... Si: bien te entiendo.</l>
+            <l>¡Mas qué horrible atentado, cual designio</l>
+            <l>a concebir te atreves!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Lo repruebas?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Entre la sangre de mi padre?... ¡Impío!</l>
+            <l>¿Se empaparán tus manos?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Quien perdona</l>
+            <l>al execrable, se hace en sus delitos</l>
+            <l>cómplice.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Gracia imploro para un padre.</l>
+            <pb n="276"/>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Le fulminó el fallar irremisivo.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Mas yo por un silencio criminoso</l>
+            <l>debo exponerlo al golpe encruelecido</l>
+            <l>de vuestras iras?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Cuento con tu prudencia.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡En mi ferocidad!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Un fementido</l>
+            <l>eres si hablas.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Y si callo, un monstruo.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Si hablas serás el instrumento indigno para oprimir la humanidad inerme.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿La humanidad ordena un parricidio?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Y ordena el cielo que se sacrifiquen</l>
+            <l>al opresor los miserables Indios?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Yo no discutiré… Mas a mi padre</l>
+            <l>yo bien sabré salvar.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Con el suplicio</l>
+            <l>de millares de víctimas.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Con ellas</l>
+            <l>muriendo cumpliré y habré cumplido</l>
+            <l>con la naturaleza… <stage>(Yéndose)</stage></l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Ten el paso…</l>
+            <l>El entusiasmo obstruye tus sentidos.</l>
+            <l>Medita antes de obrar. Te he confiado</l>
+            <l>un Secreto. Secreto que has debido</l>
+            <l>al poder sacro de amistad. ¡Ventura!</l>
+            <l>Yo responsable soy al Mundo Indio</l>
+            <l>del uso que tú harás del grande arcano.</l>
+            <pb n="277"/>
+            <l>¿Mas qué podrá decirles su Caudillo</l>
+            <l>a esas tristes familias desoladas</l>
+            <l>que no tienen acaso más delito</l>
+            <l>que el de substraerse al ímpetu primero?</l>
+            <l>¿Qué dirás al aspecto del suplicio</l>
+            <l>donde tu indiscreción quiere entregarlas?</l>
+            <l>¡Maldecirás sin fin los extravíos</l>
+            <l>de tu ciega ternura y sus funestas</l>
+            <l>consecuencias! Tus ojos doloridos,</l>
+            <l>sobre un Indio jamás podrán fijarse,</l>
+            <l>¡sin que tu alma cubierta de un sombrío</l>
+            <l>espesor, no se abisme con la carga</l>
+            <l>de los remordimientos!... El egoísmo,</l>
+            <l>las consideraciones personales</l>
+            <l>te ofrece. El verdadero parricidio</l>
+            <l>es el Liberticida… Aquel que mata</l>
+            <l>los vínculos sagrados e imprescriptos</l>
+            <l>de las Naciones... ¡Joven Santelices!</l>
+            <l>Con imparcialidad, con recto juicio</l>
+            <l>tu corazón consulta; los derechos</l>
+            <l>de los hombres; ¡y el fallo del divino</l>
+            <l>Hacedor!... interroga a tu conciencia.</l>
+            <l>Oye su decir… Ve ahí el digno,</l>
+            <l>el juez incorruptible a quien se debe</l>
+            <l>escuchar en el trance en que te miro</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena 2ª</head>
+          <stage>Santelices solo</stage>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Entre la humanidad, naturaleza,</l>
+            <pb n="278"/>
+            <l>mi padre, mis deberes, y los Indios</l>
+            <l>heme aquí!... Si una parte ha de salvarse</l>
+            <l>la otra parecer debe… ¡Cruel conflicto!</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Escena 3ª</head>
+          <stage>Corregidor y Santelices</stage>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Aquí está. Le hablaré. Con la dulzura</l>
+            <l>procuremos sondear este atrevido</l>
+            <l>joven. Dulcifiquemos mi carácter.</l>
+            <l><stage>(Con falsedad en todo el Diálogo)</stage></l>
+            <l>¡Te hallo muy apropósito, hijo mío!</l>
+            <l>Terminemos debates molestos,</l>
+            <l>y que a nada conducen… El tranquilo</l>
+            <l>placer, la dulce paz, por siempre habiten</l>
+            <l>en nuestra casa: cuyo precipicio</l>
+            <l>sería inevitable, por violencias</l>
+            <l>de tu genial y del carácter mío.</l>
+            <l>¡Que la armonía y la confianza tornen</l>
+            <l>a vivir con nosotros! Cometido</l>
+            <l>cada uno ha sus errores. Alejemos</l>
+            <l>recuerdos que de suyo son malignos,</l>
+            <l>hagamos la ventura de uno y otro…</l>
+            <l><stage>(Tomándole ambas manos)</stage></l>
+            <l>vuelve al amor de un padre, ¡amado hijo!</l>
+            <l>Un padre aquí te invita; y es un padre</l>
+            <l>quien amistad te ofrece.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Oh, padre mío!</l>
+            <l>¡Oh, padre! <stage>(Desordenado)</stage></l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Bien comprendo. He yo agraviado</l>
+            <pb n="279"/>
+            <l>tu corazón. Lo sé: yo en tus amigos</l>
+            <l>te he afligido… Aún no es tarde. Yo prometo</l>
+            <l>mejorarles su estado.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Oh Cielo impío! <stage>(con voz ahogada y fuera de sí)</stage></l>
+            <l>¡Es ya tarde! ¡Es ya tarde!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Qué, es ya tarde</l>
+            <l>para amarnos, y con mutual cariño</l>
+            <l>entendernos!... ¡Amado Santelices!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Tal bondad me confunde!... ¡Prevenido</l>
+            <l>mi corazón no estaba!... ¡Oh, Cielo Santo!</l>
+            <l>¿Qué puedo resolver en tal conflicto?</l>
+            <l>¿Qué debo hacer?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Tu corazón abrirme. <stage>(Abriendo los brazos).</stage></l>
+            <l>Ven, Santelices, que te espera el mío.</l>
+            <l>Mi corazón te llama.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Ah! Es demasiado…</l>
+            <l>¡Y no resisto más!... <stage>(Se arroja en ellos).</stage></l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <stage>(Aparte)</stage>
+            <l>¡Ah! Yo he vencido.</l>
+            <l>Así pues, hijo amado, en lo futuro</l>
+            <l>siendo uno de ambos el interés mismo,</l>
+            <l>debo esperar que emplees tu ascendiente</l>
+            <l>en hacer que de hoy en más sean los Indios</l>
+            <l>obedientes al yugo de la España;</l>
+            <l>dóciles, laboriosos, y sumisos.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <stage>(Se aparta con horror)</stage>
+            <l>¡Sumisos proferisteis! <stage>(Vuelve a sus brazos)</stage> ¡Padre amado!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Tus palabras semejan a un delirio.</l>
+            <l>¿Qué debo yo augurar?</l>
+            <pb n="280"/>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Vuestra ternura,</l>
+            <l>que jamás se desmiente… el imprevisto</l>
+            <l>cambiamiento… mi júbilo y sorpresa...</l>
+            <l>yo corresponderé padre querido,</l>
+            <l>con sumisión la más ilimitada</l>
+            <l>a esas proposiciones que vos mismo</l>
+            <l>os dignasteis hacerme… Pero, en tanto…</l>
+            <l>yo hago recuerdo que me habéis prescripto</l>
+            <l>ir a la Capital. Sin más demora</l>
+            <l>yo partiré obediente… ¡Oh padre mío!</l>
+            <l>Vos conmigo vendréis… Vuestra experiencia</l>
+            <l>me servirá de mucho… Yo os suplico</l>
+            <l>que al instante partamos.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Considera</l>
+            <l>que no es posible, sin haber permiso</l>
+            <l>del Virrey. Además que por instantes</l>
+            <l>aguardo la llegada del Ministro</l>
+            <l>Areche, plenamente facultado</l>
+            <l>como Visitador. Él ha exigido</l>
+            <l>que sin piedad se agraven los tributos</l>
+            <l>y las imposiciones sobre el Indio,</l>
+            <l>hasta extinguir su raza, y reemplazarla</l>
+            <l>por Africanos… ¡Mira si a su arribo</l>
+            <l>debo faltar de aquí! Tú, Santelices,</l>
+            <l>parte: yo quedaré.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <stage>(Horrorizado)</stage>
+            <l>…¿y en tales sitios</l>
+            <l>vos quedaréis?... ¡Vos quedaréis!... No, padre no; vos no quedaréis.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Por cuál motivo?</l>
+            <pb n="281"/>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡No! ¡Vos no quedaréis! ¡Imposible!</l>
+            <l><stage>(Tomándolo por la mano)</stage></l>
+            <l>¡Venid, venid, señor!... Os suplico</l>
+            <l>Corresponded, ¡oh padre! a mis instancias</l>
+            <l>por la condescendencia.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <stage>(Aparte)</stage>
+            <l>No han mentido</l>
+            <l>las sospechas de Arriaga.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Y bien mi padre?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Mañana partiremos, hijo mío.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Ay mañana, Señor!... ¡Padre, mañana!</l>
+            <l>Hoy mismo… ¡Eterno Dios! Ahora… Hoy mismo.</l>
+            <l><stage>(Pausa).</stage></l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <stage>(Después de mirarlo con severidad)</stage>
+            <l>Tú quieres arrancarme del Gobierno.</l>
+            <l>Tú eres un partidario de los Indios.</l>
+            <l>Alguna convulsión te han revelado.</l>
+            <l>Contra mí se conspira.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Yo no he dicho <stage>(con precipitación)</stage></l>
+            <l>tal cosa.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>En este punto lo confiesas.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Qué he confesado yo? ¡Tristes amigos!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Sella el labio traidor! Te ruboriza</l>
+            <l>de tu vil proceder. Ya no eres mi hijo</l>
+            <l>y si acaso lo eres, yo me afrento</l>
+            <l>de haberte dado el ser… De estos recintos</l>
+            <l>yo me aparto. Bien pronto daré vuelta,</l>
+            <l>pero será trayendo el exterminio</l>
+            <l>y la venganza real sobre vosotros… <stage>(Vase).</stage></l>
+            <pb n="282"/>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Deteneos Señor! ¡Oh, Dios! ¡Yo expiro!</l>
+            <l><stage>(Cae sobre un peñasco).</stage></l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Escena 4ª</head>
+          <stage>Santelices solo</stage>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Todo lo sabe!... ¡Oh, Dios! ¡Todo lo sabe!</l>
+            <l>¿Qué he pronunciado yo con mi extravío</l>
+            <l>que así todo el secreto ha penetrado?</l>
+            <l>¿Qué he pronunciado yo?... ¡Míseros Indios!</l>
+            <l>¿Qué será de vosotros?</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Escena 5ª</head>
+          <stage>Santelices y Tupac-Amaru</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Yo he notado</l>
+            <l>que presuroso parte de este sitio</l>
+            <l>tu padre… ¿No te atreves a mirarme?</l>
+            <l>De cometer acabas un delito.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Es verdad: es verdad. Todo es notorio.</l>
+            <l>Yo estoy desesperado y vos perdido.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Miserable! ¿Qué has hecho?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Yo intentaba</l>
+            <l>libertar a mi padre. Mi conflicto,</l>
+            <l>mi turbación, no tengo duda alguna</l>
+            <l>que de todo le habrán esclarecido.</l>
+            <l>Todo ya lo previó: y en esta hora</l>
+            <l>todo ya lo previene. Él es activo</l>
+            <pb n="283"/>
+            <l>en sus disposiciones. Un momento</l>
+            <l>no tenéis que perder.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Los pobres Indios</l>
+            <l>por ti son traicionados! Este crimen yo debía preverlo. ¡Astros malignos!</l>
+            <l>¿Dable fue, Santelices?... ¡Mas por cuanto</l>
+            <l>no fueras Español!... ¿Por cuál destino,</l>
+            <l>cargáis el anatema inseparable</l>
+            <l>de ser ingratos?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Vibra tu castigo,</l>
+            <l>y evítame el tormento y la amargura</l>
+            <l>de la reconvención… Entre mí mismo</l>
+            <l><stage>(señalando a su corazón)</stage></l>
+            <l>tengo mi juez supremo.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Castigado</l>
+            <l>serás… ¿Ves este acero? Pues sus filos</l>
+            <l>acabarán mis días deplorables</l>
+            <l>en el momento que haya sucumbido</l>
+            <l>toda esperanza. Al Universo Mundo</l>
+            <l>con frente imperturbada desafío.</l>
+            <l>¡Aún soy el dueño de mi suerte!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Oh triste!</l>
+            <l>¿Y yo soy el que te haya reducido</l>
+            <l>a tal extremidad? Hiere mi pecho.</l>
+            <l>Termina mi penar. Te lo suplico</l>
+            <l>a tus plantas.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Frenético)</stage>
+            <l>¿En donde está tu padre?</l>
+            <l>¿Cuál sendero ha tomado? Presto dilo <stage>(amagándole).</stage></l>
+            <pb n="284"/>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>De mí no lo sabrás. Descarga el golpe. <stage>(Pausa).</stage></l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Después de considerar)</stage>
+            <l>¡Perdona mis transportes! No es a un hijo</l>
+            <l>a quien yo debo preguntarlo.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Hiere.</l>
+            <l>¡Yo le oculto de ti. Yo os he vendido!</l>
+            <l>Fulmina el golpe. Muero resignado.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Alza, insensato joven! El ludibrio</l>
+            <l>de las humillaciones pertenece</l>
+            <l>sólo a tus compatriotas. Alza digo…</l>
+            <l>Tupac-Amaru… en medio de tu furia</l>
+            <l>te compadece… y te ama… <stage>(Lo abraza).</stage></l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>No soy digno…</l>
+            <l>¿Tupac-Amaru me perdona?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Mi odio</l>
+            <l>no me ha de hacer injusto. No me admiro</l>
+            <l>de tu resolución. El exigirte</l>
+            <l>que al ímpetu primero de los Indios</l>
+            <l>sacrificases la Naturaleza,</l>
+            <l>¡fuera imitar los déspotas que insisto</l>
+            <l>en castigar! ¡A mi agradecimiento</l>
+            <l>debo acusar! Los dos hemos cumplido</l>
+            <l>con los deberes de ambos. No mereces</l>
+            <l>reconvención alguna y yo te estimo.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¿Y quedas sin algún resentimiento?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Me juzgas susceptible? Yo el abismo</l>
+            <l>en su espaciosidad he sondeado,</l>
+            <l>y ya nada me impone. ¿De estos sitios</l>
+            <l>partió tu padre?... ¡Lo conozco!... Al frente</l>
+            <pb n="285"/>
+            <l>de armada fuerza tornará suplicios</l>
+            <l>de horrores y tormentos fulminando!</l>
+            <l>Mas yo lo prevendré. Sí: a recibirlo</l>
+            <l>intrépido saldré. Cuanto esta noche</l>
+            <l>debiera suceder, en este mismo</l>
+            <l>punto sucederá. De aquí te aleja:</l>
+            <l>¡huye la confusión de los gemidos,</l>
+            <l>de horror, de incendio, asolación y muerte!</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Mi padre ya está en salvo! Nada miro;</l>
+            <l>nada me importa el resto.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Es necesario</l>
+            <l>que en este punto adoptes mi partido…</l>
+            <l>Sólo un momento tienes. <stage>(Pausa).</stage></l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Si: yo adopto</l>
+            <l>el de la justa causa. Me decido</l>
+            <l>hoy por la Libertad y la Justicia.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Y tú nos seguirás?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Hasta el suspiro</l>
+            <l>postrero!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>La miseria y las penurias</l>
+            <l>marcharán con nosotros.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Tengo bríos</l>
+            <l>para arrostrarlas.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Tú lo quieres?</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>Nada</l>
+            <l>me hará cambiar de intento. Muy al vivo</l>
+            <l>reconozco el carácter de mi padre.</l>
+            <l>No puede perdonarme los perjuicios</l>
+            <pb n="286"/>
+            <l>que le vais a causar. Ya y sin retorno,</l>
+            <l>su corazón se mira empedernido</l>
+            <l>a los clamores de Naturaleza.</l>
+            <l>Yo me adhiero a vosotros. Indivisos</l>
+            <l>seremos por jamás. Vuestros sucesos</l>
+            <l>serán por mi constancia sostenidos:</l>
+            <l>con vos me elevaré si os elevaseis;</l>
+            <l>el fin que vos tengáis, será el fin mío.</l>
+          </sp>
+          <stage>
+            <p>Fin del Acto Cuarto</p>
+          </stage>
+          <stage>
+            <p>La música del entreacto imita la reunión de los Indios al toque de Bocinas y
+              caracoles: la llegada de las tropas realistas: el combate sostenido por el cañón y
+              mosquetería: la huida de los Españoles; la algazara de los Independientes al
+              perseguirlos, y los ayes de los moribundos, finalizando con la marcha triunfante.</p>
+          </stage>
+        </div>
+      </div>
+      <div type="act" n="5">
+        <head>Acto quinto</head>
+        <stage>
+          <p>Valle circuido de rocas escarpadas, en cuyas eminencias está el campamento y el
+            pabellón de los independientes. Éstos al compás de festiva marcha, salen armados con
+            hondas, chuzos, espadas, azadones trayendo en triunfo a Tupac-Amaru (precedido de
+            cañones, banderas, y armamentos de los españoles) que viene decorado con el llanto o la
+            roja borla y la segur en la mano: muchos americanos se presentarán uniformados con los
+            despojos quitados a los vencidos.</p>
+        </stage>
+        <pb n="287"/>
+        <div type="scene" n="1">
+          <head>Escena 1ª</head>
+          <stage>Tupac Amaru, Catari, séquito de independientes</stage>
+          <sp who="#unos">
+            <speaker>Unos</speaker>
+            <l>¡Viva el héroe feliz de nuestra empresa!</l>
+          </sp>
+          <sp who="#otros">
+            <speaker>Otros</speaker>
+            <l>¡Viva la Independencia Americana!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Nuestros primeros pasos se han marcado</l>
+            <l>por sucesos gloriosos! ¡Nuestra marcha</l>
+            <l>fue en pos de la victoria; que, aunque ciega,</l>
+            <l>abrazó la justicia de la causa</l>
+            <l>de los hijos del Sol!... ¡Choque más fuerte</l>
+            <l>no se verá jamás! La horrible parca,</l>
+            <l>por todo la segur enarbolando,</l>
+            <l>sobre nuestros tiranos empleaba</l>
+            <l>certeros golpes… hasta que rendida</l>
+            <l>de herir y derribar de su guadaña</l>
+            <l>os hizo donación… En vuestras manos,</l>
+            <l>¡con cuál impavidez, con cuál audacia</l>
+            <l>vuestros menores golpes eran firmes!</l>
+            <l>¡Las orgullosas huestes de la España</l>
+            <l>fueron puestas en fuga, sin embargo</l>
+            <l>de la enorme ventaja de sus armas</l>
+            <l>y su táctica! ¡En esto se confirma</l>
+            <l>de que el Supremo Dios de las Batallas</l>
+            <l>lidió en nuestro favor!... ¡Sus Estandartes,</l>
+            <l>sus armamentos y el infame Arriaga</l>
+            <l>quedó en nuestro poder!... Vedle de un árbol</l>
+            <l>pendiente, y dando al mundo la enseñanza</l>
+            <l>de que su ejecución y su suplicio</l>
+            <l>sus mismo atentados demandaban…</l>
+            <l>El honor y la gloria y vuestro esfuerzo</l>
+            <pb n="288"/>
+            <l>han coadyuvado a consagrar la causa</l>
+            <l>de nuestra independencia. ¡Hed aquí el fruto</l>
+            <l>que nos dejó el ardor de esta jornada!</l>
+            <l>¡Quiera el Omnipotente que la igualen</l>
+            <l>las demás que subsigan!... ¡Vigilancia,</l>
+            <l>Orden y Sumisión, en nuestras manos</l>
+            <l>pondrán el alto fin! Las atalayas</l>
+            <l>id a doblar, y guarnecer los puestos.</l>
+            <l>Lo demás lo hará el Cielo. Ten la planta,</l>
+            <l>Tupa-Catari.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena 2ª</head>
+          <stage>Tupac-Amaru, Tupa-Catari</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Pues quedémonos solos.</l>
+            <l>¡Contigo explanar quiero las alarmas</l>
+            <l>que me agitan! El público y privado</l>
+            <l>interés, y lo santo de la Causa</l>
+            <l>parece que de suyo les exige</l>
+            <l>a los Americanos de prosapia</l>
+            <l>española a que operen igualmente</l>
+            <l>con nuestras intenciones. De la España</l>
+            <l>el sistema opresor en igual punto</l>
+            <l>que a nosotros los tiene… ¡Abisma, pasma</l>
+            <l>el observar cuán pocos se han prestado</l>
+            <l>a la común defensa! Señal clara</l>
+            <l>de que habituados con las injusticias</l>
+            <l>aman la esclavitud, aman la infamia</l>
+            <l>e ignoran sus derechos primitivos…</l>
+            <l>He aquí la señal cierta de que aun faltan</l>
+            <pb n="289"/>
+            <l>peligros que vencer; ¡y que este triunfo</l>
+            <l>nos traerá centenares de batallas!</l>
+            <l>Los Españoles (tanto más soberbios</l>
+            <l>por la vil fuga que hizo su ignorancia)</l>
+            <l>tornarán a la lid entusiasmados</l>
+            <l>con la efímera y débil esperanza</l>
+            <l>de borrar una afrenta dolorosa</l>
+            <l>para su orgullo. Todo lo prepara,</l>
+            <l>y los recibiremos. Nuestros brazos</l>
+            <l>custodien las llanuras y gargantas</l>
+            <l>por donde el enemigo acaso pueda</l>
+            <l>penetrar.</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Ya te sirve mi eficacia.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Ve, Catari. Bien pronto las fatigas</l>
+            <l>iré a partir con mis hermanos de armas.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Escena 3ª</head>
+          <stage>Tupac Amaru y Bastidas</stage>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Ve allí el asilo que naturaleza</l>
+            <l>le ofrece a nuestro amor!... Ahora te hallas</l>
+            <l>lleno de tus deberes y yo me hallo</l>
+            <l>cumpliendo con los míos. La morada</l>
+            <l>nuestra es aquella. Sí: por ella misma</l>
+            <l>podrás reconocer cuánto te ama</l>
+            <l>éste mi corazón enamorado.</l>
+            <l>¡Ven pues Tupac-Amaru!... Ven: descarga</l>
+            <l>de los duros afanes de este día.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Aqueste día es todo de la patria</l>
+            <l>y de la gloria.</l>
+            <pb n="290"/>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¿Y del amor?... ¡Ay! ¿Cuándo</l>
+            <l>cesará el retemblar de las montañas</l>
+            <l>con los estruendos del sañudo Marte?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>No hay, mi Bastidas, tan apreciable alhaja</l>
+            <l>como la Libertad: pero a su templo</l>
+            <l>por sendas peligrosas y penadas</l>
+            <l>es preciso llegar.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Sí, tales sendas</l>
+            <l>debe el héroe franquear. ¡Oh infortunada</l>
+            <l>la Libertad que tanta sangre cuesta!</l>
+            <l>¿Será posible?, ¡Inteligencia Sacra!</l>
+            <l>¿que no han de ser amigas las Naciones</l>
+            <l>sin que lo anuncie el Iris de las armas?</l>
+            <l>¿Cabe en la idea que los hombres amen</l>
+            <l>destrozarse?... ¡Oh, Hispanos!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Decretada</l>
+            <l>se ve nuestra justicia.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Ellos vencidos,</l>
+            <l>paces implorarán… nuestra venganza</l>
+            <l>con la paz tenga fin.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Es imposible.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Qué no consigue el tiempo!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Cuál te engaña</l>
+            <l>tu corazón!... Jamás los españoles</l>
+            <l>mirarán sin dolor nuestras ventajas.</l>
+            <l>Jamás se convendrán a respetarnos</l>
+            <l>como a dueños de América. Ellos aman</l>
+            <l>mucho su peculado y despotismo</l>
+            <l>¡para hoy reverenciar al que arrastraba</l>
+            <pb n="291"/>
+            <l>sus cadenas ayer! Allá en sus orgías</l>
+            <l>su impotente furor así proclama…</l>
+            <l>“¡Guerra de sangre! ¡Esclavitud o Muerte!</l>
+            <l>¡Rebeldes, elegid! Las alianzas,</l>
+            <l>la igualdad con vosotros es un crimen.</l>
+            <l>¡¡América sucumba o bien España!!”.</l>
+            <l>Así Bastidas ¡no te lisonjees</l>
+            <l>de que imploren la paz! Ni alucinada</l>
+            <l>te expongas al vejamen de tus mismas</l>
+            <l>compañeras… ¿No has visto con qué audacia,</l>
+            <l>con qué calor en medio del combate,</l>
+            <l>intrépidas, valientes y calmadas,</l>
+            <l>junto al esposo, junto al hijo, junto</l>
+            <l>al padre, con sus voces animaban</l>
+            <l>y decidieron la victoria? ¡Observa</l>
+            <l>y mira, cuál de nuevo se preparan</l>
+            <l>a los nuevos peligros!... y tú misma,</l>
+            <l>tú en quien debe recaer mi gloria y fama,</l>
+            <l>¿te engañarás un esperar tan grato?</l>
+            <l>¿Incierta y temerosa; tus alarmas</l>
+            <l>me quieren inspirar debilidades?</l>
+            <l>¡Ah, Bastidas! ¡Bastidas!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>De las almas,</l>
+            <l>¿será que sólo se halle la grandeza</l>
+            <l>en medio del carnaje? ¿No te basta</l>
+            <l>para norma el sensible Santelices?</l>
+            <l>La muerte, que adoquier se divagaba</l>
+            <l>no te impuso terror. En torno suyo</l>
+            <l>y bajo su segur, sólo miraba</l>
+            <l>las víctimas, sin darles preferencia</l>
+            <l>entre ser Españolas o Peruanas.</l>
+            <pb n="292"/>
+            <l>Acaso de la sangre de los hombres,</l>
+            <l>¡cuidó tan sólo de aliviar las ansias</l>
+            <l>del moribundo y restañar las fuentes</l>
+            <l>de sus heridas!... ¿Esta sobrehumana</l>
+            <l>gloria, esta emulación, sería indigna de tu valor?</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Lidiaba por su Patria,</l>
+            <l>lidiaba por ser libre, Santelices?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Mediaba entre los hombres</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Si! De Arriaga</l>
+            <l>en siguiendo la suerte otros caudillos,</l>
+            <l>la América será tranquilizada.</l>
+            <l>¡Sólo siento no haber cumplido el golpe</l>
+            <l>destinado a mi esfuerzo! En la matanza</l>
+            <l>de ambas facciones, Santelices Padre</l>
+            <l>se me ofreció a la vista. Nuestra rabia</l>
+            <l>se iba a nutrir de nuestra sangre misma,</l>
+            <l>cuando dos gruesos puestos a la carga</l>
+            <l>impidieron habernos destrozado.</l>
+            <l>Él tornará sin duda. Su tardanza</l>
+            <l>es lo que a mi paciencia mortifica.</l>
+            <l>Entonces quedaremos en la estrada</l>
+            <l>el uno muerto, el otro victorioso,</l>
+            <l>o ambos exhalaremos allí el alma</l>
+            <l>envuelta entre espumosa y negra furia</l>
+            <l>hasta morder la tierra ensangrentada.</l>
+            <pb n="293"/>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Escena 4ª</head>
+          <stage>Bastidas</stage>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Tupac-Amaru sabe amar, es cierto:</l>
+            <l>¡mas no sabe reglarse por lo que ama!</l>
+            <l>¡Ebrio de Libertad, su anhelar todo</l>
+            <l>se ocupa en el sostén del Alma Patria!</l>
+            <l>Volvamos a la gruta, a prepararle</l>
+            <l>descanso.</l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Escena 5ª</head>
+          <stage>Corregidor</stage>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Adónde, Cielos, hoy mi planta</l>
+            <l>lleva el incierto paso?... ¡Hado mezquino!</l>
+            <l>¿Cómo eludir los riesgos que me aguardan,</l>
+            <l>y me persiguen? ¡Ah! ¿Más que reparo?</l>
+            <l>¿Será un delirio? ¿No es Antonio Arriaga</l>
+            <l>quien de aquel árbol pende?... Sí: no hay duda.</l>
+            <l>¡Mísero yo! ¡Qué horror! ¿Qué me señala</l>
+            <l>espectáculo tal? ¿Qué me predice?</l>
+            <l>¡Tú ya el feudo pagastes a la Parca…</l>
+            <l>y yo lo debo!... ¡Al sin igual desorden</l>
+            <l>lo debo del combate!... Destrozadas</l>
+            <l>las huestes reales… del pavor seguido…</l>
+            <l>errante por collados y montañas, supedito las breñas que guarnecen</l>
+            <l>este hondo valle… Aquí… ¡Luces sagradas!</l>
+            <l>¡lejos de hallar asilo, hallo las señas</l>
+            <pb n="294"/>
+            <l>que pronuncian el fin que me prepara</l>
+            <l>la ojeriza enemiga!... ¡Sí! ¡Nosotros</l>
+            <l>de nuestros mismos males somos causa!</l>
+            <l>Nosotros hemos violentado al Indio</l>
+            <l>a la desesperación y a la venganza.</l>
+            <l>¡Su intrépido valor, lleva un carácter</l>
+            <l>de terribilidad! Ni la ventaja</l>
+            <l>de nuestros fuegos, ni el cañón ni el plomo</l>
+            <l>es poderoso a detener sus marchas.</l>
+            <l>Ellos se precipitan, ellos hieren,</l>
+            <l>ellos caen; ¡pero ellos nos arrastran;</l>
+            <l>y nos arrollan, y nos exterminan!</l>
+            <l>¡Ay Santelices, hijo mío! ¡Cuántas</l>
+            <l>amarguras y cuántos displaceres</l>
+            <l>fueran lejos de mí si a tus palabras</l>
+            <l>hubiese dado crédito!... ¿Tú existes?</l>
+            <l>¿Qué es de tu suerte, di? Las tumultuadas</l>
+            <l>hordas ¿te hicieron su caudillo? ¿Acaso</l>
+            <l>te resolvistes a fulminar las armas</l>
+            <l>contra el Rey tu Señor, contra tu padre,</l>
+            <l>y las conquistas de tu Madre España?</l>
+            <l>¿Dime, infeliz, te ha envuelto el anatema</l>
+            <l>de proscripción Ibera?... ¿Derramada</l>
+            <l>yace tu sangre? ¿Aumentas el guarismo</l>
+            <l>de sus víctimas?...</l>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Escena 6ª</head>
+          <stage>Corregidor y Bastidas</stage>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Cielos! ¡Aquí se halla</l>
+            <pb n="295"/>
+            <l>un español!... ¿Pues cómo fue posible</l>
+            <l>penetrar a este sitio?... ¡Qué reparan</l>
+            <l>mis ojos!... ¡Dios! ¡Es Santelices padre!</l>
+            <l>¡Él es!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Aquí Bastidas! ¡Mi desgracia</l>
+            <l>llegó a su colmo!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Dentro de este campo,</l>
+            <l>¿qué buscas, di?</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>La vida yo buscaba:</l>
+            <l>mas ya busco la muerte.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Inevitable</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Bien lo sé: y que muriendo a vuestra saña…</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>En el nombre de un Dios, ¡te pido me ahorres</l>
+            <l>semejante espectáculo! La planta</l>
+            <l>vuelve atrás.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Dónde huir?... ¿Por cuál sendero</l>
+            <l>podré tomar?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>No sé… ¡Fiera desgracia!</l>
+            <l>La huida es imposible. ¡Es un delirio pensar en ella!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Y debo a la venganza</l>
+            <l>ser inmolado?... ¡Vengan en buenahora!</l>
+            <l>Con los ojos cerrados e inclinada</l>
+            <l>la cabeza, yo aguardo el fatal golpe,</l>
+            <l>sin replicar y sin dolerme… ¡Amarga</l>
+            <l>es mi suerte! Mas yo la he merecido.</l>
+            <l>¡Mas yo la he merecido! ¡Sí!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¿En tu alma</l>
+            <l>caben remordimientos?</l>
+            <pb n="296"/>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Oh, mísero de mí, si me faltaran</l>
+            <l>remordimientos!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Todo lo dirime</l>
+            <l>sola esa voz, y todo lo repara…</l>
+            <l>Tú mereces vivir.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Con ese idioma</l>
+            <l>es Micaela Bastidas quien me habla?</l>
+            <l>¿Tú no me entregas? ¡Ah!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Tú eres un hombre</l>
+            <l>desgraciado! ¡El hombre en su desgracia,</l>
+            <l>es inviolable y sacro para el Indio!</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Yo te privé de un padre!... <stage>(Condolido).</stage></l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>En la estrellada</l>
+            <l>bóveda otro me queda… <stage>(Reprimiendo las lágrimas).</stage></l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Yo tu sangre</l>
+            <l>hice verter!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡La tuya derramada</l>
+            <l>nunca será por mí!... Conozco, veo</l>
+            <l>que me expongo a la cólera exaltada</l>
+            <l>de los míos. Empero yo ejecuto</l>
+            <l>en pro de la clemencia: esto me basta</l>
+            <l>para mi corazón.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Mujer sensible!</l>
+            <l>¡Generosa mujer! ¡Mujer que abarcas</l>
+            <l>cuanto engrandece al hombre! Me confunde</l>
+            <l>tu corazón y tu virtud me pasma.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Sé armar al semejante, Santelices,</l>
+            <l>¡y no sé aborrecerlo!... La tardanza</l>
+            <l>podrá serte nociva. No perdamos</l>
+            <pb n="297"/>
+            <l>un tiempo tan precioso. Si la rabia</l>
+            <l>de los míos te encuentra, eres perdido.</l>
+            <l>Esa caverna oculte tu desgracia.</l>
+            <l>Luego, cuando la noche tienda el manto,</l>
+            <l>después que el Sol se esconda entre las aguas,</l>
+            <l>con recato y silencio, yo tu guía</l>
+            <l>prometo ser: y yo la vigilancia</l>
+            <l>engañando de nuestros centinelas</l>
+            <l>tu vida del peligro pondré salva.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Bastidas, en tus manos me abandono…</l>
+            <l>¡Hayas piedad de mí! Templa las ansias</l>
+            <l>de un afligido padre. ¿Qué es de mi hijo?</l>
+            <l>¿Yace yerto despojo de la Parca?</l>
+            <l>¿Qué es de mi hijo, Bastidas?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Con nosotros</l>
+            <l>existe y goza el fruto de sus raras</l>
+            <l>virtudes.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¿Su denuedo se ha empleado</l>
+            <l>contra los españoles?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¿Qué venganzas</l>
+            <l>le pueden asistir contra vosotros?</l>
+            <l>¿Por qué ha de combatiros? Nuestra causa</l>
+            <l>no es la causa de tu hijo. Con el tiempo</l>
+            <l>lo será si adoptáis la contumacia,</l>
+            <l>y seguís los errores.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡No ha tomado</l>
+            <l>armas contra su Rey!... ¡Oh de qué carga</l>
+            <l>mi corazón alivias!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¿Tú pretendes</l>
+            <l>que te vea morir? Sigue mi planta.</l>
+            <pb n="298"/>
+            <l>Dentro de aquella gruta permanece</l>
+            <l>silencioso. En Bastidas ten confianza.</l>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Escena 7ª</head>
+          <stage>Bastidas</stage>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡A mí me felicito! Este tirano,</l>
+            <l>este servil esclavo de la insana</l>
+            <l>codicia, ¡tenga ejemplo de los mismos</l>
+            <l>que ayer sus tiranías agobiaban!</l>
+            <l>¡Tenga vida por mí! ¡Quizá ilustrado</l>
+            <l>por la razón, deteste de su errada</l>
+            <l>conducta y nos bendiga!... Los combates</l>
+            <l>y la carnicería y la matanza</l>
+            <l>serán conquistadores de los pechos,</l>
+            <l>pero la compasión lo es de las almas.</l>
+            <l>¿Mas, qué miro?... A esta parte se dirige</l>
+            <l>Tupac-Amaru!... ¡Qué imprevista causa…!</l>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>Escena 8ª</head>
+          <stage>Bastidas, Tupac-Amaru, séquito de Independientes</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Estáis ciertos? ¿Él es?</l>
+          </sp>
+          <sp who="#catari">
+            <speaker>Catari</speaker>
+            <l>Este soldado</l>
+            <l>nos dio el aviso.</l>
+          </sp>
+          <sp who="#unIndio">
+            <speaker>Un indio</speaker>
+            <l>Desde mi atalaya</l>
+            <l>lo seguí fijamente: yo lo he visto</l>
+            <l>hablando con Bastidas y lo guarda</l>
+            <l>dentro de aquella gruta.</l>
+            <pb n="299"/>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Oh vilipendio!</l>
+            <l>¿Y tú osas conspirar contra tu Patria?</l>
+            <l>¿Tú la traicionas?... ¡Tiembla mi justicia!</l>
+            <l>Responde… ¿Con qué fin?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Heme a tus plantas.</l>
+            <l>Nada sé responder… ¡Sólo a mi esposo</l>
+            <l>imploro!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Yo tu esposo! Quien te habla</l>
+            <l>no es tu esposo. Es el Inca quien te juzga</l>
+            <l>y quien dará sentencia irrevocada,</l>
+            <l>Tupac-Amaru. Andad. A mi presencia</l>
+            <l>arrastradle <stage>(a los Indios que se van).</stage></l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Yo expiro! ¡Ay Dios me valga!... <stage>(Cae amortecida).</stage></l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Socorredla! Sí, él es, bien le conozco.</l>
+            <l>Llega malvado y expiarás tu audacia.</l>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>Escena 9ª</head>
+          <stage>Dichos y el Corregidor: conducido por los Indios que se fueron.</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Estás en mi poder… y tu suplicio</l>
+            <l>va a comenzar. ¡En tus mortales ansias</l>
+            <l>nos saciaremos todos! Dilatado</l>
+            <l>será, ¡será tirano cual tu alma!</l>
+            <l>Por compasión demandarás la muerte,</l>
+            <l>y no habrá quien otorgue tu demanda…</l>
+            <l>Mas tú, mujer a quien yo amaba tanto…</l>
+            <l>¡Mujer de perdición!... ¿Así a tu Patria,</l>
+            <l>a tus libertadores, a tu esposo,</l>
+            <pb n="300"/>
+            <l>pudiste ser infiel?... ¡Mujer malvada!</l>
+            <l>Yo sabré combatir contra mi aleve</l>
+            <l>pasión: y si no puedo sofocarla,</l>
+            <l>sabrela sepultar en el silencio.</l>
+            <l>Yo moriré al dolor que agita el alma,</l>
+            <l>pero yo seré justo ante los ojos</l>
+            <l>del Orbe espectador: yo ¡Monstruo!¡Acaba</l>
+            <l>de saciarte en tu obrar!... ¡Mira el estado</l>
+            <l>a que la ha reducido tu execranda</l>
+            <l>traición!... ¡Cómplice fiero de esa inicua,</l>
+            <l>tú la asesinas! ¡Tú!...</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Pronto descarga</l>
+            <l>sobre mi vida el golpe. Mas respeta</l>
+            <l>a esa infeliz. Mi suerte desgraciada</l>
+            <l>aquí me ha conducido. Está inocente.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Lo escuchásteis, mis bravos? Él declara</l>
+            <l>que ella no está culpable. Está inocente.</l>
+            <l>El delito jamás tuvo morada</l>
+            <l>en aquel corazón.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Sólo he querido</l>
+            <l>exonerarte de uno.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Sin tardanza</l>
+            <l>conducidle a morir.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>¡Te hube creído</l>
+            <l>capaz de perdonar!</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¡Cabe en tu audacia</l>
+            <l>esperar un perdón! ¿Fuisteis vosotros</l>
+            <l>de perdonar capaces? ¿En ti se halla</l>
+            <l>un rasgo de virtud?... ¡Muera! <stage>(a los Indios).</stage></l>
+            <pb n="301"/>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Teneos…</l>
+            <l>¡Inca Tupac-Amaru! ¡Qué! ¿Tú hablas</l>
+            <l>de la virtud y asesinar pretendes</l>
+            <l>al padre de tu amigo?... Quien se jacta</l>
+            <l>descender desde Manco no es posible</l>
+            <l>que con la crueldad pacte alianzas:</l>
+            <l>¡no es dable, no es capaz que se resista</l>
+            <l>al grito del dolor!... ¡De aquí te aparta,</l>
+            <l>hombre ferino!... ¡Aparta de nosotros!</l>
+            <l>¡Déjanos al abrigo de la casta</l>
+            <l>inocencia!... No cabe que os conduzca</l>
+            <l>a la gloria, un furioso que se baña</l>
+            <l>en la sangre del hombre que le implora</l>
+            <l>un perdón generoso. Y que a sus plantas</l>
+            <l>acerba muerte espera o bien espera</l>
+            <l>una vida luctuosa y mercenaria.</l>
+            <l>¡Huye, ludibrio de la causa noble</l>
+            <l>que defendemos! Nuestra dulce Patria</l>
+            <l>al romper sus cadenas clamaría</l>
+            <l>por víctimas sin fin: mas no clamara</l>
+            <l>por un cobarde asesinato… Parte:</l>
+            <l>ve a fluctuar en el mar de las venganzas,</l>
+            <l>y de pasiones mil que te devoran,</l>
+            <l>y del pesar sombroso que demarca</l>
+            <l>los crímenes. El cielo es justo…</l>
+            <l>Un día tú caerás triste víctima inviolada</l>
+            <l>a tus propios furores.</l>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>Escena 10ª</head>
+          <stage>Dichos y Santelices</stage>
+          <pb n="302"/>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Padre mío!</l>
+            <l>¿Dónde le conducís?</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>A una tirana</l>
+            <l>muerte.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>¡Oh Tupac-Amaru!... De su encono</l>
+            <l>le salvaremos.</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>Él rige sus venganzas.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <stage>(Da un grito horrible y se cubre el rostro con ambas manos)</stage>
+            <l>¡Ah!... ¡Semejante abominoso crimen</l>
+            <l>tu no cometerás!... No consumada</l>
+            <l>sería tu sentencia, cuando ansioso</l>
+            <l>y lleno de tristeza, tus amargas</l>
+            <l>penas estos mis brazos buscarían,</l>
+            <l>que por no denigrarse con tu infamia</l>
+            <l>te repelieran con horror. Tú el héroe</l>
+            <l>que las destinaciones nos preparan;</l>
+            <l>tú para las virtudes y la gloria</l>
+            <l>formado, no es posible que decaigas</l>
+            <l>amancillando tu carácter noble.</l>
+            <l>Desafiando a la muerte y su guadaña</l>
+            <l>supiste combatir, vencer supiste,</l>
+            <l>y sabrás combatir a tu venganza,</l>
+            <l>y vencerte a ti propio. ¡Inca! Este triunfo,</l>
+            <l>triunfo es digno de ti. ¡No al cielo plazca</l>
+            <l>que a la crueldad la ingratitud agregues!</l>
+            <l>Mas no le aplacerá. Yo, en tus desgracias,</l>
+            <l>te supe prodigar mis beneficios.</l>
+            <l>Por seguir la justicia de tu causa</l>
+            <l>abandoné mi padre, mi fortuna,</l>
+            <l>y mi deber jurado. En la más franca</l>
+            <pb n="303"/>
+            <l>efusión de amistad, tú me juraste</l>
+            <l>pagar la enormidad avalorada</l>
+            <l>de tales sacrificios… ¡Ve aquí el tiempo</l>
+            <l>de la retribución!... Parezca salda</l>
+            <l>tamaña deuda dándome la vida</l>
+            <l>de aquel que me dio el Ser! ¡Ay! ¿Tu eficacia</l>
+            <l>me negará este don? <stage>(Pausa).</stage></l>
+            <l>¿Pero qué digo?... <stage>(Se apodera de su padre).</stage></l>
+            <l>Yo entre mis brazos te defiendo… ¿Aguardas</l>
+            <l>arrancarlo de entre ellos?</l>
+            <l>¡Mas que hago!</l>
+            <l>Yo lo pongo en los tuyos… Tú le amparas.</l>
+            <l>En ti lo deposito… Aquí lo tienes.</l>
+            <l>La prenda de mi amor quede confiada</l>
+            <l>a la a mistad, al reconocimiento,</l>
+            <l>y el honor que hará el timbre de tu Patria.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <stage>(Al hijo)</stage>
+            <l>La amistad triunfa…</l>
+            <l><stage>(Al Corregidor)</stage></l>
+            <l>Vuélvete a los tuyos.</l>
+            <l>Y diles que los mismo que arrastraban</l>
+            <l>ayer al Vituperio, hoy son capaces</l>
+            <l>de generosidad. Diles que ansiaba</l>
+            <l>Tupac-Amaru conseguir tu muerte</l>
+            <l>cuando te dio la vida… Y que sus bravas</l>
+            <l>legiones , escuchando tu sentencia</l>
+            <l>sin murmurar supieron respetarla.</l>
+            <l><stage>(Santelices, Bastidas, Catari lo abrazan en silencio).</stage></l>
+          </sp>
+          <sp who="#todos">
+            <speaker>Todos</speaker>
+            <l>¡Viva Tupac-Amaru!</l>
+          </sp>
+          <sp who="#bastidas">
+            <speaker>Bastidas</speaker>
+            <l>¡Ved, amigos,</l>
+            <l>una lección de las heroicas almas!</l>
+            <pb n="304"/>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <stage>(Con hipocresía)</stage>
+            <l>Si de las armas la variable suerte</l>
+            <l>te da un estado igual, remunerada</l>
+            <l>yo dejaré tu acción.</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>¿Tupa-Catari?</l>
+            <l>Que su persona lleve salvaguardia</l>
+            <l>hasta perder de vista nuestro campo…</l>
+            <l>Vuelve a los tuyos: ¡usa de tus armas!</l>
+            <l>que a mayores contrarios, mayor triunfo</l>
+            <l>tendrá la Independencia.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <l>Yo la causa</l>
+            <l>juré del Rey y en ella morir debo…</l>
+            <l>Sígueme Santelices.</l>
+          </sp>
+          <sp who="#santelices">
+            <speaker>Santelices</speaker>
+            <l>No me es dada</l>
+            <l>tal facultad señor… He yo jurado</l>
+            <l>la Libertad del Sud, y en su demanda</l>
+            <l>debo morir.</l>
+          </sp>
+          <sp who="#corregidor">
+            <speaker>Corregidor</speaker>
+            <stage>(Después de una mirada feroz)</stage>
+            <l>Adiós… Ve…</l>
+          </sp>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Acompañadle.</l>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>Escena última</head>
+          <stage>Tupac-Amaru, Santelices, Bastidas, independientes</stage>
+          <sp who="#tupac">
+            <speaker>Tupac</speaker>
+            <l>Ven. Este último rasgo te declara</l>
+            <l>la igualdad con nosotros. ¡Compañeros!</l>
+            <l>Hagamos ver a cuantos nos degradan,</l>
+            <l>lo que pueden los Sud-Americanos</l>
+            <l>cuando la Libertad sus brazos arma…</l>
+            <pb n="304"/>
+            <l>Marchemos al combate, a las victorias,</l>
+            <l>a derrocar la prepotencia Hispana…</l>
+            <l>¡¡Oh quiera el que dirige los destinos…</l>
+            <l>dar pleno fin a la obra comenzada!!</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+    <back>
+      <trailer>Fin</trailer>
+    </back>
+  </text>
+</TEI>

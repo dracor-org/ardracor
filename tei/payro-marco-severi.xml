@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000006" xml:lang="es">
   <teiHeader>
@@ -33,6 +33,9 @@
         <idno type="URL">https://dracor.org</idno>
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
           <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"> CC0
           </licence>
@@ -40,21 +43,24 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Marco Severi</name>
-          <idno type="URL">https://libsysdigi.library.illinois.edu/oca/Books2008-12/3326499/3326499.pdf</idno>
+          <name>University of Illinois Library</name>
+          <idno type="URL"
+            >https://libsysdigi.library.illinois.edu/oca/Books2008-12/3326499/3326499.pdf</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
         </bibl>
         <bibl type="originalSource">
-          <author>Roberto Payró</author><title level="a">Marco Severi</title>. In: <title level="s">Drama en tres actos</title> (Estrenado en el teatro Rivadavia el 18 de julio de 1905).
-            <pubPlace>Buenos Aires</pubPlace>: <publisher>Casa editora é impresora de M. Rodríguez
-            Giles</publisher><date>1907</date>. 
-        </bibl>
+          <author><forename>Roberto</forename>
+            <surname>Payró</surname></author>: <title level="a">Marco Severi</title>. En: <title
+            level="m">Drama en tres actos</title> (Estrenado en el teatro Rivadavia el 18 de julio
+          de 1905). <pubPlace>Buenos Aires</pubPlace>: <publisher>Casa editora é impresora de M.
+            Rodríguez Giles</publisher><date>1907</date>. </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-    <p>The original source contains typographical errors and older spelling conventions, which have been retained in this edition.</p>
+      <p>The original source contains typographical errors and older spelling conventions, which
+        have been retained in this edition.</p>
     </encodingDesc>
     <profileDesc>
       <particDesc>
@@ -124,14 +130,16 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-05-13" who="nh">Codificación inicial</change>
-        <change when="2025-05-20" who="nh">Correcciones</change>
-        <change when="2025-05-31" who="gdr">Revisión 1</change>
-        <change when="2025-06-09" who="gdr">Revisión 2</change>
-        <change when="2025-08-11" who="rdl">Correción/revisión</change>
-        <change when="2025-08-12" who="nh">Agrego textClass</change>
-        <change when="2025-08-17" who="gdr">Cambio esquema y definición wikidata, atributo sin tilde</change>
-        <change when="2025-09-01" who="gdr">Quito mayúsculas, añado wikidata, numero escenas</change>
+        <change when="2025-05-13" who="#nh">Codificación inicial</change>
+        <change when="2025-05-20" who="#nh">Correcciones</change>
+        <change when="2025-05-31" who="#gdr">Revisión 1</change>
+        <change when="2025-06-09" who="#gdr">Revisión 2</change>
+        <change when="2025-08-11" who="#rdl">Correción/revisión</change>
+        <change when="2025-08-12" who="#nh">Agrego textClass</change>
+        <change when="2025-08-17" who="#gdr">Cambio esquema y definición wikidata, atributo sin
+          tilde</change>
+        <change when="2025-09-01" who="#gdr">Quito mayúsculas, añado wikidata, numero
+          escenas</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -147,8 +155,11 @@
         <desc/>
       </event>
     </listEvent>
-     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000006" passive="https://www.wikidata.org/wiki/Q136048204"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000006"
+        passive="http://www.wikidata.org/entity/Q136048204"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000006"
+        passive="https://hdlab.space/teatrar/obras/0225.html"/>
     </listRelation>
   </standOff>
   <text>
@@ -223,13 +234,21 @@
       <pb n="07"/>
       <div type="act" n="1">
         <head>Acto Primero</head>
-        <stage>La escena representa un vasto y antiguo almacén, dividido en dos por un par de arcos anchos y bajos de estilo colonial, que corren de uno á otro costado. La parte del fondo es un taller tipográfico, con ventana y puerta que dan á la calle en el foro. Se ven en ella máquinas, burros, mesas de componer y demás útiles de imprenta. La parte de primer término sirve de sala y comedor á la familia de Vernengo y de taller de dibujo á éste. Tiene dospuertas: la de la derecha del actor da á un patio, la de la izquierda á las habitaciones interiores. Mesas, sillas, una cuna, etc. etc. Mesa de dibujante litográfico para Vernengo.-Al levantarse el telón entran de la calle Juan y Antonio.</stage>
+        <stage>La escena representa un vasto y antiguo almacén, dividido en dos por un par de arcos
+          anchos y bajos de estilo colonial, que corren de uno á otro costado. La parte del fondo es
+          un taller tipográfico, con ventana y puerta que dan á la calle en el foro. Se ven en ella
+          máquinas, burros, mesas de componer y demás útiles de imprenta. La parte de primer término
+          sirve de sala y comedor á la familia de Vernengo y de taller de dibujo á éste. Tiene
+          dospuertas: la de la derecha del actor da á un patio, la de la izquierda á las
+          habitaciones interiores. Mesas, sillas, una cuna, etc. etc. Mesa de dibujante litográfico
+          para Vernengo.-Al levantarse el telón entran de la calle Juan y Antonio.</stage>
         <div type="scene" n="1">
           <head>Escena I</head>
           <stage>Juan, Antonio</stage>
           <sp who="#juan">
             <speaker>Juan</speaker>
-            <p>Suárez va á venir temprano á buscar pruebas de su tésis.<stage>(Poniéndose las blusas de trabajo).</stage></p>
+            <p>Suárez va á venir temprano á buscar pruebas de su tésis.<stage>(Poniéndose las blusas
+                de trabajo).</stage></p>
           </sp>
           <sp who="#antonio">
             <speaker>Antonio</speaker>
@@ -302,7 +321,10 @@
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
-            <p>Que... Que... Que... cuando un hombre que está aquí, ¿sabés? ha hecho una cosa mala en su tierra... un robo, un asesinato, ¿sabés?... la policía de aqui lo agarra y ¡zás! me lo fleta en un vapor para que allá en su pais, ¿sabés?... me lo metan en la cárcel ó me lo fusilen, según el caso, ¿sabés?.</p>
+            <p>Que... Que... Que... cuando un hombre que está aquí, ¿sabés? ha hecho una cosa mala
+              en su tierra... un robo, un asesinato, ¿sabés?... la policía de aqui lo agarra y ¡zás!
+              me lo fleta en un vapor para que allá en su pais, ¿sabés?... me lo metan en la cárcel
+              ó me lo fusilen, según el caso, ¿sabés?.</p>
           </sp>
           <sp who="#antonio">
             <speaker>Antonio</speaker>
@@ -330,7 +352,8 @@
           </sp>
           <sp who="#antonio">
             <speaker>Antonio</speaker>
-            <p>Sí. Seguro que es porque con Gaspar y Giaccomo fuimos por curiosidad á una reunión. ¿Te acordás de la última, hace cosa de dos meses?</p>
+            <p>Sí. Seguro que es porque con Gaspar y Giaccomo fuimos por curiosidad á una reunión.
+              ¿Te acordás de la última, hace cosa de dos meses?</p>
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
@@ -348,7 +371,9 @@
           <pb n="10"/>
           <sp who="#antonio">
             <speaker>Antonio</speaker>
-            <p>Yo ya andaba maliciando. Gaspar también. Siempre me decía: “Se me hace que ese Benito no es cosa buenal!”, “Siempre anda donde hay barullo sin que nunca lo metan preso.”</p>
+            <p>Yo ya andaba maliciando. Gaspar también. Siempre me decía: “Se me hace que ese Benito
+              no es cosa buenal!”, “Siempre anda donde hay barullo sin que nunca lo metan
+              preso.”</p>
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
@@ -373,7 +398,10 @@
           </sp>
           <sp who="#antonio">
             <speaker>Antonio</speaker>
-            <p>¿No has visto el averiguadero que tiene? Ayer mismo me estuvo preguntando una punta de cosas: que si era cierto que no hacía más que cuatro años que había venido de Italia; que si era cierto que se casó, hace año y medio, cuando Don Jermán le fió la imprenta; que si tenía muchos amigos italianos y quiénes eran..</p>
+            <p>¿No has visto el averiguadero que tiene? Ayer mismo me estuvo preguntando una punta
+              de cosas: que si era cierto que no hacía más que cuatro años que había venido de
+              Italia; que si era cierto que se casó, hace año y medio, cuando Don Jermán le fió la
+              imprenta; que si tenía muchos amigos italianos y quiénes eran..</p>
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
@@ -420,7 +448,8 @@
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
-            <p>Lo voy á enloquecer de trabajo. Vamos á componer. Y vos, á la máquina; hoy tenés diez mil tiros lo menos. <stage>(pasan al fondo).</stage></p>
+            <p>Lo voy á enloquecer de trabajo. Vamos á componer. Y vos, á la máquina; hoy tenés diez
+              mil tiros lo menos. <stage>(pasan al fondo).</stage></p>
           </sp>
           <sp who="#antonio">
             <speaker>Antonio</speaker>
@@ -526,11 +555,14 @@
           </sp>
           <sp who="#maria">
             <speaker>María</speaker>
-            <p>Bueno, bueno! Andá al taller que estamos haciendo un papelón con esos demonios. Pero no vayas á faltar esta noche y á tenerme de plantón, porque yo no aguanto bromas.</p>
+            <p>Bueno, bueno! Andá al taller que estamos haciendo un papelón con esos demonios. Pero
+              no vayas á faltar esta noche y á tenerme de plantón, porque yo no aguanto bromas.</p>
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
-            <p>Si; hasta luego sin falta. <stage type="inline">(Se vá y vuelve)</stage> ¡Ah! oí una cosa... Ya que hoy es el santo de Don Luis, yo tambien quiero hacerle un regalo... ¿No tenés un buen retrato del gringo?</p>
+            <p>Si; hasta luego sin falta. <stage type="inline">(Se vá y vuelve)</stage> ¡Ah! oí una
+              cosa... Ya que hoy es el santo de Don Luis, yo tambien quiero hacerle un regalo... ¿No
+              tenés un buen retrato del gringo?</p>
           </sp>
           <sp who="#maria">
             <speaker>María</speaker>
@@ -538,7 +570,9 @@
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
-            <p>Tengo un amigo fotógrafo que sabe hacer unas copias grandes, magnificas...ampliaciones, les dice... Si me dás uno, por chiquito que sea, te traigo otro de este tamaño.</p>
+            <p>Tengo un amigo fotógrafo que sabe hacer unas copias grandes,
+              magnificas...ampliaciones, les dice... Si me dás uno, por chiquito que sea, te traigo
+              otro de este tamaño.</p>
           </sp>
           <sp who="#maria">
             <speaker>María</speaker>
@@ -546,7 +580,9 @@
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
-            <p>En un santiamén. Salgo, voy á verlo,- vive muy cerca, - y vuelvo en seguidita. ¡A la tarde tenemos el cuadro con marco y todo! Les diré <stage type="inline">(por los tipógrafos)</stage> que me has hecho un encargo de apuro.</p>
+            <p>En un santiamén. Salgo, voy á verlo,- vive muy cerca, - y vuelvo en seguidita. ¡A la
+              tarde tenemos el cuadro con marco y todo! Les diré <stage type="inline">(por los
+                tipógrafos)</stage> que me has hecho un encargo de apuro.</p>
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
@@ -556,7 +592,8 @@
           <pb n="14"/>
           <sp who="#benito">
             <speaker>Benito</speaker>
-            <p>¡Oh espere un poco, qué fregar! Todavia no es la hora. Los otros no han venido siquiera.</p>
+            <p>¡Oh espere un poco, qué fregar! Todavia no es la hora. Los otros no han venido
+              siquiera.</p>
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
@@ -739,7 +776,8 @@
           </sp>
           <sp who="#maria">
             <speaker>María</speaker>
-            <p>Bueno. Si á la vuelta traés el retrato, este mismo, digo, ponelo en el álbum. <pb n="17"/>Yo lo sacaré después para guardarlo en el armario.</p>
+            <p>Bueno. Si á la vuelta traés el retrato, este mismo, digo, ponelo en el álbum. <pb
+                n="17"/>Yo lo sacaré después para guardarlo en el armario.</p>
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
@@ -1058,7 +1096,8 @@
             <speaker>Jerman</speaker>
             <p>Pues cuando le vendí esta imprenta á tu marido, no fué por él, sino por vos, hijita;
               y hasta se la hubiera regalado, si... <stage type="inline">(Teresa vase
-                violentamente).</stage> ¡Oh! ¿Y qué le ha dado ahora? ¡Je, je! Está <pb n="23"/>visto que mientras son felices son ariscas... Pero ya vendrá el mal tiempo, y
+                violentamente).</stage> ¡Oh! ¿Y qué le ha dado ahora? ¡Je, je! Está <pb n="23"
+              />visto que mientras son felices son ariscas... Pero ya vendrá el mal tiempo, y
               entonces... ¡qué caray!...</p>
           </sp>
         </div>
@@ -1153,7 +1192,8 @@
             <p>No es justo, no. Pero no hay que irse al otro lado sin más ni más. Gaspar tiene mala
               cabeza, pero buen corazón, y es una criatura... A su edad hay que disculparlo...
               Además Vds., los hijos del país, tienen la sangre caliente y eso... eso es un buen
-              defecto! Yo le hablaré, le aconsejaré, y estoy seguro de que se compondrá. <foreign xml:lang="it">Póvero ragazzo!</foreign></p>
+              defecto! Yo le hablaré, le aconsejaré, y estoy seguro de que se compondrá. <foreign
+                xml:lang="it">Póvero ragazzo!</foreign></p>
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
@@ -1193,7 +1233,7 @@
               En este país bendito en que he de vivir toda mi vida, donde están mis afectos, he
               tenido la suerte de que el trabajo me resultara generosamente fecundo. Tiene que serlo
               tambien para todos los que me rodean y me ayudan. Y ésta misma tarde, en una
-              <foreign>bichieratta</foreign>, echaremos las bases de la sociedad, que se
+                <foreign>bichieratta</foreign>, echaremos las bases de la sociedad, que se
               legalizarán ante escribano en cuanto sea posible...</p>
           </sp>
           <sp who="#juan">
@@ -1536,7 +1576,8 @@
           </sp>
           <sp who="#gaspar">
             <speaker>Gaspar</speaker>
-            <p>¿Quién? ¿yo?... ni una copita... desde esta madrugada cuando me acosté <stage type="inline">(ap.)</stage>
+            <p>¿Quién? ¿yo?... ni una copita... desde esta madrugada cuando me acosté <stage
+                type="inline">(ap.)</stage>
               <pb n="33"/> Será el colazo de anoche.</p>
           </sp>
           <sp who="#luis">
@@ -2049,7 +2090,7 @@
             <p>Si es paisano suyo; háblele en italiano no mas.</p>
           </sp>
           <sp who="#carabinero">
-               <speaker>Carabinero</speaker>
+            <speaker>Carabinero</speaker>
             <p><foreign xml:lang="it">Non capisco.</foreign></p>
           </sp>
           <sp who="#luis">
@@ -2057,18 +2098,22 @@
             <p>¿Qué deseaba?</p>
           </sp>
           <sp who="#carabinero">
-               <speaker>Carabinero</speaker>
-            <p>¡Ah, si! <foreign xml:lang="it">Scusi. Vorrebbe che mi facesse un cento di biglietti di visita.</foreign></p>
+            <speaker>Carabinero</speaker>
+            <p>¡Ah, si! <foreign xml:lang="it">Scusi. Vorrebbe che mi facesse un cento di biglietti
+                di visita.</foreign></p>
           </sp>
           <sp who="#luis">
             <speaker>Luis</speaker>
             <p>Voy á mostrarle. <stage type="inline">(Buscando el muestrario de
-                tarjetas)</stage><stage type="inline">(Yo debo conocer... yo conozco á este hombre! Pero donde lo he visto?)</stage><stage>(Se retira al fondo, examinándolo)</stage></p>
+                tarjetas)</stage><stage type="inline">(Yo debo conocer... yo conozco á este hombre!
+                Pero donde lo he visto?)</stage><stage>(Se retira al fondo,
+              examinándolo)</stage></p>
           </sp>
           <sp who="#carabinero">
-               <speaker>Carabinero</speaker>
+            <speaker>Carabinero</speaker>
             <stage>(Aparte á Benito)</stage>
-            <p><foreign xml:lang="it">E proppio lo stesso, senza la barba. Non ha cambiato nulla. Prenda il ritratto. Io ció l’altro.</foreign></p>
+            <p><foreign xml:lang="it">E proppio lo stesso, senza la barba. Non ha cambiato nulla.
+                Prenda il ritratto. Io ció l’altro.</foreign></p>
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
@@ -2076,7 +2121,7 @@
               aparte)</stage>
           </sp>
           <sp who="#carabinero">
-               <speaker>Carabinero</speaker>
+            <speaker>Carabinero</speaker>
             <stage>(Ap. á Benito)</stage>
             <p><foreign xml:lang="it">Bisogna non lasciarlo fuggire.</foreign></p>
           </sp>
@@ -2090,7 +2135,7 @@
                 mirando de vez en cuando á Luis con ojos escrutadores).</stage></p>
           </sp>
           <sp who="#carabinero">
-               <speaker>Carabinero</speaker>
+            <speaker>Carabinero</speaker>
             <p><foreign xml:lang="it">Bene; me li facia come queste.</foreign>
               <stage>(Indicando una tarjeta.)</stage></p>
           </sp>
@@ -2100,7 +2145,7 @@
             <p>Para cuando?</p>
           </sp>
           <sp who="#carabinero">
-               <speaker>Carabinero</speaker>
+            <speaker>Carabinero</speaker>
             <p><foreign xml:lang="it">Per questa sera. Verró io stesso á prendergli... Quánto
                 é?</foreign></p>
           </sp>
@@ -2109,7 +2154,7 @@
             <p>Un peso.</p>
           </sp>
           <sp who="#carabinero">
-               <speaker>Carabinero</speaker>
+            <speaker>Carabinero</speaker>
             <stage>(Sacando la cartera del bolsillo.)</stage>
             <p><foreign xml:lang="it">Scusi. Non conosco la moneta.</foreign></p>
           </sp>
@@ -2119,7 +2164,7 @@
             <p>Este billete.</p>
           </sp>
           <sp who="#carabinero">
-               <speaker>Carabinero</speaker>
+            <speaker>Carabinero</speaker>
             <p><foreign xml:lang="it">Bene; ecco. Ed ecco el mio nome.</foreign><stage>(Dandole su
                 tarjeta.)</stage></p>
           </sp>
@@ -2367,7 +2412,8 @@
             <stage>(fatídico)</stage>
             <p>Que la mia ha reaparecido, terrible, amenazadora, implacable!... Benito, el
               tipógrafo, es un pesquisa... El hombre que lo acompañaba, un italiano recién
-              llagado... ¡como en el caso de Balfour; doctor!... es un carabinero!... <pb n="50"/>viene á llevarme, á arrancarme del hogar para enterrarme en el presidio!</p>
+              llagado... ¡como en el caso de Balfour; doctor!... es un carabinero!... <pb n="50"
+              />viene á llevarme, á arrancarme del hogar para enterrarme en el presidio!</p>
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>
@@ -2411,7 +2457,8 @@
               novelería.... Pero entonces, al verme impotente junto á mi madre moribunda, sin pan,
               sin médico, sin asistencia, sin remedios, ¡les juro que hubiese echo volar la ciudad,
               el mundo entero, sin que me temblara la mano!.... No llegué á tanto.... El dia de
-              mayor desesperación, cuando no veia otra salida que estrellarme la cabeza contra <pb n="52"/>las piedras de la calle para no verla morir, un antiguo compañero de taller
+              mayor desesperación, cuando no veia otra salida que estrellarme la cabeza contra <pb
+                n="52"/>las piedras de la calle para no verla morir, un antiguo compañero de taller
               me tendió una tabla de salvación; ¡terrible recursos!... Se trataba de falsificar
               billetes de banco... Yo capáz de provocar una catástrofe en mi demencia, ¿cómo iba á
               vacilar?... Acepté; acepté con regocijo... Ebrio, trastornado, comencé con furia á
@@ -2453,7 +2500,8 @@
               invencible torbellino!.. <pb n="54"/>Pronto me crei regenerado, limpio de toda mancha.
               Y cuando conocí á Teresa, cuando la amé, cuando supe que me correspondia, bendije este
               suelo de hospitalidad y de perdón, en que los hombres parecen mejores, la tierra más
-              fecunda, el cielo más puro!.. ¡Oh, días de delicia! No pensé.... <stage type="inline">(á Teresa),</stage> alza la cabeza, no llores así, no pensé, no recordé siquiera mi
+              fecunda, el cielo más puro!.. ¡Oh, días de delicia! No pensé.... <stage type="inline"
+                >(á Teresa),</stage> alza la cabeza, no llores así, no pensé, no recordé siquiera mi
               nombre supuesto, porque me unía á ella con toda la amplitud de mi voluntad, con todas
               las más altas potencias de mi alma!..¡Oh! mirame á los ojos, Teresa! ¿Crees que si las
               mismas leyes, si el mismo Dios declararan disueltos nuestros lazos, quedarian
@@ -2583,7 +2631,8 @@
           </sp>
           <sp who="#teresa">
             <speaker>Teresa</speaker>
-            <p>Dame. Lo voy á quemar! <stage>(Vase precipitadamente al interior con el retrato).</stage></p>
+            <p>Dame. Lo voy á quemar! <stage>(Vase precipitadamente al interior con el
+                retrato).</stage></p>
           </sp>
         </div>
         <div type="scene" n="3">
@@ -2600,7 +2649,8 @@
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>
-            <p>Huir, escapar! Las circunstancias son tales que, una vez preso, no habria <pb n="57"/>esperanza, á menos de un milagro...</p>
+            <p>Huir, escapar! Las circunstancias son tales que, una vez preso, no habria <pb n="57"
+              />esperanza, á menos de un milagro...</p>
           </sp>
           <sp who="#luis">
             <speaker>Luis</speaker>
@@ -2609,7 +2659,9 @@
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>
-            <p>¡Valor!.. Vd. debe salir inmediatamente de aquí, ocultarse lejos, á esperar lo que ocurra....Así se podrá ver, meditar...¡Quién sabe!... Todavia creo que es una falsa alarma!</p>
+            <p>¡Valor!.. Vd. debe salir inmediatamente de aquí, ocultarse lejos, á esperar lo que
+              ocurra....Así se podrá ver, meditar...¡Quién sabe!... Todavia creo que es una falsa
+              alarma!</p>
           </sp>
           <sp who="#luis">
             <speaker>Luis</speaker>
@@ -2668,8 +2720,9 @@
             <speaker>Luis</speaker>
             <stage>(Mira á Teresa, se conmueve, baja la cabeza y luego, como llorando dice á
               Maria)</stage>
-            <p><foreign xml:lang="it">Poveretta!</foreign>. No; tú no tienes la culpa! Con el retrato ó sin él hubiera sido igual! y
-              si tuvieras culpa, ;cómo no perdonarte, cuando á mí mísmo me perdonan?</p>
+            <p><foreign xml:lang="it">Poveretta!</foreign>. No; tú no tienes la culpa! Con el
+              retrato ó sin él hubiera sido igual! y si tuvieras culpa, ;cómo no perdonarte, cuando
+              á mí mísmo me perdonan?</p>
           </sp>
           <sp who="#maria">
             <speaker>María</speaker>
@@ -2851,7 +2904,8 @@
           </sp>
           <sp who="#juan">
             <speaker>Juan</speaker>
-            <stage>(Habiendo terminado de amontonar las grandes resmas de papel en un rincon, <pb n="62"/>á los Cajistas)</stage>
+            <stage>(Habiendo terminado de amontonar las grandes resmas de papel en un rincon, <pb
+                n="62"/>á los Cajistas)</stage>
             <p>¡Vaya! A trabajar como si no hubiese pasado nada!...</p>
           </sp>
           <sp who="#gaspar">
@@ -2979,7 +3033,9 @@
           </sp>
           <sp who="#jerman">
             <speaker>Jerman</speaker>
-            <p>Gracias... Y me retiro, jé, jé... Muchas felicidades... <stage type="inline">(ap)</stage> Volveré... se me hace que la breva está madurando. Si <stage type="inline">(alto)</stage> Vds. me llegan á necesitar, ¡qué caray! cuenten
+            <p>Gracias... Y me retiro, jé, jé... Muchas felicidades... <stage type="inline"
+                >(ap)</stage> Volveré... se me hace que la breva está madurando. Si <stage
+                type="inline">(alto)</stage> Vds. me llegan á necesitar, ¡qué caray! cuenten
               conmigo. <stage>(Vase por el foro)</stage></p>
           </sp>
         </div>
@@ -3150,7 +3206,7 @@
               un rayo de sol! yo....</p>
           </sp>
           <sp who="#oficial">
-                <speaker>Oficial de Policía</speaker>
+            <speaker>Oficial de Policía</speaker>
             <stage>(que ha entrado poco antes sin ser visto y acercándose poco á poco)</stage>
             <p>¡Marco, Severi! Dése Vd. preso! <stage>(Sorpresa general. Los personajes forman un
                 cuadro conmovedor rodeando á Luis que, con la cabeza inclinada, se muestra dispuesto
@@ -3167,7 +3223,7 @@
           <head>Escena I</head>
           <stage>Juez y Suárez, luego Agente</stage>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>En nuestra entrevista anterior no lo felicité por sus brillantes exámenes generales.
               Se habla de ello con el mayor elogio.</p>
           </sp>
@@ -3178,7 +3234,7 @@
               pobre, y sin embargo imprimió mi larga tésis, que quizá no pueda pagar nunca....</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¡Se la pagará, ya lo creo! Con su brillante porvenir.... Pero, todo cuanto usted me
               ha dicho y me dice, me inclina favorablemente hacia el detenido, dentro de lo lícito,
               que no es mucho.... Por eso lo he dejado aquí en la comisaría, donde está mejor y con
@@ -3191,7 +3247,7 @@
               para ese hombre, tan bueno como desgraciado.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Pero ahí se detiene mi acción.... La ley es la ley, y nosotros, sus ejecutores, no
               podemos,—y mucho menos en estos casos en que existe la intervención de un gobierno
               extrangero,—hacer lo que Magnaud, el buen Juez de Chateau Thierry y juzgar sencilla y
@@ -3205,7 +3261,7 @@
             <p>Debería admitirlas.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Ese es otro cantar; pero tampoco me incumbe á mi, sino al Congreso.</p>
           </sp>
           <sp who="#suarez">
@@ -3218,7 +3274,7 @@
               amputen ese brazo robusto y generoso!</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>La ley es una.</p>
           </sp>
           <sp who="#suarez">
@@ -3236,7 +3292,7 @@
               nobilísimo!</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Este es un hecho excepcional.</p>
           </sp>
           <sp who="#suarez">
@@ -3247,7 +3303,7 @@
               perdonar! Sigue siendo como antes, tonto!»</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Por una consideración excepcional, y <emph>sentimental</emph>, permitame que se lo
               diga, la sociedad no puede abandonar un arma de defensa que es evidentemente buena y
               justa.</p>
@@ -3259,7 +3315,7 @@
               de amor?...</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Cuántas cosas no se preven! El hombre no es infalible... Y le confieso que me
               llenaría de satisfacción poder salvar á Severi... Le tengo simpatía.. Sé que, libre,
               seguiría siendo útil y bueno...</p>
@@ -3269,7 +3325,7 @@
             <p>Entonces su conciencia...</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>La conciencia nada tiene que ver en este asunto, amigo mío. Si se comenzara á juzgar
               con la conciencia, volveríamos á caer en todas las atrocidades de la justicia
               arbitraria, porque los jueces somos hombres, no ángeles y... hay conciencias sin
@@ -3285,8 +3341,9 @@
               estas horas.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
-            <p>Supongo que lo ha visto ya, porque acabo de recibir una esquelita del secretario, <pb n="72"/>pidiéndome confidencialmente y con urgencia, antecedentes é informes sobre
+            <speaker>Juez</speaker>
+            <p>Supongo que lo ha visto ya, porque acabo de recibir una esquelita del secretario, <pb
+                n="72"/>pidiéndome confidencialmente y con urgencia, antecedentes é informes sobre
               Marco Severi.</p>
           </sp>
           <sp who="#suarez">
@@ -3294,7 +3351,7 @@
             <p>¿Y se los ha mandado usía?</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Lo haré enseguida.</p>
           </sp>
           <sp who="#suarez">
@@ -3302,7 +3359,7 @@
             <p>Disculpe usía la indiscreción: ¿serán favorables?</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Todo lo más favorables. Pero, fuera de esos datos que quizá le conquisten la buena
               voluntad de los hombres del gobierno, le repito que, por mi parte, no puedo hacer
               nada... Usted conoce esta clase de asuntos: El ministro italiano ha intervenido, sabe
@@ -3315,7 +3372,7 @@
             <p>Es verdad.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>A estas horas el ministro italiano debe haber telegrafiado al de negocios
               extrangeros... ¡Ya vé usted! Nuestra policía, nuestra justicia, nuestro mismo gobierno
               tienen, también, las manos atadas; y se haría un tristísimo papel, hasta podria
@@ -3323,10 +3380,11 @@
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>
-            <p>La mosca de Voltaire, que provoca un cataclismo á cien leguas de <pb n="73"/>distancia!... ¡Oh! doctor! ¡sacrificar asi á un infortunado! ¡Casi un inocente!</p>
+            <p>La mosca de Voltaire, que provoca un cataclismo á cien leguas de <pb n="73"
+              />distancia!... ¡Oh! doctor! ¡sacrificar asi á un infortunado! ¡Casi un inocente!</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p><foreign xml:lang="la">Dura lex sed lex</foreign>, amigo mío.... Veremos lo que se
               resuelve allá arriba, y entre tanto cuente con mi buena voluntad. Pero.... ni una
               palabra de esto, ¿no? He faltado á mis deberes de Juez hablando así.</p>
@@ -3336,7 +3394,7 @@
             <p>Pero á sus deberes de hombre no, señor!</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Bien. Déjeme un momento. Voy á contestar al ministro.</p>
           </sp>
           <sp who="#suarez">
@@ -3344,20 +3402,20 @@
             <p>Aguardaré en el patio.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Aqui en la oficina contigua.- <stage>(Vase Suarez. El juez toca un timbre y á poco
                 aparece un agente de policia, que se cuadra haciéndole la venia).</stage></p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¿Está ese agente de investigaciones? Hablo del que tomó á Severi.</p>
           </sp>
           <sp who="#agente">
-                  <speaker>Agente</speaker>
+            <speaker>Agente</speaker>
             <p>¿Benito? Si, señor Juez.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Digale que venga. <stage>(Vase el agente)</stage></p>
           </sp>
         </div>
@@ -3365,7 +3423,7 @@
           <head>Escena II</head>
           <stage>Juez y Benito</stage>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Usted prendió á Marco Severi?</p>
           </sp>
           <sp who="#benito">
@@ -3373,7 +3431,7 @@
             <p>Si, señor Juez.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¿Cómo lo descubrió?</p>
           </sp>
           <sp who="#benito">
@@ -3384,7 +3442,7 @@
               contentaba con estar esclavo para ganar una mezquindad.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Bueno, bueno, adelante; eso no hace al caso.</p>
           </sp>
           <sp who="#benito">
@@ -3393,7 +3451,7 @@
               quiero decir, para ver lo que andaban tramando.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¿De modo que lo descubrió por casualidad?</p>
           </sp>
           <sp who="#benito">
@@ -3403,7 +3461,7 @@
               maliciar, ella que siempre está en la casa......</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Pero, al grano! ¿Es anarquista Severi?</p>
           </sp>
           <sp who="#benito">
@@ -3418,7 +3476,7 @@
               filiarlo al Severi y no dejar que se escapase. ¡Y qué se me iba á escapar!</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Bueno. Todo eso lo sabiamos. Lo que quiero es informes sobre la conducta de Vernengo
               ó Severi.</p>
           </sp>
@@ -3430,7 +3488,7 @@
               ricos junto con él. ¡Mire qué otario! No le dije que era.....</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¡Basta! ¿De modo que no tiene antecedentes desfavorables?</p>
           </sp>
           <sp who="#benito">
@@ -3438,15 +3496,16 @@
             <p>Que yo sepa.....</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Y si no sabe, no tendrá; porque me parece que usted!....</p>
           </sp>
           <sp who="#benito">
             <speaker>Benito</speaker>
-            <p>¡El oficio! ¡Qué quiere, señor Juez! Para eso estamos! Uno no es pesquisa <pb n="76"/>para saber las cosas buenas, sino las cosas malas!</p>
+            <p>¡El oficio! ¡Qué quiere, señor Juez! Para eso estamos! Uno no es pesquisa <pb n="76"
+              />para saber las cosas buenas, sino las cosas malas!</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Puede retirarse y esperar. <stage>(Vase Benito).</stage></p>
           </sp>
         </div>
@@ -3456,54 +3515,54 @@
           <stage>El Juez escribe rapidamente, pone sobre á la carta, toca el timbre. Al agente que
             aparece enseguida:</stage>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Esta carta al ministerio de relaciones exteriores inmediatamente. Que venga el preso
               Severi. <stage type="inline">(Al Escribiente que va cruzando la escena:)</stage> ¿Está
               el comisario?</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <stage>(muy humilde y obsequioso:)</stage>
             <p>No, señor Juez.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¿Y el sub-comisario?</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>No, señor Juez.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¿Y el oficial de guardia?</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>Va á volver en seguida, señor Juez.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¿Ha sucedido algo grave?</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>No, señor Juez. Diligencias.....</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Está bien.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>¿Puedo retirarme, señor Juez?</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Si.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>Con su permiso, señor Juez. <stage>(Vase el Escribiente).</stage></p>
           </sp>
         </div>
@@ -3512,7 +3571,7 @@
           <head>Escena IV</head>
           <stage>Juez—Luis</stage>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Siéntese, Severi.... Quería preguntarle si tiene algo más que decir en su favor.
               Hábleme con estera confianza...</p>
           </sp>
@@ -3521,7 +3580,7 @@
             <p>Nada más.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¿Usted cree, entonces, que su asunto no tiene remedio?</p>
           </sp>
           <sp who="#luis">
@@ -3529,7 +3588,7 @@
             <p>Así es, desgraciadamente, señor.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¿Qué está bien condenado?</p>
           </sp>
           <sp who="#luis">
@@ -3544,7 +3603,7 @@
               espanto?</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Su defensor debe haber invocado todas esas consideraciones en Italia.</p>
           </sp>
           <pb n="78"/>
@@ -3566,7 +3625,7 @@
               Severi!...</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Cálmese, cálmese.</p>
           </sp>
           <pb n="79"/>
@@ -3578,7 +3637,7 @@
               devolverá á mi familia y á mis obreros...</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Si pudiera! Pero el sentimiento no gobierna. El Juez pasa antes del hombre.... Sin
               embargo....</p>
           </sp>
@@ -3587,7 +3646,7 @@
             <p>Sin embargo....</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>No; no se deje llevar todavía por la esperanza, pues el desengaño sería mucho más
               doloroso. Iba á decirle que sus amigos, su misma mujer trabajan por salvarlo con
               quienes quizás lo puedan...</p>
@@ -3597,7 +3656,7 @@
             <p>¿Y conseguirán?....</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Es muy dificil, pero siquiera hay una probabilidad que no he tenido valor de
               ocultarle, como debiera....</p>
           </sp>
@@ -3607,7 +3666,7 @@
               palabras!....</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Pero.... no se haga muchas ilusiones.</p>
           </sp>
           <sp who="#luis">
@@ -3615,7 +3674,7 @@
             <p>¡Ah!</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Es una simple probabilidad, ya le he dicho. Sus jueces desearían ser benignos y sus
               amigos no lo abandonan.</p>
           </sp>
@@ -3625,7 +3684,7 @@
             <p>Eso es un bálsamo para mí.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Su defensor lo espera. ¿Quiere verlo?</p>
           </sp>
           <sp who="#luis">
@@ -3633,7 +3692,7 @@
             <p>¿El señor Suárez? ¡Oh, sí, si! Gracias, señor Juez.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Voy á llamarlo. <stage type="inline">(acercándose á la puerta, llama)</stage> Pase,
               doctor.</p>
           </sp>
@@ -3646,7 +3705,7 @@
             <p>Con permiso.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Los dejo solos.</p>
           </sp>
           <sp who="#suarez">
@@ -3802,12 +3861,12 @@
           <head>Escena VI</head>
           <stage>Suárez. Gaspar, Escribiente, Agente</stage>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <stage>(Muy autoritario, contrastando con su humildad anterior, grita)</stage>
             <p>¡Pásenlo aqui!</p>
           </sp>
           <sp who="#agente">
-                  <speaker>Agente</speaker>
+            <speaker>Agente</speaker>
             <stage>(Dando un empujón á Gaspar)</stage>
             <p>¡Entre, pues, hombre! <stage>(Suarez se ha retirado á un rincón del
               fondo)</stage></p>
@@ -3817,18 +3876,19 @@
             <p>Aqui estoy.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <stage>(Tomando un gran libro, para anotar lo que en seguida pregunta)</stage>
             <p>¿Como se llama Vd.?</p>
           </sp>
           <sp who="#gaspar">
             <speaker>Gaspar</speaker>
             <stage>(Con chunga)</stage>
-            <p>Gaspar Nuñez, alias Cumpa, alias Florcita, <stage type="inline">(porque me gusta <pb n="84"/>pasear),</stage> argentino, 21 años, soltero, tipógrafo, sé leer y
+            <p>Gaspar Nuñez, alias Cumpa, alias Florcita, <stage type="inline">(porque me gusta <pb
+                  n="84"/>pasear),</stage> argentino, 21 años, soltero, tipógrafo, sé leer y
               escribir.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <stage>(Interrumpiendo de pronto lo que escribe)</stage>
             <p>Se conoce que también sabe tener entradas en la policia!</p>
           </sp>
@@ -3838,7 +3898,7 @@
               la inscripción. Las comisarias?.... No he entrado ni.... ni veinte veces siquiera.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>¿Y por qué ha entrado?</p>
           </sp>
           <sp who="#gaspar">
@@ -3846,7 +3906,7 @@
             <p>¡Biabas!</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>¡Repórtese! Hable como la gente, guarango! ¿Sabe por qué está preso?</p>
           </sp>
           <sp who="#gaspar">
@@ -3854,7 +3914,7 @@
             <p>¿Y cómo voy á saber si no me dice?</p>
           </sp>
           <sp who="#agente">
-                  <speaker>Agente</speaker>
+            <speaker>Agente</speaker>
             <p>Se ha desacatado á la autoridad.</p>
           </sp>
           <sp who="#gaspar">
@@ -3862,7 +3922,7 @@
             <p>¡Qué! Si Benito es particular.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>Es un agente de investigaciones.</p>
           </sp>
           <sp who="#gaspar">
@@ -3870,7 +3930,7 @@
             <p>Que se ponga chapa con letrero, entonces!</p>
           </sp>
           <sp who="#agente">
-                  <speaker>Agente</speaker>
+            <speaker>Agente</speaker>
             <p>Y lo amenazó con revolver, en la calle. Aqui está el arma. <stage>(Deja el revolver
                 sobre la mesa).</stage></p>
           </sp>
@@ -3880,7 +3940,7 @@
             <p>Fué jugando...</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>¡Cállese la boca!</p>
           </sp>
           <sp who="#gaspar">
@@ -3888,7 +3948,7 @@
             <p>Como éramos compañeros de taller.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>¡Silencio, he dicho!</p>
           </sp>
           <sp who="#gaspar">
@@ -3897,7 +3957,7 @@
                 violento golpe sobre la mesa del Escribiente)</stage></p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>Métalo al calabozo!.... No! registrelo primero. <stage>(El agente lo
                 registra).</stage></p>
           </sp>
@@ -3906,7 +3966,7 @@
             <p>¡Registra, mi vida!</p>
           </sp>
           <sp who="#agente">
-                  <speaker>Agente</speaker>
+            <speaker>Agente</speaker>
             <p>Quince centavos y unas llaves.</p>
           </sp>
           <sp who="#gaspar">
@@ -3914,7 +3974,7 @@
             <p>Deme recibo.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>Insolente!... Tome. <stage>(Escribe un papel y se lo da).</stage></p>
           </sp>
           <sp who="#gaspar">
@@ -3922,7 +3982,7 @@
             <stage>(examinándolo con insolencia)</stage>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>¡Métalo inmediatamente al calabozo!</p>
           </sp>
           <sp who="#gaspar">
@@ -3935,7 +3995,7 @@
           <head>Escena VII</head>
           <stage>Escribiente — Suárez</stage>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <stage>(creyéndose solo)</stage>
             <p>¡Estos compadres! Si pudiera hacerles dar uná zurra sin que supiesen los diarios!
                 <stage type="inline">(Sorprendido y violento al ver á Suárez)</stage> ¿Vd. espera á
@@ -3946,7 +4006,7 @@
             <p>Precisamente á las señoras.</p>
           </sp>
           <sp who="#escribiente">
-               <speaker>Escribiente</speaker>
+            <speaker>Escribiente</speaker>
             <p>¡Ah! ¿estas mujeres? ... <stage>(Aparecen Teresa y Maria.—Vase el
                 escribiente).</stage></p>
           </sp>
@@ -3990,7 +4050,8 @@
               estaba conmovido deveras... « Bueno, señora,» dijo por fin, — « veo que se trata de un
               sujeto muy digno de interés. Voy á pedir informes, y si son tan favorables,
               intercederé amistosamente con el señor ministro de Italia. Vendrá de un momento á
-              otro, y como cuadra la casualidad de que voy á acceder á varios pedidos <pb n="87"/>suyos; él, á su vez me concederá lo que yo le pida, según creo».</p>
+              otro, y como cuadra la casualidad de que voy á acceder á varios pedidos <pb n="87"
+              />suyos; él, á su vez me concederá lo que yo le pida, según creo».</p>
           </sp>
           <sp who="#suarez">
             <speaker>Suárez</speaker>
@@ -4060,7 +4121,7 @@
           <head>Escena VIII</head>
           <stage>Suárez, Teresa, Maria Y Juez, á poco Luis</stage>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¡Ah, las señoras!</p>
           </sp>
           <sp who="#suarez">
@@ -4068,7 +4129,7 @@
             <p>Piden verlo.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Al momento. <stage type="inline">(toca el timbre y da en voz baja una órden al agente
                 que se presenta y que se retira en seguida).</stage> ¿El ministro?</p>
           </sp>
@@ -4077,7 +4138,7 @@
             <p>Nada.</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Bien lo sabía.</p>
           </sp>
           <sp who="#suarez">
@@ -4085,7 +4146,7 @@
             <p>Le ha dado una esperanza remota...</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Naturalmente.</p>
           </sp>
           <pb n="89"/>
@@ -4094,7 +4155,7 @@
             <p>Si no temiera abusar... le preguntaría por otro de la imprenta, que han traído..</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>Me lo acaban de pasar.. No escapa de unos cuantos meses bien merecidos. Es bueno que
               aprenda. Pero no se ha de morir por eso.</p>
           </sp>
@@ -4103,7 +4164,7 @@
             <p>P¡obre muchacho! Ha hecho las del perro fiel...</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>No quiero ver ahora á Severi.... <stage>(Váse).</stage></p>
           </sp>
         </div>
@@ -4518,7 +4579,7 @@
           <head>Escena XV</head>
           <stage>Dichos — El Juez</stage>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¡Marco Severi!... El señor Ministro de Italia y el de relaciones exteriores
               telegrafiaron al rey pidiéndole el indulto de un delincuente... El ministro italiano
               de negocios extranjeros acaba de telegrafiar en contestación que su majestad ha
@@ -4536,14 +4597,14 @@
             <p>¡Oh, señor!</p>
           </sp>
           <sp who="#juez">
-               <speaker>Juez</speaker>
+            <speaker>Juez</speaker>
             <p>¡Hay que enmendar esa ley!</p>
           </sp>
         </div>
       </div>
     </body>
-     <back>
+    <back>
       <trailer>Fin</trailer>
-      </back>
+    </back>
   </text>
 </TEI>

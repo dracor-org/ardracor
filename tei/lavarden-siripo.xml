@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000004" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Siripo</title>
+        <title type="main">Siripo</title>
         <title type="sub">Tragedia en verso</title>
         <author>
-        <persName>
+          <persName>
             <forename>Manuel</forename>
             <forename>José</forename>
             <nameLink>de</nameLink>
@@ -24,27 +24,43 @@
           <nameLink>del</nameLink>
           <surname>Rio</surname>
         </editor>
+        <editor xml:id="lv">
+          <forename>Laura</forename>
+          <surname>Volkind</surname>
+        </editor>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org/</idno>
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
+            >CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Antología de poetas argentinos</name>
-          <idno type="URL">https://libsysdigi.library.uiuc.edu/OCA/Books2009-03/3324749/3324749_2/3324749_2.pdf</idno>
+          <author><forename>Manuel José</forename>
+            <nameLink>de</nameLink>
+            <surname>Lavardén</surname></author>: <title level="a">Siripo. Tragedia en verso</title>
+          In: <title>Antología de poetas argentinos</title>
+          <biblScope unit="tomo">II – La Revolución</biblScope>
+          <editor><forename>Juan</forename>
+            <nameLink>de la</nameLink>
+            <surname>C. Puig</surname></editor>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Martín Biedma e hijo</publisher>,
+            <date>1910</date>, pp. <biblScope unit="page" from="70" to="112">70–112</biblScope>.
+            <idno type="URL"
+            >https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/q00vor/cdi_hathitrust_hathifiles_yale_39002085409630</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
         </bibl>
-        <bibl type="originalSource"><title level="m">Antología de poetas argentinos</title><biblScope unit="volume">II - La Revolución</biblScope>
-          <author><forename>Juan</forename><surname>de la C. Puig</surname></author>
-          <editor>Martín Biedma e hijo</editor><pubPlace>Buenos Aires</pubPlace>, pp.<biblScope unit="page" from="70" to="112">70/112</biblScope><date>1910</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -85,8 +101,12 @@
         <change when="2025-05-21" who="#rdl">inicia la corrección del XML descargado de Ezdrama por
           Ulrike</change>
         <change when="2025-07-19" who="#gdr">revisión de la ficha y añadido de roleDesc</change>
-         <change when="2025-08-25" who="#gdr">mayúsculas a minúsculas en nombres, castItem añadido y corrección de atributo</change>
-         <change when="2025-08-25" who="#gdr">última revisión de la ficha con actualizaciones</change>
+        <change when="2025-08-25" who="#gdr">mayúsculas a minúsculas en nombres, castItem añadido y
+          corrección de atributo</change>
+        <change when="2025-08-25" who="#gdr">última revisión de la ficha con
+          actualizaciones</change>
+        <change when="2025-09-17" who="#lv">última revisión de la ficha con correcciones de atributo
+          y cotejo con texto original</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -99,8 +119,11 @@
         <desc/>
       </event>
     </listEvent>
-     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000004" passive="https://www.wikidata.org/wiki/Q136032630"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000004"
+        passive="http://www.wikidata.org/entity/Q136032630"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000004"
+        passive="https://hdlab.space/teatrar/obras/0160.html"/>
     </listRelation>
   </standOff>
   <text>
@@ -111,31 +134,33 @@
         <castItem>
           <role>Siripo</role>
           <roleDesc>Jefe timbú.</roleDesc>
-          </castItem>
-          <castItem>
+        </castItem>
+        <castItem>
           <role>Miranda</role>
           <roleDesc>Don Diego de Miranda. Cautivo de Siripo junto a su hija.</roleDesc>
-          </castItem>
-          <castItem>
+        </castItem>
+        <castItem>
           <role>Lambaré</role>
           <roleDesc>Hermano de Lara.</roleDesc>
-            </castItem>
-          <castItem>
+        </castItem>
+        <castItem>
           <role>Lucía</role>
-          <roleDesc>Lucia de Miranda. Esposa española de Sebastián Hurtado, cautiva de los indígenas.</roleDesc>
-            </castItem>
-            <castItem>
+          <roleDesc>Lucía de Miranda. Esposa española de Sebastián Hurtado, cautiva de los
+            indígenas.</roleDesc>
+        </castItem>
+        <castItem>
           <role>Cayumari</role>
-          <roleDesc>Indio aliado de los españoles que interviene para ayudar a Hurtado y Lucía.</roleDesc>
-            </castItem>
-            <castItem>
+          <roleDesc>Indio aliado de los españoles que interviene para ayudar a Hurtado y
+            Lucía.</roleDesc>
+        </castItem>
+        <castItem>
           <role>Hurtado</role>
           <roleDesc>Capitán español, marido de Miranda.</roleDesc>
-          </castItem>
-          <castItem>
+        </castItem>
+        <castItem>
           <role>Salvajes armados</role>
-          </castItem>
-          <castItem>
+        </castItem>
+        <castItem>
           <role>Lara</role>
           <roleDesc>India favorita de Siripo.</roleDesc>
         </castItem>
@@ -144,23 +169,24 @@
     <body>
       <div type="act" n="2">
         <pb n="05"/>
-        <head>2° Acto <note type="editor"> Copia del original autógrafo existente en la Bibl. del Senado Nacional, en la Colección Gutiérrez. El primer acto está perdido.</note></head>
+        <head>2° Acto <note type="editor"> Copia del original autógrafo existente en la Bibl. del
+            Senado Nacional, en la Colección Gutiérrez. El primer acto está perdido.</note></head>
         <div type="scene" n="1">
-          <head>Escena 1</head>
+          <head>Escena 1ª</head>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <l>Ya tú solo, Cacique generoso,</l>
+            <speaker>Miranda</speaker>
+            <l>Ya tu solo, Cacique generoso,</l>
             <l>Podrías acabar pesares tantos;</l>
             <l>No más desde hoy te quejes de Lucía;</l>
             <l>Ella su mal ó bien deja en tus manos.</l>
             <l>Tuya será Lucía si la quieres.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Ah! sí, la quiero!</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>La quisieras, cuando</l>
             <l>Merecer su cariño procurases</l>
             <l>Con artes justas. Ese culto vano,</l>
@@ -169,17 +195,17 @@
           </sp>
           <pb n="06"/>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>¿Tan celosa será, que me prohiba</l>
             <l>Hasta de la deidad el amor santo?</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>No es deidad á quien ciego le tributas;</l>
             <l>Esa es hechura de otro ser mas alto.</l>
             <l>¿Será que la deidad se constituya</l>
             <l>En estado inferior al de los hombres</l>
-            <l>A que el mismo dio ser? El don precioso</l>
+            <l>A que el mismo dió ser? El don precioso</l>
             <l>De que las criaturas disfrutamos,</l>
             <l>La dulce libertad, será negada</l>
             <l>Al que del universo es soberano?</l>
@@ -191,16 +217,16 @@
             <l>Verdad, la lobreguez de tus engaños,</l>
             <l>Cuando viste al eclipse, tan temido,</l>
             <l>De divinos graduar á nuestros sabios?</l>
-            <l>Sí, yo te vi que altivo le mirabas,</l>
+            <l>Sí, yo te ví que altivo le mirabas,</l>
             <l>Mientras supersticioso terror vano</l>
             <l>Tus timbues arrojaba por el suelo,</l>
             <l>Tus agoreros mesmos y tus magos,</l>
             <l>Los que la enfermedad del dios caduco</l>
-            <l>Plañían, con visible sobresalto.</l>
+            <l>Plañian, con visible sobresalto.</l>
           </sp>
           <pb n="07"/>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>No es nuevo para mí cuanto me dices,</l>
             <l>Ni me juzgues de luces tan escaso</l>
             <l>Que á la razón me niegue. Antes de ahora,</l>
@@ -212,7 +238,7 @@
             <l>Cual mísero mortal le contemplaba</l>
             <l>Que procura en la noche su descanso.</l>
             <l>Yo lo creo, ya ves; pero no es justo</l>
-            <l>Tan en perjuicio mió publicarlo,</l>
+            <l>Tan en perjuicio mio publicarlo,</l>
             <l>Renunciar á la ley de mis mayores,</l>
             <l>es renunciar á un tiempo al cacicazgo.</l>
             <l>Y por no arrodillarme á un Dios fingido,</l>
@@ -228,20 +254,20 @@
           </sp>
           <pb n="08"/>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>Depon vanos recelos. La experiencia</l>
             <l>De cinco años de paz, el justo trato</l>
             <l>Del español y prendas amistosas</l>
             <l>Y honradas, además, te habrá mostrado.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Serán entre vosotros los varones</l>
             <l>Que las dóciles hembras más humanos?</l>
             <l>La fiereza de tu hija te desmiente.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>Lucía te reserva sus halagos,</l>
             <l>Para cuando te vea digno de ellos</l>
             <l>Por el modo feliz del yugo santo.</l>
@@ -255,7 +281,7 @@
             <l>Partir haz apacible en su regazo.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Tú ¿qué dices, Lucía? ¿Porqué callas?</l>
             <l>Qué me quieren decir tus ojos bajos?</l>
             <l>Que imperioso tu padre te constriñe</l>
@@ -263,23 +289,23 @@
           </sp>
           <pb n="09"/>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>El natural pudor....</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(impaciente)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(impaciente)</emph></stage>
             <l>Di, tú, Lucía:</l>
             <l>¿Merecedor me juzgas de tu agrado?</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
-            <p><stage>(confusa)</stage></p>
+            <speaker>Lucía</speaker>
+            <stage><emph rend="italic">(confusa)</emph></stage>
             <l>Cacique, cuando el nombre valeroso</l>
             <l>Que los tuyos celebran, y de pasmo</l>
-            <l>Llena tus enemigos;...cuando el aire</l>
+            <l>Llena tus enemigos;....cuando el aire</l>
             <l>Guerrero, que pregona de tu brazo</l>
-            <l>El esfuerzo y valor;...cuando tus ansias,</l>
+            <l>El esfuerzo y valor;... cuando tus ansias,</l>
             <l>Que supiste mezclar con ruego y llanto...</l>
             <l>Capaces no hayan sido de hacer suyo</l>
             <l>Un pecho de otro afecto ya ocupado,</l>
@@ -289,19 +315,19 @@
             <l>Y el duro corazón hace más blando.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Luego, tú ¿ya me amabas? ¿Y qué nube</l>
             <l>Tu alma cubrió con velo que inhumana,</l>
             <l>Escondiendo la luz de tus favores,</l>
             <l>De tus iras mostraba solo el rayo?</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Tu culto diferente...</l>
           </sp>
           <pb n="10"/>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>¿Me privaba</l>
             <l>De tanto bien? ¡Sin duda era tirano!</l>
             <l>Al sol, yo le rendí, porque mis ojos,</l>
@@ -311,66 +337,66 @@
           </sp>
         </div>
         <div type="scene" n="2">
-          <head>Escena 2</head>
-          <p><stage>Lucía - Siripo - Miranda - Lambaré</stage></p>
+          <head>Escena 2ª</head>
+          <stage>Lucía - Siripo - Miranda - Lambaré</stage>
           <sp who="#lambaré">
-           <speaker>Lambaré</speaker>
+            <speaker>Lambaré</speaker>
             <l>¡Cacique!</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(á Lambaré)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage>(<emph rend="italic">á Lambaré</emph>)</stage>
             <l>¿Qué te altera?</l>
           </sp>
           <sp who="#lambaré">
-           <speaker>Lambaré</speaker>
+            <speaker>Lambaré</speaker>
             <l>Cayumari</l>
             <l>Del frente del naciente ha retirado</l>
             <l>Las vigías del campo.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>¿Con qué intento?</l>
           </sp>
           <sp who="#lambaré">
-           <speaker>Lambaré</speaker>
+            <speaker>Lambaré</speaker>
             <l>Lo ignoro.</l>
           </sp>
           <pb n="11"/>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>Lambaré, corre á indagarlo. (<emph rend="italic">dentro
-                vocería</emph>)</stage></p>
+            <speaker>Siripo</speaker>
+            <l>Lambaré, corre á indagarlo.</l>
+            <stage><emph rend="italic">(dentro vocería)</emph></stage>
             <l>Y mira... Mas, ¿qué grita turbulenta</l>
             <l>A lo lejos escucho?</l>
           </sp>
           <sp who="#lambaré">
-           <speaker>Lambaré</speaker>
+            <speaker>Lambaré</speaker>
             <l>Será acaso</l>
-            <l>De su fidelidad...</l>
+            <l>De su fidelidad... </l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>No te adelantes;</l>
             <l>Pueden ser alegrías del vulgacho.</l>
             <l>Anda, sabe lo cierto.</l>
           </sp>
         </div>
         <div type="scene" n="3">
-          <head>Escena 3</head>
-          <p><stage>Siripo - Miranda - Lucía</stage></p>
+          <head>Escena 3ª</head>
+          <stage>Siripo - Miranda - Lucía</stage>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>¡Cayumari,</l>
             <l>Contra su fé, pudiera intentar algo!</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <p><stage>(<emph rend="italic">á Lucía</emph>)</stage></p>
+            <speaker>Miranda</speaker>
+            <stage><emph rend="italic">(á Lucía)</emph></stage>
             <l>Fuerza es volver por él.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>El modo altivo</l>
             <l>Con que me habla, más bien que aconsejando</l>
             <l>Provocando mi saña, le condena.</l>
@@ -378,7 +404,7 @@
           </sp>
           <pb n="12"/>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>No te alteres, Siripo: Cayumari,</l>
             <l>De un imprudente celo arrebatado,</l>
             <l>Creyendo que atendiese al útil nuestro</l>
@@ -386,202 +412,203 @@
             <l>Para que huyese yo.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>Pero su dicha,</l>
             <l>O quizás el amor, le cierra el paso.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(<emph rend="italic">alborozado</emph>)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(alborozado)</emph></stage>
             <l>¿Tú te burlas, Miranda?</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>No lo dudes.</l>
             <l>Esconderse á tus ojos la era salvo.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(<emph rend="italic">halagüeño á Lucía</emph>)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(halagüeño á Lucía)</emph></stage>
             <l>¡Cayumari tu fuga protegía,</l>
             <l>Y tu patria pospones á mi mano!</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
-            <p><stage>(<emph rend="italic">turbada</emph>)</stage></p>
-            <l>Yo mi patria pospongo...</l>
-            <l>yo pospongo</l>
-            <p><stage>(<emph rend="italic">mirando á su padre</emph>)</stage></p>
+            <speaker>Lucía</speaker>
+            <stage><emph rend="italic">(turbada)</emph></stage>
+            <l>Yo mi patria pospongo... yo pospongo</l>
+            <stage>(<emph rend="italic">mirando á su padre</emph>)</stage>
             <l>Mi patria, por respeto de un ingrato.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Ay! Cayumari fiel, de tus lealtades,</l>
             <l>En tu crimen se ven brillar los rasgos!</l>
           </sp>
         </div>
         <div type="scene">
-          <head>ESCENA 4</head>
+          <head>Escena 4ª</head>
           <pb n="13"/>
-          <p><stage>CUYUMARI, <emph rend="italic">después</emph> LAMBARÉ - SIRIPO - MIRANDA -
-              LUCÍA</stage></p>
+          <stage>Cuyumari, <emph rend="italic">después</emph> Lambaré - Siripo - Miranda -
+            Lucía</stage>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Un joven español pretende verte</l>
-            <l>Que por Ñuño de Lara viene enviado.</l>
+            <l>Que por Nuño de Lara viene enviado.</l>
           </sp>
           <sp who="#lambaré">
-           <speaker>Lambaré</speaker>
+            <speaker>Lambaré</speaker>
             <l>La grita es de tu gente, que conduce</l>
             <l>A tu presencia un joven castellano.</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>¿Cual es?</l>
           </sp>
           <sp who="#lambaré">
-           <speaker>Lambaré</speaker>
+            <speaker>Lambaré</speaker>
             <l>Yo no le he visto, pero dicen</l>
             <l>Los que vienen con él, que habla muy claro</l>
             <l>El idioma timbué.</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
-            <p><stage><emph rend="italic">(á Miranda, atónita)</emph></stage></p>
+            <speaker>Lucía</speaker>
+            <stage><emph rend="italic">(á Miranda, atónita)</emph></stage>
             <l>Señor, ¿qué es esto?</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <p><stage>(<emph rend="italic">atónito</emph>)</stage></p>
+            <speaker>Miranda</speaker>
+            <stage>(<emph rend="italic">atónito</emph>)</stage>
             <l>Disimula.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Lucía, ¿qué te ha dado?</l>
             <l>Mortal es tu semblante.</l>
           </sp>
           <pb n="14"/>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>Ven al toldo.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>¿Qué tienes que temer?</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <p><stage>(<emph rend="italic">bajo, á Lucía</emph>)</stage></p>
+            <speaker>Miranda</speaker>
+            <stage>(<emph rend="italic">bajo, á Lucía</emph>)</stage>
             <l>Vente, más malo</l>
             <l>Es encontrarte aquí.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Nada receles,</l>
             <l>Que mi brío por tí se halla empeñado.</l>
-            <p><stage>(<emph rend="italic">vanse Miranda y Lucía</emph>)</stage></p>
+            <stage>(<emph rend="italic">vanse Miranda y Lucía</emph>)</stage>
             <l>Lambaré, ten cuidado de Lucía.</l>
-            <p><stage>(<emph rend="italic">vase Lambaré</emph>)</stage></p>
+            <stage>(<emph rend="italic">vase Lambaré</emph>)</stage>
             <l>Yo no se á que atribuir su sobresalto.</l>
           </sp>
         </div>
         <div type="scene" n="5">
-          <head>ESCENA 5</head>
-          <p><stage>Siripo - Cayumari</stage></p>
+          <head>Escena 5ª</head>
+          <stage>Siripo - Cayumari</stage>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <l>¿Qué pedirá don Ñuño?</l>
+            <speaker>Siripo</speaker>
+            <l>¿Qué pedirá don Nuño?</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Yo recelo</l>
             <l>Que la guerra te mande.</l>
           </sp>
           <pb n="15"/>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>¿Que. En estado</l>
             <l>Hallarse puede de mover la guerra,</l>
             <l>De cuatro fugitivos un resago?</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Tratará de vengarse uno que reste.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>El valor de estos hombres no es humano.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(<emph rend="italic">sonriendo</emph>)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage>(<emph rend="italic">sonriendo</emph>)</stage>
             <l>¿Con que también le admiras? El mancebo,</l>
             <l>Se llega de tu gente acompañado.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>¿Le conoces?</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(<emph rend="italic">mirando adentro</emph>)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage>(<emph rend="italic">mirando adentro</emph>)</stage>
             <l>Me acuerdo haberle visto;</l>
             <l>Yo voy á conducirle.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(<emph rend="italic">mirando adentro</emph>)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage>(<emph rend="italic">mirando adentro</emph>)</stage>
             <l>¡Que bizarro!</l>
             <l>Razón para llorar tiene Lucía,</l>
             <l>Si era su muerto esposo tan gallardo!</l>
           </sp>
         </div>
         <div type="scene" n="6">
-          <head>Escena 6</head>
-          <p><stage> Hurtado - Siripo - Cayumari - Salvajes armados</stage></p>
+          <head>Escena 6ª</head>
+          <stage> Hurtado - Siripo - Cayumari - Salvajes armados</stage>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(<emph rend="italic">bajo á Hurtado</emph>)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage>(<emph rend="italic">bajo á Hurtado</emph>)</stage>
             <l>Calla, Hurtado, tu nombre, que te importa.</l>
           </sp>
           <pb n="16"/>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <l>Salud gocéis cacique, el fuerte y bravo</l>
+            <speaker>Hurtado</speaker>
+            <l>Salud goceis cacique, el fuerte y bravo</l>
             <l>Que estas playas domina.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>El Dios de España</l>
             <l>Te guarde. Di, ¿que buscas, buen soldado?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <l><note place="foot">Ñuño de Lara murió en la defensa, pero ha convenido fingirle vivo.</note> Ñuño de Lara, Alcaide de este fuerte</l>
-            <l>Que rendísteis, por vía del engaño,</l>
+            <speaker>Hurtado</speaker>
+            <l><note place="foot">Nuño de Lara murió en la defensa, pero ha convenido fingirle
+                vivo.</note> Nuño de Lara, Alcalde de este fuerte</l>
+            <l>Que rendisteis, por vía del engaño,</l>
             <l>De paz y humanidad, con raro ejemplo,</l>
             <l>Para tratar con vos, poder me ha dado;</l>
             <l>El poder que ejercita en el augusto</l>
-            <l>Y siempre invicto nombre del Rey Carlos,</l>
+            <l>Y siempre invicto nombre del Rey Cárlos,</l>
             <l>Que escuchan ambos polos con respeto,</l>
             <l>Y con miedo el oriente y el ocaso.</l>
-            <l>Creéis solo vosotros sin resultas,</l>
+            <l>Creeis solo vosotros sin resultas,</l>
             <l>Contra su alteza el cometido agravio,</l>
             <l>Que los que la crueldad por valor aman</l>
             <l>Reputarán por tímido lo manso.</l>
-            <l>Ñuño de Lara quiere convenceros</l>
+            <l>Nuño de Lara quiere convenceros</l>
             <l>De la justicia de su soberano,</l>
             <l>Cuyas armas, desde ahora vengadoras,</l>
             <l>La fiereza y traición autorizaron.</l>
             <l>Juan Diaz de Solis á vuestras playas,</l>
             <pb n="17"/>
-            <l>Ocultos <note place="foot">En el manuscrito de Lavarden dice: Incultos escondrijos etc.</note> escondrijos de Leopardo,</l>
+            <l>Ocultos <note place="foot">En el manuscrito de Lavarden dice: Incultos escondrijos
+                etc.</note> escondrijos de Leopardo,</l>
             <l>La sociable cultura os conducía</l>
             <l>Y humanidad, á bordo de sus naos.</l>
             <l>Si erais tan inhumanos y feroces,</l>
             <l>Para no apetecer dones tan claros,</l>
             <l>Reclamarais entonces los derechos</l>
-            <l>Que queréis que acatemos insultados.</l>
+            <l>Que quereis que acatemos insultados.</l>
             <l>Vosotros le llamasteis, y más fácil</l>
             <l>Procurasteis hacer su desembarco,</l>
             <l>Para darle alevosos una muerte</l>
@@ -597,7 +624,7 @@
             <l>Mas como las astucias dificultan</l>
             <l>El escarmiento ajeno en nuestro daño,</l>
             <l>Cinco años la traición y la perfidia</l>
-            <l>En el cobarde pecho habéis guardado.</l>
+            <l>En el cobarde pecho habeis guardado.</l>
             <l>Supisteis que Gaboto se ausentaba</l>
             <l>A dar cuenta de si en el mundo anciano,</l>
             <l>Y que sus prevenciones nos harían</l>
@@ -616,7 +643,7 @@
             <l>Cuando entre las tinieblas se ocultaba</l>
             <l>La luz que mete horror á los malvados.</l>
             <l>Se os franquean las puertas; se abandonan</l>
-            <l>Para que.descanseis los lechos blandos;</l>
+            <l>Para que descanseis los lechos blandos;</l>
             <l>Cada uno por cuidar de su enemigo</l>
             <l>Acuña las rendijas de su rancho.</l>
             <l>Ya en silencio, se oían solamente</l>
@@ -646,7 +673,7 @@
             <l>Los troncos de las picas en las manos.</l>
             <l>Oviedo que difunto mantenía</l>
             <l>El bordado pendón, el fuerte Ocampo,</l>
-            <l>El ardiente mancebo Pérez Vargas,</l>
+            <l>El ardiente mancebo Perez Vargas,</l>
             <l>De alcurnia heroica generosa hidalgo...</l>
             <l>¿Mas porqué refiriendo la tragedia,</l>
             <l>Que quizas os deleita, yo me canso?</l>
@@ -661,21 +688,21 @@
             <l>Y le veréis volver, cual trigre fiero</l>
             <l>Que de imprudente mano es provocado.</l>
             <l>Advertidos estad. Un solo medio</l>
-            <l>Os reserva su enojo, concillando</l>
+            <l>Os reserva su enojo, conciliando</l>
             <l>La bondad del monarca más piadoso,</l>
             <l>Con la satisfacción del desacato.</l>
             <l>Prevenid su furor, reconociendo</l>
             <pb n="20"/>
             <l>El dominio de un Rey, el más humano,</l>
-            <l>De Carlos el prudente, el invencible,</l>
+            <l>De Cárlos el prudente, el invencible,</l>
             <l>El tres veces piadoso y siempre sabio.</l>
             <l>No balanceis un punto. Mas felices</l>
-            <l>Seréis y libres, siendo sus vasallos,</l>
+            <l>Sereis y libres, siendo sus vasallos,</l>
             <l>Que en esa libertad mal entendida,</l>
             <l>Que os hace de mil males tributarios,</l>
             <l>Libres os quiere hacer el que pretende</l>
             <l>A razonables reglas sujetaros,</l>
-            <l>Los subditos de todas las naciones</l>
+            <l>Los súbditos de todas las naciones</l>
             <l>Envidiarán la suerte que os brindamos,</l>
             <l>Pero si vuestra bárbara fiereza,</l>
             <l>Si no haber tanto bien jamás gustado,</l>
@@ -683,9 +710,9 @@
             <l>A sufrir su venganza preparaos.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>En vano, con astuta valentía,</l>
-            <l>Diestros habéis pensado alucinarnos.</l>
+            <l>Diestros habeis pensado alucinarnos.</l>
             <l>No nos pusisteis miedo vencedores,</l>
             <l>Y menos temeremos á un puñado</l>
             <l>De míseros dispersos, que va huyendo</l>
@@ -699,22 +726,22 @@
             <pb n="21"/>
             <l>Disculparle pudiera. Tú bien sabes.</l>
             <l>Qué motivos tenemos de quejarnos.</l>
-            <l>¿Nos habéis defendido? Os importaba</l>
+            <l>¿Nos habeis defendido? Os importaba</l>
             <l>Guardar los que mirabais como esclavos.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Sí, con nuestra amistad y bienquerencia</l>
             <l>Habernos intentado esclavizaros.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Las manos, con las armas ocupadas,</l>
-            <l>De amigos nunca habéis podido darnos,</l>
+            <l>De amigos nunca habeis podido darnos,</l>
             <l>Y las altas almenas de los fuertes</l>
             <l>Asombran la humildad de nuestros ranchos.</l>
-            <l>Los nombres en señal de señorío</l>
-            <l>Habéis á nuestras cosas ya mudado:</l>
+            <l>Los nombres en señal de señorio</l>
+            <l>Habeis á nuestras cosas ya mudado:</l>
             <l>El pariente del mar, Paraná grande,</l>
             <l>Es Rio de la Plata; el rico lago</l>
             <l>Apupen, ya se nombra de Santa Ana.</l>
@@ -723,8 +750,8 @@
             <l>Las fértiles orillas...</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(<emph rend="italic">le interrumpe indignado</emph>)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(le interrumpe indignado)</emph></stage>
             <l>No con falsos</l>
             <l>Y aparentes pretestos se disfraza</l>
             <l>La hazaña fementida. Esos dictados,</l>
@@ -741,15 +768,15 @@
             <l>Del peligro y la muerte os libertaron.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(<emph rend="italic">suave</emph>)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(suave)</emph></stage>
             <l>No pretendo escusar el hecho torpe,</l>
             <l>Injurioso borrón del nombre indiano;</l>
             <l>Y si nuestros servicios son bastantes</l>
             <l>A borrar tal afrenta, aseguraos</l>
             <l>Del homenaje puro y apreciable</l>
             <l>Que los timbués os hacen voluntarios.</l>
-            <l>No queráis preferir, inadvertidos.</l>
+            <l>No querais preferir, inadvertidos.</l>
             <l>La pesada obediencia del vasallo,</l>
             <l>Al noble rendimiento del que anhela</l>
             <l>Con ansiosos ingenuos agasajos</l>
@@ -757,15 +784,15 @@
             <l>Mi mano es de la paz firme resguardo.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(<emph rend="italic">grave</emph>)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(grave)</emph></stage>
             <l>No es tiempo ya de creeros. No hay mas medio:</l>
             <l>La guerra ó el dominio castellano.</l>
           </sp>
           <pb n="23"/>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage><emph rend="italic">(alterado y después mas tranquilo)</emph></stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(alterado y después mas tranquilo)</emph></stage>
             <l>El dominio!... Español, mucho propones</l>
             <l>Y tiempo he menester para acordarlo.</l>
             <l>En prueba de mis plácidas ideas,</l>
@@ -773,68 +800,67 @@
             <l>Mañana volverás.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(<emph rend="italic">circunspecto</emph>)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(circunspecto)</emph></stage>
             <l>No: respondedme</l>
             <l>Sin salir del lugar ó declarados</l>
             <l>Quedad por enemigos.</l>
-            <p><stage>(<emph rend="italic">Siripo queda pensativo</emph>)</stage></p>
+            <stage>(<emph rend="italic">Siripo queda pensativo</emph>)</stage>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(indignado)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage><emph rend="italic">(indignado)</emph></stage>
             <l>¿Pues, Cacique,</l>
             <l>Escuchas tus agravios sin vengarlos?</l>
             <l>De odiosa esclavitud oyes sereno</l>
             <l>Proposiciones?</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(<emph rend="italic">grave</emph>)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(grave)</emph></stage>
             <l>Basta. Retiraos</l>
             <l>Quiero quedar yo solo.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(<emph rend="italic">fiero</emph>)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage><emph rend="italic">(fiero)</emph></stage>
             <l>¿Que nosotros</l>
             <l>Podemos estorbarte?</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(<emph rend="italic">airado</emph>)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(airado)</emph></stage>
             <l>Yo lo mando</l>
           </sp>
           <pb n="24"/>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(<emph rend="italic">como antes</emph>)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage><emph rend="italic">(como antes)</emph></stage>
             <l>De esa impaciencia y esa valentía,</l>
             <l>Usarías mas bien con tus contrarios.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(<emph rend="italic">suave</emph>)</stage></p>
-            <l>Me importa quedar solo Cayumari</l>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(suave)</emph></stage>
+            <l>Me importa quedar solo Cayumari.</l>
             <l>A la vista mantente por un rato.</l>
           </sp>
         </div>
         <div type="scene" n="7">
-          <head>Escena 7</head>
-          <p><stage>Siripo - Hurtado</stage></p>
+          <head>Escena 7ª</head>
+          <stage>Siripo - Hurtado</stage>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(afable)</stage></p>
-            <l>Con que no ha de haber medio?</l>
-            <l>Los agravios</l>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(afable)</emph></stage>
+            <l>Con que no ha de haber medio? Los agravios</l>
             <l>No tendrán algún fin?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Los enunciados.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Mas dime ¿si este día fuera dable,</l>
             <l>Que nosotros la fé que profesamos</l>
             <l>Por la vuestra dejásemos, y fuese</l>
@@ -843,8 +869,8 @@
             <l>No hubierais de olvidar?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(agradable)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(agradable)</emph></stage>
             <l>Por ese cambio,</l>
             <l>Yo que con mas rencor os aborresco</l>
             <pb n="25"/>
@@ -859,11 +885,11 @@
             <l>Como á última razón, es necesario.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Arte de persuadir será la guerra?</l>
             <l>Mas que vosotros es vuestro Dios sabio,</l>
             <l>Que la verdad enseña por arbitrios</l>
-            <l>Que miráis muchas veces como flacos.</l>
+            <l>Que mirais muchas veces como flacos.</l>
             <l>Una hermosa mujer que á mi dominio,</l>
             <l>Por camino indirecto, el cielo trajo,</l>
             <l>De mi convencimiento es dulce causa</l>
@@ -875,68 +901,67 @@
             <l>La cautiva española...</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(atónito)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(atónito)</emph></stage>
             <l>Que española?</l>
             <l>¡Si una que había fué del inhumano</l>
             <l>Furor de los timbués triste despojo!</l>
           </sp>
           <pb n="26"/>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Aún vive, de mi dicha por encanto.</l>
             <l>La muy digna Lucía...</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>¡Dios piadoso!</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>De mi amor obligada...</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>¡desgraciado!</l>
             <l>¿Esa mujer os ama?</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(airado)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(airado)</emph></stage>
             <l>Qué te admira?</l>
             <l>No soy uno también de los humanos?</l>
             <l>De un joven vencedor á las ternezas</l>
             <l>Que Lucía se rinda será extraño?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(disimulando)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(disimulando)</emph></stage>
             <l>Tenéis razón, Cacique, pero cuerdo</l>
             <l>Debierais despreciarla en este caso.</l>
             <l>De una indigna mujer, que de su esposo</l>
             <l>Aún tendido el cadáver sobre el campo,</l>
-            <p><stage>(alterándose y conteniéndose),</stage></p>
+            <stage><emph rend="italic">(alterándose y conteniéndose)</emph>,</stage>
             <pb n="27"/>
             <l>En lugar de los gritos funerales</l>
             <l>Escucha de otra boda alegres cantos,</l>
-            <l>Qué fé habéis de esperar?</l>
-            <l>La fementida,</l>
+            <l>Qué fé habéis de esperar? La fementida,</l>
             <l>En término tan breve pudo amaros?</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Para amar un instante solo basta.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(Finjiendo sonrisa)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(finjiendo sonrisa)</emph></stage>
             <l>Quizás ella os amaba de antemano.</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Decirlo no podré, si bien es cierto</l>
             <l>Que ha escuchado mis ruegos sin enfado.</l>
-            <l>Que turbarse, sonreírse suavemente</l>
+            <l>Que turbarse, sonreirse suavemente</l>
             <l>Y su blando mirar, indicios claros</l>
             <l>Son del fogoso ardor, que en este día</l>
             <l>(Sea de regocijo eternos años)</l>
@@ -947,7 +972,7 @@
             <l>De mí pensó apartarla. De mis vallas</l>
             <l>El lado del naciente dejó franco,</l>
             <l>Para hacerla que huyese sin ser vista</l>
-            <l>De los mios ; mas ella (afortunado!)</l>
+            <l>De los mios; mas ella (afortunado!)</l>
             <l>Amante, agradecida, no se atreve</l>
             <l>A abandonarme así. Me sale al paso.</l>
             <l>(Ay de mí cual venía! Nunca el alba</l>
@@ -962,17 +987,16 @@
             <l>En vano me resisto...</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(serio)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(serio)</emph></stage>
             <l>Bien, Cacique.</l>
             <l>El tiempo que nos insta no perdamos.</l>
             <l>Yo quiero quedar cierto. Haced que venga</l>
             <l>Esa mujer...</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <l>Así es.</l>
-            <l>De ella sabraslo.</l>
+            <speaker>Siripo</speaker>
+            <l>Así es. De ella sabraslo.</l>
             <l>Yo voy á enviarla aquí para que quedes</l>
             <l>Confirmado. Proponla mil reparos.</l>
             <l>Repréndela. Procura disuadirla.</l>
@@ -981,21 +1005,21 @@
             <l>Que es á quien ama lo imposible llano,</l>
             <l>Ve á decir á los tuyos que el intento</l>
             <l>De sus nobles fatigas es logrado.</l>
-            <p><stage>(Haría do queda atónito)</stage></p>
+            <stage><emph rend="italic">(Hurtado queda atónito)</emph></stage>
           </sp>
         </div>
         <pb n="29"/>
         <div type="scene" n="8">
-          <head>Escena 8</head>
-          <p><stage>Hurtado - Cayumari</stage></p>
+          <head>Escena 8ª</head>
+          <stage>Hurtado - Cayumari</stage>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Bien dije yo que Lambaré cobarde</l>
             <l>Huiría tu valor?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(aflijido)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(aflijido)</emph></stage>
             <l>Me preservaron</l>
             <l>No sus temores, sí mi desventura.</l>
             <l>Me ocultó de sus ojos el airado,</l>
@@ -1003,11 +1027,11 @@
             <l>Su rigor llevar quiere. ¡Hados ingratos!</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <l>¿Qué furores te agitan?</l>
+            <speaker>Cayumari</speaker>
+            <l>Qué furores te agitan?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>¡Ay amigo!</l>
             <l>Novela seré yo de desgraciados.</l>
             <l>Mi suerte me apartó del venturoso</l>
@@ -1024,16 +1048,16 @@
         </div>
         <div type="scene" n="9">
           <pb n="30"/>
-          <head>Escena 9</head>
-          <p><stage>Lara - Hurtado - Cayumari</stage></p>
+          <head>Escena 9ª</head>
+          <stage>Lara - Hurtado - Cayumari</stage>
           <sp who="#lara">
             <speaker>Lara</speaker>
-            <l>¿Al fin de mí venganza llegó el día?</l>
+            <l>¿Al fin de mi venganza llegó el día?</l>
             <l>¡Ay Hurtado! ¡qué horribles sobresaltos</l>
             <l>Has venido á acabar!</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>¿Lucía sabe</l>
             <l>Que su esposo y amante es el enviado?</l>
           </sp>
@@ -1041,22 +1065,22 @@
             <speaker>Lara</speaker>
             <l>Al oir que hablaba claro nuestra lengua</l>
             <l>De quien era se impuso. No hay cristiano</l>
-            <l>Que la entienda como él, y su alegría</l>
+            <l>Que la entienda como él, y su alegria</l>
             <l>Ha dicho á la manera del espanto</l>
             <l>La noticia impensada...</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Bien dijiste.</l>
             <l>Temor es verdadero.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Yo me pasmo</l>
           </sp>
           <pb n="31"/>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Cayumari, ¿te pasmas? ¿Tus lealtades,</l>
             <l>A su fuga un camino extraordinario</l>
             <l>No abrieron? De tu celo compelido,</l>
@@ -1064,13 +1088,13 @@
             <l>No pensaste dejar para que huyese?</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(atónito)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage><emph rend="italic">(atónito)</emph></stage>
             <l>Y á tu noticia puede haber llegado!</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(furioso)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(furioso)</emph></stage>
             <l>Lucía... Yo la nombro? ¡Quién pudiera</l>
             <l>Este nombre olvidar! De ira me abrazo.</l>
             <l>La pérfida te vende. No ha querido</l>
@@ -1081,17 +1105,17 @@
             <l>Ahora yo rabio.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Lucía me malquista! Así mi vida</l>
             <l>Espone mis favores mal pagando.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Mujer engañadora! Mira como</l>
             <l>Huye de mi presencia.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Yo no alcanzo...</l>
           </sp>
           <pb n="32"/>
@@ -1101,27 +1125,27 @@
             <l>El Cacique no ha sido objeto ingrato.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Me descubre el Cacique...</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Y se descubre</l>
             <l>Su boda delincuente apresurando,</l>
             <l>Para legitimar en algún modo</l>
             <l>La vergonzosa infamia de tal acto.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(indignado)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage><emph rend="italic">(indignado)</emph></stage>
             <l>Así burla Lucía mis anhelos!</l>
           </sp>
           <sp who="#lara">
-            <speaker>LARA</speaker>
+            <speaker>Lara</speaker>
             <l>Mira si mi recelo era infundado.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Juzgaba que fingía</l>
           </sp>
           <sp who="#lara">
@@ -1130,64 +1154,64 @@
             <l>Con tanta propiedad.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(yéndose)</stage></p>
+            <speaker>Cayumari</speaker>
+            <stage><emph rend="italic">(yéndose)</emph></stage>
             <l>Venga tu agravio.</l>
           </sp>
           <pb n="33"/>
           <sp who="#lara">
             <speaker>Lara</speaker>
-            <p><stage>(yéndose)</stage></p>
+            <stage><emph rend="italic">(yéndose)</emph></stage>
             <l>Y si para arrancarle las entrañas</l>
             <l>Fuerza te falta, te tendré yo el brazo.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Vosotros sois testigos de su crimen</l>
-            <l>Y con razón podéis aconsejarlo.</l>
-            <l>¿Dónde andará la infiel?</l>
+            <l>Y con razón podeis aconsejarlo.</l>
+            <l>Donde andará la infiel?</l>
           </sp>
         </div>
         <div type="scene" n="10">
-          <head>Escena 10</head>
-          <p><stage>Miranda - Hurtado</stage></p>
+          <head>Escena 10ª</head>
+          <stage>Miranda - Hurtado</stage>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>¿Porqué ventura</l>
-            <l>No esperada, hijo mió, te restauro?</l>
+            <l>No esperada, hijo mio, te restauro?</l>
             <l>¡Ay Dios! si este será de la crueza</l>
             <l>Y de tamañas cuitas postrer cabo.</l>
             <l>Y como te olvidaste de Lucía?</l>
             <l>Tu finamiento habernos ya llorado.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(desdeñoso)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(desdeñoso)</emph></stage>
             <l>A bien que las caricias del Cacique</l>
             <l>En placeres habrán tornado el llanto.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>¿Qué dices infeliz?</l>
           </sp>
           <pb n="34"/>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>No se me ocultan</l>
             <l>Las pérfidas ideas...</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>¡Insensato!</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Del Cacique y Lucía. Su perfidia</l>
             <l>Los lindes del pudor ha quebrantado.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <p><stage>(triste)</stage></p>
+            <speaker>Miranda</speaker>
+            <stage><emph rend="italic">(triste)</emph></stage>
             <l>Que buen acojimiento la previenes</l>
             <l>A una mujer del débil sexo lauro,</l>
             <l>Que por medio á los riesgos de los mares</l>
@@ -1196,18 +1220,18 @@
             <l>Por tu amor á lugares tan estraños.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(furioso)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(furioso)</emph></stage>
             <l>Es mujer, es mudable, y es...</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>¡Con que arte,</l>
             <l>Las furias del infierno te han cegado!</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <l>Vos estáis inocente. Yo lo creo.</l>
+            <speaker>Hurtado</speaker>
+            <l>Vos estais inocente. Yo lo creo.</l>
             <l>Ni como su maldad había de fiaros</l>
             <pb n="35"/>
             <l>La pérfida sagaz. Ella temiera</l>
@@ -1221,27 +1245,28 @@
             <l>Con título de esposa...</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <p><stage>(indignado)</stage></p>
+            <speaker>Miranda</speaker>
+            <stage><emph rend="italic">(indignado)</emph></stage>
             <l>¿Se resuelve,</l>
             <l>A condición de que él se haga cristiano,</l>
             <l>A rendir su beldad á un vil salvaje</l>
             <l>Horrible y asqueroso?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(atónito)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(atónito)</emph></stage>
             <l>¿Vos sabéis su delito? ¿Y la honra vuestra?</l>
-            <l>No, no habréis podido remediarlo.</l>
+            <l>No, no habreis podido remediarlo.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <p><stage>(indignado)</stage></p>
+            <speaker>Miranda</speaker>
+            <stage><emph rend="italic">(indignado)</emph></stage>
             <l>Que aquestas mesmas lumbres de mis ojos</l>
             <l>Me es mi apreciado honor mucho más caro.</l>
             <l>Aun no me tiembla el pulso, y á ser cierto</l>
             <l>Que alguien le amancillase, no mis años</l>
-            <l>Estorbaran mi saña vengativa... <note place="foot">En el manuscrito de Lavarden hay,después de este verso, otro que dice: Pero tales injurias satisfago?</note></l>
+            <l>Estorbaran mi saña vengativa... <note type="original">En el manuscrito de Lavarden
+                hay,después de este verso, otro que dice: Pero tales injurias satisfago?</note></l>
             <l>Yo he sido, solo yo, quien al Cacique</l>
             <l>La constancia de mi hija ha subyugado.</l>
             <pb n="36"/>
@@ -1249,85 +1274,86 @@
             <l>Indigno es tolerar agravio tanto.</l>
             <l>Para estos casos el honor te ciñe</l>
             <l>El duro acero que te prende al lado.</l>
-            <p><stage>(Con entereza)</stage></p>
+            <stage><emph rend="italic">(Con entereza)</emph></stage>
             <l>Mal mirado rapaz, no son mejores</l>
             <l>Que los buenos Mirandas los Hurtados.</l>
-            <p><stage>(Enternecido)</stage></p>
+            <stage><emph rend="italic">(Enternecido)</emph></stage>
             <l>Ingrato! Quien creyera que tu fueses</l>
             <l>Quien un honor que el sol mucho mas claro</l>
             <l>Con sospechas indignas atildase!</l>
-            <p><stage>(Miranda hace que se va; Hurtado queda pensando y humillado?)</stage></p>
+            <stage><emph rend="italic">(Miranda hace que se va; Hurtado queda pensando y
+                humillado).</emph></stage>
           </sp>
         </div>
         <div type="scene" n="11">
-          <head>Escena 11</head>
-          <p><stage>Cayumari - Hurtado - Miranda</stage></p>
+          <head>Escena 11ª</head>
+          <stage>Cayumari - Hurtado - Miranda</stage>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
-            <p><stage>(presuroso)</stage></p>
-            <l>Estáis vuestras desgracias esperando?</l>
+            <speaker>Cayumari</speaker>
+            <stage><emph rend="italic">(presuroso)</emph></stage>
+            <l>Estais vuestras desgracias esperando?</l>
             <l>No te detengas mas. Cierta es tu muerte.</l>
             <l>Habemos todos padecido engaño.</l>
-            <l>Eucía está inocente. El envidioso</l>
+            <l>Lucía está inocente. El envidioso</l>
             <l>Lambaré me vendió, y apresurado</l>
             <l>Corre á instruir al Cacique de quien eres:</l>
             <l>Tu nombre se murmura ya en el campo.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(tierno)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(tierno)</emph></stage>
             <l>¿Lucía está inocente y me aconsejas</l>
             <l>Que la abandone?</l>
           </sp>
           <pb n="37"/>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>Cielos, ¿hasta cuando?</l>
             <l>¿En que hora tan menguada á luz viniste</l>
             <l>Hija infeliz de un padre malhadado?</l>
             <l>Ya es preciso morir.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>¿Aun te detienes?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <l>Que es huir ¿Ni de quien? ¿Pensáis villano</l>
+            <speaker>Hurtado</speaker>
+            <l>Que es huir ¿Ni de quien? ¿Pensais villano</l>
             <l>Que soy un hombre solo? A pesar vuestro</l>
             <l>Hallareis un ejército en mi brazo.</l>
           </sp>
           <sp who="#cayumari">
-           <speaker>Cayumari</speaker>
+            <speaker>Cayumari</speaker>
             <l>Desesperas amigo. Bien lo piensa.</l>
             <l>Del campo á la salida yo te aguardo.</l>
           </sp>
         </div>
         <div type="scene" n="12">
-          <head>Escena 12</head>
-          <p><stage>Lucía - Hurtado - Miranda</stage></p>
+          <head>Escena 12ª</head>
+          <stage>Lucía - Hurtado - Miranda</stage>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
-            <p><stage>(corriendo)</stage></p>
+            <speaker>Lucía</speaker>
+            <stage><emph rend="italic">(corriendo)</emph></stage>
             <l>¡Compasivo es mi Dios con una ingrata!</l>
             <l>¿Respiras todavía esposo amado?</l>
             <l>¿Aun duran mis delicias, dueño mío?</l>
             <l>Mis lágrimas los cielos apiadaron.</l>
             <l>¿Como evitarte á Lambaré sangriento?</l>
             <l>Te miro y me parece que es milagro.</l>
-            <p><stage>(abriéndole la ropilla)</stage></p>
+            <stage><emph rend="italic">(abriéndole la ropilla)</emph></stage>
             <pb n="38"/>
             <l>Sin duda te herirían y por eso</l>
             <l>En venirme á buscar has sido tarde.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
-            <p><stage>(lloroso)</stage></p>
+            <speaker>Hurtado</speaker>
+            <stage><emph rend="italic">(lloroso)</emph></stage>
             <l>Hiciéronme creer mis camaradas</l>
             <l>Que murieras la noche del asalto.</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Que!¿Tu lloras mi bien? ¿Y que la dejas</l>
             <l>A mi terneza entonces? Los amargos</l>
             <l>Fenecidos pesares no dilates</l>
@@ -1338,7 +1364,7 @@
             <l>Testimonios que estrechen nuestros lazos.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>¡O consuelo infeliz! ¡Consuelo estéril,</l>
             <l>El monstruo del furor has abortado!</l>
             <l>Más amargo, mi bien, hace este gozo</l>
@@ -1347,14 +1373,14 @@
             <l>Quien soy sabe.</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Mi Dios! Más cuando te hallo</l>
             <l>Constante y amoroso esposo mío,</l>
             <l>El morir junto á tí será regalo.</l>
           </sp>
           <pb n="39"/>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Ello hemos de morir de alguna suerte,</l>
             <l>Y ya que es fuerza con honor muramos.</l>
             <l>Lucía, mi Lucía, muestra el cielo</l>
@@ -1363,20 +1389,20 @@
             <l>Tu patria y religión, y cuanto te amo.</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Que! ¿Ya no me conoces? ¿Tu me animas?</l>
-            <l>¿Dudas que alegre moriré á tu lado? «</l>
+            <l>¿Dudas que alegre moriré á tu lado?</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <l>¿Que intentáis infelices?</l>
+            <speaker>Miranda</speaker>
+            <l>Que intentais infelices?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Dura pena</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>¡Miranda!</speaker>
             <l>¿Quien os cubre los ojos insensatos?</l>
             <l>¿Tu deseas morir? ¿Y con tu muerte,</l>
             <l>Que tu esposa te libre habrás logrado?</l>
@@ -1391,7 +1417,7 @@
           </sp>
           <pb n="40"/>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>¡Suerte cruel, ni aun este triste alivio</l>
             <l>¿Tus rigores ostentas sin contrario?</l>
             <l>Fiel Lucía, mi bien, injustamente</l>
@@ -1401,84 +1427,84 @@
             <l>Yo voy á ser su guía y libertarte</l>
             <l>De la injusta opresión. Sabrá el tirano</l>
             <l>Que los justos derechos de los hombres</l>
-            <p><stage>(hace que se va)</stage></p>
+            <stage><emph rend="italic">(hace que se va)</emph></stage>
             <l>No pueden tan sin riesgo ser violados.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>Marcha, pues, hijo mío.</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Que! ¿me dejas?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>No es dejarte mi bien.</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Yo no me aparto</l>
             <l>De tí. Yo he de seguir tu misma suerte.</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>¿No ves de tu flaqueza el embarazo?</l>
             <l>Yo vuelvo á libertarte, dueño mío.</l>
           </sp>
           <pb n="41"/>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>¿Por donde has de volver? No nos juntamos</l>
             <l>Tu ni yo por jamás. No me abandones.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>Nos pierde esta mujer. No la hagas caso.</l>
             <l>No el honor de las armas aventures.</l>
-            <l>Ñuño de Lara te estará esperando.</l>
+            <l>Nuño de Lara te estará esperando.</l>
             <l>Si tu interés al público prefieres,</l>
             <l>Serás entre traidores numerado.</l>
             <l>¿Que se dirá de tí? ¿Como te olvidas</l>
             <l>Que antes que amante fuiste ciudadano?</l>
           </sp>
           <sp who="#hurtado">
-           <speaker>Hurtado</speaker>
+            <speaker>Hurtado</speaker>
             <l>Esto ha de ser. Lucía yo te ofrezco</l>
             <l>Mostrar que soy tu amante y soy soldado.</l>
             <l>Ya sufriste lo más, poco te resta.</l>
             <l>No está muy apartado nuestro campo.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>¿Pues en que te detienes?</l>
-            <p><stage>(se va Hurtado corriendo)</stage></p>
+            <stage><emph rend="italic">(se va Hurtado corriendo)</emph></stage>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Yo te sigo.</l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
-            <p><stage>(deteniéndola)</stage></p>
+            <speaker>Miranda</speaker>
+            <stage><emph rend="italic">(deteniéndola)</emph></stage>
             <l>¿Que es lo que vas á hacer?</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Padre inhumano!</l>
           </sp>
         </div>
         <div type="scene" n="13">
           <pb n="42"/>
-          <head>Escena 13</head>
-          <p><stage>Miranda - Lucía</stage></p>
+          <head>Escena 13ª</head>
+          <stage>Miranda - Lucía</stage>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>Basta, hija. Tú deliras. ¿Quien te ha visto</l>
             <l>Descomponerte así?</l>
           </sp>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>¡Cielo sagrado!</l>
             <l>¿Que es lo que me sucede? Ay! infelice!</l>
             <l>¿Hurtado en tan funesto desamparo</l>
@@ -1490,7 +1516,7 @@
             <l>Lo entiendo á mi pesar.El se ha vengado.</l>
             <l>Y donde iré yo sola, mujer, débil!</l>
             <l>¿Que gruta será fúnebre reparo</l>
-            <l>A mi triste orfandad?¿Los fieros tigres</l>
+            <l>A mi triste orfandad? ¿Los fieros tigres</l>
             <l>Socorro me darán? Si, serán mansos</l>
             <l>Cuando un amante, un padre y un esposo</l>
             <l>Su fiereza les roban despiadados.</l>
@@ -1505,21 +1531,22 @@
             <l>Mi crimen y mi boda? Es necesario</l>
             <l>Que la muerte le lave. Morir debo.</l>
             <l>Yo de mi mesma juez pronuncio el fallo.</l>
-            <l>El amor lo aconseja, honor lo manda. <note place="foot">El manuscrito de Lavarden dice: El honor lo aconseja, amor lo manda.</note></l>
+            <l>El amor lo aconseja, honor lo manda. <note place="foot">El manuscrito de Lavarden
+                dice: El honor lo aconseja, amor lo manda.</note></l>
           </sp>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>¿Tantas penas no bastan? ¿Mis quebrantos</l>
             <l>Quieres aumentar hija? No apresures</l>
             <l>Los males que vendrán mal nuestro grado</l>
           </sp>
         </div>
         <div type="scene" n="14">
-          <head>Escena 14</head>
-          <p><stage>Siripo - después Lambaré - Miranda - Lucía</stage></p>
+          <head>Escena 14ª</head>
+          <stage>Siripo - <emph rend="italic">después</emph> Lambaré - Miranda - Lucía</stage>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <p><stage>(furioso)</stage></p>
+            <speaker>Siripo</speaker>
+            <stage><emph rend="italic">(furioso)</emph></stage>
             <l>¿El vil engañador donde se esconde?</l>
             <l>¿Esta es la buena fé de los cristianos?</l>
             <l>Y tú, si eres mujer, que mas bien creo</l>
@@ -1528,7 +1555,7 @@
             <l>Galardón hallarás á tus engaños.</l>
           </sp>
           <sp who="#lambaré">
-           <speaker>Lambaré</speaker>
+            <speaker>Lambaré</speaker>
             <l>El español huyó. Tus centinelas</l>
             <l>Que saliese del campo le dejaron</l>
             <l>Fingiendo que con nuevas de las paces</l>
@@ -1536,7 +1563,7 @@
           </sp>
           <pb n="44"/>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
+            <speaker>Siripo</speaker>
             <l>Pues Lambaré tu criminal descuido</l>
             <l>Ha sido causa de trastorno tanto,</l>
             <l>Quedaráte la nota de cobarde</l>
@@ -1547,15 +1574,15 @@
             <l>Alcanza al fugitivo.</l>
           </sp>
           <sp who="#lambaré">
-           <speaker>Lambaré</speaker>
+            <speaker>Lambaré</speaker>
             <l>Voy volando.</l>
           </sp>
         </div>
         <div type="scene" n="15">
-          <head>Escena 15</head>
-          <p><stage>Siripo - Lucía - Miranda</stage></p>
+          <head>Escena 15ª</head>
+          <stage>Siripo - Lucía - Miranda</stage>
           <sp who="#lucia">
-           <speaker>Lucía</speaker>
+            <speaker>Lucía</speaker>
             <l>Tirano, si pretendes encontrarle</l>
             <l>No sufran tus temores mas atraso.</l>
             <l>Yo te enseño el camino. En este pecho</l>
@@ -1568,17 +1595,17 @@
             <l>En que me sean tus obsequios gratos,</l>
             <l>Y me harás el mayor si me libertas</l>
             <l>Del enojo de haberte á tí mirado.</l>
-            <p><stage>(vase)</stage></p>
+            <stage><emph rend="italic">(vase)</emph></stage>
           </sp>
           <pb n="45"/>
           <sp who="#miranda">
-           <speaker>Miranda</speaker>
+            <speaker>Miranda</speaker>
             <l>¡Yo no engendré tal hija! Vos la hicisteis,</l>
             <l>Pues cuidad también de ella, Cielo santo!</l>
           </sp>
           <sp who="#siripo">
-           <speaker>Siripo</speaker>
-            <l>Ensálzate arrogante. En breve tiempo</l>
+            <speaker>Siripo</speaker>
+            <l>Ensalzate arrogante. En breve tiempo</l>
             <l>Ese orgullo feroz verás postrado.</l>
             <l>Yo sabré hacer de modo que la imagen,</l>
             <l>Que da á tu corazón valor tamaño,</l>
@@ -1590,8 +1617,8 @@
         </div>
       </div>
     </body>
-     <back>
+    <back>
       <trailer>Fin</trailer>
-      </back>
+    </back>
   </text>
 </TEI>

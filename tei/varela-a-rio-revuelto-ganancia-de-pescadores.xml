@@ -24,30 +24,39 @@
           <nameLink>del</nameLink>
           <surname>Rio Riande</surname>
         </editor>
+        <editor xml:id="lv">
+          <forename>Laura</forename>
+          <surname>Volkind</surname>
+        </editor>
       </titleStmt>
       <publicationStmt>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org/</idno>
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
           <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad: sainetes
-            urbanos y gauchescos, 1800–1814</name>
-          <idno type="URL">https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf#page=83</idno>
+          <name>Antología de obras de teatro argentino</name>
+          <author><forename>Juan Cruz</forename>
+            <surname>Varela</surname></author>: <title level="a">A río revuelto ganancia de
+            pescadores</title>. En: <editor><surname>Seibel</surname>,
+            <forename>Beatriz</forename></editor>. <title level="m">Antología de obras de teatro
+            argentino. Desde sus orígenes a la actualidad: </title>
+          <biblScope unit="volume">Tomo 1: (1800–1814) Sainetes urbanos y gauchescos.</biblScope>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
+            <date>2006</date>, pp. <biblScope unit="page" from="165" to="197">165–197</biblScope>.
+            <idno type="URL"
+            >https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-12/#versiondigital</idno>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
-          <bibl type="originalSource">
-            <title>Antología de obras de teatro argentino. Desde sus orígenes a la actualidad:
-              sainetes urbanos y gauchescos, 1800–1814 / Cristóbal De Aguilar... [et al.].</title>
-            <author><forename>Beatriz</forename>
-              <surname>Seibel</surname></author> 1ª ed. – Buenos Aires<pubPlace/>: <editor>Instituto
-              Nacional del Teatro</editor>, pp.<biblScope unit="page" from="165" to="197">165-197</biblScope>, <date>2006</date>.</bibl>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -87,14 +96,15 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-05-15" who="gdr">change initial encoding</change>
-        <change when="2025-05-19" who="rdl">correction errors ezdrama</change>
-        <change when="2025-05-20" who="gdr">revision</change>
-        <change when="2025-05-26" who="rdl">correction sourcedesc, text errors, add pb</change>
-        <change when="2025-06-02" who="gdr">change header</change>
-        <change when="2025-06-29" who="gdr">change xml declaration</change>
-        <change when="2025-08-25" who="gdr">capital letters to smallcase</change>
-         <change when="2025-08-25" who="gdr">add wikidata and divs</change>
+        <change when="2025-05-15" who="#gdr">change initial encoding</change>
+        <change when="2025-05-19" who="#rdl">correction errors ezdrama</change>
+        <change when="2025-05-20" who="#gdr">revision</change>
+        <change when="2025-05-26" who="#rdl">correction sourcedesc, text errors, add pb</change>
+        <change when="2025-06-02" who="#gdr">change header</change>
+        <change when="2025-06-29" who="#gdr">change xml declaration</change>
+        <change when="2025-08-25" who="#gdr">capital letters to smallcase</change>
+        <change when="2025-08-25" who="#gdr">add wikidata and divs</change>
+        <change when="2025-09-17" who="#lv">last complete revision of file</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -107,8 +117,11 @@
         <desc/>
       </event>
     </listEvent>
-     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000003" passive="https://www.wikidata.org/wiki/Q135989927"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000003"
+        passive="http://www.wikidata.org/entity/Q135989927"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000003"
+        passive="https://hdlab.space/teatrar/obras/0287.html"/>
     </listRelation>
   </standOff>
   <text>
@@ -138,7 +151,8 @@
         <castItem><role>Un abogado</role></castItem>
       </castList>
       <set>
-        <p><emph>La escena será el cuarto de Rosa, con tres o cuatro sillas y una mesa. Aparece Rosa sentada, oliendo unas flores, y un poco después sale Javier con bastón.</emph></p>
+        <p><emph>La escena será el cuarto de Rosa, con tres o cuatro sillas y una mesa. Aparece Rosa
+            sentada, oliendo unas flores, y un poco después sale Javier con bastón.</emph></p>
       </set>
     </front>
     <body>
@@ -272,7 +286,8 @@
           <l>con mis cuadriles y lomos,</l>
           <l>con mi cogote y garganta,</l>
           <l>con mi riñón y costillas,</l>
-          <l>con mi cabeza y mi panza dos legiones de demonios,</l>
+          <l>con mi cabeza y mi panza</l>
+          <l>dos legiones de demonios,</l>
           <l>o tres, si les da la gana,</l>
           <l>o cuatro, si ellos quisieren,</l>
           <l>o cinco, si hicieren falta,</l>
@@ -320,7 +335,8 @@
           <speaker>Rosa</speaker>
           <l>Las personas que son libres,</l>
           <l>y con más razón las damas,</l>
-          <l>deben casarse tan sólo con el joven a quien aman.</l>
+          <l>deben casarse tan sólo</l>
+          <l>con el joven a quien aman.</l>
         </sp>
         <sp who="#javier">
           <speaker>Javier</speaker>
@@ -371,7 +387,7 @@
         </sp>
         <sp who="#rosa">
           <speaker>Rosa</speaker>
-          <l>Dile que vaya a besar…</l>
+          <l>Dile que vaya a besar...</l>
         </sp>
         <sp who="#javier">
           <speaker>Javier</speaker>
@@ -397,7 +413,8 @@
           <speaker>Javier</speaker>
           <l>Voy a ver a don Silvestre,</l>
           <l>y llevármelo a su casa,</l>
-          <l>con él volveré, a fin de que una visita te haga:</l>
+          <l>con él volveré, a fin</l>
+          <l>de que una visita te haga:</l>
           <l>ámalo, hija mía, mira</l>
           <l>que es hombre de prendas altas,</l>
           <l>y serás siempre feliz</l>
@@ -416,7 +433,8 @@
           <l>Ya voy; tú tendrás cuidado</l>
           <pb n="173"/>
           <l>de que nadie entre a mi casa:</l>
-          <l>ni Arganto, ni San Arganto, ni el Rey, ni el Cura, ni el Papa,</l>
+          <l>ni Arganto, ni San Arganto,</l>
+          <l>ni el Rey, ni el Cura, ni el Papa,</l>
           <l>ni todo aquello que huela</l>
           <l>a cosa de hombre.</l>
         </sp>
@@ -456,7 +474,8 @@
         <sp who="#rosa">
           <speaker>Rosa</speaker>
           <l>Dices bien; solo con eso</l>
-          <l>se consolarán mis ansias; pero, cuidado, no seas</l>
+          <l>se consolarán mis ansias;</l>
+          <l>pero, cuidado, no seas</l>
           <l>tú tan tosco en tus palabras;</l>
           <pb n="174"/>
           <l>habla con mayor cultura,</l>
@@ -551,12 +570,13 @@
           <speaker>Arganto</speaker>
           <l>Al cabo has de ir aprendiendo</l>
           <l>a usar tropos y metáforas;</l>
-          <l>pero dime ¿es similvero</l>
-          <l>que me dilige tu ama?</l>
+          <l>pero dime ¿es <foreign xml:lang="la">similvero</foreign></l>
+          <l>que me <foreign xml:lang="la">dilige</foreign> tu ama?</l>
         </sp>
         <sp who="#benito">
           <speaker>Benito</speaker>
-          <l>Similveros ni diliges,</l>
+          <l><foreign xml:lang="la">Similveros</foreign> ni <foreign xml:lang="la"
+              >diliges,</foreign></l>
           <l>señor, no entiendo palabra;</l>
           <l>le suplico que no me hable</l>
           <l>otra vez en lengua extraña;</l>
@@ -637,7 +657,7 @@
           <speaker>Benito</speaker>
           <l>Oiga usted, señor amado;</l>
           <l>el recado es excusado,</l>
-          <l>pues mi amita me ha mandado…</l>
+          <l>pues mi amita me ha mandado...</l>
         </sp>
         <sp who="#arganto">
           <speaker>Arganto</speaker>
@@ -677,7 +697,7 @@
           <l>Pues dile a tu señorita</l>
           <l>que me quiera muy discreta,</l>
           <l>pues a más de ser poeta</l>
-          <l>nada me falta,nadita;</l>
+          <l>nada me falta, nadita;</l>
           <l>tengo una bolsa llenita</l>
           <l>de hormillas y de botones,</l>
           <l>tengo este par de calzones,</l>
@@ -719,8 +739,8 @@
           <l>que excepto solo el dinero,</l>
           <l>y cama y ropa corriente,</l>
           <l>tengo todo lo demás</l>
-          <l>en mi casa. Adiós,</l>
-          <l>verás cómo prontamente vuelvo.</l>
+          <l>en mi casa. Adiós, verás</l>
+          <l>cómo prontamente vuelvo.</l>
         </sp>
         <sp who="#benito">
           <speaker>Benito</speaker>
@@ -746,7 +766,7 @@
         </sp>
         <sp who="#arganto">
           <speaker>Arganto</speaker>
-          <l>Son los cigarros,que así,</l>
+          <l>Son los cigarros, que así,</l>
           <l>los cultos los llaman hoy,</l>
           <l>pues cuando pitando estoy</l>
           <l>vomito fuego; ve aquí</l>
@@ -777,7 +797,7 @@
           <l>venga usted, mi mariposa,</l>
           <l>no se muestre perezosa,</l>
           <l>acérquese presurosa,</l>
-          <l>que ha venido don…¡por vida,</l>
+          <l>que ha venido don... ¡por vida,</l>
           <l>que no encuentro consonante!</l>
         </sp>
         <sp who="#rosa">
@@ -803,7 +823,8 @@
           <l>medio pliego de papel,</l>
           <l>una silla patituerta,</l>
           <l>media onza de arenilla,</l>
-          <l>un plato con dos calderas; en fin, tan sólo dinero</l>
+          <l>un plato con dos calderas;</l>
+          <l>en fin, tan sólo dinero</l>
           <l>y ropa no sé que tenga.</l>
         </sp>
         <sp who="#rosa">
@@ -813,7 +834,7 @@
           <l>aunque no tenga dinero</l>
           <pb n="181"/>
           <l>lo quiero más que a mi alma.</l>
-          <stage>Sale el Sacristán con sombrero,sotana y bastón; y sin hablar ni ver a nadie
+          <stage>Sale el Sacristán con sombrero, sotana y bastón; y sin hablar ni ver a nadie
             –paseándose– dice:</stage>
         </sp>
         <sp who="#sacristan">
@@ -839,8 +860,8 @@
           <l>la vengo a abrazar y ver.</l>
           <stage>Al decir los dos últimos versos, ve a Rosa y la va a abrazar, y a lo que ve a
             Arganto, que va entrando a la sazón, corre en puntas de pie y, callado, le empieza a dar
-            trompadas; a este mismo tiempo, Benito se tira al suelo riéndose, y el
-            Sacristán,corriendo, dice lo que sigue:</stage>
+            trompadas; a este mismo tiempo, Benito se tira al suelo riéndose, y el Sacristán,
+            corriendo, dice lo que sigue:</stage>
         </sp>
         <sp who="#sacristan">
           <speaker>Sacristán</speaker>
@@ -886,13 +907,13 @@
         </sp>
         <sp who="#rosa">
           <speaker>Rosa</speaker>
-          <l>Señores, por Dios, les pido…</l>
+          <l>Señores, por Dios, les pido...</l>
         </sp>
         <sp who="#benito">
           <speaker>Benito</speaker>
           <stage>(Desde el suelo)</stage>
-          <l>Déjelos: veamos las fiestas de</l>
-          <l>qué modo acabarán;</l>
+          <l>Déjelos: veamos las fiestas</l>
+          <l>de qué modo acabarán;</l>
           <l>¡ojalá le rompan el alma</l>
           <l>al diablo del sacristán!</l>
         </sp>
@@ -912,8 +933,7 @@
           <speaker>Sacristán</speaker>
           <l>Querida <foreign xml:lang="la">Domina mea</foreign>,</l>
           <l>ego siendo sacristán,</l>
-          <l><foreign xml:lang="la">dabo tibi</foreign>,</l>
-          <l>si tú quieres,</l>
+          <l><foreign xml:lang="la">dabo tibi</foreign>, si tú quieres,</l>
           <l><foreign xml:lang="la">rentas meas</foreign> que me dan.</l>
         </sp>
         <sp who="#benito">
@@ -957,7 +977,7 @@
         <sp who="#rosa">
           <speaker>Rosa</speaker>
           <l>Ya ves, Benitito mío,</l>
-          <l>que si mi padre…</l>
+          <l>que si mi padre...</l>
         </sp>
         <sp who="#benito">
           <speaker>Benito</speaker>
@@ -1008,7 +1028,7 @@
           <l>Si tú <foreign xml:lang="la">diligis</foreign> a mí,</l>
           <l>ego <foreign xml:lang="la">deligebo</foreign> a ti,</l>
           <l>y con esta <foreign xml:lang="la">dileccione</foreign></l>
-          <l><foreign xml:lang="la">in utroque corazone</foreign>...</l>
+          <l><foreign xml:lang="la">in utroque corazone...</foreign>...</l>
         </sp>
         <sp who="#rosa">
           <speaker>Rosa</speaker>
@@ -1066,7 +1086,8 @@
           <speaker>Benito</speaker>
           <l>Oigan, oigan con los diablos,</l>
           <l>que ya vienen los dos viejos,</l>
-          <l>cada cual con su bastón y caminando ligero.</l>
+          <l>cada cual con su bastón</l>
+          <l>y caminando ligero.</l>
         </sp>
         <sp who="#sacristan">
           <speaker>Sacristán</speaker>
@@ -1104,11 +1125,11 @@
           <stage>(Riéndose)</stage>
           <l>Desde que se hizo la casa</l>
           <l>está en el mismo lugar.</l>
-          <stage>Arganto va a salir,a tiempo que por la misma puerta entran don Javier y don
-            Silvestre,los que se encuentran con Arganto. Javier levanta el palo para pegarle;
-            Arganto retrocede asustado; Rosa se asusta; Benito,riéndose,se tira al suelo; don
-            Silvestre,con señales de amor,se acerca a Rosa.Don Javier,corriendo a Arganto,dice los
-            dos primeros versos que siguen,concluidos los cuales se para.</stage>
+          <stage>Arganto va a salir, a tiempo que por la misma puerta entran don Javier y don
+            Silvestre, los que se encuentran con Arganto. Javier levanta el palo para pegarle;
+            Arganto retrocede asustado; Rosa se asusta; Benito, riéndose, se tira al suelo; don
+            Silvestre, con señales de amor, se acerca a Rosa. Don Javier, corriendo a Arganto, dice
+            los dos primeros versos que siguen, concluidos los cuales se para.</stage>
         </sp>
         <sp who="#javier">
           <speaker>Javier</speaker>
@@ -1120,7 +1141,7 @@
           <l>No me trate usted así,</l>
           <l>insolente vejestorio,</l>
           <l>porque con un latinorio,</l>
-          <l>y un término altisonante…</l>
+          <l>y un término altisonante...</l>
         </sp>
         <sp who="#javier">
           <speaker>Javier</speaker>
@@ -1131,12 +1152,7 @@
         <sp who="#benito">
           <speaker>Benito</speaker>
           <stage>(Desde el suelo)</stage>
-          <l>¡Ay,</l>
-          <l>Jesús!,</l>
-          <l>¡ay!,</l>
-          <l>¡ay!,</l>
-          <l>¡ay!,</l>
-          <l>¡ay!</l>
+          <l>¡Ay, Jesús!, ¡ay!, ¡ay!, ¡ay!, ¡ay!</l>
         </sp>
         <sp who="#rosa">
           <speaker>Rosa</speaker>
@@ -1229,11 +1245,12 @@
           <l>Ahora veréis, vejestorios,</l>
           <l>lo que ha de costar la fiesta.</l>
           <stage>(Se va).</stage>
+
         </sp>
         <sp who="#benito">
           <speaker>Benito</speaker>
           <stage>(Desde el suelo, gritando)</stage>
-          <l>Tan,tan tan, Sacristán.</l>
+          <l>Tan, tan tan, Sacristán.</l>
         </sp>
         <sp who="#javier">
           <speaker>Javier</speaker>
@@ -1291,7 +1308,7 @@
           <l>voy a darle una paliza</l>
           <l>a este muchacho tan torpe.</l>
         </sp>
-        <stage>Levanta don Javier el palo para darle a Benito,pero a lo que este le habla,se
+        <stage>Levanta don Javier el palo para darle a Benito, pero a lo que este le habla, se
           suspende. Benito se levanta del suelo.</stage>
         <sp who="#benito">
           <speaker>Benito</speaker>
@@ -1332,8 +1349,8 @@
         <sp who="#abogado">
           <speaker>Abogado</speaker>
           <l>Vamos, señor don Javier,</l>
-          <l>
-            <foreign xml:lang="la">justicia est certum derechum de dare quod suyo es</foreign>,</l>
+          <l><foreign xml:lang="la">justicia est certum derechum</foreign>></l>
+          <l><foreign xml:lang="la">de dare quod suyo es</foreign>,</l>
           <l>y no dar lo que es <foreign xml:lang="la">agenun</foreign>.</l>
           <l>¿Entiende usted?</l>
         </sp>
@@ -1394,7 +1411,7 @@
           <l>yo tengo mucha razón,</l>
           <l>pues me dio su corazón</l>
           <l>la niña,y yo de ella gusto;</l>
-          <l>que el viejo o el Sacristán…</l>
+          <l>que el viejo o el Sacristán...</l>
         </sp>
         <sp who="#sacristan">
           <speaker>Sacristán</speaker>
@@ -1554,7 +1571,8 @@
           <l>Que más se quisiera usted;</l>
           <l>yo a los dos meses no más</l>
           <l>de haber entrado en la escuela</l>
-          <l>supe la primera hoja de mi cartilla, entera;</l>
+          <l>supe la primera hoja</l>
+          <l>de mi cartilla, entera;</l>
           <l>y de la escuela salí</l>
           <l>escribiendo de cuarenta.</l>
         </sp>
@@ -1733,6 +1751,6 @@
     </body>
     <back>
       <trailer>Fin</trailer>
-      </back>
+    </back>
   </text>
 </TEI>

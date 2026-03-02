@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Argia</title>
+        <title type="main">Argia</title>
         <title type="sub">Tragedia en cinco actos</title>
         <author>
           <persName>
@@ -30,25 +30,34 @@
         <idno type="URL">https://dracor.org/</idno>
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
           <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Poesias de Juan Cruz Varela y las tragedias Dido y Argia</name>
-          <idno type="URL">https://upload.wikimedia.org/wikipedia/commons/4/49/Poesias_-_Juan_Cruz_Varela.pdf</idno>
+          <name>Wikimedia Commons</name>
+          <idno type="URL"
+            >https://upload.wikimedia.org/wikipedia/commons/4/49/Poesias_-_Juan_Cruz_Varela.pdf</idno>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
           <bibl type="originalSource">
-            <title>Poesias de Juan Cruz Varela y las tragedias Dido y Argia</title>
-            <pubPlace>Buenos Aires</pubPlace>: <editor>Imprenta de la tribuna</editor>,
-              pp.<biblScope unit="page" from="402" to="486">402–486</biblScope>,
-            <date>1879</date>.</bibl>
+            <title>Poesías de Juan Cruz Varela y las tragedias Dido y Argia</title>
+            <pubPlace>Buenos Aires</pubPlace>: <editor>Imprenta de la tribuna</editor>, pp.
+              <biblScope unit="page" from="402" to="486">402–486</biblScope>, <date>1879</date>.
+          </bibl>
         </bibl>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>The Wikimedia Commons digitization is the 1879 edition we encoded.</p>
+      </editorialDecl>
+    </encodingDesc>
     <profileDesc>
       <particDesc>
         <listPerson>
@@ -75,9 +84,9 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-05-28" who="rdl">codificación y corrección de errores ezdrama</change>
-        <change when="2025-05-31" who="gdr">primera revisión</change>
-        <change when="2025-09-01" who="gdr">minúsculas, numeración de escenas, wikidata</change>
+        <change when="2025-05-28" who="#rdl">codificación y corrección de errores ezdrama</change>
+        <change when="2025-05-31" who="#gdr">primera revisión</change>
+        <change when="2025-09-01" who="#gdr">minúsculas, numeración de escenas, wikidata</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -93,8 +102,11 @@
         <desc/>
       </event>
     </listEvent>
-     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/arg0000005" passive="https://www.wikidata.org/wiki/Q136046283"/>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000005"
+        passive="http://www.wikidata.org/entity/Q136046283"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000005"
+        passive="https://hdlab.space/teatrar/obras/0288.html"/>
     </listRelation>
   </standOff>
   <text>
@@ -1441,8 +1453,8 @@
             <l>A Adrasto escucharé; pero si Adrasto</l>
             <l>librar piensa ese niño, que aborrezco,</l>
             <l>de mi poder, no hay paz; y si los dioses</l>
-            <l>me desamparan, llamaré al infierno.<note type="editor">Flectere si nequeo superos, Acheronta movébo.-Virgilio
-              </note></l>
+            <l>me desamparan, llamaré al infierno.<note type="editor">Flectere si nequeo superos,
+                Acheronta movébo.-Virgilio </note></l>
             <l>Creo nadar en sangre en mi palacio:</l>
             <l>mas la mía… ¡Qué rabia! ¡Oh, pueblo! ¡Oh, pueblo!</l>
           </sp>
@@ -2159,7 +2171,8 @@
             <l>si lo quiero perder, sin yo perderme?</l>
             <l>Pero ¿por qué vencer? Menos expuesto</l>
             <l>era inmolarlo aquí: para un contrario</l>
-            <l>son el valor o el dolo iguales medios. <note type="editor">Dolus an virtu; quis in hoste requirat?-Virgilio"</note></l>
+            <l>son el valor o el dolo iguales medios. <note type="editor">Dolus an virtu; quis in
+                hoste requirat?-Virgilio"</note></l>
             <l>¿Y quién me ha detenido? Los temores</l>
             <l>de irritar más y más a todo el pueblo,</l>
             <l>y llenar mi venganza sin que el trono</l>
@@ -3363,8 +3376,8 @@
             <l>señor, los vencedores a este sitio.</l>
             <pb n="485"/>
           </sp>
-          </div>
-          <div type="scene" n="6">
+        </div>
+        <div type="scene" n="6">
           <stage>ESCENA VI</stage>
           <stage>Creón, Adrasto, Argia, Eurimedón, guardias de Creón, soldados de Adrasto</stage>
           <stage>Al presentarse los soldados Argianos en la escena, los de Creón y Eurimedón harán
@@ -3414,6 +3427,6 @@
     </body>
     <back>
       <trailer>Fin</trailer>
-      </back>
+    </back>
   </text>
 </TEI>

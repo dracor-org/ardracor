@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000017" xml:lang="es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>El retrato del pibe</title>
+        <title type="sub">Entremés orillero en verso</title>
+        <author>
+          <persName>
+            <forename>José</forename>
+            <surname>González</surname>
+            <surname>Castillo</surname>
+          </persName>
+          <idno type="wikidata">Q5940098</idno>
+        </author>
+        <editor xml:id="lv">
+          <forename>Laura</forename>
+          <surname>Volkind</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio Riande</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Antología de obras de teatro argentino</name>
+          <author><forename>José</forename>
+            <surname>González Castillo</surname></author>: <title level="a">El retrato del
+            pibe.</title> En: <editor><surname>Seibel</surname>,
+            <forename>Beatriz</forename></editor>. <title level="m">Antología de obras de teatro
+            argentino. Desde sus orígenes a la actualidad.</title>
+          <biblScope unit="volume">Tomo 8 (1902–1910). Obras del siglo XX: 1ª década –
+            III.</biblScope><pubPlace>Buenos Aires</pubPlace>: <publisher>Instituto Nacional del
+            Teatro</publisher>, <date>2011</date>, pp. <biblScope unit="page" from="347" to="367"
+            >347–367</biblScope>. <idno type="URL"
+            >https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-5/</idno>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="garabito" sex="MALE">
+            <persName>Garabito</persName>
+          </person>
+          <person xml:id="juana" sex="FEMALE">
+            <persName>Juana</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="gonzalezCastillo" type="genreTitle">entremés orillero</term>
+          <term source="wikidata" type="genreTitle">entremés</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q1345152</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-12-10" who="#lv">codificación inicial y adaptación a Dracor</change>
+        <change when="2025-12-28" who="#gdr">reviso ficha</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="premiere" when="1918-11-09">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000017"
+        passive="http://www.wikidata.org/entity/Q136433699"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000017"
+        passive="https://hdlab.space/teatrar/obras/0122.html"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="347"/>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main"><emph>El retrato del pibe</emph></titlePart>
+          <titlePart type="sub">Entremés orillero en verso.</titlePart>
+        </docTitle>
+        <docAuthor>José González Castillo</docAuthor>
+      </titlePage>
+      <pb n="348"/>
+      <pb n="349"/>
+      <castList>
+        <head>Personajes</head>
+        <castItem>
+          <role>Juana</role>
+          <actor>Sta. Lucrecia Borda</actor></castItem>
+        <castItem>
+          <role>Garabito</role>
+          <actor>Sr. Enrique Muiño</actor>
+        </castItem>
+      </castList>
+      <set>
+        <p>Decoración. Bulín bastante mistongo, aunque de aspecto "sencillo", de un modesto
+          conventillo en el barrio del mondongo. Una catrera otomana, una mesa, una culera, un
+          balde, una escupidera y cualquier otra macana que me pongan el salón sin cara de
+          cambalache y uno que otro cachivache en uno que otro rincón. Un armario algo arruinao;
+          encima de éste un portrete y el escracho de un pebete vestido de Juan soldao. Un baulito
+          carcelario, y cualquier requisitoria que convenga al zanagoria que me arranye el
+          escenario.</p>
+        <p>Al levantarse el telón, Juana, broncando a la gurda, estará a la mano zurda, metiendo en
+          un pañolón, a manera de balurdo, unas cuantas cuchufletas: camisas, batas chancletas y un
+          manto de paño burdo. Por las protestas y el lloro se manya que está la Juana, entre con
+          gana y sin gana de espiantarse por el foro; y dejarlo a garabito, su bacán, a todo
+          estrilo, con escracho de pabilo, sin el morfe y sin carrito.</p>
+      </set>
+    </front>
+    <body>
+      <pb n="350"/>
+      <div type="act" n="1">
+        <div type="scene" n="1">
+          <head><emph>Escena Primera</emph></head>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Llorisqueando mientras arregla los trapos)</emph></stage>
+            <l>¡Tratarme a mí de este modo!…</l>
+            <l>Como a una rea cualquiera…</l>
+            <l>Cuando le he entregao entera</l>
+            <l>mi vida, mi salud… ¡Todo!…</l>
+            <l>Todito lo que tenía</l>
+            <l>de mujer y enamorada…</l>
+            <l>¡Para ser aura tratada</l>
+            <l>como a cualquier porquería!</l>
+            <l>Y pasarse las semanas</l>
+            <l>enteras… y hasta los meses,</l>
+            <l>sin poner aquí los pieses,</l>
+            <l>más que p'andar con macanas…</l>
+            <l>sin dejarme ni un centavo</l>
+            <l>pa una triste pollerita</l>
+            <l>y sacarme hasta la guita</l>
+            <l>que me gano en el conchavo…</l>
+            <l>Y al fin, si un día aburrida,</l>
+            <l>le enjareto la cartilla,</l>
+            <l>me amaga con la cuchilla,</l>
+            <l>alzao como leche hervida,</l>
+            <l>y me llama ranfañosa,</l>
+            <l>y me maltrata de fijo…</l>
+            <l>dándome cada amasijo</l>
+            <l>hasta dejarme mormosa…</l>
+            <l>Pero esto se acaba al fin…</l>
+            <pb n="351"/>
+            <l>Y que estrile lo que quiera…</l>
+            <l>Aura, arreglo mi linyera,</l>
+            <l>me pianto… ¡y a otro bulín!…</l>
+            <stage><emph rend="italic">(Transición. Hace un nudo al lío).</emph></stage>
+            <l>Lo que siento es espiantarme</l>
+            <l>sin avisarle siquiera…</l>
+            <stage><emph rend="italic">(Transición).</emph></stage>
+            <l>Pero no; si le batiera,</l>
+            <l>sería capaz de matarme…</l>
+            <stage><emph rend="italic">(Decidida)</emph></stage>
+            <l>Sin decírselo a ninguno</l>
+            <l>es mejor…</l>
+            <stage><emph rend="italic">(Contenta)</emph></stage>
+            <l>¡Así rabea!…</l>
+            <stage><emph rend="italic">(Con intención)</emph></stage>
+            <l>¡Y si es posible, que crea</l>
+            <l>que m'he espiantao con alguno!</l>
+            <stage><emph rend="italic">(Pausa en la que hace un nuevo nudo).</emph></stage>
+            <l>¡Pobre!… ¡Cómo va a sentir</l>
+            <l>cuando no me vea!… <stage type="inline"><emph rend="italic">(Trans.
+                cruel)</emph></stage> Bien.</l>
+            <l>Mejor; ¡que sufra! También</l>
+            <l>él mucho me ha hecho sufrir…</l>
+            <l>Esto ya está. ¡Aura, vamos!</l>
+            <l>¡Adiós, bulín!… ¡Pobrecito!…</l>
+            <l>¡Tan lindo!… ¡Y tan chiquitito!…</l>
+            <l>A ver… ¿Cuánto hace que estamos</l>
+            <l>viviendo aquí?… Uno… dos… tres…</l>
+            <l>¡Cinco años!… Sí, cinco. ¡Ajah!</l>
+            <stage><emph rend="italic">(Con dolor)</emph></stage>
+            <l>¡Cinco años viviendo acá!</l>
+            <l>¡Pa separarnos después!…</l>
+            <l>¡¡Cinco años!!… Aquí nació</l>
+            <l>el nene.</l>
+            <stage><emph rend="italic">(Toma el retrato del armario).</emph></stage>
+            <pb n="352"/>
+            <l>Aquí está. ¡Riquito!</l>
+            <stage><emph rend="italic">(Lo besa).</emph></stage>
+            <l>¿Por qué se murió, negrito?</l>
+            <l>¿Por qué?… ¡Por qué no vivió</l>
+            <l>pá'compañar a mamita</l>
+            <l>que lo quería tanto!… ¿Eh?…</l>
+            <l>¡No sufriría!… ¿No ve</l>
+            <l>cómo llora?… ¡Pobrecita!…</l>
+            <l>¡Su tata también sería</l>
+            <l>más bueno, más cariñoso!</l>
+            <l>Y usted el rico… el mimoso</l>
+            <l>¡de los dos… nuestra alegría!…</l>
+            <l>¡Tan lindo!…</l>
+            <stage><emph rend="italic">(Al público).</emph></stage>
+            <l>Tenía apenas</l>
+            <l>tres años y era un mocito…</l>
+            <l>vestido así, de gauchito,</l>
+            <l>con espuelas nazarenas</l>
+            <l>y melena compadrona,</l>
+            <l>sabía decir versadas,</l>
+            <l>y dichos y compadradas,</l>
+            <l>lo mismo que una persona…</l>
+            <l>Sabía tirar la faca</l>
+            <l>con cualquiera… y si le entraba,</l>
+            <l>lo más contento gritaba:</l>
+            <l><stage type="inline"><emph rend="italic">(Imita).</emph></stage> ¡Tomá!… ¡Te la
+              puse!… ¡Araca!</l>
+            <stage><emph rend="italic">(Trans.)</emph></stage>
+            <l>¡Pobrecito! ¡Si él viviera,</l>
+            <l>ahora ya tendría cuatro años</l>
+            <l>y nunca los desengaños</l>
+            <l>sufriría de esta manera!</l>
+            <stage><emph rend="italic">(Resig).</emph></stage>
+            <l>En fin… vamos… me lo llevo…</l>
+            <pb n="353"/>
+            <stage><emph rend="italic">(Lo pone en el atado)</emph></stage>
+            <l>conmigo!… Y si el padre viene,</l>
+            <l>que ni el recuerdo del nene</l>
+            <l>lo consuele a ese malevo!</l>
+            <stage><emph rend="italic">(Medio mutis).</emph></stage>
+            <stage><emph rend="italic">(Al llegar a la puerta se detiene).</emph></stage>
+            <l>¡Pobre! ¡Cómo va a estrilar!…</l>
+            <l>¡Me da lástima dejarlo!…</l>
+            <l>¡Tal vez si pudiera hablarlo!…</l>
+            <l>¡Pero, no!… ¡Se va a abusar!…</l>
+            <l>Y más si viene curdela,</l>
+            <l>es capaz de creer que l'hice</l>
+            <l>algo malo y como él dice,</l>
+            <l>¡me recalca alguna muela!…</l>
+            <stage><emph rend="italic">(Va a salir).</emph></stage>
+            <l>¡No, vamos nomás!… ¡San Dios!…</l>
+            <stage><emph rend="italic">(Se detiene petrificada).</emph></stage>
+            <l>¡Ahí viene!</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head><emph>Escena II</emph></head>
+          <stage><emph rend="italic">Juana y Garabito.</emph></stage>
+          <stage><emph rend="italic">Entra por el foro y deja debajo de la almohada la
+            daga.</emph></stage>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Chao, alma mía!…</l>
+            <stage><emph rend="italic">Ella se repliega a la izquierda.</emph></stage>
+            <stage><emph rend="italic">(Enojado)</emph></stage>
+            <l>¡Buen día, he dicho!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Hosca)</emph></stage>
+            <l>Buen día.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Notando)</emph></stage>
+            <l>¿Qué es eso? Ya estás con tos?</l>
+          </sp>
+          <pb n="354"/>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>No sé.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Intención).</emph></stage>
+            <l>¡Ta güeno!… ¡Cuidala!</l>
+            <l>no sea bronquitis…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Mejor.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>…¡Y tenga que ser dotor</l>
+            <l>y aplicarte ungüento e tala!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Para una pobre mujer</l>
+            <l>¡buen sistema!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Pa cualquiera!…</l>
+            <l>Porque según la ronquera</l>
+            <l>es mi modo e proceder!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Irónica)</emph></stage>
+            <l>Y asigún venga la mano…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Claro! Y sigún la garganta,</l>
+            <l><stage type="inline"><emph rend="italic">(Ademán)</emph></stage> ¡pa las hembras:
+              mano santa!</l>
+            <l>¡pa los machos: cirujano!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡No conozco ningún macho</l>
+            <l>que diga en qué estás mejor!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>Porque como buen dotor,</l>
+            <l>al que opero… ¡lo despacho!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Despreciativa)</emph></stage>
+            <l>¡Ojeda!… ¿no ligó nada</l>
+            <l>de los cuarenta millones?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡No me piachen los riñones…</l>
+            <l>prefiero la mondongada</l>
+            <l>por lo blanda!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Con razón</l>
+            <l>buscás la carne 'e gallina!…</l>
+          </sp>
+          <pb n="355"/>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Y… qué querés! Me fascina</l>
+            <l>pegar un buen tarascón!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Pues ya te habrás empachao</l>
+            <l>de los que me has dao a mí!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>Mirá… ¡No digo que sí,</l>
+            <l>porque veo que has cociao!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Herida)</emph></stage>
+            <l>¡Ajah!… ¡Eso no decía</l>
+            <l>hace cinco años!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¿Y de áhi?</l>
+            <l>Entonce eras bacaray</l>
+            <l>y hoy… chiva vieja con cría</l>
+            <l>que apesta con el olor…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Ofendida)</emph></stage>
+            <l>¡Tu abuela!… </l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Ofendido)</emph></stage>
+            <l>¡No te pasés!…</l>
+            <l>Con los muertos no jugués!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Llorosa)</emph></stage>
+            <l>¿Pa qué me insultas?…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Tierno)</emph></stage>
+            <l>¡Mi amor!…</l>
+            <l>¿No ves que ha sido jugando?</l>
+            <l>¡Vení pa acá!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Rechazándolo).</emph></stage>
+            <l>¡Zalamero!…</l>
+            <l>Lo que es con vos ya no quiero</l>
+            <l>saber más nada!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Chichón).</emph></stage>
+            <l>¿Hasta cuándo?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Hasta siempre!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡No digás!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Sí… ¡y ahora mismo me voi!</l>
+          </sp>
+          <pb n="356"/>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¿A dónde?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Hace que se va).</emph></stage>
+            <l>¡No sé!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Deteniéndola).</emph></stage>
+            <l>Pero, ói…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¿Qué querés?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¿No volvés más?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡No; te he dicho!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Indiferente)</emph></stage>
+            <l>¡Entonces, chao!</l>
+            <stage><emph rend="italic">(Se sienta al borde de la mesa).</emph></stage>
+            <stage><emph rend="italic">Juana hace mutis lenta y tristemente.</emph></stage>
+            <l>¡Oh! ¡Y se manda mudar!</l>
+            <l>¡Y cree que me v'y a quedar</l>
+            <l>así, como un desgraciao!</l>
+            <stage><emph rend="italic">(Salta de la mesa y corre hasta la puerta).</emph></stage>
+            <l>¡Che, vení p'acá!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Volviendo)</emph></stage>
+            <l>¿Qué hay?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(La lleva al centro).</emph></stage>
+            <l>Escúchame…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¿Qué querés?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¿A dónde vas?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Ya sabés! ¡A buscármelas por ahí!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¿Pero, lo decís devera?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Y es claro! ¿Qué te has creído?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Pues, hombre!, no había sabido</l>
+            <l>de que fueras tan cabrera…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¿Pa eso'me llamabas?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Indignado).</emph></stage>
+            <l>¿Y?…</l>
+            <l>¡Es claro, pa'eso! ¿o te crees</l>
+            <l>que v'y a dejar que espiantés</l>
+            <pb n="357"/>
+            <l>así no más, porque sí?</l>
+            <l>¿Decime, por qué te vas?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Eso lo sabés muy bien:</l>
+            <l>porque con vos ya no hay quien</l>
+            <l>viva. Y yo no puedo más…</l>
+            <l>Ya estoy cansada e' los malos</l>
+            <l>ratos que me hacés pasar;</l>
+            <l>de tu modo de faltar</l>
+            <l>y hasta de tus mismos palos.</l>
+            <l>Aquí no estás un minuto,</l>
+            <l>no traés nada de comer,</l>
+            <l>y cuando te llego a ver,</l>
+            <l>¡es pa tratarme a lo bruto!</l>
+            <l>a piñas y compadradas,</l>
+            <l>y hacerme burla, insultarme,</l>
+            <l>y lo que es pior: a shacarme</l>
+            <l>poco menos que a patadas</l>
+            <l>los cobres…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Terrible)</emph></stage>
+            <l>¡Pará el carrito!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¿Te duele?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Basta!… ¡Ya sé!…</l>
+            <stage><emph rend="italic">(Transición)</emph></stage>
+            <l>¿Y con quién te vas?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>No sé…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Furioso)</emph></stage>
+            <l>¡Epla! Eso sí que no almito.</l>
+            <stage><emph rend="italic">(Le toma el brazo).</emph></stage>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Bueno, soltame!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Es al cuete</l>
+            <pb n="358"/>
+            <l>que grites!…¡Vas a cantar</l>
+            <l>el justo, o te v'y a dejar</l>
+            <l>hechura de barrilete!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Eso es lo que sabés!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Bueno,</l>
+            <l>basta! ¿Con quién te espiantás?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Con nadie.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¿Entonces te vas</l>
+            <l>solita?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Sí!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Pero al meno</l>
+            <l>me dirás dónde vas'ir!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>No sé. Ande quiera Dios,</l>
+            <l>donde me olvide de vos</l>
+            <l>y donde pueda vivir</l>
+            <l>sin que siquiera me acuerde</l>
+            <l>de tu cariño maldito,</l>
+            <l>que lo mismo que un delito,</l>
+            <l>¡la conciencia me remuerde!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Entusiasmado)</emph></stage>
+            <l>¡Ah, tigrera! ¡Qué floreo!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Entre dientes)</emph></stage>
+            <l>¡Desagradecido!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Cariñoso)</emph></stage>
+            <l>¡Prienda!…</l>
+            <l>¿Venga, acerqúese y atienda…</l>
+            <l>¿Por qué me trata tan feo?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Quejosa)</emph></stage>
+            <l>Peor me has tratao vos…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Contemporiza)</emph></stage>
+            <l>Es cierto!…</l>
+            <l>Pero escuchá… Vos sabés</l>
+            <pb n="359"/>
+            <l>lo que es separarse?… Es <stage type="inline"><emph rend="italic">(Tono
+                  convincente)</emph></stage></l>
+            <l>pior que si uno hubiera muerto;</l>
+            <l>que al fin y al cabo al morir</l>
+            <l>el uno, el otro se olvida,</l>
+            <l>y es claro, triunfa la vida</l>
+            <l>y se comienza a vivir</l>
+            <l>de nuevo…, pero, viviendo,</l>
+            <l>separarse dos que han sido</l>
+            <l>como nosotros, un nido</l>
+            <l>de palomas… es tremendo…</l>
+            <l>es echarse sin razón</l>
+            <l>una duda permanente,</l>
+            <l>una sospecha hiriente</l>
+            <l>¡un clavo en el corazón!…</l>
+            <l>Y vos querés separarte</l>
+            <l>porque se te da la gana,</l>
+            <l>para que después, mañana,</l>
+            <l>no hagas más que devanarte</l>
+            <l>los sesos con puros líos</l>
+            <l>y celos y macanazos,</l>
+            <l>¡si otra me tiene en sus brazos</l>
+            <l>o yo la tengo en los míos!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Hosca)</emph></stage>
+            <l>No importa.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Transición brusca)</emph></stage>
+            <l>¡Perfectamente!</l>
+            <l>Si es que ya no me querés</l>
+            <l>es otra cosa…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Así es…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Se separa)</emph></stage>
+            <l>Ya ves si seré decente,</l>
+            <pb n="360"/>
+            <l>que ni cabreo… andate…</l>
+            <l>¡Que Dios te tenga en la gloria!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Triste)</emph></stage>
+            <l>¡Gracias!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Se sienta en la mesa).</emph></stage>
+            <l>¡Salute Vitoria!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Va hasta la puerta, se detiene y)</emph></stage>
+            <l>¡Buenos, adiós!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Furioso)</emph></stage>
+            <l>¡Andá bañate!…</l>
+            <l>Qué rica tipa… ¡Che, che!</l>
+            <stage><emph rend="italic">(Salta y va a la puerta).</emph></stage>
+            <l>Vení p'acá!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Vuelve)</emph></stage>
+            <l>¿Otra vez?…</l>
+          </sp>
+          <sp who="#garabito:">
+            <speaker>Garabito:</speaker>
+            <l>¡Sí!…</l>
+            <stage><emph rend="italic">(Le toma el atado).</emph></stage>
+            <l>¿Qué es lo que llevás</l>
+            <l>aquí?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Mi ropa.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>A ver? Desprendé…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Pero.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Desatá te digo!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Pero, si son pilchas!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Nada!</l>
+            <l>Mostrame eso, ¡desgraciada,</l>
+            <l>que no se juega conmigo!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¿Te crees que te v'y a robar?</l>
+            <stage><emph rend="italic">(Desata sobre la mesa y oculta</emph>debajo el
+              retrato).</stage>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¿Y?… ¿No has sido mi costilla?</l>
+            <l>¡De tal palo tal astilla!</l>
+            <l>¡No habría nada que extrañar!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Sí… porque vos sos ladrón…</l>
+          </sp>
+          <pb n="361"/>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Bueno, basta!… ¿A ver qué es eso?</l>
+            <stage><emph rend="italic">(Toma una bata).</emph></stage>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Mi bata!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(La deja despreciativamente).</emph></stage>
+            <l>¡Leche!…</l>
+            <l>¡Esto! ¡Queso!</l>
+            <stage><emph rend="italic">(Por un par de medias. Toma un pañolón).</emph></stage>
+            <l>¡Un lengue!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Mi pañolón!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¿Un pañolón? ¡Macanudo!</l>
+            <stage><emph rend="italic">(Lo tira a la cama).</emph></stage>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Quiere agarrarlo).</emph></stage>
+            <l>¡Dame eso!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(La detiene).</emph></stage>
+            <l>¡No seas cabrera!</l>
+            <l>¡Para enlutar la catrera</l>
+            <l>cuando llegue a quedar viudo!…</l>
+            <stage><emph rend="italic">(Toma una chancleta).</emph></stage>
+            <l>¿Y ésto?…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Es mío… un escarpín…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Toma el otro).</emph></stage>
+            <l>Pero lo uso yo también</l>
+            <l>cuando voy al almacén</l>
+            <l>a pillar el copetín.</l>
+            <stage><emph rend="italic">(Los tira debajo de la cama).</emph></stage>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Como antes).</emph></stage>
+            <l>¡Eso sí que no te aguanto!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(La detiene).</emph></stage>
+            <l>¡Y a mí qué! ¿No te acordás</l>
+            <l>que mientras vos preparás</l>
+            <l>el mate, yo me los chanto</l>
+            <l>y me largo hasta la esquina</l>
+            <l>haciéndolos sonar fiero</l>
+            <l>pa que sepa el mundo entero</l>
+            <l>que tengo cerca la mina?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Entre dientes).</emph></stage>
+            <l>¡Compadre!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Levanta una camisa).</emph></stage>
+            <l>A ver: ¿y ésto qué es?</l>
+          </sp>
+          <pb n="362"/>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Mi camisa…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(La observa).</emph></stage>
+            <l>¡Y no está mala!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Irónica)</emph></stage>
+            <l>¡Si la precisás, dejala!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Enojo).</emph></stage>
+            <l>Mirá: ¡A mí no me farriés!</l>
+            <l>¿Te la acabas de lavar?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Es claro… ¿Y eso qué tiene?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>Es que el verte tanta higiene</l>
+            <l>¡me está haciendo desconfiar!</l>
+            <stage><emph rend="italic">(Se la da).</emph></stage>
+            <l>Tomá… ¿y ésto?...</l>
+            <stage><emph rend="italic">(Por el retrato).</emph></stage>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Tomándolo)</emph></stage>
+            <l>El retratito</l>
+            <l>del pebete…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Se lo saca).</emph></stage>
+            <l>¡Traé pa acá!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Qué! ¿También eso?…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Avisá!</l>
+            <l>¡Este es mío!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Llora).</emph></stage>
+            <l>¡Muy bonito!</l>
+            <l>¡L'único que yo tenía</l>
+            <l>pa consolarme en la ausencia</l>
+            <l>me lo quitas!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Y… paciencia!</l>
+            <l>Yo preciso compañía…</l>
+            <l>Y es m'hijo…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Y mío!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>Es verdad,</l>
+            <l>pero es mejor que se quede</l>
+            <l>conmigo, pues no se puede,</l>
+            <l>partirlo por la mitad.</l>
+          </sp>
+          <pb n="363"/>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Saca del bolsillo del delantal una moneda).</emph></stage>
+            <l>Bueno, pa ver quién lo tiene,</l>
+            <l>juguemos a cara o cruz.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Toma la moneda).</emph></stage>
+            <l>¡Traé pa acá!…</l>
+            <stage><emph rend="italic">(Arroja al aire la moneda para que caiga sobre la
+                mesa).</emph></stage>
+            <l>¿Qué vas que viene?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Cara…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Mira caer la moneda y se la guarda).</emph></stage>
+            <l>¡Piantá de la luz!…</l>
+            <stage><emph rend="italic">(Tono de reproche).</emph></stage>
+            <l>¡Vas a jugar con el nene!…</l>
+            <l>¡Con el recuerdo de un muerto!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Dámelo entonces!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Mirándolo).</emph></stage>
+            <l>Ya voy…</l>
+            <stage><emph rend="italic">(Llorando ridículamente)</emph></stage>
+            <l>¡aunque me quede desde</l>
+            <l>hoy sólo en medio del desierto!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Conmovida).</emph></stage>
+            <stage>(¡Pobre!…).</stage>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Contemplándolo).</emph></stage>
+            <l>¡Manyá! ¡Tan compadre!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Se coloca junto a Garabito y lo contempla por sobre
+                su</emph></stage>
+            <stage><emph rend="italic">hombro, entusiasmada).</emph></stage>
+            <l>¡Tan bonito!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Entusiasmado)</emph></stage>
+            <l>¡Y tan bien puesto!</l>
+            <l>¡Ahijuna! ¡Si hasta en el gesto</l>
+            <l>lo está dilatando al padre!</l>
+            <stage><emph rend="italic">(Recita con tono de gaucho de carnaval).</emph></stage>
+            <l>"¡Ah,. paisano, cara angosta</l>
+            <l>y de chambergo enflautao;</l>
+            <pb n="364"/>
+            <l>que al caminar es ladiao</l>
+            <l>lo mesmo que la langosta".</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¿Te acordás? ¡Pobre chancleta!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Orgulloso)</emph></stage>
+            <l>¡Cómo no! se lo enseñé</l>
+            <l>aquel carnaval que fue</l>
+            <l>conmigo a Cari Careta</l>
+            <l>¡pa que lo escracharan!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Cierto.</l>
+            <l>Que salió con un letrero</l>
+            <l>que decía así: "El matrero</l>
+            <l>de Los Parias del Desierto".</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Ajah!</l>
+            <l>¿Y cuando vistiaba?…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¡Qué vista! ¡Era como gato!</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Ah, che! ¿Y te acordás que tato</l>
+            <l>tenía cuando me punguiaba</l>
+            <l>los cobres?</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¿Y pa fumar?</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Bah! ¡Eso no'era nada</l>
+            <l>su diablura comparada</l>
+            <l>cuando se ponía a escabiar!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Irónica)</emph></stage>
+            <l>Se tenía que parecer</l>
+            <l>al padre en lo… inteligente…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>Por algo decía la gente:</l>
+            <l>¡hijo'e tigre overo ha'e'ser!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Bueno, dámelo…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>Esperate…</l>
+            <l>¿No ves que lo estoy manyando?</l>
+          </sp>
+          <pb n="365"/>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Es que lo estoy esperando…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Y no lo esperes!… ¡Andate!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>Es que lo quiero llevar.</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Ensimismado)</emph></stage>
+            <l>No me hablés. ¡Me he puesto triste!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <l>¿Y a mí qué? Vos me dijiste</l>
+            <l>que me lo ibas a dejar…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Dramático)</emph></stage>
+            <l>¿Pero no ves disgraciada</l>
+            <l>que no puedo darteló,</l>
+            <l>porque sin él quedo yo</l>
+            <l>como fiera apuñaliada?…</l>
+            <l>¿No ves que si lo llevás</l>
+            <l>con él me llevás la calma?</l>
+            <l>¡Porque con él irá mi alma</l>
+            <l>adonde quiera que vas!</l>
+            <l>No, no puedo… Si querés,</l>
+            <l>llevate todo eso… todo;</l>
+            <l>pero no, de ningún modo,</l>
+            <l>este retratito que es</l>
+            <l>un pedazo de mi vida…</l>
+            <l>un pasado ya distante</l>
+            <l>un recuerdo palpitante</l>
+            <l>de mi dicha ya perdida…</l>
+            <l>Si te querés ir, andate;</l>
+            <l>pero eso sí… a él déjalo.</l>
+            <stage><emph rend="italic">(Se enjuga una lágrima).</emph></stage>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Enternecida)</emph></stage>
+            <stage>(¡Pobre!)</stage>
+            <l>Bueno, no seas malo…</l>
+            <l>¡Quedate con él, quedate!</l>
+            <pb n="366"/>
+            <l>Yo me iré sola, solita</l>
+            <l>con mi alma y con mi amargura</l>
+            <l>y ¡ojalá que esa criatura</l>
+            <l>te ricuerde a su mamita!</l>
+            <stage><emph rend="italic">(sollozando a hacer el atado).</emph></stage>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Cha digo, me ha conmovido!…</l>
+            <stage><emph rend="italic">(Se le acerca cariñoso).</emph></stage>
+            <l>Vení p'acá!… ¿Cómo vas</l>
+            <l>a espiantarte. ¿No manyás</l>
+            <l>que ya me tenés vencido?</l>
+            <l>¿No ves que si yo me quedo</l>
+            <l>sin vos, no podré vivir</l>
+            <l>solito?… ¡Y te querés dir!…</l>
+            <l>¡No, mi negra… tengo miedo!</l>
+            <l>¡Quedate!… ¡Por nuestro hijito!</l>
+            <l>¡Por la sombra de este nene</l>
+            <l>que a uno y otro nos tiene</l>
+            <l>amarraos en su abracito!</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Enternecida)</emph></stage>
+            <l>¡Pobrecito!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Junto a ella)</emph></stage>
+            <l>¡Ves?… Te mira</l>
+            <l>como si fuera a decir:</l>
+            <stage><emph rend="italic">(Imitando)</emph></stage>
+            <l>¡Qué vieja!… ¡Se quiere dir</l>
+            <l>sola!… ¡Parece mentira!…</l>
+          </sp>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Entusiasmada, toma el retrato y lo besa).</emph></stage>
+            <l>¡Tan lindo m'hijito!…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <stage><emph rend="italic">(Iluminado)</emph></stage>
+            <l>¡Eso!…</l>
+            <l>¡Lo v'y a besar yo también</l>
+            <l>¡pa que en él se mezclen bien</l>
+            <l>su recuerdo y nuestro beso!</l>
+            <stage><emph rend="italic">(Lo besa con pasión).</emph></stage>
+          </sp>
+          <pb n="367"/>
+          <sp who="#juana">
+            <speaker>Juana:</speaker>
+            <stage><emph rend="italic">(Se le arrima).</emph></stage>
+            <l>¿Me querés aura?…</l>
+          </sp>
+          <sp who="#garabito">
+            <speaker>Garabito:</speaker>
+            <l>¡Querida!…</l>
+            <l>¡Cómo no! ¡Con toda el alma!</l>
+            <l>Y aura vámonos en calma</l>
+            <l>y así, al amor y a la vida.</l>
+            <l>Juana en un transporte lo abraza.</l>
+            <l>¡Eso es mi negra!… ¡Prendete!</l>
+            <l>y que vaya a hacerse hervir</l>
+            <l>quien no tenga pa vivir</l>
+            <l>ni el escracho de un pebete.</l>
+            <stage><emph>Dice esto con todo entusiasmo, mientras que el grupo que forma con Juana en
+                un tierno abrazo contrasta con la miseria circundante.</emph></stage>
+          </sp>
+          <trailer>Telón</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
