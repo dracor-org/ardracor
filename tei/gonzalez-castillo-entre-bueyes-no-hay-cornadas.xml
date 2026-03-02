@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000012" xml:lang="es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Entre bueyes no hay cornadas</title>
+        <title type="sub">Sainete en un acto, en verso</title>
+        <author>
+          <persName>
+            <forename>José</forename>
+            <surname>González</surname>
+            <surname>Castillo</surname>
+          </persName>
+          <idno type="wikidata">Q5940098</idno>
+        </author>
+        <editor xml:id="lv">
+          <forename>Laura</forename>
+          <surname>Volkind</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio Riande</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Antología de obras de teatro argentino</name>
+          <author><forename>José</forename>
+            <surname>González Castillo</surname></author>: <title level="a">Entre bueyes no hay
+            cornadas. Sainete en un acto, en verso.</title> En: <editor><surname>Seibel</surname>,
+              <forename>Beatriz</forename></editor>. <title level="m">Antología de obras de teatro
+            argentino. Desde sus orígenes a la actualidad.</title>
+          <biblScope unit="volume">Tomo 8: 1902–1910. Obras del siglo XX: 1ª década –
+            III.</biblScope>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Instituto Nacional del Teatro</publisher>,
+            <date>2011</date>, pp. <biblScope unit="page" from="319" to="345">319–345</biblScope>.
+            <idno type="URL"
+            >https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-5/</idno>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="churrinche" sex="MALE">
+            <persName>Churrinche</persName>
+          </person>
+          <person xml:id="rana" sex="FEMALE">
+            <persName>Rana</persName>
+          </person>
+          <person xml:id="petrona" sex="FEMALE">
+            <persName>Petrona</persName>
+          </person>
+          <person xml:id="mamerto" sex="MALE">
+            <persName>Mamerto</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Sainete</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q835067</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-12-23" who="#lv">codificación inicial y adaptación a Dracor</change>
+        <change when="2025-12-28" who="#gdr">reviso ficha</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1914">
+        <desc/>
+      </event>
+      <event type="premiere" when="1908-06-29">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000012"
+        passive="http://www.wikidata.org/entity/Q136433196"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000012"
+        passive="https://hdlab.space/teatrar/obras/0123.html"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="319"/>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main"><emph>Entre bueyes no hay cornadas</emph></titlePart>
+          <titlePart type="sub">Sainete en un acto, en verso</titlePart>
+        </docTitle>
+        <docAuthor>José González Castillo</docAuthor>
+      </titlePage>
+      <pb n="320"/>
+      <pb n="321"/>
+      <castList>
+        <head>Personajes</head>
+        <castItem>
+          <role>Mamerto</role>
+          <actor>Luis Vittone</actor>
+        </castItem>
+        <castItem>
+          <role>Petrona</role>
+          <actor>Lucrecia Borda</actor>
+        </castItem>
+        <castItem>
+          <role>Rana</role>
+          <actor>Enrique Muiño</actor>
+        </castItem>
+        <castItem>
+          <role>Churrinche</role>
+          <actor>Alberto Ballerini</actor>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head><emph rend="bold">Acto único</emph></head>
+        <stage><emph rend="italic">Telón corto de calle de arrabal.</emph></stage>
+        <div type="scene" n="1">
+          <head><emph rend="italic">Escena I</emph></head>
+          <stage><emph rend="italic">Mamerto sale aludiéndose a alguien.</emph></stage>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Pucha digo con la piba</l>
+            <l>que se ha vuelto desdeñosa!…</l>
+            <pb n="322"/>
+            <l>¿O se ha créido la roñosa</l>
+            <l>que la va a llevar de arriba?</l>
+            <l>Ya me tiene hasta estufao</l>
+            <l>con tanto servir a usté…</l>
+            <l>Sin duda porque me ve</l>
+            <l>día y noche aquí parao,</l>
+            <l>como maniquí en venta</l>
+            <l>o matungo 'e vigilante</l>
+            <l>se me hace la interesante</l>
+            <l>y la va de cascarrienta…</l>
+            <l>Pero la pobre está errada,</l>
+            <l>porque con Mamerto Pita</l>
+            <l>no se juega a la bolita,</l>
+            <l>ni lo empacha la cuajada…</l>
+            <l>¡Pues no faltaba otra cosa;</l>
+            <l>que, a mí, que soy tan cabrero,</l>
+            <l>me cate pal entrevero</l>
+            <l>tan de luego una mocosa!…</l>
+            <l>¡Pucha! ¡Si cuando me acuerdo</l>
+            <l>lo que me hace esta trompeta,</l>
+            <l>como italiano con yeta</l>
+            <l>hasta los dedos me muerdo!</l>
+            <l>A mí… que allá en los Corrales,</l>
+            <l>cuando todavía era pebete,</l>
+            <l>era el dios del firulete,</l>
+            <l>el rey de los carnavales…</l>
+            <l>Que no hubo hembra ni bailongo</l>
+            <l>en los que yo no imperara,</l>
+            <pb n="323"/>
+            <l>ni hombre que no me envidiara</l>
+            <l>desde el Temple hasta el Mondongo.</l>
+            <l>¡Pucha digo! ¡Esto es desgracia!</l>
+            <stage><emph rend="italic">Pausa.</emph></stage>
+            <l>Me acuerdo de Filomena</l>
+            <l>que entonces era una nena</l>
+            <l>que andaba vendiendo gracia,</l>
+            <l>me decía en un transporte</l>
+            <l>de esos de abierta pasión:</l>
+            <l>“Sos, chino, una tentación</l>
+            <l>cuando te prendés al corte…</l>
+            <l>¿Quién se te resiste a vos</l>
+            <l>cuando venís de parada</l>
+            <l>y le hacés una dentrada</l>
+            <l>de esas que no se ven dos?…</l>
+            <l>Con esa palabra ardiente</l>
+            <l>y esa labia de dotor</l>
+            <l>y ese chambergo cantor</l>
+            <l>requintao sobre la frente…</l>
+            <l>y esa miradita ¡ahijuna!</l>
+            <l>que va incendiando pasiones</l>
+            <l>y ha ensartao más corazones</l>
+            <l>que la daga´e Pastor Luna…”</l>
+            <l>¡No me quiero ni acordar!…</l>
+            <l>¡Cómo se muda el destino!…</l>
+            <l>¡Aura, en cambio, como un chino,</l>
+            <l>no hago más que estrilar</l>
+            <l>y hasta abandono la tumba</l>
+            <pb n="324"/>
+            <l>por prenderme a la limeta…</l>
+            <l>que cuando uno está de yeta</l>
+            <l>su mesmo perro lo… ¡chumba!…</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head><emph rend="italic">Escena II</emph></head>
+          <stage><emph rend="italic">Mamerto, Petrona.</emph></stage>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Oi Dio! ¡Alumbró redepente!</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¿Qué es eso? ¿Se ha encandilao?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Así ha 'e ser. El resultao</l>
+            <l>de mirar el sol de frente…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Pues mírelo de costao</l>
+            <l>o de atrás.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Es que es redondo</l>
+            <l>y en él no hay frente ni fondo…</l>
+            <l>alumbra de cualquier lao.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Pues colóquese anteojera.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Dirá anteojos…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Igual da.</l>
+            <l>Que de fijo no será</l>
+            <l>pa mí el mal de su ceguera.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Le parece?</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Es que así es.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No crea, por descontao</l>
+            <l>si yo fuera encandilao</l>
+            <pb n="325"/>
+            <l>o ciego, vería al revés</l>
+            <l>o no vería nada… ¿No?…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Así ha de ser… ¿Y de áhi?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Nada.</l>
+            <l>Será la damnificada,</l>
+            <stage type="inline"><emph rend="italic">(Saca un reloj).</emph></stage>
+            <l>la dueña de este reló.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(Al verlo)</emph></stage>
+            <l>¡Ay! Un relojito. ¡A ver!</l>
+            <l>¡Qué lindo!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Y es de colgar.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¿Y me lo va a regalar?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Claro. ¿Pa quién ha de ser</l>
+            <l>sino pa usté?…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Qué bonito!</l>
+            <l>¿Cuánto le costó?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿A mí? <stage type="inline"><emph rend="italic">(Aparte).</emph></stage>¡Nada!</l>
+            <l>El susto y la disparada…</l>
+            <l>¿El qué dice?</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>El relojito…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Ah! Cuarenta y al contao.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Qué caro!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Si es de oro muerto.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Ah! Muchas gracias, Mamerto…</l>
+            <l>No se hubiera incomodao.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>De nada.</l>
+          </sp>
+          <pb n="326"/>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Bueno, adiós, ¿eh?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Oiga, prenda… ¿Está apurada?…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Cómo no! Muy ocupada.</l>
+            <l>Hasta luego.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Digamé.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¿Qué dice?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Tengo que hablarla…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Bueno, pues, hable ligero.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Ya sabe lo que la quiero…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Vea; dejemos la charla</l>
+            <l>pa otro día…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No ha de ser…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Por favor. Está el patrón</l>
+            <l>y me va a ver del balcón…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Pero ¿qué tiene que hacer?…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Ir al mercado… y temprano…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Bueno… la viá acompañar.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Ah! ¡Eso no! ¿Qué iría a pasar</l>
+            <l>si nos vichara mi hermano?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Su hermano?</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Qué! ¿No sabía?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Qué raro! Es un tigrero,</l>
+            <l>peliador y bochinchero,</l>
+            <l>terror de la policía…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Mire, yo no soy un gato.</l>
+            <pb n="327"/>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Es que él también es así…</l>
+            <stage><emph rend="italic">(Ademán).</emph></stage>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No importa. Daría en mí</l>
+            <l>con l'horma de su zapato.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Pues eso es lo que no quiero:</l>
+            <l>que se vayan a peliar.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No tema. No va a llegar</l>
+            <l>la sangre hasta el matadero.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Bueno, entonces, déjeme,</l>
+            <l>por favor…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Pues le haré el gusto…</l>
+            <l>Pero vea: no es de susto</l>
+            <l>por su hermano…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Ya lo sé.</l>
+            <l>Bueno. Adiós.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Un momentito…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¿El qué?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Me va a permitir</l>
+            <l>que no me la deje dir</l>
+            <l>sin ponerle el relojito</l>
+            <l>en el pescuezo…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Aura no!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Por qué?…</l>
+            <l>¿También tiene miedo?</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Eso no…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Y entonces, ¿puedo</l>
+            <l>colocarlo?</l>
+          </sp>
+          <pb n="328"/>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Pongaló.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <stage><emph rend="italic">(Lo coloca).</emph></stage>
+            <l>Ya está.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Ay! ¡Qué mano fría!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Le parece?…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Es que es verdad.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>El tiempo.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Será la edad.</l>
+            <l>“Mano fría, amor de un día…”</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Eso es cosa del refrán…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Pero muy cierta…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No crea.</l>
+            <l>Está errada. Y pa que vea:</l>
+            <l>el hombre es como el volcán;</l>
+            <l>tiene cumbre y tiene centro</l>
+            <l>como otra cosa cualquiera…</l>
+            <l>¡Tendrá nieve por afuera,</l>
+            <l>pero lleva fuego adentro!…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Lindo! Bueno: adiós, Mamerto.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Adiós! ¿Cuándo la veré?…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Mañana, en el matiné</l>
+            <l>de “Los Parias del Desierto”.</l>
+            <stage><emph rend="italic">(Mutis).</emph></stage>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <stage><emph rend="italic">(Solo).</emph></stage>
+            <l>¡Adiós! Linda prenda, ¡ahijuna!</l>
+            <l>¡Y dice la gente pava,</l>
+            <l>si a uno se le cae la baba,</l>
+            <pb n="329"/>
+            <l>que es un golpeao de la cuna!…</l>
+            <l>¡Pucha digo! Si supiera</l>
+            <l>mi mujer lo del reló…</l>
+            <l>ella que se lo espiantó</l>
+            <l>a un otario… ¡qué cabrera!…</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head><emph rend="italic">Escena III</emph></head>
+          <stage><emph rend="italic">Mamerto, Rana.</emph></stage>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Qué dice, amigo Mamerto?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Oi Dió! El Rana… o me he chingao…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Ni que estuviera añublao…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No, hermano. Te créia muerto.</l>
+            <l>Como has andao tan perdido…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Los negocios…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Te lo creo.</l>
+            <l>Por la pinta ya lo veo,</l>
+            <l>que al meno has enriquecido.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>No crea, amigo, que es bola:</l>
+            <l>como el cometa, en mis danzas</l>
+            <l>suelo tener mis tardanzas,</l>
+            <l>pero aparezco con cola.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Con cola… y con lucecita…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Qué quiere! Lo da el oficio…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Habrás despuntao el vicio?</l>
+          </sp>
+          <pb n="330"/>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Yo no tomo…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <stage><emph rend="italic">(Aparte).</emph></stage>
+            <l>Agua bendita.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>…Y cansao del retroceso</l>
+            <l>que me dan las chupandinas,</l>
+            <l>me hice explotador de minas.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿De carbón?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>De carne y hueso…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Ya te entiendo. ¡Buen empleo!</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Qué quiere! Mis condiciones</l>
+            <l>y algunas otras razones</l>
+            <l>me obligaron…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Te lo creo.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Que así es la vida, amigaso,</l>
+            <l>como dice don Laguna;</l>
+            <l>hoy nos ríe la fortuna,</l>
+            <l>mañana nos da un guascazo…</l>
+            <l>Y este mundo es un fandango,</l>
+            <l>y el que no baila… un panete,</l>
+            <l>y, amigo, pal firulete… <stage type="inline"><emph rend="italic"
+                >(Ademán)</emph></stage></l>
+            <l>¡qué quiere! Estoy por el tango…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Yo en cambio siempre alumbrao.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Qué es eso! ¿Limpia faroles?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No, hermano: inspecciono alcoles…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿A cinco el vaso?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Al contao.</l>
+            <pb n="331"/>
+            <l>Con que ya sabés, che, Rana,</l>
+            <l>si estás dispuesto a pagarlo…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Espere: tengo que hablarlo…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Sin duda, alguna macana…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>No crea; es algo muy grave</l>
+            <l>y en que lo preciso mucho…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <stage><emph rend="italic">(Como poniéndose en guardia).</emph></stage>
+            <l>Podés largar, ya te escucho.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Pues óigame. Usted ya sabe</l>
+            <l>que soy amigo seguro</l>
+            <l>incapaz de una chanchada</l>
+            <l>si se me hace una gauchada</l>
+            <l>en algún trance de apuro…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>A mí de eso no me hablés…</l>
+            <l>en cuestiones de constancia,</l>
+            <l>asigún la circunstancia</l>
+            <l>procede el hombre…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Así es.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Y será.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Pero no en mí,</l>
+            <l>no hay regla sin excepción…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Bien. Deja la introducción</l>
+            <l>y vamo al grano. Seguí.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Pues, como decía primero:</l>
+            <l>me he metido a explotador</l>
+            <l>de minas…</l>
+          </sp>
+          <pb n="332"/>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Que en el amor</l>
+            <l>dan placer y dan dinero…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Eso es. Y como ando escaso</l>
+            <l>por aura de mineral,</l>
+            <l>le he dirigido a una un pial,</l>
+            <l>que vale un Perú, amigaso…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Es criolla?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Como el puchero.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Buena moza?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Y gordinflona,</l>
+            <l>con un lujo 'e la madona</l>
+            <l>y un andar tan retrechero</l>
+            <l>que se va cayendo sola</l>
+            <l>como si tuviera callo.</l>
+            <l>En fin, Mamerto, un formayo…</l>
+            <l>…estraquín de gorgonzola.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Me gusta por el olor.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Epla! Se pasó de punto…</l>
+            <l>Es queso por el conjunto:</l>
+            <l>no le conozco el sabor.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Disculpá. Fue, un chiste, hermano.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <stage><emph rend="italic">(Anotando en el puño).</emph></stage>
+            <l>Me gusta. Lo viá apuntar.</l>
+            <l>Yo suelo colaborar</l>
+            <l>en el “Picaflor”…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Mariano!</l>
+            <l>Bueno. Proseguí.</l>
+          </sp>
+          <pb n="333"/>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Es el caso</l>
+            <l>que la mina, que es de bute,</l>
+            <l>vive con un farabute</l>
+            <l>que, según dice, es tigrazo.</l>
+            <l>Según ella, el individuo</l>
+            <l>fue metedor, en su tiempo,</l>
+            <l>bailarín del Pasatiempo,</l>
+            <l>y de nombre conocido;</l>
+            <l>emperador del bailongo</l>
+            <l>y rey de los carnavales,</l>
+            <l>desde el Bajo a los Corrales</l>
+            <l>y del Temple hasta el Mondongo.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Oiganlé! Proseguí, hermano;</l>
+            <l>será algún viejo rival.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Capaz de abrirle un ojal</l>
+            <l>al papa del Vaticano…</l>
+            <l>Que ha dejado de pasiar,</l>
+            <l>pero conserva las mañas…</l>
+            <l>y al oirle tantas hazañas,</l>
+            <l>es claro, me hizo dudar</l>
+            <l>del éxito…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Muy bien hecho:</l>
+            <l>la temeridad, che, Rana,</l>
+            <l>suele ser una macana</l>
+            <l>que no da ningún provecho.</l>
+            <stage><emph rend="italic">(Breve pausa).</emph></stage>
+            <l>¿Y me venís a buscar</l>
+            <l>pa ayudarte en la milonga?</l>
+          </sp>
+          <pb n="334"/>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Si no hay nada que se oponga…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Al contrario. Es de acetar</l>
+            <l>la confianza 'e la misión</l>
+            <l>con que honrás mis condiciones,</l>
+            <l>y a más que en los revolcones</l>
+            <l>me gusta dentrar de pión…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Lindo!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>…Que yo también era,</l>
+            <l>allá en el pasado tiempo,</l>
+            <l>tigrero en el Pasatiempo</l>
+            <l>y donde quiera que fuera,</l>
+            <l>y aunque pesao pa saltar,</l>
+            <l>me gusta aura en la vejez,</l>
+            <l>los juegos de la niñez</l>
+            <l>por consuelo ejercitar…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Ah, tigre!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Y vamos a ver:</l>
+            <l>¿cuál es tu plan?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Ponga y meta,</l>
+            <l>salga pato o gallareta…</l>
+            <l>Es mi modo 'e proceder…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Qué bárbaro! ¿A puñaladas</l>
+            <l>vas a afilar a la mina?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>No, hombre. Eso es ya pamplina.</l>
+            <l>Pa ella tengo mis tiradas.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>De esas te hablo. ¿Cuáles son?</l>
+          </sp>
+          <pb n="335"/>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Espiantarla, y en el caso</l>
+            <l>que broncara el bacanazo,</l>
+            <l>dársela de elevación…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Bien pensao. Y ella ¿la irá</l>
+            <l>con el plan?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Yo creo que sí.</l>
+            <l>Para eso la tengo así: <stage type="inline"><emph rend="italic"
+                >(Ademán).</emph></stage></l>
+            <l>y es seguro que las va.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Y en qué fundas el fijazo?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>En que yo, pa que cayera,</l>
+            <l>le regalé una pulsera</l>
+            <l>y un bobo de oro machazo</l>
+            <l>que le afané a una italiana…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿El bobo es chico?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Grandote.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿De colgar?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Sí. En el cogote.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Cómo se llama ella?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Juana.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Juana?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Decime, ¿a qué viene</l>
+            <l>la interrogatoria esa?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Nada… Seguí… Me interesa</l>
+            <l>por lo curioso… ¿ Ella tiene</l>
+            <l>laburo?…</l>
+          </sp>
+          <pb n="336"/>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>empaquetadora</l>
+            <l>de una gran cigarrería…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Va de noche?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>No, de día…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Gana?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Cincuenta por hora…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Buen bocado.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Macanudo.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Y vive, che?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>En un altillo</l>
+            <l>que tiene en el conventillo</l>
+            <l>el pardo Sixto Mangudo…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Aja! ¿Y se llama Juana,</l>
+            <l>trabaja de cigarrera,</l>
+            <l>china gorda, zandunguera,</l>
+            <l>que tiene un bacán muy rana?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Esa misma. ¿La manyas?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Hace rato!</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Y qué decís?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Que creo que a esa perdiz,</l>
+            <l>hermano, no la cazás.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Por qué?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No vas a poder.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Le tenes miedo al enredo?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Qué miedo le viá a tener!…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Y entonce?</l>
+          </sp>
+          <pb n="337"/>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Hermano, no puedo:</l>
+            <l>¡esa mina es mi mujer!</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Su mujer! Pues me ha fumao.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Qué querés! Así es la vida…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Pero, en fin; fue una partida</l>
+            <l>en la que me he equivocao…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Y lo mismo es en todito…</l>
+            <l>El hombre, hermano, propone,</l>
+            <l>pero la suerte dispone.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Y dígame: ¿el relojito</l>
+            <l>habrá pasao a su mano?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Y entonces?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Y es claro, ahora</l>
+            <l>dormirá en <emph rend="italic">La Previsora</emph></l>
+            <l>o en el <emph rend="italic">Bric a Brac…</emph></l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No, hermano.</l>
+            <l>Precisamente, con él</l>
+            <l>quedé así <stage type="inline"><emph rend="italic">(Ademán)</emph></stage> con una
+              mina…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿De dónde, che?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>De esa esquina.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿De cuál?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Del palacio aquél.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Joven, che?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Como una flor…</l>
+            <l>Chinita y muy comadrona…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Cómo se llama?</l>
+          </sp>
+          <pb n="338"/>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Petrona.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Linda?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Una malva de olor.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Es sola?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Tiene un hermano</l>
+            <l>que, según ella, es tigrero,</l>
+            <l>metedor y más cabrero</l>
+            <l>que perro e napolitano…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Y usté qué le piensa hacer?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Espiantarla, y en el caso</l>
+            <l>que broncara el bacanazo…</l>
+            <l>se las tendría que ver…</l>
+            <l>Y, precisamente, che,</l>
+            <l>vos podés prestarme ayuda.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Ella está?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Muy macanuda.</l>
+            <l>Mañana va a un matiné</l>
+            <l>al que yo también voy…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Y?</l>
+            <l>¿Allí no más se la da?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Es claro.</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Y ella la irá?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Cómo no! La tengo así.</l>
+            <stage><emph rend="italic">(Ademán).</emph></stage>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Con el bobo?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Ni qué hablar!</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Cuándo se lo dio?</l>
+          </sp>
+          <pb n="339"/>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Hace un rato.</l>
+            <l>¿Qué decís?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Que usté es muy gato,</l>
+            <l>amigo, pa enamorar.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Por?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Porque la ha equivocao.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Tan difícil la encontrás?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Y el hermano?</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Lo manyás?</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Es un tigre disfrazao.</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Pero entre los dos, che, Rana…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Es que yo no viá poder…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Le tenés miedo a la cana?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Qué miedo le viá tener!…</l>
+            <l>Es que esa mina… es mi hermana!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¿Tu hermana?… ¡Pues me ha fumao!</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Así es: el hombre propone</l>
+            <l>pero la suerte dispone…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>En fin, Rana: la he chingao…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Bueno. Ahora sí: yo lo invito</l>
+            <l>que pillemos la matina…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>A la salú de la mina…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <stage><emph rend="italic">(Aparte).</emph></stage>
+            <l>Y la vuelta el relojito…</l>
+            <stage><emph rend="italic">Mutis ambos.</emph></stage>
+          </sp>
+          <pb n="340"/>
+        </div>
+        <div type="scene" n="4">
+          <head><emph rend="italic">Escena IV</emph></head>
+          <stage><emph rend="italic">Petrona, Churrinche.</emph></stage>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Imperativo).</emph></stage>
+            <l>Vení p'acá. Ya hace rato</l>
+            <l>que me tenés con la espina</l>
+            <l>de la duda, que vos, china,</l>
+            <l>me tomás pal patronato,</l>
+            <l>y como…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Pero…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Esperate!</l>
+            <l>Déjame explicar, ¡ahijuna!</l>
+            <l>No me he caído de la luna</l>
+            <l>ni tengo pelo e pajuate;</l>
+            <l>y aunque lo tomés a mengua</l>
+            <l>y disculpá la franqueza</l>
+            <l>el que sobra en mi cabeza</l>
+            <l>me está faltando en la lengua</l>
+            <l>y hablo así lo que me viene</l>
+            <l>“que el que en tal güella se planta</l>
+            <l>debe cantar cuando canta</l>
+            <l>con toda la voz que tiene”…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Martín Fierro!</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Amenazador).</emph></stage>
+            <l>¡No seas pava!</l>
+            <l>que si me hacés estrilar,</l>
+            <l>de Fierro me viá pasar</l>
+            <pb n="341"/>
+            <l>pa llegar a Martín Biaba…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(Burlona).</emph></stage>
+            <l>¡Ay, no me pegues, por Dios!…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>Mirá, a mí no me farriés…</l>
+            <l>Me vas a decir quién es</l>
+            <l>ése que estaba con vos</l>
+            <l>hace un rato chamuyando…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Mi hermano…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Mentís! Decí:</l>
+            <l>¿quién era ése?</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Y bueno: ¡sí!</l>
+            <l>uno que me estaba afilando…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Ese reo! ¡Hasta me da</l>
+            <l>asco!</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Qué hacés asqueroso!</l>
+            <l>¡Un reo!</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>Sí, un ranfañoso.</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Mejor que vos…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Avisá!…</l>
+            <l>¡Compararme a ese borracho!…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Sí! Vos no tomas en latas…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Dejalo! Lo vía manyar…</l>
+            <l>no pone ese reo el escracho…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Pero él ha puesto un reló</l>
+            <l>donde vos no pones nada…</l>
+            <stage><emph rend="italic">(Muestra el reloj).</emph></stage>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Pasa p'acá desgraciada!…</l>
+            <pb n="342"/>
+            <stage><emph rend="italic">(Se lo quita).</emph></stage>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Estás fresco!… Dameló…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Dejalo! Lo viá manyar…</l>
+            <stage type="inline"><emph rend="italic">(Contemplando el reloj).</emph></stage>
+            <l>Y es de oro…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>¡Y vale cuarenta!</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Desarmando el gesto).</emph></stage>
+            <l>Bueno. Dejameló a cuenta</l>
+            <l>de lo que acabo é broncar…</l>
+            <l>Y en cambio quedas así…</l>
+            <stage><emph rend="italic">(Ademán).</emph></stage>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <l>Aura no broncás…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Ah… lora!</l>
+            <l>¡Cha! si sos más shacadora</l>
+            <l>que la draga Majestí…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(Observando).</emph></stage>
+            <l>¡Ay! mi hermano…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Zas! El Rana…</l>
+            <l>Spiantá…</l>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(Huyendo por derecha).</emph></stage>
+            <l>Ya me ha manyao…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Por el reloj).</emph></stage>
+            <l>Con éste me he asegurao</l>
+            <l>el bullón pa una semana…</l>
+          </sp>
+        </div>
+        <pb n="343"/>
+        <div type="scene" n="5">
+          <head><emph rend="italic">Escena V</emph></head>
+          <stage><emph rend="italic">Churrinche, Mamerto y Rana.</emph></stage>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <stage><emph rend="italic">(A Rana).</emph></stage>
+            <l>¿Manyaste?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Sí. <stage type="inline"><emph rend="italic">(A Churrinche).</emph></stage> Diga,
+              ¡eh!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <stage><emph rend="italic">(A Churrinche).</emph></stage>
+            <l>¡Oiga, pts!…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Atendiendo).</emph></stage>
+            <l>¿Qué le dolía?…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Me quiere decir qué hacía</l>
+            <l>con esa mina aura usté?</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>Si no le parece mal…</l>
+            <l>afilando…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¡Me parece!…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Burlón)</emph></stage>
+            <l>¡Ya caigo! Usté pertenece</l>
+            <l>a la liga 'e la moral…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Bueno, deje 'e compadriar…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>¡Oh!… ¡cuántos somos… del mes!</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Por aura no más que tres,</l>
+            <l>pero, si quiere cobrar,</l>
+            <l>soy primero…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Despreciativo)</emph></stage>
+            <l>No hay apuro,</l>
+            <l>porque yo nunca cobré</l>
+            <l>sin laburarla… y usté</l>
+            <l>pa mí, amigo, no es laburo…</l>
+          </sp>
+          <pb n="344"/>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <stage><emph rend="italic">(Adelantándose)</emph></stage>
+            <l>Conmigo va a trabajar…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <stage><emph rend="italic">(Adelantándose)</emph></stage>
+            <l>Dejame; yo estoy en punta…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>Sí, pueden correrla en yunta…</l>
+            <l>La llevo sin castigar…</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>¿Sabe que es tigre?…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <l>Hace rato.</l>
+            <l>Y para que se den corte,</l>
+            <l>viá firmarles pasaporte</l>
+            <l>pa la calle Triunvirato…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Si no sabe ni firmar…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Sacando el revólver)</emph></stage>
+            <l>Pues atájense, chicharras…</l>
+            <l>Sus trompas serán pizarras</l>
+            <l>donde viá garabatiar…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <stage><emph rend="italic">(Acercándose amistoso)</emph></stage>
+            <l>Disculpe… traiga esos cinco…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Desconfiado)</emph></stage>
+            <l>¿Lo dice en farra?…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>Formal.</l>
+            <l>Me he acordado del Penal:</l>
+            <l>son de diez a veinticinco…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Guarda el revólver)</emph></stage>
+            <l>Y es cierto…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>No son pavadas…</l>
+            <l>Por sólo diez de presidio</l>
+            <l>es muy caro un homicidio…</l>
+          </sp>
+          <pb n="345"/>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Y entre bueyes no hay cornadas…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Yéndose)</emph></stage>
+            <l>¡Si no fuera por la ley!</l>
+          </sp>
+          <sp who="#rana">
+            <speaker>Rana:</speaker>
+            <l>Cualquiera sería matón…</l>
+          </sp>
+          <sp who="#churrinche">
+            <speaker>Churrinche:</speaker>
+            <stage><emph rend="italic">(Desdeñoso)</emph></stage>
+            <l>¡Juan Moreira… de cartón!…</l>
+          </sp>
+          <sp who="#mamerto">
+            <speaker>Mamerto:</speaker>
+            <l>¡Qué hacés Juan Cuello… de Mey!</l>
+          </sp>
+          <trailer>Telón</trailer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

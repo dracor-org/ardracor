@@ -1,0 +1,4257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000018" xml:lang="es">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Los invertidos</title>
+        <title type="sub">Drama realista en 3 actos, en prosa</title>
+        <author>
+          <persName>
+            <forename>José</forename>
+            <surname>González Castillo</surname>
+          </persName>
+          <idno type="wikidata">Q5940098</idno>
+        </author>
+        <editor xml:id="lv">
+          <forename>Laura</forename>
+          <surname>Volkind</surname>
+        </editor>
+        <editor xml:id="gdr">
+          <forename>Gimena</forename>
+          <nameLink>del</nameLink>
+          <surname>Rio Riande</surname>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org/</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
+            >CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <name>Antología de obras de teatro argentino</name>
+          <author><forename>José</forename>
+            <surname>Gónzalez Castillo</surname></author>: <title level="a">Los invertidos. Drama
+            realista en 3 actos, en prosa</title>. En: <editor><surname>Seibel</surname>,
+              <forename>Beatriz</forename></editor>. <title level="m">Antología de obras de teatro
+            argentino. Desde sus orígenes a la actualidad.</title>
+          <biblScope unit="volume">Tomo 11 (1913–1916). Obras del siglo XX: 2° década –
+            III.</biblScope>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Instituto Nacional del Teatro</publisher>,
+            <date>2017</date>, pp. <biblScope unit="page" from="157" to="226">157–226</biblScope>.
+            <idno type="URL"
+            >https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-2/</idno>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="benito" sex="MALE">
+            <persName>Benito</persName>
+          </person>
+          <person xml:id="clara" sex="FEMALE">
+            <persName>Clara</persName>
+          </person>
+          <person xml:id="julian" sex="MALE">
+            <persName>Julián</persName>
+          </person>
+          <person xml:id="lola" sex="FEMALE">
+            <persName>Lola</persName>
+          </person>
+          <person xml:id="emilio" sex="MALE">
+            <persName>Emilio</persName>
+          </person>
+          <person xml:id="florez" sex="MALE">
+            <persName>Flórez</persName>
+          </person>
+          <person xml:id="perez" sex="MALE">
+            <persName>Pérez</persName>
+          </person>
+          <person xml:id="fernandez" sex="MALE">
+            <persName>Fernández</persName>
+          </person>
+          <person xml:id="petrona" sex="FEMALE">
+            <persName>Petrona</persName>
+          </person>
+          <person xml:id="juanita" sex="FEMALE">
+            <persName>Juanita</persName>
+          </person>
+          <person xml:id="princesa" sex="FEMALE">
+            <persName>Princesa</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="wikidata" type="genreTitle">Drama</term>
+          <term source="gonzalezCastillo" type="genreTitle">drama realista</term>
+          <!-- El autor en la introducción, habla justamente sobre el realismo
+            "el realismo no es otra cosa que el sistema de la realidad aplicado
+            en este caso a una obra de arte. Puede haber realismo. 
+            Por lo demás, es una obra de pura espiritualidad, puesto que “lo real” 
+            es tan solo la concepción personal y singular de cada observador. 
+            No sabemos qué es la realidad ni la verdad, desde que el poder perceptivo
+            difiere de acuerdo con el temperamento, la condición intelectual 
+            y moral del filósofo o del escritor. De manera, pues, que condenar 
+            el realismo, así como lo hace el señor abogado informante, que no 
+            parece entender mucho de cuestiones de arte, equivale a rechazar 
+            en bloque toda la literatura que, desde Balzac a nuestros días, 
+            reacciona contra el falso sentimentalismo romántico de 1830. 
+            En cualquier caso, sería para mi un honor ser rechazado precisamente 
+            por realista y por un abogado que adolece el defecto de ignorar 
+            lo que es el realismo." 
+           -->
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q44092605</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change when="2025-10-04" who="#lv">initial encoding in ezdrama and DraCor</change>
+        <change when="2025-12-27" who="#gdr">revision of file</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="premiere" when="1914">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000018"
+        passive="http://www.wikidata.org/entity/Q137599301"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000018"
+        passive="https://hdlab.space/teatrar/obras/0124.html"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <pb n="159"/>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Los invertidos</titlePart>
+          <titlePart type="sub">Drama realista en 3 actos, en prosa</titlePart>
+        </docTitle>
+        <docAuthor>José González Castillo</docAuthor>
+        <note type="editor">Estrenado por la compañía de Teatro Libre Podestá - Ballerini, en el
+          Teatro Nacional la noche del 12 de septiembre de 1914 y prohibido por la Intendencia
+          Municipal a la novena representación.</note>
+      </titlePage>
+      <!-- Incluí aquí la introducción que el autor realizó a la obra y la prohibición municipal-->
+      <div type="prologue">
+        <p>Dos palabras</p>
+        <p>Según una estadística demográfica del doctor Francisco Latzina, publicada en 1905, a raíz
+          del censo de la capital, había en esa fecha, y en Buenos Aires solamente, “diez mil
+          invertidos”, de todas las condiciones sociales.</p>
+        <p>Como se comprenderá, esa cifra entraña una amenaza gravísima y un peligro constante para
+          la salud moral y física de nuestra sociedad.</p>
+        <p>Evitar ese peligro, combatiendo el nefasto y repugnante vicio por todos los medios
+          posibles es hacer obra buena y moralizadora, y ninguno mejor que aquel que sea capaz de
+          inspirar asco y odio por una aberración que, hasta ahora, solo nos inspiraba desprecio o
+          lástima…</p>
+        <p>Eso es lo que se ha pretendido hacer, modestamente, en los límites reducidos de la obra
+          que acaba de representarse.</p>
+        <p>(Palabras del autor al público la noche del estreno)</p>
+        <p>Probición municipal</p>
+        <p>El intendente municipal, no obstante el informe del inspector general señor Pablo Lazcano
+          y la opinión de los inspectores García Videla y Antonio Lamberti, enteramente favorables a
+          la obra, prohibió la representación de Los invertidos, cuando llevaba ocho repeticiones y
+            <pb n="160"/> por consejo del secretario de Higiene Dr. Ghigliani y del inspector Sr.
+          Blamen Lafont.</p>
+        <p>Pedida por el autor la revocatoria de ese decreto, o, en subsidio, la apelación para ante
+          el Concejo Deliberante, el señor Anchorena negó ambos recursos, obligando, en consecuencia
+          al autor, a presentarse de hecho ante el Concejo con el escrito que se reproduce a
+          continuación:</p>
+        <p>Honorable Concejo Deliberante:</p>
+        <p>José González Castillo, autor de “Los invertidos”, ante V. H. como mejor proceda
+          digo:</p>
+        <p>I</p>
+        <p>Que el día 19 de septiembre el intendente municipal comunicó al Teatro Nacional
+          (Corrientes) una resolución por la que se prohibía la representación de mi drama en tres
+          actos, <emph rend="italic">Los invertidos</emph>. Haciendo uso de las facultades que me
+          confiere la ley pedí al señor intendente municipal, dentro del término pertinente, la
+          revocatoria de semejante resolución y en caso subsidiario me concediera recurso de
+          apelación ante el Honorable Concejo Deliberante, fundando mi derecho sintéticamente
+          en:</p>
+        <p>1º que el intendente municipal no está facultado para prohibir la representación de una
+          obra por ninguna ordenanza municipal;</p>
+        <p>2º que mi obra es francamente moralizadora y persigue un alto objeto de mejoramiento
+          social, sin atentar contra las buenas costumbres ni contra la moral media de la
+          sociedad;</p>
+        <p>3º que el intendente municipal no está autorizado por ninguna ley para erigirse en juez y
+          árbitro de las cuestiones artísticas;</p>
+        <p>4º que Los <emph rend="italic">invertidos</emph> fue aplaudida por la crítica de la
+          prensa metropolitana, la cual interpretó sinceramente su fondo de pedagogía social;</p>
+        <pb n="161"/>
+        <p>5º. que algunos inspectores municipales como el señor Lazcano, informaron favorablemente
+          respecto de Los invertidos, como puede advertirse en el correspondiente expediente
+          administrativo.</p>
+        <p>Ahora bien, Honorable Concejo:</p>
+        <p>El intendente municipal ha confirmado su resolución y me ha negado el recurso de
+          apelación ante el Honorable Concejo.</p>
+        <p>En consecuencia, vengo a pedir a V. H. se aboque de hecho el conocimiento del expediente
+          administrativo y me ampare en el derecho de poder representar mi drama contra lo resuelto,
+          en manera tan injusta y arbitraria, por el señor intendente municipal.</p>
+        <p>Fundo mi petición en los argumentos expuestos en la solicitud de apelación, que
+          reproduzco íntegramente ante V. H. amén de las siguientes consideraciones.</p>
+        <p>II</p>
+        <p>Mi obra “Los invertidos” no cae dentro de la sanción establecida por el art. 198 de la
+          ordenanza municipal invocada.</p>
+        <p>No cae dentro de esa sanción porque mi drama es moralizador y predica precisamente las
+          buenas costumbres. Poco importa que su asunto sea escabroso, como asegura el abogado
+          asesor de la intendencia, que, por otra parte, incurre en lamentables confusiones, como
+          más adelante demostraré.</p>
+        <p>Asuntos escabrosos son todos los que aborda la literatura realista. Si yo ataco un vicio
+          en Los invertidos debo, por fuerza, referirme a ese vicio. Cómo lo hago es lo que no
+          parece comprender el escaso sentido crítico de la Intendencia. Me valgo para ello de
+          procedimientos artísticos nobles, al punto de que el personaje central de la obra, Clara,
+          es un tipo idealista que expongo como contraste ante los otros sujetos del drama y a fin
+          de que el dolor trágico que sobre ella se cierne provoque reacciones saludables sobre la
+          masa total de los espectadores.</p>
+        <p>El abogado asesor de la Intendencia pretende que “debe impedirse el avance del realismo
+          con todas sus impudicias”. Con esta frase, el <pb n="162"/> abogado informante prueba
+          ignorar qué es el realismo. Estoy conforme con que debe impedirse la impudicia, sea cuando
+          califica al idealismo o al realismo. Pero el realismo no es otra cosa que el sistema de la
+          realidad aplicado en este caso a una obra de arte. Puede haber realismo. Por lo demás, es
+          una obra de pura espiritualidad, puesto que “lo real” es tan solo la concepción personal y
+          singular de cada observador. No sabemos qué es la realidad ni la verdad, desde que el
+          poder perceptivo difiere de acuerdo con el temperamento, la condición intelectual y moral
+          del filósofo o del escritor. De manera, pues, que condenar el realismo, así como lo hace
+          el señor abogado informante, que no parece entender mucho de cuestiones de arte, equivale
+          a rechazar en bloque toda la literatura que, desde Balzac a nuestros días, reacciona
+          contra el falso sentimentalismo romántico de 1830. En cualquier caso, sería para mi un
+          honor ser rechazado precisamente por realista y por un abogado que adolece el defecto de
+          ignorar lo que es el realismo.</p>
+        <p>III</p>
+        <p>La ordenanza municipal invocada prohíbe las obras que atenten contra la moral y las
+          buenas costumbres; pero no establece:</p>
+        <p>1º cuál es la línea divisoria clara, de la moral y de la belleza artística. Si la comuna
+          pretende velar por la moral pública debe saber establecer una diferencia de la mayor
+          nitidez entre esos dos campos, cuyo límite impreciso no puede ser otro que la libertad de
+          arte dentro de líneas simplísimas. Estas no son otras, sin duda, que el derecho de la
+          especie a vivir y a evolucionar hacia ideales determinados por tendencias a veces
+          divergentes y hasta antagónicas;</p>
+        <p>2º cuál es la autoridad encargada de interpretar el límite en que una obra deja de ser
+          bella o moral para ser inmoral o fea.</p>
+        <p>Al no establecer esa autoridad, mal pueden erigirse en árbitros las autoridades
+          políticas, pues ello importaría dejar en manos de hombres incompetentes la crítica
+          estética y el derecho a juzgar de la moralidad o inmoralidad de una obra a personas
+          completamente ajenas a tales funciones.</p>
+        <pb n="163"/>
+        <p>IV</p>
+        <p>Por lo demás, Honorable Concejo, dados los argumentos que he expuesto, esa ordenanza
+          solamente sirve para arbitrar recursos a la arbitrariedad, como lo prueba el hecho de
+          habérseme prohibido la representación de mi obra <emph rend="italic">Los
+          invertidos</emph>, fundándose en vaguedades como las que invoca el señor secretario de
+          Higiene en su informe, de fojas… cuando asegura –no sé con qué títulos ni en nombre de qué
+          epítomes preceptivas– que “el teatro debe ser de ensueño y de idealismo”, Shakespeare
+          –salvando la distancia– opinaba precisamente lo contrario.</p>
+        <p>No quiero terminar, Honorable Concejo, sin antes recordar que el artículo 198 de la
+          ordenanza aludida prohíbe los espectáculos inmorales, sin referirse para nada a la calidad
+          artística de las obras, cosa que parece olvidar la Intendencia y sus asesores, quienes hoy
+          pretenden juzgar el drama Los invertidos, sentando cátedra de pedagogía artística; sendero
+          por el cual llegarán mañana con espontánea facilidad a corregir a Ibsen, Brieux, Favre, o
+          cualquier otro productor que señale nortes a la conducta social contemporánea.</p>
+        <p>Por tanto, como lo tengo dicho, vengo a pedir a V. Honorabilidad:</p>
+        <p>1º que se aboque de hecho el conocimiento de esta causa administrativa;</p>
+        <p>2º que se pronuncie sobre el fondo de la cuestión, devolviéndome el derecho de
+          representar mi drama <emph rend="italic">Los invertidos</emph>, contra lo resuelto por la
+          Intendencia, por no caer bajo la sanción del artículo 198 de la ordenanza respectiva.</p>
+        <p>Dios guarde al Honorable Consejo.</p>
+        <p>J. González Castillo</p>
+      </div>
+      <pb n="164"/>
+      <castList>
+        <head>Personajes</head>
+        <castItem>
+          <role>Clara</role>
+          <actor>Sra. Blanca Podestá</actor>
+        </castItem>
+        <castItem>
+          <role>Petrona</role>
+          <actor>Sra. Aurelia Ferrer</actor>
+        </castItem>
+        <castItem>
+          <role>Lola</role>
+          <actor>Srta. Munter</actor>
+        </castItem>
+        <castItem>
+          <role>Dr. Flórez</role>
+          <actor>Sr. Eliseo Cordido</actor>
+        </castItem>
+        <castItem>
+          <role>Perez</role>
+          <actor>Sr. Elías Alippi</actor>
+        </castItem>
+        <castItem>
+          <role>Fernández</role>
+          <actor>Sr. Leopoldo Simari</actor>
+        </castItem>
+        <castItem>
+          <role>La Juanita</role>
+          <actor>Sr. Arturo Calderilla</actor>
+        </castItem>
+        <castItem>
+          <role>La princesa de Borbón</role>c <actor>Sr. Bebé Sánchez</actor>
+        </castItem>
+        <castItem>
+          <role>Emilio</role>
+          <actor>Sr. Juan Pérez</actor>
+        </castItem>
+        <castItem>
+          <role>Julián</role>
+          <actor>Sr. Carlos Rodríguez</actor>
+        </castItem>
+        <castItem>
+          <role>Benito</role>
+          <actor>Sr. Alberto Ballerini</actor>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head><emph rend="bold">Acto Primero</emph></head>
+        <stage><emph>Decoración: oficina particular en casa del doctor Flórez, lujosamente
+            amueblada. En el ángulo izquierdo, gran balcón, a través de cuyas puertas vidrieras se
+            verán los edificios del frente. En las paredes, colgados, cuadros y panoplias con armas
+            diversas. A la derecha, mesa escritorio de las llamadas Ministros, con libros y papeles.
+            Juego de oficina de marroquí. Estatuas. Una vitrina con utensilios de cirugía. Una
+            biblioteca, etc. Es el atardecer de un día de primavera. Derecha e izquierda las del
+            espectador.</emph></stage>
+        <div type="scene" n="1">
+          <head><emph>Escena I</emph></head>
+          <stage><emph rend="italic">Julián, luego Petrona</emph></stage>
+          <pb n="165"/>
+          <stage><emph rend="italic">Al levantarse el telón aparecerá Julián, joven de 16 años, hijo
+              mayor del doctor Flórez, trabajando sobre la mesa-escritorio de la derecha. Simula que
+              copia en limpio un informe pericial de su padre.</emph></stage>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <stage><emph rend="italic">(Leyendo con dificultad)</emph>“El procesado Calixto, señor
+              juez, según propia manifestación y según los antecedentes acumulados en autos,
+              constituye uno de esos interesantes casos de inversión sexual que la patología ha
+              definido ya exactamente en infinidad de obras sobre la materia. No aparecen en él,
+              después de un prolijo estudio orgánico, las deformaciones fisiológicas que a tales
+              casos, por excepción, caracterizan y que inspiró a los griegos el mito de
+              Hermafrodita, pero sus hábitos, marcadamente femeninos, las sutilezas de su
+              idiosincracia, sus mismas predilecciones por todas esas futilezas que constituyen el
+              encanto de las mujeres, la inflexión de su voz, suave y acariciadora, la misma
+              constante manifestación de vagas coqueterías femeninas, nos hacen pensar que estamos
+              en presencia de uno de esos extraños fenómenos de desdoblamiento sensual, que, más que
+              a una aberración del sexo, obedecen a una perversión del instinto, aguzada por el
+              exceso de los placeres, la fragilidad de una insuficiente educación físico-moral y aun
+              quizás, por las tendencias ancestrales de una herencia morbosa”.</stage>
+            <p>¡Qué caso más raro!</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(A mitad de la precedente lectura habrá aparecido en escena
+                Petrona, vieja criada de la familia del Dr. Flórez; empezará a arreglar las sillas y
+                papeles de la oficina, pero atraída por el tono declamatorio de la lectura, se
+                quedará suspensa de ella hasta su terminación. A Julián)</emph></stage>
+            <p>¿Qué es eso, niño? ¿Algún discurso que está por decir?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>No, ¡qué discurso!… ¡Es un informe de papá que estoy copiando!…</p>
+          </sp>
+          <pb n="166"/>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Ah!… Como tiene tantas palabras raras y no entendía ni jota, creía que un discurso…
+              ¿Y pa qué es ese informe?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Un informe médico sobre un asesino…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿Sí?… ¿Algún loco?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>No… peor que eso… un hermafrodita… ¿Usted sabe lo que es un hermafrodita?<stage
+                type="inline"><emph rend="italic">(Leyendo)</emph></stage> Un “caso de inversión
+              sexual con anestesia congénita”.</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Qué sé yo… Si no me habla en cristiano no le viá entender…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Pues un… cómo le diré… un individuo que es a la vez hombre y mujer…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Ah!… Un manflora… ¡bah!… He conocido a tantos… ¿Y cómo dice que le llaman a los
+              manfloras?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Hermafroditas… Invertidos…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Mafrodita… ¡Bah!… Los médicos y los procuradores siempre le han de inventar nombres
+              raros a las cosas más sencillas… En mis tiempos se les llamaba mariquita, no más, ó
+              maricón, que es más claro… Pa qué tantos términos… ¡Yo he conocido más de cien!…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¿Usted?… ¿En dónde?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>En donde ha e’ser, pues… en el mundo… Usted qué se cree: hay más de esos mafroditas
+              que lo que parece, qué se figura… Mire: se lo voy a decir, sabe, pero no lo vaya a
+              repetir, porque se podría saber… y el pobre pertenecía a la familia de su papá…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¿De papá?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Sí; de su papá… Usted sabe que yo estoy con la familia desde que su papá era asina,
+              ¿no?… Y todavía más chico… Bueno… Y él tenía un primo, o qué se yo, que ya era mozo, y
+              en la casa le llamaban Lilí… Ya murió el pobre… <pb n="167"/> Bueno… pues ese Lilí era
+              lo mismo que una mujer, y tenía unos bigotes como de gringo… Siempre andaba con
+              polvos, perfumes y abanicos… y a lo mejor lo veíamos vestido de mujer al muy
+              sinvergüenza… todo ajustado y empolvado y con un polizón… ¡Ay, qué asco!… Que le
+              aumentaba el bulto… así… como si juera de veras… ¡Me daba una rabia!…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Pero lo haría de broma…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Sí, bonita la broma… Fíjese, niño, que un día… cuando su abuelita tuvo a la niña
+              Felisa, su tía, bueno, pues él se echó en cama y se puso a gritar también como si lo
+              estuvieran degollando…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¿Y por qué?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Ahí verá, pues… Al muy chancho se le había antojado tener hijos también… ¡Qué
+              cochino!… Tuvieron que echarlo pa’ que no diera escándalo… ¡Asqueroso!… Después lo vi
+              pocas veces, hasta que según me dijeron se mató… Y mire lo que son las cosas, ¿no?…
+              Casi todos los mariquitas que yo he conocido o he oído decir, han muerto lo mismo…
+              ¡Como si juera un castigo de Dios!…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¡Pobres diablos!… ¡Su vida es una aberración!… ¡Qué otro fin pueden tener!… ¿Y usted
+              ha conocido algún otro de esos…mariquitas en la familia?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>No… en la familia no… Pero eso sí, pa qué viá mentir… A casi todos los hombres que yo
+              he criado o he visto criarse les gustaban las cosas de las mujeres… A su papá, no más,
+              pa no ir más lejos… le gustaba jugar con las muñecas de las niñas, lo mismo que una
+              mujercita… Si me parece verlo… Era apegao a las hermanas y a las tías, y mocito ya,
+              más le gustaba salir con ellas que andar solo o con amigos… Tan distinto de ahora,
+              ¿no?… que casi siempre sale solo… o con ese señor Pérez…</p>
+          </sp>
+          <pb n="168"/>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Un amigo de su infancia…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Bah! Me va a decir a mí… Estaban juntos en el colegio… Y era un peine, el tal Pérez…
+              más sinvergüenza cuando muchacho…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Bueno, bueno… ¿Ya se va poner a hablar mal de Pérez, también?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Yo no hablo mal de nadie… digo lo que sé…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Bueno… es lo mismo. Con su charla me ha hecho perder tiempo y no puedo seguir la
+              copia… ¿Y mamá?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Está arreglándose con la niña… creo que van a ir a comer a lo de su abuelita…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Sí; vamos a ir los tres… Yo terminaré esto mañana… o luego <stage type="inline"><emph
+                  rend="italic">(Arregla los papeles del escritorio).</emph></stage></p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Y yo voy a sacudir un poco aquí… Pero no ve… ya han traído otra vez las revistas de
+              la niña…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¿Qué revistas?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Estas de moda… ¿No está viendo?… La niña siempre me reta por esto…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>No; si estas no son de ella… Las debe haber traído papá…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿Su papá?… ¿Y pa qué quiere modas de mujeres, su papá?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Y qué se yo… Las habrá traído para Lola… Llévelas no más y no averigüe tanto, pues…
+              En todo se ha de meter…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Está bien… ya me voy… ¡En todo se ha de meter!… Yo no me meto en nada, ¡oh! Pa qué me
+              pregunta, también… <stage>(vase rezongando por izq.)</stage></p>
+          </sp>
+          <pb n="169"/>
+        </div>
+        <div type="scene" n="2">
+          <head><emph>Escena II</emph></head>
+          <stage><emph rend="italic">Julián solo</emph></stage>
+          <stage><emph rend="italic"/> Continúa un rato escribiendo. Luego lee en alta voz como al
+            principio</stage>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>“¡Las tendencias de una herencia morbosa!… Porque el vicio, explosión de instintos
+              torturados, parece ser en estos casos, la herencia de vida, recibida en la sangre y
+              transmitida de padres a hijos en una sucesión perpetua de amoralidades
+              contradictorias. ¡Y es así como vemos al místico desatar en los sensualismos del hijo
+              las propias concupiscencias domeñadas; al sensual prolongar la vehemencia de sus
+              pasiones, en el ansia insaciable del hijo alcohólico, como si el fuego interno de la
+              sangre exigiera la fuente refrigeradora de una sed eterna; al criminal desahogando en
+              la impulsividad de sus instintos la larga serie de violencias recibidas en la heredad
+              ancestral de toda una raza de perversiones morales, de reblandecimientos físicos, de
+              refinamientos progresivos!… El fuego simbólico que consumió a Sodoma como una venganza
+              del cielo, no es más, señor juez, que el fuego secreto, invencible, interno, que crea
+              el fanatismo del místico, incita el ansia del sensualista, alimenta la sed del ebrio,
+              arma el brazo del homicida, y termina con la raza en el agotamiento de las energías
+              creadoras y reproductoras de la vida”. Es curiosa la teoría…</p>
+          </sp>
+          <pb n="170"/>
+        </div>
+        <div type="scene" n="3">
+          <head><emph>Escena III</emph></head>
+          <stage><emph rend="italic">Julián y Dr. Flórez</emph></stage>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <stage><emph rend="italic">(Que habrá aparecido a la mitad de la lectura.
+                Silenciosamente coloca su sombrero y su bastón en la mesa y se acerca a Julián por
+                detrás).</emph></stage>
+            <p>¡Muy bien!… ¿Has terminado ya la copia?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¡Ah!… papá… ¡Buenas tardes!… No; todavía no… Me entretenía en leerlo para dominar
+              mejor tu letra…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Y la entiendes bien?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Sí; en partes. Los términos técnicos no más me dan algún trabajo… ¿Aquí, qué
+              dice?…</p>
+            <stage><emph rend="italic">(Señala).</emph></stage>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <stage><emph rend="italic">(Leyendo)</emph></stage>
+            <p>“Anestesia congénita”… ¿Cómo has puesto?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Lo mismo… Pero no estaba bien seguro…</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head><emph>Escena IV</emph></head>
+          <stage><emph rend="italic">Dichos y Clara</emph></stage>
+          <stage><emph rend="italic">Aparece Clara, peinada pero cubierta con un kimono de lujo,
+              como quien se está haciendo su toilette de calle.</emph></stage>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(A Flórez)</emph></stage>
+            <p>¡Ah!… ¿Estabas aquí?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí, acabo de llegar…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Como dijiste que no vendrías a cenar… yo había resuelto ir a casa de mamá… Te haré
+              preparar la cena…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>No, no tengo apetito… No pensaba venir, pero como debo concluir ese informe y
+              esperarlo a Pérez para ir al club, resolví venirme un rato a trabajar… No suspendas tu
+              visita… Vayan nomás…</p>
+          </sp>
+          <pb n="171"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿No comerás, entonces?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>No, más tarde en el club…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Por qué no nos acompañas a casa de mamá?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Porque tengo que hacer, querida… Ya te lo he dicho: debo esperar a Pérez…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Bien… bien…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Y además terminar ese informe…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(A Julián)</emph></stage>
+            <p>Y tú ¿por qué no te vas arreglando?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí, ve a vestirte… Seguirás mañana… Si todavía falta algo…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Como gustes, papá… Voy a vestirme entonces… Con permiso</p>
+            <stage><emph rend="italic">(vase izquierda).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head><emph>Escena V</emph></head>
+          <stage><emph rend="italic">Clara y Flórez</emph></stage>
+          <stage><emph rend="italic">Flórez se sienta en el escritorio, hojeando los
+            papeles.</emph></stage>
+          <stage><emph rend="italic">Breve pausa.</emph></stage>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Y qué informe es ese que te trae tan preocupado desde hace unos días?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Es un informe médico sobre la responsabilidad criminal de un homicida… un desgraciado
+              hermafrodita…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Un hermafrodita asesino!…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí, y asesino por celos… Es un caso interesante… Fue aquí en la calle Talcahuano…
+              Mató a un compañero de pieza, estrangulándolo, porque el otro se casaba en esos
+              días…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Qué atrocidad!… ¡Un hombre!… ¿Pero, y eso puede ser <pb n="172"/> un caso de
+              irresponsabilidad?… ¿Puede darse el ejemplo de que un hombre sienta celos de otro por…
+              por…?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí, dilo no más… ¡por amor!… ¡Por un ciego y monstruoso amor homicida!…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero un hombre… ¿es posible, señor?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Tan posible como que todos los días, a cada momento la criminología encuentra esos
+              análogos… Yo conocí uno, que le llamaban “La Robla”, joven y distinguido, que por
+              desvíos de su… de su amante… otro hombre, se suicidó por asfixia después de haber
+              tapado las hendijas de la puerta con recortes de folletín… ¡Un suicidio
+              romántico!…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero, ¡Dios mío!… ¿Y puede esa aberración, esa monstruosidad echar raíces
+              sentimentales en esa clase de individuos?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Como que aman con toda la fuerza invencible de instintos secretos, insospechados,
+              hereditarios… Como que es una segunda naturaleza, tanto más poderosa en ellos que la
+              propia, cuanto que es una naturaleza enfermiza, morbosa, que no pueden eludir; que han
+              recibido con la vida y educado con el medio y refinado con el placer. Una especie de
+              transfusión del sexo, de desdoblamiento nervioso que se manifiesta en casos, en
+              momentos, en circunstancias especiales.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Pero no son acaso, seres monstruosos, deformes, esos desgraciados?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Los hay, pero muy escasos… excepcionalmente… Por lo general son individuos normales,
+              aun más, vigorosos, varoniles, jóvenes, como el caso ese que estoy informando, que
+              mató al otro con la simple fuerza hercúlea de sus manos… Individuos dotados de todas
+              las cualidades viriles del hombre común, pero en quienes, precisamente, ejerce un
+              atractivo poderoso la superioridad varonil física <pb n="173"/> o moral de otro
+              congénere… Y cuando están bajo la acción del momento que llamaremos crítico, en la
+              noche especialmente, se convierten en mujeres, en menos que mujeres, con todas sus
+              rarezas, con todos sus caprichos, y sus pasiones, como si en ese instante se operara
+              en su naturaleza una transmutación maravillosa y monstruosa… <stage type="inline"
+                  ><emph rend="italic">(Como poseído).</emph></stage> ¡Es la voz de los ancestros,
+              el grito del vicio, el llamamiento imperioso de la decadencia genésica, heredados en
+              un organismo decrépito y gastado en su propio origen por la obra de un pasado de
+              miserias materiales y anímicas!…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Hablas con un entusiasmo!…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <stage><emph rend="italic">(Reaccionando. Con sonrisa nerviosa)</emph></stage>
+            <p>Es verdad… Me entusiasmo… Me parece estar en la cátedra… ¡Es que son tan dignos de
+              lástima esos desgraciados!…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No veo la razón de esa lástima… Degenerados… para qué les necesita la sociedad… para
+              qué…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¡Verdad!… Pero tú no puedes… ni debes comprender toda la miseria de esos infelices,
+              todo el dolor que hay en el fondo de esas perversiones…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Y tú piensas demostrar su irresponsabilidad?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>No, no me corresponde… lo hago por puro diletantismo científico, ya que debo informar
+              sobre el sujeto… Y además, no se si es por piedad, o por qué, siento una extraña
+              simpatía, una especie de misericordiosa lástima por todos esos infelices… Y la pongo
+              en práctica, tratando de favorecer su causa… ¡Al fin creo no hacer ningún daño en
+              ello!… La justicia es la que resolverá… <stage type="inline"><emph rend="italic">(Con
+                  tristeza)</emph></stage> Además… hay una ley secreta… extraña, fatal, que siempre
+              hace justicia en esos seres, eliminándolos trágicamente, cuando la vida les pesa como
+              una carga… Irredentos convencidos… el suicidio es “su última, su buena evolución”…
+              como diría Verlaine…</p>
+          </sp>
+          <pb n="174"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Desgraciados!… ¡Para qué preocuparse más de ellos!… ¿Vas a quedarte trabajando,
+              entonces?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí… un rato… hasta que venga Pérez…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Hasta luego, entonces… Me iré a vestir…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Vete nomás… <stage type="inline"><emph rend="italic">(Clara va hasta la puerta
+                  izquierda. Allí se detiene. Mira un momento a su marido preocupado con sus
+                  papeles, hace un gesto de desesperanza y sale. Flórez solo)</emph></stage> “¡El
+              suicidio es su última, su buena evolución!”…</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head><emph>Escena VI</emph></head>
+          <stage><emph rend="italic">Flórez, Fernández y Pérez</emph></stage>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(Después de una breve pausa, apareciendo por
+              derecha)</emph></stage>
+            <p>El señor Pérez con otro señor…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Que pasen…</p>
+            <stage><emph rend="italic">Se va por derecha Petrona y aparecen a los diez segundos
+                Pérez y Fernández. Pérez es el prototipo del “oportunista”, elegante, desenfadado,
+                causseur y espiritual. Viste de frac irreprochablemente. Fernández es el tipo del
+                sportsman. Alto, atlético, vigoroso, viste con cierto elegante abandono. Habla
+                pausadamente y como convencido de su fuerza física. En el fondo, sin embargo, no es
+                más que un degenerado como los demás, que considera su vicio más bien como un adorno
+                que como una calamidad.</emph></stage>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <stage><emph rend="italic">(Apareciendo, precedido de Pérez)</emph></stage>
+            <p>Hola, querido… ¿Trabajando?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Cómo te va?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Buenas tardes… Adelante… y tomen asiento… ¿A qué debo la sorpresa?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¿Sorpresa, dices?… ¿No lo esperabas a Pérez?…</p>
+          </sp>
+          <pb n="175"/>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí, realmente… La sorpresa me la da Fernández. ¡El hombre de los Sports!…
+              Francamente, debe ser algo muy grave lo que le hace desertar a sus preocupaciones
+              habituales, de la esgrima, la caza del pichón, el rowing y otras “animaladas” por el
+              estilo, para venirse a meter en el aplastador ambiente de un gabinete de estudio…
+              ¿Alguna consulta, no?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pero no médica… ¡A éste ya no hay médico que lo cure… caso irremediablemente
+              perdido!…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Y entonces?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Una consulta… de honor…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Honor?… ¿Has dicho “honor”?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Sí, de “honor”… con todas las letras… ¿Acaso estamos privados de honor los
+              sportsmen?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Los “sportsmen” no… pero… los otros… en fin… Es realmente original el caso… A Flórez
+              ha debido sorprenderle…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¡Bah! ¿Por qué?</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>No, si a este le ha dado por las ironías… <stage type="inline"><emph rend="italic">(A
+                  Pérez)</emph>.</stage> Pero ten cuidado… ¿eh?… Mira que hoy he marcado 700 kilos
+              de un puñetazo en el “Pushing ball”.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Entonces, te sientas un poco más lejos, por si acaso…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Vamos a ver… que no corra sangre… ¿De qué se trata?</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>De una consulta de honor… ya te he dicho… Anoche, en el Club de Esgrima, Ricardo me
+              ha ofendido, después de una discusión sobre el matrimonio…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Sobre el matrimonio?… ¿A qué tú te mostraste partidario del matrimonio?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>No, precisamente yo sostuve la incompatibilidad de ciertos caracteres con el
+              matrimonio… y agregué: que la <pb n="176"/> mujer antes de casarse debía someter a su
+              prometido a todo un severísimo examen médico, fisiológico y moral, porque en la actual
+              situación social hay un porcentaje enorme de amorales que, aun a pesar de su aparente
+              virilidad, son incapaces para la vida integral…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Eso sostuviste tú?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Eso… ¿No te parece bien pensado?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Admirable…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Muy sensato… ¿Y qué contestó Ricardo?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Pues figúrate… una grosería… ¿Qué otra cosa podría contestar ese imbécil?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pero al grano… ¿Qué te contestó?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Que eso pensaba yo… porque yo era… <stage type="inline"><emph rend="italic">(Con
+                  misterio)</emph></stage> porque yo era… ¡un maricón!</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Qué barbaridad! … Y tú, claro, ¿te indignarías?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¿Que si me indigné?… Figúrate… Le metí debajo de una mesa de poker de un
+              puñetazo…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Como para demostrarle que no eras tan maricón como él dice?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Hazte cargo… Y hoy, apenas me había levantado a las 5, recibo la visita de Harris y
+              de Lozano, que venían a pedirme satisfacciones…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Y se las diste?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>No, estuve por sacarlos a patadas a los dos, pero me acordé que no tenía botines
+              puestos… y opté por pedirles tiempo para elegir mis padrinos… Y este es el caso que te
+              vengo a consultar… ¿Quién es aquí el ofendido? ¿Yo, que fui insultado? ¿O él, que
+              recibió el guantazo?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pues él, porque la ofensa ahí fue contundente…</p>
+          </sp>
+          <pb n="177"/>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>No, déjate de macanas… Que diga Flórez, ¿no soy yo el ofendido?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Hombre… en verdad… el dilema es escabroso… Los padrinos de Ricardo ¿qué dicen?</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Que el ofendido es él…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Lo que yo digo.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Por qué?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Ahí está otra ofensa… Porque, según Ricardo, él no ha dicho más que la verdad…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Ja… ja… ja…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¿De qué te ríes?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>De lo gracioso de la respuesta… Original… hombre, original… No lo creía a Ricardo con
+              tanto talento…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Y tú qué sostienes?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Pues yo… que, si en razón, él cree haberme dicho la verdad… yo también creo haber
+              hecho lo mismo… Porque el puñetazo fue también de veras…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Ja… ja… ja… Estupendo… hombre… estupendo…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Buen, déjate de pavadas y vamos a lo cierto… ¿Quién es el ofendido?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Los dos…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>No, es que yo necesito saberlo para la elección de armas, porque si me toca a mí,
+              elijo la pistola…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿La pistola?... ja… ja…ja… No, hombre… eso no te corresponde… Mediando la ofensa que
+              ha mediado, la pistola debe elegirla él…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Mira que te pego…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>No bromees… el caso es en realidad grave… No se trata <pb n="178"/> de un juguete.
+              Fernández está en el deber de reparar la ofensa por las armas… Se lo exige el honor de
+              él…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Y del género… neutro…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Aunque más no fuera que por eso… Y pasando al asunto… ¿No te sería lo mismo batirte a
+              pistola que a sable?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Sí; para mí es lo mismo…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Es que el sable… lo maneja mejor el otro… Pega cada sablazo…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Porque es de los tuyos…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Qué quieres… ¡Pertenecemos a la plana activa!…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Bueno; ¿en qué quedamos?… Responde tú…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Pues en que es necesario que nombres tus padrinos… ¿Ya los tienes?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>No, pensaba nombrarte a ti… y a López…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Y a mí, por qué no?…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Pues por eso… Porque tú eres de la plana activa…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Bien… basta de ironías… Pues acepto… Esta noche nos veremos con López y los padrinos
+              de Ricardo… Y a ver en qué termina esto…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pues en una comida redonda… Porque, francamente, en estos casos el honor tiene que
+              defenderse de los duelos… ¡Está fresco el pobre con tales paladines!…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Vamos, vamos, Pérez… Eres incorregible…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Puesta está más fresco si eres tú el que lo defiende…</p>
+          </sp>
+          <pb n="179"/>
+        </div>
+        <div type="scene" n="7">
+          <head><emph>Escena VII</emph></head>
+          <stage><emph rend="italic">Dichos, Petrona y luego Benito</emph></stage>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(Desde afuera)</emph></stage>
+            <p>¿Se puede?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Adelante…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(Apareciendo)</emph></stage>
+            <p>Hay un joven preguntando por el señor Pérez…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Por mi?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Usted le dijo que estaba aquí?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Yo no… pero él sabe… y me dijo que le avisara que lo buscaban…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Pero no le ha dicho quién es?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Ah! Sí, dice que es el ordenanza del club…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Del club?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Ah… sí… es Benito… Ya voy…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>No te molestes… <stage type="inline"><emph rend="italic">(A Petrona)</emph></stage>
+              Que pase nomás… Condúzcalo aquí</p>
+            <stage><emph rend="italic">(Petrona sale).</emph></stage>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <stage><emph rend="italic">(A Pérez)</emph></stage>
+            <p>¿Qué ocurrirá?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Alguna pavada de Benito… Ya sabes cómo es…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¡Buen peine es el Benito ese!… <stage type="inline"><emph rend="italic">(Aparece
+                  Benito por derecha)</emph></stage></p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¡Con permiso!…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Adelante…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>El señor Pérez… ¡Ah! Buenas tardes…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Buenas tardes… ¿Qué hay de nuevo?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Este… que… ¿se puede hablar nomás?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Claro que se puede… Vamos a ver… ¿qué ocurre?…</p>
+          </sp>
+          <pb n="180"/>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>No, lo decía por si había oídos indiscretos… Como usted me ha recomendado tanto…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>No hay oídos indiscretos… Puedes hablar…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>No, es que sabe… La consigna es la consigna… Y yo he estado ocho años enganchado… y
+              sé lo que es una consigna…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Bueno, hombre… ¿Acabarás?… ¿Qué es lo que te trae por acá?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <stage><emph rend="italic">(Con desconfianza)</emph></stage>
+            <p>Que… al club, ¿sabe?… bueno… al bulín… han caído una punta de… niños… ¿sabe? Y a toda
+              fuerza se han instalado allí… y se han puesto a tocar el piano, y a bailar… y dicen
+              que se van a quedar a comer… Y como yo no tenía órdenes suyas…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No importa… Son amigos… Nos esperan… No te alarmes por eso… Ya lo sabía…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¡Ah! ¿Usted los había invitado?… Como no me dijo nada…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pero hombre… ¿Habrá que enterarte de todo, ahora?… Vete nomás… Y vigila que no hagan
+              daño…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Pierda cuidado…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¿Con que estaban de farra?… ¿eh? Y no decían nada…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No, de farra no… Teníamos una comida… y te íbamos a invitar, pero como estabas tan
+              preocupado con tu duelo…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¿Y quiénes son los que están?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Emilio y unos cuantos amigos…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¡Ah! Vea… se me olvidaba… Hay uno nuevo, ¿sabe?… vestido de mujer…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¡Cómo!… ¿Y quién es ese?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Un nuevo miembro de la cofradía… un socio nuevo… <pb n="181"/>
+              <stage type="inline"><emph rend="italic">(A Benito).</emph></stage> Vete nomás… Ya
+              estamos enterados…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Bueno… Con permiso ¿no? Y disculpen ¿no?… Pero como la consigna es la consigna… yo,
+              ¿sabe?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Bueno, hombre, bueno… Ya lo sabemos… Lárgate, nomás…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Con permiso… Y buenas tardes…</p>
+            <stage><emph rend="italic">(Se va).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head><emph>Escena VIII</emph></head>
+          <stage><emph rend="italic">Dichos, menos Benito</emph></stage>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Dices que un nuevo socio?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí; es una conquista de Emilio… “La Princesa de Borbón”…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¿El ratero ese?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>El mismo… Un lindo muchacho… Un efebo…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Pero un ratero…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Qué ratero ni ocho cuartos… Es un compañero… del vicio… Un digno cofrade… Y nuestro
+              pecado ya sabes que es eminentemente democrático…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>En fin… si no es un compromiso…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Por el contrario… Es muy reservado… Y un rico tipo…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¿Y dónde dice ese que están?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>En mi <term>garçoniere</term><note type="editor">domicilio de soltero aunque
+                referenciado en la literatura como espacio para encuentros amorosos o
+                sexuales</note>. Le llamamos el club, para disimular… pero es mi casa de soltero… Ya
+              la conocerás…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Bien… se nos está haciendo tarde… y convendrá que solucionemos esto del duelo…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Sí, mira… Acompáñame hasta la casa de López… Es en <pb n="182"/> la otra cuadra… Te
+              pones de acuerdo con él sobre la hora en que deben ver a los padrinos de Ricardo… y te
+              dejo libre…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Eso es… ¿vamos, Pérez?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No, yo no… Qué voy a hacer en lo de López. Te esperare aquí…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Aquí? ¿Solo?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí, así no te demoras…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Me parece bien… Será cuestión de diez minutos… Puedes entretenerte leyendo mi informe
+              sobre el caso de la calle Talcahuano… Aquí lo tienes…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Perfectamente…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Vamos? Hasta luego… Quedas en tu casa.</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Adiós… Sibarita… corrompido…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Adiós… sportsman… atrofiado… ja…ja…</p>
+            <stage><emph rend="italic">(Mutis de Flórez y Fernández por derecha).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head><emph>Escena<choice>
+                <sic>XI</sic>
+                <corr>IX</corr>
+              </choice><note type="editor">Error en el original impreso.</note>.</emph></head>
+          <stage><emph rend="italic">Pérez, luego Clara</emph></stage>
+          <stage><emph rend="italic">Pérez queda un momento solo, hojeando los papeles y como
+              leyendo sus párrafos. A poco entra Clara por izquierda. Va totalmente vestida, con
+              exquisito gusto.</emph></stage>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Apareciendo, sin darse cuenta de que el que está en la sala
+                no es su marido)</emph></stage>
+            <p>¿Te parece que me queda bien este vestido?… <stage type="inline"><emph rend="italic"
+                  >(Se mira a un espejo coquetamente. Pérez la observa con sorpresa un
+                  momento).</emph></stage></p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <stage><emph rend="italic">(Poniéndose de pie)</emph></stage>
+            <p>¡Le queda a usted encantadoramente!…</p>
+          </sp>
+          <pb n="183"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Eh!… ¡Ah!… Pérez… Discúlpeme… ¡Creí que era Flórez! ¡Qué inconveniencia, Dios mío!…
+              Si estoy loca… Discúlpeme, ¿no?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Por qué, Clara?… ¿Acaso no puedo yo también opinar sobre su elegancia?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No es por eso, precisamente… Pero mi pregunta… francamente… <stage type="inline"
+                  ><emph rend="italic">(Ríe).</emph></stage> Me imaginé que estuviera Flórez solo…
+              ¡Hace mucho tiempo que está usted aquí?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No… Apenas un cuarto de hora…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Y Flórez?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Salió con un amigo, para volver enseguida… Y yo le aguardaba…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿De manera que le ha dejado a usted solo?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Por lo visto no tanto… ¿Qué mejor compañía podía ofrecerme que la de usted?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero es que esta compañía es puramente ocasional…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Ocasional?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>O casual, si usted quiere… Porque supongo que no le habrá preparado mi marido este
+              encuentro…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No… pero me lo he preparado yo mismo… Hace tanto tiempo que busco y espero este
+              momento…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Para qué?… ¿Para repetirme lo que tantas veces me ha dicho, inútilmente?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Aunque más no sea que para eso… Se me ha hecho ya una necesidad el verla, el
+              hablarle, aunque, como usted lo dice, inútilmente… Y ¿qué quiere usted? Busco
+              satisfacer esa necesidad a pesar de su propia inutilidad… El náufrago también grita en
+              la soledad de su abandono, el socorro que nadie ha de oír… Pero no deja de ser un
+              consuelo para él su propio grito perdido…</p>
+          </sp>
+          <pb n="184"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Está usted poético, hoy…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Como siempre que la veo a usted, Clara… Creo habérselo dicho ya muchas veces… A pesar
+              de su estado, no obstante su amistad con Flórez, yo la quiero a usted, Clara… por
+              sobre todos los inconvenientes y los obstáculos… Y creo firmemente ser digno de
+              usted…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Por lo que se hace usted indigno de mi marido… de su amistad.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Tal vez… Si mi actitud entraña una ofensa para él… Pero… ¿acaso no es también él
+              indigno de usted?… ¿No lo ha visto usted misma en su abandono, en su frialdad, en su
+              desamor por la mujer que haría la felicidad y la gloria de otro hombre… en otras
+              condiciones?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Es posible que lo haya visto, por desgracia… Pero ello no puede hacerme faltar a mis
+              deberes…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Y llama usted deberes a los prejuicios!… Cree usted cumplir con una sagrada
+              obligación imponiéndose el sacrificio de sus sentimientos, de sus instintos, de su
+              juventud, de su belleza, en obsequio de un hombre que no siente esos deberes, ni se
+              impone esos sacrificios… ¿Qué mal denomina usted a su esclavitud y qué mal quiere
+              usted a sus derechos!…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No le negaré a usted que estoy esclavizada… como dice usted a mi resignación… pero
+              ¿me puede indicar usted cuáles son esos derechos que yo no quiero?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Los que en el fondo de su alma usted misma cree sentir, no obstante el disimulo de
+              sus palabras… Los que debe sentir usted a pesar de sus obligaciones, como mujer joven
+              aun, bella, ilustrada, pletórica de vida, de esperanzas y de ilusiones… Los que debe
+              sentir su amor propio herido y humillado por la indiferencia de un hombre que usted ha
+              amado o creído amar cuando su ingenuidad no <pb n="185"/> la había hecho experimentar
+              la verdadera pasión… La pasión que está usted hoy en la plenitud de sentir…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Va usted a concluir por convencerme…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Así lo espero, desde el momento en que usted medite un instante sobre su situación,
+              ame más la vida, se rebele a los escrúpulos que usted misma se impone y comprenda toda
+              la felicidad de un amor correspondido, pagado, gustado, que usted no ha podido gozar
+              jamás!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Y será usted quien me ofrezca toda esa dicha?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Yo, que la adoro…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>A pesar de… mi marido…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>A pesar de todo…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Y de mis hijos?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sus hijos no pueden impedirle a usted sus derechos a la vida… <stage type="inline"
+                  ><emph rend="italic">(Se arrima).</emph></stage> Sí, Clara… Correspóndame usted…
+              Ámeme usted… Solo, libre, joven, yo soy su redención, Clara… ¡Y mi amor, quizás, el
+              único medio que la libere a usted del naufragio total de su vida, a que la ha llevado
+              el matrimonio con un hombre indigno de usted e indigno del sacrificio inmenso que
+              usted le ofrece, gratuitamente!… <stage type="inline"><emph rend="italic">(Va a
+                  besarla).</emph></stage></p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Solloza y se deja abrazar)</emph></stage>
+            <p>Con sus palabras no hace usted más que envenenar más mi espíritu…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Yo lo endulzaré con mis besos, Clara!…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <stage><emph rend="italic">(Desde afuera)</emph></stage>
+            <p>Pérez… ¿estás ahí?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Ay!… Flórez…</p>
+            <stage><emph rend="italic">(Huye por izquierda).</emph></stage>
+          </sp>
+          <stage><emph rend="italic">Pérez va a sentarse serenamente donde estaba.</emph></stage>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Aquí estoy, hombre!…</p>
+          </sp>
+          <pb n="186"/>
+        </div>
+        <div type="scene" n="10">
+          <head><emph>Escena<choice>
+                <sic>10</sic>
+                <corr>X</corr>
+              </choice><note type="editor">Error en el original impreso.</note>.</emph></head>
+          <stage><emph rend="italic">Pérez y Flórez</emph></stage>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <stage><emph rend="italic">(A Flórez, que aparece)</emph></stage>
+            <p>¡Cómo!… ¿Tan pronto?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí… no lo encontramos… Y hemos quedado con Fernández en vernos en el Club de esgrima
+              a las doce… ¿Qué tal?… ¿Qué te parece el informe?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Admirable!… ¡Muy interesante!…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Verdad?… Es mi opinión leal y franca… ¿Has leído ese párrafo sobre el determinismo
+              hereditario?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Si; muy original…</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head><emph>Escena XI</emph></head>
+          <stage><emph rend="italic">Dichos, Clara, Julián y Lola</emph></stage>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Desde afuera por izquierda)</emph></stage>
+            <p>¿Se puede?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Adelante</p>
+          </sp>
+          <stage><emph rend="italic">Entra Clara seguida de Julián y Lola, de 14
+            años.</emph></stage>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Buenas noches… ¿Cómo está usted, Pérez?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>A sus órdenes… Señora…</p>
+          </sp>
+          <sp who="#lola #julian">
+            <speaker>Lola y Julián:</speaker>
+            <p>Buenas noches, señor Pérez…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Cómo están?</p>
+            <stage><emph rend="italic">(Saludos con Julián y Lola).</emph></stage>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Ya se van?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Ya… Se nos ha hecho tarde… ¿Tú vas a quedarte mucho tiempo acá todavía?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>No; un momento nomás… Nos vamos con Pérez…</p>
+          </sp>
+          <pb n="187"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Bueno… Hasta luego, entonces…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Adiós, señor Pérez…</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>Adiós, señor… Hasta luego, papá…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Hasta luego…</p>
+            <stage><emph rend="italic">(Flórez sale primero hasta la puerta, dando la espalda a
+                Pérez)</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Adiós, Pérez…</p>
+            <stage><emph rend="italic">(Le da la mano que Pérez besa con fruición a espaldas de
+                Flórez. Salen por derecha Clara, López y Julián).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head><emph>Escena XII</emph></head>
+          <stage><emph rend="italic">Pérez y Flórez</emph></stage>
+          <stage><emph rend="italic">Pérez queda un instante en el escritorio en la misma posición
+              de antes. Entra Flórez.</emph></stage>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Quedamos solos… Y ahora… la luz estorba… <stage type="inline"><emph rend="italic">(Va
+                  a la llave del plafonier y lo apaga. La escena queda solamente iluminada por la
+                  tenue luz verde de la lámpara que está sobre la mesa).</emph></stage> ¡Oh!… La
+              luz… ¡Qué extraño efecto tiene en mi la luz!… <stage type="inline"><emph rend="italic"
+                  >(Va a la ventana y la abre de par en par. Por ella se ven afuera las luces de los
+                  edificios).</emph></stage> Y que entre ahora la noche… la noche con todo su
+              misterio… con toda su sombra… ¿Qué lees?… ¿Mi informe?… <stage type="inline"><emph
+                  rend="italic">(Se acerca por detrás a Pérez. Inmutado totalmente como si sufriera
+                  en ese instante una rara metamorfosis del carácter. Leyendo por sobre el hombro de
+                  Pérez).</emph></stage> “La noche parece infundirles una nueva vida, como si en el
+              misterio de su sombra se operara en sus organismos una transfusión milagrosa del sexo.
+              Son, entonces mujeres, como en el día han sido hombres”. <stage type="inline"><emph
+                  rend="italic">(Toma la cabeza de Pérez entre sus dos manos, acerca su boca a la de
+                  aquel, con la intención de besarlo. Entre tanto cae el telón).</emph></stage></p>
+          </sp>
+          <pb n="188"/>
+        </div>
+      </div>
+      <div type="act" n="2">
+        <head><emph rend="bold">Acto Segundo</emph></head>
+        <stage><emph>Decoración: sala de una garçoniere elegante. Puertas al foro derecha. A la
+            izquierda, especie de apartament con un piano, divanes, confidentes, etc. En la lateral
+            izquierda, puerta que se supone conduce a un dormitorio. En la sala, lujoso juego de
+            sillas tapizadas, gran consola con espejo y útiles de belleza, rizadores, polveras,
+            pinturas, etc. Todo el aspecto de la sala debe ser el de un camarín de artista de buen
+            tono. El alumbrado, fuera del plafonier, debe ser compuesto por brazos eléctricos con
+            lámparas de colores, azules, rojas, etc. Es de noche.</emph></stage>
+        <div type="scene" n="1">
+          <head><emph>Escena I</emph></head>
+          <stage><emph rend="italic">Emilio, Princesa y Juanita</emph></stage>
+          <stage><emph rend="italic">Al levantarse el telón, aparecerá Juanita, un jovenzuelo de 20
+              años, de bello rostro y rasgados ojos, sentado al piano, ejecutando un tango. En
+              escena Emilio, tipo de sinvergüenza elegante y Princesa de Borbón, otro invitado,
+              bailando la danza con extremados movimientos. Pausa larga. La Princesa viste de mujer
+              elegantemente, afectando todos los movimientos de una dama.</emph></stage>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <stage><emph rend="italic">(Con exagerada voz femenina)</emph></stage>
+            <p>No, che… así no me gusta. Vos lo bailás muy a lo negro, che… más elegante, más fino…
+                <stage type="inline"><emph rend="italic">(Al que toca).</emph></stage> ¡Che,
+              Juanita!… ¡Tocalo más lentamente!…</p>
+            <stage><emph rend="italic">(Así dan algunas vueltas).</emph></stage>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>¿Así, te gusta?…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¡Ay!… Así, así concibo yo el tango… Lentamente, voluptuosamente… más voluptuoso,
+              cuanto más lento… Y el corte delicado, sutil, apenas insinuado… No esas compadradas
+              brutales de los malevos… ¿Y a vos, che, Juanita?…</p>
+          </sp>
+          <pb n="189"/>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <stage><emph rend="italic">(Saliendo del piano)</emph></stage>
+            <p>Para mí es lo mismo… Eso depende del hombre con quien lo baile… ¿No te parece,
+              Emilio?… El tango es el hombre, dirían los romanos si hubieran sabido bailar el tango…
+              ¿No es verdad?…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Tenés razón… Pero éste, delicada flor de invernáculo, prefiere lo suave a lo
+              vehemente, lo sutil, a lo instintivo… Vos, en cambio…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Yo, en cambio, estoy por lo verdaderamente varonil… lo violento, lo expresivo, hasta
+              lo grosero… ¡Ay!</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¡Ay!… ¡Quien hubiera nacido mujer! Decí mejor…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>No se quejen… que no tienen razón… Al fin y al cabo mejor que ser hombre o mujer
+              solamente, es ser las dos cosas a la vez, y ustedes no se pueden quejar…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Qué Emilio este… <stage type="inline"><emph rend="italic"
+                >(Abrazándolo).</emph></stage> Mi maridito… Emilio…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Avisá, che… Este es mío… ¿qué te has creído…? <stage type="inline"><emph
+                  rend="italic">(Lo abraza).</emph></stage></p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Vamos, vamos… déjense de pavadas… porque me parece que estamos perdiendo el tiempo
+              aquí… Son las nueve y Pérez sin llegar… Y yo tengo un hambre…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¿Y yo?…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¿Por qué no le preguntamos a Benito? El debe saber a dónde ha ido su patrón…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Eso es, llámenlo…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Che… Benito… Benito… Vení un momento…</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head><emph>Escena II</emph></head>
+          <stage><emph rend="italic">Dichos y Benito</emph></stage>
+          <pb n="190"/>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <stage><emph rend="italic">(Aparece por foro)</emph></stage>
+            <p>¿Qué les pasa?</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Decinos, ¿vos no sabes dónde estará Pérez?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>A mí no me dice nunca donde va… ni yo se lo pregunto tampoco…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Pero ¿no sabes si vendrá o no?… Hace más de una hora que lo estamos esperando…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Yo no sé… Si no lo saben ustedes…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>¡Vamos!… ¡Vamos!… ¿Qué manera de contestar es esa?… Contesta a lo que te preguntan de
+              buenas maneras y te callas la boca en lo que no te importa…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¡Epa!… Supongo que ahora no se creerá usted también mi patrón…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Yo no soy tu patrón… pero puedo hacer que tu patrón sepa darte el castigo que
+              mereces… Y basta… Vamos a ver… ¿a dónde ha ido Pérez?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>No le digo que no sé…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¿No sabes si anda con Flórez?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Con él anda todos los días…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>¡Ah!… Entonces ya sé dónde está… Debe haber ido al duelo de Fernández…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¿Era testigo él?…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>No… Pero habrá ido de mirón… Flórez es uno de los padrinos… <stage type="inline"
+                  ><emph rend="italic">(A Benito).</emph></stage> Andá, nomás… ya no te precisamos…
+                <stage type="inline"><emph rend="italic">(Benito sale).</emph></stage> Tipo más
+              insolente éste…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Como Pérez le ha dado tanta banca, haciéndolo su confidente… se ha puesto
+              inaguantable…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¿Pero entonces se baten nomás Ricardo y Fernández?</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Sí. La cosa va de veras… Deben batirse mañana temprano en La Plata… y, precisamente,
+              deben irse esta noche en el tren de la diez…</p>
+          </sp>
+          <pb n="191"/>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Entonces, con razón no llega Pérez… Irá él también…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Es lo más probable…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Pues, entonces, no hay más que una solución.</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¿Cuál?…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Irnos a la estación y traérnoslo a Pérez…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>No, para eso nos vamos a la Policía y denunciamos el duelo… Y así matamos dos pájaros
+              de un tiro… Evitar el lance y hacer quedar a los muchachos…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Tres pájaros… Porque con ellos, tenemos programa esta noche…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¡Magnífico!… Vamos entonces… Que no hay tiempo que perder…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Che… ¿No te parece que me haga la toalet y les demos una sorpresa?…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>No hombre, no… Dejate de locuras… Hay que ser prudente… Además tenemos el tiempo muy
+              contado… Iremos en auto… <stage type="inline"><emph rend="italic">(A
+                Juanita).</emph></stage> Mandalo vos a Benito que traiga un taxi…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Che, Benito… Llamanos un taxi…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Mientras llega el coche me voy a arreglar un poco <stage type="inline"><emph
+                  rend="italic">(se va al espejo y empieza a pintarse los ojos, labios,
+                  etc.).</emph></stage></p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Y yo voy a hacer lo mismo… Con el bailoteo me he despintado toda… <stage
+                type="inline"><emph rend="italic">(Viéndose frente al espejo).</emph></stage>¡Ja ja…
+              che!… ¡Qué ridículo!… ¡Fijate!… Parezco una de esas chinas endomingadas… se me ha
+              chorreado todo el carmín…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>No te vas a exagerar el maquillaje… Porque ya sabes que a Flórez no le gusta eso…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¡Bah! Y a mí qué me importa de Flórez… El hombre serio… ¡Hipócrita!… No hace más que
+              andar disimulando <pb n="192"/> con su aspecto de sabio en conserva una cosa que todo
+              el mundo sabe… ¡Rico tipo el Flórez ese!… Yo, ya hace tiempo que tiré la
+              chancleta!…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Pero tiene razón, hombre… Es un individuo de posición social, de vinculaciones,
+              casado, con hijos… ¿Qué querés?… ¿que ande como vos por la plaza Mazzini o los kioscos
+              de la calle Callao, buscando aventuras?…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Che…che… Ya te pasaste… Yo no ando por la plaza Mazzini…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Tiene razón, Juanita… Se es o no se es… Para qué tanta hipocresía… Yo también he
+              tirado la chancleta.</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¡Personaje social! ¡Bah!… ¿Y Nerón? ¿No era emperador y salía de noche a buscar
+              hombres por la Vía Apia?… <stage type="inline"><emph rend="italic"
+                >(Transición)</emph></stage> A mi me gustaría eso, che… qué querés… ¡Qué tiempos
+              aquellos! ¡Quién fuera Heliogábalo, que entró triunfalmente en Roma montado en un
+              enorme falo de mármol negro… así, che… Así… como un cilindro de yerba…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¡Ja, ja!… Qué Juanita esta… ¡más corrompida!…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¡Y vos!… ¡Flaca descalabrada!…</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head><emph>Escena III</emph></head>
+          <stage><emph rend="italic">Dichos y Benito</emph></stage>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <stage><emph rend="italic">(Por foro)</emph></stage>
+            <p>Ahí está el auto…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Bueno, vamos, muchachos… ¡Pero con orden, eh!… No sea el diablo que nos lleven
+              presos…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Vamos…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Vamos…</p>
+          </sp>
+          <pb n="193"/>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Del brazo… Como las grisettes de París <stage type="inline"><emph rend="italic">(Se
+                  toman del brazo de Emilio y salen cantando una canzoneta).</emph></stage> Hasta
+              luego, Benito.</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¡Ah!, che… Si llegara a venir Pérez decile que hemos estado nosotros… Y que
+              volveremos… Chao <stage type="inline"><emph rend="italic">(Mutis
+              foro).</emph></stage></p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <stage><emph rend="italic">(Solo. Viéndoles irse)</emph></stage>
+            <p>¡Pedazos de maricones!… ¡Y vean cómo me dejan esto!… <stage type="inline"><emph
+                  rend="italic">(Se pone a arreglar los muebles de la sala. Cierra el piano y
+                  finalmente apaga la luz del plafonier. Cuando va a salir por foro entra
+                  Pérez).</emph></stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head><emph>Escena IV</emph></head>
+          <stage><emph rend="italic">Benito y Pérez</emph></stage>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <stage><emph rend="italic">(Entrando)</emph></stage>
+            <p>Benito…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¡Señor!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Estás solo?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Sí, señor…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Quiénes eran esos que acaban de salir en un automóvil?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Ese amigo suyo, don Emilio; otro que le llaman Juanita y el otro… Estuvieron
+              esperándolo y como no venía se fueron…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿No sabes si volverán?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Sí, dijeron que iban a volver más tarde y que le avisara a usted…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Bueno, mirá… Yo voy a hacer entrar a una dama aquí ahora, ¿entiendes?…</p>
+          </sp>
+          <pb n="194"/>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Sí, señor…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Bien; es necesario que no te vean, para lo cual no debes aparecer para nada por aquí…
+              Y si vienen esos que acaban de irse o cualquier otro… les dices que yo no estoy y que
+              no tienes orden de dejarlos pasar… Cierra la puerta…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Es que tienen llave…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Quién tiene llave?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>El señor Flórez tiene… ese otro señor Emilio también…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Es verdad… Bueno… Flórez no vendrá porque ha ido a La Plata y en cuanto a Emilio, no
+              me lo dejas entrar… Ya sabes… No estoy para nadie… ¡Ah!… Diles nomás que he ido a La
+              Plata también con Flórez…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Muy bien, señor… <stage type="inline"><emph rend="italic">(Suena un
+                timbre).</emph></stage></p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Llaman?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Sí, señor…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>A ver… <stage type="inline"><emph rend="italic">(Sale afuera y entra).</emph></stage>
+              Ahí está… Bueno, vete al fondo… Conforme entre, cierras la puerta… Vamos hombre…
+              apúrate… <stage type="inline"><emph rend="italic">(Salen por foro).</emph></stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head><emph>Escena V</emph></head>
+          <stage><emph rend="italic">Pérez y Clara</emph></stage>
+          <stage><emph rend="italic">Aparece a poco Pérez por foro seguido de Clara. Esta entra casi
+              totalmente oculta la cara por la capa. Pasa con temor y desconfianza. Pérez la trae de
+              la mano.</emph></stage>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Aquí no hay temor… Estamos absolutamente solos… <stage type="inline"><emph
+                  rend="italic">(Cierra la puerta).</emph></stage></p>
+          </sp>
+          <pb n="195"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿No hay sirvientes, ninguna otra gente que pueda?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Nadie absolutamente, mi bien… Tengo un solo criado y a ese lo he licenciado por hoy…
+              Pero descúbrase… descanse… <stage type="inline"><emph rend="italic">(La ayuda a
+                  quitarse la capa y el sombrero. Clara observa con recelo los detalles de la
+                  escena).</emph></stage> Aquí ya no debe haber otro misterio que el de nuestro
+              amor… <stage type="inline"><emph rend="italic">(Se sienta a su lado y le toma las
+                  manos que besa con pasión).</emph></stage> Estas agitada, trémula…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí… siento no sé qué extraño escalofrío… Y he sufrido más en el segundo que tardé en
+              transponer el umbral de la puerta que en toda la lucha de ideas y de dudas que sostuve
+              por el camino…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Pobre amor mío!... Lo creo… Y no hay duda que por mi espíritu mismo, más libre, más
+              acostumbrado a su propia voluntad que el tuyo, pasa algo parecido… Una especie de vaga
+              ansiedad.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>El pecado es cobarde…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No, no hay pecado donde hay amor, Clara… Di más bien que es el momento, este instante
+              de suprema felicidad tanto tiempo esperado, anhelado, entre la duda y el miedo… Di,
+              dime que me quieres mucho, con toda tu almita, virgen todavía de un sentimiento
+              verdaderamente hondo, y profundamente sincero…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí, Pérez… Se lo he dicho ya… El hecho mismo de arrostrar este momento se lo puede
+              confirmar… Pero tengo miedo… No estoy tranquila…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pero, ¿de qué?… ¿Dudas de la verdad de mi cariño, de la sinceridad de mi
+              ternura?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No… No dudo… Pero, no sé… soy tan cobarde… Me parece que va a entrar Flórez, por ahí…
+              que me miran mis hijos, que todo el mundo me ha visto llamar a la <pb n="196"/> puerta
+              y entrar en esta casa, rara, sí, porque la encuentro rara, con todas esas cosas tan
+              femeninas… En verdad, Pérez, dígamelo… ¿qué es esto?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Es mi casa, Clara… Mi garçoniere, como dicen los franceses… Aquí no entra nadie más
+              que yo, y todo eso que te parece tan femenino no es más que el refinamiento con que me
+              gusta vivir, haciéndome la ilusión de que, solo y triste, hay en esta casa de soltero,
+              un espíritu femenino, delicado y culto, como el tuyo, que todo lo ordena, lo dispone y
+              lo rige…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero… ¿aquí vienen otras mujeres?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Mujeres? No, mi bien… Absolutamente nadie y ésta es la primera vez que ese espíritu
+              que la gobierna se encarna en tu cuerpo, admirable, de belleza y de amor…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Gracias, Pérez… Pero… qué extraño… qué miedo tengo…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Es la agitación… No tengas cuidado… Vas a reanimarte con una copita de Chartreuse… ¿o
+              prefieres champagne?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No… Chartreuse no más…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Bien.</p>
+            <stage><emph rend="italic">(Vase al foro izquierda y saca de una mesita que habrá allí
+                una botella de Chartreuse con el que servirá dos copas. Entre tanto, Clara se
+                paseará por la sala examinando los muebles. En la consola observará los lápices de
+                pintura y demás chucherías que usaron Juanita y Princesa, con evidente
+                inquietud).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Qué raro!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Toma… esto te hará bien; te reanimará un poco… Ven… aquí… los dos juntos… Ya tendrás
+              ocasión de familiarizarte con esta casa que encuentras tan extraña, porque es la
+              primera vez que la visitas… Pero vendrás, vendrás otras veces, ¿verdad?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Para tomar la copa se ha quitado los guantes que habrá <pb
+                  n="197"/> dejado sobre la mesita. Devolviendo la copa).</emph></stage>
+            <p>Gracias… Sí… tal vez… </p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Te sientes mejor?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí… Reanima algo esto…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Más te reanimarás todavía al calor de mis ternuras… ¿verdad?… ¿Ya no sientes
+              miedo?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Discúlpeme, Pérez… Flórez ¿viene también a esta casa?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí… algunas veces a buscarme… ¿Pero a qué recordar a Flórez?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Como nunca me ha dicho nada de esto!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Es tan poco confidencial contigo, Flórez…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y esta noche… ¿no vendrá?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No… Cómo va a venir… Si está en La Plata… El duelo tendrá lugar mañana en las
+              primeras horas… y además, aunque no estuviera allí, a mi casa solo viene conmigo… Por
+              eso he aprovechado este día para citarte aquí… Por mi parte he hecho creer a todo el
+              mundo en un viaje… de manera que jamás se podrá sospechar de nada… No temas, mi bien…
+              Olvídate por un momento de todo y ten en cuenta que solo estas con el hombre que te
+              quiere con toda tu alma y en el momento mismo en que con él vas a entregarte por
+              completo a la dicha del amor y del placer, que, acaso, es la única razón de vivir la
+              vida… Descúbrete Clarita… <stage type="inline"><emph rend="italic">(La empieza a
+                  desnudar mientras la cubre de besos).</emph></stage> Así, así…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pérez… ¡Por favor!</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Todavía, todavía recelas <stage type="inline"><emph rend="italic">(Poniéndose de pie
+                  y yendo a la llave de las lámparas de colores).</emph></stage> Es la luz, la luz
+              perversa y acusadora…</p>
+            <stage><emph rend="italic">(Da vuelta la llave, con lo que se apaga el plafonier y se
+                encienden las de colores quedando la sala iluminada extrañamente).</emph></stage>
+          </sp>
+          <pb n="198"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Qué es eso?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Es la luz del amor… la luz buena que no denuncia y que no acusa… la luz del placer… Y
+              ahora, mi bien, a mis brazos… a la dicha</p>
+            <stage><emph rend="italic">(Confunde su boca con la de Clara, cuando el rumor de una
+                discusión se oye afuera por la parte del foro. Clara salta
+              sorprendida).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Eh!… ¿Qué es eso?… <stage type="inline"><emph rend="italic">(La discusión
+                  arrecia).</emph></stage></p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <stage><emph rend="italic">(Confuso)</emph></stage>
+            <p>No sé… no sé… francamente… Tal vez el sirviente…</p>
+            <stage><emph rend="italic">(Observa por la puerta sin abrirla. Se oye más clara la
+                discusión, como si pretendieran entrar).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Con energía)</emph></stage>
+            <p>¡Pérez!… ¿A dónde me ha traído usted?… ¿Qué casa es esta?… ¿Qué discusión es
+              esa?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No sé, Clara… No me explico… Iré a ver…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No… Antes ocúlteme usted… Usted me ha engañado… <stage type="inline"><emph
+                  rend="italic">(Se oyen golpes y voces en la puerta).</emph></stage> ¡Ligero, por
+              Dios!… ¡Pronto!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <stage><emph rend="italic">(Duda un momento)</emph></stage>
+            <p>Sí… venga usted Clara… Y perdóneme… ¡Quién sabe!… Por aquí, por aquí…</p>
+            <stage><emph rend="italic">(La conduce por izquierda).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Mi sombrero y mi capa…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Aquí… Aquí están.</p>
+            <stage><emph rend="italic">(Clara entra por la puerta izquierda, que cierra detrás de
+                sí. Pérez queda confundido en la escena, cuando entran a ella Juanita, Emilio, La
+                Princesa de Borbón y Benito discutiendo).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head><emph>Escena VI</emph></head>
+          <stage><emph rend="italic">Pérez, Benito, Juanita, Emilio y la Princesa de
+            Borbón</emph></stage>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Les digo que no está el patrón…</p>
+          </sp>
+          <pb n="199"/>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Es lo mismo… Pedazo de bruto o no entendés… ¡Qué rico tipo!… <stage type="inline"
+                  ><emph rend="italic">(Al ver a Pérez).</emph></stage> ¡Hola!… No ven muchachos…
+              Aquí está el hombre.</p>
+          </sp>
+          <sp who="#perez #benito #juanita #emilio #princesa">
+            <speaker>Todos:</speaker>
+            <p>Hola, Pérez, etc…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Qué es eso?… ¿Qué escándalo es ese?…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Nada, hombre… Si no que este pedazo de animal, que cada día está más bruto, no nos
+              quería dejar entrar…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Como el señor me ordenó…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Bueno, basta… Vete al fondo nomás… <stage type="inline"><emph rend="italic">(Mutis de
+                  Benito).</emph></stage></p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>¡Ah! Pillo, ¿con que vos le habías ordenado?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí, yo se lo ordené, porque no tenía deseos de recibir a nadie hoy… Y ustedes bien
+              podían haber tenido la prudencia de no entrar…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>¡Hombre! Si nos hubiera dicho la verdad no habríamos tenido inconveniente, no
+              prudencia… Pero el imbécil ese nos dijo que no estabas y veníamos a esperarte…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Y no les dijo que yo estaba en La Plata?…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Sí… pero como el duelo no se efectúa y nos hemos visto con los demás sabíamos que tu
+              viaje era un cuento…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Eh!… ¿No se efectúa el duelo?…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>No, nosotros lo hemos impedido…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pero ¿Y éste?… ¿qué viene a hacer éste aquí y así?…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>¡Hombre! ¿Te extraña?… ¡Pues está rico esto!… ¿Será la primera vez que viene
+              así?…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¡Jesús! ¿Qué ocurrencia?… Antiguos camaradas de colegio… ¿No te acuerdas cuando
+              estábamos en el internado?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Bueno, hombre, basta, basta… La culpa la tengo yo… ¿Y se puede saber a qué
+              vienen?…</p>
+          </sp>
+          <pb n="200"/>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Pero ¿qué es eso, Pérez? ¿Qué te pasa?… ¿Acaso no venimos todas las noches?… ¡Hombre,
+              te encuentro raro hoy!</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí… sí… Estoy con dolor de cabeza… y quiero acostarme… Hagan el favor… váyanse…
+              mañana nos veremos…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¿Que nos vayamos?… ¡Por qué!… Te acompañaremos, no faltaba más… Ahora vendrá Flórez
+              también… Y él te curará…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Te quieres callar, imbécil?…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¡Eh!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <stage><emph rend="italic">(Un instante)</emph></stage>
+            <p>¿Dicen ustedes que vendrá Flórez?…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Sí… ha ido hasta la comisaría con Fernández… Pero vendrá en seguida… ¿Por qué?…
+              ¿También te parece raro que venga?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No sé… Pero háganme el favor: váyanse, váyanse… porque de lo contrario los haré irse
+              yo…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>No te enojes, hombre… Si no es para tanto… pero, verdaderamente, aquí hay algo de
+              extraño…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Claro… Aquí hay gato encerrado… ¿No ven?… ¿No se han fijado?… La luz verde… Nuestra
+              luz…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>¡Acabáramos!… Con razón, tu afán por echarnos… ¿Tienes alguna bolada?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Pero no entienden?… ¿No les he dicho que se vayan?… ¿Cómo quieren que se los
+              diga?…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¡Adiós, mi plata!… Conque tenemos infidelidades, ¿eh?… Ya verás cuando lo sepa
+              Flórez…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Pero te quieres callar pedazo de estúpido <stage type="inline">(Va sobre
+                él).</stage>!</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Pero, che… ¡Estas loco!… ¿Me vas a pegar ahora?…</p>
+          </sp>
+          <pb n="201"/>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <stage><emph rend="italic">(Encontrando los guantes)</emph></stage>
+            <p>Aquí está!… Aquí está el cuerpo del delito… ¡Y son de mujer!…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>¿A ver?… ¡Claro!… ¡Mujer!… Ahora me explico…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Dame eso… dame eso, o no respondo de mí… Y váyanse… váyanse… o los echo a patadas de
+              aquí… Háganme el favor…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>No… no… primero tenemos que conocer a la dama… que salga… ¡que salga la dama!…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <stage><emph rend="italic">(Coreando)</emph></stage>
+            <p>¡Sí, que salga! ¡Que salga!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Váyanse… les digo… váyanse… <stage type="inline"><emph rend="italic"
+                  >(Llamando)</emph></stage> Benito… Benito…</p>
+          </sp>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>Bueno, hombre… bueno… nos iremos. Vamos, muchachos… Dejémoslo solo al hombre con su
+              prenda…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <stage><emph rend="italic">(Entrando)</emph></stage>
+            <p>Señor…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Acompaña a esos… señores a la calle…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>¿También esto?… Nos hace echar… ya verás… Ya verás… Se lo contaré todo a…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Pts!… ¡Basta, basta, basta!… ¡Váyanse!…</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head><emph>Escena VII</emph></head>
+          <stage><emph rend="italic">Dichos, Flórez y Fernández</emph></stage>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <stage><emph rend="italic">(Entrando seguido de Fernández)</emph></stage>
+            <p>Buenas noches… ¿Detenida?…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <stage><emph rend="italic">(Provocativo)</emph></stage>
+            <p>Aquí está Flórez… Ahora… échanos a todos…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¿Qué es eso?… ¿Hay cuestión hoy?…</p>
+          </sp>
+          <pb n="202"/>
+          <sp who="#emilio">
+            <speaker>Emilio:</speaker>
+            <p>No, nada… sino que Pérez no está esta noche de humor para recibir visitas… y
+              galantemente nos pide que lo dejemos solo…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Sí, galantemente… a patadas…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <stage><emph rend="italic">(A Pérez)</emph></stage>
+            <p>Sí, ¿estás descompuesto?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí… un poco de dolor de cabeza… Me iba a acostar… y les pedía que me dejaran solo… Y
+              no entienden… no entienden…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Tienen razón… Cómo te van a dejar solo, enfermo… Ahora te acompañaré yo… No se ha
+              podido realizar el duelo y tengo toda la noche disponible… En casa me creen en La
+              Plata…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Muchas gracias… Carlos… pero quiero estar solo… necesito estarlo…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Mejor acompañado dirás… aquí está la prueba… ¡Un par de guantes de mujer!…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¡Eh!…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Sí… tiene una dama encerrada y le estorbamos…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Una dama?... ¿Verdad, Pérez?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí… es verdad… ya que lo exigen, pero váyanse… Háganme el favor… Estoy en mi
+              casa…</p>
+          </sp>
+          <stage>Flórez queda un momento confundido. Luego parece reaccionar, cuando le acosan
+            Juanita y La Princesa, mostrándole la luz y los guantes.</stage>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <stage><emph rend="italic">(Intrigante)</emph></stage>
+            <p>¿No ve, Flórez, no ve?… Hemos encontrado estos guantes aquí, y a él encerrado…</p>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Y con la luz de colores, encendida… En pleno idilio…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>¡Che, pero es verdad!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <stage><emph rend="italic">(Le habla al oído a Fernández y éste hace un gesto de
+                comprensión).</emph></stage>
+            <p>Sí… es verdad… Compréndame…</p>
+          </sp>
+          <pb n="203"/>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <stage><emph rend="italic">(Trémulo de celos)</emph></stage>
+            <p>¿Y no se puede ver a… esa… señora?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No…</p>
+          </sp>
+          <sp who="#fernandez">
+            <speaker>Fernández:</speaker>
+            <p>Vamos, Flórez… vamos… Quiere estar solo… Mientras medien mujeres en estas cosas
+              estamos de más…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Perfectamente… Vamos…</p>
+            <stage><emph rend="italic">(Hace un gesto de terrible lucha interior y sale
+                precipitadamente seguido de Fernández).</emph></stage>
+          </sp>
+          <sp who="#princesa">
+            <speaker>Princesa:</speaker>
+            <p>Adiós, infiel… ¡adúltero!…</p>
+          </sp>
+          <sp who="#juanita">
+            <speaker>Juanita:</speaker>
+            <p>Cómo me encantan estas escenas de celos… vamos, Luisita.</p>
+            <stage><emph rend="italic">(Salen del brazo).</emph></stage>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <stage><emph rend="italic">(Furioso a Benito)</emph></stage>
+            <p>Pedazo de imbécil… Vete… cierra la puerta… ¡cretino!</p>
+            <stage><emph rend="italic">(Benito se va por foro).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head><emph>Escena VIII</emph></head>
+          <stage><emph rend="italic">Pérez, luego Clara</emph></stage>
+          <stage><emph rend="italic">Por un momento Pérez queda como anonadado por el conflicto.
+              Luego reacciona. Va hasta la puerta. Se cerciora de que los otros han salido y corre a
+              la izquierda</emph></stage>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Clara… Clara…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Se han ido ya?…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí… perdóneme… una imprudencia del sirviente…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Basta!… No necesito explicaciones… ¡Es usted un canalla!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pero, Clara…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Basta, le he dicho… ¿Por quién me ha tomado usted? Degenerado… He oído todo… He visto
+              todo… ¡Puerco!…</p>
+          </sp>
+          <pb n="204"/>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Clara… voy a explicarle…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No necesito… Déjeme usted pasar…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Puede verla Flórez…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡No me importa!… ¡Déjeme salir!…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pero escúcheme, Clara… No he podido impedir…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Déjeme paso le he dicho!… ¡Asqueroso!… </p>
+            <stage><emph rend="italic">(Le pega una bofetada y sale precipitadamente por foro, casi
+                sollozando. Pérez queda como petrificado por la sorpresa).</emph></stage>
+          </sp>
+          <stage>Telón.</stage>
+        </div>
+      </div>
+      <div type="act" n="3">
+        <head><emph rend="bold">Acto Tercero</emph></head>
+        <stage><emph>La misma decoración del Acto Primero.</emph></stage>
+        <div type="scene" n="1">
+          <head><emph>Escena I</emph></head>
+          <stage><emph rend="italic">Clara y Petrona</emph></stage>
+          <stage><emph rend="italic">Clara, sola, junto al escritorio revisa, de pie, una carpeta de
+              papeles. A poco aparece Petrona trayendo una bandeja con una taza de
+            té.</emph></stage>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Aquí lo tiene… calentito. <stage type="inline"><emph rend="italic">(Revuelve con la
+                  cucharilla y prueba).</emph></stage> Está bien dulce, como le gusta…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Dejalo ahí…</p>
+            <stage><emph rend="italic">(Sin mirarla).</emph></stage>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Ay! Fíjese… ¡Jesús!… <stage type="inline"><emph rend="italic">(Recogiendo algunos
+                  papeles que han caído).</emph></stage> Y luego que el señor no se enoje…</p>
+          </sp>
+          <pb n="205"/>
+          <stage><emph rend="italic">Clara se deja caer negligentemente, como preocupada, sobre el
+              sofá.</emph></stage>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Se le enfría…</p>
+            <stage><emph rend="italic">(Acercándole el té).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Llévatelo.</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Qué… ¿No lo toma áura?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Ya se me ha pasado la gana…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Vaya!… Ta güeno… Pa qué irá a hacérmelo hacer entonces… </p>
+            <stage><emph rend="italic">(En actitud de marcharse).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Espérate… Quiero preguntarte algo.</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Y diga…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero has de ser franca, completamente franca conmigo…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Me parece que siempre lo he sido. En eso no va a desconfiar de mí, creo.<stage><emph
+                  rend="italic">(Deja el té sobre la mesa, como disponiéndose a
+                escuchar).</emph></stage>Y diga, pues. Vamos a ver.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No sabría explicarme bien… Tal vez sean aprensiones mías… No sé; pero tengo una duda
+              que me trae intranquila. Y sobre eso quería interrogarte. Tú conoces a Carlos tanto
+              como yo, más que yo tal vez: lo has tratado desde niño…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>De raro, nada… Al menos que yo sepa…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Antes… Antes no sería así, ¿no?… Claro…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿Así, cómo?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Digo… tan raro… A veces tan extraño…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Natural… Antes-antes no, claro.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Cuando mozo, ¿verdad?</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Ni cuando mozo ni cuando chico. Pero no es de ahora que está cambiando… Ha ido
+              cambiando con la vida, como cambiamos todos… Como usted, como yo, bah!… Serio, sí,
+              siempre lo ha sido.</p>
+          </sp>
+          <pb n="206"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Tú recuerdas de él cuando muchacho?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Como pa no recordar! Esas cosas no se olvidan… Y cuanto más que yo, puede decirse,
+              lo crié, usté sabe… Sabía ser una monada por lo cariñoso y correcto… La finada, que
+              Dios tenga en su santa gloria, tenía una adoración ciega por él… Y lo mismo cuando
+              mozo: lo más serio, lo más atento era. A mí entonces me sabía querer mucho. Y hasta me
+              respetaba, pa qué voy a decir…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Qué vicios tenía cuando muchacho?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿Vicios?… ¡Ah, malhaya! ¡Ojalá y que todos fueran como él!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Digo… vicios de jóvenes… En fin: gastador, paseandero… mujeriego… esas pavadas.</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Qué esperanza… ¡De adónde! Al contrario, si a la edá en que los mocitos de hoy en día
+              ya están cansados del café y de las carreras <stage type="inline"><emph rend="italic"
+                  >(Es un decir),</emph></stage> o de andar atrás de las malas mujeres… ¡qué! Si es
+              pa jurar que él todavía sabía rezar el “Dios te salve” antes del acostarse… Tranquila
+              podía estar su mama con las sirvientas… no había cuidado. ¡La única novia que le
+              conocimos fue usté! Y eso…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Eso qué?… Habla sin miedo.</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Y… nada. Usté lo sabe mejor que yo, todo lo que hizo la finada pa resolverlo. Que no
+              era él de esos que hoy en día en cualquier esquina no más le toman la palabra a una
+              muchacha. Como decirle, pa que vea cómo era, que en la casa le sabíamos decir que su
+              único vicio era su amigo Pérez…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Ya eran amigos, ¿verdad?… ¿Tú sabes cómo se conocieron?</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Y… ¡cómo iba a ser!… En la calle, en la escuela; no sé; como se conocen los
+              muchachos. Sabían ser amigos en los pupilos y, natural, como lo pasaban siempre
+              juntos, se hicieron tan íntimos. El Pérez ese sí que era el demonio: <pb n="207"/>
+              peliador, bochinchero, sinvergonzote… de todo, perdonando la palabra. La finada no
+              podía verlo por lo diablo. Pa ella, decir “ahí viene Pérez”, era decir “viene
+              mandinga”. Sabía curarlo con agua bendita cuando lo véia.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y cuando salieron de pupilos –claro– seguirían amigos…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Uf, como hermanos. La casa del uno era la del otro. Estudiaban juntos, pasiaban
+              juntos, comían juntos casi siempre y muchas veces hasta dormían juntos… Ya le digo,
+              como hermanos verdaderos. Pero yo, perdonando el agravio, nunca lo pude pasar al otro,
+              usté lo sabe.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí… y a eso quería ir. Eso quería preguntarte. Ya me había dado cuenta yo hace mucho
+              que tú pareces no querer a Pérez. Tendrás tus motivos…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Motivos… en fin, no sabría decir. Yo no sé si lo tomé entre ojos porque siempre me
+              pareció que al fin lo echaría a perder al niño…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pérez era un vicioso, ¿no?… Francamente…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Yo, francamente, vicios no le he conocido, pa qué decir… Pero los tendría nomás,
+              porque era capaz de todo. Déase cuenta: a los diez años, ya sabía fumar; a los once,
+              se escapaba del colegio; a los doce, tocaba la guitarra; a los trece, lo echaron de
+              pupilo por no sé qué “moralidad”; a los catorce andaba por los bailecitos ya; y a los
+              quince, a la criada de la casa le vino un hijo…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Ave María!</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>La verdad, señora. ¡A los quince, déase cuenta!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero…vicios malos, decía yo…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿Cómo malos?… ¿Y eso le parece bueno, entonces?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Claro que no… Pero otros vicios, pregunto… ¿No dicen que hay no sé qué enfermedad, o
+              costumbres, o vicios… no sé, entre hombres?… A eso me refería…</p>
+          </sp>
+          <pb n="208"/>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Ah!… yo de eso no sé nada… salvo que se refiera a…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p><stage type="inline"><emph rend="italic">(Rápidamente)</emph></stage> ¿A qué?
+              habla…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Al primo de él… uno que le llamaban Lilí, que según las malas lenguas, le gustaban
+              más los hombres que las mujeres…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Ah!… ¿Tenía un primo así?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Sí, así era… y más asqueroso…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y él… y Carlos… era… ¿así también? ¿Afeminado, cuando chico?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¡Cómo!…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Así… que le gustaba las cosas de las mujeres…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Eso sí, pa qué negar… Siempre andaba con muñecas, trapitos y chucherías de las niñas…
+              Güeno: también jué críao por las hermanas y las tías, muy mimoso y pollerengo… Después
+              en el colegio, pareció componerse… y con ese amigo Pérez, se fue olvidando de todo…
+              pero vicios, en fin, porquerías, yo no le he conocido…</p>
+            <stage><emph rend="italic">(Se oyen voces de Julián y Lola afuera).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Bueno… basta… nada más…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿Por qué me hacía esas preguntas?… Hace unos días que todos me averiguan lo
+              mismo…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Cómo, todos!… ¿Quién te ha averiguado?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>El niño Julián me preguntó los otros días.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Eh! ¿El niño Julián?… ¿Has visto tú algo en el niño Julián que te parezca
+              sospechoso?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿Yo? No… Dios me libre… El es muy hombrecito… pero me preguntó cuando estaba
+              escribiendo ese discurso del padre…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p><stage type="inline"><emph rend="italic">(Suspirando)</emph></stage> ¡Ah!… Por
+              curiosidad sin duda… Bueno, <pb n="209"/> vete… Lleva eso nomás… <stage type="inline"
+                  ><emph rend="italic">(Petrona mutis por izquierda)</emph></stage> ¡Que no pueda
+              una confiarse a nadie, Señor!… ¡Qué asco!… ¡Qué vergüenza!… <stage type="inline"><emph
+                  rend="italic">(Aparecen por derecha Lola y Julián).</emph></stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head><emph>Escena II</emph></head>
+          <stage><emph rend="italic">Clara, Lula <choice>
+                <sic>Lula</sic>
+                <corr>Lola</corr>
+              </choice><note type="editor">Error en el original impreso.</note>y
+            Julián.</emph></stage>
+          <stage><emph rend="italic">Lola se dirige hacia Clara y la besa. Julián se saca el
+              sobretodo y lo deja, con el sombrero y la vara, en la percha.</emph></stage>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>¿Tardamos?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No, hija mía… ¿Les ha ido bien?…</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>Lo más bien, mamita… <stage type="inline"><emph rend="italic">(Se sienta a su
+                  lado).</emph></stage> Nos hemos divertido en grande.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¡Ah! Sí… mucho. Yo, sobre todo.</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>Claro… Tú…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Qué?…</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>¡Cómo iba a divertirse! Si creo que no se ha dado cuenta de nada… Figúrate, mamá…
+              ¡Qué papelón! ¡Ay! Yo estaba sofocada… pico a pico, sin separarse un minuto, con la
+              pavota esa de Cándida…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Ah, sí?…</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>¡Los vieras!… Bueno… por algo se llama Cándida… aunque el cándido viene a ser él en
+              ese caso…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Ya lo oyes, mamá… ¡No! Si chismosa no es…</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>¿Chismosa?… Bah, che… La que dice la verdad no miente… ¡Y por linda que es, al
+              fin!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿De modo que te has enamorado?…</p>
+          </sp>
+          <pb n="210"/>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>No, mamá… No estoy loco.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Loco?… ¿Y tú crees que enamorarse es estar loco?…</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>Tonto… Enamorarse no es estar loco… Es estar… como estás tú. ¡Ah! Mamá… Y abuelita lo
+              ha notado, te prevengo…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>No. A abuelita se lo has hecho notar tú.</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>Bueno… pero lo notó después. Ya te hablará ella <stage type="inline"><emph
+                  rend="italic">(A Clara).</emph></stage> Estaba lo más escandalizada…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Conque esas tenemos?... Bien… Yo arreglaré todo… Ahora hablaremos <stage
+                type="inline"><emph rend="italic">(A Lola).</emph></stage> Y tú, a dormir, que has
+              de madrugar para acompañarme a misa.</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>Mamá… si son las nueve apenas…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Vete. Tengo que hablar con tu hermano.</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>Hasta mañana.</p>
+            <stage><emph rend="italic">(Le presta la frente).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Hasta mañana, hija. <stage type="inline"><emph rend="italic">(La
+                besa).</emph></stage> Dios te guíe.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Y no sueñes mucho…</p>
+            <stage><emph rend="italic">(A Lola cuando va a marcharse).</emph></stage>
+          </sp>
+          <sp who="#lola">
+            <speaker>Lola:</speaker>
+            <p>No… si sueño con ella, va a ser pesadilla…</p>
+            <stage><emph rend="italic">(Mutis).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head><emph>Escena III</emph></head>
+          <stage><emph rend="italic">Clara y Julián</emph></stage>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¿Tienes que hablarme, dices?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí… quiero preguntarte algo. Siéntate aquí, a mi lado.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián</speaker>
+            <p>Vamos a ver</p>
+            <stage><emph rend="italic">(Pausa breve).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Con alguna vacilación al principio)</emph></stage>
+            <p>Tú eres ya un hombrecito…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Vaya… al parecer.</p>
+          </sp>
+          <pb n="211"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Quiero hablarte seriamente, te advierto.</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Sí, mamá. Habla.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Ante todo, tienes que sacarme de una curiosidad. ¿Qué informe es ese que has estado
+              copiando estos días para tu padre?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¿Por qué me lo preguntas?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Una curiosidad mía. ¿Qué informe es?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Es un estudio médico legal para un proceso… En fin, cosas de papá.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí… pero ¿de qué se trata?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Y de eso: de medicina legal. Se refiere a un crimen. Pero, ¿por qué te interesa?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Es un trabajo inmoral, ¿no es así?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Inmoral… es decir… científico, en todo caso. Un trabajo científico como cualquier
+              otro. No veo que tenga nada de inmoral. <stage type="inline"><emph rend="italic"
+                  >(Pausa).</emph></stage> ¿Y era eso todo lo que querías preguntarme?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Trata de hombres viciosos, verdad?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Viciosos, es decir, según: enfermos, más vale; anormales. Es lo que sostiene papá;
+              aunque fisiológicamente fueran normales esos desgraciados, y se considere su vicio
+              como una simple desviación del instinto, eso mismo prueba su anormalidad, y por lo
+              tanto, su relativa irresponsabilidad en ciertos casos, ya que el vicio, como toda
+              aberración, es fatalmente anormal… Pero, no veo en qué pueda interesarte todo esto a
+              ti, francamente.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Qué desdichados serán esos infelices!</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Hay que suponerlo…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Cuánta piedad, cuánto horror se inspirarán a sí mismos! ¡Desdichados!</p>
+          </sp>
+          <pb n="212"/>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Es decir… eso suponiéndoles conciencia moral, de lo que carecerán probablemente.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Tú crees?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Yo supongo.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Es horrible…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Sí, mamá… Pero… te ruego, hablemos de otra cosa. ¡Si supieras tú todo el asco, toda
+              la piedad, toda la vergüenza –al fin son hombres– que sentía por ellos al copiar el
+              informe! Sólo por ser trabajo de papá pude terminarlo… Ya me imagino toda la
+              repugnancia que sentiría él al escribirlo. Pero, al fin, es obra de piedad humana su
+              defensa…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí, hijo mío… Sí, tienes razón. ¡Es repugnante, es repugnante todo eso! ¡Ah!
+              desdichados, desdichados… ¡Y pensar en la amargura que sembrarán en sus hogares esos
+              infelices! ¡Pensar en la ¡Qué escuela! ¡Qué ejemplo!… ¡Da horror el pensarlo: la
+              pureza, la inocencia, recibiendo tal herencia!… ¡Oh, no! ¡No puede ser!…</p>
+            <p>¡No puede ser!</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¡Mamá!… Pero ¿qué te pasa?… ¡Te exaltas!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí, hijo mío… ¡Es que es horrible!… ¡Una herencia de vicios, de miserias, de
+              degeneración eterna!… ¡Pobres madres, pobres mujeres, pobres hijos!…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Me asustas, de veras…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No, hijo mío, no… Yo… ¡Yo soy feliz, dichosa!… ¡Por ti! Porque eres bueno, puro…
+              sano… ¡Ah!… ¡Pero me irrita, me subleva pensar en las asechanzas que puede tender el
+              vicio en tu camino!… Pero, dime… ¿Tú has conocido a alguno de esos desgraciados?…</p>
+          </sp>
+          <pb n="213"/>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¿Yo?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí… por ahí… en el colegio… ¿no había ninguno?</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Sí… en todos los colegios hay alguno… en los internados especialmente… Pero… ¿por qué
+              me preguntas eso?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Por nada… por nada… He estado leyendo parte de ese informe… y he tenido miedo… ¿Para
+              qué he de engañarte?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¿Miedo de qué?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>De nada… ¿no te digo?… Aprensión nomás… Tú eres un hombre… un verdadero hombre… como
+              yo te quiero… ¿verdad?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Pero mamá… No te comprendo hoy…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Besándolo y acariciándolo).</emph></stage>
+            <p>Sí… ¡qué tonta soy!… Vaya… Bésame… Besa a tu madre… ¡Ah!… Qué feliz… ¡Qué feliz soy
+              contigo!…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Te aseguro que me asustaste un poco… Creí que se trataba de algo más grave…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No… solo quería verte, hablar contigo, tenerte a mi lado… ¡Así!… Tú no sabes las
+              angustias de una madre pensando en los peligros que rodean a sus hijos… en las
+              miserias de las malas amistades… Pero por ti estoy tranquila… Tú eres bueno, bueno…
+              ¿verdad?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>Sí, mamá, por ti…</p>
+            <stage><emph rend="italic">(Lo besa).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y ahora, déjame… <stage type="inline"><emph rend="italic">(Se
+                levanta).</emph></stage> Debo escribir unas cartas… Y tú… ¿Tú no has estudiado hoy,
+              no?…</p>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>No he abierto los libros en todo el día… Hasta luego…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Hasta luego, hijo…</p>
+          </sp>
+          <stage><emph rend="italic">Mutis Julián hacia el interior. Se oye el timbre de la calle.
+              Clara, luego de arreglarse bruscamente el cabello y enjugarse el rostro, vuelve al
+              escritorio, toma la carpeta de papeles, la cierra y va a colocarla en la
+              biblioteca.</emph></stage>
+          <pb n="214"/>
+        </div>
+        <div type="scene" n="4">
+          <head><emph>Escena IV</emph></head>
+          <stage><emph rend="italic">Clara y Petrona</emph></stage>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <stage><emph rend="italic">(Por foro)</emph></stage>
+            <p>El mozo del club pregunta si no sabe dónde encontrará al señor a esta hora.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Qué quiere?…</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>No sé… Creo que trae una carta, pero no quiere dejarla.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Después de una breve vacilación)</emph></stage>
+            <p>Hazlo pasar…</p>
+            <stage><emph rend="italic">(Mutis Petrona).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head><emph>Escena V</emph></head>
+          <stage><emph rend="italic">Clara y Benito</emph></stage>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Buenas…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pase. ¿Qué deseaba?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Yo, nada. Traía una carta pal dotor.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿De Pérez?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Sí, señora.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Bueno… tendrá que dejarla, porque él no está.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>A mí me han dicho que la entregue en propias manos.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Es lo mismo. Yo soy la esposa.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Tanto gusto… pero es la orden.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Como guste… Si quiere dejarla, la deja.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y además, tengo de llevar la contestación, tengo. Así que si sabe dónde lo
+              encontraré…</p>
+          </sp>
+          <pb n="215"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No sé… Él ha dejado orden que si traían una carta de Pérez la dejaran… Pero si usted
+              no quiere…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Perfectamente… Si usté m’ordena que se la entregue, yo se la entrego… perfetamente.
+              Pero reclino las responsabilidades, reclino. Sírvase.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Abre la carta y la lee rápidamente).</emph></stage>
+            <p>Está bien… Dígale que él no puede ir, pero que lo espera sin falta ¿Ha entendido?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Perfectamente…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y si le pregunta… Espérese un poco… <stage type="inline"><emph rend="italic">(Abre un
+                  cajón del escritorio y le da algún dinero).</emph></stage> Tome. Esto es para
+              usted…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Tantas gracias…</p>
+            <stage><emph rend="italic">(Lo guarda).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Si le pregunta algo, usted le dice que estaba el doctor y que habló con él.
+              ¿Entiende?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Perfectamente…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y ahora, dígame: ¿usted es capaz de hacer un favor?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Yo soy capaz de todo, soy… pudiendo.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Yo le voy a pagar bien, pero usted tiene que decirme la verdad.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Yo no engaño a las mujeres. Puede preguntar.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Dígame… ¿usted es ordenanza del club ese, no?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Es decir… a las veces, porque también sé ser mayordomo y, asigún, secretario. Las voy
+              de todo, las voy. Tanto pa un barrido como pa un friegado…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Ajá!… y… ¿quiénes van a ese club? ¿Qué hacen?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y… van los socios, van. Y ahí se reunen y la parlan… y… ¡yo qué sé, yo!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Cómo qué sabe? Usted tiene que saber qué pasa allí. ¿Dígame, van mujeres?</p>
+          </sp>
+          <pb n="216"/>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¿Por qué?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿No van?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Vea… <stage type="inline"><emph rend="italic">(En actitud de devolverle el
+                  dinero).</emph></stage> Permítame, señora… Usté es muy capsiosa, es… Yo no puedo
+              prestarme…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No veo por qué… Yo le pregunto simplemente si van mujeres. Nada más sencillo que
+              contestar sí o no. Con decir la verdad… Supongo que a usted no le vendrá mal ganarse
+              unos pesos…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Es que según y cómo, según…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pues, diciéndome la verdad. Yo le pagaré lo que quiera.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Señora, yo, por mí, hablaría, ¿sabe?… pero… ¡no! Y últimamente, esas cosas puede
+              preguntarlas a su marido, puede.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Un poco violenta, deteniéndolo)</emph></stage>
+            <p>No, no… Permítame. Usted va a hablar, ¿Oye? Siéntese ahí.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>No… si estoy bien de parado…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Le digo que se siente! ¿O no oye?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¡Qué calor!…</p>
+            <stage><emph rend="italic">(Aparte, sentándose en el borde de la silla).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y va a hablar claro. Vea <stage type="inline"><emph rend="italic">(Abre el cajón del
+                  escritorio).</emph></stage> Aquí hay dinero, le pagaré lo que pida si contesta
+                bien.<stage type="inline"><emph rend="italic">(Saca un revólver y lo
+                enseña).</emph></stage> ¡De lo contrario lo voy a hacer hablar yo!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Señora… permítame… Haga el favor de no jugar con eso… <stage type="inline"><emph
+                  rend="italic">(Aparte)</emph></stage> ¡Qué calor!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Elija usted.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Es que usted quiere comprometerme, quiere.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>No tiene nada que temer. Nadie sabrá nada.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Vea, señora… Yo no tengo nada que ver con lo que pasa <pb n="217"/> allá… Yo cumplo
+              con mi deber, y se acabó… Es que uno tiene que vivir de lo que puede, tiene; y no
+              todos somos manates.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Eso no me interesa. Usted va a decirme qué pasa en el club ese; quiénes van; qué
+              hacen ¿Mi marido va siempre?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y… seguro.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Y Pérez?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Usté me hace hablar, me hace… ¡Vea!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Contésteme.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y… más o menos.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Pérez vive ahí?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y… natural. Es su casa…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Y por qué le llaman el club?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¿Y?… será porque tiene socios… ativos y pasivos…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Eh!… ¿Van mujeres también?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y… más o menos… En fin, no se qué le diga, no se… Mujeres, alguna que otra bolada.
+              Pero es raro. Anoche estuvo una de gran capelo.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Mujeres de mala vida serán, ¿no es así?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y… yo la vida no les conozco la vida.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Y qué hacen?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¿Cómo qué hacen?… ¡Cosas de mujeres! Claro, de mujeres de “upa”, claro…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿De upa?… ¿Y qué es eso?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Mujeres fallutas, ¡bah!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Explíqueme eso.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Eh… ¡Hágase la inorante, sí! Hágase…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Explíqueme. No entiendo</p>
+          </sp>
+          <pb n="218"/>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y… mujeres falsificadas, ¿no sabe?… Varones de ambos "sesos", como dicen…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero… de modo que… ¡No! Eso no es posible… ¡Usted miente!</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Señora… permítame… Yo no miento nada…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero… ¡Dígame! Mi marido… ¿Qué hace mi marido ahí?… ¿Qué hace?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y, señora… Son cosas de la vida… ¡Qué va a sorprenderse uno! Cada hombre tiene un
+              vicio, tiene</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Pero… mi mari… ¿El doctor a qué va?… ¿Usted lo conoce?…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Hace rato</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y a qué va… ¡Dígamelo usted. ¿ A qué va?… ¿Qué hace él ahí?</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Y señora… Usted ya me exige cosas que no puedo decir… Aunque las piense, ¿sabe?… El
+              señor Pérez sabrá a qué va… Como van la Juanita y la Princesa… y… todas esas
+              otras…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Entonces… él… el doctor… mi marido… también es de esos…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>¿Y?…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Y Pérez… Pérez es… e diga usted qué es el señor Pérez…</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Mire, señora… Ya que me ha hecho hablar… Para mi… el señor Pérez ese… es un piernum
+              de la madona es… A mi me contrató cuando estaba de coscrito… ¡Era un rana!… Conocía a
+              todos los minotauros… del cuartel, conocía…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Serenándose, muy fría).</emph></stage>
+            <p>Esta bien. Tome.</p>
+            <stage><emph rend="italic">(Le da dinero).</emph></stage>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Yo espero que usté a mi no me comprometa…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Usted guardará muy bien de decir una palbra de esto a nadie</p>
+          </sp>
+          <pb n="219"/>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Descuide ¿Y qué le contesto?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Eso: que lo espera aquí ahora, sin falta.</p>
+          </sp>
+          <sp who="#benito">
+            <speaker>Benito:</speaker>
+            <p>Perfectamente… Con permiso…</p>
+            <stage><emph rend="italic">(Mutis).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Con desesperación)</emph></stage>
+            <p>¡Ah, señor, señor! ¡Qué miseria!… <stage type="inline"><emph rend="italic"
+                  >(Pausa)</emph></stage> ¡Qué asco!… </p>
+            <stage><emph rend="italic">(Arregla los papeles. Da un nuevo vistazo a la carta y la
+                deja. Va a cerrar el cajón y ve el revólver. Lo toma, pensativa, y luego lo deja y
+                cierra el cajón. Llama. Cierra la biblioteca. Oprime el botón y apaga algunas
+                bujías, quedando la pieza sin más luz que la del escritorio).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head><emph>Escena VI</emph></head>
+          <stage><emph rend="italic">Clara y Petrona</emph></stage>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿Llamó usté?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Arréglame la cama.</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Está lista.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Se han acostado los muchachos?</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>La niña sí, hace rato. El niño estudia en su pieza.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Bien… Puedes cerrar y acostarte. Si llaman abrirá Julián. Buenas noches.</p>
+            <stage><emph rend="italic">(Mutis).</emph></stage>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Que descanse… <stage type="inline"><emph rend="italic">(Al verla
+                marcharse).</emph></stage> Está bueno… <stage type="inline"><emph rend="italic"
+                  >(Golpeándose las narices con el índice derecho y como olfateando).</emph></stage>
+              Aquí pasa algo… No, no me equivoco…</p>
+            <stage><emph rend="italic">(Mutis por izquierda hacia el interior.
+              Pausa).</emph></stage>
+          </sp>
+          <stage><emph rend="italic">Aparece por foro, y como de la calle, Flórez. Parece preocupado
+              y abatido. Vuelve el botón de la luz y se ilumina la pieza. Deja el sombrero y el
+              bastón en la percha. Luego, lentamente, se quita el sobretodo y lo cuelga. Se acerca
+              al <pb n="220"/> escritorio y con ademán lento se saca los guantes y los arroja
+              negligentemente sobre aquel, advirtiendo entonces la carta de Pérez. La lee, con
+              alguna sorpresa. Luego llama. Pausa. Se pasea por la habitación.</emph></stage>
+        </div>
+        <div type="scene" n="7">
+          <head><emph>Escena VII</emph></head>
+          <stage><emph rend="italic">Flórez y Petrona</emph></stage>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>¿El señor llamaba?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Esta carta ¿cuándo la han traído?</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Ahora nomás, hace un momento.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Abierta?</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Ah… eso yo no sé.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿La señora se ha acostado?</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Creo que no… Ahora iba para allá…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Llámela y tráigame café.</p>
+          </sp>
+          <sp who="#petrona">
+            <speaker>Petrona:</speaker>
+            <p>Muy bien. <stage type="inline"><emph rend="italic">(Mutis).</emph></stage></p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head><emph>Escena VIII</emph></head>
+          <stage><emph rend="italic">Flórez y Clara, luego Petrona</emph></stage>
+          <stage><emph rend="italic">Flórez, solo, se pasea breves instantes. Aparece Clara. Durante
+              toda la escena hablará fríamente, lo mismo que él, pero sin
+            provocación.</emph></stage>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Qué querías?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Acabo de encontrar esta carta. ¿La has abierto tú?</p>
+          </sp>
+          <pb n="221"/>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Sí.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Y por qué motivo?… ¿No tengo prohibido que se toquen mis cosas?… ¿O es deseos de
+              fastidiarme?</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Absolutamente… Creí que podía ser de urgencia.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Bien. Que esto no se repita.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¿Sólo para esto me llamabas?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Nada más.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>De modo que puedo acostarme… Me siento un poco enferma.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Puedes acostarte.</p>
+            <stage><emph rend="italic">(Pausa larga).</emph></stage>
+            <stage><emph rend="italic">Vuelve Petrona con el café. Lo deja y se
+              marcha.</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Después de que Petrona se ha marchado)</emph></stage>
+            <p>¿Me has oído?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Qué sí, hombre. Puedes acostarte.</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Por lo visto, no te interesa saber lo que tengo siquiera.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Lo supongo <stage type="inline"><emph rend="italic">(Revuelve el café y lo toma a
+                  pequeños sorbos).</emph></stage> Lo de siempre.</p>
+            <stage><emph rend="italic">(Pausa).</emph></stage>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>Hasta mañana</p>
+            <stage><emph rend="italic">(Sin mirarlo, muy fría).</emph></stage>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Hasta mañana</p>
+            <stage><emph rend="italic">(Mutis Clara).</emph></stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head><emph>Escena<choice>
+                <sic>XIX</sic>
+                <corr>IX</corr>
+              </choice><note type="editor">Error en el original impreso.</note>.</emph></head>
+          <stage><emph rend="italic">Flórez y Petrona. Luego Pérez. Al final Clara.</emph></stage>
+          <stage><emph rend="italic">Flórez, que ha tomado ya el café, parece meditar un instante.
+              Luego, resolviéndose, toma los guantes, el sombrero y el bastón, se arregla y sale
+              lentamente por foro. Hay una breve pausa y reaparece por foro Petrona en busca del
+              servicio de café y se marcha con él hacia el interior. Apenas se ha hecho mutis,
+              reaparece por foro Flórez, acompañado de Pérez.</emph></stage>
+          <pb n="222"/>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí… Allá iba.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Hombre… Cómo me has hecho llamar…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Yo?… Yo no te he hecho llamar…</p>
+            <stage><emph rend="italic">(Se sientan).</emph></stage>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Cómo… ¿Pero no me has hecho decir tú que me esperabas?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>En este instante recibo tu carta. Ahora mismo.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Pues, ¡buen estúpido es el muchacho ese! ¡Vaya un modo de dar un mensaje!</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Bien. Eso aparte ¿Qué querías de mí?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Nada absolutamente: hablar, charlar, nada más ¿Tu gente ha salido?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Se han acostado. Clara está un poco enferma.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Hombre… ¿Qué tiene?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Tonterías; ganas de fastidiar.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Está bueno.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Respecto a ti, con franqueza, me extraña este repentino deseo de charlar.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Hijo… Como saliste anoche así… en esa forma… Yo quería explicarte…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Mira… Lo de anoche prefiero que lo dejemos de lado. No comentemos lo que no merece
+              comentario. Por lo demás, es asunto liquidado.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Está bueno… ¿De modo que liquidado?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Absolutamente.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¿Y si yo te dijera que es una tontería?</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Hombre… tú puedes decir lo que quieras… Yo se a qué atenerme. Y… mira: francamente,
+              es mejor que haya sucedido así. Es mejor, por mil motivos.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Vamos a ver algunos.</p>
+          </sp>
+          <pb n="223"/>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Por mil motivos que son inútiles enumerar. Alguna vez tenía que terminar esto… era
+              fatal. Es justo que yo que he sido eternamente una víctima de la fatalidad, la
+              aproveche ahora para libertarme.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Está bueno… está bueno. Continúa. <stage type="inline"><emph rend="italic"
+                  >(Arrellenándose en el sofá, cruzado de piernas y mirando hacia el
+                techo).</emph></stage></p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Había pensado no volver a verte después de lo de anoche, pero ahora cambié de opinión
+              y, ya ves, iba a tu casa resuelto a terminar de una vez.</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>De modo que lo de anoche es sólo un pretexto…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Pretexto o no, estoy cansado. Esta miseria constante, esta ignominia de toda mi vida,
+              es ya como un dogal que me oprime. Lo de anoche ha servido para aclararme muchas ideas
+              y para hacerme ver hondo en mi propia conciencia…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Mira… es mejor que calles. Así… así resultas indigno, francamente, <stage
+                type="inline"><emph rend="italic">(Acercándose a él y hablándole casi al oído, pero
+                  con voz firme).</emph></stage> Resuellas por la herida… ¡Vaya! ¿O es que ahora vas
+              a sentir celos como… ¡sí! como una mujerzuela vulgar?… Contesta.</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Cállate, cállate…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No, contesta… ¿O es que nada vale para tí mi amistad de toda mi vida?… ¿O es que
+              quieres olvidar ahora nuestras penas, nuestras alegrías, nuestras… miserias de veinte
+              años?… ¿O es que quieres olvidarlo todo por un incidente vulgar, sin importancia?…
+              Confiesa, confiésalo… ¿Tienes celos?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí… tengo celos… Tengo un asqueroso despecho, que a mí mismo me avergüenza pero que
+              no puedo dominar… este vicio, esta aberración que es ya una segunda naturaleza en mí,
+              empieza a tener su crisis y tú la has provocado… Desde anoche te tengo asco… y me lo
+              tengo a mí mismo… <stage type="inline"><emph rend="italic">(Llorando).</emph></stage>
+              Soy un desgraciado…</p>
+          </sp>
+          <pb n="224"/>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Eres una criatura… Te creía un individuo superior capaz de levantarte sobre tu propia
+              inmundicia… pero te veo empequeñecido como un… como uno de esos otros que tú mismo
+              defiendes en tu informe…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí… y eso es lo que me da asco, y vergüenza, y rabia… Vete… y que no te vea más en mi
+              vida…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>¡Bah!… ¿Y con eso creerás regenerarte?…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Sí… por mis hijos… por mi hogar…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Es tarde… Lo que se recibe con la sangre o se aprende en la niñez no se olvida ni se
+              abandona sino con la muerte… Dejarás de verme a mí, pero no dejarás tu vicio… como yo
+              no dejaré el mío… Y no habremos hecho nada más que cambiar de amante como las
+              prostitutas…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Has envilecido mi vida… mi propia consideración…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No, no he sido yo… Han sido sus padres… tus abuelos, tu raza… como tú mismo lo
+              sostienes… Ha sido la escuela donde te educaron, la casa donde te criaron, los
+              parientes que te mimaron… Yo… yo no he sido más que un instrumento de tu depravación,
+              que a no haberlo, no te habría faltado nunca… Porque tu vicio es un mal genético…
+              Independízate de mí y no conseguirás más que difundir tu deshonor… y envilecerte
+              más…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>Vete… vete… No quiero oírte más… Soy menos que una mujer…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Sí… y así te he conocido y así te conozco… Como a una mujer…</p>
+            <stage><emph rend="italic">(Apaga la luz del centro).</emph></stage>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¿Qué haces?</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>Volverte a la realidad de tu propia miseria, de nuestra propia miseria, que está en
+              la sombra… hacerte olvidar de ti mismo, de esa hombría que quieres aparentar y que <pb
+                n="225"/> no es más que el producto de la luz… Quiero impedir que te veas… que nos
+              veamos…</p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>No… vete… vete…</p>
+          </sp>
+          <sp who="#perez">
+            <speaker>Pérez:</speaker>
+            <p>No, he dicho. No me voy… Quiero verte dócil, como lo has sido siempre, sumiso,
+              femenino, que es tu verdadero estado… así… Que te olvides de que eres hombre y de que
+              sea tu propia infamia, tu dicha en la sombra como es tu verdugo a la luz <stage
+                type="inline"><emph rend="italic">(Lo acaricia).</emph></stage> Así… así… como lo
+              eras cuando niño… y como lo serás toda tu vida ya, irredenta, inconvertible <stage
+                type="inline"><emph rend="italic">(Se inclina sobre él hasta rozar su cuello con los
+                  labios. Junto a la puerta, en la semioscuridad, ha aparecido la figura de Clara.
+                  Viste un peinador blanco. Ansiosamente parece inclinarse a oír. A medida que el
+                  diálogo parece ir culminando, ella con el brazo extendido, abre suavemente el
+                  cajón del escritorio y saca el revólver).</emph></stage> No eres tú… Vuelve a ser
+              el de siempre…</p>
+            <stage><emph rend="italic">(Se oye un beso largo y lento. Clara, con ademán rápido
+                ilumina la habitación. Los dos, con asombro, quieren incorporarse).</emph></stage>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¡Clara!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <p>¡Miserables!… ¡Asquerosos!… <stage type="inline"><emph rend="italic">(Con ademán
+                  rápido, irreflexiva, hace fuego sobre ambos. Pérez, herido, retrocede unos pasos.
+                  Lanza un quejido apagado y cae).</emph></stage></p>
+          </sp>
+          <sp who="#florez">
+            <speaker>Flórez:</speaker>
+            <p>¡Clara!… ¡Qué has hecho!… ¡Mujer!</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Con gesto breve y enérgico, como una orden).</emph></stage>
+            <p>¡Calla!… ¡Has sido tú! ¡Has sido tú!… Toma… <stage type="inline"><emph rend="italic"
+                  >(Le da el arma).</emph></stage> Ahora… ahora te queda lo que tú llamas la última
+              evolución… ¡Tu buena evolución! <stage type="inline"><emph rend="italic">(Flórez
+                  recibe el revólver instintivamente, casi inconscientemente como si hubiera perdido
+                  en ese instante de regreso a la realidad la noción de lo que pasa. Se oye, de
+                  adentro la voz de Julián que llama: ¡Mamá! ¡Mamá! Al oírla Clara, insiste con
+                  imperio)</emph></stage>. ¡Tus hijos!… ¡Pronto! <pb n="226"/> ¡Pronto!…</p>
+            <stage><emph rend="italic">(Flórez parece reaccionar. Hace un gesto de resolución súbita
+                y sale precipitadamente por foro. Clara cae vencida, desfalleciente en una
+                silla).</emph></stage>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <stage><emph rend="italic">(Entra azorado).</emph></stage>
+            <p>¡Mamá! ¡Mamá!… ¿Qué hay? ¿Qué pasa?…</p>
+            <stage><emph rend="italic">(Clara se incorpora y corre a abrazar a su hijo como para
+                impedirle que avance. Se oye un tiro afuera por la parte de foro).</emph></stage>
+          </sp>
+          <sp who="#julian">
+            <speaker>Julián:</speaker>
+            <p>¡Mamá!…</p>
+          </sp>
+          <sp who="#clara">
+            <speaker>Clara:</speaker>
+            <stage><emph rend="italic">(Rompiendo en sollozos sobre el hombro de su
+              hijo).</emph></stage>
+            <p>¡Tu padre, hijo mío!… ¡Tu padre!…</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+    <back>
+      <trailer>Telón.</trailer>
+    </back>
+  </text>
+</TEI>
