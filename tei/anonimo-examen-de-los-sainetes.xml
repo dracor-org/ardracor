@@ -104,8 +104,8 @@
     </profileDesc>
     <revisionDesc>
       <listChange>
-        <change when="2025-09-18" who="lv">codificación inicial y adaptación a Dracor</change>
-        <change when="2025-12-28" who="gdr">reviso ficha</change>
+        <change when="2025-09-18" who="#lv">codificación inicial y adaptación a Dracor</change>
+        <change when="2025-12-28" who="#gdr">reviso ficha</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
