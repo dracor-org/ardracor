@@ -86,7 +86,7 @@
       <listChange>
         <change when="2025-06-04" who="#lv">cambio codificacion inicial y adapto a Dracor</change>
         <change when="2025-06-08" who="#gdr">primera revisión</change>
-        <change when="2025-17-09" who="#lv">última revisión de la ficha con actualizaciones</change>
+        <change when="2025-07-09" who="#lv">última revisión de la ficha con actualizaciones</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
