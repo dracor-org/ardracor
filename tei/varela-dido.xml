@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://staging.dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000008" xml:lang="es">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000009" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -103,9 +103,9 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000008"
+      <relation name="wikidata" active="https://dracor.org/entity/ar000009"
         passive="http://www.wikidata.org/entity/Q136325261"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000008"
+      <relation name="teatrar" active="https://dracor.org/entity/ar000009"
         passive="https://hdlab.space/teatrar/obras/0289.html"/>
     </listRelation>
   </standOff>
