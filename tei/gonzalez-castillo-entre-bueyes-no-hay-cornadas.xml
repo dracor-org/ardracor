@@ -38,7 +38,13 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Antología de obras de teatro argentino</name>
+          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-5"
+            >Antología de obras de teatro argentino</ref>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
           <author><forename>José</forename>
             <surname>González Castillo</surname></author>: <title level="a">Entre bueyes no hay
             cornadas. Sainete en un acto, en verso.</title> En: <editor><surname>Seibel</surname>,
@@ -48,11 +54,6 @@
             III.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Instituto Nacional del Teatro</publisher>,
             <date>2011</date>, pp. <biblScope unit="page" from="319" to="345">319–345</biblScope>.
-            <idno type="URL"
-            >https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-5/</idno>
-          <availability status="free">
-            <p>No specific license.</p>
-          </availability>
         </bibl>
       </sourceDesc>
     </fileDesc>

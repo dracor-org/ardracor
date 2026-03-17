@@ -32,30 +32,25 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
+            >CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Antología de obras de teatro argentino</name>
-          <author><forename>Cristóbal</forename>
-            <surname>de Aguilar</surname></author>: <title level="a">La industria contra la
-            fuerza.</title> In: <editor><surname>Seibel</surname>,
-            <forename>Beatriz</forename></editor>. <title level="m">Antología de obras de teatro
-            argentino. Desde sus orígenes a la actualidad.</title>
-          <biblScope unit="volume">Tomo 1. Sainetes urbanos y gauchescos, 1800–1814.</biblScope>
-          <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
-            <date>2006</date>, pp. <biblScope unit="page" from="49" to="114">49–114</biblScope>.
-            <idno type="URL">https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf</idno>
+          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-12"
+            >Antología de obras de teatro argentino</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
         </bibl>
         <bibl type="originalSource">
-          <author><surname>Aguilar</surname>, <forename>Cristóbal</forename>
-            <nameLink>de</nameLink></author>. <title level="a">La industria contra la
+          <author><forename>Cristóbal</forename>
+            <nameLink>de</nameLink>
+            <surname>Aguilar</surname></author>: <title level="a">La industria contra la
             fuerza.</title> In: <editor><surname>Trenti Rocamora</surname>, <forename>J.
               Luis</forename></editor>. <title level="m">Selección dramatica de Cristobal de
             Aguilar, autor de la Córdoba colonial.</title>
@@ -63,9 +58,7 @@
             <date>1950</date>. <note source="seibel">En esta pieza, José Luis Trenti Rocamora
             modernizó la grafía y la puntuación, la dividió en cuadros y escenas, y suprimió los
             "Don" y "Doña" que el autor colocara antes de los nombres. Además las partes destruidas
-            del original fueron completadas, para poder seguir la lectura sin tropiezos.
-              <emph>Selección dramática de Cristóbal de Aguilar</emph>, Instituto Nacional de
-            Estudios de Teatro, Buenos Aires, 1950.</note>
+            del original fueron completadas, para poder seguir la lectura sin tropiezos.</note>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -128,8 +121,10 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000020" passive="http://www.wikidata.org/entity/Q137705648"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000020" passive="https://hdlab.space/teatrar/obras/0002.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000020"
+        passive="http://www.wikidata.org/entity/Q137705648"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000020"
+        passive="https://hdlab.space/teatrar/obras/0002.html"/>
     </listRelation>
   </standOff>
   <text>

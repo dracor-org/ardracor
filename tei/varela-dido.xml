@@ -37,19 +37,19 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt1m1</idno>
+          <ref target="https://www.cervantesvirtual.com/nd/ark:/59851/bmcvt1m1">Biblioteca Virtual
+            Miguel de Cervantes</ref>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
-          <bibl type="originalSource">
-            <author><forename>Juan Cruz</forename>
-              <surname>Varela</surname></author>: <title level="a">Dido</title>. En <title level="m"
-              >Teatro Hispanoamericano.</title>
-            <biblScope unit="volume">Tomo II, Siglo XIX.</biblScope>
-            <pubPlace>Nueva York</pubPlace>: <editor>Anaya Book</editor>, <date>1973</date>, pp.
-              <biblScope unit="page" from="14" to="69">14–69</biblScope>.</bibl>
         </bibl>
+        <bibl type="originalSource">
+          <author><forename>Juan Cruz</forename>
+            <surname>Varela</surname></author>: <title level="a">Dido</title>. En <title level="m"
+            >Teatro Hispanoamericano.</title>
+          <biblScope unit="volume">Tomo II, Siglo XIX.</biblScope>
+          <pubPlace>Nueva York</pubPlace>: <publisher>Anaya Book</publisher>, <date>1973</date>, pp.
+            <biblScope unit="page" from="14" to="69">14–69</biblScope>. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

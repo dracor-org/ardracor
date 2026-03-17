@@ -44,22 +44,24 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Antología de poetas argentinos</name>
+          <ref
+            target="https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/q00vor/cdi_hathitrust_hathifiles_yale_39002085409630"
+            >Antología de poetas argentinos</ref>
+          <availability status="free">
+            <p>In the public domain.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
           <author><forename>Manuel José</forename>
             <nameLink>de</nameLink>
             <surname>Lavardén</surname></author>: <title level="a">Siripo. Tragedia en verso</title>
-          In: <title>Antología de poetas argentinos</title>
+          In: <title level="m">Antología de poetas argentinos</title>
           <biblScope unit="tomo">II – La Revolución</biblScope>
           <editor><forename>Juan</forename>
             <nameLink>de la</nameLink>
             <surname>C. Puig</surname></editor>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Martín Biedma e hijo</publisher>,
             <date>1910</date>, pp. <biblScope unit="page" from="70" to="112">70–112</biblScope>.
-            <idno type="URL"
-            >https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/q00vor/cdi_hathitrust_hathifiles_yale_39002085409630</idno>
-          <availability status="free">
-            <p>In the public domain.</p>
-          </availability>
         </bibl>
       </sourceDesc>
     </fileDesc>

@@ -38,7 +38,13 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Antología de obras de teatro argentino</name>
+          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-2"
+            >Antología de obras de teatro argentino</ref>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
           <author><forename>José</forename>
             <surname>Gónzalez Castillo</surname></author>: <title level="a">Los invertidos. Drama
             realista en 3 actos, en prosa</title>. En: <editor><surname>Seibel</surname>,
@@ -48,11 +54,6 @@
             III.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Instituto Nacional del Teatro</publisher>,
             <date>2017</date>, pp. <biblScope unit="page" from="157" to="226">157–226</biblScope>.
-            <idno type="URL"
-            >https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-2/</idno>
-          <availability status="free">
-            <p>No specific license.</p>
-          </availability>
         </bibl>
       </sourceDesc>
     </fileDesc>

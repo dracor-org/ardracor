@@ -38,7 +38,13 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Antología de obras de teatro argentino</name>
+          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-11/"
+            >Antología de obras de teatro argentino</ref>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
           <author><forename>Luis Ambrosio</forename>
             <surname>Morante</surname></author>: <title level="a">Tupac - Amaru</title>. En:
               <editor><surname>Seibel</surname>, <forename>Beatriz</forename></editor>. <title
@@ -47,13 +53,8 @@
           <biblScope unit="volume">Tomo 2: 1818–1824. Obras de la Independencia.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
             <date>2006</date>, pp. <biblScope unit="page" from="219" to="305">219–305</biblScope>.
-            <idno type="URL"
-              >https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-11/</idno>
-          <note>La edicion de Seibel sigue la de 1924 de Jorge Max Rohde, con una errata en el
+            <note>La edicion de Seibel sigue la de 1924 de Jorge Max Rohde, con una errata en el
             nombre de D. Ventura Santelices.</note>
-          <availability status="free">
-            <p>No specific license.</p>
-          </availability>
         </bibl>
       </sourceDesc>
     </fileDesc>

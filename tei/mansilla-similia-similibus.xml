@@ -36,8 +36,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">https://www.cervantesvirtual.com/nd/ark:/59851/bmcjm2j4</idno>
+          <ref target="https://www.cervantesvirtual.com/nd/ark:/59851/bmcjm2j4">Biblioteca Virtual
+            Miguel de Cervantes</ref>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>

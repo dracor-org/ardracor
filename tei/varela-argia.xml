@@ -39,16 +39,17 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikimedia Commons</name>
-          <idno type="URL"
-            >https://upload.wikimedia.org/wikipedia/commons/4/49/Poesias_-_Juan_Cruz_Varela.pdf</idno>
+          <ref target="https://commons.wikimedia.org/wiki/File:Poesias_-_Juan_Cruz_Varela.pdf"
+            >Wikimedia Commons</ref>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
           <bibl type="originalSource">
-            <title>Poesías de Juan Cruz Varela y las tragedias Dido y Argia</title>
-            <pubPlace>Buenos Aires</pubPlace>: <editor>Imprenta de la tribuna</editor>, pp.
-              <biblScope unit="page" from="402" to="486">402–486</biblScope>, <date>1879</date>.
+            <author><forename>Juan</forename>
+              <surname>Cruz Varela</surname></author>: <title level="a">Argia</title>. En: <title
+              level="m">Poesías de Juan Cruz Varela y las tragedias Dido y Argia.</title>
+            <pubPlace>Buenos Aires</pubPlace>: <publisher>Imprenta de la tribuna</publisher>,
+              <date>1879</date>, pp. <biblScope unit="page" from="402" to="486">402–486</biblScope>.
           </bibl>
         </bibl>
       </sourceDesc>
