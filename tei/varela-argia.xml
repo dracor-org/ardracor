@@ -44,13 +44,13 @@
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
-          <bibl type="originalSource">
-            <author><forename>Juan</forename>
-              <surname>Cruz Varela</surname></author>: <title level="a">Argia</title>. En: <title
-              level="m">Poesías de Juan Cruz Varela y las tragedias Dido y Argia.</title>
-            <pubPlace>Buenos Aires</pubPlace>: <publisher>Imprenta de la tribuna</publisher>,
-              <date>1879</date>, pp. <biblScope unit="page" from="402" to="486">402–486</biblScope>.
-          </bibl>
+        </bibl>
+        <bibl type="originalSource">
+          <author><forename>Juan</forename> <surname>Cruz Varela</surname></author>:
+          <title level="a">Argia</title>.
+          En: <title level="m">Poesías de Juan Cruz Varela y las tragedias Dido y Argia.</title>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Imprenta de la tribuna</publisher>,
+          <date>1879</date>, pp. <biblScope unit="page" from="402" to="486">402–486</biblScope>.
         </bibl>
       </sourceDesc>
     </fileDesc>
