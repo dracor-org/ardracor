@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+title: Argentinian Drama Corpus (ArDraCor)
+message: 'If you use this corpus, please cite it as below.'
+type: dataset
+authors:
+  - given-names: Gimena
+    family-names: del Rio Riande
+    affiliation: CONICET
+    orcid: 'https://orcid.org/0000-0002-8997-5415'
+  - given-names: Ulrike
+    family-names: Henny-Krahmer
+    affiliation: Universität Rostock
+    orcid: 'https://orcid.org/0000-0003-2852-065X'
+  - given-names: Romina
+    family-names: De León
+    affiliation: CONICET
+    orcid: https://orcid.org/0000-0003-2495-7213
+  - given-names: Nidia
+    family-names: Hernández
+    affiliation: CONICET
+    orcid: https://orcid.org/0000-0001-7557-6846
+  - given-names: Laura Volkind
+    affiliation: CONICET
+    orcid: https://orcid.org/0000-0002-5988-052X
+  - given-names: Teresa
+    family-names: Ravelo
+    affiliation: UNAM
+    orcid: https://orcid.org/0000-0001-6058-2215
+  - given-names: Finnja
+    family-names: Borchardt
+    affiliation: Universität Rostock
+    orcid: https://orcid.org/0009-0005-6203-2942
+identifiers:
+  - type: url
+    value: 'https://github.com/dracor-org/ardracor'
+url: 'https://dracor.org/ar'
+abstract: >-
+  ArDraCor is a TEI-XML encoding project of Argentinian Drama Corpus
+  for DraCor by members of the HD LAB team at IIBICRIT, CONICET 
+  and the RosDH team at the University of Rostock. It focuses on 
+  plays composed between the 18th century and 1920.
+  Explore the corpus in the DraCor frontend:
+  https://dracor.org/ar
+keywords:
+  - Argentina
+  - Plays
+  - Spanish
+  - Text Encoding Initiative
+  - TEI
+license: CC0-1.0
+date-released: '2026-04-10'
