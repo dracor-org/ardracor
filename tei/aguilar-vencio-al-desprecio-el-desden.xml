@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000021" xml:lang="spa">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Venció al desprecio el desdén</title>
+        <title type="sub">Sainete</title>
+        <author>
+          <persName>
+            <forename>Cristóbal de</forename>
+            <surname>Aguilar</surname>
+          </persName>
+          <idno type="wikidata">Q109853645</idno>
+        </author>
+        <editor xml:id="fb">
+          <persName>
+            <forename>Finnja</forename>
+            <surname>Borchardt</surname>
+          </persName>
+        </editor>
+        <editor xml:id="uhk">
+          <persName>
+            <forename>Ulrike</forename>
+            <surname>Henny-Krahmer</surname>
+          </persName>
+          <idno type="wikidata">Q115644151</idno>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
+        <idno type="URL">https://hdlab.space/</idno>
+        <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
+        <idno type="URL"
+          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <availability>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
+            >CC0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-12"
+            >Antología de obras de teatro argentino</ref>
+          <availability status="free">
+            <p>No specific license.</p>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+          <author><forename>Cristóbal</forename>
+            <nameLink>de</nameLink>
+            <surname>Aguilar</surname></author>: <title level="a">El carnaval. Diálogo entre seis
+            personas.</title> In: <editor><surname>Seibel</surname>,
+            <forename>Beatriz</forename></editor>. <title level="m">Antología de obras de teatro
+            argentino. Desde sus orígenes a la actualidad.</title>
+          <biblScope unit="volume">Tomo 1. Sainetes urbanos y gauchescos, 1800–1814.</biblScope>
+          <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
+            <date>2006</date>, pp. <biblScope unit="page" from="117" to="163">117–163</biblScope>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>The text was extracted from the digital version of the <emph>Antología de obras de teatro
+            argentino.</emph>. In general, the text is taken as it appears in the digital source. A
+          column layout, where it occurs, is not encoded as such; instead, the text is encoded
+          sequentially. Page breaks of the digital source are indicated. Line breaks are not
+          encoded. Capitalized words were converted to lower-case. Text that was set in italics in
+          the digital source is encoded as such. Foreign words are marked up with the 'foreign'
+          element and their language is indicated. Obvious errors (e.g., typos in the character
+          names) were corrected.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="victorio" sex="MALE">
+            <persName>Victorio</persName>
+          </person>
+          <person xml:id="pantoja" sex="MALE">
+            <persName>Pantoja</persName>
+          </person>
+          <person xml:id="ines" sex="FEMALE">
+            <persName>Inés</persName>
+          </person>
+          <person xml:id="rufina" sex="FEMALE">
+            <persName>Rufina</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term source="seibel" type="genreTitle">sainete urbano</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q134550525</classCode>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <listChange>
+        <change from="2025" to="2026" who="#fb">file conversion from source</change>
+        <change when="2026-09-02" who="#uhk">addition of metadata and revision of encoding</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="written" notBefore="1805" notAfter="1806">
+        <desc/>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000021"
+        passive="http://www.wikidata.org/entity/Q141252767"/>
+      <relation name="teatrar" active="https://dracor.org/entity/ar000021"
+        passive="https://hdlab.space/teatrar/obras/0003.html"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <pb n="117"/>
+      <titlePage>
+        <titlePart>Venció al desprecio el desdén</titlePart>
+        <docAuthor>Cristóbal de Aguilar</docAuthor>
+      </titlePage>
+      <pb n="118"/>
+      <note>En esta pieza, José Luis Trenti Rocamora modernizó la grafía y la puntuación, la dividió
+        en cuadros y escenas, y suprimió los "Don" y "Doña" que el autor colocara antes de los
+        nombres. Además las partes destruidas del original fueron completadas, para poder seguir la
+        lectura sin tropiezos. <bibl><emph>Selección dramática de Cristóbal de Aguilar</emph>,
+          Instituto Nacional de Estudios de Teatro, Buenos Aires, 1950.</bibl></note>
+      <pb n="119"/>
+      <castList>
+        <head>Personajes</head>
+        <castItem>
+          <role>Doña Rufina del Olmo,</role>
+        </castItem>
+        <castItem>
+          <role>Inés,</role>
+          <roleDesc><emph>su criada</emph></roleDesc>
+        </castItem>
+        <castItem>
+          <role>Don Victorio de Monaca</role>
+        </castItem>
+        <castItem>
+          <role>Pantoja,</role>
+          <roleDesc><emph>su criado</emph></roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="cuadro" n="1">
+        <head>Cuadro primero</head>
+        <div type="scene" n="1">
+          <head>Escena I</head>
+          <stage><emph>Victorio, Pantoja</emph></stage>
+          <stage><emph>(Don Victorio hablando con Pantoja y paseándose por la sala
+            dice:)</emph></stage>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Pantoja, dispón las cosas</l>
+            <l>para marchar a Sigüenza</l>
+            <l>mañana por la mañana.</l>
+            <l>Paga fonda y lavandera,</l>
+            <l>y el dinero y los papeles</l>
+            <l>acomoda en la maleta,</l>
+            <l>porque he de salir de aquí</l>
+            <l>antes que la aurora venga.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Corriente: ¿y a qué fin vamos</l>
+            <l>de una hora a otra a Sigüenza?</l>
+            <l>¿No decíais que Segovia</l>
+            <l>sería el <foreign xml:lang="la"><emph>réquiem eternam</emph></foreign></l>
+            <l>de vuestros huesos y míos?</l>
+            <l>Supuesto hallásteis en ella</l>
+            <l>alma, vida y corazón,</l>
+            <l>y toda vuestra existencia</l>
+            <pb n="120"/>
+            <l>en la beldad de Rufina.</l>
+            <l>¿Qué viento dio a esa veleta</l>
+            <l>movimiento tan veloz,</l>
+            <l>que estando apuntando cierta</l>
+            <l>a Segovia, en este instante</l>
+            <l>señala para Sigüenza?</l>
+            <l>Por mi vida, yo no encuentro</l>
+            <l>en esto otra conveniencia</l>
+            <l>sino entablarla de andantes,</l>
+            <l>andando de Seca en Meca</l>
+            <l>imitando a Don Quijote.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Pantoja, mi suerte adversa</l>
+            <l>es quien causa esta mudanza.</l>
+            <l>Esa mujer, quien creyera…</l>
+            <l>Rufina, Rufina es</l>
+            <l>quien de Segovia destierra</l>
+            <l>a un hombre que la idolatra,</l>
+            <l>y que su desdén observa</l>
+            <l>hace más de cinco meses</l>
+            <l>con una constancia eterna.</l>
+            <l>Bien que no soy solamente</l>
+            <l>el despreciado, pues entran</l>
+            <l>a la parte en sus desdenes</l>
+            <l>el Marqués de Valenzuela</l>
+            <l>y un caballero escocés</l>
+            <l>que su tertulia frecuentan</l>
+            <l>como yo, solicitando</l>
+            <l>lograr su mano. Ella lleva</l>
+            <l>un sistema caprichudo</l>
+            <l>que ha producido la terca</l>
+            <l>pasión que a los libros tiene,</l>
+            <pb n="121"/>
+            <l>de no rendir la bandera</l>
+            <l>de la libertad que goza</l>
+            <l>a hombre ninguno. Desprecia</l>
+            <l>los obsequios inocentes,</l>
+            <l>las atenciones, y llega</l>
+            <l>a tal punto su entusiasmo</l>
+            <l>que se burla de cualquiera</l>
+            <l>que la persuada a que abrace</l>
+            <l>el matrimonio. Una fiera</l>
+            <l>se vuelve cuando concibe</l>
+            <l>que en tal caso, estar ligera</l>
+            <l>sería preciso a un hombre.</l>
+            <l>Nada quiere la soberbia</l>
+            <l>altivez, sino mirar</l>
+            <l>rendidos a los que aprecian</l>
+            <l>su mano, y en desdén</l>
+            <l>hacer alarde que lleva</l>
+            <l>ver semejante opinión</l>
+            <l>de todas las que se dejan</l>
+            <l>obligar de un tierno amor.</l>
+            <l>He aquí lo que desespera</l>
+            <l>a un corazón que la ama,</l>
+            <l>pero que por experiencia</l>
+            <l>conoce, que el obligarla</l>
+            <l>es lo mismo que ofenderla.</l>
+            <l>En este triste supuesto</l>
+            <l>es preciso que yo muera</l>
+            <l>si permanezco a su vista.</l>
+            <l>El marqués de Valenzuela</l>
+            <l>y el escocés por lo mismo</l>
+            <l>abandonan su presencia</l>
+            <pb n="122"/>
+            <l>para siempre, no queriendo</l>
+            <l>sufrir tanta indiferencia.</l>
+            <l>Ved, Pantoja, si hay motivo</l>
+            <l>que me obligue a que prefiera</l>
+            <l>una retirada honrosa</l>
+            <l>al desprecio que me espera.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="I">Conforme.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">¿Cómo conforme?</l>
+            <l>¿Deja duda en que el sistema</l>
+            <l>de no admitir boda alguna</l>
+            <l>que ha elegido, pierda en ella</l>
+            <l>un punto de su vigor?</l>
+            <l>No, Pantoja, no lo creas:</l>
+            <l>si ella aprendió que el casarse</l>
+            <l>es el vínculo o cadena</l>
+            <l>que priva a su voluntad</l>
+            <l>de su amable independencia,</l>
+            <l>se mantendría en su dictamen</l>
+            <l>contra cuantas diligencias</l>
+            <l>de obsequios y rendimientos</l>
+            <l>hacerle amante pudiera.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="I">Conforme.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">¡Hombre de Dios!</l>
+            <l>¿Qué conformidad es esa?</l>
+            <l>¡Dale con este conforme!</l>
+            <l>¿No te he dicho que aunque fuera</l>
+            <l>su pretendiente un Adonis,</l>
+            <l>y la amara tan de veras</l>
+            <l>como el acero al imán,</l>
+            <l>no recabaría de ella</l>
+            <pb n="123"/>
+            <l>otra cosa que el desprecio,</l>
+            <l>la burla y la indiferencia?</l>
+            <l>¿No tendré tentado yo</l>
+            <l>cuánto discurrirme pueda</l>
+            <l>que ver si algún vislumbre</l>
+            <l>de inclinación reverbera</l>
+            <l>hacia mí? Esta mujer</l>
+            <l>parece nacido hubiera</l>
+            <l>para burlar el amor.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Digo que no me hacen fuerza</l>
+            <l>todos esos espantijos</l>
+            <l>y que el conseguir que os quiera</l>
+            <l>o no os quiera, eso es conforme</l>
+            <l>os portaréis vos con ella.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Pantoja, si la idolatro,</l>
+            <l>si he hecho cuanto pudiera</l>
+            <l>el más fino amante hacer</l>
+            <l>en su obsequio, ¿qué más resta</l>
+            <l part="I">que hacer?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Que no le hagáis caso,</l>
+            <l>que cese el mimo y terneza,</l>
+            <l>que cuando os haga un desdén,</l>
+            <l>le hagáis vos cuatro docenas,</l>
+            <l>que dejéis de visitarla</l>
+            <l>todos los días, que al verla</l>
+            <l>os mostréis indiferente,</l>
+            <l>y finalmente que a ella</l>
+            <l>le hagáis entender que estáis</l>
+            <l>prendado de otra belleza,</l>
+            <l>aunque sea imaginaria,</l>
+            <pb n="124"/>
+            <l>y si con estas recetas</l>
+            <l>no se muriere por ti</l>
+            <l>antes que la Pascua venga,</l>
+            <l>pongo el pescuezo en el hoyo</l>
+            <l>que me corten la cabeza.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Pantoja, tú estáis borracho,</l>
+            <l>o has perdido la cabeza.</l>
+            <l>¿Conque no puede obligarla</l>
+            <l>la humilde condescendencia,</l>
+            <l>la cortesía, el buen trato,</l>
+            <l>y ha de inclinarla la necia</l>
+            <l>desatención? Vaya, tú</l>
+            <l>sin duda que a una botella</l>
+            <l>debes ese documento.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>No lo debo a la botella,</l>
+            <l>porque en mi vida bebí</l>
+            <l>otra cosa, como suena,</l>
+            <l>que agua pura; mas lo debo</l>
+            <l>al mundo, y su doctor escuela,</l>
+            <l>a mi mucha observación,</l>
+            <l>y en fin a mis experiencias.</l>
+            <l>Ustedes los de estos tiempos</l>
+            <l>no saben más cantinela</l>
+            <l>que los suspiros, las ansias,</l>
+            <l>las finezas, las protestas,</l>
+            <l>el billetito y regalo,</l>
+            <l>sea la dama que sea.</l>
+            <l>No señor, a estas altivas,</l>
+            <l>presumidas y que asientan</l>
+            <l>plaza de filosofantes</l>
+            <pb n="125"/>
+            <l>se tratan de otra manera:</l>
+            <l>verbigracia, todo inverso,</l>
+            <l>por la blandura, dureza,</l>
+            <l>a sus desdenes, desprecios,</l>
+            <l>a su gesto, indiferencia,</l>
+            <l>en una palabra, en todo</l>
+            <l>fingir que nada les cuesta</l>
+            <l>el sufrirles sus caprichos</l>
+            <l>aunque se mueran por ellas.</l>
+            <l>Son estas muy advertidas,</l>
+            <l>y están con el ojo alerta</l>
+            <l>para notar si las aman,</l>
+            <l>y viendo que no les llevan</l>
+            <l>la corriente, antes las miran</l>
+            <l>con desprecio, luego apelan</l>
+            <l>–como son tan orgullosas–</l>
+            <l>a que ninguno las venza,</l>
+            <l>sino que dominen siempre</l>
+            <l>a aquel que les contrarresta.</l>
+            <l>Y catate ya en el caso</l>
+            <l>de que lo estimen, y quieran,</l>
+            <l>a aquel que antes miraban</l>
+            <l>con desdén e indiferencia,</l>
+            <l>¿y esto por qué? Porque algunas</l>
+            <l>son de la casta de aquellas</l>
+            <l>plantas que solo dan fruto</l>
+            <l>al que más las apalea.</l>
+            <l>Sea testigo el olivo,</l>
+            <l>el castaño y carrasquera.</l>
+            <l>Y en fin, si vuestro viaje</l>
+            <l>no tiene otro objeto, fuera</l>
+            <l>del desdén con que ella os trata</l>
+            <pb n="126"/>
+            <l>por esa manía terca</l>
+            <l>que ha adoptado, bien podéis</l>
+            <l>quedaros, con la certeza</l>
+            <l>que si tomas mi consejo,</l>
+            <l>ganastes el pleito apenas</l>
+            <l>conozca no le haces caso.</l>
+            <l>Y apuesto mis dos orejas,</l>
+            <l>que si entro en la danza yo</l>
+            <l>a ayudaros, es tan cierta</l>
+            <l>la boda, como lo es cierto</l>
+            <l>que el peral produce peras.</l>
+            <l>Bien entendido que esto</l>
+            <l>es bajo de la protesta</l>
+            <l>que habéis de hacer, de obligaros</l>
+            <l>a no faltar ni una letra</l>
+            <l>a cuanto yo os ordenare,</l>
+            <l>aunque os parezca simpleza,</l>
+            <l>que el enfermo que no cumple</l>
+            <l>lo que el médico le ordena,</l>
+            <l>si no logra la salud</l>
+            <l>la culpa es suya, y no ajena.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="I">Pero Pantoja…</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">No hay pero,</l>
+            <l>pera, manzana o camuesa.</l>
+            <l>Lo dicho, dicho, o tomar</l>
+            <l>mi dictamen, o a Sigüenza</l>
+            <l>a suspirar, y gemir</l>
+            <l part="I">sin esperanza.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">Paciencia</l>
+            <l>es menester para oirte</l>
+            <l>Pantoja. Nunca creyera</l>
+            <pb n="127"/>
+            <l>que un hombre de entendimiento,</l>
+            <l>por muy mediano que fuera,</l>
+            <l>pudiera dar tal consejo.</l>
+            <l>¿Despreciarla? ¿No atenderla</l>
+            <l>con aquella urbanidad</l>
+            <l>que exige su sexo? ¿Verla</l>
+            <l>como por casualidad</l>
+            <l>y con aquella reserva</l>
+            <l>de ser muy rara ocasión,</l>
+            <l>y esperar correspondencia</l>
+            <l>con un trato semejante?</l>
+            <l>Si tal consejo admitiera</l>
+            <l>merecía yo que el mundo</l>
+            <l>por un loco me tuviera;</l>
+            <l>y con razón, porque el medio</l>
+            <l>de obligar, no es la extrañeza,</l>
+            <l>ni el desprecio, pues sabemos</l>
+            <l>que aun a las fieras más fieras</l>
+            <l>el halago y las caricias</l>
+            <l>las enternece, y violenta</l>
+            <l>a mirar agradecidas</l>
+            <l>al que se porta con ellas</l>
+            <l>con afable suavidad.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Por cierto, noticia fresca.</l>
+            <l>Ya sabemos que los tigres,</l>
+            <l>los leones y panteras,</l>
+            <l>y todo cuanto avechucho</l>
+            <l>hay en la naturaleza</l>
+            <l>se amansa con el cariño,</l>
+            <l>el halago y la fineza.</l>
+            <l>¿Y qué sacamos de aquí?</l>
+            <pb n="128"/>
+            <l>¿Qué la Rufinita sea</l>
+            <l>más docilcita que un oso,</l>
+            <l>o una víbora? ¿No es esa</l>
+            <l>la consecuencia que vos</l>
+            <l part="I">queréis sacar?</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">Y es tan cierta,</l>
+            <l>y ajustada a la razón,</l>
+            <l>que es innegable su prueba.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Conforme el que los arguyere.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Sea el hombre que sea.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Pues yo soy el que defiendo</l>
+            <l>que es nula la consecuencia,</l>
+            <l>y lo pruebo de este modo:</l>
+            <l>los animales observan</l>
+            <l>al hombre si los persigue,</l>
+            <l>si los maltrata, o si encuentran</l>
+            <l>en él que lejos de hacerles</l>
+            <l>perjuicio, da ciertas muestras</l>
+            <l>de quererlos aliviar</l>
+            <l>en sus comunes urgencias.</l>
+            <l>Si encuentran según su instinto</l>
+            <l>esta partida postrera,</l>
+            <l>como en ellos las pasiones</l>
+            <l>no obran, es consecuencia</l>
+            <l>que manifiesten al hombre</l>
+            <l>una igual correspondencia.</l>
+            <l>Pero en mujeres altivas,</l>
+            <l>atoradas en soberbia,</l>
+            <l>en presunción, en orgullo,</l>
+            <l>y que se creen discretas,</l>
+            <pb n="129"/>
+            <l>y entendidas por antojo,</l>
+            <l>estas pasiones obcecan</l>
+            <l>su razón, y no responden</l>
+            <l>a la atención con fineza,</l>
+            <l>y al obsequio con cariño,</l>
+            <l>sino con impertinencias,</l>
+            <l>con desdenes, con melindres,</l>
+            <l>y con doscientas docenas</l>
+            <l>de desbarros, que producen</l>
+            <l>los vinos de su soberbia:</l>
+            <l>luego a las de este calibre</l>
+            <l>es fuerza de otra manera</l>
+            <l>se las trate, pues que obran</l>
+            <l>contra la naturaleza,</l>
+            <l>contra la razón y contra</l>
+            <l>lo que la crianza enseña</l>
+            <l>a todo bien educado.</l>
+            <l>Ya véis que en esta materia</l>
+            <l>no hay sofisma ni argumento;</l>
+            <l>Pantoja no tiene letras,</l>
+            <l>ni sabe más que leer</l>
+            <l>en cartas, a duras penas,</l>
+            <l>pero al mejor estudiante</l>
+            <l>de Salamanca le apuesta</l>
+            <l>a que no sabe otro tanto</l>
+            <l>como él sabe en la materia.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Ese argumento, Pantoja,</l>
+            <l>conozco que tiene fuerza,</l>
+            <l>y que no hallo qué decir</l>
+            <l>en contra de tu experiencia;</l>
+            <l>pero mi genio… mi genio,</l>
+            <pb n="130"/>
+            <l>la carita que les muestra</l>
+            <l>a los que con cortesía</l>
+            <l>la visitan, y la obsequian. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena II</head>
+          <stage><emph>Pantoja, Inés</emph></stage>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Es verdad, bien lo conozco,</l>
+            <l>y la cara de vergüenza</l>
+            <l>se me cae cuando advierto</l>
+            <l>la incivilidad y torpeza</l>
+            <l>con que corresponde a todos</l>
+            <l>los que su casa frecuentan.</l>
+            <l>Estas sus filosofías…</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Acaso mejor dijeras</l>
+            <l part="I">bachillerías.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="F">Son causa</l>
+            <l>que orgullo y soberbia tenga,</l>
+            <l>no sólo mi opinión es;</l>
+            <l>a la racional ley alejan</l>
+            <l>de unas personas sin méritos,</l>
+            <l>mas de común no son estas,</l>
+            <l>sino que de alto linaje</l>
+            <l>los que no pacientemente se crean</l>
+            <l>la visita, pero hartados</l>
+            <l>ya abandonan, de manera</l>
+            <l>no parecen jamás, hasta</l>
+            <l>que ni por la calle vuelvan</l>
+            <l part="I">a pasar.</l>
+          </sp>
+          <pb n="131"/>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">¡Toma! ¡Eso solo!</l>
+            <l>Dicen que es una embustera,</l>
+            <l>que no conoció crianza,</l>
+            <l>que su lectura hace en ella</l>
+            <l>lo que el viento cuando sopla</l>
+            <l>muy recio en la chimenea,</l>
+            <l>y que algún día querrá</l>
+            <l>lo mismo que ahora desprecia,</l>
+            <l>pero que se ha de quedar</l>
+            <l>para tía reverenda.</l>
+            <l>Y con gran deseo queda</l>
+            <l>que tuviera esta necia</l>
+            <l>el hombre que debía ser</l>
+            <l>su marido, pero de esta</l>
+            <l>sufrirá nadie le cumpla</l>
+            <l>la promesa que en ella</l>
+            <l>le hiciera el marqués,</l>
+            <l>pues todos, como con priesa,</l>
+            <l>la van a dejar mañana,</l>
+            <l>y sin ni siquiera verla.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>¿Cómo creer tal bufonada?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>¿Bufonada? Cosa cierta</l>
+            <l>que sé de muy buen origen.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>¿Entonces tu amo queda</l>
+            <l>pretendiente sin rivales?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>¿Mi amo? Dios nos defienda.</l>
+            <l>Tanto piensa él en su mano</l>
+            <l>como yo en ir a Rabena</l>
+            <l>a pelear con el turco.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="I">¡Qué dices!</l>
+          </sp>
+          <pb n="132"/>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Como suena,</l>
+            <l>con que le escribe de Murcia</l>
+            <l>el conde de Carazena,</l>
+            <l>ofreciéndole su hija.</l>
+            <l>Única, rica, discreta</l>
+            <l>y hermosa como una rosa,</l>
+            <l>con diez mil pesos de renta</l>
+            <l>anual, y le hace ascos</l>
+            <l>todavía a la propuesta.</l>
+            <l>Y yo sé muy bien por qué.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Pues yo creía que fuera</l>
+            <l>amante de mi señora.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Como yo del mal de piedra.</l>
+            <l>¿Sabes por qué le hace ascos?</l>
+            <l>Porque aquí, quién lo creyera,</l>
+            <l>hay una dama en que tiene</l>
+            <l>toda su voluntad puesta,</l>
+            <l>y tanto que no hace caso</l>
+            <l>de la excesiva riqueza</l>
+            <l>con que de Murcia le envida</l>
+            <l>el conde. Muere por ella,</l>
+            <l>y creo, que al fin, y al postre,</l>
+            <l>ella será la princesa</l>
+            <l part="I">jurada.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="F">¿Cómo se llama?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="I">Mujer.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="F">Donosa respuesta.</l>
+            <l>¿Y dónde vive, no sabes</l>
+            <l part="I">tampoco?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">En su casa mesma.</l>
+          </sp>
+          <pb n="133"/>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="I">¿Tú la conoces?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Y mucho;</l>
+            <l>no hay día que no la vea</l>
+            <l>cuando mi amo le manda</l>
+            <l>por mi medio alguna esquela.</l>
+            <l>¡Pero qué preciosidad!</l>
+            <l>Vaya, no he visto belleza</l>
+            <l>en todo cuanto he andado</l>
+            <l>más humana, más atenta,</l>
+            <l>más agraciada, y garbosa.</l>
+            <l>Todo esto lo embelesa</l>
+            <l>a mi amo, ya se ve,</l>
+            <l>mas ella también se lleva</l>
+            <l>un mozo como un pimpollo,</l>
+            <l>no, no es zonza. Está cierta</l>
+            <l>que hombre por hombre, ninguno</l>
+            <l>le aventaja, ni en nobleza,</l>
+            <l>ni en aquellas cualidades</l>
+            <l>que cualquiera dama aprecia.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>¿Creerás, Pantoja, que estoy</l>
+            <l>reventando porque sepa</l>
+            <l>mi señora todo esto?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Nada me da que lo sepa.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Sí, porque el darle a morder</l>
+            <l>el ajo a una mujer de estas,</l>
+            <l>como son por lo común</l>
+            <l>envidiosas, les preserva</l>
+            <pb n="134"/>
+            <l>el ajito, de que aumenten</l>
+            <l>el viento que en la mollera</l>
+            <l>depositan, que es el mal</l>
+            <l>de que adolece mi enferma.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Apruebo la medicina,</l>
+            <l>pero con sal y pimienta</l>
+            <l>ha de ser administrada</l>
+            <l>para que eficacia tenga</l>
+            <l>el purgante. Ya me entiendes.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Perfectamente; a la letra</l>
+            <l>voy a ponérselo en pico</l>
+            <l part="I">ahora mismo.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Y yo a la tienda</l>
+            <l>a comprar café y bizcochos</l>
+            <l>para mi amo. Adiós prenda.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Abur, Pantoja, ¿hasta cuándo?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>No tardaré dar la vuelta. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+        </div>
+      </div>
+      <div type="cuadro" n="2">
+        <head>Cuadro segundo</head>
+        <div type="scene" n="1">
+          <head>Escena I</head>
+          <stage><emph>Rufina</emph></stage>
+          <stage><emph>Sale Doña Rufina con un libro en la mano paseando y leyendo lo que se sigue,
+              y en acabando deja el libro sobre la mesa y se sienta.</emph></stage>
+          <sp who="#rufina">
+            <speaker>Rufina</speaker>
+            <p>No hay cosa alguna en el mundo más lisonjera y halagüeña para la humanidad que la
+              independencia, aquella independencia <pb n="135"/> apreciable de que resulta la amable
+              libertad. Esta alhaja de más precio en sí que el oro de Ofir, que los diamantes de
+              Persia, y que todo cuanto ha producido la naturaleza, esta prenda es de las que
+              desapropia la mujer que se casa para no recuperarla jamás.</p>
+            <stage><emph>(Representando).</emph></stage>
+            <l>¡Oh! ¡Y cuántos hombres pretenden</l>
+            <l>hacerse dueños de ella</l>
+            <l>con el disfraz del cariño</l>
+            <l>ocultando con destreza</l>
+            <l>la esclavitud que preparan</l>
+            <l>a la que incauta se entrega</l>
+            <l>a su cruel despotismo!</l>
+            <l>Bien haya, sí, la que lleva</l>
+            <l>mi sistema, y oye el lazo.</l>
+            <l>Ella vivirá contenta,</l>
+            <l>se burlará de los hombres,</l>
+            <l>y aun será capaz con esa</l>
+            <l>filosofía, hacer de ellos</l>
+            <l>esclavos, que con atenta</l>
+            <l>sumisión rindan respetos</l>
+            <l>al ídolo que veneran. <stage><emph>(Se sienta).</emph></stage></l>
+            <l>¡Oye Inés!, trae luces:</l>
+            <l>prepara la cafetera</l>
+            <l>que hoy no quiero chocolate.</l>
+            <l>Si vinieren esas pelmas</l>
+            <l>de mis amantes, decidles</l>
+            <l>que estoy hoy con la jaqueca</l>
+            <l>y no para conversar.</l>
+          </sp>
+          <pb n="136"/>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena II</head>
+          <stage><emph>Rufina, Inés</emph></stage>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>El marqués de Valenzuela</l>
+            <l>y el extranjero ayer noche</l>
+            <l>sé que partieron de priesa</l>
+            <l>por la posta con destino</l>
+            <l part="I">de no volver.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">¡Buenas piezas!</l>
+            <l>¿Y en eso paró el amor</l>
+            <l>que los dos a competencia</l>
+            <l>decían me profesaban?</l>
+            <l>¿Y con esa desvergüenza</l>
+            <l>sin venir a despedirse,</l>
+            <l>o algún recado siquiera,</l>
+            <l>se marcharon? Ved hay</l>
+            <l>cumplido con evidencia</l>
+            <l>lo que acabo de leer.</l>
+            <l>Los hombres solo dan muestra</l>
+            <l>de que aman, hasta tanto</l>
+            <l>logran echar la cadena</l>
+            <l>del dominio que pretenden</l>
+            <l>entablar, a las expensas</l>
+            <l>de la incauta que los cree.</l>
+            <l>Mira tú cual se rieran</l>
+            <l>de mí, si tal [sic] pertrechada</l>
+            <l>no me hallara de la nueva</l>
+            <l>filosofía, que el cielo</l>
+            <l>me hizo adoptar por sistema.</l>
+            <l>¿Y cuál pudo ser la causa</l>
+            <pb n="137"/>
+            <l>de una novedad que lleva</l>
+            <l>en sí el signo del desprecio?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Si me permitís licencia</l>
+            <l>os impondré del motivo,</l>
+            <l>según sé por cosa cierta,</l>
+            <l>pero os dispondréis a oír</l>
+            <l>algunas cosas tan nuevas</l>
+            <l>que jamás habrán llegado</l>
+            <l>sin duda a tu inteligencia.</l>
+            <l>No os agradarán, es cierto,</l>
+            <l>mas ya que queréis saberlas</l>
+            <l>os revelaré el motivo</l>
+            <l>de la repentina ausencia</l>
+            <l>del marqués y el escocés,</l>
+            <l>y del que en vísperas queda</l>
+            <l part="I">de hacer lo mismo.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">¿De quién?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Del que más fino os corteja.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>¿De Don Victorio decís?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="I">Ni más ni menos.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">¿Es cierta</l>
+            <l>esa noticia o es vaga?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Es tan real y verdadera,</l>
+            <l>como es cierto que la causa</l>
+            <l>sois tú misma, según cuentan.</l>
+            <l>El caso es este: Pantoja</l>
+            <l>que ni lo suyo reserva</l>
+            <l>cuando tocan a hablar claro,</l>
+            <l>me dijo con gran reserva</l>
+            <pb n="138"/>
+            <l>sabía de positivo</l>
+            <l>que iban tirando mil piedras</l>
+            <l>contra ti los dos, porque</l>
+            <l>dicen que sois desatenta,</l>
+            <l>incivil, y mal criada,</l>
+            <l>fundada en ese sistema</l>
+            <l>de no rendir al amor</l>
+            <l>ni aquello que la prudencia</l>
+            <l>llama atenta urbanidad.</l>
+            <l>Que a vuestra necia soberbia</l>
+            <l>le pesaría algún día</l>
+            <l>cuando pasado se hubiera</l>
+            <l>ese entusiasmo que ahora</l>
+            <l>os perturba la cabeza.</l>
+            <l>Que a ellos no faltan mujeres</l>
+            <l>para esposa y donde quiera,</l>
+            <l>de tan buenas cualidades</l>
+            <l>como pueden ser las vuestras.</l>
+            <l>Y en fin, que echando mil chispas</l>
+            <l>ni despedirse siquiera</l>
+            <l>quisieron, porque notases</l>
+            <l>la indignación que en sí llevan.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>Bien. ¿Y qué dice de mí el otro?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Pantoja no tocó en esa</l>
+            <l>materia, pero me dijo</l>
+            <l>que en ninguna cosa piensa</l>
+            <l>su amo menos que en ser</l>
+            <l>vuestro marido, y lo prueba</l>
+            <l>con que un conde, allá de Murcia</l>
+            <l>le ha escrito haciéndole oferta</l>
+            <l>de una hija, que la pinta</l>
+            <pb n="139"/>
+            <l>como a una segunda Elena.</l>
+            <l>Un pozo de discreción,</l>
+            <l>afable, hermosa, halagüeña,</l>
+            <l>única, rica y con dote</l>
+            <l>de una porción de talegas.</l>
+            <l>Y con todo este atractivo</l>
+            <l>que cualquiera apeteciera</l>
+            <l>como una felicidad,</l>
+            <l>dice Pantoja, que la echa</l>
+            <l>a pasear porque anda</l>
+            <l>aquí mismo en la pretenza</l>
+            <l>de cierta gallarda joven,</l>
+            <l>que la pone en las estrellas</l>
+            <l>Pantoja, cuando describe</l>
+            <l>el pormenor de sus prendas,</l>
+            <l>su pulidez, hermosura,</l>
+            <l>la discreción, y belleza.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>¿Y no te dijo quién es,</l>
+            <l>o cómo se llama esa</l>
+            <l>dama, que es la favorita?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>No pude por más estrechas</l>
+            <l>diligencias, que al intento</l>
+            <l>hice, hacer que me dijera</l>
+            <l>su nombre, ni dónde vive,</l>
+            <l>y el camastrón con destreza</l>
+            <l>me respondió se llamaba</l>
+            <l part="I">mujer.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">¿Y de la vivienda</l>
+            <l>donde mora no te dijo</l>
+            <l part="I">tampoco?</l>
+          </sp>
+          <pb n="140"/>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="F">En la casa mesma</l>
+            <l>donde nació, dijo, vive</l>
+            <l>con su padre.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>¿Y el bribón por qué reserva</l>
+            <l>decir lo menos, si ya</l>
+            <l>vació toda la talega?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Haría escrúpulo de ello.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>¡Qué delicada conciencia!</l>
+            <l>Mira, tráeme ese libro,</l>
+            <l>y tú márchate allá afuera.</l>
+            <l>Si viniese Don Victorio</l>
+            <l>avísame antes que quiera</l>
+            <l>pasar adentro. ¿Has oído?</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="I">Sí, señora. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Escena III</head>
+          <stage><emph>Rufina</emph></stage>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">No creyera tanta</l>
+            <l>falsedad en los hombres</l>
+            <l>si la evidencia no hiciera</l>
+            <l>palpable mi desengaño.</l>
+            <l>Todos tres me dieron muestras</l>
+            <l>de solicitar mi mano.</l>
+            <l>El marqués de Valenzuela</l>
+            <l>se declaró por dos veces;</l>
+            <l>el escocés con franqueza</l>
+            <l>me dijo que no aspiraba</l>
+            <l>a otra dicha, sino a aquella</l>
+            <pb n="141"/>
+            <l>que pendía de admitirle</l>
+            <l>por mi esposo. Las protestas</l>
+            <l>más solemnes uno y otro</l>
+            <l>hicieron en mi presencia,</l>
+            <l>prometiéndome serían</l>
+            <l>inmutables sus firmezas;</l>
+            <l>Don Victorio, es hombre aleve,</l>
+            <l>no ha omitido diligencia</l>
+            <l>para conseguir mi mano.</l>
+            <l>¡Y ahora los tres se rebelan,</l>
+            <l>me insultan, y huyen de mí</l>
+            <l>como si olvidado hubieran</l>
+            <l>su solicitud, sus ruegos,</l>
+            <l>y mi constante firmeza</l>
+            <l>en no aceptar a ninguno</l>
+            <l>por seguir aquel sistema</l>
+            <l>de vivir en libertad!</l>
+            <l>No ignoro que desespera</l>
+            <l>a una continua porfía</l>
+            <l>una negativa eterna.</l>
+            <l>Pero pregunto, ¿en qué está</l>
+            <l>mi delito? ¿En que no quiera</l>
+            <l>admitir ninguna boda?</l>
+            <l>¿A todos tres no les queda</l>
+            <l>el derecho a salvo, para</l>
+            <l>procurar damas que tengan</l>
+            <l>otro modo de pensar?</l>
+            <l>¿Acaso en esta materia</l>
+            <l>puede haber extravagancia?</l>
+            <l>Ellos así se lo piensan</l>
+            <l>graduando mi opinión</l>
+            <pb n="142"/>
+            <l>de caprichuda y soberbia,</l>
+            <l>pero ahora quiero yo</l>
+            <l>reflexionar con prudencia</l>
+            <l>si ese sentir de los tres</l>
+            <l>con que gradúan de necia,</l>
+            <l>incivil y descortés</l>
+            <l>mi conducta, tenga fuerza</l>
+            <l>mayor, que aquel que yo opino.</l>
+            <l>Para esto, vaya fuerza</l>
+            <l>por este rato, el capricho.</l>
+            <l>El amor propio contenga</l>
+            <l>sus instancias, hasta que</l>
+            <l>oídas las partes sean,</l>
+            <l>y de la sentencia el juicio.</l>
+            <l>La razón el fiscal sea</l>
+            <l>de esta cuestión en que hoy</l>
+            <l>se ha de pronunciar sentencia</l>
+            <l>definitiva. Ea, pues,</l>
+            <l>veamos lo que se alega</l>
+            <l>contra mí: dicen que pierdo</l>
+            <l>la edad de la primavera</l>
+            <l>sin adoptar el partido</l>
+            <l>ventajoso que me espera</l>
+            <l>dando la mano a uno de ellos,</l>
+            <l>que cuando pasado sea</l>
+            <l>ese tiempo y reflexione</l>
+            <l>mi soledad, será fuerza</l>
+            <l>mudar dictamen, y entonces</l>
+            <l>es ociosa diligencia</l>
+            <l>tal solicitud, y al fin</l>
+            <l>que con esposo y querencia</l>
+            <pb n="143"/>
+            <l>en su esposa la virtud</l>
+            <l>de su conducta, está fuera</l>
+            <l>de oprimir su libertad,</l>
+            <l>pues, que si llaman cadena</l>
+            <l>a ese enlace, es porque une</l>
+            <l>dos almas en una misma;</l>
+            <l>de cuya estrechez resulta</l>
+            <l>la satisfacción completa</l>
+            <l>que produce a los esposos</l>
+            <l>esta mutua dependencia.</l>
+            <l>No entiendo que haya más cargos</l>
+            <l>que hacer contra mi sistema.</l>
+            <l>Ahora, Rufina, ¿qué dices</l>
+            <l>a los que acusan? Respuesta</l>
+            <l>exigen tus contendores,</l>
+            <l>y el contestarles es fuerza.</l>
+            <l>Hable la razón y sigan</l>
+            <l>su concepto las potencias…</l>
+            <stage><emph>(Se suspende un momento como reflexionando y luego sigue
+              diciendo:)</emph></stage>
+            <l>Comprendo, sí, comprendo</l>
+            <l>que la libertad perfecta</l>
+            <l>consistir en darle suelta</l>
+            <l>todo lo que relación tenga</l>
+            <l>con lo virtuoso y justo,</l>
+            <l>pues de ninguna manera</l>
+            <l>será libre el que la hiciere,</l>
+            <l>consistir en darle suelta</l>
+            <l>cuando quieran las pasiones.</l>
+            <l>Así de esta manera</l>
+            <l>ha de entenderse el ser libre,</l>
+            <l>aquella esposa discreta</l>
+            <pb n="144"/>
+            <l>que dé el lleno a los deberes</l>
+            <l>de su estado, está tan fuera</l>
+            <l>de reputarse cautiva,</l>
+            <l>que antes llamarse la dueña</l>
+            <l>merece de sus acciones,</l>
+            <l>viendo estas por consecuencia</l>
+            <l>actos de la libertad</l>
+            <l>justa, prudente y perfecta.</l>
+            <l>Por esta parte conozco</l>
+            <l>que pierda el pleito y que ciega</l>
+            <l>he estado creyendo ser</l>
+            <l>libre la que más desprecia</l>
+            <l>el yugo del matrimonio.</l>
+            <l>La reflexión ha hecho mella</l>
+            <l>en mi entendimiento y debo</l>
+            <l>confesarme una indiscreta.</l>
+            <l>¿Pero qué remedio hay</l>
+            <l>a lo perdido? El sistema</l>
+            <l>que he seguido lo abandono,</l>
+            <l>pues la razón lo detesta.</l>
+            <l>Yo sé que no me ha faltado</l>
+            <l>cierta inclinación secreta</l>
+            <l>al matrimonio, y que solo</l>
+            <l>lo ha impedido la siniestra</l>
+            <l>definición que yo daba</l>
+            <l>a la libertad. Aunque quiera</l>
+            <l>convenir ahora en dar</l>
+            <l>a aquel que secreta</l>
+            <l>se inclina mi voluntad</l>
+            <l>no ha lugar, pues él confiesa,</l>
+            <l>según dice su criado,</l>
+            <pb n="145"/>
+            <l>tener su voluntad puesta</l>
+            <l>en otra dama, y entonces</l>
+            <l>despreciará la primera</l>
+            <l>de unas bodas que apartado</l>
+            <l>mire con indiferencia.</l>
+            <l>Sin embargo puede ser</l>
+            <l>que el criado acaso mienta.</l>
+            <l>Bueno será sondearlo</l>
+            <l>con discreción, y viveza,</l>
+            <l>y según se encuentre el vado</l>
+            <l>pasar, o quedarse en tierra.</l>
+            <l>El no tardará en venir</l>
+            <l>y ahora de otra manera</l>
+            <l>es menester recibirle,</l>
+            <l>que ya conozco la necia</l>
+            <l>vanidad, que hasta el presente</l>
+            <l>ha cegado a mis potencias.</l>
+            <stage><emph>(Silencia y dice:)</emph></stage>
+            <l>Llamaré a Inés. ¡Ae, muchacha!</l>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Escena IV</head>
+          <stage><emph>Rufina, Inés</emph></stage>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>¿Quiere Vm. la cafetera?</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>No, luces sí, que ya es tarde.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Voy al instante por ellas. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>Venga ahora el disimulo,</l>
+            <l>en este estado es prudencia</l>
+            <l>el disimular ignorancia</l>
+            <pb n="146"/>
+            <l>de aquello que con certeza</l>
+            <l>dijo Pantoja a la Inés.</l>
+            <stage><emph>Aparece Inés con luces.</emph></stage>
+            <l>Oigo golpes en la puerta,</l>
+            <l>mirad quién es, y avisad.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Voy, señora. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <stage>¿Si será la hora esta</stage>
+            <l>de perder mis esperanzas? <stage><emph>(Sale).</emph></stage></l>
+            <l>Bien lo merezco. Paciencia.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Es el señor Don Victorio</l>
+            <l>que tocaba la puerta,</l>
+            <l>y ya está aquí en la antesala.</l>
+          </sp>
+          <stage><emph>Entra Don Victorio.</emph></stage>
+        </div>
+        <div type="scene" n="5">
+          <head>Escena V</head>
+          <stage><emph>Rufina, Victorio</emph></stage>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>¿Madama, qué soledad, pues, es esta?</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>No estoy tan sola, que acabo</l>
+            <l>de escuchar una discreta</l>
+            <l part="I">conversación.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">Ya lo entiendo.</l>
+            <l>¿Su lectura predilecta</l>
+            <l part="I">es verdad?</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">En ellos he hallado</l>
+            <l>una diversión completa</l>
+            <l part="I">toda mi vida.</l>
+          </sp>
+          <pb n="147"/>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">Lo creo.</l>
+            <l>No hay cosa como las letras.</l>
+            <l>Yo alabo a Vm. su buen gusto,</l>
+            <l>porque instruyendo, deleitan,</l>
+            <l>y hacen al hermoso sexo</l>
+            <l>mucho honor.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>Sin embargo si Vm. hubiera</l>
+            <l>de elegir una mujer</l>
+            <l>para esposa, yo creyera</l>
+            <l>no la buscara lectora.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Soy franco, y en mi respuesta</l>
+            <l>lo ha de conocer Vm.</l>
+            <l>Es verdad, no la quisiera</l>
+            <l part="I">lectora.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">¿Pero por qué?</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>El porqué, señora, queda</l>
+            <l>sepultado en el silencio.</l>
+            <l>Cada cual tiene su idea,</l>
+            <l>y no es prudencia impedir</l>
+            <l>a nadie siga con ella.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>¿Pero si por darle gusto</l>
+            <l>la elegida, conviniera</l>
+            <l>en abandonar los libros,</l>
+            <l>es regular la admitiera,</l>
+            <l>respecto estar removida</l>
+            <l>la causa de no quererla?</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Ingenuamente os confieso</l>
+            <l>señora que la tuviera</l>
+            <l>por algún tiempo indecisa</l>
+            <l>de si la elegida era</l>
+            <pb n="148"/>
+            <l>ella, u otra, hasta que el tiempo</l>
+            <l>me diese seguras pruebas</l>
+            <l>de su constancia, porque</l>
+            <l>ya saben la cantinela:</l>
+            <l>el que malas mañas tiene</l>
+            <l>nunca, o muy tarde las deja.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>Graciosa comparación.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Puede acaso no ser buena</l>
+            <l>pero es la que me ocurrió</l>
+            <l>más prontamente a la vena,</l>
+            <l>que como la claridad</l>
+            <l>es en cualquier materia</l>
+            <l>el alma de los conceptos,</l>
+            <l>quise echar mano de esta</l>
+            <l>comparación, que aunque simple,</l>
+            <l>presenta perfecta idea</l>
+            <l>de lo que se ejemplifica.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>Yo sería muy grosera</l>
+            <l>si el sentido en que graciosa</l>
+            <l>llama a aquella cantinela,</l>
+            <l>se dirigiera a abatir</l>
+            <l>vuestro discurso: no intenta</l>
+            <l>mi respuesta ajar a nadie.</l>
+            <l>La comparación es buena,</l>
+            <l>muy propia y muy merecida</l>
+            <l>aquella que el sayo venga.</l>
+            <l>¡Inés, trae chocolate!</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Si es por mí, os lo aprecia</l>
+            <l>mi voluntad: muchas gracias. <stage><emph>(Levantándose).</emph></stage></l>
+            <l>Madama, ando de priesa</l>
+            <pb n="149"/>
+            <l>porque se me está esperando</l>
+            <l>cierta persona, que es fuerza</l>
+            <l>cumplimentarla, y así</l>
+            <l>será con vuestra licencia</l>
+            <l part="I">hasta otra ocasión.</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">Es justo</l>
+            <l>no faltar a la promesa</l>
+            <l>que habéis hecho de ir a ver</l>
+            <l>a esa persona. Ve a verla</l>
+            <l>y decidle en nombre mío</l>
+            <l>que ojalá no sea ella</l>
+            <l>tan desgraciada a los ojos</l>
+            <l>del que sus gracias aprecia</l>
+            <l>como es la que este recado</l>
+            <l part="I">le dirige.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">¡Buena es esa!</l>
+            <l>¿Pues conocéis vos acaso</l>
+            <l part="I">a esa persona?</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">Sé de ella,</l>
+            <l>aunque no su nombre y casa,</l>
+            <l>lo bastante para hacerla</l>
+            <l>con vos hoy este cumplido.</l>
+            <l>Perdonad, y daos prisa,</l>
+            <l>que puede estar esperando.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Aunque el enigma no acierta</l>
+            <l>mi discurso, sin embargo</l>
+            <l>prometo hacer a la letra</l>
+            <l>lo que me habéis encargado.</l>
+            <l part="I">Quedaos con Dios. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+          <pb n="150"/>
+        </div>
+        <div type="scene" n="6">
+          <head>Escena VI</head>
+          <stage><emph>Rufina</emph></stage>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l part="F">Y en mis penas</l>
+            <l>me dé constancia y valor,</l>
+            <l>resignación y paciencia.</l>
+            <l>¿Qué es esto que por mí pasa?</l>
+            <l>No hace dos días que eran</l>
+            <l>para mí todos los hombres</l>
+            <l>como si alguno existiera</l>
+            <l>en el mundo. Los miraba</l>
+            <l>con desdén e indiferencia,</l>
+            <l>y aun me causaban fastidios</l>
+            <l>sus más corteses finezas.</l>
+            <l>¡Y hoy, celosa, despreciada,</l>
+            <l>llena el corazón de pena!</l>
+            <l>¿Qué es esto Rufina, di,</l>
+            <l>qué metamorfosis es esta</l>
+            <l>tan violenta y repentina?</l>
+            <l>¡Ah! ¡Tu indiscreción dio materia</l>
+            <l>por causar tal mudanza!</l>
+            <l>Dichosa y feliz tú fueras</l>
+            <l>si deponiendo tu orgullo</l>
+            <l>correspondido le hubieras</l>
+            <l>al que con tantos desprecios</l>
+            <l>antes trataste. Padezca</l>
+            <l>el corazón que no supo</l>
+            <l>usar de cortés prudencia.</l>
+            <l>¡Oh, lecturas, qué mal uso</l>
+            <l>hice de ti! No era esa</l>
+            <l>la lección que en ti debía</l>
+            <pb n="151"/>
+            <l>aprender. Erré la senda;</l>
+            <l>pero vamos al remedio</l>
+            <l>que aunque tarde, acaso llega</l>
+            <l>en circunstancias que alcance</l>
+            <l>a hacer propicia mi estrella</l>
+            <l>variando ya de rumbo.</l>
+            <l>En fin voime un rato afuera</l>
+            <l>por si divierto este mal</l>
+            <l>que un instante no me deja. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+        </div>
+      </div>
+      <div type="cuadro" n="3">
+        <head>Cuadro tercero</head>
+        <div type="scene" n="1">
+          <head>Escena I</head>
+          <stage><emph>Victorio, Pantoja</emph></stage>
+          <stage><emph>Salen Don Victorio y Pantoja.</emph></stage>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Produjo admirable efecto</l>
+            <l>todo cuanto tu viveza</l>
+            <l>me pronosticó. La Inés</l>
+            <l>le hizo una pintura extensa</l>
+            <l>de cuanto tú le contaste</l>
+            <l>sobre lo que dicen de ella</l>
+            <l>aquellos que la pretenden,</l>
+            <l>y ella celosa, o dispuesta</l>
+            <l>a abrazar mejor partido</l>
+            <l>que el que su necio sistema</l>
+            <l>le produjo hasta el presente,</l>
+            <l>se ha producido tan llena</l>
+            <l>de confusión a mi vista</l>
+            <l>que aunque con mucha modestia</l>
+            <pb n="152"/>
+            <l>casi casi me indicaba</l>
+            <l>estar del todo resuelta</l>
+            <l>a abrazar el matrimonio</l>
+            <l>de que antes huía necia.</l>
+            <l>¡Si oyeras lo que me dijo</l>
+            <l>acerca de que le diera</l>
+            <l>un recado de su parte</l>
+            <l>a quien sospechaba ella</l>
+            <l>que yo iba a cumplimentar</l>
+            <l>en separándome de ella!</l>
+            <l>Vaya si me enternecía.</l>
+            <l>Te prometo hice violencia</l>
+            <l>para mantenerme firme</l>
+            <l>y no darle una completa </l>
+            <l part="I">satisfacción.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Linda cosa</l>
+            <l>hubieras hecho. ¡Qué buena!</l>
+            <l>No de balde estaba yo</l>
+            <l>con las orejas alerta</l>
+            <l>a ver cómo sacudías</l>
+            <l>de ti la araña. Si oyeras,</l>
+            <l>si oyeras, todo lo he oído.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="I">¿Dónde, Pantoja?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Allá afuera,</l>
+            <l>con la Inés en la antesala.</l>
+            <l>Yo le pedí su licencia</l>
+            <l>para escuchar dos palabras</l>
+            <l>cuando os vi entrar, y ella atenta</l>
+            <l>me concedió que escuchara</l>
+            <l>tocies, quocies yo quisiera.</l>
+          </sp>
+          <pb n="153"/>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Y bien, Pantoja, ¿qué dices?</l>
+            <l>¿No parece que mi estrella</l>
+            <l>me anuncia propicio el hado?</l>
+            <l>Ya la feliz diligencia</l>
+            <l>de mi desprecio, ha surtido</l>
+            <l>cuanto desear pudiera.</l>
+            <l>¿Qué más me resta que hacer</l>
+            <l>para que a Rufina bella</l>
+            <l>le dé la mano de esposo?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>¿Sabes qué? Que cante ella</l>
+            <l>la palinodia, y que diga</l>
+            <l>a vista, ciencia y paciencia</l>
+            <l>de todos, que el casamiento</l>
+            <l>es la cosa más excelsa</l>
+            <l>de cuantas contiene el mundo,</l>
+            <l>en pena de que indiscreta</l>
+            <l>lo usó tantas veces,</l>
+            <l>por mantener una ciega</l>
+            <l>pasión a la libertad</l>
+            <l part="I">mal entendida.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">Y si ella</l>
+            <l>no obstante ver mi desvío</l>
+            <l>y mi fingida entereza</l>
+            <l>se da a partido, y me ofrece</l>
+            <l>su mano, ¿qué más completa</l>
+            <l>victoria, para triunfar</l>
+            <l>de su anterior resistencia?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Tanto mejor, para que entonces</l>
+            <l>ahorramos la molestia</l>
+            <l>de andar con satisfacciones,</l>
+            <pb n="154"/>
+            <l>que calientan la cabeza,</l>
+            <l>y echamos mano del grano</l>
+            <l>soplando la paja afuera.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Bien. ¿Pero por dónde o cómo</l>
+            <l>podrá saberse que queda</l>
+            <l>ella pronta a ser mi esposa,</l>
+            <l>y yo a poseer en ella</l>
+            <l>todo lo que más estimo,</l>
+            <l>cuando a aquellas indirectas</l>
+            <l>con que se explicó, cerré</l>
+            <l>enteramente la puerta</l>
+            <l>con el desprecio que hice</l>
+            <l>como si nos las oyera?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Volviendo allá a visitarla,</l>
+            <l>y si os tocara la tecla,</l>
+            <l>con prudente disimulo</l>
+            <l>ir arriando bandera</l>
+            <l>poco a poco, hasta que al fin</l>
+            <l>quede la plaza por vuestra</l>
+            <l>y se rinda a discreción,</l>
+            <l>capitulando con ella</l>
+            <l>que en casa no ha de haber libros</l>
+            <l>de filosofía nueva,</l>
+            <l>ni otros que el de doctrina</l>
+            <l>cristiana, o de novenas.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Me conformo, pues no hallo</l>
+            <l>otro arbitrio que esclarezca</l>
+            <l>su resolución, que este</l>
+            <l>que me propones.</l>
+            <l>Voime a hacer la diligencia</l>
+            <l>ahora mismo en este instante.</l>
+            <pb n="155"/>
+            <stage><emph>Tocan la puerta.</emph></stage>
+            <l>Pero mira que la puerta</l>
+            <l part="I">están tocando.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Allá voy. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Cuando uno está más de priesa</l>
+            <l>parece que al mismo paso</l>
+            <l>las visitas lo molestan.</l>
+            <l>Vaya, veamos quién es</l>
+            <l>que corta será la audiencia.</l>
+          </sp>
+          <stage><emph>Sale Pantoja.</emph></stage>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>La que tocaba es la Inés</l>
+            <l>y ya sube la escalera.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="I">Dile que entre.</l>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena II</head>
+          <stage><emph>Dichos, Inés</emph></stage>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Aquí está.</l>
+          </sp>
+          <stage><emph>Sale Inés.</emph></stage>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Señor, mi ama me envía</l>
+            <l>a traeros esta esquela. <stage><emph>(Le da un papel).</emph></stage></l>
+            <l>y dice que si os dignáis</l>
+            <l>leerla y darle respuesta</l>
+            <l>se la mandéis con Pantoja</l>
+            <l>porque estoy algo de priesa.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Dile Inés a tu señora</l>
+            <l>que llevará la respuesta</l>
+            <l>Pantoja oportunamente.</l>
+          </sp>
+          <pb n="156"/>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="I">Está bien. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="F">Adiós mi perla.</l>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Escena III</head>
+          <stage><emph>Victorio, Pantoja</emph></stage>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Pantoja, ¿qué será esto?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Acaso serán boleras</l>
+            <l>que querrá cantar aquí</l>
+            <l>por alguna solfa nueva.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <stage><emph>(Abre la esquela).</emph></stage>
+            <l>Veamos:</l>
+            <p>"Señor Victorio de Moncada. Muy señor mío: confieso haber tenido a Vm. desde que lo
+              comuniqué cierta honesta voluntad, que mis caprichos no dieron lugar a manifestársela.
+              No ignoro igualmente que Vm. me la tuvo algún día, y que si hoy no existe en su
+              corazón Rufina, es porque sus indiscreciones le sacaron de él. La confesión sincera de
+              mi arrepentimiento creo, que pueda colocarla otra vez en su estimación, si es que no
+              la ocupa ya otro objeto más digno. Esta sola noticia espera para entregarse al
+              sentimiento o al gozo, su desgraciada sierva. Rufina".</p>
+            <l>¿Qué es esto que yo he leído?</l>
+            <l>¿Es ilusión o es certeza?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Nada otra cosa que haber</l>
+            <l>caído en la ratonera</l>
+            <l>el ratón que andaba dando</l>
+            <l>alrededor de ella cien vueltas.</l>
+            <l>¿Lo veis? ¿No os decía yo</l>
+            <pb n="157"/>
+            <l>que el mimarla, era perderla,</l>
+            <l>y al contrario el despreciarla</l>
+            <l>medio para poseerla?</l>
+            <l>¿Digo, si entenderé yo</l>
+            <l>cómo esto se marea,</l>
+            <l>con cincuenta años de mundo,</l>
+            <l>y otros tantos de experiencia?</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Mi dicha ha llegado al colmo.</l>
+            <l>Pantoja, yo voy a verla</l>
+            <l>y a darla de mis desaires</l>
+            <l>satisfacción tan completa,</l>
+            <l>como no imagine que amo</l>
+            <l>a otra persona que a ella.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>¡Linda cosa! Pues ya puedes</l>
+            <l>decir que haces una buena</l>
+            <l>embarrada. Eso es nadar,</l>
+            <l>y ahogarse en la ribera.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>¿Y qué quieres que haga, hombre,</l>
+            <l>si véis con cuánta terneza</l>
+            <l>me pide no la retarde</l>
+            <l>a su papel la respuesta?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Yo no digo que no vayas,</l>
+            <l>pues sería una simpleza</l>
+            <l>despreciar aquello mismo</l>
+            <l>por que has echado la tela</l>
+            <l>tanto tiempo, pero quiero</l>
+            <l>que vayas de tal manera</l>
+            <l>dispuesto, que al aceptar</l>
+            <l>la mano, conozca ella</l>
+            <l>que te es indiferente</l>
+            <l>admirarla o repelerla.</l>
+          </sp>
+          <pb n="158"/>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Pero hombre, ¿qué dirá</l>
+            <l>al ver en mí tal dureza?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Que diga lo que quisiere.</l>
+            <l>Lo que a ti importa es que crea</l>
+            <l>que le haces un gran favor,</l>
+            <l>aunque <sic>ata</sic> a tu sayo veas,</l>
+            <l>que es ella quien te lo hace.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Bien, pero dame una idea</l>
+            <l>de qué le diré, y el cómo.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Muy fácil. De esta manera:</l>
+            <l>Madame, a los pies de Vm.</l>
+            <l>He recibido la esquela</l>
+            <l>en que me ofrece su mano.</l>
+            <l>Ni la desprecia, ni acepta</l>
+            <l>por ahora mi cariño</l>
+            <l>hasta que una diligencia</l>
+            <l>evacue, que me embaraza</l>
+            <l>poder darle con franqueza</l>
+            <l>el sí, o el no; en breve tiempo</l>
+            <l>tendréis segura respuesta.</l>
+            <l>Esto la pondrá en cuidado</l>
+            <l>y hará ver, que siempre quedas</l>
+            <l>tú superior, pues la admites</l>
+            <l>en virtud de sus promesas.</l>
+            <l>Y después de un par de horas,</l>
+            <l>volver a darle la cierta</l>
+            <l>noticia de la admisión.</l>
+            <l>Entonces di cuanto quieras</l>
+            <l>sin fingimientos ni embustes,</l>
+            <pb n="159"/>
+            <l>pues ya no hay riesgo que crea</l>
+            <l>que estabas ciego en amarla,</l>
+            <l>y que morías por ella.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>He de seguir tu dictamen</l>
+            <l>hasta el fin. Tus experiencias</l>
+            <l>veo que me han conducido</l>
+            <l>por medio de la tormenta</l>
+            <l>al puerto tan deseado</l>
+            <l>de su posesión. Tú queda</l>
+            <l>aquí mientras que yo evacuo</l>
+            <l>esta diligencia.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Algo arriesgadilla es</l>
+            <l>porque si hay pataleta,</l>
+            <l>llanto, suspiros y ansias</l>
+            <l>al oír la indiferencia</l>
+            <l>con que le responde, adiós,</l>
+            <l>se perdió la diligencia.</l>
+          </sp>
+          <stage><emph> Sale Inés.</emph></stage>
+        </div>
+        <div type="scene" n="4">
+          <head>Escena IV</head>
+          <stage><emph>Pantoja, Inés</emph></stage>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>¿Y vuestro amo, Pantoja?</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l part="I">Salió a la calle.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l part="F">La puerta</l>
+            <l>la encontré de par en par,</l>
+            <l>y creí que aquí estuviera.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>¿Y qué tenemos de nuevo?</l>
+          </sp>
+          <pb n="160"/>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Mi ama ha dado una vuelta</l>
+            <l>increíble. Ya no hay libros.</l>
+            <l>Ahora todas son quejas</l>
+            <l>contra sí, porque ha perdido</l>
+            <l>el buen tiempo en su sistema.</l>
+            <l>En una palabra, ahora</l>
+            <l>quiere casarse por fuerza</l>
+            <l>con tu amo Don Victorio.</l>
+            <l>¿No es graciosísimo el tema?</l>
+            <l>Ella me manda a llevar</l>
+            <l>la respuesta de una esquela</l>
+            <l>que le envió, y no ha tenido</l>
+            <l>aún contestación de ella.</l>
+            <l>Me encargó que no tardara</l>
+            <l>fuera con ella, o sin ella</l>
+            <l>y así me voy. Adiós, pues. <stage><emph>(Vase).</emph></stage></l>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Escena V</head>
+          <stage><emph>Pantoja, Victorio</emph></stage>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>A la obediencia Inesuela.</l>
+            <l>No sirvo para fingir,</l>
+            <l>pero al fin la diligencia</l>
+            <l>está practicada ya</l>
+            <l>según quedamos en ella.</l>
+            <l>Me ha suplicado abreviara</l>
+            <l>lo más pronto que pudiera</l>
+            <l>la resolución, y es justo</l>
+            <l>ceder en esta materia.</l>
+            <l>Vámonos allá los dos,</l>
+            <pb n="161"/>
+            <l>Pantoja, que quiero seas</l>
+            <l>tú e Inés los dos testigos</l>
+            <l>de mis esponsales previas.</l>
+          </sp>
+          <stage><emph>Vanse los dos.</emph></stage>
+        </div>
+      </div>
+      <div type="cuadro" n="4">
+        <head>Cuadro cuarto</head>
+        <div type="scene" n="1">
+          <head>Escena I</head>
+          <stage><emph>Rufina, Inés</emph></stage>
+          <stage><emph>Sala de Doña Rufina, quien estará con Inés.</emph></stage>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>Ten cuidado, Inés, si viene</l>
+            <l>Don Victorio y parte pronto</l>
+            <l>a abrirle luego al instante.</l>
+            <l>Estoy llena de zozobras</l>
+            <l>hasta oír mi desengaño.</l>
+            <l>Lo amo: yo fui traidora</l>
+            <l>a mi misma voluntad</l>
+            <l>no correspondiendo airosa</l>
+            <l>a la fe que él me tenía.</l>
+            <l>Paciencia, que aunque dudosa</l>
+            <l>estoy de poder llamarme</l>
+            <l>correspondida, es forzosa</l>
+            <l>la resignación, pues tuve</l>
+            <l>la culpa yo. En esta hora</l>
+            <l>acaso me está esperando</l>
+            <l>oír de su misma boca</l>
+            <l>un no quiero. ¡Santo cielo!</l>
+            <l>Si tal sucede, desploma</l>
+            <l>sobre un corazón amante</l>
+            <pb n="162"/>
+            <l>la triste pesada loza</l>
+            <l>que sepulte mi esperanza</l>
+            <l>para jamás ser dichosa,</l>
+            <l>pero si por un afecto</l>
+            <l>de vuestra piedad…</l>
+            <l>Inés, ved, ahí tocan.</l>
+          </sp>
+          <stage><emph>Va Inés a abrir y vuelve a entrar con Don Victorio.</emph></stage>
+        </div>
+        <div type="scene" n="2">
+          <head>Escena II</head>
+          <stage><emph>Todos</emph></stage>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l>Adorada prenda mía,</l>
+            <l>vengo a daros la gustosa</l>
+            <l>noticia de que he resuelto</l>
+            <l>seáis vos mi digna esposa</l>
+            <l>y yo tu amante marido,</l>
+            <l>pues que el cielo con piadosa</l>
+            <l>disposición determina</l>
+            <l>unir dos almas que ansiosas</l>
+            <l>logran en el matrimonio</l>
+            <l>hacer de dos una…</l>
+          </sp>
+          <sp who="#rufina">
+            <speaker>Rufina:</speaker>
+            <l>Y yo con todo el afecto</l>
+            <l>de mi corazón, tu esposa</l>
+            <l>me ofrezco ser, y entre tanto</l>
+            <l>que se celebre la boda</l>
+            <l>sirva mi mano, y palabra</l>
+            <l part="I">de esponsales.</l>
+          </sp>
+          <sp who="#victorio">
+            <speaker>Victorio:</speaker>
+            <l part="F">Yo, señora,</l>
+            <pb n="163"/>
+            <l>os doy la mía, y con ella</l>
+            <stage><emph>Danse las manos</emph></stage>
+            <l>os recibo por esposa.</l>
+          </sp>
+          <sp who="#pantoja">
+            <speaker>Pantoja:</speaker>
+            <l>Y para que si algún día</l>
+            <l>quiere imprimirse esta historia</l>
+            <l>se vea queda completa,</l>
+            <l>si Inés quiere ser mi novia,</l>
+            <l>por mi parte yo la admito,</l>
+            <l>y está aquí mi mano pronta.</l>
+          </sp>
+          <sp who="#ines">
+            <speaker>Inés:</speaker>
+            <l>Yo la tomo por la mía,</l>
+            <l>pronto, contenta y gustosa.</l>
+          </sp>
+          <stage><emph>Se dan las manos.</emph></stage>
+          <sp who="#rufina #victorio #ines #pantoja">
+            <speaker>Todos:</speaker>
+            <l>Y para que el patio crea</l>
+            <l>que el mundo es una tramoya</l>
+            <l>en que muda lo subsistente</l>
+            <l>porque todo se trastorna,</l>
+            <l>vaya la vuelta que han dado</l>
+            <l>los que declaman la historia.</l>
+          </sp>
+        </div>
+      </div>
+    </body>
+    <back>
+      <trailer>Fin</trailer>
+    </back>
+  </text>
+</TEI>

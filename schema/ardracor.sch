@@ -16,6 +16,12 @@
             <sch:assert test="tei:publisher[@xml:id = 'hdlab']">Error: there should be a publisher element with an ID "hdlab".</sch:assert>
             <sch:assert test="tei:publisher[@xml:id = 'rosDH']">Error: there should be a publisher element with an ID "rosDH".</sch:assert>
         </sch:rule>
+        <sch:rule context="tei:profileDesc">
+            <sch:assert test="tei:particDesc/tei:listPerson">Error: there should be a participant list with a person list containing the names of the characters in the play.</sch:assert>
+        </sch:rule>
+        <sch:rule context="tei:particDesc//tei:person">
+            <sch:assert test="@sex = ('MALE','FEMALE','UNKNOWN')">Error: the attribute @sex of a person should have one of the following values: MALE, FEMALE, UNKNOWN.</sch:assert>
+        </sch:rule>
         <!-- checks of @who attributes -->
         <sch:let name="ids-cast-list" value="//tei:particDesc//tei:person/@xml:id"/>
         <sch:rule context="tei:sp">

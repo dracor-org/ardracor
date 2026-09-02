@@ -68,7 +68,7 @@
           column layout, where it occurs, is not encoded as such; instead, the text is encoded
           sequentially. Page breaks of the digital source are indicated. Line breaks are not
           encoded. Capitalized words were converted to lower-case. Text that was set in italics in
-          the digital source is encoded as such. Foreign words are marked up the the 'foreign'
+          the digital source is encoded as such. Foreign words are marked up with the 'foreign'
           element and their language is indicated. Obvious errors (e.g., typos in the character
           names) were corrected.</p>
       </editorialDecl>
