@@ -1,5 +1,6 @@
 ![version](https://img.shields.io/badge/version-1.0.0-blue)
 [![DOI](https://zenodo.org/badge/972140102.svg)](https://zenodo.org/badge/latestdoi/972140102)
+[![DOI](https://zenodo.org/badge/19498449.svg)](https://zenodo.org/badge/latestdoi/19498449)
 
 # ArDraCor: Argentinian Drama Corpus
 
