@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000005" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000005" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,26 +29,23 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
           <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://commons.wikimedia.org/wiki/File:Poesias_-_Juan_Cruz_Varela.pdf"
-            >Wikimedia Commons</ref>
+          <ref target="https://web.archive.org/web/20251205053331/https://upload.wikimedia.org/wikipedia/commons/4/49/Poesias_-_Juan_Cruz_Varela.pdf">Wikimedia Commons</ref>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
         </bibl>
         <bibl type="originalSource">
-          <author><forename>Juan</forename> <surname>Cruz Varela</surname></author>:
-          <title level="a">Argia</title>.
-          En: <title level="m">Poesías de Juan Cruz Varela y las tragedias Dido y Argia.</title>
+          <author><forename>Juan</forename>
+            <surname>Cruz Varela</surname></author>: <title level="a">Argia</title>. En: <title level="m">Poesías de Juan Cruz Varela y las tragedias Dido y Argia.</title>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Imprenta de la tribuna</publisher>,
-          <date>1879</date>, pp. <biblScope unit="page" from="402" to="486">402–486</biblScope>.
+            <date>1879</date>, pp. <biblScope unit="page" from="402" to="486">402–486</biblScope>.
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -104,10 +99,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000005"
-        passive="http://www.wikidata.org/entity/Q136046283"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000005"
-        passive="https://hdlab.space/teatrar/obras/0288.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000005" passive="http://www.wikidata.org/entity/Q136046283"/>
     </listRelation>
   </standOff>
   <text>

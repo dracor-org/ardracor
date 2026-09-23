@@ -4,6 +4,13 @@
     <sch:title>ArDraCor Schematron file</sch:title>
     
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
+  
+    <!-- new checks to add:
+    - foreign: values for xml:lang (do a fixed list of possible values)
+    - trailer: element has to be in back, not in body (possible texts: "fin" / "telon")
+    - stage inline: check that every stage in <l> has type="inline" and the others do not have that attribute
+    - emph: tiene que tener @rend con valores: "italic" o "bold" o ambos
+    -->
     
     <sch:pattern>
         <!-- basic TEI checks -->

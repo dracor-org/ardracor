@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000017" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000017" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,16 +28,14 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
           <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-5"
-            >Antología de obras de teatro argentino</ref>
+          <ref target="https://web.archive.org/web/20251013085621/https://inteatro.ar/wp-content/uploads/2022/10/SeibelTomo8.pdf">Antología de obras de teatro argentino</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -52,8 +48,7 @@
             argentino. Desde sus orígenes a la actualidad.</title>
           <biblScope unit="volume">Tomo 8 (1902–1910). Obras del siglo XX: 1ª década –
             III.</biblScope><pubPlace>Buenos Aires</pubPlace>: <publisher>Instituto Nacional del
-            Teatro</publisher>, <date>2011</date>, pp. <biblScope unit="page" from="347" to="367"
-            >347–367</biblScope>. </bibl>
+            Teatro</publisher>, <date>2011</date>, pp. <biblScope unit="page" from="347" to="367">347–367</biblScope>. </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -89,10 +84,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000017"
-        passive="http://www.wikidata.org/entity/Q136433699"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000017"
-        passive="https://hdlab.space/teatrar/obras/0122.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000017" passive="http://www.wikidata.org/entity/Q136433699"/>
     </listRelation>
   </standOff>
   <text>

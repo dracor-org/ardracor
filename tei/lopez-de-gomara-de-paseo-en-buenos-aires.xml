@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000015" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000015" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -27,17 +25,14 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-8"
-            >Antología de obras de teatro argentino</ref>
+          <ref target="https://web.archive.org/web/20250806055446/https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT5.pdf">Antología de obras de teatro argentino</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -377,10 +372,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000015"
-        passive="http://www.wikidata.org/entity/Q137675151"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000015"
-        passive="https://hdlab.space/teatrar/obras/0168.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000015" passive="http://www.wikidata.org/entity/Q137675151"/>
     </listRelation>
   </standOff>
   <text>
@@ -551,7 +543,7 @@
         </sp>
         <sp who="#diego">
           <speaker>Espectador:</speaker>
-          <p>¿Pero qué he hecho yo? <stage><emph>(Al público).</emph></stage></p>
+          <p>¿Pero qué he hecho yo? <stage type="inline"><emph>(Al público).</emph></stage></p>
           <p>Digan ustedes si no tengo razón.</p>
         </sp>
         <sp who="#vigilante1">
@@ -1296,7 +1288,7 @@
               <l>¡Calle! Cuervitos tenemos.</l>
             </sp>
             <stage><emph>Música.</emph></stage>
-            <sp who="#cuervito1 #cuervito2               #cuervito3">
+            <sp who="#cuervito1 #cuervito2 #cuervito3">
               <speaker>Los tres Cuervitos:</speaker>
               <l>Somos los cuervitos</l>
               <l>unos compadritos</l>
@@ -1322,7 +1314,7 @@
               <l>Brillantes y dinero</l>
               <l>son lo de más valor.</l>
             </sp>
-            <sp who="#cuervito1 #cuervito2               #cuervito3">
+            <sp who="#cuervito1 #cuervito2 #cuervito3">
               <speaker>Los tres:</speaker>
               <l>Buenas valiendo algo</l>
               <l>todas las cosas son</l>
@@ -1576,10 +1568,8 @@
               <stage><emph>(Gritando)</emph></stage>
               <l><emph>Patria Italiana, El Censor,</emph></l>
               <l><emph>Courrier de la Plata, <foreign xml:lang="de">Deutsche</foreign>,</emph></l>
-              <l><emph><foreign xml:lang="it">Roma</foreign>, <foreign xml:lang="it"
-                    >Figaro</foreign>, La Unión,</emph></l>
-              <l><emph><foreign xml:lang="it">La Nazione</foreign>, <foreign xml:lang="it"
-                    >L´Operaio</foreign>.</emph></l>
+              <l><emph><foreign xml:lang="it">Roma</foreign>, <foreign xml:lang="it">Figaro</foreign>, La Unión,</emph></l>
+              <l><emph><foreign xml:lang="it">La Nazione</foreign>, <foreign xml:lang="it">L´Operaio</foreign>.</emph></l>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
@@ -2789,8 +2779,7 @@
           <stage><emph>El escenario estará dividido: a la derecha la calle en cuyo telón del fondo
               se verá en perspectiva el Paseo de Julio, el muelle de pasajeros y el Río de la Plata
               en el último plano. A la izquierda el fondín. La pared divisoria figurará al exterior
-              de soportales o recova; en el interior tendrá en primer término la puerta de <pb
-                n="255"/> entrada. Pocos y malos muebles. A la izquierda una mesita con tres
+              de soportales o recova; en el interior tendrá en primer término la puerta de <pb n="255"/> entrada. Pocos y malos muebles. A la izquierda una mesita con tres
               asientos en primer término, a la izquierda otra pasada la puerta de entrada. Los
               retratos de Garibaldi y Víctor Manuel pegados en la pared; en el fondo el mostrador y
               estantería.</emph></stage>

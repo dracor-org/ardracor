@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000026" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000026" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,16 +28,14 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
           <licence target="https://creativecommons.org/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-11/"
-            >Antología de obras de teatro argentino</ref>
+          <ref target="https://web.archive.org/web/20251207012503/https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT2.pdf">Antología de obras de teatro argentino</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -47,8 +43,7 @@
         <bibl type="originalSource">
           <author><forename>Luis Ambrosio</forename>
             <surname>Morante</surname></author>: <title level="a">Tupac - Amaru</title>. En:
-              <editor><surname>Seibel</surname>, <forename>Beatriz</forename></editor>. <title
-            level="m">Antología de obras de teatro argentino. Desde sus orígenes a la
+              <editor><surname>Seibel</surname>, <forename>Beatriz</forename></editor>. <title level="m">Antología de obras de teatro argentino. Desde sus orígenes a la
             actualidad.</title>
           <biblScope unit="volume">Tomo 2: 1818–1824. Obras de la Independencia.</biblScope>
           <pubPlace>Buenos Aires</pubPlace>: <publisher>Inst. Nacional del Teatro</publisher>,
@@ -123,10 +118,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation active="https://dracor.org/entity/ar000026" name="wikidata"
-        passive="http://www.wikidata.org/entity/Q137662935"/>
-      <relation active="https://dracor.org/entity/ar000026" name="teatrar"
-        passive="https://hdlab.space/teatrar/obras/0193.html"/>
+      <relation active="https://dracor.org/entity/ar000026" name="wikidata" passive="http://www.wikidata.org/entity/Q137662935"/>
     </listRelation>
   </standOff>
   <text>
@@ -186,7 +178,7 @@
           <sp who="#tupac">
             <speaker>Tupac</speaker>
             <stage>(Con dolor)</stage>
-            <l>Para todos los seres fortunados... <stage>(Mira a las eminencias, hace un extremo de
+            <l>Para todos los seres fortunados... <stage type="inline">(Mira a las eminencias, hace un extremo de
                 dolor y deja caer sus brazos).</stage></l>
           </sp>
           <sp who="#santelices">
@@ -665,7 +657,7 @@
           <sp who="#santelices">
             <speaker>Santelices</speaker>
             <l>¡Arriaga! O no hay suma Providencia,</l>
-            <l><stage>(Con explosión)</stage></l>
+            <l><stage type="inline">(Con explosión)</stage></l>
             <l>¡o vos tendréis un fin el más infausto!</l>
           </sp>
           <sp who="#arriaga">
@@ -1233,7 +1225,7 @@
             <l>¡Prevenid tal catástrofe: evitadlo,</l>
             <l>Reinad sobre los Indios! Pero sea</l>
             <l>por la beneficencia… ¡Oh padre amado!</l>
-            <l><stage>(De rodillas)</stage></l>
+            <l><stage type="inline">(De rodillas)</stage></l>
             <pb n="246"/>
             <l>¡Mi buen amigo! ¡Ser de mi existencia!</l>
             <l>Vos lo podéis. ¡Consiste en vuestra mano</l>
@@ -1565,7 +1557,7 @@
           </sp>
           <sp who="#bastidas">
             <speaker>Bastidas</speaker>
-            <l>Oye a lo menos <stage>(Acercándose y tomándole la mano)</stage></l>
+            <l>Oye a lo menos <stage type="inline">(Acercándose y tomándole la mano)</stage></l>
             <l>a Bastidas, Bastidas que te habla.</l>
           </sp>
           <sp who="#tupac">
@@ -1666,7 +1658,7 @@
           </sp>
           <sp who="#tupac">
             <speaker>Tupac</speaker>
-            <l>No es a vos… <stage>(Yéndose)</stage></l>
+            <l>No es a vos… <stage type="inline">(Yéndose)</stage></l>
           </sp>
           <sp who="#corregidor">
             <speaker>Corregidor</speaker>
@@ -1676,7 +1668,7 @@
           </sp>
           <sp who="#tupac">
             <speaker>Tupac</speaker>
-            <l>¡De mi señor!... <stage>(Temblando de enojo)</stage></l>
+            <l>¡De mi señor!... <stage type="inline">(Temblando de enojo)</stage></l>
             <pb n="256"/>
           </sp>
           <sp who="#corregidor">
@@ -1726,7 +1718,7 @@
             <l>desconocer mi autoridad; momentos</l>
             <l>vendrán en que ose más su altanería.</l>
             <l>Tú eres su promotor…</l>
-            <l><stage>(Santelices quiere hablar)</stage></l>
+            <l><stage type="inline">(Santelices quiere hablar)</stage></l>
             <l>Guarda silencio.</l>
             <l>Te he prohibido interrumpir mientras que yo hablo.</l>
           </sp>
@@ -1841,7 +1833,7 @@
           </sp>
           <sp who="#tupac">
             <speaker>Tupac</speaker>
-            <l>¡Justo cielo!... <stage>(Queda abismado. Pausa)</stage></l>
+            <l>¡Justo cielo!... <stage type="inline">(Queda abismado. Pausa)</stage></l>
             <l>¡Bastidas! ¡Mi Bastidas! ¿y lo sufres?</l>
             <l>¿y no despides sulfurante trueno,</l>
             <l>Dios vengador del justo?... ¡Ah! ¡Tú no existes</l>
@@ -1885,7 +1877,7 @@
             <speaker>Catari</speaker>
             <l>Y obediencia: y te venero</l>
             <l>como hijo de mis Incas…</l>
-            <l><stage>(Se le postra).</stage></l>
+            <l><stage type="inline">(Se le postra).</stage></l>
           </sp>
           <sp who="#tupac">
             <speaker>Tupac</speaker>
@@ -2128,7 +2120,7 @@
             <l>consigo aquellas ricas producciones</l>
             <l>que hubieron cultivado en su miseria</l>
             <l>para enorgullecer al despotismo!</l>
-            <l>Inquietando <stage>(en vigilia y siempre alerta)</stage></l>
+            <l>Inquietando <stage type="inline">(en vigilia y siempre alerta)</stage></l>
             <l>a un enemigo superior en todo;</l>
             <l>ofendiendo a las veces, o en defensa;</l>
             <l>regocijándose de una derrota</l>
@@ -2196,7 +2188,7 @@
           </sp>
           <sp who="#todos">
             <speaker>Todos</speaker>
-            <l><stage>(Se arrodillan)</stage></l>
+            <l><stage type="inline">(Se arrodillan)</stage></l>
             <l>¡Que viva!</l>
           </sp>
           <sp who="#tupac">
@@ -2508,7 +2500,7 @@
             <l>¿Qué me quieres decir con esas voces</l>
             <l>interrumpidas… el mirar sombrío…</l>
             <l>y ese vagar incierto?... ¡Desgraciado!</l>
-            <l><stage>(Tomándole por un brazo)</stage></l>
+            <l><stage type="inline">(Tomándole por un brazo)</stage></l>
             <l>Abre tu corazón para un amigo.</l>
             <l>No le tengas confuso en tan horrible</l>
             <l>ansiedad… ¿Qué meditas?</l>
@@ -2554,7 +2546,7 @@
           <sp who="#tupac">
             <speaker>Tupac</speaker>
             <l>¡Oh mi mejor amigo!</l>
-            <l><stage>(Tomándole ambas manos)</stage></l>
+            <l><stage type="inline">(Tomándole ambas manos)</stage></l>
             <l>¡Resignación! ¡Valor! Tupac-Amaru</l>
             <l>es quien te habla.</l>
           </sp>
@@ -2673,7 +2665,7 @@
             <speaker>Santelices</speaker>
             <l>Con ellas</l>
             <l>muriendo cumpliré y habré cumplido</l>
-            <l>con la naturaleza… <stage>(Yéndose)</stage></l>
+            <l>con la naturaleza… <stage type="inline">(Yéndose)</stage></l>
           </sp>
           <sp who="#tupac">
             <speaker>Tupac</speaker>
@@ -2732,7 +2724,7 @@
             <l>Aquí está. Le hablaré. Con la dulzura</l>
             <l>procuremos sondear este atrevido</l>
             <l>joven. Dulcifiquemos mi carácter.</l>
-            <l><stage>(Con falsedad en todo el Diálogo)</stage></l>
+            <l><stage type="inline">(Con falsedad en todo el Diálogo)</stage></l>
             <l>¡Te hallo muy apropósito, hijo mío!</l>
             <l>Terminemos debates molestos,</l>
             <l>y que a nada conducen… El tranquilo</l>
@@ -2745,7 +2737,7 @@
             <l>cada uno ha sus errores. Alejemos</l>
             <l>recuerdos que de suyo son malignos,</l>
             <l>hagamos la ventura de uno y otro…</l>
-            <l><stage>(Tomándole ambas manos)</stage></l>
+            <l><stage type="inline">(Tomándole ambas manos)</stage></l>
             <l>vuelve al amor de un padre, ¡amado hijo!</l>
             <l>Un padre aquí te invita; y es un padre</l>
             <l>quien amistad te ofrece.</l>
@@ -2753,7 +2745,7 @@
           <sp who="#santelices">
             <speaker>Santelices</speaker>
             <l>¡Oh, padre mío!</l>
-            <l>¡Oh, padre! <stage>(Desordenado)</stage></l>
+            <l>¡Oh, padre! <stage type="inline">(Desordenado)</stage></l>
           </sp>
           <sp who="#corregidor">
             <speaker>Corregidor</speaker>
@@ -2765,7 +2757,7 @@
           </sp>
           <sp who="#santelices">
             <speaker>Santelices</speaker>
-            <l>¡Oh Cielo impío! <stage>(con voz ahogada y fuera de sí)</stage></l>
+            <l>¡Oh Cielo impío! <stage type="inline">(con voz ahogada y fuera de sí)</stage></l>
             <l>¡Es ya tarde! ¡Es ya tarde!</l>
           </sp>
           <sp who="#corregidor">
@@ -2783,14 +2775,14 @@
           </sp>
           <sp who="#corregidor">
             <speaker>Corregidor</speaker>
-            <l>Tu corazón abrirme. <stage>(Abriendo los brazos).</stage></l>
+            <l>Tu corazón abrirme. <stage type="inline">(Abriendo los brazos).</stage></l>
             <l>Ven, Santelices, que te espera el mío.</l>
             <l>Mi corazón te llama.</l>
           </sp>
           <sp who="#santelices">
             <speaker>Santelices</speaker>
             <l>¡Ah! Es demasiado…</l>
-            <l>¡Y no resisto más!... <stage>(Se arroja en ellos).</stage></l>
+            <l>¡Y no resisto más!... <stage type="inline">(Se arroja en ellos).</stage></l>
           </sp>
           <sp who="#corregidor">
             <speaker>Corregidor</speaker>
@@ -2806,7 +2798,7 @@
           <sp who="#santelices">
             <speaker>Santelices</speaker>
             <stage>(Se aparta con horror)</stage>
-            <l>¡Sumisos proferisteis! <stage>(Vuelve a sus brazos)</stage> ¡Padre amado!</l>
+            <l>¡Sumisos proferisteis! <stage type="inline">(Vuelve a sus brazos)</stage> ¡Padre amado!</l>
           </sp>
           <sp who="#corregidor">
             <speaker>Corregidor</speaker>
@@ -2859,7 +2851,7 @@
           <sp who="#santelices">
             <speaker>Santelices</speaker>
             <l>¡No! ¡Vos no quedaréis! ¡Imposible!</l>
-            <l><stage>(Tomándolo por la mano)</stage></l>
+            <l><stage type="inline">(Tomándolo por la mano)</stage></l>
             <l>¡Venid, venid, señor!... Os suplico</l>
             <l>Corresponded, ¡oh padre! a mis instancias</l>
             <l>por la condescendencia.</l>
@@ -2882,7 +2874,7 @@
             <speaker>Santelices</speaker>
             <l>¡Ay mañana, Señor!... ¡Padre, mañana!</l>
             <l>Hoy mismo… ¡Eterno Dios! Ahora… Hoy mismo.</l>
-            <l><stage>(Pausa).</stage></l>
+            <l><stage type="inline">(Pausa).</stage></l>
           </sp>
           <sp who="#corregidor">
             <speaker>Corregidor</speaker>
@@ -2894,7 +2886,7 @@
           </sp>
           <sp who="#santelices">
             <speaker>Santelices</speaker>
-            <l>Yo no he dicho <stage>(con precipitación)</stage></l>
+            <l>Yo no he dicho <stage type="inline">(con precipitación)</stage></l>
             <l>tal cosa.</l>
           </sp>
           <sp who="#corregidor">
@@ -2913,13 +2905,13 @@
             <l>de haberte dado el ser… De estos recintos</l>
             <l>yo me aparto. Bien pronto daré vuelta,</l>
             <l>pero será trayendo el exterminio</l>
-            <l>y la venganza real sobre vosotros… <stage>(Vase).</stage></l>
+            <l>y la venganza real sobre vosotros… <stage type="inline">(Vase).</stage></l>
             <pb n="282"/>
           </sp>
           <sp who="#santelices">
             <speaker>Santelices</speaker>
             <l>¡Deteneos Señor! ¡Oh, Dios! ¡Yo expiro!</l>
-            <l><stage>(Cae sobre un peñasco).</stage></l>
+            <l><stage type="inline">(Cae sobre un peñasco).</stage></l>
           </sp>
         </div>
         <div type="scene" n="4">
@@ -2979,7 +2971,7 @@
             <l>Vibra tu castigo,</l>
             <l>y evítame el tormento y la amargura</l>
             <l>de la reconvención… Entre mí mismo</l>
-            <l><stage>(señalando a su corazón)</stage></l>
+            <l><stage type="inline">(señalando a su corazón)</stage></l>
             <l>tengo mi juez supremo.</l>
           </sp>
           <sp who="#tupac">
@@ -3004,12 +2996,12 @@
             <speaker>Tupac</speaker>
             <stage>(Frenético)</stage>
             <l>¿En donde está tu padre?</l>
-            <l>¿Cuál sendero ha tomado? Presto dilo <stage>(amagándole).</stage></l>
+            <l>¿Cuál sendero ha tomado? Presto dilo <stage type="inline">(amagándole).</stage></l>
             <pb n="284"/>
           </sp>
           <sp who="#santelices">
             <speaker>Santelices</speaker>
-            <l>De mí no lo sabrás. Descarga el golpe. <stage>(Pausa).</stage></l>
+            <l>De mí no lo sabrás. Descarga el golpe. <stage type="inline">(Pausa).</stage></l>
           </sp>
           <sp who="#tupac">
             <speaker>Tupac</speaker>
@@ -3029,7 +3021,7 @@
             <l>de las humillaciones pertenece</l>
             <l>sólo a tus compatriotas. Alza digo…</l>
             <l>Tupac-Amaru… en medio de tu furia</l>
-            <l>te compadece… y te ama… <stage>(Lo abraza).</stage></l>
+            <l>te compadece… y te ama… <stage type="inline">(Lo abraza).</stage></l>
           </sp>
           <sp who="#santelices">
             <speaker>Santelices</speaker>
@@ -3078,7 +3070,7 @@
             <speaker>Tupac</speaker>
             <l>Es necesario</l>
             <l>que en este punto adoptes mi partido…</l>
-            <l>Sólo un momento tienes. <stage>(Pausa).</stage></l>
+            <l>Sólo un momento tienes. <stage type="inline">(Pausa).</stage></l>
           </sp>
           <sp who="#santelices">
             <speaker>Santelices</speaker>
@@ -3542,12 +3534,12 @@
           </sp>
           <sp who="#corregidor">
             <speaker>Corregidor</speaker>
-            <l>¡Yo te privé de un padre!... <stage>(Condolido).</stage></l>
+            <l>¡Yo te privé de un padre!... <stage type="inline">(Condolido).</stage></l>
           </sp>
           <sp who="#bastidas">
             <speaker>Bastidas</speaker>
             <l>En la estrellada</l>
-            <l>bóveda otro me queda… <stage>(Reprimiendo las lágrimas).</stage></l>
+            <l>bóveda otro me queda… <stage type="inline">(Reprimiendo las lágrimas).</stage></l>
           </sp>
           <sp who="#corregidor">
             <speaker>Corregidor</speaker>
@@ -3687,11 +3679,11 @@
             <l>no es tu esposo. Es el Inca quien te juzga</l>
             <l>y quien dará sentencia irrevocada,</l>
             <l>Tupac-Amaru. Andad. A mi presencia</l>
-            <l>arrastradle <stage>(a los Indios que se van).</stage></l>
+            <l>arrastradle <stage type="inline">(a los Indios que se van).</stage></l>
           </sp>
           <sp who="#bastidas">
             <speaker>Bastidas</speaker>
-            <l>¡Yo expiro! ¡Ay Dios me valga!... <stage>(Cae amortecida).</stage></l>
+            <l>¡Yo expiro! ¡Ay Dios me valga!... <stage type="inline">(Cae amortecida).</stage></l>
           </sp>
           <sp who="#tupac">
             <speaker>Tupac</speaker>
@@ -3760,7 +3752,7 @@
             <l>¡Cabe en tu audacia</l>
             <l>esperar un perdón! ¿Fuisteis vosotros</l>
             <l>de perdonar capaces? ¿En ti se halla</l>
-            <l>un rasgo de virtud?... ¡Muera! <stage>(a los Indios).</stage></l>
+            <l>un rasgo de virtud?... ¡Muera! <stage type="inline">(a los Indios).</stage></l>
             <pb n="301"/>
           </sp>
           <sp who="#bastidas">
@@ -3849,8 +3841,8 @@
             <l>de la retribución!... Parezca salda</l>
             <l>tamaña deuda dándome la vida</l>
             <l>de aquel que me dio el Ser! ¡Ay! ¿Tu eficacia</l>
-            <l>me negará este don? <stage>(Pausa).</stage></l>
-            <l>¿Pero qué digo?... <stage>(Se apodera de su padre).</stage></l>
+            <l>me negará este don? <stage type="inline">(Pausa).</stage></l>
+            <l>¿Pero qué digo?... <stage type="inline">(Se apodera de su padre).</stage></l>
             <l>Yo entre mis brazos te defiendo… ¿Aguardas</l>
             <l>arrancarlo de entre ellos?</l>
             <l>¡Mas que hago!</l>
@@ -3864,7 +3856,7 @@
             <speaker>Tupac</speaker>
             <stage>(Al hijo)</stage>
             <l>La amistad triunfa…</l>
-            <l><stage>(Al Corregidor)</stage></l>
+            <l><stage type="inline">(Al Corregidor)</stage></l>
             <l>Vuélvete a los tuyos.</l>
             <l>Y diles que los mismo que arrastraban</l>
             <l>ayer al Vituperio, hoy son capaces</l>
@@ -3873,7 +3865,7 @@
             <l>cuando te dio la vida… Y que sus bravas</l>
             <l>legiones , escuchando tu sentencia</l>
             <l>sin murmurar supieron respetarla.</l>
-            <l><stage>(Santelices, Bastidas, Catari lo abrazan en silencio).</stage></l>
+            <l><stage type="inline">(Santelices, Bastidas, Catari lo abrazan en silencio).</stage></l>
           </sp>
           <sp who="#todos">
             <speaker>Todos</speaker>

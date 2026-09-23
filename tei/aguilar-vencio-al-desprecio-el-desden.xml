@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="../schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000021" xml:lang="spa">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000021" xml:lang="spa">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -34,17 +31,14 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-12"
-            >Antología de obras de teatro argentino</ref>
+          <ref target="https://web.archive.org/web/20250418231746/https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf">Antología de obras de teatro argentino</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -64,7 +58,7 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>The text was extracted from the digital version of the <emph>Antología de obras de teatro
+        <p>The text was extracted from the digital version of the <emph rend="italic">Antología de obras de teatro
             argentino.</emph>. In general, the text is taken as it appears in the digital source. A
           column layout, where it occurs, is not encoded as such; instead, the text is encoded
           sequentially. Page breaks of the digital source are indicated. Line breaks are not
@@ -112,10 +106,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000021"
-        passive="http://www.wikidata.org/entity/Q141252767"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000021"
-        passive="https://hdlab.space/teatrar/obras/0003.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000021" passive="http://www.wikidata.org/entity/Q141252767"/>
     </listRelation>
   </standOff>
   <text>
@@ -129,7 +120,7 @@
       <note>En esta pieza, José Luis Trenti Rocamora modernizó la grafía y la puntuación, la dividió
         en cuadros y escenas, y suprimió los "Don" y "Doña" que el autor colocara antes de los
         nombres. Además las partes destruidas del original fueron completadas, para poder seguir la
-        lectura sin tropiezos. <bibl><emph>Selección dramática de Cristóbal de Aguilar</emph>,
+        lectura sin tropiezos. <bibl><emph rend="italic">Selección dramática de Cristóbal de Aguilar</emph>,
           Instituto Nacional de Estudios de Teatro, Buenos Aires, 1950.</bibl></note>
       <pb n="119"/>
       <castList>
@@ -139,14 +130,14 @@
         </castItem>
         <castItem>
           <role>Inés,</role>
-          <roleDesc><emph>su criada</emph></roleDesc>
+          <roleDesc><emph rend="italic">su criada</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Don Victorio de Monaca</role>
         </castItem>
         <castItem>
           <role>Pantoja,</role>
-          <roleDesc><emph>su criado</emph></roleDesc>
+          <roleDesc><emph rend="italic">su criado</emph></roleDesc>
         </castItem>
       </castList>
     </front>
@@ -155,8 +146,8 @@
         <head>Cuadro primero</head>
         <div type="scene" n="1">
           <head>Escena I</head>
-          <stage><emph>Victorio, Pantoja</emph></stage>
-          <stage><emph>(Don Victorio hablando con Pantoja y paseándose por la sala
+          <stage><emph rend="italic">Victorio, Pantoja</emph></stage>
+          <stage><emph rend="italic">(Don Victorio hablando con Pantoja y paseándose por la sala
             dice:)</emph></stage>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
@@ -174,7 +165,7 @@
             <l>Corriente: ¿y a qué fin vamos</l>
             <l>de una hora a otra a Sigüenza?</l>
             <l>¿No decíais que Segovia</l>
-            <l>sería el <foreign xml:lang="la"><emph>réquiem eternam</emph></foreign></l>
+            <l>sería el <foreign xml:lang="la"><emph rend="italic">réquiem eternam</emph></foreign></l>
             <l>de vuestros huesos y míos?</l>
             <l>Supuesto hallásteis en ella</l>
             <l>alma, vida y corazón,</l>
@@ -256,11 +247,11 @@
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="I">Conforme.</l>
+            <l>Conforme.</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">¿Cómo conforme?</l>
+            <l>¿Cómo conforme?</l>
             <l>¿Deja duda en que el sistema</l>
             <l>de no admitir boda alguna</l>
             <l>que ha elegido, pierda en ella</l>
@@ -277,11 +268,11 @@
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="I">Conforme.</l>
+            <l>Conforme.</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">¡Hombre de Dios!</l>
+            <l>¡Hombre de Dios!</l>
             <l>¿Qué conformidad es esa?</l>
             <l>¡Dale con este conforme!</l>
             <l>¿No te he dicho que aunque fuera</l>
@@ -314,11 +305,11 @@
             <l>si he hecho cuanto pudiera</l>
             <l>el más fino amante hacer</l>
             <l>en su obsequio, ¿qué más resta</l>
-            <l part="I">que hacer?</l>
+            <l>que hacer?</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Que no le hagáis caso,</l>
+            <l>Que no le hagáis caso,</l>
             <l>que cese el mimo y terneza,</l>
             <l>que cuando os haga un desdén,</l>
             <l>le hagáis vos cuatro docenas,</l>
@@ -424,20 +415,20 @@
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="I">Pero Pantoja…</l>
+            <l>Pero Pantoja…</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">No hay pero,</l>
+            <l>No hay pero,</l>
             <l>pera, manzana o camuesa.</l>
             <l>Lo dicho, dicho, o tomar</l>
             <l>mi dictamen, o a Sigüenza</l>
             <l>a suspirar, y gemir</l>
-            <l part="I">sin esperanza.</l>
+            <l>sin esperanza.</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">Paciencia</l>
+            <l>Paciencia</l>
             <l>es menester para oirte</l>
             <l>Pantoja. Nunca creyera</l>
             <pb n="127"/>
@@ -480,11 +471,11 @@
             <l>más docilcita que un oso,</l>
             <l>o una víbora? ¿No es esa</l>
             <l>la consecuencia que vos</l>
-            <l part="I">queréis sacar?</l>
+            <l>queréis sacar?</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">Y es tan cierta,</l>
+            <l>Y es tan cierta,</l>
             <l>y ajustada a la razón,</l>
             <l>que es innegable su prueba.</l>
           </sp>
@@ -556,12 +547,12 @@
             <pb n="130"/>
             <l>la carita que les muestra</l>
             <l>a los que con cortesía</l>
-            <l>la visitan, y la obsequian. <stage><emph>(Vase).</emph></stage></l>
+            <l>la visitan, y la obsequian. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="2">
           <head>Escena II</head>
-          <stage><emph>Pantoja, Inés</emph></stage>
+          <stage><emph rend="italic">Pantoja, Inés</emph></stage>
           <sp who="#ines">
             <speaker>Inés:</speaker>
             <l>Es verdad, bien lo conozco,</l>
@@ -575,11 +566,11 @@
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
             <l>Acaso mejor dijeras</l>
-            <l part="I">bachillerías.</l>
+            <l>bachillerías.</l>
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="F">Son causa</l>
+            <l>Son causa</l>
             <l>que orgullo y soberbia tenga,</l>
             <l>no sólo mi opinión es;</l>
             <l>a la racional ley alejan</l>
@@ -591,12 +582,12 @@
             <l>ya abandonan, de manera</l>
             <l>no parecen jamás, hasta</l>
             <l>que ni por la calle vuelvan</l>
-            <l part="I">a pasar.</l>
+            <l>a pasar.</l>
           </sp>
           <pb n="131"/>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">¡Toma! ¡Eso solo!</l>
+            <l>¡Toma! ¡Eso solo!</l>
             <l>Dicen que es una embustera,</l>
             <l>que no conoció crianza,</l>
             <l>que su lectura hace en ella</l>
@@ -640,12 +631,12 @@
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="I">¡Qué dices!</l>
+            <l>¡Qué dices!</l>
           </sp>
           <pb n="132"/>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Como suena,</l>
+            <l>Como suena,</l>
             <l>con que le escribe de Murcia</l>
             <l>el conde de Carazena,</l>
             <l>ofreciéndole su hija.</l>
@@ -674,34 +665,34 @@
             <l>el conde. Muere por ella,</l>
             <l>y creo, que al fin, y al postre,</l>
             <l>ella será la princesa</l>
-            <l part="I">jurada.</l>
+            <l>jurada.</l>
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="F">¿Cómo se llama?</l>
+            <l>¿Cómo se llama?</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="I">Mujer.</l>
+            <l>Mujer.</l>
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="F">Donosa respuesta.</l>
+            <l>Donosa respuesta.</l>
             <l>¿Y dónde vive, no sabes</l>
-            <l part="I">tampoco?</l>
+            <l>tampoco?</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">En su casa mesma.</l>
+            <l>En su casa mesma.</l>
           </sp>
           <pb n="133"/>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="I">¿Tú la conoces?</l>
+            <l>¿Tú la conoces?</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Y mucho;</l>
+            <l>Y mucho;</l>
             <l>no hay día que no la vea</l>
             <l>cuando mi amo le manda</l>
             <l>por mi medio alguna esquela.</l>
@@ -754,11 +745,11 @@
             <speaker>Inés:</speaker>
             <l>Perfectamente; a la letra</l>
             <l>voy a ponérselo en pico</l>
-            <l part="I">ahora mismo.</l>
+            <l>ahora mismo.</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Y yo a la tienda</l>
+            <l>Y yo a la tienda</l>
             <l>a comprar café y bizcochos</l>
             <l>para mi amo. Adiós prenda.</l>
           </sp>
@@ -768,7 +759,7 @@
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l>No tardaré dar la vuelta. <stage><emph>(Vase).</emph></stage></l>
+            <l>No tardaré dar la vuelta. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
       </div>
@@ -776,8 +767,8 @@
         <head>Cuadro segundo</head>
         <div type="scene" n="1">
           <head>Escena I</head>
-          <stage><emph>Rufina</emph></stage>
-          <stage><emph>Sale Doña Rufina con un libro en la mano paseando y leyendo lo que se sigue,
+          <stage><emph rend="italic">Rufina</emph></stage>
+          <stage><emph rend="italic">Sale Doña Rufina con un libro en la mano paseando y leyendo lo que se sigue,
               y en acabando deja el libro sobre la mesa y se sienta.</emph></stage>
           <sp who="#rufina">
             <speaker>Rufina</speaker>
@@ -786,7 +777,7 @@
               libertad. Esta alhaja de más precio en sí que el oro de Ofir, que los diamantes de
               Persia, y que todo cuanto ha producido la naturaleza, esta prenda es de las que
               desapropia la mujer que se casa para no recuperarla jamás.</p>
-            <stage><emph>(Representando).</emph></stage>
+            <stage><emph rend="italic">(Representando).</emph></stage>
             <l>¡Oh! ¡Y cuántos hombres pretenden</l>
             <l>hacerse dueños de ella</l>
             <l>con el disfraz del cariño</l>
@@ -802,7 +793,7 @@
             <l>filosofía, hacer de ellos</l>
             <l>esclavos, que con atenta</l>
             <l>sumisión rindan respetos</l>
-            <l>al ídolo que veneran. <stage><emph>(Se sienta).</emph></stage></l>
+            <l>al ídolo que veneran. <stage type="inline"><emph rend="italic">(Se sienta).</emph></stage></l>
             <l>¡Oye Inés!, trae luces:</l>
             <l>prepara la cafetera</l>
             <l>que hoy no quiero chocolate.</l>
@@ -815,18 +806,18 @@
         </div>
         <div type="scene" n="2">
           <head>Escena II</head>
-          <stage><emph>Rufina, Inés</emph></stage>
+          <stage><emph rend="italic">Rufina, Inés</emph></stage>
           <sp who="#ines">
             <speaker>Inés:</speaker>
             <l>El marqués de Valenzuela</l>
             <l>y el extranjero ayer noche</l>
             <l>sé que partieron de priesa</l>
             <l>por la posta con destino</l>
-            <l part="I">de no volver.</l>
+            <l>de no volver.</l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">¡Buenas piezas!</l>
+            <l>¡Buenas piezas!</l>
             <l>¿Y en eso paró el amor</l>
             <l>que los dos a competencia</l>
             <l>decían me profesaban?</l>
@@ -867,11 +858,11 @@
             <l>de la repentina ausencia</l>
             <l>del marqués y el escocés,</l>
             <l>y del que en vísperas queda</l>
-            <l part="I">de hacer lo mismo.</l>
+            <l>de hacer lo mismo.</l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">¿De quién?</l>
+            <l>¿De quién?</l>
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
@@ -883,11 +874,11 @@
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="I">Ni más ni menos.</l>
+            <l>Ni más ni menos.</l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">¿Es cierta</l>
+            <l>¿Es cierta</l>
             <l>esa noticia o es vaga?</l>
           </sp>
           <sp who="#ines">
@@ -970,18 +961,18 @@
             <l>su nombre, ni dónde vive,</l>
             <l>y el camastrón con destreza</l>
             <l>me respondió se llamaba</l>
-            <l part="I">mujer.</l>
+            <l>mujer.</l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">¿Y de la vivienda</l>
+            <l>¿Y de la vivienda</l>
             <l>donde mora no te dijo</l>
-            <l part="I">tampoco?</l>
+            <l>tampoco?</l>
           </sp>
           <pb n="140"/>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="F">En la casa mesma</l>
+            <l>En la casa mesma</l>
             <l>donde nació, dijo, vive</l>
             <l>con su padre.</l>
           </sp>
@@ -1006,15 +997,15 @@
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="I">Sí, señora. <stage><emph>(Vase).</emph></stage></l>
+            <l>Sí, señora. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="3">
           <head>Escena III</head>
-          <stage><emph>Rufina</emph></stage>
+          <stage><emph rend="italic">Rufina</emph></stage>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">No creyera tanta</l>
+            <l>No creyera tanta</l>
             <l>falsedad en los hombres</l>
             <l>si la evidencia no hiciera</l>
             <l>palpable mi desengaño.</l>
@@ -1108,7 +1099,7 @@
             <l>y el contestarles es fuerza.</l>
             <l>Hable la razón y sigan</l>
             <l>su concepto las potencias…</l>
-            <stage><emph>(Se suspende un momento como reflexionando y luego sigue
+            <stage><emph rend="italic">(Se suspende un momento como reflexionando y luego sigue
               diciendo:)</emph></stage>
             <l>Comprendo, sí, comprendo</l>
             <l>que la libertad perfecta</l>
@@ -1172,13 +1163,13 @@
             <l>que ya conozco la necia</l>
             <l>vanidad, que hasta el presente</l>
             <l>ha cegado a mis potencias.</l>
-            <stage><emph>(Silencia y dice:)</emph></stage>
+            <stage><emph rend="italic">(Silencia y dice:)</emph></stage>
             <l>Llamaré a Inés. ¡Ae, muchacha!</l>
           </sp>
         </div>
         <div type="scene" n="4">
           <head>Escena IV</head>
-          <stage><emph>Rufina, Inés</emph></stage>
+          <stage><emph rend="italic">Rufina, Inés</emph></stage>
           <sp who="#ines">
             <speaker>Inés:</speaker>
             <l>¿Quiere Vm. la cafetera?</l>
@@ -1189,7 +1180,7 @@
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l>Voy al instante por ellas. <stage><emph>(Vase).</emph></stage></l>
+            <l>Voy al instante por ellas. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
@@ -1199,18 +1190,18 @@
             <pb n="146"/>
             <l>de aquello que con certeza</l>
             <l>dijo Pantoja a la Inés.</l>
-            <stage><emph>Aparece Inés con luces.</emph></stage>
+            <stage><emph rend="italic">Aparece Inés con luces.</emph></stage>
             <l>Oigo golpes en la puerta,</l>
             <l>mirad quién es, y avisad.</l>
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l>Voy, señora. <stage><emph>(Vase).</emph></stage></l>
+            <l>Voy, señora. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
             <stage>¿Si será la hora esta</stage>
-            <l>de perder mis esperanzas? <stage><emph>(Sale).</emph></stage></l>
+            <l>de perder mis esperanzas? <stage type="inline"><emph rend="italic">(Sale).</emph></stage></l>
             <l>Bien lo merezco. Paciencia.</l>
           </sp>
           <sp who="#ines">
@@ -1219,11 +1210,11 @@
             <l>que tocaba la puerta,</l>
             <l>y ya está aquí en la antesala.</l>
           </sp>
-          <stage><emph>Entra Don Victorio.</emph></stage>
+          <stage><emph rend="italic">Entra Don Victorio.</emph></stage>
         </div>
         <div type="scene" n="5">
           <head>Escena V</head>
-          <stage><emph>Rufina, Victorio</emph></stage>
+          <stage><emph rend="italic">Rufina, Victorio</emph></stage>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
             <l>¿Madama, qué soledad, pues, es esta?</l>
@@ -1232,24 +1223,24 @@
             <speaker>Rufina:</speaker>
             <l>No estoy tan sola, que acabo</l>
             <l>de escuchar una discreta</l>
-            <l part="I">conversación.</l>
+            <l>conversación.</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">Ya lo entiendo.</l>
+            <l>Ya lo entiendo.</l>
             <l>¿Su lectura predilecta</l>
-            <l part="I">es verdad?</l>
+            <l>es verdad?</l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">En ellos he hallado</l>
+            <l>En ellos he hallado</l>
             <l>una diversión completa</l>
-            <l part="I">toda mi vida.</l>
+            <l>toda mi vida.</l>
           </sp>
           <pb n="147"/>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">Lo creo.</l>
+            <l>Lo creo.</l>
             <l>No hay cosa como las letras.</l>
             <l>Yo alabo a Vm. su buen gusto,</l>
             <l>porque instruyendo, deleitan,</l>
@@ -1268,11 +1259,11 @@
             <l>Soy franco, y en mi respuesta</l>
             <l>lo ha de conocer Vm.</l>
             <l>Es verdad, no la quisiera</l>
-            <l part="I">lectora.</l>
+            <l>lectora.</l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">¿Pero por qué?</l>
+            <l>¿Pero por qué?</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
@@ -1338,18 +1329,18 @@
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
             <l>Si es por mí, os lo aprecia</l>
-            <l>mi voluntad: muchas gracias. <stage><emph>(Levantándose).</emph></stage></l>
+            <l>mi voluntad: muchas gracias. <stage type="inline"><emph rend="italic">(Levantándose).</emph></stage></l>
             <l>Madama, ando de priesa</l>
             <pb n="149"/>
             <l>porque se me está esperando</l>
             <l>cierta persona, que es fuerza</l>
             <l>cumplimentarla, y así</l>
             <l>será con vuestra licencia</l>
-            <l part="I">hasta otra ocasión.</l>
+            <l>hasta otra ocasión.</l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">Es justo</l>
+            <l>Es justo</l>
             <l>no faltar a la promesa</l>
             <l>que habéis hecho de ir a ver</l>
             <l>a esa persona. Ve a verla</l>
@@ -1358,17 +1349,17 @@
             <l>tan desgraciada a los ojos</l>
             <l>del que sus gracias aprecia</l>
             <l>como es la que este recado</l>
-            <l part="I">le dirige.</l>
+            <l>le dirige.</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">¡Buena es esa!</l>
+            <l>¡Buena es esa!</l>
             <l>¿Pues conocéis vos acaso</l>
-            <l part="I">a esa persona?</l>
+            <l>a esa persona?</l>
           </sp>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">Sé de ella,</l>
+            <l>Sé de ella,</l>
             <l>aunque no su nombre y casa,</l>
             <l>lo bastante para hacerla</l>
             <l>con vos hoy este cumplido.</l>
@@ -1381,16 +1372,16 @@
             <l>mi discurso, sin embargo</l>
             <l>prometo hacer a la letra</l>
             <l>lo que me habéis encargado.</l>
-            <l part="I">Quedaos con Dios. <stage><emph>(Vase).</emph></stage></l>
+            <l>Quedaos con Dios. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
           <pb n="150"/>
         </div>
         <div type="scene" n="6">
           <head>Escena VI</head>
-          <stage><emph>Rufina</emph></stage>
+          <stage><emph rend="italic">Rufina</emph></stage>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
-            <l part="F">Y en mis penas</l>
+            <l>Y en mis penas</l>
             <l>me dé constancia y valor,</l>
             <l>resignación y paciencia.</l>
             <l>¿Qué es esto que por mí pasa?</l>
@@ -1427,7 +1418,7 @@
             <l>variando ya de rumbo.</l>
             <l>En fin voime un rato afuera</l>
             <l>por si divierto este mal</l>
-            <l>que un instante no me deja. <stage><emph>(Vase).</emph></stage></l>
+            <l>que un instante no me deja. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
       </div>
@@ -1435,8 +1426,8 @@
         <head>Cuadro tercero</head>
         <div type="scene" n="1">
           <head>Escena I</head>
-          <stage><emph>Victorio, Pantoja</emph></stage>
-          <stage><emph>Salen Don Victorio y Pantoja.</emph></stage>
+          <stage><emph rend="italic">Victorio, Pantoja</emph></stage>
+          <stage><emph rend="italic">Salen Don Victorio y Pantoja.</emph></stage>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
             <l>Produjo admirable efecto</l>
@@ -1468,11 +1459,11 @@
             <l>Te prometo hice violencia</l>
             <l>para mantenerme firme</l>
             <l>y no darle una completa </l>
-            <l part="I">satisfacción.</l>
+            <l>satisfacción.</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Linda cosa</l>
+            <l>Linda cosa</l>
             <l>hubieras hecho. ¡Qué buena!</l>
             <l>No de balde estaba yo</l>
             <l>con las orejas alerta</l>
@@ -1482,11 +1473,11 @@
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="I">¿Dónde, Pantoja?</l>
+            <l>¿Dónde, Pantoja?</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Allá afuera,</l>
+            <l>Allá afuera,</l>
             <l>con la Inés en la antesala.</l>
             <l>Yo le pedí su licencia</l>
             <l>para escuchar dos palabras</l>
@@ -1519,11 +1510,11 @@
             <l>lo usó tantas veces,</l>
             <l>por mantener una ciega</l>
             <l>pasión a la libertad</l>
-            <l part="I">mal entendida.</l>
+            <l>mal entendida.</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">Y si ella</l>
+            <l>Y si ella</l>
             <l>no obstante ver mi desvío</l>
             <l>y mi fingida entereza</l>
             <l>se da a partido, y me ofrece</l>
@@ -1578,13 +1569,13 @@
             <l>Voime a hacer la diligencia</l>
             <l>ahora mismo en este instante.</l>
             <pb n="155"/>
-            <stage><emph>Tocan la puerta.</emph></stage>
+            <stage><emph rend="italic">Tocan la puerta.</emph></stage>
             <l>Pero mira que la puerta</l>
-            <l part="I">están tocando.</l>
+            <l>están tocando.</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Allá voy. <stage><emph>(Vase).</emph></stage></l>
+            <l>Allá voy. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
@@ -1594,7 +1585,7 @@
             <l>Vaya, veamos quién es</l>
             <l>que corta será la audiencia.</l>
           </sp>
-          <stage><emph>Sale Pantoja.</emph></stage>
+          <stage><emph rend="italic">Sale Pantoja.</emph></stage>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
             <l>La que tocaba es la Inés</l>
@@ -1602,21 +1593,21 @@
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="I">Dile que entre.</l>
+            <l>Dile que entre.</l>
           </sp>
         </div>
         <div type="scene" n="2">
           <head>Escena II</head>
-          <stage><emph>Dichos, Inés</emph></stage>
+          <stage><emph rend="italic">Dichos, Inés</emph></stage>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Aquí está.</l>
+            <l>Aquí está.</l>
           </sp>
-          <stage><emph>Sale Inés.</emph></stage>
+          <stage><emph rend="italic">Sale Inés.</emph></stage>
           <sp who="#ines">
             <speaker>Inés:</speaker>
             <l>Señor, mi ama me envía</l>
-            <l>a traeros esta esquela. <stage><emph>(Le da un papel).</emph></stage></l>
+            <l>a traeros esta esquela. <stage type="inline"><emph rend="italic">(Le da un papel).</emph></stage></l>
             <l>y dice que si os dignáis</l>
             <l>leerla y darle respuesta</l>
             <l>se la mandéis con Pantoja</l>
@@ -1631,16 +1622,16 @@
           <pb n="156"/>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="I">Está bien. <stage><emph>(Vase).</emph></stage></l>
+            <l>Está bien. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="F">Adiós mi perla.</l>
+            <l>Adiós mi perla.</l>
           </sp>
         </div>
         <div type="scene" n="3">
           <head>Escena III</head>
-          <stage><emph>Victorio, Pantoja</emph></stage>
+          <stage><emph rend="italic">Victorio, Pantoja</emph></stage>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
             <l>Pantoja, ¿qué será esto?</l>
@@ -1653,7 +1644,7 @@
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <stage><emph>(Abre la esquela).</emph></stage>
+            <stage><emph rend="italic">(Abre la esquela).</emph></stage>
             <l>Veamos:</l>
             <p>"Señor Victorio de Moncada. Muy señor mío: confieso haber tenido a Vm. desde que lo
               comuniqué cierta honesta voluntad, que mis caprichos no dieron lugar a manifestársela.
@@ -1783,22 +1774,22 @@
             <l>con que le responde, adiós,</l>
             <l>se perdió la diligencia.</l>
           </sp>
-          <stage><emph> Sale Inés.</emph></stage>
+          <stage><emph rend="italic"> Sale Inés.</emph></stage>
         </div>
         <div type="scene" n="4">
           <head>Escena IV</head>
-          <stage><emph>Pantoja, Inés</emph></stage>
+          <stage><emph rend="italic">Pantoja, Inés</emph></stage>
           <sp who="#ines">
             <speaker>Inés:</speaker>
             <l>¿Y vuestro amo, Pantoja?</l>
           </sp>
           <sp who="#pantoja">
             <speaker>Pantoja:</speaker>
-            <l part="I">Salió a la calle.</l>
+            <l>Salió a la calle.</l>
           </sp>
           <sp who="#ines">
             <speaker>Inés:</speaker>
-            <l part="F">La puerta</l>
+            <l>La puerta</l>
             <l>la encontré de par en par,</l>
             <l>y creí que aquí estuviera.</l>
           </sp>
@@ -1824,12 +1815,12 @@
             <l>aún contestación de ella.</l>
             <l>Me encargó que no tardara</l>
             <l>fuera con ella, o sin ella</l>
-            <l>y así me voy. Adiós, pues. <stage><emph>(Vase).</emph></stage></l>
+            <l>y así me voy. Adiós, pues. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="5">
           <head>Escena V</head>
-          <stage><emph>Pantoja, Victorio</emph></stage>
+          <stage><emph rend="italic">Pantoja, Victorio</emph></stage>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
             <l>A la obediencia Inesuela.</l>
@@ -1847,15 +1838,15 @@
             <l>tú e Inés los dos testigos</l>
             <l>de mis esponsales previas.</l>
           </sp>
-          <stage><emph>Vanse los dos.</emph></stage>
+          <stage><emph rend="italic">Vanse los dos.</emph></stage>
         </div>
       </div>
       <div type="cuadro" n="4">
         <head>Cuadro cuarto</head>
         <div type="scene" n="1">
           <head>Escena I</head>
-          <stage><emph>Rufina, Inés</emph></stage>
-          <stage><emph>Sala de Doña Rufina, quien estará con Inés.</emph></stage>
+          <stage><emph rend="italic">Rufina, Inés</emph></stage>
+          <stage><emph rend="italic">Sala de Doña Rufina, quien estará con Inés.</emph></stage>
           <sp who="#rufina">
             <speaker>Rufina:</speaker>
             <l>Ten cuidado, Inés, si viene</l>
@@ -1885,11 +1876,11 @@
             <l>de vuestra piedad…</l>
             <l>Inés, ved, ahí tocan.</l>
           </sp>
-          <stage><emph>Va Inés a abrir y vuelve a entrar con Don Victorio.</emph></stage>
+          <stage><emph rend="italic">Va Inés a abrir y vuelve a entrar con Don Victorio.</emph></stage>
         </div>
         <div type="scene" n="2">
           <head>Escena II</head>
-          <stage><emph>Todos</emph></stage>
+          <stage><emph rend="italic">Todos</emph></stage>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
             <l>Adorada prenda mía,</l>
@@ -1910,14 +1901,14 @@
             <l>me ofrezco ser, y entre tanto</l>
             <l>que se celebre la boda</l>
             <l>sirva mi mano, y palabra</l>
-            <l part="I">de esponsales.</l>
+            <l>de esponsales.</l>
           </sp>
           <sp who="#victorio">
             <speaker>Victorio:</speaker>
-            <l part="F">Yo, señora,</l>
+            <l>Yo, señora,</l>
             <pb n="163"/>
             <l>os doy la mía, y con ella</l>
-            <stage><emph>Danse las manos</emph></stage>
+            <stage><emph rend="italic">Danse las manos</emph></stage>
             <l>os recibo por esposa.</l>
           </sp>
           <sp who="#pantoja">
@@ -1934,7 +1925,7 @@
             <l>Yo la tomo por la mía,</l>
             <l>pronto, contenta y gustosa.</l>
           </sp>
-          <stage><emph>Se dan las manos.</emph></stage>
+          <stage><emph rend="italic">Se dan las manos.</emph></stage>
           <sp who="#rufina #victorio #ines #pantoja">
             <speaker>Todos:</speaker>
             <l>Y para que el patio crea</l>

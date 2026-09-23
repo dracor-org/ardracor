@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000020" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000020" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,17 +30,14 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-12"
-            >Antología de obras de teatro argentino</ref>
+          <ref target="https://web.archive.org/web/20250418231746/https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf">Antología de obras de teatro argentino</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -64,7 +59,7 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>The text was extracted from the digital version of the <emph>Antología de obras de teatro
+        <p>The text was extracted from the digital version of the <emph rend="italic">Antología de obras de teatro
             argentino.</emph>. In general, the text is taken as it appears in the digital source. A
           column layout, where it occurs, is not encoded as such; instead, the text is encoded
           sequentially. Page breaks of the digital source are indicated. Line breaks are not
@@ -121,10 +116,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000020"
-        passive="http://www.wikidata.org/entity/Q137705648"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000020"
-        passive="https://hdlab.space/teatrar/obras/0002.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000020" passive="http://www.wikidata.org/entity/Q137705648"/>
     </listRelation>
   </standOff>
   <text>
@@ -134,7 +126,7 @@
         <docTitle>
           <titlePart type="main">La industria contra la fuerza</titlePart>
         </docTitle>
-        <docAuthor><emph>Cristóbal de Aguilar</emph></docAuthor>
+        <docAuthor><emph rend="italic">Cristóbal de Aguilar</emph></docAuthor>
       </titlePage>
       <pb n="50"/>
       <gap reason="editorial"/>
@@ -143,29 +135,29 @@
         <head>Personajes</head>
         <castItem>
           <role>Don Diego de Areneses,</role>
-          <roleDesc><emph>hombre interesado y caprichoso</emph></roleDesc>
+          <roleDesc><emph rend="italic">hombre interesado y caprichoso</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Doña Pepita,</role>
-          <roleDesc><emph>su hija</emph></roleDesc>
+          <roleDesc><emph rend="italic">su hija</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Don Florindo Mazeda,</role>
-          <roleDesc><emph> mozo superficial y de conveniencia</emph></roleDesc>
+          <roleDesc><emph rend="italic"> mozo superficial y de conveniencia</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Don José de Aranda,<note>Don José aparece indistintamente con los apellidos Aranda y
               Videla.</note>,</role>
-          <roleDesc><emph> pretendiente de Doña Pepita, mozo de grandes prendas y
+          <roleDesc><emph rend="italic"> pretendiente de Doña Pepita, mozo de grandes prendas y
             talentos</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Casilda,</role>
-          <roleDesc><emph>criada de Doña Pepita</emph></roleDesc>
+          <roleDesc><emph rend="italic">criada de Doña Pepita</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Jaime y Teresa,</role>
-          <roleDesc><emph> padrinos de una boda</emph></roleDesc>
+          <roleDesc><emph rend="italic"> padrinos de una boda</emph></roleDesc>
         </castItem>
       </castList>
     </front>
@@ -250,11 +242,11 @@
             <l>bien puede haceros presente,</l>
             <l>sin agraviar la obediencia,</l>
             <l>cuanto con justos motivos</l>
-            <l part="I">piensa exponeros.</l>
+            <l>piensa exponeros.</l>
           </sp>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
-            <l part="F">Di, Pepa,</l>
+            <l>Di, Pepa,</l>
             <l>pero ten por entendido,</l>
             <l>que si intentas con salemas<note>Salema es un pez muy atractivo por sus colores. Aquí
                 se emplea en el sentido de zalamería.</note></l>
@@ -317,11 +309,11 @@
             <l>repulsa mi voluntad,</l>
             <l>yo haré que Vm. me obedezca.</l>
           </sp>
-          <stage><emph>(Vase).</emph></stage>
+          <stage><emph rend="italic">(Vase).</emph></stage>
         </div>
         <div type="scene" n="2">
           <head>Escena II</head>
-          <stage><emph>Pepa</emph></stage>
+          <stage><emph rend="italic">Pepa</emph></stage>
           <sp who="#donaPepa">
             <l>¡Válgame Dios, es posible</l>
             <l>que el amor a las riquezas,</l>
@@ -355,11 +347,11 @@
             <l>sino aquellas que feliz</l>
             <l>puedan hacerme en la tierra.</l>
           </sp>
-          <stage><emph>Entra Don Diego.</emph></stage>
+          <stage><emph rend="italic">Entra Don Diego.</emph></stage>
         </div>
         <div type="scene" n="3">
           <head>Escena III</head>
-          <stage><emph>Pepa, Diego</emph></stage>
+          <stage><emph rend="italic">Pepa, Diego</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
             <l>Señorita, me olvidaba</l>
@@ -390,11 +382,11 @@
             <l>a rompimiento y no quiero</l>
             <l>reñir con su parentela…</l>
           </sp>
-          <stage><emph>(Vase).</emph></stage>
+          <stage><emph rend="italic">(Vase).</emph></stage>
         </div>
         <div type="scene" n="4">
           <head>Escena IV</head>
-          <stage><emph>Pepa</emph></stage>
+          <stage><emph rend="italic">Pepa</emph></stage>
           <sp who="#donaPepa">
             <l>¡Ahora, sí estamos mejor,</l>
             <l>fingir cara placentera</l>
@@ -417,7 +409,7 @@
         </div>
         <div type="scene" n="5">
           <head>Escena V</head>
-          <stage><emph>Pepa, Casilda</emph></stage>
+          <stage><emph rend="italic">Pepa, Casilda</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>Señorita, Don Florindo</l>
@@ -433,16 +425,16 @@
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l>Voy señorita. <stage><emph>(Aparte)</emph></stage> Si fuera</l>
+            <l>Voy señorita. <stage type="inline"><emph rend="italic">(Aparte)</emph></stage> Si fuera</l>
             <l>esta respuesta conjuro;</l>
             <l>salía el diablo fuera</l>
             <l>y dejaba a esta infeliz</l>
-            <l>sosegar… <stage><emph>(Vase).</emph></stage></l>
+            <l>sosegar… <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="6">
           <head>Escena VI</head>
-          <stage><emph>Pepa</emph></stage>
+          <stage><emph rend="italic">Pepa</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
             <l>Contra la fuerza</l>
@@ -474,20 +466,20 @@
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="I">¿Qué te dijo?</l>
+            <l>¿Qué te dijo?</l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">Frioleras</l>
+            <l>Frioleras</l>
             <l>como aquellas que acostumbra;</l>
             <l>me dijo que si es jaqueca</l>
             <l>que os pusiérais unos parches</l>
             <l>de hollín de la chimenea</l>
-            <l part="I">y que…</l>
+            <l>y que…</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Casilda:</speaker>
-            <l part="F">No me digas más.</l>
+            <l>No me digas más.</l>
             <l>Parte a toda diligencia</l>
             <l>y di a Don José Aranda,</l>
             <l>que importa que a verme venga</l>
@@ -507,16 +499,16 @@
             <speaker>Pepa:</speaker>
             <l>Dile que vas a la tienda</l>
             <l>a buscar un poco de hilo</l>
-            <l part="I">para urdir... <note>Urdir: preparar los hilos para pasarlos al telar.</note>
-              <stage><emph>(Vase).</emph></stage></l>
+            <l>para urdir... <note>Urdir: preparar los hilos para pasarlos al telar.</note>
+              <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="8">
           <head>Escena VIII</head>
-          <stage><emph>Casilda</emph></stage>
+          <stage><emph rend="italic">Casilda</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">Quien tal creyera</l>
+            <l>Quien tal creyera</l>
             <l>que con la misma verdad</l>
             <l>se engañe de esta manera.</l>
             <l>Es cierto que ella va a urdir</l>
@@ -530,12 +522,12 @@
             <l>en armar una tramoya</l>
             <l>a una mujer si lo intenta?</l>
             <l>Pero me voy correndito</l>
-            <l>antes que mi señora venga. <stage><emph>(Vase).</emph></stage></l>
+            <l>antes que mi señora venga. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="9">
           <head>Escena IX</head>
-          <stage><emph>Pepa</emph></stage>
+          <stage><emph rend="italic">Pepa</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
             <l>Los minutos se hacen horas</l>
@@ -556,7 +548,7 @@
             <l>en el meditado arbitrio;</l>
             <l>valor y a la diligencia.</l>
           </sp>
-          <stage><emph>Llega Casilda.</emph></stage>
+          <stage><emph rend="italic">Llega Casilda.</emph></stage>
         </div>
         <div type="scene" n="10">
           <head>Escena X</head>
@@ -585,18 +577,18 @@
         </div>
         <div type="scene" n="11">
           <head>Escena XI</head>
-          <stage><emph>Pepa, José</emph></stage>
+          <stage><emph rend="italic">Pepa, José</emph></stage>
           <sp who="#donJose">
             <speaker>José:</speaker>
-            <stage><emph>(Detenido en el umbral de la puerta dice:)</emph></stage>
+            <stage><emph rend="italic">(Detenido en el umbral de la puerta dice:)</emph></stage>
             <l>Señora, ya está en la puerta</l>
             <l>esperando tus preceptos</l>
             <l>el que de vuestra belleza</l>
-            <l part="I">vive esclavo.</l>
+            <l>vive esclavo.</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">Dueño mío</l>
+            <l>Dueño mío</l>
             <l>entrad. ¿Qué reserva es ésta</l>
             <l>cuando sabes tienes franca</l>
             <l>en mi corazón la puerta?</l>
@@ -667,7 +659,7 @@
             <l>el golpe fatal y sea</l>
             <l>testigo del sacrificio</l>
             <l>mi siempre adorada prenda.</l>
-            <stage><emph>(Hace como que desfallece).</emph></stage>
+            <stage><emph rend="italic">(Hace como que desfallece).</emph></stage>
             <l>Pero yo… yo… si ya… o dolor</l>
             <l>el pecho apenas alienta,</l>
             <l>adiós mi dulce embeleso</l>
@@ -677,11 +669,11 @@
             <l>y en breve verás cadáver</l>
             <l>mi desgraciada existencia.</l>
           </sp>
-          <stage><emph>Cae abatido a los pies de Doña Pepita, que levantándose al instante por un
+          <stage><emph rend="italic">Cae abatido a los pies de Doña Pepita, que levantándose al instante por un
               poco de agua, le echa al rostro y le dice:</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <stage><emph>(Con turbación)</emph></stage>
+            <stage><emph rend="italic">(Con turbación)</emph></stage>
             <l>Oye, señor, dueño mío</l>
             <l>no estoy en mí, si volviera</l>
             <l>del letargo le diría,</l>
@@ -694,11 +686,11 @@
             <l>tan eficaces que sirvan</l>
             <l>de mitigarle la pena</l>
             <l>que dio causa a su deliquio.<note>Deliquio: desfallecimiento.</note></l>
-            <stage><emph>(Con admiración y alegría)</emph></stage>
+            <stage><emph rend="italic">(Con admiración y alegría)</emph></stage>
             <l>¡Gracias al cielo, ya alienta,</l>
             <l>ya mira! ¡Oh, dueño amable!</l>
           </sp>
-          <stage><emph>Dando un suspiro dice Don José a Doña Pepa</emph></stage>
+          <stage><emph rend="italic">Dando un suspiro dice Don José a Doña Pepa</emph></stage>
           <sp who="#donJose">
             <speaker>José:</speaker>
             <l>¡Ay, mi amadísima Pepa!</l>
@@ -713,11 +705,11 @@
             <l>¿cómo es posible que viera</l>
             <l>expirar a quien amaba</l>
             <l>sin que también falleciera?</l>
-            <l part="I">¿Cómo os sentís?</l>
+            <l>¿Cómo os sentís?</l>
           </sp>
           <sp who="#donJose">
             <speaker>José:</speaker>
-            <l part="F">Vuestra vista</l>
+            <l>Vuestra vista</l>
             <l>oh, señora, es la que alienta</l>
             <l>mi abatido corazón.</l>
           </sp>
@@ -793,7 +785,7 @@
             <l>que a los dos nos amenaza.</l>
             <l>Mi padre aprecia tus prendas</l>
             <l>y si no os concedió el <foreign xml:lang="la">fiat</foreign></l>
-            <l>de mi mano, no es por tema<note><emph>Oposición caprichosa.</emph></note></l>
+            <l>de mi mano, no es por tema<note><emph rend="italic">Oposición caprichosa.</emph></note></l>
             <l>sino porque en parangón</l>
             <l>de las ingentes riquezas</l>
             <l>de Don Florindo, no valen</l>
@@ -813,11 +805,11 @@
             <speaker>José:</speaker>
             <l>Pero mi estimada Pepa,</l>
             <l>¿y si acaso sale errado</l>
-            <l part="I">tu supuesto?</l>
+            <l>tu supuesto?</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">Nada temas</l>
+            <l>Nada temas</l>
             <l>que una mujer industriosa</l>
             <l>si es un poquito resuelta</l>
             <l>sabe con sagacidad</l>
@@ -915,35 +907,35 @@
             <l>adorada dulce prenda</l>
             <l>de tus ojos, porque en ellos</l>
             <l>mi vida cifrada queda.</l>
-            <l part="I">Quédate, adiós… <stage><emph>(Vase).</emph></stage></l>
+            <l>Quédate, adiós… <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="12">
           <head>Escena XII</head>
-          <stage><emph>Pepa</emph></stage>
+          <stage><emph rend="italic">Pepa</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">Por dónde</l>
+            <l>Por dónde</l>
             <l>empezaré esta comedia</l>
             <pb n="71"/>
             <l>de figurón, su tramoya.</l>
             <l>Vaya, el primer papel sea</l>
             <l>Casilda. Voy a llamarla</l>
             <l>e instruirla de la arenga.</l>
-            <stage><emph>(Llama a Casilda).</emph></stage>
+            <stage><emph rend="italic">(Llama a Casilda).</emph></stage>
             <l>¡Casilda! Ésta está sorda.</l>
             <l>¡Casilda! Parece trueca</l>
             <l>por el suyo mi papel.</l>
-            <l part="I">¡Casilda!...</l>
+            <l>¡Casilda!...</l>
           </sp>
         </div>
         <div type="scene" n="13">
           <head>Escena XIII</head>
-          <stage><emph>Pepa, Casilda</emph></stage>
-          <stage><emph>Sale Casilda.</emph></stage>
+          <stage><emph rend="italic">Pepa, Casilda</emph></stage>
+          <stage><emph rend="italic">Sale Casilda.</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">Vengo de afuera.</l>
+            <l>Vengo de afuera.</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
@@ -962,11 +954,11 @@
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
             <l>Está bien, ¿y qué os parece</l>
-            <l part="I">el novio?</l>
+            <l>el novio?</l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">A mí, señora</l>
+            <l>A mí, señora</l>
             <l>si me permitís licencia</l>
             <l>os diré claritamente</l>
             <l>que me parece un tormento,</l>
@@ -976,7 +968,7 @@
             <l>porque lo entiende mejor,</l>
             <l>mas para mí aunque sea</l>
             <l>yo la más tonta del mundo,</l>
-            <l>no daré por su fachenda <note><emph>Fachenda: jactancia.</emph></note></l>
+            <l>no daré por su fachenda <note><emph rend="italic">Fachenda: jactancia.</emph></note></l>
             <l>un caracol y me alargo.</l>
             <l>En fin, ¿quiere Vm. que vuelva</l>
             <l>a traerle el chocolate?</l>
@@ -991,11 +983,11 @@
             <l>que en el conflicto en que estoy</l>
             <l>fueras tú la medianera</l>
             <l>que me ayudase a salir</l>
-            <l part="I">de él…</l>
+            <l>de él…</l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">Sea, señora, el que sea,</l>
+            <l>Sea, señora, el que sea,</l>
             <l>contad siempre con Casilda,</l>
             <l>que por serviros dispuesta</l>
             <l>estoy a cuanto ordenares</l>
@@ -1007,7 +999,7 @@
             <speaker>Pepa:</speaker>
             <l>En virtud de cuanto estima</l>
             <l>mi amistad tu fina oferta</l>
-            <stage><emph>(Le da un anillo)</emph></stage>
+            <stage><emph rend="italic">(Le da un anillo)</emph></stage>
             <l>toma este bello diamante</l>
             <l>y en él la más clara prueba</l>
             <pb n="73"/>
@@ -1032,18 +1024,18 @@
             <l>opresión, he discurrido</l>
             <l>fingir con toda viveza</l>
             <l>que al salir ayer del baño</l>
-            <l>una perlesía <note><emph>Perlesía: debilidad muscular acompañada de
+            <l>una perlesía <note><emph rend="italic">Perlesía: debilidad muscular acompañada de
                 temblor.</emph></note> fiera</l>
             <l>me baldó manos y pies,</l>
             <l>que me insultó una sordera</l>
             <l>tan total que nada oigo</l>
             <l>y que sólo con muletas</l>
             <l>podré ayudada de ti</l>
-            <l part="I">dar tal, cual paso…</l>
+            <l>dar tal, cual paso…</l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">¿Y qué intentas</l>
+            <l>¿Y qué intentas</l>
             <l>hacer con tanto aparato?</l>
           </sp>
           <pb n="74"/>
@@ -1130,20 +1122,20 @@
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="I">Está bien… <stage><emph>(Vase).</emph></stage></l>
+            <l>Está bien… <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
           <pb n="76"/>
         </div>
         <div type="scene" n="14">
           <head>Escena XIV</head>
-          <stage><emph>Pepa</emph></stage>
-          <stage><emph>Doña Pepa se sienta en una silla.</emph></stage>
+          <stage><emph rend="italic">Pepa</emph></stage>
+          <stage><emph rend="italic">Doña Pepa se sienta en una silla.</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">Haré un ensayo</l>
+            <l>Haré un ensayo</l>
             <l>a ver qué tal representa</l>
             <l>Pepita la perlesía.</l>
-            <stage><emph>(Mueve trémula la cabeza, dejando caer los brazos sin
+            <stage><emph rend="italic">(Mueve trémula la cabeza, dejando caer los brazos sin
               movimiento).</emph></stage>
             <l>Alguna cosilla cuesta,</l>
             <l>como es el primer ensayo</l>
@@ -1153,16 +1145,16 @@
             <l>de perlesía ha de hacer</l>
             <l>tantos mohines y gambetas</l>
             <l>como yo, pero mi padre</l>
-            <l part="I">no tardará…</l>
+            <l>no tardará…</l>
           </sp>
-          <stage><emph>Entran atropelladamente Don Diego y Casilda.</emph></stage>
+          <stage><emph rend="italic">Entran atropelladamente Don Diego y Casilda.</emph></stage>
         </div>
         <div type="scene" n="15">
           <head>Escena XV</head>
-          <stage><emph>Pepa, Casilda, Diego</emph></stage>
+          <stage><emph rend="italic">Pepa, Casilda, Diego</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
-            <l part="F">¡Hija, Pepa!</l>
+            <l>¡Hija, Pepa!</l>
             <l>¡Ah, hija de mis entrañas!</l>
             <l>¿Qué desgracia ha sido ésta</l>
             <l>que me ha contado Casilda?</l>
@@ -1188,21 +1180,21 @@
             <l>Mientras tanto quede Vm.</l>
             <l>en este cuarto con ella</l>
             <l>pero no le hable palabra</l>
-            <l part="I">que es en vano.</l>
+            <l>que es en vano.</l>
           </sp>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
-            <l part="F">Marcha a priesa.</l>
+            <l>Marcha a priesa.</l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l>Como un trueno. <stage><emph>(Vase).</emph></stage></l>
+            <l>Como un trueno. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="16">
           <head>Escena XVI</head>
-          <stage><emph>Pepa, Diego</emph></stage>
-          <stage><emph>Paseándose, dice Don Diego.</emph></stage>
+          <stage><emph rend="italic">Pepa, Diego</emph></stage>
+          <stage><emph rend="italic">Paseándose, dice Don Diego.</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
             <l>¡Válgame Dios qué tragedia</l>
@@ -1226,7 +1218,7 @@
             <l>podrá dar algunos pasos,</l>
             <l>sorda y de por vida enferma,</l>
             <l>decidirá, ya se ve,</l>
-            <l>los conciertos. <note><emph>Conciertos: convenidos</emph></note> Ya no queda</l>
+            <l>los conciertos. <note><emph rend="italic">Conciertos: convenidos</emph></note> Ya no queda</l>
             <l>recurso para apremiar</l>
             <l>a Don Florindo; aquí es ella.</l>
             <l>Yo he desdeñado imprudente</l>
@@ -1248,16 +1240,16 @@
             <l>puede ser que le haga entrar</l>
             <l>en el partido. La puerta</l>
             <l>oigo sonar. La Casilda</l>
-            <l part="I">es sin duda…</l>
+            <l>es sin duda…</l>
           </sp>
           <pb n="79"/>
         </div>
         <div type="scene" n="17">
           <head>Escena XVII</head>
-          <stage><emph>Dichos, Casilda</emph></stage>
+          <stage><emph rend="italic">Dichos, Casilda</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">A la carrera</l>
+            <l>A la carrera</l>
             <l>partí y a medio camino</l>
             <l>encontré al Doctor Vrisuela;</l>
             <l>le impuse del accidente</l>
@@ -1297,13 +1289,13 @@
             <l>cómo se siente, que apenas</l>
             <l>tengo valor de mirarla.</l>
           </sp>
-          <stage><emph>Casilda le grita al oído.</emph></stage>
+          <stage><emph rend="italic">Casilda le grita al oído.</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>Señorita, óigame atenta.</l>
             <l>¿Cómo se siente de males?</l>
             <l>¿Me conoce? Si está lela.</l>
-            <stage><emph>Doña Pepa menea la cabeza así a todas partes como fatua. A
+            <stage><emph rend="italic">Doña Pepa menea la cabeza así a todas partes como fatua. A
               gritos:</emph></stage>
             <l>Tenga mucha confianza</l>
             <l>en una santa que apenas</l>
@@ -1323,13 +1315,13 @@
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>¡Válgame Dios, qué sordera!</l>
-            <stage><emph>(Gritando)</emph></stage>
+            <stage><emph rend="italic">(Gritando)</emph></stage>
             <l>¿No quiere tomar un caldo,</l>
-            <l part="I">señorita?...</l>
+            <l>señorita?...</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">En la alacena</l>
+            <l>En la alacena</l>
             <l>me parece que lo vi.</l>
           </sp>
           <pb n="81"/>
@@ -1374,18 +1366,18 @@
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
             <l>Esto es en vano, Casilda.</l>
-            <stage><emph>Se acerca a Casilda y le dice al oído.</emph></stage>
+            <stage><emph rend="italic">Se acerca a Casilda y le dice al oído.</emph></stage>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>Dice que aunque sea a fuerza</l>
             <l>procure tomar en vino</l>
             <l>cuatro adarmes de pimienta</l>
-            <l part="I">oriental…</l>
+            <l>oriental…</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">¡Qué desatino!</l>
+            <l>¡Qué desatino!</l>
             <l>¿Pañal y estando yo enferma</l>
             <l>de puro frío? Es matarme.</l>
           </sp>
@@ -1396,18 +1388,18 @@
             <l>el hablarle, a nadie oye.</l>
             <l>Dale Casilda las presas</l>
             <l>de gallina que pidió.</l>
-            <stage><emph>Tocan la puerta.</emph></stage>
+            <stage><emph rend="italic">Tocan la puerta.</emph></stage>
             <l>Pero antes mira la puerta</l>
-            <l part="I">que están tocando.</l>
+            <l>que están tocando.</l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda</speaker>
-            <l part="F">Allá voy… <stage><emph>(Vase).</emph></stage></l>
+            <l>Allá voy… <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="18">
           <head>Escena XVIII</head>
-          <stage><emph>Pepa, Diego</emph></stage>
+          <stage><emph rend="italic">Pepa, Diego</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
             <l>Es menester darle cuenta</l>
@@ -1415,11 +1407,11 @@
             <l>¿pero qué dirá? ¿Qué fuera?</l>
             <l>Pero no, mejor será…</l>
           </sp>
-          <stage><emph>Sale Casilda.</emph></stage>
+          <stage><emph rend="italic">Sale Casilda.</emph></stage>
         </div>
         <div type="scene" n="19">
           <head>Escena XIX</head>
-          <stage><emph>Dichos, Casilda</emph></stage>
+          <stage><emph rend="italic">Dichos, Casilda</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>Ya sube por la escalera</l>
@@ -1432,28 +1424,28 @@
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <stage><emph>(Aparte).</emph></stage>
+            <stage><emph rend="italic">(Aparte).</emph></stage>
             <l>Estamos según mis cuentas</l>
             <l>en la segunda jornada</l>
-            <l>de esta graciosa comedia. <stage><emph>(Vase).</emph></stage></l>
+            <l>de esta graciosa comedia. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
-          <stage><emph>Entra otra vez con Don Florindo</emph></stage>
+          <stage><emph rend="italic">Entra otra vez con Don Florindo</emph></stage>
           <pb n="83"/>
         </div>
         <div type="scene" n="20">
           <head>Escena XX</head>
-          <stage><emph>Dichos, Florindo</emph></stage>
+          <stage><emph rend="italic">Dichos, Florindo</emph></stage>
           <sp who="#donFlorindo">
             <speaker>Florindo:</speaker>
             <l><foreign xml:lang="fr">Le vôtre servant monsieur.</foreign></l>
-            <stage><emph>Don Diego se levanta con muchos cumplimientos y le arrima una silla cerca
+            <stage><emph rend="italic">Don Diego se levanta con muchos cumplimientos y le arrima una silla cerca
                 de la de la enferma.</emph></stage>
             <l><foreign xml:lang="it">Servitor Madamucela,</foreign></l>
             <l>ayer pasé a ver a Vm.</l>
             <l>y me dijo la Pucela</l>
             <l>que aún estaba recogida.</l>
           </sp>
-          <stage><emph>Doña Pepa le hace contencias con la cabeza y sigue de la misma suerte
+          <stage><emph rend="italic">Doña Pepa le hace contencias con la cabeza y sigue de la misma suerte
               mientras está Don Florindo.</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
@@ -1464,7 +1456,7 @@
             <l>que llaman gota serena,</l>
             <l>la insultó dejándola</l>
             <l>sin uso en brazos ni piernas,</l>
-            <stage><emph>Mientras Don Diego le está haciendo esta relación a Don Florindo, estará
+            <stage><emph rend="italic">Mientras Don Diego le está haciendo esta relación a Don Florindo, estará
                 éste con admiración mirando a Doña Pepa de pies a cabeza.</emph></stage>
             <l>y tan falta del oído</l>
             <l>que a ninguno nos contesta.</l>
@@ -1480,15 +1472,15 @@
             <l>la multitud de accidentes</l>
             <l>que le son por consecuencia</l>
             <l>sociables. Yo no he podido</l>
-            <l part="I">pasar allá…</l>
+            <l>pasar allá…</l>
           </sp>
           <sp who="#donFlorindo">
             <speaker>Florindo:</speaker>
-            <l part="F">¡Qué simpleza!,</l>
+            <l>¡Qué simpleza!,</l>
             <l>cuando en estas circunstancias</l>
             <l>es precisa su asistencia</l>
             <l>a Madama...</l>
-            <stage><emph>(Hablando a Pepita)</emph></stage>
+            <stage><emph rend="italic">(Hablando a Pepita)</emph></stage>
             <l>¿Con qué, y pues</l>
             <l>vea el diablo cómo enreda</l>
             <l>las cosas, y yo venía</l>
@@ -1538,7 +1530,7 @@
             <l>yo era ayer sólo llavera</l>
             <l>y por mis grandes pecados</l>
             <l>he ascendido a trompetera!</l>
-            <stage><emph>(Le habla fuertemente en el oído).</emph></stage>
+            <stage><emph rend="italic">(Le habla fuertemente en el oído).</emph></stage>
             <l>Allá voy, lo que le dijo</l>
             <l>Don Florindo, es acerca</l>
             <l>de un moño para el sombrero</l>
@@ -1583,11 +1575,11 @@
             <l>Pero Vm. y yo tenemos</l>
             <l>que conformarnos por fuerza</l>
             <l>o de grado, según fuere</l>
-            <l part="I">nuestra virtud.</l>
+            <l>nuestra virtud.</l>
           </sp>
           <sp who="#donFlorindo">
             <speaker>Florindo:</speaker>
-            <l part="F">Vm. entienda</l>
+            <l>Vm. entienda</l>
             <l>que si lo dice por mí</l>
             <l>no se aflija, Doña Pepa</l>
             <l>es muchacha y con el tiempo</l>
@@ -1663,7 +1655,7 @@
             <l>que lo demás es estar</l>
             <l>como forzado en galeras.</l>
             <l>Ya Vm. ve que yo me fundo</l>
-            <l>y no hablo de paporreta <note><emph>Paporreta: paparrucha.</emph></note></l>
+            <l>y no hablo de paporreta <note><emph rend="italic">Paporreta: paparrucha.</emph></note></l>
             <l>sino con citas de historias</l>
             <l>muy recientes y modernas.</l>
           </sp>
@@ -1673,7 +1665,7 @@
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <stage><emph>(Al oído)</emph></stage>
+            <stage><emph rend="italic">(Al oído)</emph></stage>
             <l>No, señora, es de veletas.</l>
           </sp>
           <sp who="#donaPepa">
@@ -1698,17 +1690,17 @@
             <l>de piernas y brazos sana,</l>
             <l>que no es fuerza sea Pepa.</l>
             <l>Abur, Don Diego y mandar</l>
-            <l>Pepitona a la obediencia. <stage><emph>(Vase).</emph></stage></l>
+            <l>Pepitona a la obediencia. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="21">
           <head>Escena XXI</head>
-          <stage><emph>Pepa, Casilda, Diego</emph></stage>
+          <stage><emph rend="italic">Pepa, Casilda, Diego</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
             <l>¡Oh, qué tarde he conocido</l>
-            <l>a este estafermo <note><emph>Estafermo: monigote.</emph></note> tronera!
-                  <note><emph>Tronera: persona desbaratada.</emph></note></l>
+            <l>a este estafermo <note><emph rend="italic">Estafermo: monigote.</emph></note> tronera!
+                  <note><emph rend="italic">Tronera: persona desbaratada.</emph></note></l>
             <l>Porque aunque tiene razón</l>
             <l>de excusarse, bien pudiera</l>
             <l>con discreción y modales</l>
@@ -1746,13 +1738,13 @@
             <l>se quedó siempre soltera.</l>
             <l>Casilda, sólo te encargo</l>
             <l>no te apartes de la Pepa,</l>
-            <l>que no tardaré yo mucho. <stage><emph>(Vase).</emph></stage></l>
+            <l>que no tardaré yo mucho. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
           <pb n="91"/>
         </div>
         <div type="scene" n="22">
           <head>Escena XXII</head>
-          <stage><emph>Casilda, Pepa</emph></stage>
+          <stage><emph rend="italic">Casilda, Pepa</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>¿Separarme yo de ella?</l>
@@ -1762,7 +1754,7 @@
             <l>que ya está nuestra comedia</l>
             <l>en punto de caramelo.</l>
           </sp>
-          <stage><emph>Se levanta y hace cabriolas y dice:</emph></stage>
+          <stage><emph rend="italic">Se levanta y hace cabriolas y dice:</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
             <l>Casilda casi revienta</l>
@@ -1770,11 +1762,11 @@
             <l>te he de cumplir la promesa</l>
             <l>que te hice, luego al punto</l>
             <l>que se corra a esta comedia</l>
-            <l part="I">el telón.</l>
+            <l>el telón.</l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">Aunque Vm. pierda</l>
+            <l>Aunque Vm. pierda</l>
             <l>de contento y regocijo</l>
             <l>las dos últimas potencias</l>
             <l>del alma, por Dios señora,</l>
@@ -1791,20 +1783,20 @@
             <l>en celebrar los pasajes</l>
             <l>que han intervenido en ella.</l>
             <l>¿Has visto igual mentecato</l>
-            <l part="I">que el tal Don Florindo?</l>
+            <l>que el tal Don Florindo?</l>
           </sp>
           <pb n="92"/>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">Lleva</l>
-            <l>tan creído el embolismo <note><emph>Embolismo: embuste.</emph></note></l>
+            <l>Lleva</l>
+            <l>tan creído el embolismo <note><emph rend="italic">Embolismo: embuste.</emph></note></l>
             <l>que si verdadero fuera</l>
             <l>no le hubiera persuadido</l>
-            <l part="I">mejor.</l>
+            <l>mejor.</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">Para un calavera</l>
+            <l>Para un calavera</l>
             <l>como él, menos bastaba.</l>
             <l>¿Pero has visto en mis respuestas</l>
             <l>desatinos semejantes?</l>
@@ -1839,11 +1831,11 @@
             <l>Buen ánimo, señorita,</l>
             <l>que ya estamos a la puerta</l>
             <l>o borde del tercer acto…</l>
-            <stage><emph>Tocan la puerta.</emph></stage>
+            <stage><emph rend="italic">Tocan la puerta.</emph></stage>
             <l>Chitón, que tocan la puerta</l>
             <l>cada muchuelo a su olivo</l>
             <l>siéntese que mi amo llega.</l>
-            <stage><emph>(Se va corriendo a abrir la puerta y vuelve).</emph></stage>
+            <stage><emph rend="italic">(Se va corriendo a abrir la puerta y vuelve).</emph></stage>
             <l>Es, señorita, Don José</l>
             <l>que llega con impaciencia</l>
             <l>a saber de Vm. el efecto</l>
@@ -1853,7 +1845,7 @@
             <speaker>Pepa:</speaker>
             <l>¿Qué esperas? Vuelve corriendo</l>
             <l>hasta que suba con presteza.</l>
-            <stage><emph>(Sale y vuelve a entrar con Don José).</emph></stage>
+            <stage><emph rend="italic">(Sale y vuelve a entrar con Don José).</emph></stage>
           </sp>
         </div>
         <div type="scene" n="23">
@@ -1870,12 +1862,12 @@
             <speaker>Pepa:</speaker>
             <l>Vuelve en ti dueño querido,</l>
             <l>tomad asiento, que es nuestra</l>
-            <l part="I">la victoria.</l>
+            <l>la victoria.</l>
           </sp>
           <pb n="94"/>
           <sp who="#donJose">
             <speaker>José</speaker>
-            <l part="F">¿Qué me dices?</l>
+            <l>¿Qué me dices?</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
@@ -1961,7 +1953,7 @@
             <l>Este reloj premiará</l>
             <l>su sigilo y su fineza.</l>
           </sp>
-          <stage><emph>Dale un reloj a Casilda. Casilda, viendo el reloj.</emph></stage>
+          <stage><emph rend="italic">Dale un reloj a Casilda. Casilda, viendo el reloj.</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>Amén, a las nueve en punto</l>
@@ -1969,16 +1961,16 @@
             <l>voy a dar a mi señorita</l>
             <l>la última pataleta,</l>
             <l>porque mi amo no tarda.</l>
-            <stage><emph>Tocan la puerta.</emph></stage>
+            <stage><emph rend="italic">Tocan la puerta.</emph></stage>
             <l>Miren si me erré en la cuenta</l>
             <l>a su puesto cada uno</l>
-            <l>que voy a abrirle la puerta. <stage><emph>(Vase).</emph></stage></l>
+            <l>que voy a abrirle la puerta. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="24">
           <head>Escena XXIV</head>
-          <stage><emph>Pepa, José</emph></stage>
-          <stage><emph>Se sienta Doña Pepita, aparentando su accidente y habla.</emph></stage>
+          <stage><emph rend="italic">Pepa, José</emph></stage>
+          <stage><emph rend="italic">Se sienta Doña Pepita, aparentando su accidente y habla.</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
             <l>Dueño mío disimula.</l>
@@ -1993,8 +1985,8 @@
         </div>
         <div type="scene" n="25">
           <head>Escena XXV</head>
-          <stage><emph>Dichos, Casilda, Diego</emph></stage>
-          <stage><emph>Entran Don Diego y Casilda, y Don José se levanta a
+          <stage><emph rend="italic">Dichos, Casilda, Diego</emph></stage>
+          <stage><emph rend="italic">Entran Don Diego y Casilda, y Don José se levanta a
             cumplimentarlo.</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
@@ -2081,11 +2073,11 @@
             <l>hombre de gran conveniencia,</l>
             <l>ya me está ocurriendo uno</l>
             <l>que pudiera entrar en esta</l>
-            <l part="I">negociación.</l>
+            <l>negociación.</l>
           </sp>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
-            <l part="F">¿Y quién es?</l>
+            <l>¿Y quién es?</l>
           </sp>
           <sp who="#donJose">
             <speaker>José:</speaker>
@@ -2102,7 +2094,7 @@
             <l>en sí la acción, sean mis brazos</l>
             <l>le paga de esta fineza.</l>
           </sp>
-          <stage><emph>Se abrazan mutuamente.</emph></stage>
+          <stage><emph rend="italic">Se abrazan mutuamente.</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
             <l>Casilda, ¿a dónde va don José</l>
@@ -2173,7 +2165,7 @@
             <l>sí señor, cincuenta veces.</l>
             <l>Yo hablo con experiencia</l>
             <l>ahora lo verán: ¡señorita!</l>
-            <stage><emph>(Gritándole fuertemente al oído).</emph></stage>
+            <stage><emph rend="italic">(Gritándole fuertemente al oído).</emph></stage>
             <l>Dice mi amo que espera</l>
             <l>saber de Vm. si le agrada</l>
             <l>el señorito Videla</l>
@@ -2185,11 +2177,11 @@
           </sp>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
-            <l part="I">Sí…</l>
+            <l>Sí…</l>
           </sp>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">Sí, padre mío, lo acepta</l>
+            <l>Sí, padre mío, lo acepta</l>
             <l>con entera voluntad</l>
             <l>vuestra hija. Enhorabuena.</l>
           </sp>
@@ -2236,11 +2228,11 @@
             <l>se conducirá a la Pepa</l>
             <l>a la Parroquia y quedamos</l>
             <l>hoy mismo del todo fuera</l>
-            <l part="I">de cuidados.</l>
+            <l>de cuidados.</l>
           </sp>
           <sp who="#donJose">
             <speaker>José:</speaker>
-            <l part="F">Pues señor,</l>
+            <l>Pues señor,</l>
             <l>parto con vuestra licencia</l>
             <l>a disponer ciertas cosas</l>
             <l>que piden mi diligencia,</l>
@@ -2250,7 +2242,7 @@
             <l>Esto supuesto ordenad</l>
             <l>señor, las demás que restan</l>
             <l>que yo quedo a vuestra orden</l>
-            <l>y a las de Madama Pepa. <stage><emph>(Vase).</emph></stage></l>
+            <l>y a las de Madama Pepa. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
@@ -2260,7 +2252,7 @@
         </div>
         <div type="scene" n="26">
           <head>Escena XXVI</head>
-          <stage><emph>Pepa, Casilda, Diego</emph></stage>
+          <stage><emph rend="italic">Pepa, Casilda, Diego</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
             <l>No ha sido poca fortuna</l>
@@ -2290,11 +2282,11 @@
             <l>agua de guindas, y almendras,</l>
             <l>docena y media; bizcochos</l>
             <l>imperiales, libra y media.</l>
-            <l part="I">¿Has entendido?</l>
+            <l>¿Has entendido?</l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
-            <l part="F">Ya estoy.</l>
+            <l>Ya estoy.</l>
             <l>¿Y podrá tomar la enferma</l>
             <l>si se le antoja algo de esto</l>
             <l>por parvedad de materia?</l>
@@ -2318,13 +2310,13 @@
             <l>No olvidéis lo que te he dicho</l>
             <l>que me voy a toda priesa</l>
             <l>a ver a mi hermana y cuñado,</l>
-            <l>ciérrate luego esa puerta. <stage><emph>(Vase).</emph></stage></l>
+            <l>ciérrate luego esa puerta. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
         </div>
         <div type="scene" n="27">
           <head>Escena XXVII</head>
-          <stage><emph>Pepa, Casilda</emph></stage>
-          <stage><emph>Doña Pepa se levanta de la silla y dice:</emph></stage>
+          <stage><emph rend="italic">Pepa, Casilda</emph></stage>
+          <stage><emph rend="italic">Doña Pepa se levanta de la silla y dice:</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
             <l>¡Fuera de potro, Casilda</l>
@@ -2349,7 +2341,7 @@
             <l>desigual venció la industria</l>
             <l>al poder y a la violencia.</l>
           </sp>
-          <stage><emph>Va adentro Casilda y saca lo que pide y se lo pone en la
+          <stage><emph rend="italic">Va adentro Casilda y saca lo que pide y se lo pone en la
             cabeza.</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
@@ -2369,7 +2361,7 @@
             <l>Nacer en Carnestolendas</l>
             <l>como yo nací y tendréis</l>
             <l>esa misma preeminencia.</l>
-            <stage><emph>Tocan.</emph></stage>
+            <stage><emph rend="italic">Tocan.</emph></stage>
             <pb n="106"/>
             <l>La puerta tocan, al potro</l>
             <l>señorita y yo a la oreja.</l>
@@ -2377,8 +2369,8 @@
         </div>
         <div type="scene" n="28">
           <head>Escena XXVIII</head>
-          <stage><emph>Dichos, José</emph></stage>
-          <stage><emph>Va a abrir y vuelve con Don José.</emph></stage>
+          <stage><emph rend="italic">Dichos, José</emph></stage>
+          <stage><emph rend="italic">Va a abrir y vuelve con Don José.</emph></stage>
           <sp who="#donJose">
             <speaker>José:</speaker>
             <l>¿He tardado, prenda mía?</l>
@@ -2478,20 +2470,20 @@
             <l>Te prometo practicarlo</l>
             <l>sin discrepar una letra.</l>
           </sp>
-          <stage><emph>Tocan la puerta.</emph></stage>
+          <stage><emph rend="italic">Tocan la puerta.</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>Ellos son, me voy a abrir</l>
             <l>señorita pataleta,</l>
             <l>que presto una buena crisis</l>
-            <l>la ha de dejar sana y buena. <stage><emph>(Vase).</emph></stage></l>
+            <l>la ha de dejar sana y buena. <stage type="inline"><emph rend="italic">(Vase).</emph></stage></l>
           </sp>
-          <stage><emph>Vuelve a entrar Casilda con Don Diego, Don Jaime y Doña Teresa, padrinos de
+          <stage><emph rend="italic">Vuelve a entrar Casilda con Don Diego, Don Jaime y Doña Teresa, padrinos de
               la boda.</emph></stage>
         </div>
         <div type="scene" n="29">
           <head>Escena XXIX</head>
-          <stage><emph> Dichos,Teresa, Diego, Jaime</emph></stage>
+          <stage><emph rend="italic"> Dichos,Teresa, Diego, Jaime</emph></stage>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
             <l>¡Oh, amigo, a la obediencia</l>
@@ -2534,12 +2526,12 @@
             <l>algunas cosas que es fuerza</l>
             <l>preparar.</l>
           </sp>
-          <stage><emph>Se levantan todos y salen, y Don Diego se queda paseándose y
+          <stage><emph rend="italic">Se levantan todos y salen, y Don Diego se queda paseándose y
             dice:</emph></stage>
         </div>
         <div type="scene" n="30">
           <head>Escena XXX</head>
-          <stage><emph>Diego</emph></stage>
+          <stage><emph rend="italic">Diego</emph></stage>
           <sp who="#donDiego">
             <l>Hoy fuera para mí el día</l>
             <l>más feliz si yo pudiera</l>
@@ -2588,24 +2580,24 @@
             <l>gócelas muy enhorabuena.</l>
             <l>Se las daré cuanto entre</l>
             <l>y mi bendición obtenga.</l>
-            <stage><emph>Ruido de gritos.</emph></stage>
-            <l>¿Pero quién grita, qué es esto? <stage><emph>(Asoma a la puerta).</emph></stage></l>
+            <stage><emph rend="italic">Ruido de gritos.</emph></stage>
+            <l>¿Pero quién grita, qué es esto? <stage type="inline"><emph rend="italic">(Asoma a la puerta).</emph></stage></l>
           </sp>
-          <stage><emph>Casilda entra a gritos y llena de gozo dice:</emph></stage>
+          <stage><emph rend="italic">Casilda entra a gritos y llena de gozo dice:</emph></stage>
         </div>
         <div type="scene" n="31">
           <head>Escena XXXI</head>
-          <stage><emph>Casilda, Diego</emph></stage>
+          <stage><emph rend="italic">Casilda, Diego</emph></stage>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>Señor, las noticias buenas</l>
             <l>que os traigo piden albricias</l>
             <l>de buen tamaño. Está buena</l>
-            <l part="I">y sana mi señorita…</l>
+            <l>y sana mi señorita…</l>
           </sp>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
-            <l part="F">¿Qué dices</l>
+            <l>¿Qué dices</l>
             <l>mujer, es cierta</l>
             <l>la noticia? ¿O tú te burlas?</l>
           </sp>
@@ -2627,28 +2619,28 @@
           </sp>
           <sp who="#donDiego">
             <speaker>Diego:</speaker>
-            <stage><emph>(Saca de la faltriquera y le da).</emph></stage>
+            <stage><emph rend="italic">(Saca de la faltriquera y le da).</emph></stage>
             <l>Toma en albricias de esta</l>
             <l>novedad tan oportuna</l>
             <l>esta mirilla de perlas,</l>
             <l>y quédate que me voy</l>
-            <l>corriendo yo mismo a verla. <stage><emph>(Va a salir).</emph></stage></l>
+            <l>corriendo yo mismo a verla. <stage type="inline"><emph rend="italic">(Va a salir).</emph></stage></l>
           </sp>
           <sp who="#casilda">
             <speaker>Casilda:</speaker>
             <l>¿Para qué? Si ved ahí suben</l>
             <l>de prisa por la escalera</l>
-            <l part="I">vedlos ahí.</l>
+            <l>vedlos ahí.</l>
           </sp>
-          <stage><emph>Entran todos con regocijo haciendo contencias a Don Diego, y Doña Pepa se
+          <stage><emph rend="italic">Entran todos con regocijo haciendo contencias a Don Diego, y Doña Pepa se
               arrodilla a los pies de su padre.</emph></stage>
         </div>
         <div type="scene" n="32">
           <head>Escena XXXII</head>
-          <stage><emph>Dichos, Pepa, Teresa, José, Jaime</emph></stage>
+          <stage><emph rend="italic">Dichos, Pepa, Teresa, José, Jaime</emph></stage>
           <sp who="#donaPepa">
             <speaker>Pepa:</speaker>
-            <l part="F">Padre mío</l>
+            <l>Padre mío</l>
             <l>aquí está vuestra hija llena</l>
             <l>de la mayor confusión</l>
             <l>a vuestros pies, por clemencia</l>
@@ -2684,7 +2676,7 @@
             <l>paternal, y que por en señas</l>
             <l>de que te la doy con gusto</l>
             <l>del todo estés satisfecha,</l>
-            <stage><emph>(Le da unas joyas)</emph></stage>
+            <stage><emph rend="italic">(Le da unas joyas)</emph></stage>
             <l>toma esas joyas y haced</l>
             <l>de ellas el uso que quieras.</l>
           </sp>
@@ -2727,7 +2719,7 @@
     </body>
     <back>
       <trailer>
-        <emph>Fin</emph>
+        <emph rend="italic">Fin</emph>
       </trailer>
     </back>
   </text>

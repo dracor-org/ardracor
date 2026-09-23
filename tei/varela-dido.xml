@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000009" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000009" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,8 +26,7 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
           <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"> CC0
           </licence>
@@ -45,8 +42,7 @@
         </bibl>
         <bibl type="originalSource">
           <author><forename>Juan Cruz</forename>
-            <surname>Varela</surname></author>: <title level="a">Dido</title>. En <title level="m"
-            >Teatro Hispanoamericano.</title>
+            <surname>Varela</surname></author>: <title level="a">Dido</title>. En <title level="m">Teatro Hispanoamericano.</title>
           <biblScope unit="volume">Tomo II, Siglo XIX.</biblScope>
           <pubPlace>Nueva York</pubPlace>: <publisher>Anaya Book</publisher>, <date>1973</date>, pp.
             <biblScope unit="page" from="14" to="69">14–69</biblScope>. </bibl>
@@ -103,10 +99,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000009"
-        passive="http://www.wikidata.org/entity/Q136325261"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000009"
-        passive="https://hdlab.space/teatrar/obras/0289.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000009" passive="http://www.wikidata.org/entity/Q136325261"/>
     </listRelation>
   </standOff>
   <text>

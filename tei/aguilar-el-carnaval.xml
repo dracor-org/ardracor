@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000019" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000019" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -33,17 +31,14 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-12"
-            >Antología de obras de teatro argentino</ref>
+          <ref target="https://web.archive.org/web/20250418231746/https://inteatro.ar/wp-content/uploads/2022/10/Antologia_teatro_argentinoT1.pdf">Antología de obras de teatro argentino</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -63,7 +58,7 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>The text was extracted from the digital version of the <emph>Antología de obras de teatro
+        <p>The text was extracted from the digital version of the <emph rend="italic">Antología de obras de teatro
             argentino.</emph>. In general, the text is taken as it appears in the digital source. A
           column layout, where it occurs, is not encoded as such; instead, the text is encoded
           sequentially. Page breaks of the digital source are indicated. Line breaks are not
@@ -118,10 +113,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000019"
-        passive="http://www.wikidata.org/entity/Q137700603"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000019"
-        passive="https://hdlab.space/teatrar/obras/0001.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000019" passive="http://www.wikidata.org/entity/Q137700603"/>
     </listRelation>
   </standOff>
   <text>
@@ -131,7 +123,7 @@
         <docTitle>
           <titlePart type="main">El carnaval</titlePart>
         </docTitle>
-        <docAuthor><emph>Cristóbal de Aguilar</emph></docAuthor>
+        <docAuthor><emph rend="italic">Cristóbal de Aguilar</emph></docAuthor>
       </titlePage>
       <pb n="22"/>
       <pb n="23"/>
@@ -139,34 +131,34 @@
         <head>Personajes</head>
         <castItem>
           <role>Don Arnesto de Silba,</role>
-          <roleDesc><emph>hombre formal</emph></roleDesc>
+          <roleDesc><emph rend="italic">hombre formal</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Doña Andrea Arce,</role>
-          <roleDesc><emph>mujer de don Arnesto, señora de peso</emph></roleDesc>
+          <roleDesc><emph rend="italic">mujer de don Arnesto, señora de peso</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Don Miguel de Luza,</role>
-          <roleDesc><emph>mozo de juicio</emph></roleDesc>
+          <roleDesc><emph rend="italic">mozo de juicio</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Polonia,</role>
-          <roleDesc><emph>criada</emph></roleDesc>
+          <roleDesc><emph rend="italic">criada</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Doña Segunda Casacabel,</role>
-          <roleDesc><emph>viuda, tormenta</emph></roleDesc>
+          <roleDesc><emph rend="italic">viuda, tormenta</emph></roleDesc>
         </castItem>
         <castItem>
           <role>Don Fadrique Vivero,</role>
-          <roleDesc><emph>tronera</emph></roleDesc>
+          <roleDesc><emph rend="italic">tronera</emph></roleDesc>
         </castItem>
       </castList>
     </front>
     <body>
       <div type="act" n="1">
         <div type="scene" n="1">
-          <stage><emph>Sala adornada en que estarán Don Arnesto, Don Miguel y Doña Andrea, está
+          <stage><emph rend="italic">Sala adornada en que estarán Don Arnesto, Don Miguel y Doña Andrea, está
               tocando el salterio, y los tres cantanto boleras, como se sigue.</emph></stage>
           <sp who="#donArnesto #donMiguel #donaAndrea">
             <speaker/>
@@ -190,7 +182,7 @@
             </lg>
           </sp>
           <pb n="24"/>
-          <stage><emph>Tocan la puerta.</emph></stage>
+          <stage><emph rend="italic">Tocan la puerta.</emph></stage>
           <sp who="#donaAndrea">
             <speaker>Andrea:</speaker>
             <l>¡Polonia, mira quién toca</l>
@@ -203,19 +195,19 @@
           </sp>
           <sp who="#donaAndrea">
             <speaker>Andrea:</speaker>
-            <l part="I">¿Con quién?</l>
+            <l>¿Con quién?</l>
           </sp>
           <sp who="#polonia">
             <speaker>Polonia:</speaker>
-            <l part="F">Con un caballero.</l>
+            <l>Con un caballero.</l>
           </sp>
           <sp who="#donaAndrea">
             <speaker>Andrea:</speaker>
             <l>Diles que entren, y vete</l>
             <l>a traer las luces luego.</l>
           </sp>
-          <stage><emph>Vase Polonia.</emph></stage>
-          <stage><emph>Entran doña Segunda y don Fadrique.</emph></stage>
+          <stage><emph rend="italic">Vase Polonia.</emph></stage>
+          <stage><emph rend="italic">Entran doña Segunda y don Fadrique.</emph></stage>
           <sp who="#donaSegunda">
             <speaker>Segunda:</speaker>
             <l>Me alegro de ver a ustedes</l>
@@ -242,11 +234,11 @@
           </sp>
           <sp who="#donaSegunda">
             <speaker>Segunda:</speaker>
-            <l part="I">Señor don Miguel...</l>
+            <l>Señor don Miguel...</l>
           </sp>
           <sp who="#donMiguel">
             <speaker>Miguel:</speaker>
-            <l part="F">Madama.</l>
+            <l>Madama.</l>
           </sp>
           <sp who="#donaSegunda">
             <speaker>Segunda:</speaker>
@@ -386,12 +378,12 @@
             <l>cuyo nombre por común</l>
             <l>podrá acaso retenerlo</l>
             <l>en la memoria, y se llama</l>
-            <l part="I"><emph>Catón cristiano.</emph>
-              <note><emph>Catón cristiano:</emph> obrita con nociones de religión.</note></l>
+            <l><emph rend="italic">Catón cristiano.</emph>
+              <note><emph rend="italic">Catón cristiano:</emph> obrita con nociones de religión.</note></l>
           </sp>
           <sp who="#donFadrique">
             <speaker>Fadrique:</speaker>
-            <l part="F">Me acuerdo.</l>
+            <l>Me acuerdo.</l>
             <l>Y aunque lo leí despacio</l>
             <l>(porque tardé en aprenderlo</l>
             <l>sus dos años poco más</l>
@@ -515,11 +507,11 @@
           <sp who="#donFadrique">
             <speaker>Fadrique:</speaker>
             <l>¿Con qué habremos de tirar?</l>
-            <l part="I">¿Con jazmines?</l>
+            <l>¿Con jazmines?</l>
           </sp>
           <sp who="#donMiguel">
             <speaker>Miguel:</speaker>
-            <l part="F">Desde luego,</l>
+            <l>Desde luego,</l>
             <l>mejor sería con nada;</l>
             <l>pero, al fin, es más modesto,</l>
             <l>más fino y sin riesgo alguno</l>
@@ -637,12 +629,11 @@
             <l>razonable en extirpar</l>
             <l>las reliquias de unos juegos</l>
             <l>cuyo origen vergonzoso</l>
-            <l part="I">fue el gentilismo.<note>Gentilismo: religión de los gentiles o
-                idólatras.</note></l>
+            <l>fue el gentilismo.<note>Gentilismo: religión de los gentiles o idólatras.</note></l>
           </sp>
           <sp who="#donFadrique">
             <speaker>Fadrique:</speaker>
-            <l part="F">¿Y por eso</l>
+            <l>¿Y por eso</l>
             <l>les llama usted vergonzosos?</l>
             <l>¿Conque los que establecieron</l>
             <l>todo un Imperio Romano</l>
@@ -732,11 +723,11 @@
           <sp who="#donFadrique">
             <speaker>Fadrique:</speaker>
             <l>Usté habla solo de oídas:</l>
-            <l part="I">¿no es verdad?</l>
+            <l>¿no es verdad?</l>
           </sp>
           <sp who="#donMiguel">
             <speaker>Miguel:</speaker>
-            <l part="F">Pero es tan cierto</l>
+            <l>Pero es tan cierto</l>
             <l>lo que afirmo como es</l>
             <l>que la pólvora y el fuego</l>
             <l>si se unen, es preciso</l>

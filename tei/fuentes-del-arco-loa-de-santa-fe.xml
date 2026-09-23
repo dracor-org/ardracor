@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000008" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000008" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,16 +29,14 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="http://www.cehsf.ceride.gov.ar/america_31.pdf">Revista América</ref>
+          <ref target="https://web.archive.org/web/20260321101238/http://www.cehsf.ceride.gov.ar/america_31.pdf">Revista América</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -49,10 +45,8 @@
           <author>
             <forename>Luis María</forename>
             <surname>Calvo</surname>
-          </author>: <title level="a">La Loa de Santa Fe en honor a Felipe V (1717)</title>. <title
-            level="j">Revista América</title>
-          <biblScope unit="issue">31</biblScope> (<date when="2022">2022</date>), pp. <biblScope
-            unit="page" from="224" to="253">224–253</biblScope>. </bibl>
+          </author>: <title level="a">La Loa de Santa Fe en honor a Felipe V (1717)</title>. <title level="j">Revista América</title>
+          <biblScope unit="issue">31</biblScope> (<date when="2022">2022</date>), pp. <biblScope unit="page" from="224" to="253">224–253</biblScope>. </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -109,10 +103,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000008"
-        passive="http://www.wikidata.org/entity/Q135988819"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000008"
-        passive="https://hdlab.space/teatrar/obras/0107.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000008" passive="http://www.wikidata.org/entity/Q135988819"/>
     </listRelation>
   </standOff>
   <text>
@@ -551,8 +542,7 @@
         </sp>
         <sp who="#caballeroTercero">
           <speaker>Caballero Tercero</speaker>
-          <l>Y ha de ser <title type="play">“Que No Puede Guardarse Una Mujer”</title><note
-              type="editor">Se trata de una obra de Moreto, muy popular en el siglo
+          <l>Y ha de ser <title type="play">“Que No Puede Guardarse Una Mujer”</title><note type="editor">Se trata de una obra de Moreto, muy popular en el siglo
             XVIII.</note></l>
         </sp>
         <sp who="#caballeroSegundo">

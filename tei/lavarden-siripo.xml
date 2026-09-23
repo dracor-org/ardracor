@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000004" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000004" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -35,18 +33,15 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref
-            target="https://i-share-uiu.primo.exlibrisgroup.com/permalink/01CARLI_UIU/q00vor/cdi_hathitrust_hathifiles_yale_39002085409630"
-            >Antología de poetas argentinos</ref>
+          <ref target="https://archive.org/details/antologiadepoeta02puiguoft">Internet
+            Archive</ref>
           <availability status="free">
             <p>In the public domain.</p>
           </availability>
@@ -122,10 +117,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000004"
-        passive="http://www.wikidata.org/entity/Q136032630"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000004"
-        passive="https://hdlab.space/teatrar/obras/0160.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000004" passive="http://www.wikidata.org/entity/Q136032630"/>
     </listRelation>
   </standOff>
   <text>

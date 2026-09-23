@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000018" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/dracor-org/ardracor/refs/heads/main/schema/ardracor.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ar000018" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,17 +27,14 @@
         <publisher xml:id="hdlab">HD LAB, IIBICRIT/CONICET</publisher>
         <idno type="URL">https://hdlab.space/</idno>
         <publisher xml:id="rosDH">Digital Humanities, Universität Rostock</publisher>
-        <idno type="URL"
-          >https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
+        <idno type="URL">https://www.germanistik.uni-rostock.de/forschung/digital-humanities/rosdh/</idno>
         <availability>
-          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/"
-            >CC0</licence>
+          <licence target="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <ref target="https://inteatro.ar/editorial/antologia-de-obras-de-teatro-argentino-2"
-            >Antología de obras de teatro argentino</ref>
+          <ref target="https://web.archive.org/web/20231227234241/https://inteatro.ar/wp-content/uploads/2022/10/tomo2.pdf">Antología de obras de teatro argentino</ref>
           <availability status="free">
             <p>No specific license.</p>
           </availability>
@@ -133,10 +128,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ar000018"
-        passive="http://www.wikidata.org/entity/Q137599301"/>
-      <relation name="teatrar" active="https://dracor.org/entity/ar000018"
-        passive="https://hdlab.space/teatrar/obras/0124.html"/>
+      <relation name="wikidata" active="https://dracor.org/entity/ar000018" passive="http://www.wikidata.org/entity/Q137599301"/>
     </listRelation>
   </standOff>
   <text>
@@ -325,8 +317,8 @@
     </front>
     <body>
       <div type="act" n="1">
-        <head><emph rend="bold">Acto Primero</emph></head>
-        <stage><emph>Decoración: oficina particular en casa del doctor Flórez, lujosamente
+        <head><emph rend="bold italic">Acto Primero</emph></head>
+        <stage><emph rend="italic">Decoración: oficina particular en casa del doctor Flórez, lujosamente
             amueblada. En el ángulo izquierdo, gran balcón, a través de cuyas puertas vidrieras se
             verán los edificios del frente. En las paredes, colgados, cuadros y panoplias con armas
             diversas. A la derecha, mesa escritorio de las llamadas Ministros, con libros y papeles.
@@ -334,7 +326,7 @@
             biblioteca, etc. Es el atardecer de un día de primavera. Derecha e izquierda las del
             espectador.</emph></stage>
         <div type="scene" n="1">
-          <head><emph>Escena I</emph></head>
+          <head><emph rend="bold italic">Escena I</emph></head>
           <stage><emph rend="italic">Julián, luego Petrona</emph></stage>
           <pb n="165"/>
           <stage><emph rend="italic">Al levantarse el telón aparecerá Julián, joven de 16 años, hijo
@@ -386,8 +378,7 @@
           </sp>
           <sp who="#julian">
             <speaker>Julián:</speaker>
-            <p>No… peor que eso… un hermafrodita… ¿Usted sabe lo que es un hermafrodita?<stage
-                type="inline"><emph rend="italic">(Leyendo)</emph></stage> Un “caso de inversión
+            <p>No… peor que eso… un hermafrodita… ¿Usted sabe lo que es un hermafrodita?<stage type="inline"><emph rend="italic">(Leyendo)</emph></stage> Un “caso de inversión
               sexual con anestesia congénita”.</p>
           </sp>
           <sp who="#petrona">
@@ -502,8 +493,7 @@
           </sp>
           <sp who="#julian">
             <speaker>Julián:</speaker>
-            <p>Sí; vamos a ir los tres… Yo terminaré esto mañana… o luego <stage type="inline"><emph
-                  rend="italic">(Arregla los papeles del escritorio).</emph></stage></p>
+            <p>Sí; vamos a ir los tres… Yo terminaré esto mañana… o luego <stage type="inline"><emph rend="italic">(Arregla los papeles del escritorio).</emph></stage></p>
           </sp>
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
@@ -534,15 +524,15 @@
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
             <p>Está bien… ya me voy… ¡En todo se ha de meter!… Yo no me meto en nada, ¡oh! Pa qué me
-              pregunta, también… <stage>(vase rezongando por izq.)</stage></p>
+              pregunta, también… <stage type="inline">(vase rezongando por izq.)</stage></p>
           </sp>
           <pb n="169"/>
         </div>
         <div type="scene" n="2">
-          <head><emph>Escena II</emph></head>
+          <head><emph rend="bold italic">Escena II</emph></head>
           <stage><emph rend="italic">Julián solo</emph></stage>
-          <stage><emph rend="italic"/> Continúa un rato escribiendo. Luego lee en alta voz como al
-            principio</stage>
+          <stage><emph rend="italic">Continúa un rato escribiendo. Luego lee en alta voz como al
+              principio</emph></stage>
           <sp who="#julian">
             <speaker>Julián:</speaker>
             <p>“¡Las tendencias de una herencia morbosa!… Porque el vicio, explosión de instintos
@@ -563,7 +553,7 @@
           <pb n="170"/>
         </div>
         <div type="scene" n="3">
-          <head><emph>Escena III</emph></head>
+          <head><emph rend="bold italic">Escena III</emph></head>
           <stage><emph rend="italic">Julián y Dr. Flórez</emph></stage>
           <sp who="#florez">
             <speaker>Flórez:</speaker>
@@ -598,7 +588,7 @@
           </sp>
         </div>
         <div type="scene" n="4">
-          <head><emph>Escena IV</emph></head>
+          <head><emph rend="bold italic">Escena IV</emph></head>
           <stage><emph rend="italic">Dichos y Clara</emph></stage>
           <stage><emph rend="italic">Aparece Clara, peinada pero cubierta con un kimono de lujo,
               como quien se está haciendo su toilette de calle.</emph></stage>
@@ -663,7 +653,7 @@
           </sp>
         </div>
         <div type="scene" n="5">
-          <head><emph>Escena V</emph></head>
+          <head><emph rend="bold italic">Escena V</emph></head>
           <stage><emph rend="italic">Clara y Flórez</emph></stage>
           <stage><emph rend="italic">Flórez se sienta en el escritorio, hojeando los
             papeles.</emph></stage>
@@ -737,8 +727,7 @@
               congénere… Y cuando están bajo la acción del momento que llamaremos crítico, en la
               noche especialmente, se convierten en mujeres, en menos que mujeres, con todas sus
               rarezas, con todos sus caprichos, y sus pasiones, como si en ese instante se operara
-              en su naturaleza una transmutación maravillosa y monstruosa… <stage type="inline"
-                  ><emph rend="italic">(Como poseído).</emph></stage> ¡Es la voz de los ancestros,
+              en su naturaleza una transmutación maravillosa y monstruosa… <stage type="inline"><emph rend="italic">(Como poseído).</emph></stage> ¡Es la voz de los ancestros,
               el grito del vicio, el llamamiento imperioso de la decadencia genésica, heredados en
               un organismo decrépito y gastado en su propio origen por la obra de un pasado de
               miserias materiales y anímicas!…</p>
@@ -802,7 +791,7 @@
           </sp>
         </div>
         <div type="scene" n="6">
-          <head><emph>Escena VI</emph></head>
+          <head><emph rend="bold italic">Escena VI</emph></head>
           <stage><emph rend="italic">Flórez, Fernández y Pérez</emph></stage>
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
@@ -1116,7 +1105,7 @@
           <pb n="179"/>
         </div>
         <div type="scene" n="7">
-          <head><emph>Escena VII</emph></head>
+          <head><emph rend="bold italic">Escena VII</emph></head>
           <stage><emph rend="italic">Dichos, Petrona y luego Benito</emph></stage>
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
@@ -1293,7 +1282,7 @@
           </sp>
         </div>
         <div type="scene" n="8">
-          <head><emph>Escena VIII</emph></head>
+          <head><emph rend="bold italic">Escena VIII</emph></head>
           <stage><emph rend="italic">Dichos, menos Benito</emph></stage>
           <sp who="#florez">
             <speaker>Flórez:</speaker>
@@ -1389,7 +1378,7 @@
           </sp>
         </div>
         <div type="scene" n="9">
-          <head><emph>Escena<choice>
+          <head><emph rend="bold italic">Escena<choice>
                 <sic>XI</sic>
                 <corr>IX</corr>
               </choice><note type="editor">Error en el original impreso.</note>.</emph></head>
@@ -1401,8 +1390,7 @@
             <speaker>Clara:</speaker>
             <stage><emph rend="italic">(Apareciendo, sin darse cuenta de que el que está en la sala
                 no es su marido)</emph></stage>
-            <p>¿Te parece que me queda bien este vestido?… <stage type="inline"><emph rend="italic"
-                  >(Se mira a un espejo coquetamente. Pérez la observa con sorpresa un
+            <p>¿Te parece que me queda bien este vestido?… <stage type="inline"><emph rend="italic">(Se mira a un espejo coquetamente. Pérez la observa con sorpresa un
                   momento).</emph></stage></p>
           </sp>
           <sp who="#perez">
@@ -1422,8 +1410,7 @@
           </sp>
           <sp who="#clara">
             <speaker>Clara:</speaker>
-            <p>No es por eso, precisamente… Pero mi pregunta… francamente… <stage type="inline"
-                  ><emph rend="italic">(Ríe).</emph></stage> Me imaginé que estuviera Flórez solo…
+            <p>No es por eso, precisamente… Pero mi pregunta… francamente… <stage type="inline"><emph rend="italic">(Ríe).</emph></stage> Me imaginé que estuviera Flórez solo…
               ¡Hace mucho tiempo que está usted aquí?…</p>
           </sp>
           <sp who="#perez">
@@ -1559,8 +1546,7 @@
           </sp>
           <sp who="#perez">
             <speaker>Pérez:</speaker>
-            <p>Sus hijos no pueden impedirle a usted sus derechos a la vida… <stage type="inline"
-                  ><emph rend="italic">(Se arrima).</emph></stage> Sí, Clara… Correspóndame usted…
+            <p>Sus hijos no pueden impedirle a usted sus derechos a la vida… <stage type="inline"><emph rend="italic">(Se arrima).</emph></stage> Sí, Clara… Correspóndame usted…
               Ámeme usted… Solo, libre, joven, yo soy su redención, Clara… ¡Y mi amor, quizás, el
               único medio que la libere a usted del naufragio total de su vida, a que la ha llevado
               el matrimonio con un hombre indigno de usted e indigno del sacrificio inmenso que
@@ -1594,7 +1580,7 @@
           <pb n="186"/>
         </div>
         <div type="scene" n="10">
-          <head><emph>Escena<choice>
+          <head><emph rend="bold italic">Escena<choice>
                 <sic>10</sic>
                 <corr>X</corr>
               </choice><note type="editor">Error en el original impreso.</note>.</emph></head>
@@ -1624,7 +1610,7 @@
           </sp>
         </div>
         <div type="scene" n="11">
-          <head><emph>Escena XI</emph></head>
+          <head><emph rend="bold italic">Escena XI</emph></head>
           <stage><emph rend="italic">Dichos, Clara, Julián y Lola</emph></stage>
           <sp who="#clara">
             <speaker>Clara:</speaker>
@@ -1693,7 +1679,7 @@
           </sp>
         </div>
         <div type="scene" n="12">
-          <head><emph>Escena XII</emph></head>
+          <head><emph rend="bold italic">Escena XII</emph></head>
           <stage><emph rend="italic">Pérez y Flórez</emph></stage>
           <stage><emph rend="italic">Pérez queda un instante en el escritorio en la misma posición
               de antes. Entra Flórez.</emph></stage>
@@ -1702,16 +1688,13 @@
             <p>Quedamos solos… Y ahora… la luz estorba… <stage type="inline"><emph rend="italic">(Va
                   a la llave del plafonier y lo apaga. La escena queda solamente iluminada por la
                   tenue luz verde de la lámpara que está sobre la mesa).</emph></stage> ¡Oh!… La
-              luz… ¡Qué extraño efecto tiene en mi la luz!… <stage type="inline"><emph rend="italic"
-                  >(Va a la ventana y la abre de par en par. Por ella se ven afuera las luces de los
+              luz… ¡Qué extraño efecto tiene en mi la luz!… <stage type="inline"><emph rend="italic">(Va a la ventana y la abre de par en par. Por ella se ven afuera las luces de los
                   edificios).</emph></stage> Y que entre ahora la noche… la noche con todo su
-              misterio… con toda su sombra… ¿Qué lees?… ¿Mi informe?… <stage type="inline"><emph
-                  rend="italic">(Se acerca por detrás a Pérez. Inmutado totalmente como si sufriera
+              misterio… con toda su sombra… ¿Qué lees?… ¿Mi informe?… <stage type="inline"><emph rend="italic">(Se acerca por detrás a Pérez. Inmutado totalmente como si sufriera
                   en ese instante una rara metamorfosis del carácter. Leyendo por sobre el hombro de
                   Pérez).</emph></stage> “La noche parece infundirles una nueva vida, como si en el
               misterio de su sombra se operara en sus organismos una transfusión milagrosa del sexo.
-              Son, entonces mujeres, como en el día han sido hombres”. <stage type="inline"><emph
-                  rend="italic">(Toma la cabeza de Pérez entre sus dos manos, acerca su boca a la de
+              Son, entonces mujeres, como en el día han sido hombres”. <stage type="inline"><emph rend="italic">(Toma la cabeza de Pérez entre sus dos manos, acerca su boca a la de
                   aquel, con la intención de besarlo. Entre tanto cae el telón).</emph></stage></p>
           </sp>
           <pb n="188"/>
@@ -1719,7 +1702,7 @@
       </div>
       <div type="act" n="2">
         <head><emph rend="bold">Acto Segundo</emph></head>
-        <stage><emph>Decoración: sala de una garçoniere elegante. Puertas al foro derecha. A la
+        <stage><emph rend="italic">Decoración: sala de una garçoniere elegante. Puertas al foro derecha. A la
             izquierda, especie de apartament con un piano, divanes, confidentes, etc. En la lateral
             izquierda, puerta que se supone conduce a un dormitorio. En la sala, lujoso juego de
             sillas tapizadas, gran consola con espejo y útiles de belleza, rizadores, polveras,
@@ -1727,7 +1710,7 @@
             tono. El alumbrado, fuera del plafonier, debe ser compuesto por brazos eléctricos con
             lámparas de colores, azules, rojas, etc. Es de noche.</emph></stage>
         <div type="scene" n="1">
-          <head><emph>Escena I</emph></head>
+          <head><emph rend="bold italic">Escena I</emph></head>
           <stage><emph rend="italic">Emilio, Princesa y Juanita</emph></stage>
           <stage><emph rend="italic">Al levantarse el telón, aparecerá Juanita, un jovenzuelo de 20
               años, de bello rostro y rasgados ojos, sentado al piano, ejecutando un tango. En
@@ -1781,13 +1764,11 @@
           </sp>
           <sp who="#princesa">
             <speaker>Princesa:</speaker>
-            <p>Qué Emilio este… <stage type="inline"><emph rend="italic"
-                >(Abrazándolo).</emph></stage> Mi maridito… Emilio…</p>
+            <p>Qué Emilio este… <stage type="inline"><emph rend="italic">(Abrazándolo).</emph></stage> Mi maridito… Emilio…</p>
           </sp>
           <sp who="#juanita">
             <speaker>Juanita:</speaker>
-            <p>Avisá, che… Este es mío… ¿qué te has creído…? <stage type="inline"><emph
-                  rend="italic">(Lo abraza).</emph></stage></p>
+            <p>Avisá, che… Este es mío… ¿qué te has creído…? <stage type="inline"><emph rend="italic">(Lo abraza).</emph></stage></p>
           </sp>
           <sp who="#emilio">
             <speaker>Emilio:</speaker>
@@ -1812,7 +1793,7 @@
           </sp>
         </div>
         <div type="scene" n="2">
-          <head><emph>Escena II</emph></head>
+          <head><emph rend="bold italic">Escena II</emph></head>
           <stage><emph rend="italic">Dichos y Benito</emph></stage>
           <pb n="190"/>
           <sp who="#benito">
@@ -1872,8 +1853,7 @@
           </sp>
           <sp who="#emilio">
             <speaker>Emilio:</speaker>
-            <p>No… Pero habrá ido de mirón… Flórez es uno de los padrinos… <stage type="inline"
-                  ><emph rend="italic">(A Benito).</emph></stage> Andá, nomás… ya no te precisamos…
+            <p>No… Pero habrá ido de mirón… Flórez es uno de los padrinos… <stage type="inline"><emph rend="italic">(A Benito).</emph></stage> Andá, nomás… ya no te precisamos…
                 <stage type="inline"><emph rend="italic">(Benito sale).</emph></stage> Tipo más
               insolente éste…</p>
           </sp>
@@ -1941,14 +1921,12 @@
           </sp>
           <sp who="#princesa">
             <speaker>Princesa:</speaker>
-            <p>Mientras llega el coche me voy a arreglar un poco <stage type="inline"><emph
-                  rend="italic">(se va al espejo y empieza a pintarse los ojos, labios,
+            <p>Mientras llega el coche me voy a arreglar un poco <stage type="inline"><emph rend="italic">(se va al espejo y empieza a pintarse los ojos, labios,
                   etc.).</emph></stage></p>
           </sp>
           <sp who="#juanita">
             <speaker>Juanita:</speaker>
-            <p>Y yo voy a hacer lo mismo… Con el bailoteo me he despintado toda… <stage
-                type="inline"><emph rend="italic">(Viéndose frente al espejo).</emph></stage>¡Ja ja…
+            <p>Y yo voy a hacer lo mismo… Con el bailoteo me he despintado toda… <stage type="inline"><emph rend="italic">(Viéndose frente al espejo).</emph></stage>¡Ja ja…
               che!… ¡Qué ridículo!… ¡Fijate!… Parezco una de esas chinas endomingadas… se me ha
               chorreado todo el carmín…</p>
           </sp>
@@ -1981,8 +1959,7 @@
           <sp who="#juanita">
             <speaker>Juanita:</speaker>
             <p>¡Personaje social! ¡Bah!… ¿Y Nerón? ¿No era emperador y salía de noche a buscar
-              hombres por la Vía Apia?… <stage type="inline"><emph rend="italic"
-                >(Transición)</emph></stage> A mi me gustaría eso, che… qué querés… ¡Qué tiempos
+              hombres por la Vía Apia?… <stage type="inline"><emph rend="italic">(Transición)</emph></stage> A mi me gustaría eso, che… qué querés… ¡Qué tiempos
               aquellos! ¡Quién fuera Heliogábalo, que entró triunfalmente en Roma montado en un
               enorme falo de mármol negro… así, che… Así… como un cilindro de yerba…</p>
           </sp>
@@ -1996,7 +1973,7 @@
           </sp>
         </div>
         <div type="scene" n="3">
-          <head><emph>Escena III</emph></head>
+          <head><emph rend="bold italic">Escena III</emph></head>
           <stage><emph rend="italic">Dichos y Benito</emph></stage>
           <sp who="#benito">
             <speaker>Benito:</speaker>
@@ -2032,14 +2009,13 @@
           <sp who="#benito">
             <speaker>Benito:</speaker>
             <stage><emph rend="italic">(Solo. Viéndoles irse)</emph></stage>
-            <p>¡Pedazos de maricones!… ¡Y vean cómo me dejan esto!… <stage type="inline"><emph
-                  rend="italic">(Se pone a arreglar los muebles de la sala. Cierra el piano y
+            <p>¡Pedazos de maricones!… ¡Y vean cómo me dejan esto!… <stage type="inline"><emph rend="italic">(Se pone a arreglar los muebles de la sala. Cierra el piano y
                   finalmente apaga la luz del plafonier. Cuando va a salir por foro entra
                   Pérez).</emph></stage></p>
           </sp>
         </div>
         <div type="scene" n="4">
-          <head><emph>Escena IV</emph></head>
+          <head><emph rend="bold italic">Escena IV</emph></head>
           <stage><emph rend="italic">Benito y Pérez</emph></stage>
           <sp who="#perez">
             <speaker>Pérez:</speaker>
@@ -2129,15 +2105,14 @@
           </sp>
         </div>
         <div type="scene" n="5">
-          <head><emph>Escena V</emph></head>
+          <head><emph rend="bold italic">Escena V</emph></head>
           <stage><emph rend="italic">Pérez y Clara</emph></stage>
           <stage><emph rend="italic">Aparece a poco Pérez por foro seguido de Clara. Esta entra casi
               totalmente oculta la cara por la capa. Pasa con temor y desconfianza. Pérez la trae de
               la mano.</emph></stage>
           <sp who="#perez">
             <speaker>Pérez:</speaker>
-            <p>Aquí no hay temor… Estamos absolutamente solos… <stage type="inline"><emph
-                  rend="italic">(Cierra la puerta).</emph></stage></p>
+            <p>Aquí no hay temor… Estamos absolutamente solos… <stage type="inline"><emph rend="italic">(Cierra la puerta).</emph></stage></p>
           </sp>
           <pb n="195"/>
           <sp who="#clara">
@@ -2244,8 +2219,7 @@
           </sp>
           <sp who="#clara">
             <speaker>Clara:</speaker>
-            <stage><emph rend="italic">(Para tomar la copa se ha quitado los guantes que habrá <pb
-                  n="197"/> dejado sobre la mesita. Devolviendo la copa).</emph></stage>
+            <stage><emph rend="italic">(Para tomar la copa se ha quitado los guantes que habrá <pb n="197"/> dejado sobre la mesita. Devolviendo la copa).</emph></stage>
             <p>Gracias… Sí… tal vez… </p>
           </sp>
           <sp who="#perez">
@@ -2342,8 +2316,7 @@
           </sp>
           <sp who="#clara">
             <speaker>Clara:</speaker>
-            <p>No… Antes ocúlteme usted… Usted me ha engañado… <stage type="inline"><emph
-                  rend="italic">(Se oyen golpes y voces en la puerta).</emph></stage> ¡Ligero, por
+            <p>No… Antes ocúlteme usted… Usted me ha engañado… <stage type="inline"><emph rend="italic">(Se oyen golpes y voces en la puerta).</emph></stage> ¡Ligero, por
               Dios!… ¡Pronto!…</p>
           </sp>
           <sp who="#perez">
@@ -2365,7 +2338,7 @@
           </sp>
         </div>
         <div type="scene" n="6">
-          <head><emph>Escena VI</emph></head>
+          <head><emph rend="bold italic">Escena VI</emph></head>
           <stage><emph rend="italic">Pérez, Benito, Juanita, Emilio y la Princesa de
             Borbón</emph></stage>
           <sp who="#benito">
@@ -2375,8 +2348,7 @@
           <pb n="199"/>
           <sp who="#emilio">
             <speaker>Emilio:</speaker>
-            <p>Es lo mismo… Pedazo de bruto o no entendés… ¡Qué rico tipo!… <stage type="inline"
-                  ><emph rend="italic">(Al ver a Pérez).</emph></stage> ¡Hola!… No ven muchachos…
+            <p>Es lo mismo… Pedazo de bruto o no entendés… ¡Qué rico tipo!… <stage type="inline"><emph rend="italic">(Al ver a Pérez).</emph></stage> ¡Hola!… No ven muchachos…
               Aquí está el hombre.</p>
           </sp>
           <sp who="#perez #benito #juanita #emilio #princesa">
@@ -2549,8 +2521,7 @@
           </sp>
           <sp who="#perez">
             <speaker>Pérez:</speaker>
-            <p>Váyanse… les digo… váyanse… <stage type="inline"><emph rend="italic"
-                  >(Llamando)</emph></stage> Benito… Benito…</p>
+            <p>Váyanse… les digo… váyanse… <stage type="inline"><emph rend="italic">(Llamando)</emph></stage> Benito… Benito…</p>
           </sp>
           <sp who="#emilio">
             <speaker>Emilio:</speaker>
@@ -2576,7 +2547,7 @@
           </sp>
         </div>
         <div type="scene" n="7">
-          <head><emph>Escena VII</emph></head>
+          <head><emph rend="bold italic">Escena VII</emph></head>
           <stage><emph rend="italic">Dichos, Flórez y Fernández</emph></stage>
           <sp who="#florez">
             <speaker>Flórez:</speaker>
@@ -2702,7 +2673,7 @@
           </sp>
         </div>
         <div type="scene" n="8">
-          <head><emph>Escena VIII</emph></head>
+          <head><emph rend="bold italic">Escena VIII</emph></head>
           <stage><emph rend="italic">Pérez, luego Clara</emph></stage>
           <stage><emph rend="italic">Por un momento Pérez queda como anonadado por el conflicto.
               Luego reacciona. Va hasta la puerta. Se cerciora de que los otros han salido y corre a
@@ -2764,9 +2735,9 @@
       </div>
       <div type="act" n="3">
         <head><emph rend="bold">Acto Tercero</emph></head>
-        <stage><emph>La misma decoración del Acto Primero.</emph></stage>
+        <stage><emph rend="italic">La misma decoración del Acto Primero.</emph></stage>
         <div type="scene" n="1">
-          <head><emph>Escena I</emph></head>
+          <head><emph rend="bold italic">Escena I</emph></head>
           <stage><emph rend="italic">Clara y Petrona</emph></stage>
           <stage><emph rend="italic">Clara, sola, junto al escritorio revisa, de pie, una carpeta de
               papeles. A poco aparece Petrona trayendo una bandeja con una taza de
@@ -2825,8 +2796,7 @@
           </sp>
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
-            <p>Me parece que siempre lo he sido. En eso no va a desconfiar de mí, creo.<stage><emph
-                  rend="italic">(Deja el té sobre la mesa, como disponiéndose a
+            <p>Me parece que siempre lo he sido. En eso no va a desconfiar de mí, creo.<stage type="inline"><emph rend="italic">(Deja el té sobre la mesa, como disponiéndose a
                 escuchar).</emph></stage>Y diga, pues. Vamos a ver.</p>
           </sp>
           <sp who="#clara">
@@ -2893,8 +2863,7 @@
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
             <p>Qué esperanza… ¡De adónde! Al contrario, si a la edá en que los mocitos de hoy en día
-              ya están cansados del café y de las carreras <stage type="inline"><emph rend="italic"
-                  >(Es un decir),</emph></stage> o de andar atrás de las malas mujeres… ¡qué! Si es
+              ya están cansados del café y de las carreras <stage type="inline"><emph rend="italic">(Es un decir),</emph></stage> o de andar atrás de las malas mujeres… ¡qué! Si es
               pa jurar que él todavía sabía rezar el “Dios te salve” antes del acostarse… Tranquila
               podía estar su mama con las sirvientas… no había cuidado. ¡La única novia que le
               conocimos fue usté! Y eso…</p>
@@ -3050,14 +3019,12 @@
           <sp who="#clara">
             <speaker>Clara:</speaker>
             <p><stage type="inline"><emph rend="italic">(Suspirando)</emph></stage> ¡Ah!… Por
-              curiosidad sin duda… Bueno, <pb n="209"/> vete… Lleva eso nomás… <stage type="inline"
-                  ><emph rend="italic">(Petrona mutis por izquierda)</emph></stage> ¡Que no pueda
-              una confiarse a nadie, Señor!… ¡Qué asco!… ¡Qué vergüenza!… <stage type="inline"><emph
-                  rend="italic">(Aparecen por derecha Lola y Julián).</emph></stage></p>
+              curiosidad sin duda… Bueno, <pb n="209"/> vete… Lleva eso nomás… <stage type="inline"><emph rend="italic">(Petrona mutis por izquierda)</emph></stage> ¡Que no pueda
+              una confiarse a nadie, Señor!… ¡Qué asco!… ¡Qué vergüenza!… <stage type="inline"><emph rend="italic">(Aparecen por derecha Lola y Julián).</emph></stage></p>
           </sp>
         </div>
         <div type="scene" n="2">
-          <head><emph>Escena II</emph></head>
+          <head><emph rend="bold italic">Escena II</emph></head>
           <stage><emph rend="italic">Clara, Lula <choice>
                 <sic>Lula</sic>
                 <corr>Lola</corr>
@@ -3138,13 +3105,11 @@
           </sp>
           <sp who="#lola">
             <speaker>Lola:</speaker>
-            <p>Bueno… pero lo notó después. Ya te hablará ella <stage type="inline"><emph
-                  rend="italic">(A Clara).</emph></stage> Estaba lo más escandalizada…</p>
+            <p>Bueno… pero lo notó después. Ya te hablará ella <stage type="inline"><emph rend="italic">(A Clara).</emph></stage> Estaba lo más escandalizada…</p>
           </sp>
           <sp who="#clara">
             <speaker>Clara:</speaker>
-            <p>¿Conque esas tenemos?... Bien… Yo arreglaré todo… Ahora hablaremos <stage
-                type="inline"><emph rend="italic">(A Lola).</emph></stage> Y tú, a dormir, que has
+            <p>¿Conque esas tenemos?... Bien… Yo arreglaré todo… Ahora hablaremos <stage type="inline"><emph rend="italic">(A Lola).</emph></stage> Y tú, a dormir, que has
               de madrugar para acompañarme a misa.</p>
           </sp>
           <sp who="#lola">
@@ -3177,7 +3142,7 @@
           </sp>
         </div>
         <div type="scene" n="3">
-          <head><emph>Escena III</emph></head>
+          <head><emph rend="bold italic">Escena III</emph></head>
           <stage><emph rend="italic">Clara y Julián</emph></stage>
           <sp who="#julian">
             <speaker>Julián:</speaker>
@@ -3242,8 +3207,7 @@
           <sp who="#julian">
             <speaker>Julián:</speaker>
             <p>Inmoral… es decir… científico, en todo caso. Un trabajo científico como cualquier
-              otro. No veo que tenga nada de inmoral. <stage type="inline"><emph rend="italic"
-                  >(Pausa).</emph></stage> ¿Y era eso todo lo que querías preguntarme?</p>
+              otro. No veo que tenga nada de inmoral. <stage type="inline"><emph rend="italic">(Pausa).</emph></stage> ¿Y era eso todo lo que querías preguntarme?</p>
           </sp>
           <sp who="#clara">
             <speaker>Clara:</speaker>
@@ -3397,7 +3361,7 @@
           <pb n="214"/>
         </div>
         <div type="scene" n="4">
-          <head><emph>Escena IV</emph></head>
+          <head><emph rend="bold italic">Escena IV</emph></head>
           <stage><emph rend="italic">Clara y Petrona</emph></stage>
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
@@ -3420,7 +3384,7 @@
           </sp>
         </div>
         <div type="scene" n="5">
-          <head><emph>Escena V</emph></head>
+          <head><emph rend="bold italic">Escena V</emph></head>
           <stage><emph rend="italic">Clara y Benito</emph></stage>
           <sp who="#benito">
             <speaker>Benito:</speaker>
@@ -3605,8 +3569,7 @@
           </sp>
           <sp who="#benito">
             <speaker>Benito:</speaker>
-            <p>Señora… permítame… Haga el favor de no jugar con eso… <stage type="inline"><emph
-                  rend="italic">(Aparte)</emph></stage> ¡Qué calor!</p>
+            <p>Señora… permítame… Haga el favor de no jugar con eso… <stage type="inline"><emph rend="italic">(Aparte)</emph></stage> ¡Qué calor!</p>
           </sp>
           <sp who="#clara">
             <speaker>Clara:</speaker>
@@ -3801,8 +3764,7 @@
           <sp who="#clara">
             <speaker>Clara:</speaker>
             <stage><emph rend="italic">(Con desesperación)</emph></stage>
-            <p>¡Ah, señor, señor! ¡Qué miseria!… <stage type="inline"><emph rend="italic"
-                  >(Pausa)</emph></stage> ¡Qué asco!… </p>
+            <p>¡Ah, señor, señor! ¡Qué miseria!… <stage type="inline"><emph rend="italic">(Pausa)</emph></stage> ¡Qué asco!… </p>
             <stage><emph rend="italic">(Arregla los papeles. Da un nuevo vistazo a la carta y la
                 deja. Va a cerrar el cajón y ve el revólver. Lo toma, pensativa, y luego lo deja y
                 cierra el cajón. Llama. Cierra la biblioteca. Oprime el botón y apaga algunas
@@ -3810,7 +3772,7 @@
           </sp>
         </div>
         <div type="scene" n="6">
-          <head><emph>Escena VI</emph></head>
+          <head><emph rend="bold italic">Escena VI</emph></head>
           <stage><emph rend="italic">Clara y Petrona</emph></stage>
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
@@ -3840,8 +3802,7 @@
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
             <p>Que descanse… <stage type="inline"><emph rend="italic">(Al verla
-                marcharse).</emph></stage> Está bueno… <stage type="inline"><emph rend="italic"
-                  >(Golpeándose las narices con el índice derecho y como olfateando).</emph></stage>
+                marcharse).</emph></stage> Está bueno… <stage type="inline"><emph rend="italic">(Golpeándose las narices con el índice derecho y como olfateando).</emph></stage>
               Aquí pasa algo… No, no me equivoco…</p>
             <stage><emph rend="italic">(Mutis por izquierda hacia el interior.
               Pausa).</emph></stage>
@@ -3854,7 +3815,7 @@
               alguna sorpresa. Luego llama. Pausa. Se pasea por la habitación.</emph></stage>
         </div>
         <div type="scene" n="7">
-          <head><emph>Escena VII</emph></head>
+          <head><emph rend="bold italic">Escena VII</emph></head>
           <stage><emph rend="italic">Flórez y Petrona</emph></stage>
           <sp who="#petrona">
             <speaker>Petrona:</speaker>
@@ -3894,7 +3855,7 @@
           </sp>
         </div>
         <div type="scene" n="8">
-          <head><emph>Escena VIII</emph></head>
+          <head><emph rend="bold italic">Escena VIII</emph></head>
           <stage><emph rend="italic">Flórez y Clara, luego Petrona</emph></stage>
           <stage><emph rend="italic">Flórez, solo, se pasea breves instantes. Aparece Clara. Durante
               toda la escena hablará fríamente, lo mismo que él, pero sin
@@ -3975,7 +3936,7 @@
           </sp>
         </div>
         <div type="scene" n="9">
-          <head><emph>Escena<choice>
+          <head><emph rend="bold italic">Escena<choice>
                 <sic>XIX</sic>
                 <corr>IX</corr>
               </choice><note type="editor">Error en el original impreso.</note>.</emph></head>
@@ -4078,8 +4039,7 @@
           </sp>
           <sp who="#perez">
             <speaker>Pérez:</speaker>
-            <p>Está bueno… está bueno. Continúa. <stage type="inline"><emph rend="italic"
-                  >(Arrellenándose en el sofá, cruzado de piernas y mirando hacia el
+            <p>Está bueno… está bueno. Continúa. <stage type="inline"><emph rend="italic">(Arrellenándose en el sofá, cruzado de piernas y mirando hacia el
                 techo).</emph></stage></p>
           </sp>
           <sp who="#florez">
@@ -4099,8 +4059,7 @@
           </sp>
           <sp who="#perez">
             <speaker>Pérez:</speaker>
-            <p>Mira… es mejor que calles. Así… así resultas indigno, francamente, <stage
-                type="inline"><emph rend="italic">(Acercándose a él y hablándole casi al oído, pero
+            <p>Mira… es mejor que calles. Así… así resultas indigno, francamente, <stage type="inline"><emph rend="italic">(Acercándose a él y hablándole casi al oído, pero
                   con voz firme).</emph></stage> Resuellas por la herida… ¡Vaya! ¿O es que ahora vas
               a sentir celos como… ¡sí! como una mujerzuela vulgar?… Contesta.</p>
           </sp>
@@ -4179,8 +4138,7 @@
           <sp who="#perez">
             <speaker>Pérez:</speaker>
             <p>Volverte a la realidad de tu propia miseria, de nuestra propia miseria, que está en
-              la sombra… hacerte olvidar de ti mismo, de esa hombría que quieres aparentar y que <pb
-                n="225"/> no es más que el producto de la luz… Quiero impedir que te veas… que nos
+              la sombra… hacerte olvidar de ti mismo, de esa hombría que quieres aparentar y que <pb n="225"/> no es más que el producto de la luz… Quiero impedir que te veas… que nos
               veamos…</p>
           </sp>
           <sp who="#florez">
@@ -4191,10 +4149,8 @@
             <speaker>Pérez:</speaker>
             <p>No, he dicho. No me voy… Quiero verte dócil, como lo has sido siempre, sumiso,
               femenino, que es tu verdadero estado… así… Que te olvides de que eres hombre y de que
-              sea tu propia infamia, tu dicha en la sombra como es tu verdugo a la luz <stage
-                type="inline"><emph rend="italic">(Lo acaricia).</emph></stage> Así… así… como lo
-              eras cuando niño… y como lo serás toda tu vida ya, irredenta, inconvertible <stage
-                type="inline"><emph rend="italic">(Se inclina sobre él hasta rozar su cuello con los
+              sea tu propia infamia, tu dicha en la sombra como es tu verdugo a la luz <stage type="inline"><emph rend="italic">(Lo acaricia).</emph></stage> Así… así… como lo
+              eras cuando niño… y como lo serás toda tu vida ya, irredenta, inconvertible <stage type="inline"><emph rend="italic">(Se inclina sobre él hasta rozar su cuello con los
                   labios. Junto a la puerta, en la semioscuridad, ha aparecido la figura de Clara.
                   Viste un peinador blanco. Ansiosamente parece inclinarse a oír. A medida que el
                   diálogo parece ir culminando, ella con el brazo extendido, abre suavemente el
@@ -4220,8 +4176,7 @@
           <sp who="#clara">
             <speaker>Clara:</speaker>
             <stage><emph rend="italic">(Con gesto breve y enérgico, como una orden).</emph></stage>
-            <p>¡Calla!… ¡Has sido tú! ¡Has sido tú!… Toma… <stage type="inline"><emph rend="italic"
-                  >(Le da el arma).</emph></stage> Ahora… ahora te queda lo que tú llamas la última
+            <p>¡Calla!… ¡Has sido tú! ¡Has sido tú!… Toma… <stage type="inline"><emph rend="italic">(Le da el arma).</emph></stage> Ahora… ahora te queda lo que tú llamas la última
               evolución… ¡Tu buena evolución! <stage type="inline"><emph rend="italic">(Flórez
                   recibe el revólver instintivamente, casi inconscientemente como si hubiera perdido
                   en ese instante de regreso a la realidad la noción de lo que pasa. Se oye, de
@@ -4248,11 +4203,9 @@
               hijo).</emph></stage>
             <p>¡Tu padre, hijo mío!… ¡Tu padre!…</p>
           </sp>
+          <stage>Telón.</stage>
         </div>
       </div>
     </body>
-    <back>
-      <trailer>Telón.</trailer>
-    </back>
   </text>
 </TEI>
