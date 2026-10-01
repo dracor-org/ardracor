@@ -864,13 +864,13 @@
           <sp who="#maria">
             <speaker>María</speaker>
             <p>¡Oh, no tengas esa clase de miedos! Yo no soy una criatura; y lo que es Benito no se
-              atreve ni á intentar propasarse conmigo, ¿sabés? No es como <emph>tu Don
+              atreve ni á intentar propasarse conmigo, ¿sabés? No es como <emph rend="italic">tu Don
                 Jerman...</emph>
               <stage type="inline">(con retintin).</stage></p>
           </sp>
           <sp who="#teresa">
             <speaker>Teresa</speaker>
-            <p><emph>¡Mi Don Jerman!</emph> ¿Por que me dices semejante cosa?</p>
+            <p><emph rend="italic">¡Mi Don Jerman!</emph> ¿Por que me dices semejante cosa?</p>
           </sp>
           <sp who="#maria">
             <speaker>María</speaker>
@@ -3112,7 +3112,7 @@
           <sp who="#luis">
             <speaker>Luis</speaker>
             <p>Acabo de levantar el cuarto pagaré. La mitad de la imprenta está saneada. Esa
-                <emph>les</emph> pertenece! Si Vds. conquistan la otra, podré vivir, podré morir en
+                <emph rend="italic">les</emph> pertenece! Si Vds. conquistan la otra, podré vivir, podré morir en
               paz, porque sabré que mi pobre familia no ha rodado conmigo!.. Que no se abandone esa
               idea; por Vds., por mi, por ellos!... Oigan estas palabras como mi testamento, porque
               tienen la solemnidad de un testamento.... ¡Den este ejemplo de amor, de
@@ -3284,7 +3284,7 @@
           </sp>
           <sp who="#juez">
             <speaker>Juez</speaker>
-            <p>Por una consideración excepcional, y <emph>sentimental</emph>, permitame que se lo
+            <p>Por una consideración excepcional, y <emph rend="italic">sentimental</emph>, permitame que se lo
               diga, la sociedad no puede abandonar un arma de defensa que es evidentemente buena y
               justa.</p>
           </sp>

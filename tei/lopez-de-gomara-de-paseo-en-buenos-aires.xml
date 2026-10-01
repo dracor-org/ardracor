@@ -47,7 +47,7 @@
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
-        <p>The text was extracted from the digital version of the <emph>Antología de obras de teatro
+        <p>The text was extracted from the digital version of the <emph rend="italic">Antología de obras de teatro
             argentino.</emph>. In general, the text is taken as it appears in the digital source (it
           has not been checked for any deviations from the original source). A column layout, where
           it occurs, is not encoded as such; instead, the text is encoded sequentially. Page breaks
@@ -383,7 +383,7 @@
           <titlePart type="main">De paseo en Buenos Aires</titlePart>
           <titlePart type="sub">Sainete en un acto</titlePart>
         </docTitle>
-        <docAuthor><emph>Justo S. López de Gomara</emph></docAuthor>
+        <docAuthor><emph rend="italic">Justo S. López de Gomara</emph></docAuthor>
       </titlePage>
       <pb n="208"/>
       <pb n="209"/>
@@ -497,19 +497,19 @@
     <body>
       <div type="introduction">
         <head>Introducción</head>
-        <stage><emph>Después de terminada la de la orquesta, sin levantar el telón, saldrá al
+        <stage><emph rend="italic">Después de terminada la de la orquesta, sin levantar el telón, saldrá al
             proscenio el representante de la empresa, dirigiéndose al público en la forma
             acostumbrada cuando es necesario hacerle alguna prevención, tomando parte en esta escena
             los actores que el diálogo indica.</emph></stage>
         <sp who="#representante">
           <speaker>Representante:</speaker>
-          <p><emph>(Desde el escenario)</emph> Señores: la empresa tiene el sentimiento de anunciar
+          <p><emph rend="italic">(Desde el escenario)</emph> Señores: la empresa tiene el sentimiento de anunciar
             al público, que por orden superior se ve obligada a suspender la representación del
             espectáculo anunciado y en su lugar se pondrá en escena…</p>
         </sp>
         <sp who="#diego">
           <speaker>Un espectador:</speaker>
-          <p><emph>(Desde una butaca)</emph> Eso es una burla, un abuso contra el que protesto.</p>
+          <p><emph rend="italic">(Desde una butaca)</emph> Eso es una burla, un abuso contra el que protesto.</p>
         </sp>
         <pb n="211"/>
         <sp who="#representante">
@@ -522,7 +522,7 @@
         </sp>
         <sp who="#vigilante1">
           <speaker>Vigilante:</speaker>
-          <stage><emph>(Desde la salida, al espectador)</emph></stage>
+          <stage><emph rend="italic">(Desde la salida, al espectador)</emph></stage>
           <p>Cállese usted.</p>
         </sp>
         <sp who="#diego">
@@ -543,7 +543,7 @@
         </sp>
         <sp who="#diego">
           <speaker>Espectador:</speaker>
-          <p>¿Pero qué he hecho yo? <stage type="inline"><emph>(Al público).</emph></stage></p>
+          <p>¿Pero qué he hecho yo? <stage type="inline"><emph rend="italic">(Al público).</emph></stage></p>
           <p>Digan ustedes si no tengo razón.</p>
         </sp>
         <sp who="#vigilante1">
@@ -562,20 +562,20 @@
           <speaker>Vigilante:</speaker>
           <p>Usted protesta y el comisario le cobrará los ocho males del protesto.</p>
         </sp>
-        <stage><emph>Salen.</emph></stage>
+        <stage><emph rend="italic">Salen.</emph></stage>
       </div>
       <div type="act" n="1">
         <head>Acto primero</head>
         <div type="cuadro" n="1">
           <head>Cuadro primero</head>
           <head>En la comisaría</head>
-          <stage><emph>La escena representa el interior de una comisaría de policía. Un oficial
+          <stage><emph rend="italic">La escena representa el interior de una comisaría de policía. Un oficial
               sentado ante una mesa de <pb n="212"/> escritorio tomando mate que le sirve un
               sargento. A la izquierda la entrada de la calle; a la derecha una puerta sobre la cual
               se ve este letrero: Patio de Detenidos. Varias sillas.</emph></stage>
           <div type="scene" n="1">
             <head>Escena I</head>
-            <stage><emph>Música</emph></stage>
+            <stage><emph rend="italic">Música</emph></stage>
             <sp who="#coroVigilantes">
               <speaker>Coro de vigilantes:</speaker>
               <l>Soy vigilante,</l>
@@ -608,21 +608,21 @@
               <l>todas las sirvientas</l>
               <l>me creen un Lecoq.</l>
             </sp>
-            <stage><emph>Salen.</emph></stage>
+            <stage><emph rend="italic">Salen.</emph></stage>
           </div>
           <div type="scene" n="2">
             <head>Escena II</head>
             <stage>
-              <p><emph>El Oficial de policía. El Vigilante conduciendo al espectador o sea Diego. El
+              <p><emph rend="italic">El Oficial de policía. El Vigilante conduciendo al espectador o sea Diego. El
                   Sargento que figura estar de guardia mientras dura el cuadro.</emph></p>
-              <p><emph>Hablado.</emph></p>
+              <p><emph rend="italic">Hablado.</emph></p>
             </stage>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Ya principia la chorrera.</l>
               <l>¡Caramba con el empleo!</l>
               <l>¿Este qué hizo?</l>
-              <stage><emph>(Al Vigilante).</emph></stage>
+              <stage><emph rend="italic">(Al Vigilante).</emph></stage>
             </sp>
             <sp who="#vigilante1">
               <speaker>Vigilante:</speaker>
@@ -631,7 +631,7 @@
             </sp>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
-              <stage><emph>(A Diego que iba a hablar)</emph></stage>
+              <stage><emph rend="italic">(A Diego que iba a hablar)</emph></stage>
               <l>¡Silencio!</l>
             </sp>
             <sp who="#diego">
@@ -656,7 +656,7 @@
               <pb n="214"/>
               <l>Ahora estoy muy ocupado.</l>
               <l>Puedes volver a tu puesto.</l>
-              <stage><emph>(Al Vigilante que sale).</emph></stage>
+              <stage><emph rend="italic">(Al Vigilante que sale).</emph></stage>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
@@ -669,7 +669,7 @@
           </div>
           <div type="scene" n="3">
             <head>Escena III</head>
-            <stage><emph>Dichos, otro Vigilante conduciendo a la Suegra y el Yerno.</emph></stage>
+            <stage><emph rend="italic">Dichos, otro Vigilante conduciendo a la Suegra y el Yerno.</emph></stage>
             <sp who="#yerno">
               <speaker>Yerno:</speaker>
               <l>¡Por usted maldita suegra!</l>
@@ -682,7 +682,7 @@
               <speaker>Oficial:</speaker>
               <l>De estar sosegado un rato</l>
               <l>¡caracoles! ¿no habrá medio?</l>
-              <stage><emph>(Levantándose)</emph></stage>
+              <stage><emph rend="italic">(Levantándose)</emph></stage>
               <l>¿Qué demonios les sucede?</l>
             </sp>
             <sp who="#suegra">
@@ -729,10 +729,10 @@
             </sp>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
-              <stage><emph>(A la Suegra)</emph></stage>
+              <stage><emph rend="italic">(A la Suegra)</emph></stage>
               <l>Silencio.</l>
               <l>Puede usté hablar.</l>
-              <stage><emph>(Al Yerno)</emph></stage>
+              <stage><emph rend="italic">(Al Yerno)</emph></stage>
             </sp>
             <sp who="#yerno">
               <speaker>Yerno:</speaker>
@@ -822,7 +822,7 @@
             <sp who="#suegra">
               <speaker>Suegra:</speaker>
               <l>Si tuviéramos justicia</l>
-              <stage><emph>(Al Yerno)</emph></stage>
+              <stage><emph rend="italic">(Al Yerno)</emph></stage>
               <l>iba usté a parar al cepo.</l>
             </sp>
             <sp who="#oficialPolicia">
@@ -837,7 +837,7 @@
               <speaker>Oficial:</speaker>
               <l>Abonará por los dos</l>
               <l>el señor.</l>
-              <stage><emph>(Al Yerno)</emph></stage>
+              <stage><emph rend="italic">(Al Yerno)</emph></stage>
             </sp>
             <sp who="#yerno">
               <speaker>Yerno:</speaker>
@@ -857,14 +857,14 @@
             <sp who="#yerno">
               <speaker>Yerno:</speaker>
               <l>¡Bueno, tome!</l>
-              <stage><emph>(Contando)</emph></stage>
+              <stage><emph rend="italic">(Contando)</emph></stage>
               <l>Diez y seis…</l>
               <l>veinte y cuatro.</l>
             </sp>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Sobra esto</l>
-              <stage><emph>(Devolviendo los billetes)</emph></stage>
+              <stage><emph rend="italic">(Devolviendo los billetes)</emph></stage>
             </sp>
             <sp who="#yerno">
               <speaker>Yerno:</speaker>
@@ -873,13 +873,13 @@
               <l>y lo poco que me queda</l>
               <l>me lo gasto en el entierro.</l>
             </sp>
-            <stage><emph>Salen.</emph></stage>
+            <stage><emph rend="italic">Salen.</emph></stage>
           </div>
           <pb n="218"/>
           <div type="scene" n="4">
             <head>Escena IV</head>
-            <stage><p><emph>Dichos, un Vigilante que trae detenidos un Negro y una Negra.</emph></p>
-              <p><emph>Música (Dúo).</emph></p></stage>
+            <stage><p><emph rend="italic">Dichos, un Vigilante que trae detenidos un Negro y una Negra.</emph></p>
+              <p><emph rend="italic">Música (Dúo).</emph></p></stage>
             <sp who="#negro">
               <speaker>Negro:</speaker>
               <l>La conocí en San Francisco</l>
@@ -941,12 +941,12 @@
               <l>Qué más quiere de mí</l>
               <l>que hijo branco le di.</l>
             </sp>
-            <stage><emph>Hablado.</emph></stage>
+            <stage><emph rend="italic">Hablado.</emph></stage>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>¿Nada más que eso pasó?</l>
               <l>Pues tenga usted más cachaza.</l>
-              <stage><emph>(Al Negro)</emph></stage>
+              <stage><emph rend="italic">(Al Negro)</emph></stage>
               <l>Es que mejora la raza.</l>
             </sp>
             <sp who="#negra">
@@ -968,17 +968,17 @@
               <pb n="220"/>
               <l>mejor en la vecindad.</l>
             </sp>
-            <stage><emph>Salen.</emph></stage>
+            <stage><emph rend="italic">Salen.</emph></stage>
           </div>
           <div type="scene" n="5">
             <head>Escena V</head>
-            <stage><emph>Dichos, el Conde conducido por un Vigilante.</emph></stage>
+            <stage><emph rend="italic">Dichos, el Conde conducido por un Vigilante.</emph></stage>
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>(Yo conozco a ese que viene.</l>
               <l>El farsante que conmigo</l>
               <l>vino en el vapor).</l>
-              <stage><emph>(Alto)</emph></stage>
+              <stage><emph rend="italic">(Alto)</emph></stage>
               <l>Amigo,</l>
               <l>¿qué le ha ocurrido? ¿qué tiene?</l>
             </sp>
@@ -1036,7 +1036,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Ofendido)</emph></stage>
+              <stage><emph rend="italic">(Ofendido)</emph></stage>
               <l>Quien soy debe usté ignorar</l>
               <l>y por eso así me insulta.</l>
             </sp>
@@ -1064,33 +1064,33 @@
             </sp>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
-              <stage><emph>(Al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Conde)</emph></stage>
               <l>¿Y vive usté?</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Turbado)</emph></stage>
+              <stage><emph rend="italic">(Turbado)</emph></stage>
               <l>En la ciudad.</l>
               <l>(Mas no sé cómo ni en dónde).</l>
             </sp>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
-              <stage><emph>(Al Sargento)</emph></stage>
+              <stage><emph rend="italic">(Al Sargento)</emph></stage>
               <l>Pronto mate al señor Conde.</l>
             </sp>
             <pb n="222"/>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Asustado)</emph></stage>
+              <stage><emph rend="italic">(Asustado)</emph></stage>
               <l>Hombre, ¡qué barbaridad!</l>
-              <stage><emph>(Suplicando)</emph></stage>
+              <stage><emph rend="italic">(Suplicando)</emph></stage>
               <l>Yo soy un joven muy bueno</l>
               <l>¡me gusta mucho vivir!</l>
             </sp>
             <sp who="#sargentoPolicia">
               <speaker>Sargento:</speaker>
               <l>Ya se puede usted servir.</l>
-              <stage><emph>(Dándole el mate).</emph></stage>
+              <stage><emph rend="italic">(Dándole el mate).</emph></stage>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1111,14 +1111,14 @@
               <l>¡Caramba! ¡Me ha dado un susto!</l>
               <l>Es usté atento sin tasa.</l>
               <l>Se lo acepto y estimando.</l>
-              <stage><emph>(Lo toma).</emph></stage>
+              <stage><emph rend="italic">(Lo toma).</emph></stage>
               <l>¿Cómo se toma?</l>
             </sp>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Chupando.</l>
             </sp>
-            <stage><emph>Lo hace.</emph></stage>
+            <stage><emph rend="italic">Lo hace.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Caracoles, cómo abrasa!</l>
@@ -1126,7 +1126,7 @@
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>No es nada.</l>
-              <stage><emph>(Riéndose).</emph></stage>
+              <stage><emph rend="italic">(Riéndose).</emph></stage>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1156,7 +1156,7 @@
               <l>digo: aunque estuviera preso</l>
               <l>hasta oír la fatal trompeta).</l>
             </sp>
-            <stage><emph>Diego y el Conde se sientan a la derecha.</emph></stage>
+            <stage><emph rend="italic">Diego y el Conde se sientan a la derecha.</emph></stage>
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>Señor Conde, mal comienza</l>
@@ -1164,7 +1164,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Picado)</emph></stage>
+              <stage><emph rend="italic">(Picado)</emph></stage>
               <l>Usted pierde la razón</l>
               <l>¡yo inmigrante!</l>
             </sp>
@@ -1182,7 +1182,7 @@
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>Capricho de gran señor</l>
-              <stage><emph>(Con ironía).</emph></stage>
+              <stage><emph rend="italic">(Con ironía).</emph></stage>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1211,15 +1211,15 @@
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>(A qué oír tanta tontería)</l>
-              <stage><emph>(Alto al Conde)</emph></stage>
+              <stage><emph rend="italic">(Alto al Conde)</emph></stage>
               <l>Voy un sueñecillo a echar.</l>
-              <stage><emph>(Se recuesta en la silla y duerme).</emph></stage>
+              <stage><emph rend="italic">(Se recuesta en la silla y duerme).</emph></stage>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Yo voy a reflexionar</l>
               <l>esperando al nuevo día.</l>
-              <stage><emph>(Aparte)</emph></stage>
+              <stage><emph rend="italic">(Aparte)</emph></stage>
               <l>Vamos, Conde, da un balance</l>
               <l>de tu estado verdadero;</l>
               <l>yo vengo aquí a hacer dinero</l>
@@ -1273,7 +1273,7 @@
           </div>
           <div type="scene" n="6">
             <head>Escena VI</head>
-            <stage><emph>Dichos, dos Vigilantes trayendo a los tres Cuervitos.</emph></stage>
+            <stage><emph rend="italic">Dichos, dos Vigilantes trayendo a los tres Cuervitos.</emph></stage>
             <sp who="#vigilante3">
               <speaker>Vigilante 1º:</speaker>
               <l>Mi oficial aquí traemos</l>
@@ -1287,7 +1287,7 @@
               <speaker>Diego:</speaker>
               <l>¡Calle! Cuervitos tenemos.</l>
             </sp>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#cuervito1 #cuervito2 #cuervito3">
               <speaker>Los tres Cuervitos:</speaker>
               <l>Somos los cuervitos</l>
@@ -1330,24 +1330,24 @@
               <l>por lo que molestan</l>
               <l>nuestra dignidad.</l>
             </sp>
-            <stage><emph>Hablado.</emph></stage>
+            <stage><emph rend="italic">Hablado.</emph></stage>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Esos que están en las sillas</l>
-              <stage><emph>Se acercan a Diego y el Conde palpándoles los bolsillos.</emph></stage>
+              <stage><emph rend="italic">Se acercan a Diego y el Conde palpándoles los bolsillos.</emph></stage>
               <l>veamos si tienen reloj.</l>
               <l>Este sí tiene.</l>
-              <stage><emph>(Por el Conde).</emph></stage>
+              <stage><emph rend="italic">(Por el Conde).</emph></stage>
             </sp>
             <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
               <l>Este no.</l>
-              <stage><emph>(Por Diego).</emph></stage>
+              <stage><emph rend="italic">(Por Diego).</emph></stage>
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡Una caja de pastillas!</l>
-              <stage><emph>(Al tirar de la cadena del Conde saca prendida una caja de
+              <stage><emph rend="italic">(Al tirar de la cadena del Conde saca prendida una caja de
                   pastillas).</emph></stage>
             </sp>
             <sp who="#condeTupe">
@@ -1357,7 +1357,7 @@
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Tal por cual.</l>
-              <stage><emph>(Muy indignado)</emph></stage>
+              <stage><emph rend="italic">(Muy indignado)</emph></stage>
               <l>Usté es quien roba con maña.</l>
               <l>¡De ese modo no se engaña</l>
               <l>a un laborioso industrial!</l>
@@ -1373,13 +1373,13 @@
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡No tengo! A mis pies, esclavos.</l>
-              <stage><emph>(Sacando la onza)</emph></stage>
+              <stage><emph rend="italic">(Sacando la onza)</emph></stage>
               <l>Esto es oro reluciente.</l>
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡La vanidad le perdió!</l>
-              <stage><emph>(Al Cuervito 2º)</emph></stage>
+              <stage><emph rend="italic">(Al Cuervito 2º)</emph></stage>
               <l>Forzoso es que le quitemos esa onza.</l>
             </sp>
             <pb n="228"/>
@@ -1391,16 +1391,16 @@
               <speaker>Cuervito 1º:</speaker>
               <l>De eso me encargaré yo.</l>
             </sp>
-            <stage><emph>Entran en el patio de detenidos.</emph></stage>
+            <stage><emph rend="italic">Entran en el patio de detenidos.</emph></stage>
           </div>
           <div type="scene" n="7">
             <head>Escena VII</head>
-            <stage><emph>Dichos menos los Cuervitos.</emph></stage>
+            <stage><emph rend="italic">Dichos menos los Cuervitos.</emph></stage>
             <sp who="#oficialPolicia">
               <speaker>Oficial:</speaker>
               <l>Ya principia a clarear.</l>
               <l>Ea, basta de dormir.</l>
-              <stage><emph>(Despertando a Diego)</emph></stage>
+              <stage><emph rend="italic">(Despertando a Diego)</emph></stage>
               <l>Si ofrecen no reincidir</l>
               <l>pueden ustedes marchar.</l>
               <l>Vayan y sirva el recuerdo.</l>
@@ -1408,7 +1408,7 @@
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>Podrá decirme al oído</l>
-              <stage><emph>(Al oficial)</emph></stage>
+              <stage><emph rend="italic">(Al oficial)</emph></stage>
               <l>por qué he estado detenido.</l>
             </sp>
             <sp who="#oficialPolicia">
@@ -1418,7 +1418,7 @@
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>¡Está bien!</l>
-              <stage><emph>(Al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Conde)</emph></stage>
               <l>Vamos cuanto antes.</l>
             </sp>
             <sp who="#condeTupe">
@@ -1426,7 +1426,7 @@
               <l>Una hora pronto se pasa.</l>
               <l>Aún no está abierta mi casa</l>
               <l>(el Asilo de Inmigrantes).</l>
-              <stage><emph>(A Diego)</emph></stage>
+              <stage><emph rend="italic">(A Diego)</emph></stage>
               <l>Si quiere dar un paseo</l>
               <l>tiempo haremos de ese modo.</l>
             </sp>
@@ -1436,7 +1436,7 @@
               <l>por un rato, a su deseo.</l>
             </sp>
             <pb n="229"/>
-            <stage><emph>Salen y detrás los Cuervitos 1º y 2º con quepis y capotes de
+            <stage><emph rend="italic">Salen y detrás los Cuervitos 1º y 2º con quepis y capotes de
                 vigilantes.</emph></stage>
           </div>
         </div>
@@ -1445,9 +1445,9 @@
           <head>La Plaza de la Victoria</head>
           <div type="scene" n="8">
             <head>Escena VIII</head>
-            <stage><emph>Coro de Barrenderos y Cocineras que van al mercado.</emph></stage>
-            <stage><emph>Amanece.</emph></stage>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Coro de Barrenderos y Cocineras que van al mercado.</emph></stage>
+            <stage><emph rend="italic">Amanece.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#barrenderos">
               <speaker>Barrenderos:</speaker>
               <l>Somos los barrenderos</l>
@@ -1513,20 +1513,20 @@
               <speaker>Cocineras:</speaker>
               <l>¡Andad al infierno!</l>
               <l>Matambres mis manos</l>
-              <stage><emph>(Amenazándoles)</emph></stage>
+              <stage><emph rend="italic">(Amenazándoles)</emph></stage>
               <l>saben arrollar.</l>
             </sp>
             <sp who="#barrenderos">
               <speaker>Barrenderos:</speaker>
               <l>Marchaos o el polvo</l>
-              <stage><emph>(Empezando a barrer)</emph></stage>
+              <stage><emph rend="italic">(Empezando a barrer)</emph></stage>
               <l>os vamos a echar.</l>
             </sp>
-            <stage><emph>Salen todos.</emph></stage>
+            <stage><emph rend="italic">Salen todos.</emph></stage>
           </div>
           <div type="scene" n="9">
             <head>Escena IX</head>
-            <stage><emph>Diego, el Conde, Vendedores de diarios.</emph></stage>
+            <stage><emph rend="italic">Diego, el Conde, Vendedores de diarios.</emph></stage>
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>Solas las calles están</l>
@@ -1540,7 +1540,7 @@
             </sp>
             <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
-              <l><emph>La Nación, La Prensa</emph></l>
+              <l><emph rend="italic">La Nación, La Prensa</emph></l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1550,8 +1550,8 @@
             <sp who="#vendedorDiarios">
               <speaker>Vendedor:</speaker>
               <l>¿Cuál señor?</l>
-              <l><emph>La Patria, El Porteño,</emph></l>
-              <l><emph><foreign xml:lang="en">Standard Herald</foreign>, Correo Español.</emph></l>
+              <l><emph rend="italic">La Patria, El Porteño,</emph></l>
+              <l><emph rend="italic"><foreign xml:lang="en">Standard Herald</foreign>, Correo Español.</emph></l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1565,11 +1565,11 @@
               <l>y me llaman Marianina</l>
               <l>¡ya me pagará! Y si no</l>
               <l>que le haga muy buen provecho.</l>
-              <stage><emph>(Gritando)</emph></stage>
-              <l><emph>Patria Italiana, El Censor,</emph></l>
-              <l><emph>Courrier de la Plata, <foreign xml:lang="de">Deutsche</foreign>,</emph></l>
-              <l><emph><foreign xml:lang="it">Roma</foreign>, <foreign xml:lang="it">Figaro</foreign>, La Unión,</emph></l>
-              <l><emph><foreign xml:lang="it">La Nazione</foreign>, <foreign xml:lang="it">L´Operaio</foreign>.</emph></l>
+              <stage><emph rend="italic">(Gritando)</emph></stage>
+              <l><emph rend="italic">Patria Italiana, El Censor,</emph></l>
+              <l><emph rend="italic">Courrier de la Plata, <foreign xml:lang="de">Deutsche</foreign>,</emph></l>
+              <l><emph rend="italic"><foreign xml:lang="it">Roma</foreign>, <foreign xml:lang="it">Figaro</foreign>, La Unión,</emph></l>
+              <l><emph rend="italic"><foreign xml:lang="it">La Nazione</foreign>, <foreign xml:lang="it">L´Operaio</foreign>.</emph></l>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
@@ -1581,11 +1581,11 @@
               <l>Y esto es al salir el sol</l>
               <l>que lo que es hasta ocultarse,</l>
               <l>salen hasta veinte y dos</l>
-              <l><emph>El Nacional, El Diario,</emph></l>
-              <l><emph>Sud América, La Voz</emph></l>
+              <l><emph rend="italic">El Nacional, El Diario,</emph></l>
+              <l><emph rend="italic">Sud América, La Voz</emph></l>
               <pb n="232"/>
-              <l><emph>de la Iglesia, El Globo,</emph></l>
-              <l><emph>El Río de la Plata</emph>, ¡qué sé yo!</l>
+              <l><emph rend="italic">de la Iglesia, El Globo,</emph></l>
+              <l><emph rend="italic">El Río de la Plata</emph>, ¡qué sé yo!</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1613,7 +1613,7 @@
               <l>siempre sale estropeada</l>
               <l>con la mejor intención.</l>
             </sp>
-            <stage><emph>Dos vendedores se tironean en el fondo de la escena.</emph></stage>
+            <stage><emph rend="italic">Dos vendedores se tironean en el fondo de la escena.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Qué hacen aquellos?</l>
@@ -1637,15 +1637,15 @@
               <l>gritando a más y mejor</l>
               <l>y como el viejo Leguina</l>
               <l>quizás haga un fortunón.</l>
-              <stage><emph>(Se va pregonando).</emph></stage>
+              <stage><emph rend="italic">(Se va pregonando).</emph></stage>
             </sp>
           </div>
           <pb n="233"/>
           <div type="scene" n="10">
             <head>Escena X</head>
-            <stage><emph>Diego, el Conde, una compañía de cómicos, una Cantante italiana, dos
+            <stage><emph rend="italic">Diego, el Conde, una compañía de cómicos, una Cantante italiana, dos
                 Cantantes franceses.</emph></stage>
-            <stage><emph>Los cómicos desfilan por la escena precedidos de algunos changadores con
+            <stage><emph rend="italic">Los cómicos desfilan por la escena precedidos de algunos changadores con
                 baúles y caracterizados como indica el diálogo.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1654,7 +1654,7 @@
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>Desembarcan del vapor</l>
-              <l><emph>Venus</emph> de Montevideo.</l>
+              <l><emph rend="italic">Venus</emph> de Montevideo.</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -1684,12 +1684,12 @@
               <speaker>Diego:</speaker>
               <l>Esos deben ser de drama</l>
               <l>por la terrible expresión.</l>
-              <stage><emph>Sale la cantante italiana seguida de sirvienta con un perrito en los
+              <stage><emph rend="italic">Sale la cantante italiana seguida de sirvienta con un perrito en los
                   brazos.</emph></stage>
               <l>¡Calle! La ópera italiana</l>
               <l>¿qué tal andará de voz?</l>
             </sp>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#cantanteItaliana">
               <speaker>Cantante italiana:</speaker>
               <l>Yo soy la Ópera,</l>
@@ -1721,10 +1721,10 @@
               <l>tañendo el arpa</l>
               <l>la melodía de la obra de Dios</l>
               <l>llevo en mis notas por el mundo yo.</l>
-              <stage><emph>(Sale).</emph></stage>
+              <stage><emph rend="italic">(Sale).</emph></stage>
             </sp>
-            <stage><emph>Hablado.</emph></stage>
-            <stage><emph>Sale una pareja representando el canto francés.</emph></stage>
+            <stage><emph rend="italic">Hablado.</emph></stage>
+            <stage><emph rend="italic">Sale una pareja representando el canto francés.</emph></stage>
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>Ahí sale el género alegre.</l>
@@ -1735,7 +1735,7 @@
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No he de hablar.</l>
-              <stage><emph>(Al Francés)</emph></stage>
+              <stage><emph rend="italic">(Al Francés)</emph></stage>
               <l><foreign xml:lang="fr">Monsiu pardon,</foreign></l>
               <l><foreign xml:lang="fr">¿vous venez a les varietés?</foreign></l>
             </sp>
@@ -1753,61 +1753,61 @@
               <l>Escúcheme usted un momento,</l>
               <l>porque a decírselo voy.</l>
             </sp>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#cantanteFrances">
               <speaker>Francés:</speaker>
-              <l><foreign xml:lang="fr"><emph>Je suis parisien,</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>je chante tres bien,</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>je viens au pays</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>cherchant l´avenir.</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>Je parle l´espagnol</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>comme un rossignol</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">Je suis parisien,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">je chante tres bien,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">je viens au pays</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">cherchant l´avenir.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">Je parle l´espagnol</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">comme un rossignol</emph></foreign></l>
               <l>Yo digo: ¡que viva</l>
               <l>la gracia de Dios!</l>
-              <l>¡Oh! <foreign xml:lang="fr"><emph>Mon Dieu,</emph></foreign></l>
-              <l>¡Oh! <foreign xml:lang="fr"><emph>Mon Dieu,</emph></foreign></l>
+              <l>¡Oh! <foreign xml:lang="fr"><emph rend="italic">Mon Dieu,</emph></foreign></l>
+              <l>¡Oh! <foreign xml:lang="fr"><emph rend="italic">Mon Dieu,</emph></foreign></l>
               <l>yo mucho dinerro</l>
               <l>creo ganarré.</l>
-              <l><foreign xml:lang="fr"><emph>Par ma foi,</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>par ma foi</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>cette republique</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>convenir a moi.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">Par ma foi,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">par ma foi</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">cette republique</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">convenir a moi.</emph></foreign></l>
               <l>Yo creo señores,</l>
               <l>que ustedes irrán</l>
               <l>a aplaudir los míos</l>
-              <l><foreign xml:lang="fr"><emph>couplets et can-can.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">couplets et can-can.</emph></foreign></l>
             </sp>
             <pb n="236"/>
             <sp who="#cantanteFrancesa">
               <speaker>Francesa:</speaker>
-              <l><foreign xml:lang="fr"><emph>Je suis une française</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>que fortune viens fair</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>premiére chanteuse</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>de café concert.</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>Charmante et joyeuse</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>toujours complaissante</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>jolie tapageuse</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>et rien m´epouvante.</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>Me voila,</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>me voila</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>regardez ce-ci,</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>regardez ce-la.</emph></foreign></l>
-              <stage><emph>(Levantándose las faldas)</emph></stage>
-              <l><foreign xml:lang="fr"><emph>Pas de maîtres,</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>pas d´amant</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>ne me fait pas peur</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>tout un regiment.</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>Devant le publique</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>je ne tremble pas</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>je brave la critique</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>en dansant comme ça.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">Je suis une française</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">que fortune viens fair</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">premiére chanteuse</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">de café concert.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">Charmante et joyeuse</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">toujours complaissante</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">jolie tapageuse</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">et rien m´epouvante.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">Me voila,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">me voila</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">regardez ce-ci,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">regardez ce-la.</emph></foreign></l>
+              <stage><emph rend="italic">(Levantándose las faldas)</emph></stage>
+              <l><foreign xml:lang="fr"><emph rend="italic">Pas de maîtres,</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">pas d´amant</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">ne me fait pas peur</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">tout un regiment.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">Devant le publique</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">je ne tremble pas</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">je brave la critique</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">en dansant comme ça.</emph></foreign></l>
             </sp>
-            <stage><emph>Se van bailando can-can flojito.</emph></stage>
+            <stage><emph rend="italic">Se van bailando can-can flojito.</emph></stage>
           </div>
           <div type="scene" n="11">
             <head>Escena XI</head>
-            <stage><emph>Diego, Conde, Perrera, luego un Lustrador.</emph></stage>
-            <stage><emph>Perrera sale por la derecha, con un grueso garrote bajo el brazo, seguido
+            <stage><emph rend="italic">Diego, Conde, Perrera, luego un Lustrador.</emph></stage>
+            <stage><emph rend="italic">Perrera sale por la derecha, con un grueso garrote bajo el brazo, seguido
                 de varios perros flacos.</emph></stage>
             <sp who="#perrera">
               <speaker>Perrera:</speaker>
@@ -1844,7 +1844,7 @@
               <l>ni bajo el diapasón</l>
               <l>porque ustedes todos son</l>
               <l>unos cloroformadores!</l>
-              <stage><emph>(Al público)</emph></stage>
+              <stage><emph rend="italic">(Al público)</emph></stage>
               <l>Yo predico para ver</l>
               <l>si la sociedad reformo,</l>
               <pb n="238"/>
@@ -1863,7 +1863,7 @@
               <l>Adiós. Hasta otro ratito.</l>
               <l>¡Asesinos! ¡Carbonarios!</l>
             </sp>
-            <stage><emph>(Se va).</emph></stage>
+            <stage><emph rend="italic">(Se va).</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Qué hombre más original,</l>
@@ -1929,7 +1929,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Asustado)</emph></stage>
+              <stage><emph rend="italic">(Asustado)</emph></stage>
               <l>Yo sólo llevo a la liza,</l>
               <l>hombres de mi condición.</l>
             </sp>
@@ -1989,18 +1989,18 @@
               <l>Adiós, Conde del Tupé.</l>
               <l>Ahí llegan dos señoritos.</l>
               <l>(Calle, si son los Cuervitos)</l>
-              <stage><emph>(Alto)</emph></stage>
+              <stage><emph rend="italic">(Alto)</emph></stage>
               <l>En todo dignos de usted.</l>
             </sp>
           </div>
           <div type="scene" n="12">
             <head>Escena XII</head>
-            <stage><emph>Conde, Cuervitos 1º y 2º (cómicamente vestidos de gomosos).<note>Gomosos:
+            <stage><emph rend="italic">Conde, Cuervitos 1º y 2º (cómicamente vestidos de gomosos).<note>Gomosos:
                   Jóvenes elegantes con goma o fijador en el pelo.</note></emph></stage>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Ese nos ha conocido.</l>
-              <stage><emph>(Al cruzarse con D. Diego).</emph></stage>
+              <stage><emph rend="italic">(Al cruzarse con D. Diego).</emph></stage>
             </sp>
             <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
@@ -2009,16 +2009,16 @@
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Conde, de ese modo da</l>
-              <stage><emph>(Abrazando al Conde)</emph></stage>
+              <stage><emph rend="italic">(Abrazando al Conde)</emph></stage>
               <l>los amigos al olvido.</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Asombrado)</emph></stage>
+              <stage><emph rend="italic">(Asombrado)</emph></stage>
               <l>(Parecen gente de tono)</l>
               <l>Mi memoria es tan ingrata…</l>
               <l>quizás en el Club del Plata…</l>
-              <stage><emph>(Con fatuidad)</emph></stage>
+              <stage><emph rend="italic">(Con fatuidad)</emph></stage>
               <l>de la Patti en el abono…</l>
               <l>Yo conozco tanta gente,</l>
               <l>y visito tanta casa.</l>
@@ -2034,7 +2034,7 @@
               <l>Los conozco pero tuerzo</l>
               <l>el torpe cerebro en vano.</l>
               <l>Dispensen y he aquí mi mano.</l>
-              <stage><emph>(Dándosela)</emph></stage>
+              <stage><emph rend="italic">(Dándosela)</emph></stage>
               <l>(Me pagarán el almuerzo).</l>
             </sp>
             <sp who="#cuervito1">
@@ -2059,13 +2059,13 @@
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
-              <stage><emph>(Al 2º)</emph></stage>
+              <stage><emph rend="italic">(Al 2º)</emph></stage>
               <l>Este nos tapa hermanito.</l>
               <l>¡Qué estupendo macaneo!</l>
-              <stage><emph>(Al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Conde)</emph></stage>
               <l>Seguiremos el paseo.</l>
             </sp>
-            <stage><emph>Aparece El Papel.</emph></stage>
+            <stage><emph rend="italic">Aparece El Papel.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Quién es ese pobrecito?</l>
@@ -2075,7 +2075,7 @@
               <l>Ya quisiera ser como él</l>
               <l>aunque roto y engrasado.</l>
             </sp>
-            <stage><emph>Aparece El Oro.</emph></stage>
+            <stage><emph rend="italic">Aparece El Oro.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Y ese otro?</l>
@@ -2089,12 +2089,12 @@
           <pb n="242"/>
           <div type="scene" n="13">
             <head>Escena XIII</head>
-            <stage><emph>Dichos, El Oro y El Papel (vestido el primero con lujo, relucientes
+            <stage><emph rend="italic">Dichos, El Oro y El Papel (vestido el primero con lujo, relucientes
                 alhajas, etc. Y el segundo pobremente, roto y remendado con hilo
               blanco).</emph></stage>
             <sp who="#papel">
               <speaker>El papel:</speaker>
-              <stage><emph>(Al Oro)</emph></stage>
+              <stage><emph rend="italic">(Al Oro)</emph></stage>
               <l>Una limosna, por Dios.</l>
             </sp>
             <sp who="#oro">
@@ -2166,7 +2166,7 @@
             </sp>
             <sp who="#oro">
               <speaker>Oro:</speaker>
-              <stage><emph>(Con ironía)</emph></stage>
+              <stage><emph rend="italic">(Con ironía)</emph></stage>
               <l>Ya lo sé, el curso forzoso.</l>
               <l>Con láudano sanará.</l>
             </sp>
@@ -2196,10 +2196,10 @@
               <l>y si se me ocurre hoy,</l>
               <l>abriré a ciento setenta.</l>
             </sp>
-            <stage><emph>(Se va).</emph></stage>
+            <stage><emph rend="italic">(Se va).</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Al papel)</emph></stage>
+              <stage><emph rend="italic">(Al papel)</emph></stage>
               <l>Aunque sé que me rebajo,</l>
               <l>¿quiere usted la mano darme?</l>
             </sp>
@@ -2208,7 +2208,7 @@
               <l>Señor mío hay que ganarme</l>
               <l>con el honrado trabajo.</l>
             </sp>
-            <stage><emph>(Sale).</emph></stage>
+            <stage><emph rend="italic">(Sale).</emph></stage>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿Qué le ha dicho?</l>
@@ -2218,7 +2218,7 @@
               <l>Me presiente</l>
               <l>y humillado me saluda.</l>
             </sp>
-            <stage><emph>Pasan transeúntes muy ligeros.</emph></stage>
+            <stage><emph rend="italic">Pasan transeúntes muy ligeros.</emph></stage>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Vamos.</l>
@@ -2236,12 +2236,12 @@
         <div type="cuadro" n="3">
           <head>Cuadro tercero</head>
           <head>La bolsa de comercio</head>
-          <stage><emph>El teatro representa el interior de la Bolsa de Comercio.</emph></stage>
+          <stage><emph rend="italic">El teatro representa el interior de la Bolsa de Comercio.</emph></stage>
           <pb n="245"/>
           <div type="scene" n="14">
             <head>Escena XIV</head>
-            <stage><emph>Coro de Corredores.</emph></stage>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Coro de Corredores.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#coroCorredores">
               <speaker>Coro de corredores:</speaker>
               <l>Somos corredores</l>
@@ -2278,13 +2278,13 @@
               <l>pues tengo segura</l>
               <l>doble comisión.</l>
             </sp>
-            <stage><emph>Los Corredores quedan en escena, paseando o formando grupos.</emph></stage>
+            <stage><emph rend="italic">Los Corredores quedan en escena, paseando o formando grupos.</emph></stage>
           </div>
           <div type="scene" n="15">
             <head>Escena XV</head>
-            <stage><emph>El Conde, Cuervito 1º, Cuervito 2º, Corredores 1º, 2º, 3º y 4º, el Dr.
+            <stage><emph rend="italic">El Conde, Cuervito 1º, Cuervito 2º, Corredores 1º, 2º, 3º y 4º, el Dr.
                 Macana.</emph></stage>
-            <stage><emph>Hablado.</emph></stage>
+            <stage><emph rend="italic">Hablado.</emph></stage>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Del dinero y del comercio</l>
@@ -2321,7 +2321,7 @@
               <speaker>Corredor 1º:</speaker>
               <l>Banco Nacional ¿quién pasa?</l>
             </sp>
-            <stage><emph>Durante este diálogo los corredores figuran hacer operaciones, toman notas,
+            <stage><emph rend="italic">Durante este diálogo los corredores figuran hacer operaciones, toman notas,
                 etc, etc.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -2353,7 +2353,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Al Corredor 1º)</emph></stage>
+              <stage><emph rend="italic">(Al Corredor 1º)</emph></stage>
               <l>¡Caballero!</l>
             </sp>
             <sp who="#corredor1">
@@ -2395,14 +2395,14 @@
             </sp>
             <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
-              <stage><emph>(Con ironía)</emph></stage>
+              <stage><emph rend="italic">(Con ironía)</emph></stage>
               <l>Si quiere</l>
               <l>sin anticipo, el que pasa.</l>
             </sp>
-            <stage><emph>Cruza la escena el Dr. Macana, a quien se dirige el Conde.</emph></stage>
+            <stage><emph rend="italic">Cruza la escena el Dr. Macana, a quien se dirige el Conde.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Saludándole)</emph></stage>
+              <stage><emph rend="italic">(Saludándole)</emph></stage>
               <l>¿Me querría usted operar?</l>
             </sp>
             <pb n="248"/>
@@ -2431,10 +2431,10 @@
               <l>Pase usted luego por casa</l>
               <l>y hablaremos. Mi tarjeta.</l>
             </sp>
-            <stage><emph>(Se la da y se va saludando).</emph></stage>
+            <stage><emph rend="italic">(Se la da y se va saludando).</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Leyendo)</emph></stage>
+              <stage><emph rend="italic">(Leyendo)</emph></stage>
               <l>¡Qué leo! "Doctor Macana</l>
               <l>Cirujano especialista</l>
               <l>de enfermedades dentarias".</l>
@@ -2454,7 +2454,7 @@
           </div>
           <div type="scene" n="16">
             <head>Escena XVI</head>
-            <stage><emph>Dichos, una Anónima.</emph></stage>
+            <stage><emph rend="italic">Dichos, una Anónima.</emph></stage>
             <sp who="#anonima">
               <speaker>Anónima:</speaker>
               <l>Soy señores una anónima,</l>
@@ -2516,13 +2516,13 @@
               <l>Le respondo que un año</l>
               <l>estaré, al menos, doblada.</l>
             </sp>
-            <stage><emph>(Se va).</emph></stage>
+            <stage><emph rend="italic">(Se va).</emph></stage>
           </div>
           <pb n="250"/>
           <div type="scene" n="17">
             <head>Escena XVII</head>
-            <stage><emph>Dichos, Jhon Bull, Sterling (caracterizando el tipo inglés).</emph></stage>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Dichos, Jhon Bull, Sterling (caracterizando el tipo inglés).</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#bull">
               <speaker>Bull:</speaker>
               <l>Yo me llamo Jhon Bull.</l>
@@ -2556,16 +2556,16 @@
               <l>y de alegría</l>
               <l>así bailar.</l>
             </sp>
-            <stage><emph>Baile inglés, salen.</emph></stage>
+            <stage><emph rend="italic">Baile inglés, salen.</emph></stage>
           </div>
           <pb n="251"/>
           <div type="scene" n="18">
             <head>Escena XVIII</head>
-            <stage><emph>Diego, los dos Cuervitos, Corredores, Tartagal, La Pobladora, el Dueño de
+            <stage><emph rend="italic">Diego, los dos Cuervitos, Corredores, Tartagal, La Pobladora, el Dueño de
                 un loro, Planqué, un Portero (cuando indique el diálogo).</emph></stage>
             <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
-              <stage><emph>(Al 2º)</emph></stage>
+              <stage><emph rend="italic">(Al 2º)</emph></stage>
               <l>Es muy fácil que te estrelles</l>
               <l>metido en ese negocio.</l>
             </sp>
@@ -2600,12 +2600,12 @@
             </sp>
             <sp who="#duenoLoro">
               <speaker>El dueño de un loro:</speaker>
-              <stage><emph>(Viene muy embozado y al desembozarse con mucha precaución se ve el loro
+              <stage><emph rend="italic">(Viene muy embozado y al desembozarse con mucha precaución se ve el loro
                   que trae en la mano, con una cuerda colgando de una pata).</emph></stage>
               <l/>
               <l/>
               <l>Vamos a ver cuánto dan.</l>
-              <stage><emph>(Con misterio).</emph></stage>
+              <stage><emph rend="italic">(Con misterio).</emph></stage>
             </sp>
             <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
@@ -2623,7 +2623,7 @@
               <speaker>El dueño:</speaker>
               <l>Ya lo creo… ¡en alemán!</l>
             </sp>
-            <stage><emph>(Lo ata en un banco que habrá al lado).</emph></stage>
+            <stage><emph rend="italic">(Lo ata en un banco que habrá al lado).</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¿Por qué lo ata en ese banco?</l>
@@ -2637,13 +2637,13 @@
             </sp>
             <sp who="#tartagal">
               <speaker>Tartagal:</speaker>
-              <stage><emph>(Un señor grueso, bajo, rubio, calvo, con marcado acento
+              <stage><emph rend="italic">(Un señor grueso, bajo, rubio, calvo, con marcado acento
                   extranjero)</emph></stage>
               <l>Camino de Tartagal</l>
               <l>nadie como yo corrió,</l>
               <l>nadie subió ni bajó</l>
               <l>sin hacerse menos mal.</l>
-              <stage><emph>(Se descubre).</emph></stage>
+              <stage><emph rend="italic">(Se descubre).</emph></stage>
               <l>Mi calva es un plenilunio.</l>
               <l>Me quedaban unos pelos,</l>
               <l>mas los perdí, ¡oh justos cielos!</l>
@@ -2656,9 +2656,9 @@
               <l>puedo a gusto descansar,</l>
               <l>digo ¡me voy a quedar</l>
               <l>hasta sin obligaciones!</l>
-              <stage><emph>(Sale).</emph></stage>
+              <stage><emph rend="italic">(Sale).</emph></stage>
             </sp>
-            <stage><emph>Pasa una robusta ama de cría con un chico en cada brazo.</emph></stage>
+            <stage><emph rend="italic">Pasa una robusta ama de cría con un chico en cada brazo.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No acaba la procesión</l>
@@ -2678,7 +2678,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Bostezando)</emph></stage>
+              <stage><emph rend="italic">(Bostezando)</emph></stage>
               <l>(¡Ah! Por fin apareció aquello</l>
               <pb n="253"/>
               <l>la emoción me ahoga el resuello</l>
@@ -2692,13 +2692,13 @@
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
-              <stage><emph>(Al 2º)</emph></stage>
+              <stage><emph rend="italic">(Al 2º)</emph></stage>
               <l>(Con maña hay que convencerlo</l>
               <l>y sacar la onza a ese tuno).</l>
             </sp>
             <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
-              <stage><emph>(Al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Conde)</emph></stage>
               <l>Y puesto que usted destina</l>
               <l>todo el tiempo a pasear</l>
               <l>iremos a visitar</l>
@@ -2706,11 +2706,11 @@
             </sp>
             <sp who="#corredor1">
               <speaker>Corredor 1º:</speaker>
-              <stage><emph>(Reparando en los tres extraños)</emph></stage>
+              <stage><emph rend="italic">(Reparando en los tres extraños)</emph></stage>
               <l>¡Planqué! Hay intrusos, ¡Planqué!</l>
-              <stage><emph>(Gritando)</emph></stage>
+              <stage><emph rend="italic">(Gritando)</emph></stage>
             </sp>
-            <stage><emph>Planqué, que debe ser un caballero delgado, más bien bajo, de patillas a la
+            <stage><emph rend="italic">Planqué, que debe ser un caballero delgado, más bien bajo, de patillas a la
                 inglesa, rubias y canas, no muy largas con sobretodo suelto y sombrero de copa, le
                 toca por detrás en el hombro opuesto al lugar en que él se encuentra con respecto al
                 Conde; que debe ir entre los dos Cuervitos. El Conde volverá siempre la cabeza, como
@@ -2719,47 +2719,47 @@
                 ella.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(A uno de sus acompañantes)</emph></stage>
+              <stage><emph rend="italic">(A uno de sus acompañantes)</emph></stage>
               <l>¿Qué quiere?</l>
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>No quiero nada.</l>
-              <stage><emph>(Le tocan del otro lado y se vuelve hacia allá diciendo al Cuervito
+              <stage><emph rend="italic">(Le tocan del otro lado y se vuelve hacia allá diciendo al Cuervito
                   2º)</emph></stage>
               <l>¡Ah! Es usted el de la llamada.</l>
             </sp>
             <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
-              <stage><emph>(Sin entenderle)</emph></stage>
+              <stage><emph rend="italic">(Sin entenderle)</emph></stage>
               <l>Yo no.</l>
             </sp>
             <pb n="254"/>
-            <stage><emph>Vuelven a tocarle.</emph></stage>
+            <stage><emph rend="italic">Vuelven a tocarle.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(A uno del grupo, muy indignado)</emph></stage>
+              <stage><emph rend="italic">(A uno del grupo, muy indignado)</emph></stage>
               <l>¿Qué me toca usted?</l>
             </sp>
             <sp who="#corredor2">
               <speaker>Corredor 2º:</speaker>
-              <stage><emph>(Riendo)</emph></stage>
+              <stage><emph rend="italic">(Riendo)</emph></stage>
               <l>Si yo no le toco.</l>
             </sp>
-            <stage><emph>Le aplastan el sombrero al Conde.</emph></stage>
+            <stage><emph rend="italic">Le aplastan el sombrero al Conde.</emph></stage>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¡Atiza!</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Muy enojado, dirigiéndose al grupo de Corredores)</emph></stage>
+              <stage><emph rend="italic">(Muy enojado, dirigiéndose al grupo de Corredores)</emph></stage>
               <l>Vamos, pierdo la paciencia,</l>
               <l>si no fuera por prudencia…</l>
-              <stage><emph>(Transición cómica)</emph></stage>
+              <stage><emph rend="italic">(Transición cómica)</emph></stage>
               <l>Y el temor a una paliza…</l>
             </sp>
-            <stage><emph>Se van.</emph></stage>
+            <stage><emph rend="italic">Se van.</emph></stage>
             <sp who="#portero">
               <speaker>Un portero:</speaker>
               <l>La hora de liquidación,</l>
@@ -2767,8 +2767,8 @@
               <l>y pasen los corredores</l>
               <l>a cobrar su operación.</l>
             </sp>
-            <stage><emph>Música.</emph></stage>
-            <stage><emph>Gran bailable, el cuerpo coreográfico, representará en sus trajes a los
+            <stage><emph rend="italic">Música.</emph></stage>
+            <stage><emph rend="italic">Gran bailable, el cuerpo coreográfico, representará en sus trajes a los
                 Bancos Nacional, Español, Francés, Italiano, Inglés, cédulas hipotecarias, etc. etc.
                 procurando la mayor exactitud en colores y accesorios alegóricos.</emph></stage>
           </div>
@@ -2776,7 +2776,7 @@
         <div type="cuadro" n="4">
           <head>Cuadro quarto</head>
           <head>La fonda de Giacomina</head>
-          <stage><emph>El escenario estará dividido: a la derecha la calle en cuyo telón del fondo
+          <stage><emph rend="italic">El escenario estará dividido: a la derecha la calle en cuyo telón del fondo
               se verá en perspectiva el Paseo de Julio, el muelle de pasajeros y el Río de la Plata
               en el último plano. A la izquierda el fondín. La pared divisoria figurará al exterior
               de soportales o recova; en el interior tendrá en primer término la puerta de <pb n="255"/> entrada. Pocos y malos muebles. A la izquierda una mesita con tres
@@ -2785,17 +2785,17 @@
               estantería.</emph></stage>
           <div type="scene" n="19">
             <head>Escena XIX</head>
-            <stage><emph>Un Gaucho, un Payador que debe cantar en el peculiar estilo del paisano,
+            <stage><emph rend="italic">Un Gaucho, un Payador que debe cantar en el peculiar estilo del paisano,
                 una Paisana que baila la milonga, el Fondero. Entran los dos gauchos y la paisana y
                 toman asientos en la mesa de la derecha.</emph></stage>
             <sp who="#gaucho">
               <speaker>Gaucho:</speaker>
-              <stage><emph>(Al fondero)</emph></stage>
+              <stage><emph rend="italic">(Al fondero)</emph></stage>
               <l>Un cimarronsito amigo.</l>
             </sp>
             <sp who="#fondero">
               <speaker>Fondero:</speaker>
-              <l><foreign xml:lang="it"><emph>Signore non tengo questo.</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph rend="italic">Signore non tengo questo.</emph></foreign></l>
             </sp>
             <sp who="#gaucho">
               <speaker>Gaucho:</speaker>
@@ -2806,9 +2806,9 @@
             </sp>
             <sp who="#fondero">
               <speaker>Fondero:</speaker>
-              <l><foreign xml:lang="it"><emph>Volete qualqui altra cosa.</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph rend="italic">Volete qualqui altra cosa.</emph></foreign></l>
             </sp>
-            <stage><emph>(Trae las copas y sirve).</emph></stage>
+            <stage><emph rend="italic">(Trae las copas y sirve).</emph></stage>
             <sp who="#gaucho">
               <speaker>Gaucho:</speaker>
               <l>Mirá que el gringo no entiendo,</l>
@@ -2841,13 +2841,13 @@
               <l>y verás a esta señora</l>
               <l>con gracia mover su cuerpo.</l>
             </sp>
-            <stage><emph>El Payador, que debe serlo bueno, cantará una milonga acompañándose a la
+            <stage><emph rend="italic">El Payador, que debe serlo bueno, cantará una milonga acompañándose a la
                 guitarra y mientras baila la Paisana. Terminado el baile se van estos
               dos.</emph></stage>
           </div>
           <div type="scene" n="20">
             <head>Escena XX</head>
-            <stage><emph>El gaucho, el Conde, Cuervito 1º, Cuervito 2º, el Fondero.</emph></stage>
+            <stage><emph rend="italic">El gaucho, el Conde, Cuervito 1º, Cuervito 2º, el Fondero.</emph></stage>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Como ve no nos hallamos</l>
@@ -2863,7 +2863,7 @@
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Para empezar, un vermouth.</l>
-              <stage><emph>(Al Fondero)</emph></stage>
+              <stage><emph rend="italic">(Al Fondero)</emph></stage>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -2874,7 +2874,7 @@
             <sp who="#gaucho">
               <speaker>Gaucho:</speaker>
               <l>(¡No convidan!)</l>
-              <stage><emph>(Al Cuervito 1º)</emph></stage>
+              <stage><emph rend="italic">(Al Cuervito 1º)</emph></stage>
               <l>¿Y Tomás?</l>
             </sp>
             <sp who="#cuervito1">
@@ -2887,14 +2887,14 @@
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
-              <stage><emph>(Con ironía, al Fondero)</emph></stage>
+              <stage><emph rend="italic">(Con ironía, al Fondero)</emph></stage>
               <pb n="257"/>
               <l>Sírvale usted a ese paisano.</l>
             </sp>
-            <stage><emph>Lo trae rápidamente.</emph></stage>
+            <stage><emph rend="italic">Lo trae rápidamente.</emph></stage>
             <sp who="#gaucho">
               <speaker>Gaucho:</speaker>
-              <stage><emph>(Brindando)</emph></stage>
+              <stage><emph rend="italic">(Brindando)</emph></stage>
               <l>¡A su madre!</l>
             </sp>
             <sp who="#cuervito1">
@@ -2912,13 +2912,13 @@
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
-              <stage><emph>(Al Cuervito 2º y al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Cuervito 2º y al Conde)</emph></stage>
               <l>Pues ya que hemos renovado</l>
               <l>nuestro buen trato amistoso</l>
               <l>digámosle en confianza</l>
               <l>por qué andábamos tan pronto</l>
               <l>recorriendo la ciudad.</l>
-              <stage><emph>(Al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Conde)</emph></stage>
               <l>Usted es un guapo mozo</l>
               <l>y hasta podría ayudarnos.</l>
             </sp>
@@ -3013,11 +3013,11 @@
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>¿Sí? Pues aquí están los pesos.</l>
-              <stage><emph>(Saca un grueso rollo).</emph></stage>
+              <stage><emph rend="italic">(Saca un grueso rollo).</emph></stage>
             </sp>
             <sp who="#cuervito2">
               <speaker>Cuervito 2º:</speaker>
-              <stage><emph>(Deteniéndolo)</emph></stage>
+              <stage><emph rend="italic">(Deteniéndolo)</emph></stage>
               <l>Un momento. No me opongo</l>
               <l>a que vaya el caballero,</l>
               <l>pero es demasiado pronto</l>
@@ -3025,7 +3025,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Angustiado)</emph></stage>
+              <stage><emph rend="italic">(Angustiado)</emph></stage>
               <l>¿Duda usted de mí? Responde…</l>
             </sp>
             <sp who="#cuervito2">
@@ -3041,18 +3041,18 @@
               <l>mi gozo veo en un pozo.</l>
               <l>Un golpe de audacia Conde, y</l>
               <l>es tuyo ese hermoso rollo).</l>
-              <stage><emph>(Al Cuervito 2º)</emph></stage>
+              <stage><emph rend="italic">(Al Cuervito 2º)</emph></stage>
               <l>Pues contesta con ofensas</l>
               <l>a mi impulso generoso,</l>
               <l>guárdese usted su dinero</l>
               <l>y sepa para mi abono</l>
               <l>que siempre para tirarla</l>
               <l>me sobra a mí una onza de oro.</l>
-              <stage><emph>(La tira sobre la mesa fingiendo desdén y desenvoltura).</emph></stage>
+              <stage><emph rend="italic">(La tira sobre la mesa fingiendo desdén y desenvoltura).</emph></stage>
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
-              <stage><emph>(Ocultando su alegría)</emph></stage>
+              <stage><emph rend="italic">(Ocultando su alegría)</emph></stage>
               <l>Conde, dispénsele usted,</l>
               <l>tome su onza.</l>
             </sp>
@@ -3065,10 +3065,10 @@
               <speaker>Cuervito 1º:</speaker>
               <l>La junto con mi dinero</l>
               <l>y en las manos se la pongo.</l>
-              <stage><emph>(Figura envolverla con los billetes que entrega al Conde, pero con
+              <stage><emph rend="italic">(Figura envolverla con los billetes que entrega al Conde, pero con
                   disimulo la escamotea pasándola al Cuervito 2º).</emph></stage>
               <l>Repártalo como quiera.</l>
-              <stage><emph>(Con severidad al 2º)</emph></stage>
+              <stage><emph rend="italic">(Con severidad al 2º)</emph></stage>
               <l>Hermano, no seas zonzo,</l>
               <l>da excusas al señor Conde.</l>
             </sp>
@@ -3076,15 +3076,15 @@
               <speaker>Cuervito 2º:</speaker>
               <l>Perdóneme usted si pudo</l>
               <l>ofenderse.</l>
-              <stage><emph>(Se levanta).</emph></stage>
+              <stage><emph rend="italic">(Se levanta).</emph></stage>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Muy contento)</emph></stage>
+              <stage><emph rend="italic">(Muy contento)</emph></stage>
               <l>No sé cómo</l>
               <l>estimarles este honor.</l>
               <l>Todo lo olvido y perdono.</l>
-              <stage><emph>(Impaciente)</emph></stage>
+              <stage><emph rend="italic">(Impaciente)</emph></stage>
               <l>Señores, hasta la noche.</l>
             </sp>
             <sp who="#cuervito1">
@@ -3099,24 +3099,24 @@
             </sp>
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
-              <stage><emph>(Al Cuervito 2º)</emph></stage>
+              <stage><emph rend="italic">(Al Cuervito 2º)</emph></stage>
               <l>Hermanito, vamos pronto.</l>
-              <stage><emph>(Salen corriendo desde la puerta exterior).</emph></stage>
+              <stage><emph rend="italic">(Salen corriendo desde la puerta exterior).</emph></stage>
             </sp>
             <sp who="#gaucho">
               <speaker>Gaucho:</speaker>
-              <stage><emph>(Sale a la calle y no viéndolos ya, dice)</emph></stage>
+              <stage><emph rend="italic">(Sale a la calle y no viéndolos ya, dice)</emph></stage>
               <l>Me ganaron el tirón.</l>
               <l>Ellos son dos, yo voy solo,</l>
               <l>pero para esa garúa</l>
               <l>yo no necesito poncho.</l>
-              <stage><emph>(Corre en la misma dirección).</emph></stage>
+              <stage><emph rend="italic">(Corre en la misma dirección).</emph></stage>
             </sp>
           </div>
           <pb n="261"/>
           <div type="scene" n="21">
             <head>Escena XXI</head>
-            <stage><emph>El Conde, el Fondero.</emph></stage>
+            <stage><emph rend="italic">El Conde, el Fondero.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Saltando estoy de alegría</l>
@@ -3124,19 +3124,19 @@
               <l>¡qué magnífica bolada,</l>
               <l>bendigo la suerte mía!</l>
               <l>Temblando estoy de emoción,</l>
-              <stage><emph>(Desenvuelve el rollo).</emph></stage>
+              <stage><emph rend="italic">(Desenvuelve el rollo).</emph></stage>
               <l>¡tanta plata nunca he visto…!</l>
               <l>¡Me han robado Santo Cristo!</l>
               <l>Onza de mi corazón</l>
-              <stage><emph>(Desesperación muy cómica)</emph></stage>
+              <stage><emph rend="italic">(Desesperación muy cómica)</emph></stage>
               <l>¡Qué bribones y qué cómicos!</l>
               <l>¡Estoy muerto, estoy perdido!</l>
               <l>¡Horror! ¡Si hasta ya han servido,</l>
               <l>estos trozos de periódicos!</l>
-              <stage><emph>(Expresión de asco).</emph></stage>
+              <stage><emph rend="italic">(Expresión de asco).</emph></stage>
               <l>Y no pudiendo pagar</l>
               <l>¿cómo podré ahora salir?</l>
-              <stage><emph>(Al Fondero)</emph></stage>
+              <stage><emph rend="italic">(Al Fondero)</emph></stage>
               <l>Señor, sírvase venir</l>
               <l>porque le tengo que hablar.</l>
               <l>Usted parece sincero,</l>
@@ -3154,12 +3154,12 @@
               <l>¿Nada más que eso le haría?</l>
               <pb n="262"/>
               <l>Pues hombre, ¡cóbrese usted!</l>
-              <stage><emph>(Le presenta las espaldas).</emph></stage>
+              <stage><emph rend="italic">(Le presenta las espaldas).</emph></stage>
             </sp>
           </div>
           <div type="scene" n="22">
             <head>Escena XXII</head>
-            <stage><emph>Dichos, el Gaucho que trae a los Cuervitos 1º y 2º.</emph></stage>
+            <stage><emph rend="italic">Dichos, el Gaucho que trae a los Cuervitos 1º y 2º.</emph></stage>
             <sp who="#gaucho">
               <speaker>Gaucho:</speaker>
               <l>¡Vengan para acá punguistas!</l>
@@ -3196,7 +3196,7 @@
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>A medias.</l>
-              <stage><emph>(En voz baja al Gaucho).</emph></stage>
+              <stage><emph rend="italic">(En voz baja al Gaucho).</emph></stage>
             </sp>
             <sp who="#gaucho">
               <speaker>Guacho:</speaker>
@@ -3223,9 +3223,9 @@
             <sp who="#cuervito1">
               <speaker>Cuervito 1º:</speaker>
               <l>Toma la onza y a volar.</l>
-              <stage><emph>(Se la da).</emph></stage>
+              <stage><emph rend="italic">(Se la da).</emph></stage>
             </sp>
-            <stage><emph>El Gaucho los suelta y salen corriendo.</emph></stage>
+            <stage><emph rend="italic">El Gaucho los suelta y salen corriendo.</emph></stage>
             <sp who="#fondero">
               <speaker>Fondero:</speaker>
               <l>Questa acción me ha conmovido.</l>
@@ -3240,20 +3240,20 @@
               <l>Voy me al Asilo que allí</l>
               <l>dan gratis las habichuelas.</l>
             </sp>
-            <stage><emph>Salen.</emph></stage>
+            <stage><emph rend="italic">Salen.</emph></stage>
           </div>
         </div>
         <div type="cuadro" n="5">
           <head>Cuadro quinto</head>
           <head>El asilo de inmigrantes</head>
-          <stage><emph>La escena representa el gran patio de dicho establecimiento. Por las puertas
+          <stage><emph rend="italic">La escena representa el gran patio de dicho establecimiento. Por las puertas
               abiertas del telón del fondo se ven las mesas de los comedores.</emph></stage>
           <div type="scene" n="23">
             <head>Escena XXIII</head>
-            <stage><emph>Coro de inmigrantes (que llevarán los trajes peculiares de las diversas
+            <stage><emph rend="italic">Coro de inmigrantes (que llevarán los trajes peculiares de las diversas
                 nacionalidades).</emph></stage>
             <pb n="264"/>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#coroInmigrantes">
               <!-- speaker added: -->
               <speaker>Coro de inmigrantes:</speaker>
@@ -3277,12 +3277,12 @@
           </div>
           <div type="scene" n="24">
             <head>Escena XXIV</head>
-            <stage><emph>Don País, Diego, el Conde.</emph></stage>
+            <stage><emph rend="italic">Don País, Diego, el Conde.</emph></stage>
             <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>El almuerzo, buenas gentes.</l>
             </sp>
-            <stage><emph>Los inmigrantes forman grupos en el fondo de la escena, recibiendo el
+            <stage><emph rend="italic">Los inmigrantes forman grupos en el fondo de la escena, recibiendo el
                 rancho humeante, que reparten los distribuidores en escudillas de
               latón.</emph></stage>
             <sp who="#diego">
@@ -3345,7 +3345,7 @@
               <l>para siempre tiene en mí</l>
               <l>el más decidido amigo.</l>
             </sp>
-            <stage><emph>Entra el Conde y tomando un plato de lata y una cuchara se dirige a uno de
+            <stage><emph rend="italic">Entra el Conde y tomando un plato de lata y una cuchara se dirige a uno de
                 los distribuidores de rancho.</emph></stage>
             <pb n="266"/>
             <sp who="#condeTupe">
@@ -3354,12 +3354,12 @@
               <l>Sírveme mucho, escogido.</l>
               <l>(De estos no soy conocido</l>
               <l>y quién habrá de pensar…)</l>
-              <stage><emph>(Se sienta a una mesa que habrá en el fondo a la
+              <stage><emph rend="italic">(Se sienta a una mesa que habrá en el fondo a la
                 izquierda).</emph></stage>
             </sp>
             <sp who="#donPais">
               <speaker>Don País:</speaker>
-              <stage><emph>(Contemplando a los inmigrantes)</emph></stage>
+              <stage><emph rend="italic">(Contemplando a los inmigrantes)</emph></stage>
               <l>Ved la belleza que encierra</l>
               <l>ese grupo encantador</l>
               <l>que pronto con su sudor</l>
@@ -3379,14 +3379,14 @@
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
-              <stage><emph>(Interrumpiéndole)</emph></stage>
+              <stage><emph rend="italic">(Interrumpiéndole)</emph></stage>
               <l>¿Qué estoy viendo? ¡El señor Conde!</l>
               <l>No tiene mal apetito.</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Me han visto! ¡Necio maldito!</l>
-              <stage><emph>(Desenvuelve un diario como para leer, ocultándose tras
+              <stage><emph rend="italic">(Desenvuelve un diario como para leer, ocultándose tras
                 él).</emph></stage>
             </sp>
             <sp who="#donPais">
@@ -3402,13 +3402,13 @@
               <speaker>Don País:</speaker>
               <l>Pues yo no quiero esa gente.</l>
               <pb n="267"/>
-              <stage><emph>(Al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Conde)</emph></stage>
               <l>¡Escuche usted caballero!</l>
               <l>¿Dónde vive?</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Tímidamente)</emph></stage>
+              <stage><emph rend="italic">(Tímidamente)</emph></stage>
               <l>Aquí hasta hoy.</l>
             </sp>
             <sp who="#donPais">
@@ -3556,7 +3556,7 @@
               <l>Tenéis razón, no está bien</l>
               <l>metido en este belén</l>
               <l>un joven de sangre azul.</l>
-              <stage><emph>(Se va. Volviendo cuando marca el diálogo).</emph></stage>
+              <stage><emph rend="italic">(Se va. Volviendo cuando marca el diálogo).</emph></stage>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
@@ -3571,15 +3571,15 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Con una valija y un paraguas bajo el brazo)</emph></stage>
+              <stage><emph rend="italic">(Con una valija y un paraguas bajo el brazo)</emph></stage>
               <l>Me voy.</l>
               <l>(No me llaman, ¡no!)</l>
               <l>Gente de tan baja clase</l>
               <l>no mereció que la honrase</l>
               <l>todo un noble como yo.</l>
-              <stage><emph>(Salida cómica).</emph></stage>
+              <stage><emph rend="italic">(Salida cómica).</emph></stage>
             </sp>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#coroGeneral">
               <speaker>Coro general:</speaker>
               <l>Mientras llega el momento</l>
@@ -3594,35 +3594,35 @@
             <sp who="#gallegos">
               <speaker>Gallegos:</speaker>
               <l>¡Viva Galicia!</l>
-              <stage><emph>Muñeira.</emph></stage>
+              <stage><emph rend="italic">Muñeira.</emph></stage>
               <l>Viva España entera,</l>
               <l>baila Marusa,</l>
               <l>baila la muñeira.</l>
             </sp>
-            <stage><emph>Bailan.</emph></stage>
+            <stage><emph rend="italic">Bailan.</emph></stage>
             <sp who="#ingleses">
               <speaker>Ingleses:</speaker>
               <l>Nostra Inglaterra</l>
-              <stage><emph>Giga.</emph></stage>
+              <stage><emph rend="italic">Giga.</emph></stage>
               <l>ser grande país,</l>
               <l>siendo mocho rico</l>
               <l>y mocho fabril.</l>
             </sp>
-            <stage><emph>Bailan.</emph></stage>
+            <stage><emph rend="italic">Bailan.</emph></stage>
             <pb n="271"/>
             <sp who="#italianos">
               <speaker>Italianos:</speaker>
-              <l><foreign xml:lang="it"><emph>E l´Italia il bel paese</emph></foreign></l>
-              <stage><emph>Tarantela.</emph></stage>
-              <l><foreign xml:lang="it"><emph>Il piú grande che si sá</emph></foreign></l>
-              <l><foreign xml:lang="it"><emph>nelle arti nelle istorie,</emph></foreign></l>
-              <l><foreign xml:lang="it"><emph>nella sua maestá.</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph rend="italic">E l´Italia il bel paese</emph></foreign></l>
+              <stage><emph rend="italic">Tarantela.</emph></stage>
+              <l><foreign xml:lang="it"><emph rend="italic">Il piú grande che si sá</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph rend="italic">nelle arti nelle istorie,</emph></foreign></l>
+              <l><foreign xml:lang="it"><emph rend="italic">nella sua maestá.</emph></foreign></l>
             </sp>
-            <stage><emph>Bailan.</emph></stage>
+            <stage><emph rend="italic">Bailan.</emph></stage>
             <sp who="#franceses">
               <speaker>Franceses:</speaker>
-              <l><foreign xml:lang="fr"><emph>Allons enfants de la patrie</emph></foreign></l>
-              <l><foreign xml:lang="fr"><emph>le jour de gloire est arrivé.</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">Allons enfants de la patrie</emph></foreign></l>
+              <l><foreign xml:lang="fr"><emph rend="italic">le jour de gloire est arrivé.</emph></foreign></l>
             </sp>
             <sp who="#coroGeneral">
               <speaker>Todos:</speaker>
@@ -3631,10 +3631,10 @@
               <l>la tierra argentina</l>
               <l>nunca ingrata fue.</l>
             </sp>
-            <stage><emph>Termina el acto con un conjunto de los diferentes bailes, muñeira, giga y
+            <stage><emph rend="italic">Termina el acto con un conjunto de los diferentes bailes, muñeira, giga y
                 tarantela, y la repetición del coro entremezclando las respectivas músicas, dándole
                 la mayor animación posible.</emph></stage>
-            <stage><emph>Fin del acto primero</emph></stage>
+            <stage><emph rend="italic">Fin del acto primero</emph></stage>
           </div>
         </div>
       </div>
@@ -3643,16 +3643,16 @@
         <div type="cuadro" n="6">
           <head>Cuadro sexto</head>
           <head>Casa de vecindad</head>
-          <stage><emph>El teatro representa una mala habitación de una casa de vecindad. Por todo
+          <stage><emph rend="italic">El teatro representa una mala habitación de una casa de vecindad. Por todo
               mueble un catre, en que sin colchón ni almohada está echado el conde en mangas de
               camisa y cubierto totalmente con periódicos a guisa de sábanas, una silla desvencijada
               y un baúl viejo.</emph></stage>
           <div type="scene" n="1">
             <head>Escena I</head>
-            <stage><emph>El Conde, Misia Dolores.</emph></stage>
+            <stage><emph rend="italic">El Conde, Misia Dolores.</emph></stage>
             <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
-              <stage><emph>(Entrando)</emph></stage>
+              <stage><emph rend="italic">(Entrando)</emph></stage>
               <l>Me parece que ya es tiempo</l>
               <l>de pagarme señor mío.</l>
             </sp>
@@ -3664,13 +3664,13 @@
             <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>(Sí; ronca que no me engañas).</l>
-              <stage><emph>(Sacudiéndole)</emph></stage>
+              <stage><emph rend="italic">(Sacudiéndole)</emph></stage>
               <l>¿No me oye usted?</l>
               <!-- removed superfluous full stop -->
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Simulando espanto)</emph></stage>
+              <stage><emph rend="italic">(Simulando espanto)</emph></stage>
               <l>¡Al asesino!</l>
               <l>¡Qué espantosa pesadilla!</l>
             </sp>
@@ -3732,13 +3732,13 @@
               <l>¡Si es usted un atorrante!</l>
               <l>Miren qué pilchas, ¡qué avíos!</l>
               <l>¡Diarios en vez de cobijas</l>
-              <stage><emph>(Levanta los que hay sobre el catre).</emph></stage>
+              <stage><emph rend="italic">(Levanta los que hay sobre el catre).</emph></stage>
               <l>por no morirse de frío!</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>No levante usted las sábanas,</l>
-              <stage><emph>(Se incorpora).</emph></stage>
+              <stage><emph rend="italic">(Se incorpora).</emph></stage>
               <l>mire que me ruborizo.</l>
               <l>Yo duermo así, porque quiero,</l>
               <l>por higiene, por capricho,</l>
@@ -3769,14 +3769,14 @@
               <l>Hombre no faltaba más,</l>
               <l>chúpese el dedo chico.</l>
             </sp>
-            <stage><emph>Se va.</emph></stage>
+            <stage><emph rend="italic">Se va.</emph></stage>
           </div>
           <div type="scene" n="2">
             <head>Escena II</head>
-            <stage><emph>El Conde.</emph></stage>
+            <stage><emph rend="italic">El Conde.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Se levanta y se viste, dando tinta en las costuras de la ropa, y pasando
+              <stage><emph rend="italic">(Se levanta y se viste, dando tinta en las costuras de la ropa, y pasando
                   por el sombrero el pañuelo, con el que se habrá secado después de
                 lavarse).</emph></stage>
               <l>¡Habrá vieja condenada!</l>
@@ -3809,17 +3809,17 @@
               <l>de mi plan el edificio</l>
               <l>huyamos como valientes</l>
               <l>engañando al enemigo.</l>
-              <stage><emph>(Meditando)</emph></stage>
+              <stage><emph rend="italic">(Meditando)</emph></stage>
               <l>Pensar en sacar el cofre</l>
               <l>es más que una utopía, un mito;</l>
               <l>así como así, está el pobre</l>
               <l>desvencijado y vacío</l>
               <l>y apenas si el triste frac</l>
-              <stage><emph>(Abre el baúl)</emph></stage>
+              <stage><emph rend="italic">(Abre el baúl)</emph></stage>
               <l>está en el fondo solito.</l>
               <l>¡Miento! Hay unos pantalones.</l>
               <pb n="276"/>
-              <stage><emph>(Los saca).</emph></stage>
+              <stage><emph rend="italic">(Los saca).</emph></stage>
               <l>Ayúdame ingenio mío</l>
               <l>para burlar la patrona</l>
               <l>más formidable del siglo.</l>
@@ -3831,26 +3831,26 @@
               <l>Como siempre: el más sencillo.</l>
               <l>De los faldones del frac</l>
               <l>la sumerjo en los abismos</l>
-              <stage><emph>(Echa la onza en el bolsillo de los faldones del frac).</emph></stage>
+              <stage><emph rend="italic">(Echa la onza en el bolsillo de los faldones del frac).</emph></stage>
               <l>¡Quién demonios va a pensar</l>
               <l>que hay dinero en ese sitio!</l>
               <l>¿Y ahora qué hago con la ropa</l>
               <l>para salir sin ser visto?</l>
               <l>¡Ah! Ya caigo. Me lo pongo,</l>
               <l>no sospecha, y al avío.</l>
-              <stage><emph>(Se pone unos pantalones encima de otros, y el frac debajo del saco, de
+              <stage><emph rend="italic">(Se pone unos pantalones encima de otros, y el frac debajo del saco, de
                   manera que salgan bajo de este los faldones de aquel)</emph></stage>
               <l>¡Mas demonio! ¿Dónde meto</l>
               <l>este paraguas maldito?</l>
-              <stage><emph>(Mostrándolo lo mismo que un bastón).</emph></stage>
+              <stage><emph rend="italic">(Mostrándolo lo mismo que un bastón).</emph></stage>
               <l>¡Si por fortuna lloviera!</l>
               <l>pero hace un día muy lindo…</l>
               <l>y entonces con el bastón</l>
               <l>sucedería lo mismo.</l>
               <l>¡Ah! ¡Ya lo sé! ¡Aquí en la pierna!</l>
-              <stage><emph>(Lo introduce por la cintura a lo largo del pantalón).</emph></stage>
+              <stage><emph rend="italic">(Lo introduce por la cintura a lo largo del pantalón).</emph></stage>
               <l>Un poco molesto, digo,</l>
-              <stage><emph>(Probando a andar)</emph></stage>
+              <stage><emph rend="italic">(Probando a andar)</emph></stage>
               <pb n="277"/>
               <l>pero en saliendo a la calle</l>
               <l>ya está salvado el peligro.</l>
@@ -3859,11 +3859,11 @@
               <l>porque lo debo al mueblero.</l>
               <l>¡Con qué! A volar que hay mosquitos.</l>
             </sp>
-            <stage><emph>(Va a salir).</emph></stage>
+            <stage><emph rend="italic">(Va a salir).</emph></stage>
           </div>
           <div type="scene" n="3">
             <head>Escena III</head>
-            <stage><emph>El Conde, la bailarina que lo detiene al salir, luego Misia
+            <stage><emph rend="italic">El Conde, la bailarina que lo detiene al salir, luego Misia
               Dolores.</emph></stage>
             <sp who="#bailarina">
               <speaker>Bailarina:</speaker>
@@ -3945,11 +3945,11 @@
               <speaker>Conde:</speaker>
               <l>Es imposible ángel mío</l>
               <l>porque me duele esta pierna.</l>
-              <stage><emph>(Señala la del paraguas).</emph></stage>
+              <stage><emph rend="italic">(Señala la del paraguas).</emph></stage>
             </sp>
             <sp who="#bailarina">
               <speaker>Bailarina:</speaker>
-              <stage><emph>(Furiosa y empujándole con fuerza del lado donde tiene escondido el
+              <stage><emph rend="italic">(Furiosa y empujándole con fuerza del lado donde tiene escondido el
                   paraguas).</emph></stage>
               <l>Falso, ¡perjuro maldito!</l>
             </sp>
@@ -3958,28 +3958,28 @@
               <l>¡Ay!</l>
               <l>(El puño del paraguas</l>
               <l>me ha atravesado hasta el hígado).</l>
-              <stage><emph>Sale la patrona</emph></stage>
+              <stage><emph rend="italic">Sale la patrona</emph></stage>
               <l>¡Santo Cristo, la patrona!</l>
             </sp>
             <sp who="#misiaDolores">
               <speaker>Misia Dolores:</speaker>
               <l>¿Qué es eso? ¿Por qué esos gritos?</l>
-              <stage><emph>(Mira con curiosidad y malicia los faldones del frac del Conde que salen
+              <stage><emph rend="italic">(Mira con curiosidad y malicia los faldones del frac del Conde que salen
                   por debajo del saco, haciendo señas como de haber adivinado).</emph></stage>
             </sp>
             <pb n="279"/>
             <sp who="#bailarina">
               <speaker>Bailarina:</speaker>
-              <stage><emph>(Furiosa)</emph></stage>
+              <stage><emph rend="italic">(Furiosa)</emph></stage>
               <l>Que se quiere ir sin pagarte</l>
               <l>y sin casarse conmigo.</l>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>Lo mejor será escaparse.</l>
-              <stage><emph>(Toma carrera cojeando).</emph></stage>
+              <stage><emph rend="italic">(Toma carrera cojeando).</emph></stage>
               <l>Una… dos…</l>
-              <stage><emph>(Al salir, Misia Dolores le agarra por los faldones del frac que quedan
+              <stage><emph rend="italic">(Al salir, Misia Dolores le agarra por los faldones del frac que quedan
                   en sus manos).</emph></stage>
             </sp>
             <sp who="#misiaDolores">
@@ -3988,17 +3988,17 @@
               <l>Se nos escapa el bribón</l>
               <l>¡atajen, atajen! ¡Vivo!</l>
             </sp>
-            <stage><emph>(Salen corriendo).</emph></stage>
+            <stage><emph rend="italic">(Salen corriendo).</emph></stage>
           </div>
         </div>
         <div type="cuadro" n="7">
           <head>Cuadro séptimo</head>
           <head>La boca del riachuelo</head>
-          <stage><emph>Se ve el canal lleno de embarcaciones y el dique con grúas, etc. A la
+          <stage><emph rend="italic">Se ve el canal lleno de embarcaciones y el dique con grúas, etc. A la
               izquierda una casa con bandera de remate. A la derecha una ropería.</emph></stage>
           <div type="scene" n="4">
             <head>Escena IV</head>
-            <stage><emph>Diego, un Rematador y Coro de compradores.</emph></stage>
+            <stage><emph rend="italic">Diego, un Rematador y Coro de compradores.</emph></stage>
             <sp who="#rematador">
               <speaker>Rematador:</speaker>
               <l>Señores mucha atención</l>
@@ -4012,7 +4012,7 @@
               <speaker>Otro:</speaker>
               <l>Nasranca dulce, banane.</l>
             </sp>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <pb n="280"/>
             <sp who="#rematador">
               <speaker>Rematador:</speaker>
@@ -4081,7 +4081,7 @@
               <l>En veintiún mil seiscientos</l>
               <l>está la casa.</l>
               <l>Se la lleva… ¡a la una!...</l>
-              <stage><emph>(Dirigiéndose al 2º)</emph></stage>
+              <stage><emph rend="italic">(Dirigiéndose al 2º)</emph></stage>
               <l>¿Cincuenta?</l>
             </sp>
             <sp who="#comprador2">
@@ -4106,11 +4106,11 @@
               <l>Los ricos a los pobres</l>
               <l>siempre nos tapan…</l>
             </sp>
-            <stage><emph>(El comprador 3º hace una seña).</emph></stage>
+            <stage><emph rend="italic">(El comprador 3º hace una seña).</emph></stage>
             <sp who="#rematador">
               <speaker>Rematador:</speaker>
               <l>¿Tres cientos más?</l>
-              <stage><emph>(Al 3º)</emph></stage>
+              <stage><emph rend="italic">(Al 3º)</emph></stage>
             </sp>
             <sp who="#compradorRico">
               <speaker>Comprador:</speaker>
@@ -4130,7 +4130,7 @@
               <l>No los acepto.</l>
               <l>En veintidós mil pesos</l>
               <l>va por usted.</l>
-              <stage><emph>(Al rico)</emph></stage>
+              <stage><emph rend="italic">(Al rico)</emph></stage>
               <l>¡Que va a caer el martillo!</l>
               <l>Una… dos… tres…</l>
             </sp>
@@ -4144,7 +4144,7 @@
             <sp who="#rematador">
               <speaker>Rematador:</speaker>
               <l>A firmar boleto.</l>
-              <stage><emph>(Al comprador).</emph></stage>
+              <stage><emph rend="italic">(Al comprador).</emph></stage>
               <l>Venga usted señor,</l>
               <l>de los martilleros</l>
               <l>yo soy el mejor.</l>
@@ -4156,11 +4156,11 @@
               <l>¡qué elocuencia tiene</l>
               <l>el rematador!</l>
             </sp>
-            <stage><emph>(Entran en la casa, con Diego).</emph></stage>
+            <stage><emph rend="italic">(Entran en la casa, con Diego).</emph></stage>
           </div>
           <div type="scene" n="5">
             <head>Escena V</head>
-            <stage><emph>El Conde chorreando y sucio, Don País.</emph></stage>
+            <stage><emph rend="italic">El Conde chorreando y sucio, Don País.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Ay! ¡Desdichado de mí!</l>
@@ -4212,15 +4212,15 @@
               <l>pero para que trabaje,</l>
               <l>y humilde para que aprenda.</l>
             </sp>
-            <stage><emph>Entran en la tienda.</emph></stage>
+            <stage><emph rend="italic">Entran en la tienda.</emph></stage>
           </div>
           <div type="scene" n="6">
             <head>Escena VI</head>
-            <stage><emph>El Rematador, Diego, luego Don País y el Conde. Más tarde un
+            <stage><emph rend="italic">El Rematador, Diego, luego Don País y el Conde. Más tarde un
                 Changador.</emph></stage>
             <sp who="#rematador">
               <speaker>Rematador:</speaker>
-              <stage><emph>(A Diego)</emph></stage>
+              <stage><emph rend="italic">(A Diego)</emph></stage>
               <l>Ya está el boleto firmado,</l>
               <l>haga sacar la bandera</l>
               <l>y lleve usted la cartera</l>
@@ -4235,16 +4235,16 @@
               <speaker>Rematador:</speaker>
               <l>Conozco su buen deseo.</l>
               <l>Adiós, pues.</l>
-              <stage><emph>(Se va).</emph></stage>
+              <stage><emph rend="italic">(Se va).</emph></stage>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
-              <stage><emph>(Viendo al Conde)</emph></stage>
+              <stage><emph rend="italic">(Viendo al Conde)</emph></stage>
               <l>¿Qué es lo que veo?</l>
-              <stage><emph>Salen Don País y el Conde, este vestido con un traje de ropería que
+              <stage><emph rend="italic">Salen Don País y el Conde, este vestido con un traje de ropería que
                   resulte cómico.</emph></stage>
               <l>¡El Conde! ¡Y vestido así!</l>
-              <stage><emph>(Con ironía)</emph></stage>
+              <stage><emph rend="italic">(Con ironía)</emph></stage>
               <l>Conde, ¿qué le ha sucedido?</l>
             </sp>
             <sp who="#condeTupe">
@@ -4297,7 +4297,7 @@
             <sp who="#donPais">
               <speaker>Don País:</speaker>
               <l>Trabaje y le ayudaré.</l>
-              <stage><emph>(Se retira Don País).</emph></stage>
+              <stage><emph rend="italic">(Se retira Don País).</emph></stage>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -4313,7 +4313,7 @@
               <l>cuya experiencia me agobia,</l>
               <l>para ello veré a mi novia</l>
               <l>en el Teatro San Martín.</l>
-              <stage><emph>(A Diego)</emph></stage>
+              <stage><emph rend="italic">(A Diego)</emph></stage>
               <l>Usted conmigo vendrá</l>
               <l>esta noche a la función</l>
               <l>y en mi bendita intención</l>
@@ -4323,7 +4323,7 @@
               <speaker>Diego:</speaker>
               <l>Ahora debo retirarme</l>
               <l>¡A ver che! Aquel changador.</l>
-              <stage><emph>(Llamando).</emph></stage>
+              <stage><emph rend="italic">(Llamando).</emph></stage>
             </sp>
             <sp who="#changador">
               <speaker>Changador:</speaker>
@@ -4345,7 +4345,7 @@
               <speaker>Diego:</speaker>
               <l>Bien estamos de servicio</l>
               <l>¡qué graciosa pretensión!</l>
-              <stage><emph>(Con ironía)</emph></stage>
+              <stage><emph rend="italic">(Con ironía)</emph></stage>
               <l>De hablar tenga la atención.</l>
             </sp>
             <sp who="#changador">
@@ -4364,7 +4364,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Tímidamente)</emph></stage>
+              <stage><emph rend="italic">(Tímidamente)</emph></stage>
               <l>Si me permite…</l>
             </sp>
             <sp who="#diego">
@@ -4390,7 +4390,7 @@
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
-              <stage><emph>(Al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Conde)</emph></stage>
               <l>Tome lo que a ganar va.</l>
             </sp>
             <sp who="#condeTupe">
@@ -4417,15 +4417,15 @@
               <l>más garantías promete.</l>
               <l>¡Qué gran maestra es la experiencia!</l>
             </sp>
-            <stage><emph>Salen. El Conde adelante con el mástil al hombro.</emph></stage>
+            <stage><emph rend="italic">Salen. El Conde adelante con el mástil al hombro.</emph></stage>
             <!-- removed superfluous fullstop -->
           </div>
           <div type="scene" n="7">
             <head>Escena VII</head>
-            <stage><emph>Una familia compuesta del padre, la madre, hijo mayor, hijo 2º, hijo 3º,
+            <stage><emph rend="italic">Una familia compuesta del padre, la madre, hijo mayor, hijo 2º, hijo 3º,
                 niña mayor y tres pequeños. (Aparecen en fila formando escala por la diversidad de
                 estaturas).</emph></stage>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#familia">
               <speaker>Todos:</speaker>
               <l>Somos una familia</l>
@@ -4485,8 +4485,8 @@
               <l>para no estar en casa</l>
               <l>salimos de paseo.</l>
             </sp>
-            <stage><emph>El tranvía cruza la escena.</emph></stage>
-            <stage><emph>Hablado.</emph></stage>
+            <stage><emph rend="italic">El tranvía cruza la escena.</emph></stage>
+            <stage><emph rend="italic">Hablado.</emph></stage>
             <sp who="#madre">
               <speaker>La madre:</speaker>
               <l>Tomaremos el tranvía</l>
@@ -4507,8 +4507,8 @@
           </div>
           <div type="scene" n="8">
             <head>Escena VIII</head>
-            <stage><emph>Dichos, Don País, Marinero 1, Marinero 2, Capitán del vapor.</emph></stage>
-            <stage><emph>Suena el pito de un vapor, que deberá ir entrando por la izquierda pegado
+            <stage><emph rend="italic">Dichos, Don País, Marinero 1, Marinero 2, Capitán del vapor.</emph></stage>
+            <stage><emph rend="italic">Suena el pito de un vapor, que deberá ir entrando por la izquierda pegado
                 al dock del fondo, conforme va marcando el diálogo. La popa llena de inmigrantes, el
                 Capitán en el puente.</emph></stage>
             <sp who="#marinero-1">
@@ -4523,7 +4523,7 @@
             </sp>
             <sp who="#donPais">
               <speaker>Don País:</speaker>
-              <l><emph>El triunfador</emph></l>
+              <l><emph rend="italic">El triunfador</emph></l>
               <l>bandera argentina tiene.</l>
               <l>Digno puesto ya ocupamos</l>
               <l>en el comercial concierto</l>
@@ -4555,13 +4555,13 @@
               <speaker>El capitán:</speaker>
               <l>¡Larga el cabo!</l>
             </sp>
-            <stage><emph>Echan un cabo del barco que toman en tierra el Marinero 1º y
+            <stage><emph rend="italic">Echan un cabo del barco que toman en tierra el Marinero 1º y
               2º.</emph></stage>
             <sp who="#marinero-1">
               <speaker>Marinero 1º:</speaker>
               <l>¡Amarra!</l>
             </sp>
-            <stage><emph>Figuran hacerlo.</emph></stage>
+            <stage><emph rend="italic">Figuran hacerlo.</emph></stage>
             <sp who="#marinero-2">
               <speaker>Marinero 2º:</speaker>
               <l>Cierra.</l>
@@ -4569,20 +4569,20 @@
             <sp who="#capitan-buque">
               <speaker>Capitán:</speaker>
               <l>Fuego con la culebrina.</l>
-              <stage><emph>(Desde la banda visible del barco disparan un cañonazo).</emph></stage>
-              <stage><emph>(Quitándose la gorra)</emph></stage>
+              <stage><emph rend="italic">(Desde la banda visible del barco disparan un cañonazo).</emph></stage>
+              <stage><emph rend="italic">(Quitándose la gorra)</emph></stage>
               <l>¡Qué viva mi noble tierra</l>
               <l>la República Argentina!</l>
             </sp>
-            <stage><emph>Hurras y aclamaciones.</emph></stage>
-            <stage><emph>Mutación rápida.</emph></stage>
+            <stage><emph rend="italic">Hurras y aclamaciones.</emph></stage>
+            <stage><emph rend="italic">Mutación rápida.</emph></stage>
           </div>
         </div>
         <pb n="290"/>
         <div type="cuadro" n="8">
           <head>Cuadro octavo</head>
           <head>El teatro de San Martín</head>
-          <stage><emph>El escenario del teatro San Martín visto por el interior. En primer término
+          <stage><emph rend="italic">El escenario del teatro San Martín visto por el interior. En primer término
               dos bastidores, y una bambalina del revés, en el fondo lo mismo un telón, que figura
               ser el de embocadura. Cerca de éste como si acabase el acto está la bailarina con su
               traje peculiar. Del otro lado se oyen ruidosos aplausos. Cuando se levanta el telón
@@ -4590,9 +4590,9 @@
               como si la verdadera se reflejase en un espejo.</emph></stage>
           <div type="scene" n="9">
             <head>Escena IX</head>
-            <stage><emph>Corista 1ª y 2ª, la Bailarina, el Conde, Diego, un
+            <stage><emph rend="italic">Corista 1ª y 2ª, la Bailarina, el Conde, Diego, un
               Traspunte.</emph></stage>
-            <stage><emph>Apoyadas en el bastidor de la derecha.</emph></stage>
+            <stage><emph rend="italic">Apoyadas en el bastidor de la derecha.</emph></stage>
             <sp who="#corista2">
               <speaker>Corista 2ª:</speaker>
               <l>¡Cuánto aplauso! ¡Qué entusiasmo!</l>
@@ -4617,7 +4617,7 @@
             <sp who="#traspunte">
               <speaker>Traspunte:</speaker>
               <l>¡A verlas…!</l>
-              <stage><emph>(Se aproxima).</emph></stage>
+              <stage><emph rend="italic">(Se aproxima).</emph></stage>
             </sp>
             <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
@@ -4625,7 +4625,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(Entrando)</emph></stage>
+              <stage><emph rend="italic">(Entrando)</emph></stage>
               <pb n="291"/>
               <l>Ya pisamos el proscenio</l>
               <l>la bailarina allí está.</l>
@@ -4644,7 +4644,7 @@
               <l>si la encontró por ventura</l>
               <l>en los faldones del frac.</l>
               <l>Voy a hablarle dos minutos.</l>
-              <stage><emph>(Se adelanta acercándose a la bailarina).</emph></stage>
+              <stage><emph rend="italic">(Se adelanta acercándose a la bailarina).</emph></stage>
             </sp>
             <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
@@ -4668,11 +4668,11 @@
               <speaker>Traspunte:</speaker>
               <l>Arriba el telón.</l>
             </sp>
-            <stage><emph>Suben el telón sorprendiendo al Conde, que se retira corriendo entre los
+            <stage><emph rend="italic">Suben el telón sorprendiendo al Conde, que se retira corriendo entre los
                 gritos de la sala.</emph></stage>
             <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
-              <stage><emph>(Riendo).</emph></stage>
+              <stage><emph rend="italic">(Riendo).</emph></stage>
               <l>Ja, ja.</l>
             </sp>
             <sp who="#voz1">
@@ -4710,10 +4710,10 @@
             </sp>
             <sp who="#corista1">
               <speaker>Corista 1ª:</speaker>
-              <stage><emph>(Con sorna)</emph></stage>
+              <stage><emph rend="italic">(Con sorna)</emph></stage>
               <l>¡Ya!</l>
             </sp>
-            <stage><emph>Cae el telón del fondo y el Conde vuelve a hablar con la
+            <stage><emph rend="italic">Cae el telón del fondo y el Conde vuelve a hablar con la
               bailarina.</emph></stage>
             <sp who="#bailarina">
               <speaker>Bailarina:</speaker>
@@ -4774,15 +4774,15 @@
               <speaker>Conde:</speaker>
               <l>Y está linda ¿son de seda</l>
               <l>buena y fina?</l>
-              <stage><emph>(Queriendo tocarlas)</emph></stage>
+              <stage><emph rend="italic">(Queriendo tocarlas)</emph></stage>
             </sp>
             <sp who="#bailarina">
               <speaker>Bailarina:</speaker>
-              <stage><emph>(Rechazándole)</emph></stage>
+              <stage><emph rend="italic">(Rechazándole)</emph></stage>
               <l>Es natural.</l>
               <l>Esto se ve y no se toca.</l>
               <l>Y adiós porque es tarde ya.</l>
-              <stage><emph>(Se va).</emph></stage>
+              <stage><emph rend="italic">(Se va).</emph></stage>
             </sp>
             <sp who="#diego">
               <speaker>Diego:</speaker>
@@ -4835,7 +4835,7 @@
               <l>de los hermosos productos</l>
               <l>de esta tierra colosal.</l>
             </sp>
-            <stage><emph>Queda muy oscuro.</emph></stage>
+            <stage><emph rend="italic">Queda muy oscuro.</emph></stage>
             <sp who="#traspunte">
               <speaker>Traspunte:</speaker>
               <l>Vayan saliendo señores,</l>
@@ -4858,7 +4858,7 @@
             <sp who="#diego">
               <speaker>Diego:</speaker>
               <l>¡Pues eso sí que es andar!</l>
-              <stage><emph>(Tropieza con la bailarina que sale muy tapada del brazo de un
+              <stage><emph rend="italic">(Tropieza con la bailarina que sale muy tapada del brazo de un
                   señorito).</emph></stage>
             </sp>
             <sp who="#condeTupe">
@@ -4888,22 +4888,22 @@
               <speaker>Conde:</speaker>
               <l>¡Ay! ¡Ojalá!</l>
             </sp>
-            <stage><emph>Mutación.</emph></stage>
+            <stage><emph rend="italic">Mutación.</emph></stage>
           </div>
         </div>
         <div type="cuadro" n="9">
           <head>Cuadro noveno</head>
           <head>El mercado de frutos</head>
-          <stage><emph>Pilas de cueros, bolsas de lana, maíz, trigo, etc, entre las que se ven
+          <stage><emph rend="italic">Pilas de cueros, bolsas de lana, maíz, trigo, etc, entre las que se ven
               algunos vagones del ferrocarril medio descargados.</emph></stage>
           <div type="scene" n="10">
             <head>Escena X</head>
-            <stage><emph>Coros de frutos del país.</emph></stage>
-            <stage><emph>El coro de señoras aparecerá con trajes de fantasía, representando las
+            <stage><emph rend="italic">Coros de frutos del país.</emph></stage>
+            <stage><emph rend="italic">El coro de señoras aparecerá con trajes de fantasía, representando las
                 lanas, los cueros, cerda, etc., y si fuera posible un grupo de niños representando a
                 las nutrias y corderitos que desfilarán en escena de la manera más vistosa que fuera
                 posible.</emph></stage>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#coroFrutos">
               <speaker>Coros de frutos del país:</speaker>
               <!-- speaker added -->
@@ -4916,7 +4916,7 @@
               <l>de blanco vellón,</l>
               <l>el fardo de alfalfa,</l>
               <l>el cuero, el capón.</l>
-              <stage><emph>Si se estimara más conveniente cada uno de estos calificativos puede
+              <stage><emph rend="italic">Si se estimara más conveniente cada uno de estos calificativos puede
                   decirlo solamente la corista que lleve el traje correspondiente.</emph></stage>
               <l>Somos la inmensa riqueza</l>
               <l>de la fecunda campaña</l>
@@ -4935,11 +4935,11 @@
               <l>y es nuestro enemigo</l>
               <l>el ferrocarril.</l>
             </sp>
-            <stage><emph>Se retiran al fondo.</emph></stage>
+            <stage><emph rend="italic">Se retiran al fondo.</emph></stage>
           </div>
           <div type="scene" n="11">
             <head>Escena XI</head>
-            <stage><emph>Consignatario 1º, Consignatario 2º, Don País, el Conde, un Corredor de
+            <stage><emph rend="italic">Consignatario 1º, Consignatario 2º, Don País, el Conde, un Corredor de
                 granos.</emph></stage>
             <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
@@ -4975,7 +4975,7 @@
             <sp who="#consignatario2">
               <speaker>Consignatario 2º:</speaker>
               <l>Le ofrezco mi calador</l>
-              <stage><emph>(Sacándolo)</emph></stage>
+              <stage><emph rend="italic">(Sacándolo)</emph></stage>
               <l>que parece hacerle falta.</l>
             </sp>
             <sp who="#corredorGranos">
@@ -4990,7 +4990,7 @@
               <l>Váyase usted al demonio</l>
               <l>con sus granos y sus astas.</l>
             </sp>
-            <stage><emph>Se va el Corredor.</emph></stage>
+            <stage><emph rend="italic">Se va el Corredor.</emph></stage>
             <sp who="#consignatario1">
               <speaker>Consignatario 2º:</speaker>
               <l>Ahí se acerca Don País.</l>
@@ -5000,7 +5000,7 @@
               <l>¡Qué hombre activo! No se cansa</l>
               <l>jamás, y siempre está en todo</l>
               <l>desde que amanece el alba.</l>
-              <stage><emph>Salen Don País y Conde.</emph></stage>
+              <stage><emph rend="italic">Salen Don País y Conde.</emph></stage>
               <pb n="298"/>
               <l>Tiene de acero los músculos</l>
               <l>y una actividad que pasma.</l>
@@ -5018,14 +5018,14 @@
               <l>ya puede ver en mi ejemplo</l>
               <l>cómo progresa y avanza.</l>
               <l>Así lo aprendió este joven</l>
-              <stage><emph>(Por el Conde)</emph></stage>
+              <stage><emph rend="italic">(Por el Conde)</emph></stage>
               <l>en sus penas y desgracias</l>
               <l>y vengo a recomendarles,</l>
               <l>denle ocupación honrada.</l>
             </sp>
             <sp who="#consignatario1">
               <speaker>Consignatario 1º:</speaker>
-              <stage><emph>(Al Conde)</emph></stage>
+              <stage><emph rend="italic">(Al Conde)</emph></stage>
               <l>¿Quiere trabajar en cueros?</l>
             </sp>
             <sp who="#condeTupe">
@@ -5057,7 +5057,7 @@
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
-              <stage><emph>(A Don País)</emph></stage>
+              <stage><emph rend="italic">(A Don País)</emph></stage>
               <l>¡Don País, gracias!</l>
             </sp>
             <sp who="#donPais">
@@ -5088,7 +5088,7 @@
           </div>
           <div type="scene" n="12">
             <head>Escena XII</head>
-            <stage><emph>Dichos, la República Argentina que entra a los acordes del Himno
+            <stage><emph rend="italic">Dichos, la República Argentina que entra a los acordes del Himno
                 Nacional.</emph></stage>
             <sp who="#republicaArgentina">
               <speaker>República:</speaker>
@@ -5148,7 +5148,7 @@
               <l>cuantos quieran con mis hijos</l>
               <l>el bien común repartir.</l>
             </sp>
-            <stage><emph>Se sienta bajo un solio, caprichosamente formado de pieles y palmas a la
+            <stage><emph rend="italic">Se sienta bajo un solio, caprichosamente formado de pieles y palmas a la
                 derecha de la escena.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -5161,14 +5161,14 @@
             </sp>
             <sp who="#republicaArgentina">
               <speaker>República:</speaker>
-              <stage><emph>(Levantándose)</emph></stage>
+              <stage><emph rend="italic">(Levantándose)</emph></stage>
               <l>Recibámoslas en pie.</l>
             </sp>
           </div>
           <pb n="302"/>
           <div type="scene" n="13">
             <head>Escena XIII</head>
-            <stage><emph>Entran los grupos que representan las colectividades extranjeras, formados
+            <stage><emph rend="italic">Entran los grupos que representan las colectividades extranjeras, formados
                 por hombres de todas las clases sociales: al frente de cada uno la bandera
                 respectiva. Primero entrarán los italianos, preludiando la orquesta el himno de
                 Garibaldi, un napolitano lleva su bandera; después los españoles, a los acordes del
@@ -5179,7 +5179,7 @@
                 himnos indicados, sólo algunos compases.</emph></stage>
             <sp who="#gallego">
               <speaker>El gallego:</speaker>
-              <stage><emph>Acabado el desfile, delante el grupo general, frente al solio que ocupa
+              <stage><emph rend="italic">Acabado el desfile, delante el grupo general, frente al solio que ocupa
                   la República y sin marcar acento especial.</emph></stage>
               <l>Noble hermana, todos cuantos</l>
               <l>tus dignos pasos seguimos,</l>
@@ -5238,7 +5238,7 @@
               <l>todos juntos trabajamos.</l>
               <l>¡Hijos! ¡Hermanos! Veamos</l>
               <l>cómo va nuestro trabajo.</l>
-              <stage><emph>(Se sienta, agrupándose todos a su alrededor).</emph></stage>
+              <stage><emph rend="italic">(Se sienta, agrupándose todos a su alrededor).</emph></stage>
             </sp>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
@@ -5253,9 +5253,9 @@
           </div>
           <div type="scene" n="14">
             <head>Escena XIV</head>
-            <stage><emph>Dichos, la Ganadería y la Agricultura (con trajes
+            <stage><emph rend="italic">Dichos, la Ganadería y la Agricultura (con trajes
               alegóricos).</emph></stage>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#ganaderia #agricultura">
               <speaker>Las dos:</speaker>
               <l>Juntas vamos por el mundo</l>
@@ -5301,21 +5301,21 @@
               <l>pues todos reflejan</l>
               <l>la mano de Dios.</l>
             </sp>
-            <stage><emph>Se colocan a un lado.</emph></stage>
+            <stage><emph rend="italic">Se colocan a un lado.</emph></stage>
           </div>
           <div type="scene" n="15">
             <head>Escena XV</head>
-            <stage><emph>Dichos. La Viticultura, la Botella de Mendoza, el Barril de San Juan, la
+            <stage><emph rend="italic">Dichos. La Viticultura, la Botella de Mendoza, el Barril de San Juan, la
                 Pasa, el Papel, la Cerveza, el Cigarrillo, el Fósforo, la Cristalería, el Alcohol,
                 Tres cosas buenas, la Fábrica de paños, la Repostería criolla, el Azúcar de
                 Tucumán.</emph></stage>
-            <stage><emph>Irán apareciendo unos tras otros como marca el diálogo, todos con trajes
+            <stage><emph rend="italic">Irán apareciendo unos tras otros como marca el diálogo, todos con trajes
                 alegóricos a la respectiva representación, <pb n="306"/> bien entendido que en el
                 buen gusto e ingenio de su confección estriba el principal éxito de esta
                 escena.</emph></stage>
             <sp who="#donPais">
               <speaker>Don País:</speaker>
-              <stage><emph>(A la República)</emph></stage>
+              <stage><emph rend="italic">(A la República)</emph></stage>
               <l>Desean pasar revista</l>
               <l>de la industria los parciales.</l>
               <l>Aún son pocos en la lista</l>
@@ -5336,7 +5336,7 @@
               <l>pues saben todos que estoy</l>
               <l>entre Mendoza y San Juan.</l>
             </sp>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#botellaMendoza">
               <speaker>La botella:</speaker>
               <l>Yo soy una guapa moza.</l>
@@ -5358,9 +5358,9 @@
               <l>¡Cómo el alma se alboroza</l>
               <l>si nuestro calor la dan!</l>
             </sp>
-            <stage><emph>Se retiran.</emph></stage>
-            <stage><emph>Hablado.</emph></stage>
-            <stage><emph>Sale la Pasa.</emph></stage>
+            <stage><emph rend="italic">Se retiran.</emph></stage>
+            <stage><emph rend="italic">Hablado.</emph></stage>
+            <stage><emph rend="italic">Sale la Pasa.</emph></stage>
             <sp who="#condeTupe">
               <speaker>Conde:</speaker>
               <l>¡Qué vieja chica y rugosa!</l>
@@ -5377,7 +5377,7 @@
               <speaker>Conde:</speaker>
               <l>¡La pasa! Pues pase usted.</l>
             </sp>
-            <stage><emph>Pasa.</emph></stage>
+            <stage><emph rend="italic">Pasa.</emph></stage>
             <sp who="#papel">
               <speaker>El papel:</speaker>
               <l>Soy purísimo y sin hiel,</l>
@@ -5420,10 +5420,10 @@
             </sp>
             <sp who="#fosforo">
               <speaker>El fósforo:</speaker>
-              <stage><emph>(Le enciende el sombrero que echará humo).</emph></stage>
+              <stage><emph rend="italic">(Le enciende el sombrero que echará humo).</emph></stage>
               <l>Y vengo a prenderte.</l>
             </sp>
-            <stage><emph>Se van corriendo.</emph></stage>
+            <stage><emph rend="italic">Se van corriendo.</emph></stage>
             <sp who="#cristaleria">
               <speaker>La cristalería:</speaker>
               <l>Me hacen de vidrio o cristal,</l>
@@ -5433,8 +5433,8 @@
               <l>y por todo, humilde, paso</l>
               <l>no rompiéndome el fanal.</l>
             </sp>
-            <stage><emph>(Se retira).</emph></stage>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">(Se retira).</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#cosasBuenas">
               <speaker>Tres cosas buenas:</speaker>
               <l>De bombos y anuncios llenas</l>
@@ -5444,8 +5444,8 @@
               <l>suyas cien casas ajenas.</l>
               <l>¡Si seremos admirables!</l>
             </sp>
-            <stage><emph>(Se retiran del brazo).</emph></stage>
-            <stage><emph>Hablado.</emph></stage>
+            <stage><emph rend="italic">(Se retiran del brazo).</emph></stage>
+            <stage><emph rend="italic">Hablado.</emph></stage>
             <sp who="#alcohol">
               <speaker>El alcohol:</speaker>
               <l>Sube mi escala hasta el cielo,</l>
@@ -5455,7 +5455,7 @@
               <l>por quien tiene el Riachuelo</l>
               <l>que taparse la nariz.</l>
             </sp>
-            <stage><emph>(Se retira).</emph></stage>
+            <stage><emph rend="italic">(Se retira).</emph></stage>
             <pb n="309"/>
             <sp who="#fabricaPanos">
               <speaker>La fábrica de paños:</speaker>
@@ -5466,7 +5466,7 @@
               <l>y al menos con qué taparme</l>
               <l>desde entonces tengo ya.</l>
             </sp>
-            <stage><emph>El Conde se le acerca y empieza a tirarle de la manta que llevará a las
+            <stage><emph rend="italic">El Conde se le acerca y empieza a tirarle de la manta que llevará a las
                 espaldas.</emph></stage>
             <sp who="#donPais">
               <speaker>Don País:</speaker>
@@ -5482,7 +5482,7 @@
             <sp who="#reposteria">
               <speaker>La repostería:</speaker>
               <l>Aquí estoy, y soy la masa</l>
-              <stage><emph>(Trae una bandeja con tabletas y pasteles)</emph></stage>
+              <stage><emph rend="italic">(Trae una bandeja con tabletas y pasteles)</emph></stage>
               <l>más rica que se fabrica</l>
               <l>si un poco el adobo pica,</l>
               <l>con la aceituna y la pasa.</l>
@@ -5504,8 +5504,8 @@
               <l>soy la industria nacional</l>
               <l>más criolla y más sabrosa.</l>
             </sp>
-            <stage><emph>(Se retira).</emph></stage>
-            <stage><emph>Música.</emph></stage>
+            <stage><emph rend="italic">(Se retira).</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
             <sp who="#azucarTucuman">
               <speaker>El azúcar:</speaker>
               <l>Señores soy el azúcar</l>
@@ -5535,7 +5535,7 @@
               <l>Yo le endulzaré.</l>
               <l>Ay que sí, etc.</l>
             </sp>
-            <stage><emph>Hablado.</emph></stage>
+            <stage><emph rend="italic">Hablado.</emph></stage>
             <sp who="#republicaArgentina">
               <speaker>República:</speaker>
               <l>¡Orgullosa! Satisfecha</l>
@@ -5562,7 +5562,7 @@
               <l>que en tu futuro adivino,</l>
               <l>¡el primer pueblo del mundo</l>
               <l>antes de que acabe el siglo!</l>
-              <stage><emph>Pausa.</emph></stage>
+              <stage><emph rend="italic">Pausa.</emph></stage>
               <l>Que mis hermosas provincias</l>
               <pb n="312"/>
               <l>vengan alrededor mío</l>
@@ -5573,7 +5573,7 @@
               <l>descúbrase el porvenir</l>
               <l>que nos reserva el destino.</l>
             </sp>
-            <stage><emph>Gran bailable. Catorce bailarinas con trajes celeste y blanco, llevarán
+            <stage><emph rend="italic">Gran bailable. Catorce bailarinas con trajes celeste y blanco, llevarán
                 cada una en el pecho el escudo de una de las provincias argentinas.</emph></stage>
           </div>
         </div>
@@ -5581,11 +5581,11 @@
           <head>Cuadro décimo</head>
           <div>
             <head>El 25 de mayo de 1901 en la Avenida de Mayo</head>
-            <stage><emph>El teatro representa la hermosa Avenida de Mayo, que ahora se proyecta
+            <stage><emph rend="italic">El teatro representa la hermosa Avenida de Mayo, que ahora se proyecta
                 encauzada de magníficos edificios y coronada en la lejana perspectiva por un
                 monumento a la libertad y el edificio del congreso. Trenes y tramways aéreos,
                 etc.</emph></stage>
-            <stage><emph>Gran desfile del ejército argentino, de toda gala, bandas militares,
+            <stage><emph rend="italic">Gran desfile del ejército argentino, de toda gala, bandas militares,
                 estandartes, etc., etc., deberán estar fielmente representados todos los cuerpos más
                 conocidos. Artillería, escuela de palermo, marina, bomberos, etc., etc. Batallones
                 escolares y pueblo.</emph></stage>
@@ -5593,16 +5593,16 @@
           <div>
             <head>Gran marcha</head>
             <head>Apoteosis final</head>
-            <stage><emph>El telón del fondo representa solamente un nimbo de luz, entre cuyos rayos
+            <stage><emph rend="italic">El telón del fondo representa solamente un nimbo de luz, entre cuyos rayos
                 superiores se lee la palabra "trabajo".</emph></stage>
-            <stage><emph>Junto a este telón formando una pirámide en escalonadas graderías las
+            <stage><emph rend="italic">Junto a este telón formando una pirámide en escalonadas graderías las
                 colonias extranjeras con sus banderas, trabajadores con sus instrumentos, las
                 industrias, las provincias y en la cúspide la república <pb n="313"/> con el
                 pabellón celeste y blanco.</emph></stage>
-            <stage><emph>Este grupo debe estar arreglado con la más esmerada estética e iluminado
+            <stage><emph rend="italic">Este grupo debe estar arreglado con la más esmerada estética e iluminado
                 espléndidamente.</emph></stage>
-            <stage><emph>Música.</emph></stage>
-            <stage><emph>Gran final sobre motivos del himno nacional.</emph></stage>
+            <stage><emph rend="italic">Música.</emph></stage>
+            <stage><emph rend="italic">Gran final sobre motivos del himno nacional.</emph></stage>
           </div>
         </div>
       </div>

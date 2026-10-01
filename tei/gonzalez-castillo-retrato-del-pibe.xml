@@ -92,7 +92,7 @@
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main"><emph>El retrato del pibe</emph></titlePart>
+          <titlePart type="main"><emph rend="bold">El retrato del pibe</emph></titlePart>
           <titlePart type="sub">Entremés orillero en verso.</titlePart>
         </docTitle>
         <docAuthor>José González Castillo</docAuthor>
@@ -128,7 +128,7 @@
       <pb n="350"/>
       <div type="act" n="1">
         <div type="scene" n="1">
-          <head><emph>Escena Primera</emph></head>
+          <head><emph rend="bold">Escena Primera</emph></head>
           <sp who="#juana">
             <speaker>Juana:</speaker>
             <stage><emph rend="italic">(Llorisqueando mientras arregla los trapos)</emph></stage>
@@ -250,7 +250,7 @@
           </sp>
         </div>
         <div type="scene" n="2">
-          <head><emph>Escena II</emph></head>
+          <head><emph rend="bold">Escena II</emph></head>
           <stage><emph rend="italic">Juana y Garabito.</emph></stage>
           <stage><emph rend="italic">Entra por el foro y deja debajo de la almohada la
             daga.</emph></stage>
@@ -1161,7 +1161,7 @@
             <l>y que vaya a hacerse hervir</l>
             <l>quien no tenga pa vivir</l>
             <l>ni el escracho de un pebete.</l>
-            <stage><emph>Dice esto con todo entusiasmo, mientras que el grupo que forma con Juana en
+            <stage><emph rend="italic">Dice esto con todo entusiasmo, mientras que el grupo que forma con Juana en
                 un tierno abrazo contrasta con la miseria circundante.</emph></stage>
           </sp>
           <trailer>Telón</trailer>

@@ -5,13 +5,6 @@
     
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
   
-    <!-- new checks to add:
-    - foreign: values for xml:lang (do a fixed list of possible values)
-    - trailer: element has to be in back, not in body (possible texts: "fin" / "telon")
-    - stage inline: check that every stage in <l> has type="inline" and the others do not have that attribute
-    - emph: tiene que tener @rend con valores: "italic" o "bold" o ambos
-    -->
-    
     <sch:pattern>
         <!-- basic TEI checks -->
         <sch:rule context="tei:TEI">
@@ -29,11 +22,29 @@
         <sch:rule context="tei:particDesc//tei:person">
             <sch:assert test="@sex = ('MALE','FEMALE','UNKNOWN')">Error: the attribute @sex of a person should have one of the following values: MALE, FEMALE, UNKNOWN.</sch:assert>
         </sch:rule>
-        <!-- checks of @who attributes -->
+        <!-- TEI body checks -->
+        <!-- checks of @who attributes: do they point to ids that are defined in the list of characters in the TEI header? -->
         <sch:let name="ids-cast-list" value="//tei:particDesc//tei:person/@xml:id"/>
         <sch:rule context="tei:sp">
           <sch:assert test="every $w in tokenize(@who,'\s') satisfies (substring-after($w,'#') = $ids-cast-list)">Error: the value of @who should be one of the @xml:id values in the cast list.</sch:assert>
         </sch:rule>
+        <!-- checks of language codes -->
+        <sch:rule context="tei:foreign">
+          <sch:let name="lang-list" value="('es','la','it','en','coc','grc')"/>
+          <!-- grc: Ancient Greek
+          coc: Cocoliche -->
+          <sch:assert test="@xml:lang = $lang-list">Error: the attribute @xml:lang of a foreign element should have one of the following values: <sch:value-of select="$lang-list"/>.</sch:assert>
+        </sch:rule>
+        <sch:rule context="tei:stage[ancestor::tei:sp][ancestor::tei:l or ancestor::tei:p]">
+          <sch:assert test="@type='inline'">Error: a stage direction inside a verse line or spoken paragraph should have an attribute @type with the value 'inline'.</sch:assert>
+        </sch:rule>
+        <sch:rule context="tei:emph">
+          <sch:assert test="@rend[tokenize(.,'\s') = ('italic','bold')]">Error: every &lt;emph&gt; element should have a @rend attribute with the values 'italic' or 'bold' or both, separated by whitespace.</sch:assert>
+        </sch:rule>
+        <sch:rule context="tei:trailer">
+          <sch:assert test="ancestor::tei:back">Error: the element &lt;trailer&gt; should appear in the back, not the body.</sch:assert>
+        </sch:rule>
     </sch:pattern>
+  
         
 </sch:schema>
